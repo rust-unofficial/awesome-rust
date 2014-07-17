@@ -10,12 +10,16 @@ A curated list of awesome Rust code and resources. Inspired by the other [awesom
 
 ## Code
 
+### Compression
+
+* [alexcrichton/rust-compress](https://github.com/alexcrichton/rust-compress) [<img src="https://travis-ci.org/alexcrichton/rust-compress.png?branch=master">](https://travis-ci.org/alexcrichton/rust-compress): compression algorithms written in Rust
+
 ### Web Programming
 
 See also http://arewewebyet.com/
 
   * core
-    * [chris-morgan/rust-http](https://github.com/chris-morgan/rust-http): superceeded by Teepee  [<img src="https://travis-ci.org/chris-morgan/rust-http.png?branch=master">](https://travis-ci.org/chris-morgan/rust-http)
+    * [chris-morgan/rust-http](https://github.com/chris-morgan/rust-http) [<img src="https://travis-ci.org/chris-morgan/rust-http.png?branch=master">](https://travis-ci.org/chris-morgan/rust-http): wil be replaced by teepee/teepee.
     * [teepee/teepee](https://github.com/teepee/teepee) [<img src="https://travis-ci.org/teepee/teepee.png?branch=master">](https://travis-ci.org/teepee/teepee)
   * client
     * [carllerche/curl-rust](https://github.com/carllerche/curl-rust): bindings for [libcurl](http://curl.haxx.se/libcurl/)
