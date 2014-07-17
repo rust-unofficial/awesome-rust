@@ -1,5 +1,10 @@
 # Awesome Rust
 
+A curated list of awesome Rust frameworks, libraries, resources, and shiny things. Inspired by  [the other awesome lists](https://github.com/bayandin/awesome-awesomeness).
+
+- [Awesome Rust](#awesome-rust)
+    - [Web Programming](#web-programming)
+
 
 ## Web Programming
 
