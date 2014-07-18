@@ -23,7 +23,7 @@ A curated list of awesome Rust code and resources. Inspired by the other [awesom
 
 ### Compression
 
-* [alexcrichton/rust-compress](https://github.com/alexcrichton/rust-compress) — compression algorithms written in Rust [<img src="https://travis-ci.org/alexcrichton/rust-compress.png?branch=master">](https://travis-ci.org/alexcrichton/rust-compress)
+* [lifthrasiir/rust-zip](https://github.com/lifthrasiir/rust-zip) — read and write ZIP archives
 
 ### Computation
 * [eholk/rust-opencl](https://github.com/eholk/rust-opencl) — [OpenCL](https://www.khronos.org/opencl/) bindings [<img src="https://travis-ci.org/eholk/rust-opencl.png?branch=master">](https://travis-ci.org/eholk/rust-opencl)
