@@ -40,8 +40,7 @@ Only projects that are more than a prototype should be added. Projects that do n
 See also http://arewewebyet.com/
 
   * core
-    * [chris-morgan/rust-http](https://github.com/chris-morgan/rust-http) — will be replaced by Teepee. [<img src="https://travis-ci.org/chris-morgan/rust-http.png?branch=master">](https://travis-ci.org/chris-morgan/rust-http)
-    * [Teepee](http://teepee.rs/) —  [<img src="https://travis-ci.org/teepee/teepee.png?branch=master">](https://travis-ci.org/teepee/teepee)
+    * [chris-morgan/rust-http](https://github.com/chris-morgan/rust-http) — will be replaced by [Teepee](http://teepee.rs/). [<img src="https://travis-ci.org/chris-morgan/rust-http.png?branch=master">](https://travis-ci.org/chris-morgan/rust-http)
   * client
     * [carllerche/curl-rust](https://github.com/carllerche/curl-rust) — [libcurl](http://curl.haxx.se/libcurl/) bindings
   * server
