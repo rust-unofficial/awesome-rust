@@ -16,8 +16,8 @@ A curated list of awesome Rust code and resources. Inspired by the other [awesom
 ### Audio
 
 * [bjz/openal-rs](https://github.com/bjz/openal-rs/) — [OpenAL 1.1](http://www.openal.org/) bindings
-* [JeremyLetang/ears](https://github.com/JeremyLetang/ears) — a simple library to play Sounds and Musics, on top of OpenAL and libsndfile
-* [JeremyLetang/rust-portaudio](https://github.com/JeremyLetang/rust-portaudio) — [PortAudio](http://www.portaudio.com/) bindings
+* [JeremyLetang/ears](https://github.com/JeremyLetang/ears) — a simple library to play Sounds and Musics, on top of OpenAL and libsndfile <img src="https://travis-ci.org/JeremyLetang/ears.png?branch=master">](https://travis-ci.org/JeremyLetang/ears)
+* [JeremyLetang/rust-portaudio](https://github.com/JeremyLetang/rust-portaudio) — [PortAudio](http://www.portaudio.com/) bindings <img src="https://travis-ci.org/JeremyLetang/rust-portaudio.png?branch=master">](https://travis-ci.org/JeremyLetang/rust-portaudio)
 * [musitdev/rust-portmidi](https://github.com/musitdev/rust-portmidi) — [PortMidi](http://portmedia.sourceforge.net/portmidi/) bindings
 
 ### Compression
