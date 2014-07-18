@@ -26,14 +26,14 @@ A curated list of awesome Rust code and resources. Inspired by the other [awesom
 See also http://arewewebyet.com/
 
   * core
-    * [chris-morgan/rust-http](https://github.com/chris-morgan/rust-http) — will be replaced by teepee/teepee. [<img src="https://travis-ci.org/chris-morgan/rust-http.png?branch=master">](https://travis-ci.org/chris-morgan/rust-http)
-    * [teepee/teepee](https://github.com/teepee/teepee) —  [<img src="https://travis-ci.org/teepee/teepee.png?branch=master">](https://travis-ci.org/teepee/teepee)
+    * [chris-morgan/rust-http](https://github.com/chris-morgan/rust-http) — will be replaced by Teepee. [<img src="https://travis-ci.org/chris-morgan/rust-http.png?branch=master">](https://travis-ci.org/chris-morgan/rust-http)
+    * [Teepee](http://teepee.rs/) —  [<img src="https://travis-ci.org/teepee/teepee.png?branch=master">](https://travis-ci.org/teepee/teepee)
   * client
     * [carllerche/curl-rust](https://github.com/carllerche/curl-rust) — [libcurl](http://curl.haxx.se/libcurl/) bindings
   * server
     * [erickt/rust-mongrel2](https://github.com/erickt/rust-mongrel2) — [Mongrel2](http://mongrel2.org) bindings
-    * [iron/iron](https://github.com/iron/iron) — inspired by [Express](http://expressjs.com/), which is inspired by [Sinatra](http://www.sinatrarb.com/).
-    * [nickel-org/nickel.rs](https://github.com/nickel-org/nickel.rs) — inspired by [Express](http://expressjs.com/), which is inspired by [Sinatra](http://www.sinatrarb.com/).
+    * [Iron](http://ironframework.io/) — inspired by [Express](http://expressjs.com/).
+    * [Nickel](http://nickel.rs/) — inspired by [Express](http://expressjs.com/).
 
 
 ## Resources
