@@ -15,6 +15,7 @@ Only projects that are more than a prototype should be added. Projects that do n
     - [Encoding](#encoding)
     - [GUI](#gui)
     - [Network programming](#network-programming)
+    - [Template engine](#template-engine)
     - [Web programming](#web-programming)
   - [Resources](#resources)
 
@@ -97,6 +98,11 @@ Only projects that are more than a prototype should be added. Projects that do n
 
 * ZeroMQ
   * [erickt/rust-zmq](https://github.com/erickt/rust-zmq) — [ZeroMQ](http://zeromq.org) bindings
+
+### Template engine
+
+* Mustache
+  * [erickt/rust-mustache](https://github.com/erickt/rust-mustache): [<img src="https://travis-ci.org/erickt/rust-mustache.png?branch=master">](https://travis-ci.org/erickt/rust-mustache)
 
 ### Web programming
 
