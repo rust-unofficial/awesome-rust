@@ -31,7 +31,7 @@ Only projects that are more than a prototype should be added. Projects that do n
 
 * [Cargo](http://crates.io) — the Rust package manager
 * CMake
-  * [SiegeLord/RustCMake](https://github.com/SiegeLord/RustCMake) —  [<img src="https://travis-ci.org/SiegeLord/RustCMake.png?branch=master">](https://travis-ci.org/SiegeLord/RustCMake)
+  * [SiegeLord/RustCMake](https://github.com/SiegeLord/RustCMake) — an example project showing usage of CMake with Rust [<img src="https://travis-ci.org/SiegeLord/RustCMake.png?branch=master">](https://travis-ci.org/SiegeLord/RustCMake)
 * Make
   * [PistonDevelopers/rust-empty](https://github.com/PistonDevelopers/rust-empty) — a Makefile to get started with Rust
 
