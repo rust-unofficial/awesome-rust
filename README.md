@@ -11,6 +11,7 @@ Only projects that are more than a prototype should be added. Projects that do n
     - [Computation](#computation)
     - [Cryptography](#cryptography)
     - [Encoding](#encoding)
+    - [GUI](#gui)
     - [Web Programming](#web-programming)
   - [Resources](#resources)
 
@@ -60,7 +61,16 @@ Only projects that are more than a prototype should be added. Projects that do n
    * [Florob/RustyXML](https://github.com/Florob/RustyXML) — an XML parser written in Rust
    * [netvl/rust-xml](https://github.com/netvl/rust-xml) — a streaming XML library
 
+### GUI
 
+* Cocoa
+  * [mozilla-servo/rust-cocoa](https://github.com/mozilla-servo/rust-cocoa) — 
+* Gtk
+  * [JeremyLetang/rgtk](https://github.com/JeremyLetang/rgtk) — 
+* ncurses
+  * [jeaye/ncurses-rs](https://github.com/jeaye/ncurses-rs) — [![Build Status](https://travis-ci.org/jeaye/ncurses-rs.png?branch=master)](https://travis-ci.org/jeaye/ncurses-rs.png)
+* Termbox
+  * [gchp/rustbox](https://github.com/gchp/rustbox) — 
 
 ### Web Programming
 
