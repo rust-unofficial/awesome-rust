@@ -62,7 +62,6 @@ Only projects that are more than a prototype should be added. Projects that do n
   * [mneumann/rust-msgpack](https://github.com/mneumann/rust-msgpack) — [<img src="https://travis-ci.org/mneumann/rust-msgpack.png?branch=master">](https://travis-ci.org/mneumann/rust-msgpack)
 * ProtocolBuffers
   * [stepancheg/rust-protobuf](https://github.com/stepancheg/rust-protobuf) — [<img src="https://travis-ci.org/stepancheg/rust-protobuf.png?branch=master">](https://travis-ci.org/stepancheg/rust-protobuf)
-  * [tildeio/buffoon](https://github.com/tildeio/buffoon)
 * TOML
   * [alexcrichton/toml-rs](https://github.com/alexcrichton/toml-rs) — 
 * Tnetstring
