@@ -97,4 +97,6 @@ See also http://arewewebyet.com/
     * [Nickel](http://nickel.rs/) — inspired by [Express](http://expressjs.com/).
 
 ## Resources
+
   * [Rust by Example](http://rustbyexample.com/)
+  * [Rust CI](http://www.rust-ci.org) — a [Travis CI](https://travis-ci.com) dashboard for Rust projects
