@@ -14,7 +14,8 @@ Only projects that are more than a prototype should be added. Projects that do n
     - [Database](#database)
     - [Encoding](#encoding)
     - [GUI](#gui)
-    - [Web Programming](#web-programming)
+    - [Network programming](#network-programming)
+    - [Web programming](#web-programming)
   - [Resources](#resources)
 
 
@@ -92,7 +93,12 @@ Only projects that are more than a prototype should be added. Projects that do n
 * Termbox
   * [gchp/rustbox](https://github.com/gchp/rustbox) — 
 
-### Web Programming
+### Network programming
+
+* ZeroMQ
+  * [erickt/rust-zmq](https://github.com/erickt/rust-zmq) — [ZeroMQ](http://zeromq.org) bindings
+
+### Web programming
 
 See also http://arewewebyet.com/
 
