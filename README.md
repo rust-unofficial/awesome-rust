@@ -66,7 +66,8 @@ Only projects that are more than a prototype should be added. Projects that do n
 * Cocoa
   * [mozilla-servo/rust-cocoa](https://github.com/mozilla-servo/rust-cocoa) — 
 * Gtk
-  * [JeremyLetang/rgtk](https://github.com/JeremyLetang/rgtk) — 
+  * [JeremyLetang/rgtk](https://github.com/JeremyLetang/rgtk) — [<img src="https://travis-ci.org/jeremyletang/rgtk.png?branch=master">](https://travis-ci.org/jeremyletang/rgtk)
+* XML
 * ncurses
   * [jeaye/ncurses-rs](https://github.com/jeaye/ncurses-rs) — [![Build Status](https://travis-ci.org/jeaye/ncurses-rs.png?branch=master)](https://travis-ci.org/jeaye/ncurses-rs.png)
 * Termbox
