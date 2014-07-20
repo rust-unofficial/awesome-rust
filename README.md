@@ -7,6 +7,7 @@ Only projects that are more than a prototype should be added. Projects that do n
 - [Awesome Rust](#awesome-rust)
   - [Code](#code)
     - [Audio](#audio)
+    - [Build system](#build-system)
     - [Compression](#compression)
     - [Computation](#computation)
     - [Cryptography](#cryptography)
@@ -25,6 +26,14 @@ Only projects that are more than a prototype should be added. Projects that do n
 * [JeremyLetang/ears](https://github.com/JeremyLetang/ears) — a simple library to play Sounds and Musics, on top of OpenAL and libsndfile [<img src="https://travis-ci.org/jeremyletang/ears.png?branch=master">](https://travis-ci.org/JeremyLetang/ears)
 * [JeremyLetang/rust-portaudio](https://github.com/JeremyLetang/rust-portaudio) — [PortAudio](http://www.portaudio.com/) bindings [<img src="https://travis-ci.org/jeremyletang/rust-portaudio.png?branch=master">](https://travis-ci.org/JeremyLetang/rust-portaudio)
 * [musitdev/rust-portmidi](https://github.com/musitdev/rust-portmidi) — [PortMidi](http://portmedia.sourceforge.net/portmidi/) bindings [<img src="https://travis-ci.org/musitdev/rust-portmidi.png?branch=master">](https://travis-ci.org/musitdev/rust-portmidi)
+
+### Build system
+
+* [Cargo](http://crates.io) — the Rust package manager
+* CMake
+  * [SiegeLord/RustCMake)](https://github.com/SiegeLord/RustCMake) —  [<img src="https://travis-ci.org/SiegeLord/RustCMakepng?branch=master">](https://travis-ci.org/SiegeLord/RustCMake)
+* Make
+  * [PistonDevelopers/rust-empty](https://github.com/PistonDevelopers/rust-empty) — a Makefile to get started with Rust
 
 ### Compression
 
