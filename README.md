@@ -86,7 +86,7 @@ Only projects that are more than a prototype should be added. Projects that do n
 
 ### Games
 
-* [JeremyLetang/rustenstein3D/](https://github.com/JeremyLetang/rustenstein3D/) — a simple Wolfenstein3D engine in rust.
+* [JeremyLetang/rustenstein3D/](https://github.com/JeremyLetang/rustenstein3D/) — a raycasting engine in rust.
 * [lifthrasiir/angolmois-rust](https://github.com/lifthrasiir/angolmois-rust) — a BM98-like minimalistic music video game which supports the BMS format for playing.
 
 ### GUI
