@@ -13,6 +13,7 @@ Only projects that are more than a prototype should be added. Projects that do n
     - [Cryptography](#cryptography)
     - [Database](#database)
     - [Encoding](#encoding)
+    - [Game development](#game-development)
     - [Games](#games)
     - [GUI](#gui)
     - [Network programming](#network-programming)
@@ -84,10 +85,13 @@ Only projects that are more than a prototype should be added. Projects that do n
    * [Florob/RustyXML](https://github.com/Florob/RustyXML) — an XML parser written in Rust
    * [netvl/rust-xml](https://github.com/netvl/rust-xml) — a streaming XML library
 
+### Game development
+
+* [JeremyLetang/rustenstein3D/](https://github.com/JeremyLetang/rustenstein3D/) — a raycasting engine in rust
+
 ### Games
 
-* [JeremyLetang/rustenstein3D/](https://github.com/JeremyLetang/rustenstein3D/) — a raycasting engine in rust.
-* [lifthrasiir/angolmois-rust](https://github.com/lifthrasiir/angolmois-rust) — a BM98-like minimalistic music video game which supports the BMS format for playing.
+* [lifthrasiir/angolmois-rust](https://github.com/lifthrasiir/angolmois-rust) — a minimalistic music video game which supports the BMS format
 
 ### GUI
 
