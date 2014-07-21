@@ -13,6 +13,7 @@ Only projects that are more than a prototype should be added. Projects that do n
     - [Cryptography](#cryptography)
     - [Database](#database)
     - [Encoding](#encoding)
+    - [Games](#games)
     - [GUI](#gui)
     - [Network programming](#network-programming)
     - [Template engine](#template-engine)
@@ -82,6 +83,8 @@ Only projects that are more than a prototype should be added. Projects that do n
    * [DanielFath/xml-parser](https://github.com/DanielFath/xml-parser) — A hybrid pull, DOM parser written in pure Rust [![Build Status](https://travis-ci.org/DanielFath/xml-parser.png?branch=master)](https://travis-ci.org/DanielFath/xml-parser)
    * [Florob/RustyXML](https://github.com/Florob/RustyXML) — an XML parser written in Rust
    * [netvl/rust-xml](https://github.com/netvl/rust-xml) — a streaming XML library
+
+## Games
 
 ### GUI
 
