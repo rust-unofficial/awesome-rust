@@ -18,6 +18,7 @@ Only projects that are more than a prototype should be added. Projects that do n
     - [GUI](#gui)
     - [Network programming](#network-programming)
     - [Template engine](#template-engine)
+    - [Testing](#testing)
     - [Web programming](#web-programming)
   - [Resources](#resources)
 
@@ -113,6 +114,10 @@ Only projects that are more than a prototype should be added. Projects that do n
 
 * Mustache
   * [erickt/rust-mustache](https://github.com/erickt/rust-mustache) — [<img src="https://travis-ci.org/erickt/rust-mustache.png?branch=master">](https://travis-ci.org/erickt/rust-mustache)
+
+### Testing
+
+* [farcaller/shiny](https://github.com/farcaller/shiny) — a fancy syntax similar to ruby's rspec or Objective-C's kiwi.
 
 ### Web programming
 
