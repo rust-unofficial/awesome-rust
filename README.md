@@ -55,7 +55,6 @@ Only projects that are stable and useful to users are added. Projects that do no
 ### Database
 
 * SQL
-  * [wycats/rust-arel](https://github.com/wycats/rust-arel) — an in-progress port of the Ruby SQL building library arel
   * MySql
     * [blackbeam/rust-mysql-simple](https://github.com/blackbeam/rust-mysql-simple) — a native MySql client [<img src="https://travis-ci.org/blackbeam/rust-mysql-simple.png?branch=master">](https://travis-ci.org/blackbeam/rust-mysql-simple)
   * PostgreSql
