@@ -102,7 +102,7 @@ Only projects that are stable and useful to users are added. Projects that do no
 * ncurses
   * [jeaye/ncurses-rs](https://github.com/jeaye/ncurses-rs) — [![Build Status](https://travis-ci.org/jeaye/ncurses-rs.png?branch=master)](https://travis-ci.org/jeaye/ncurses-rs.png)
 * Termbox
-  * [gchp/rustbox](https://github.com/gchp/rustbox) — 
+  * [gchp/rustbox](https://github.com/gchp/rustbox) — a Rust implementation of [termbox](http://github.com/nsf/termbox).
 
 ### Network programming
 
