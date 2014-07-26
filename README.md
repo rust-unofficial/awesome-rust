@@ -8,6 +8,7 @@ Only projects that are stable and useful to users are added. Projects that do no
   - [Code](#code)
     - [Audio](#audio)
     - [Build system](#build-system)
+    - [Command-line argument parsing](#command-line-argument-parsing)
     - [Compression](#compression)
     - [Computation](#computation)
     - [Cryptography](#cryptography)
@@ -39,6 +40,11 @@ Only projects that are stable and useful to users are added. Projects that do no
   * [SiegeLord/RustCMake](https://github.com/SiegeLord/RustCMake) — an example project showing usage of CMake with Rust [<img src="https://travis-ci.org/SiegeLord/RustCMake.png?branch=master">](https://travis-ci.org/SiegeLord/RustCMake)
 * Make
   * [PistonDevelopers/rust-empty](https://github.com/PistonDevelopers/rust-empty) — a Makefile to get started with Rust
+
+### Command-line argument parsing
+
+  * [BurntSushi/docopt.rs](https://github.com/BurntSushi/docopt.rs) — [DocOpt](http://docopt.org) for Rust
+  * [wycats/hammer.rs](https://github.com/wycats/hammer.rs) — 
 
 ### Compression
 
