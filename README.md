@@ -113,7 +113,7 @@ Only projects that are stable and useful to users are added. Projects that do no
 ### Network programming
 
 * ZeroMQ
-  * [erickt/rust-zmq](https://github.com/erickt/rust-zmq) — [ZeroMQ](http://zeromq.org) bindings
+  * [erickt/rust-zmq](https://github.com/erickt/rust-zmq) — [ZeroMQ](http://zeromq.org) bindings [<img src="https://travis-ci.org/erickt/rust-zmq.png?branch=master">](https://travis-ci.org/erickt/rust-zmq)
 
 ### Template engine
 
