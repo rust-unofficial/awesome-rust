@@ -88,8 +88,8 @@ Only projects that are stable and useful to users are added. Projects that do no
 * XML
    * [bjz/sax-rs](https://github.com/bjz/sax-rs) — bindings to libxml2's SAX parser [<img src="https://travis-ci.org/bjz/sax-rs.png?branch=master">](https://travis-ci.org/bjz/sax-rs)
    * [DanielFath/xml-parser](https://github.com/DanielFath/xml-parser) — A hybrid pull, DOM parser written in pure Rust [![Build Status](https://travis-ci.org/DanielFath/xml-parser.png?branch=master)](https://travis-ci.org/DanielFath/xml-parser)
-   * [Florob/RustyXML](https://github.com/Florob/RustyXML) — an XML parser written in Rust[<img src="https://travis-ci.org/Florob/RustyXML.png?branch=master">](https://travis-ci.org/Florob/RustyXML)
-   * [netvl/rust-xml](https://github.com/netvl/rust-xml) — a streaming XML library
+   * [Florob/RustyXML](https://github.com/Florob/RustyXML) — an XML parser written in Rust [<img src="https://travis-ci.org/Florob/RustyXML.png?branch=master">](https://travis-ci.org/Florob/RustyXML)
+   * [netvl/rust-xml](https://github.com/netvl/rust-xml) — a streaming XML library [<img src="https://travis-ci.org/netvl/rust-xml.png?branch=master">](https://travis-ci.org/netvl/rust-xml)
 
 ### Game development
 
