@@ -43,7 +43,7 @@ Only projects that are stable and useful to users are added. Projects that do no
 
 ### Command-line argument parsing
 
-  * [BurntSushi/docopt.rs](https://github.com/BurntSushi/docopt.rs) — [DocOpt](http://docopt.org) for Rust [<img src="https://travis-ci.org/BurntSushi/docopt.png?branch=master">](https://travis-ci.org/BurntSushi/docopt)
+  * [BurntSushi/docopt.rs](https://github.com/BurntSushi/docopt.rs) — [DocOpt](http://docopt.org) for Rust [<img src="https://travis-ci.org/BurntSushi/docopt.rs.png?branch=master">](https://travis-ci.org/BurntSushi/docopt.rs)
   * [wycats/hammer.rs](https://github.com/wycats/hammer.rs) — 
 
 ### Compression
