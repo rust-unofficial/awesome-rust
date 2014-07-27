@@ -104,7 +104,7 @@ Only projects that are stable and useful to users are added. Projects that do no
 * Cocoa
   * [mozilla-servo/rust-cocoa](https://github.com/mozilla-servo/rust-cocoa) — 
 * Gtk
-  * [JeremyLetang/rgtk](https://github.com/JeremyLetang/rgtk) — [<img src="https://travis-ci.org/jeremyletang/rgtk.png?branch=master">](https://travis-ci.org/jeremyletang/rgtk)
+  * [JeremyLetang/rgtk](https://github.com/JeremyLetang/rgtk) — [GTK+](http://www.gtk.org) bindings [<img src="https://travis-ci.org/jeremyletang/rgtk.png?branch=master">](https://travis-ci.org/jeremyletang/rgtk)
 * ncurses
   * [jeaye/ncurses-rs](https://github.com/jeaye/ncurses-rs) — [![Build Status](https://travis-ci.org/jeaye/ncurses-rs.png?branch=master)](https://travis-ci.org/jeaye/ncurses-rs.png)
 * Termbox
