@@ -2,6 +2,7 @@
 
 A list of awesome but unstable/experimental Rust projects which some day hopefully will be migrated to `README.md`.
 
+- [Game development](#game-development)
 - [Games](#games)
 - [GUI](#gui)
 - [Network programming](#network-programming)
