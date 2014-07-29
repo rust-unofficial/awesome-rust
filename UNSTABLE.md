@@ -7,7 +7,7 @@ A list of awesome but unstable/experimental Rust projects which some day hopeful
 - [GUI](#gui)
 - [Network programming](#network-programming)
 
-### Game development
+## Game development
 
 * OpenGL
 	* [bjz/gl-rs](https://github.com/bjz/gl-rs) An OpenGL function pointer loader for Rust [<img src="https://travis-ci.org/bjz/gl-rs.png?branch=master">](https://travis-ci.org/bjz/gl-rs) 
@@ -32,7 +32,7 @@ A list of awesome but unstable/experimental Rust projects which some day hopeful
 	* [musitdev/rust-portmidi](https://github.com/musitdev/rust-portmidi.git) PortMidi bindings and wrappers for Rust
 	* [jeremyletang/ears](https://github.com/JeremyLetang/ears) (simple audio API on top of OpenAL) Easy Api in Rust to play Sounds [![Build Status](https://travis-ci.org/jeremyletang/ears.png?branch=master)](https://travis-ci.org/JeremyLetang/ears)
 
-### Games
+## Games
 
 * [lifthrasiir/angolmois-rust](https://github.com/lifthrasiir/angolmois-rust) Angolmois BMS player, Rust edition
 * [rlane/cubeland](https://github.com/rlane/cubeland) Infinite terrain with Rust and OpenGL
