@@ -123,6 +123,7 @@ Only projects that are stable and useful to users are added. Projects that do no
 ### Testing
 
 * [farcaller/shiny](https://github.com/farcaller/shiny) — a fancy syntax similar to ruby's rspec or Objective-C's kiwi.
+* [BurntSushi/quickcheck](https://github.com/BurntSushi/quickcheck) - property-based testing using randomly generated input. [<img src="https://travis-ci.org/BurntSushi/quickcheck.png?branch=master">](https://travis-ci.org/BurntSushi/quickcheck)
 
 ### Web programming
 
