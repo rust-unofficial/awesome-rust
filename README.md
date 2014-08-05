@@ -97,7 +97,7 @@ Only projects that are stable and useful to users are added. Projects that do no
 
 ### Games
 
-* [lifthrasiir/angolmois-rust](https://github.com/lifthrasiir/angolmois-rust) — a minimalistic music video game which supports the BMS format
+* [lifthrasiir/angolmois-rust](https://github.com/lifthrasiir/angolmois-rust) — a minimalistic music video game which supports the BMS format [<img src="https://travis-ci.org/lifthrasiir/angolmois-rust.png?branch=master">](https://travis-ci.org/lifthrasiir/angolmois-rust)
 
 ### GUI
 
