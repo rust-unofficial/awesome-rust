@@ -29,6 +29,12 @@ A list of awesome but unstable/experimental Rust projects which some day hopeful
 
 ## Games
 
+* [Arcterus/game-of-life](https://github.com/Arcterus/game-of-life)
+* [Arcterus/rust-snake](https://github.com/Arcterus/rust-snake)
+* [bachm/rusty-t*tris](https://github.com/bachm/rusty-tetris)
+* [bvssvni/rust-snake](https://github.com/bvssvni/rust-snake)
+* [Coeuvre/rust-2048](https://github.com/Coeuvre/rust-2048)
+* [Coeuvre/rust-pong](https://github.com/Coeuvre/rust-pong)
 * [dpc/rustyhex](https://github.com/dpc/rustyhex/) Simple roguelike written in Rust language
 * [FrozenCow/rust-airhockey](https://github.com/FrozenCow/rust-airhockey) A simple airhockey game using rust-sdl and OpenGL
 * [jeaye/q3](https://github.com/Jeaye/q3) A Quake 3 like game with voxelized destructible maps [<img src="https://travis-ci.org/jeaye/q3.png?branch=master">](https://travis-ci.org/jeaye/q3)
@@ -36,7 +42,6 @@ A list of awesome but unstable/experimental Rust projects which some day hopeful
 * [ozkriff/marauder](https://github.com/ozkriff/marauder) Turn-based strategy game written in Rust using GLFW 3 and OpenGL [<img src="https://travis-ci.org/ozkriff/marauder.png?branch=master">](https://travis-ci.org/ozkriff/marauder)
 * [rlane/cubeland](https://github.com/rlane/cubeland) Infinite terrain with Rust and OpenGL
 * [zokier/pong-rs](https://github.com/zokier/pong-rs) Classic pong game
-
 
 ## GUI
 * [kenz-gelsoft/wxRust](https://github.com/kenz-gelsoft/wxRust) — [wxWidgets](http://www.wxwidgets.org/) bindings. [<img src="https://travis-ci.org/kenz-gelsoft/wxRust.png?branch=master">](https://travis-ci.org/kenz-gelsoft/wxRust)
