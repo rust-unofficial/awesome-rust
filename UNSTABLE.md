@@ -34,14 +34,11 @@ A list of awesome but unstable/experimental Rust projects which some day hopeful
 
 ## Games
 
-* [lifthrasiir/angolmois-rust](https://github.com/lifthrasiir/angolmois-rust) Angolmois BMS player, Rust edition
 * [rlane/cubeland](https://github.com/rlane/cubeland) Infinite terrain with Rust and OpenGL
-* [lifthrasiir/angolmois-rust](https://github.com/lifthrasiir/angolmois-rust) — a minimalistic music video game which supports the BMS format
 * [ozkriff/marauder](https://github.com/ozkriff/marauder) Turn-based strategy game written in Rust using GLFW 3 and OpenGL [<img src="https://travis-ci.org/ozkriff/marauder.png?branch=master">](https://travis-ci.org/ozkriff/marauder)
 * [zokier/pong-rs](https://github.com/zokier/pong-rs) Classic pong game
 * [jeaye/q3](https://github.com/Jeaye/q3) A Quake 3 like game with voxelized destructible maps [<img src="https://travis-ci.org/jeaye/q3.png?branch=master">](https://travis-ci.org/jeaye/q3)
 * [FrozenCow/rust-airhockey](https://github.com/FrozenCow/rust-airhockey) A simple airhockey game using rust-sdl and OpenGL
-* [jeremyletang/rustenstein3D](https://github.com/JeremyLetang/rustenstein3D/) Wolfenstein3D engine like in rust
 * [dpc/rustyhex](https://github.com/dpc/rustyhex/) Simple roguelike written in Rust language
 * [mynery/xxo](https://github.com/mynery/xxo) Tic Tac Toe in rust with termbox
 
