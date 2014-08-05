@@ -26,11 +26,6 @@ A list of awesome but unstable/experimental Rust projects which some day hopeful
 	* [bjz/bullet-rs](https://github.com/bjz/bullet-rs/) Bindings and wrapper for the Bullet physics C API
 	* [sebcrozet/ncollide](https://github.com/sebcrozet/ncollide) n-dimensional collision detection library in Rust.
 	* [sebcrozet/nphysics](https://github.com/sebcrozet/nphysics) 2 and 3-dimensional rigid body physics engine for Rust. [![Build Status](https://travis-ci.org/sebcrozet/nphysics.png?branch=master)](https://travis-ci.org/sebcrozet/nphysics)
-* Audio
-	* [bjz/openal-rs](https://github.com/bjz/openal-rs/) OpenAL 1.1 bindings for Rust.
-	* [jeremyletang/rust-portaudio](https://github.com/JeremyLetang/rust-portaudio) PortAudio bindings and wrappers for Rust
-	* [musitdev/rust-portmidi](https://github.com/musitdev/rust-portmidi.git) PortMidi bindings and wrappers for Rust
-	* [jeremyletang/ears](https://github.com/JeremyLetang/ears) (simple audio API on top of OpenAL) Easy Api in Rust to play Sounds [![Build Status](https://travis-ci.org/jeremyletang/ears.png?branch=master)](https://travis-ci.org/JeremyLetang/ears)
 
 ## Games
 
