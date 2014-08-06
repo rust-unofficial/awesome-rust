@@ -13,9 +13,7 @@ A list of awesome but unstable/experimental Rust projects which some day hopeful
 	* [bjz/gl-rs](https://github.com/bjz/gl-rs) An OpenGL function pointer loader for Rust [<img src="https://travis-ci.org/bjz/gl-rs.png?branch=master">](https://travis-ci.org/bjz/gl-rs) 
 	* [servo/rust-opengles](https://github.com/mozilla-servo/rust-opengles) OpenGL ES 2.0 bindings for Rust
 * Windowing
-	* [AngryLawyer/rust-sdl2](https://github.com/AngryLawyer/rust-sdl2) SDL2 bindings for Rust [![Build Status](https://travis-ci.org/AngryLawyer/rust-sdl2.png?branch=master)](https://travis-ci.org/AngryLawyer/rust-sdl2)
 	* [bjz/glfw-rs](https://github.com/bjz/glfw-rs) GLFW3 bindings and idiomatic wrapper for Rust. [<img src="https://travis-ci.org/bjz/glfw-rs.png?branch=master">](https://travis-ci.org/bjz/glfw-rs)
-	* [brson/rust-sdl](https://github.com/brson/rust-sdl) SDL bindings for Rust [<img src="https://travis-ci.org/brson/rust-sdl.png?branch=master">](https://travis-ci.org/brson/rust-sdl)
 	* [jeremyletang/rust-sfml](https://github.com/JeremyLetang/rust-sfml) SFML bindings for Rust [<img src="https://travis-ci.org/jeremyletang/rust-sfml.png?branch=master">](https://travis-ci.org/JeremyLetang/rust-sfml)
 	* [servo/rust-glut](https://github.com/mozilla-servo/rust-glut) GLUT bindings for Rust
 	* [SiegeLord/RustAllegro](https://github.com/SiegeLord/RustAllegro) A Rust wrapper and bindings of Allegro 5 game programming library [![Build Status](https://travis-ci.org/SiegeLord/RustAllegro.png?branch=master)](https://travis-ci.org/SiegeLord/RustAllegro)
