@@ -134,7 +134,7 @@ See also http://arewewebyet.com/
 
   * core
     * [chris-morgan/rust-http](https://github.com/chris-morgan/rust-http) — will be replaced by [Teepee](http://teepee.rs/). [<img src="https://travis-ci.org/chris-morgan/rust-http.png?branch=master">](https://travis-ci.org/chris-morgan/rust-http)
-    * [hyperium/hyper](https://github.com/hyperium/hyper) — [<img src="https://travis-ci.org/seanmonstar/hyper.png?branch=master">](https://travis-ci.org/hyperium/hyper.png?branch=master)
+    * [hyperium/hyper](https://github.com/hyperium/hyper) — [<img src="https://travis-ci.org/hyperium/hyper.png?branch=master">](https://travis-ci.org/hyperium/hyper)
   * client
     * [carllerche/curl-rust](https://github.com/carllerche/curl-rust) — [libcurl](http://curl.haxx.se/libcurl/) bindings
     * [vhbit/curl-rs](https://github.com/vhbit/curl-rs) — [libcurl](http://curl.haxx.se/libcurl/) bindings [<img src="https://travis-ci.org/vhbit/curl-rs.png?branch=master">](https://travis-ci.org/vhbit/curl-rs)
