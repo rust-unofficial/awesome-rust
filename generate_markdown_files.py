@@ -276,20 +276,26 @@ DATA = \
       "Rust Guidelines": {
           "url": "http://aturon.github.io",
           "section": ["resources"]
+        },
+      "kenz-gelsoft/wxRust": {
+            "url": "https://github.com/kenz-gelsoft/wxRust",
+            "descr": md_link('wxWidgets', 'http://www.wxwidgets.org/') + " bindings",
+            "travis_url": "https://travis-ci.org/kenz-gelsoft/wxRust",
+            "travis_badge": "https://travis-ci.org/kenz-gelsoft/wxRust.png?branch=master",
+            "unstable": True
         }
     }
 
 
 
 """
-            {
-              "",
-              "url": "",
-              "descr": " " + md_link('', '') + " ",
-              "travis_url": "",
-              "travis_badge": "",
-              "unstable": True
-            },
+      "": {
+            "url": "",
+            "descr": " " + md_link('', '') + " ",
+            "travis_url": "",
+            "travis_badge": "",
+            "unstable": True
+        },
 
 ## Game development
 
@@ -324,11 +330,6 @@ DATA = \
 * [ozkriff/marauder](https://github.com/ozkriff/marauder) Turn-based strategy game written in Rust using GLFW 3 and OpenGL [<img src="https://travis-ci.org/ozkriff/marauder.png?branch=master">](https://travis-ci.org/ozkriff/marauder)
 * [rlane/cubeland](https://github.com/rlane/cubeland) Infinite terrain with Rust and OpenGL
 * [zokier/pong-rs](https://github.com/zokier/pong-rs) Classic pong game
-
-## GUI
-* [kenz-gelsoft/wxRust](https://github.com/kenz-gelsoft/wxRust) — [wxWidgets](http://www.wxwidgets.org/) bindings. [<img src="https://travis-ci.org/kenz-gelsoft/wxRust.png?branch=master">](https://travis-ci.org/kenz-gelsoft/wxRust)
-
-## Network programming
 """
 
 
@@ -497,6 +498,8 @@ entry( '  * ', 'AngryLawyer/rust-sdl2', rows_stable, rows_unstable )
 entry( '  * ', 'brson/rust-sdl', rows_stable, rows_unstable )
 add(   '* Termbox', rows_stable, rows_unstable )
 entry( '  * ', 'gchp/rustbox', rows_stable, rows_unstable )
+add(   '* wxWidgets', rows_stable, rows_unstable )
+entry( '  * ', 'kenz-gelsoft/wxRust', rows_stable, rows_unstable )
 
 add(   '\n### Network programming\n', rows_stable, rows_unstable )
 add(   '* ZeroMQ', rows_stable, rows_unstable )
