@@ -129,7 +129,8 @@ DATA = \
       "erickt/rust-tnetstring": {
           "url": "https://github.com/erickt/rust-tnetstring",
           "travis_url": "https://travis-ci.org/erickt/rust-tnetstring",
-          "travis_badge": "https://travis-ci.org/erickt/rust-tnetstring.png?branch=master"
+          "travis_badge": "https://travis-ci.org/erickt/rust-tnetstring.png?branch=master",
+          "unstable": True
         },
       "bjz/sax-rs": {
           "url": "https://github.com/bjz/sax-rs",

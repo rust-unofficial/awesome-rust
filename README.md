@@ -86,7 +86,6 @@ Only projects that are stable and useful to users are added. Projects that do no
 * TOML
   * [alexcrichton/toml-rs](https://github.com/alexcrichton/toml-rs)
 * Tnetstring
-  * [erickt/rust-tnetstring](https://github.com/erickt/rust-tnetstring) — [<img src="https://travis-ci.org/erickt/rust-tnetstring.png?branch=master">](https://travis-ci.org/erickt/rust-tnetstring)
 * XML
   * [bjz/sax-rs](https://github.com/bjz/sax-rs) — bindings to libxml2's SAX parser [<img src="https://travis-ci.org/bjz/sax-rs.png?branch=master">](https://travis-ci.org/bjz/sax-rs)
   * [DanielFath/xml-air](https://github.com/DanielFath/xml-air) — A hybrid pull, DOM parser written in pure Rust [<img src="https://travis-ci.org/DanielFath/xml-air.png?branch=master">](https://travis-ci.org/DanielFath/xml-air)
