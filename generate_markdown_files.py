@@ -111,7 +111,8 @@ DATA = \
       "Geal/rust-csv": {
           "url": "https://github.com/Geal/rust-csv",
           "travis_url": "https://travis-ci.org/Geal/rust-csv",
-          "travis_badge": "https://travis-ci.org/Geal/rust-csv.png?branch=master"
+          "travis_badge": "https://travis-ci.org/Geal/rust-csv.png?branch=master",
+          "unstable": True
         },
       "mneumann/rust-msgpack": {
           "url": "https://github.com/mneumann/rust-msgpack",
