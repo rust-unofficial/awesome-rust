@@ -1,4 +1,3 @@
-
 # Awesome Rust
 
 A curated list of awesome Rust code and resources. Inspired by the other [awesome lists](https://github.com/bayandin/awesome-awesomeness).
@@ -90,7 +89,7 @@ Only projects that are stable and useful to users are added. Projects that do no
   * [erickt/rust-tnetstring](https://github.com/erickt/rust-tnetstring) — [<img src="https://travis-ci.org/erickt/rust-tnetstring.png?branch=master">](https://travis-ci.org/erickt/rust-tnetstring)
 * XML
   * [bjz/sax-rs](https://github.com/bjz/sax-rs) — bindings to libxml2's SAX parser [<img src="https://travis-ci.org/bjz/sax-rs.png?branch=master">](https://travis-ci.org/bjz/sax-rs)
-  * [DanielFath/xml-parser](https://github.com/DanielFath/xml-parser) — A hybrid pull, DOM parser written in pure Rust [<img src="https://travis-ci.org/DanielFath/xml-parser.png?branch=master">](https://travis-ci.org/DanielFath/xml-parser)
+  * [DanielFath/xml-air](https://github.com/DanielFath/xml-air) — A hybrid pull, DOM parser written in pure Rust [<img src="https://travis-ci.org/DanielFath/xml-air.png?branch=master">](https://travis-ci.org/DanielFath/xml-air)
   * [Florob/RustyXML](https://github.com/Florob/RustyXML) — an XML parser written in Rust [<img src="https://travis-ci.org/Florob/RustyXML.png?branch=master">](https://travis-ci.org/Florob/RustyXM)
   * [netvl/rust-xml](https://github.com/netvl/rust-xml) — a streaming XML library [<img src="https://travis-ci.org/netvl/rust-xml.png?branch=master">](https://travis-ci.org/netvl/rust-xml)
 

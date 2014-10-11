@@ -137,11 +137,11 @@ DATA = \
           "travis_url": "https://travis-ci.org/bjz/sax-rs",
           "travis_badge": "https://travis-ci.org/bjz/sax-rs.png?branch=master"
         },
-      "DanielFath/xml-parser": {
-          "url": "https://github.com/DanielFath/xml-parser",
+      "DanielFath/xml-air": {
+          "url": "https://github.com/DanielFath/xml-air",
           "descr": "A hybrid pull, DOM parser written in pure Rust",
-          "travis_url": "https://travis-ci.org/DanielFath/xml-parser",
-          "travis_badge": "https://travis-ci.org/DanielFath/xml-parser.png?branch=master"
+          "travis_url": "https://travis-ci.org/DanielFath/xml-air",
+          "travis_badge": "https://travis-ci.org/DanielFath/xml-air.png?branch=master"
         },
       "Florob/RustyXML": {
           "url": "https://github.com/Florob/RustyXML",
@@ -202,6 +202,13 @@ DATA = \
           "descr": md_link('ZeroMQ', 'http://zeromq.org') + " bindings",
           "travis_url": "https://travis-ci.org/erickt/rust-zmq",
           "travis_badge": "https://travis-ci.org/erickt/rust-zmq.png?branch=master"
+        },
+      "zeromq/zmq.rs": {
+            "url": "https://github.com/zeromq/zmq.rs",
+            "descr": "Rust implementation of the " + md_link('ZeroMQ', 'http://zeromq.org') + "protocol",
+            "travis_url": "https://travis-ci.org/zeromq/zmq.rs",
+            "travis_badge": "https://travis-ci.org/zeromq/zmq.rs.png?branch=master",
+            "unstable": True
         },
       "erickt/rust-mustache": {
           "url": "https://github.com/erickt/rust-mustache",
@@ -320,20 +327,18 @@ DATA = \
 * [kenz-gelsoft/wxRust](https://github.com/kenz-gelsoft/wxRust) — [wxWidgets](http://www.wxwidgets.org/) bindings. [<img src="https://travis-ci.org/kenz-gelsoft/wxRust.png?branch=master">](https://travis-ci.org/kenz-gelsoft/wxRust)
 
 ## Network programming
-* [zeromq/zmq.rs](https://github.com/zeromq/zmq.rs) — Rust implementation of the [ZeroMQ](http://zeromq.org/) protocol. [<img src="https://travis-ci.org/zeromq/zmq.rs.png?branch=master">](https://travis-ci.org/zeromq/zmq.rs)
 """
 
+
 HEADER_STABLE = \
-"""
-# Awesome Rust
+"""# Awesome Rust
 
 A curated list of awesome Rust code and resources. Inspired by the other [awesome lists](https://github.com/bayandin/awesome-awesomeness).
 
 Only projects that are stable and useful to users are added. Projects that do not compile with Rust-nightly for a longer time are moved to `UNSTABLE.md`."""
 
 HEADER_UNSTABLE = \
-"""
-# Unstable
+"""# Unstable
 
 A list of awesome but unstable/experimental Rust projects which some day hopefully will be migrated to `README.md`."""
 
@@ -468,7 +473,7 @@ add(   '* Tnetstring', rows_stable, rows_unstable )
 entry( '  * ', 'erickt/rust-tnetstring', rows_stable, rows_unstable )
 add(   '* XML', rows_stable, rows_unstable )
 entry( '  * ', 'bjz/sax-rs', rows_stable, rows_unstable )
-entry( '  * ', 'DanielFath/xml-parser', rows_stable, rows_unstable )
+entry( '  * ', 'DanielFath/xml-air', rows_stable, rows_unstable )
 entry( '  * ', 'Florob/RustyXML', rows_stable, rows_unstable )
 entry( '  * ', 'netvl/rust-xml', rows_stable, rows_unstable )
 
@@ -524,7 +529,7 @@ entry( '* ', 'Rust Guidelines', rows_stable, rows_unstable )
 markdown_stable = '\n'.join(rows_stable)
 markdown_unstable = '\n'.join(rows_unstable )
 
-#print markdown_unstable
-
 with open( 'README.md', 'wb' ) as f:
     f.write( markdown_stable )
+with open( 'UNSTABLE.md', 'wb' ) as f:
+    f.write( markdown_unstable )
