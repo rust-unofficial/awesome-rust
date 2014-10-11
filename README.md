@@ -1,3 +1,4 @@
+
 # Awesome Rust
 
 A curated list of awesome Rust code and resources. Inspired by the other [awesome lists](https://github.com/bayandin/awesome-awesomeness).
@@ -23,8 +24,8 @@ Only projects that are stable and useful to users are added. Projects that do no
     - [Web programming](#web-programming)
   - [Resources](#resources)
 
-
 ## Code
+
 
 ### Audio
 
@@ -43,14 +44,15 @@ Only projects that are stable and useful to users are added. Projects that do no
 
 ### Command-line argument parsing
 
-  * [docopt/docopt.rs](https://github.com/docopt/docopt.rs) — a [DocOpt](http://docopt.org) port to Rust
-  * [wycats/hammer.rs](https://github.com/wycats/hammer.rs) — 
+* [docopt/docopt.rs](https://github.com/docopt/docopt.rs) — a [DocOpt](http://docopt.org) port to Rust
+* [wycats/hammer.rs](https://github.com/wycats/hammer.rs)
 
 ### Compression
 
 * [lifthrasiir/rust-zip](https://github.com/lifthrasiir/rust-zip) — read and write ZIP archives [<img src="https://travis-ci.org/lifthrasiir/rust-zip.png?branch=master">](https://travis-ci.org/lifthrasiir/rust-zip)
 
 ### Computation
+
 * [eholk/rust-opencl](https://github.com/eholk/rust-opencl) — [OpenCL](https://www.khronos.org/opencl/) bindings [<img src="https://travis-ci.org/eholk/rust-opencl.png?branch=master">](https://travis-ci.org/eholk/rust-opencl)
 
 ### Cryptography
@@ -65,36 +67,36 @@ Only projects that are stable and useful to users are added. Projects that do no
   * MySql
     * [blackbeam/rust-mysql-simple](https://github.com/blackbeam/rust-mysql-simple) — a native MySql client [<img src="https://travis-ci.org/blackbeam/rust-mysql-simple.png?branch=master">](https://travis-ci.org/blackbeam/rust-mysql-simple)
   * PostgreSql
-      * [sfackler/rust-postgres](https://github.com/sfackler/rust-postgres) — a native [PostgreSQL](http://www.postgresql.org) client [<img src="https://travis-ci.org/sfackler/rust-postgres.png?branch=master">](https://travis-ci.org/sfackler/rust-postgres)
+    * [sfackler/rust-postgres](https://github.com/sfackler/rust-postgres) — a native [PostgreSQL](http://www.postgresql.org) client [<img src="https://travis-ci.org/sfackler/rust-postgres.png?branch=master">](https://travis-ci.org/sfackler/rust-postgres)
   * Sqlite
-      * [linuxfood/rustsqlite](https://github.com/linuxfood/rustsqlite) — [Sqlite3](http://www.sqlite.org) bindings
+    * [linuxfood/rustsqlite](https://github.com/linuxfood/rustsqlite) — [Sqlite3](http://www.sqlite.org/) bindings
 
 ### Encoding
 
 * Cap'n Proto
-    * [dwrensha/capnproto-rust](https://github.com/dwrensha/capnproto-rust) — [<img src="https://travis-ci.org/dwrensha/capnproto-rust.png?branch=master">](https://travis-ci.org/dwrensha/capnproto-rust)
+  * [dwrensha/capnproto-rust](https://github.com/dwrensha/capnproto-rust) — [<img src="https://travis-ci.org/dwrensha/capnproto-rust.png?branch=master">](https://travis-ci.org/dwrensha/capnproto-rust)
 * Character Encoding
-    * [lifthrasiir/rust-encoding](https://github.com/lifthrasiir/rust-encoding) — [<img src="https://travis-ci.org/lifthrasiir/rust-encoding.png?branch=master">](https://travis-ci.org/lifthrasiir/rust-encoding)
+  * [lifthrasiir/rust-encoding](https://github.com/lifthrasiir/rust-encoding) — [<img src="https://travis-ci.org/lifthrasiir/rust-encoding.png?branch=master">](https://travis-ci.org/lifthrasiir/rust-encoding)
 * CSV
-  * [BurntSushi/rust-csv](https://github.com/BurntSushi/rust-csv) — [<img src="https://api.travis-ci.org/BurntSushi/rust-csv.png">](https://travis-ci.org/BurntSushi/rust-csv)
+  * [BurntSushi/rust-csv](https://github.com/BurntSushi/rust-csv) — [<img src="https://api.travis-ci.org/BurntSushi/rust-csv.png?branch=master">](https://travis-ci.org/BurntSushi/rust-csv)
   * [Geal/rust-csv](https://github.com/Geal/rust-csv) — [<img src="https://travis-ci.org/Geal/rust-csv.png?branch=master">](https://travis-ci.org/Geal/rust-csv)
 * MsgPck
   * [mneumann/rust-msgpack](https://github.com/mneumann/rust-msgpack) — [<img src="https://travis-ci.org/mneumann/rust-msgpack.png?branch=master">](https://travis-ci.org/mneumann/rust-msgpack)
 * ProtocolBuffers
   * [stepancheg/rust-protobuf](https://github.com/stepancheg/rust-protobuf) — [<img src="https://travis-ci.org/stepancheg/rust-protobuf.png?branch=master">](https://travis-ci.org/stepancheg/rust-protobuf)
 * TOML
-  * [alexcrichton/toml-rs](https://github.com/alexcrichton/toml-rs) — 
+  * [alexcrichton/toml-rs](https://github.com/alexcrichton/toml-rs)
 * Tnetstring
   * [erickt/rust-tnetstring](https://github.com/erickt/rust-tnetstring) — [<img src="https://travis-ci.org/erickt/rust-tnetstring.png?branch=master">](https://travis-ci.org/erickt/rust-tnetstring)
 * XML
-   * [bjz/sax-rs](https://github.com/bjz/sax-rs) — bindings to libxml2's SAX parser [<img src="https://travis-ci.org/bjz/sax-rs.png?branch=master">](https://travis-ci.org/bjz/sax-rs)
-   * [DanielFath/xml-parser](https://github.com/DanielFath/xml-parser) — A hybrid pull, DOM parser written in pure Rust [![Build Status](https://travis-ci.org/DanielFath/xml-parser.png?branch=master)](https://travis-ci.org/DanielFath/xml-parser)
-   * [Florob/RustyXML](https://github.com/Florob/RustyXML) — an XML parser written in Rust [<img src="https://travis-ci.org/Florob/RustyXML.png?branch=master">](https://travis-ci.org/Florob/RustyXML)
-   * [netvl/rust-xml](https://github.com/netvl/rust-xml) — a streaming XML library [<img src="https://travis-ci.org/netvl/rust-xml.png?branch=master">](https://travis-ci.org/netvl/rust-xml)
+  * [bjz/sax-rs](https://github.com/bjz/sax-rs) — bindings to libxml2's SAX parser [<img src="https://travis-ci.org/bjz/sax-rs.png?branch=master">](https://travis-ci.org/bjz/sax-rs)
+  * [DanielFath/xml-parser](https://github.com/DanielFath/xml-parser) — A hybrid pull, DOM parser written in pure Rust [<img src="https://travis-ci.org/DanielFath/xml-parser.png?branch=master">](https://travis-ci.org/DanielFath/xml-parser)
+  * [Florob/RustyXML](https://github.com/Florob/RustyXML) — an XML parser written in Rust [<img src="https://travis-ci.org/Florob/RustyXML.png?branch=master">](https://travis-ci.org/Florob/RustyXM)
+  * [netvl/rust-xml](https://github.com/netvl/rust-xml) — a streaming XML library [<img src="https://travis-ci.org/netvl/rust-xml.png?branch=master">](https://travis-ci.org/netvl/rust-xml)
 
 ### Game development
 
-* [JeremyLetang/rustenstein3D/](https://github.com/JeremyLetang/rustenstein3D/) — a raycasting engine in rust
+* [JeremyLetang/rustenstein3D](https://github.com/JeremyLetang/rustenstein3D/) — a raycasting engine in rust
 
 ### Games
 
@@ -103,16 +105,16 @@ Only projects that are stable and useful to users are added. Projects that do no
 ### GUI
 
 * Cocoa
-  * [mozilla-servo/rust-cocoa](https://github.com/mozilla-servo/rust-cocoa) — 
-* Gtk
-  * [JeremyLetang/rgtk](https://github.com/JeremyLetang/rgtk) — [GTK+](http://www.gtk.org) bindings [<img src="https://travis-ci.org/jeremyletang/rgtk.png?branch=master">](https://travis-ci.org/jeremyletang/rgtk)
+  * [mozilla-servo/rust-cocoa](https://github.com/mozilla-servo/rust-cocoa)
+* Gtk+
+  * [JeremyLetang/rgtk](https://github.com/JeremyLetang/rgtk) — [Gtk+](http://www.gtk.org) bindings [<img src="https://travis-ci.org/jeremyletang/rgtk.png?branch=master">](https://travis-ci.org/jeremyletang/rgtk)
 * ncurses
-  * [jeaye/ncurses-rs](https://github.com/jeaye/ncurses-rs) — [![Build Status](https://travis-ci.org/jeaye/ncurses-rs.png?branch=master)](https://travis-ci.org/jeaye/ncurses-rs.png)
+  * [jeaye/ncurses-rs](https://github.com/jeaye/ncurses-rs) — [<img src="https://travis-ci.org/jeaye/ncurses-rs.png?branch=master">](https://travis-ci.org/jeaye/ncurses-rs)
 * SDL
-	* [AngryLawyer/rust-sdl2](https://github.com/AngryLawyer/rust-sdl2) — [SDL2](http://www.libsdl.org/) bindings [![Build Status](https://travis-ci.org/AngryLawyer/rust-sdl2.png?branch=master)](https://travis-ci.org/AngryLawyer/rust-sdl2)
-	* [brson/rust-sdl](https://github.com/brson/rust-sdl) — [SDL](http://www.libsdl.org/) bindings [<img src="https://travis-ci.org/brson/rust-sdl.png?branch=master">](https://travis-ci.org/brson/rust-sdl)
+  * [AngryLawyer/rust-sdl2](https://github.com/AngryLawyer/rust-sdl2) — [SDL2](http://www.libsdl.org/) bindings [<img src="https://travis-ci.org/AngryLawyer/rust-sdl2.png?branch=master">](https://travis-ci.org/AngryLawyer/rust-sdl2)
+  * [brson/rust-sdl](https://github.com/brson/rust-sdl) — [SDL1](http://www.libsdl.org/) bindings [<img src="https://travis-ci.org/brson/rust-sdl.png?branch=master">](https://travis-ci.org/brson/rust-sdl)
 * Termbox
-  * [gchp/rustbox](https://github.com/gchp/rustbox) — a Rust implementation of [termbox](http://github.com/nsf/termbox).
+  * [gchp/rustbox](https://github.com/gchp/rustbox) — a Rust implementation of [termbox]() http://github.com/nsf/termbox
 
 ### Network programming
 
@@ -126,26 +128,26 @@ Only projects that are stable and useful to users are added. Projects that do no
 
 ### Testing
 
-* [BurntSushi/quickcheck](https://github.com/BurntSushi/quickcheck) — property-based testing using randomly generated input. [<img src="https://travis-ci.org/BurntSushi/quickcheck.png?branch=master">](https://travis-ci.org/BurntSushi/quickcheck)
-* [farcaller/shiny](https://github.com/farcaller/shiny) — a fancy syntax similar to ruby's rspec or Objective-C's kiwi.
+* [BurntSushi/quickcheck](https://github.com/BurntSushi/quickcheck) — property-based testing using randomly generated input [<img src="https://travis-ci.org/BurntSushi/quickcheck.png?branch=master">](https://travis-ci.org/BurntSushi/quickcheck)
+* [farcaller/shiny](https://github.com/farcaller/shiny) — a fancy syntax similar to ruby's rspec or Objective-C's kiwi
 
 ### Web programming
 
-See also http://arewewebyet.com/
+See also [http://arewewebyet.com/](http://arewewebyet.com/)
 
-  * core
-    * [chris-morgan/rust-http](https://github.com/chris-morgan/rust-http) — will be replaced by [Teepee](http://teepee.rs/). [<img src="https://travis-ci.org/chris-morgan/rust-http.png?branch=master">](https://travis-ci.org/chris-morgan/rust-http)
-    * [hyperium/hyper](https://github.com/hyperium/hyper) — [<img src="https://travis-ci.org/hyperium/hyper.png?branch=master">](https://travis-ci.org/hyperium/hyper)
-  * client
-    * [carllerche/curl-rust](https://github.com/carllerche/curl-rust) — [libcurl](http://curl.haxx.se/libcurl/) bindings
-    * [vhbit/curl-rs](https://github.com/vhbit/curl-rs) — [libcurl](http://curl.haxx.se/libcurl/) bindings [<img src="https://travis-ci.org/vhbit/curl-rs.png?branch=master">](https://travis-ci.org/vhbit/curl-rs)
-  * server
-    * [erickt/rust-mongrel2](https://github.com/erickt/rust-mongrel2) — [Mongrel2](http://mongrel2.org) bindings [<img src="https://travis-ci.org/erickt/rust-mongrel2.png?branch=master">](https://travis-ci.org/erickt/rust-mongrel2)
-    * [Iron](http://ironframework.io/) — inspired by [Express](http://expressjs.com/). [<img src="https://travis-ci.org/iron/iron.png?branch=master">](https://travis-ci.org/iron/iron)
-    * [Nickel](http://nickel.rs/) — inspired by [Express](http://expressjs.com/).
+* Core
+  * [chris-morgan/rust-http](https://github.com/chris-morgan/rust-http) — will be replaced by [Teepee](http://teepee.rs/) [<img src="https://travis-ci.org/chris-morgan/rust-http.png?branch=master">](https://travis-ci.org/chris-morgan/rust-http)
+  * [hyperium/hyper](https://github.com/hyperium/hyper) — [<img src="https://travis-ci.org/hyperium/hyper.png?branch=master">](https://travis-ci.org/hyperium/hyper)
+* Client
+  * [carllerche/curl-rust](https://github.com/carllerche/curl-rust) — [libcurl](http://curl.haxx.se/libcurl/) bindings
+  * [vhbit/curl-rs](https://github.com/vhbit/curl-rs) — [libcurl](http://curl.haxx.se/libcurl/) bindings [<img src="https://travis-ci.org/vhbit/curl-rs">](https://travis-ci.org/vhbit/curl-rs.png?branch=master)
+* Server
+  * [erickt/rust-mongrel2](https://github.com/erickt/rust-mongrel2) — [Mongrel2](http://mongrel2.org) bindings [<img src="https://travis-ci.org/erickt/rust-mongrel2">](https://travis-ci.org/erickt/rust-mongrel2.png?branch=master)
+  * [Iron](http://ironframework.io/) — inspired by [Express](http://expressjs.com/) [<img src="https://travis-ci.org/iron/iron">](https://travis-ci.org/iron/iron.png?branch=master)
+  * [Nickel](http://nickel.rs/) — inspired by [Express](http://expressjs.com/)
 
 ## Resources
 
-  * [Rust by Example](http://rustbyexample.com/)
-  * [Rust CI](http://www.rust-ci.org) — a [Travis CI](https://travis-ci.com) dashboard for Rust projects
-  * [Rust Guidelines](http://aturon.github.io)
+* [Rust by Example](http://rustbyexample.com/)
+* [Rust CI](http://www.rust-ci.org) — a [Travis CI](https://travis-ci.com) dashboard for Rust projects
+* [Rust Guidelines](http://aturon.github.io)
