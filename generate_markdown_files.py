@@ -375,6 +375,7 @@ DATA = \
         },
       "jeremyletang/rust-sfml": {
           "url": "https://github.com/JeremyLetang/rust-sfml",
+          "descr": md_link('SFML', 'http://www.sfml-dev.org/') + " bindings",
           "travis_url": "https://travis-ci.org/jeremyLetang/rust-sfml",
           "travis_badge": "https://travis-ci.org/jeremyletang/rust-sfml.svg?branch=master",
         },
