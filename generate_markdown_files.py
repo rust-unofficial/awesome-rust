@@ -374,8 +374,8 @@ DATA = \
         },
       "jeremyletang/rust-sfml": {
           "url": "https://github.com/JeremyLetang/rust-sfml",
-          "travis_url": "https://travis-ci.org/JeremyLetang/rust-sfml",
-          "travis_badge": "https://travis-ci.org/jeremyletang/rust_sfml.png?branch=master",
+          "travis_url": "https://travis-ci.org/jeremyLetang/rust-sfml",
+          "travis_badge": "https://travis-ci.org/jeremyletang/rust-sfml.svg?branch=master",
         },
       "SiegeLord/RustAllegro": {
           "url": "https://github.com/SiegeLord/RustAllegro",
