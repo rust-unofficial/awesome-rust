@@ -22,25 +22,25 @@ DATA = \
           "url": "https://github.com/JeremyLetang/ears",
           "descr": "a simple library to play Sounds and Musics, on top of OpenAL and libsndfile",
           "travis_url": "https://travis-ci.org/JeremyLetang/ears",
-          "travis_badge": "https://travis-ci.org/jeremyletang/ears.png?branch=master"
+          "travis_badge": "https://travis-ci.org/jeremyletang/ears.svg?branch=master"
         },
       "JeremyLetang/rust-portaudio": {
           "url": "https://github.com/JeremyLetang/rust-portaudio",
           "descr": md_link('PortAudio', 'http://www.portaudio.com/') + " bindings",
           "travis_url": "https://travis-ci.org/JeremyLetang/rust-portaudio",
-          "travis_badge": "https://travis-ci.org/jeremyletang/rust-portaudio.png?branch=master"
+          "travis_badge": "https://travis-ci.org/jeremyletang/rust-portaudio.svg?branch=master"
         },
       "musitdev/rust-portmidi": {
           "url": "https://github.com/musitdev/rust-portmidi",
           "descr": md_link('PortMidi', 'http://portmedia.sourceforge.net/portmidi/') + " bindings",
           "travis_url": "https://travis-ci.org/musitdev/rust-portmidi",
-          "travis_badge": "https://travis-ci.org/musitdev/rust-portmidi.png?branch=master"
+          "travis_badge": "https://travis-ci.org/musitdev/rust-portmidi.svg?branch=master"
         },
       "PistonDevelopers/image": {
           "url": "https://github.com/PistonDevelopers/image",
           "descr": 'Basic imaging processing functions and methods for converting to and from image formats',
           "travis_url": "https://travis-ci.org/PistonDevelopers/image",
-          "travis_badge": "https://travis-ci.org/PistonDevelopers/image.png?branch=master"
+          "travis_badge": "https://travis-ci.org/PistonDevelopers/image.svg?branch=master"
         },
       "seb-m/common.rs": {
           "url": 'https://github.com/klutzy/suruga',
@@ -50,7 +50,7 @@ DATA = \
           "url": "https://github.com/SiegeLord/RustCMake",
           "descr": "an example project showing usage of CMake with Rust",
           "travis_url": "https://travis-ci.org/SiegeLord/RustCMake",
-          "travis_badge": "https://travis-ci.org/SiegeLord/RustCMake.png?branch=master"
+          "travis_badge": "https://travis-ci.org/SiegeLord/RustCMake.svg?branch=master"
         },
       "PistonDevelopers/rust-empty": {
           "url": "https://github.com/PistonDevelopers/rust-empty",
@@ -67,19 +67,19 @@ DATA = \
           "url": "https://github.com/lifthrasiir/rust-zip",
           "descr": "read and write ZIP archives",
           "travis_url": "https://travis-ci.org/lifthrasiir/rust-zip",
-          "travis_badge": "https://travis-ci.org/lifthrasiir/rust-zip.png?branch=master"
+          "travis_badge": "https://travis-ci.org/lifthrasiir/rust-zip.svg?branch=master"
         },
       "eholk/rust-opencl": {
           "url": "https://github.com/eholk/rust-opencl",
           "descr": md_link('OpenCL', 'https://www.khronos.org/opencl/') + " bindings",
           "travis_url": "https://travis-ci.org/eholk/rust-opencl",
-          "travis_badge": "https://travis-ci.org/eholk/rust-opencl.png?branch=master"
+          "travis_badge": "https://travis-ci.org/eholk/rust-opencl.svg?branch=master"
         },
       "DaGenix/rust-crypto": {
           "url": "https://github.com/DaGenix/rust-crypto",
           "descr": "cryptographic algorithms in Rust",
           "travis_url": "https://travis-ci.org/DaGenix/rust-crypto",
-          "travis_badge": "https://travis-ci.org/DaGenix/rust-crypto.png?branch=master"
+          "travis_badge": "https://travis-ci.org/DaGenix/rust-crypto.svg?branch=master"
         },
       "dnaq/sodiumoxide": {
           "url": "https://github.com/dnaq/sodiumoxide",
@@ -89,19 +89,19 @@ DATA = \
           "url": "https://github.com/sfackler/rust-openssl",
           "descr": "OpenSSL bindings",
           "travis_url": "https://travis-ci.org/sfackler/rust-openssl",
-          "travis_badge": "https://travis-ci.org/sfackler/rust-openssl.png?branch=master"
+          "travis_badge": "https://travis-ci.org/sfackler/rust-openssl.svg?branch=master"
         },
       "blackbeam/rust-mysql-simple": {
           "url": "https://github.com/blackbeam/rust-mysql-simple",
           "descr": "a native MySql client",
           "travis_url": "https://travis-ci.org/blackbeam/rust-mysql-simple",
-          "travis_badge": "https://travis-ci.org/blackbeam/rust-mysql-simple.png?branch=master"
+          "travis_badge": "https://travis-ci.org/blackbeam/rust-mysql-simple.svg?branch=master"
         },
       "sfackler/rust-postgres": {
           "url": "https://github.com/sfackler/rust-postgres",
           "descr": "a native " + md_link('PostgreSQL', 'http://www.postgresql.org') + " client",
           "travis_url": "https://travis-ci.org/sfackler/rust-postgres",
-          "travis_badge": "https://travis-ci.org/sfackler/rust-postgres.png?branch=master"
+          "travis_badge": "https://travis-ci.org/sfackler/rust-postgres.svg?branch=master"
         },
       "linuxfood/rustsqlite": {
           "url": "https://github.com/linuxfood/rustsqlite",
@@ -110,33 +110,33 @@ DATA = \
       "dwrensha/capnproto-rust": {
           "url": "https://github.com/dwrensha/capnproto-rust",
           "travis_url": "https://travis-ci.org/dwrensha/capnproto-rust",
-          "travis_badge": "https://travis-ci.org/dwrensha/capnproto-rust.png?branch=master"
+          "travis_badge": "https://travis-ci.org/dwrensha/capnproto-rust.svg?branch=master"
         },
       "lifthrasiir/rust-encoding": {
           "url": "https://github.com/lifthrasiir/rust-encoding",
           "travis_url": "https://travis-ci.org/lifthrasiir/rust-encoding",
-          "travis_badge": "https://travis-ci.org/lifthrasiir/rust-encoding.png?branch=master"
+          "travis_badge": "https://travis-ci.org/lifthrasiir/rust-encoding.svg?branch=master"
         },
       "BurntSushi/rust-csv": {
           "url": "https://github.com/BurntSushi/rust-csv",
           "travis_url": "https://travis-ci.org/BurntSushi/rust-csv",
-          "travis_badge": "https://api.travis-ci.org/BurntSushi/rust-csv.png?branch=master"
+          "travis_badge": "https://api.travis-ci.org/BurntSushi/rust-csv.svg?branch=master"
         },
       "Geal/rust-csv": {
           "url": "https://github.com/Geal/rust-csv",
           "travis_url": "https://travis-ci.org/Geal/rust-csv",
-          "travis_badge": "https://travis-ci.org/Geal/rust-csv.png?branch=master",
+          "travis_badge": "https://travis-ci.org/Geal/rust-csv.svg?branch=master",
           "unstable": True
         },
       "mneumann/rust-msgpack": {
           "url": "https://github.com/mneumann/rust-msgpack",
           "travis_url": "https://travis-ci.org/mneumann/rust-msgpack",
-          "travis_badge": "https://travis-ci.org/mneumann/rust-msgpack.png?branch=master"
+          "travis_badge": "https://travis-ci.org/mneumann/rust-msgpack.svg?branch=master"
         },
       "stepancheg/rust-protobuf": {
           "url": "https://github.com/stepancheg/rust-protobuf",
           "travis_url": "https://travis-ci.org/stepancheg/rust-protobuf",
-          "travis_badge": "https://travis-ci.org/stepancheg/rust-protobuf.png?branch=master"
+          "travis_badge": "https://travis-ci.org/stepancheg/rust-protobuf.svg?branch=master"
         },
       "alexcrichton/toml-rs": {
           "url": "https://github.com/alexcrichton/toml-rs"
@@ -144,32 +144,32 @@ DATA = \
       "erickt/rust-tnetstring": {
           "url": "https://github.com/erickt/rust-tnetstring",
           "travis_url": "https://travis-ci.org/erickt/rust-tnetstring",
-          "travis_badge": "https://travis-ci.org/erickt/rust-tnetstring.png?branch=master",
+          "travis_badge": "https://travis-ci.org/erickt/rust-tnetstring.svg?branch=master",
           "unstable": True
         },
       "bjz/sax-rs": {
           "url": "https://github.com/bjz/sax-rs",
           "descr": "bindings to libxml2's SAX parser",
           "travis_url": "https://travis-ci.org/bjz/sax-rs",
-          "travis_badge": "https://travis-ci.org/bjz/sax-rs.png?branch=master"
+          "travis_badge": "https://travis-ci.org/bjz/sax-rs.svg?branch=master"
         },
       "Ygg01/xml-air": {
           "url": "https://github.com/Ygg01/xml-air",
           "descr": "A hybrid pull, DOM parser written in pure Rust",
           "travis_url": "https://travis-ci.org/Ygg01/xml-air",
-          "travis_badge": "https://travis-ci.org/Ygg01/xml-air.png?branch=master"
+          "travis_badge": "https://travis-ci.org/Ygg01/xml-air.svg?branch=master"
         },
       "Florob/RustyXML": {
           "url": "https://github.com/Florob/RustyXML",
           "descr": "an XML parser written in Rust",
           "travis_url": "https://travis-ci.org/Florob/RustyXM",
-          "travis_badge": "https://travis-ci.org/Florob/RustyXML.png?branch=master"
+          "travis_badge": "https://travis-ci.org/Florob/RustyXML.svg?branch=master"
         },
       "netvl/rust-xml": {
           "url": "https://github.com/netvl/rust-xml",
           "descr": "a streaming XML library",
           "travis_url": "https://travis-ci.org/netvl/rust-xml",
-          "travis_badge": "https://travis-ci.org/netvl/rust-xml.png?branch=master"
+          "travis_badge": "https://travis-ci.org/netvl/rust-xml.svg?branch=master"
         },
       "JeremyLetang/rustenstein3D": {
           "url": "https://github.com/JeremyLetang/rustenstein3D/",
@@ -182,7 +182,7 @@ DATA = \
           "url": "https://github.com/lifthrasiir/angolmois-rust",
           "descr": "a minimalistic music video game which supports the BMS format",
           "travis_url": "https://travis-ci.org/lifthrasiir/angolmois-rust",
-          "travis_badge": "https://travis-ci.org/lifthrasiir/angolmois-rust.png?branch=master"
+          "travis_badge": "https://travis-ci.org/lifthrasiir/angolmois-rust.svg?branch=master"
         },
       "mozilla-servo/rust-cocoa": {
           "url": "https://github.com/mozilla-servo/rust-cocoa"
@@ -191,24 +191,24 @@ DATA = \
           "url": "https://github.com/JeremyLetang/rgtk",
           "descr": md_link('Gtk+', 'http://www.gtk.org') + " bindings",
           "travis_url": "https://travis-ci.org/jeremyletang/rgtk",
-          "travis_badge": "https://travis-ci.org/jeremyletang/rgtk.png?branch=master"
+          "travis_badge": "https://travis-ci.org/jeremyletang/rgtk.svg?branch=master"
         },
       "jeaye/ncurses-rs": {
           "url": "https://github.com/jeaye/ncurses-rs",
           "travis_url": "https://travis-ci.org/jeaye/ncurses-rs",
-          "travis_badge": "https://travis-ci.org/jeaye/ncurses-rs.png?branch=master"
+          "travis_badge": "https://travis-ci.org/jeaye/ncurses-rs.svg?branch=master"
         },
       "AngryLawyer/rust-sdl2": {
           "url": "https://github.com/AngryLawyer/rust-sdl2",
           "descr": md_link('SDL2', 'http://www.libsdl.org/') + " bindings",
           "travis_url": "https://travis-ci.org/AngryLawyer/rust-sdl2",
-          "travis_badge": "https://travis-ci.org/AngryLawyer/rust-sdl2.png?branch=master"
+          "travis_badge": "https://travis-ci.org/AngryLawyer/rust-sdl2.svg?branch=master"
         },
       "brson/rust-sdl": {
           "url": "https://github.com/brson/rust-sdl",
           "descr": md_link('SDL1', 'http://www.libsdl.org/') + " bindings",
           "travis_url": "https://travis-ci.org/brson/rust-sdl",
-          "travis_badge": "https://travis-ci.org/brson/rust-sdl.png?branch=master"
+          "travis_badge": "https://travis-ci.org/brson/rust-sdl.svg?branch=master"
         },
       "gchp/rustbox": {
           "url": "https://github.com/gchp/rustbox",
@@ -218,25 +218,25 @@ DATA = \
           "url": "https://github.com/erickt/rust-zmq",
           "descr": md_link('ZeroMQ', 'http://zeromq.org') + " bindings",
           "travis_url": "https://travis-ci.org/erickt/rust-zmq",
-          "travis_badge": "https://travis-ci.org/erickt/rust-zmq.png?branch=master"
+          "travis_badge": "https://travis-ci.org/erickt/rust-zmq.svg?branch=master"
         },
       "zeromq/zmq.rs": {
             "url": "https://github.com/zeromq/zmq.rs",
             "descr": "Rust implementation of the " + md_link('ZeroMQ', 'http://zeromq.org') + "protocol",
             "travis_url": "https://travis-ci.org/zeromq/zmq.rs",
-            "travis_badge": "https://travis-ci.org/zeromq/zmq.rs.png?branch=master",
+            "travis_badge": "https://travis-ci.org/zeromq/zmq.rs.svg?branch=master",
             "unstable": True
         },
       "erickt/rust-mustache": {
           "url": "https://github.com/erickt/rust-mustache",
           "travis_url": "https://travis-ci.org/erickt/rust-mustache",
-          "travis_badge": "https://travis-ci.org/erickt/rust-mustache.png?branch=master"
+          "travis_badge": "https://travis-ci.org/erickt/rust-mustache.svg?branch=master"
         },
       "BurntSushi/quickcheck": {
           "url": "https://github.com/BurntSushi/quickcheck",
           "descr": 'a Rust implementation of ' + md_link('QuickCheck', 'http://www.haskell.org/haskellwiki/Introduction_to_QuickCheck1'),
           "travis_url": "https://travis-ci.org/BurntSushi/quickcheck",
-          "travis_badge": "https://travis-ci.org/BurntSushi/quickcheck.png?branch=master"
+          "travis_badge": "https://travis-ci.org/BurntSushi/quickcheck.svg?branch=master"
         },
       "farcaller/shiny": {
           "url": "https://github.com/farcaller/shiny",
@@ -246,12 +246,12 @@ DATA = \
           "url": "https://github.com/chris-morgan/rust-http",
           "descr": "will be replaced by " + md_link('Teepee', 'http://teepee.rs/'),
           "travis_url": "https://travis-ci.org/chris-morgan/rust-http",
-          "travis_badge": "https://travis-ci.org/chris-morgan/rust-http.png?branch=master"
+          "travis_badge": "https://travis-ci.org/chris-morgan/rust-http.svg?branch=master"
         },
       "hyperium/hyper": {
           "url": "https://github.com/hyperium/hyper",
           "travis_url": "https://travis-ci.org/hyperium/hyper",
-          "travis_badge": "https://travis-ci.org/hyperium/hyper.png?branch=master"
+          "travis_badge": "https://travis-ci.org/hyperium/hyper.svg?branch=master"
         },
       "carllerche/curl-rust": {
           "url": "https://github.com/carllerche/curl-rust",
@@ -260,19 +260,19 @@ DATA = \
       "vhbit/curl-rs": {
           "url": "https://github.com/vhbit/curl-rs",
           "descr": md_link('libcurl', 'http://curl.haxx.se/libcurl/') + " bindings",
-          "travis_url": "https://travis-ci.org/vhbit/curl-rs.png?branch=master",
+          "travis_url": "https://travis-ci.org/vhbit/curl-rs.svg?branch=master",
           "travis_badge": "https://travis-ci.org/vhbit/curl-rs"
         },
       "erickt/rust-mongrel2": {
           "url": "https://github.com/erickt/rust-mongrel2",
           "descr": md_link('Mongrel2', 'http://mongrel2.org') + " bindings",
-          "travis_url": "https://travis-ci.org/erickt/rust-mongrel2.png?branch=master",
+          "travis_url": "https://travis-ci.org/erickt/rust-mongrel2.svg?branch=master",
           "travis_badge": "https://travis-ci.org/erickt/rust-mongrel2"
         },
       "Iron": {
           "url": "http://ironframework.io/",
           "descr": "inspired by " + md_link('Express', 'http://expressjs.com/'),
-          "travis_url": "https://travis-ci.org/iron/iron.png?branch=master",
+          "travis_url": "https://travis-ci.org/iron/iron.svg?branch=master",
           "travis_badge": "https://travis-ci.org/iron/iron"
         },
       "Nickel": {
@@ -293,7 +293,7 @@ DATA = \
           "url": "https://github.com/kenz-gelsoft/wxRust",
           "descr": md_link('wxWidgets', 'http://www.wxwidgets.org/') + " bindings",
           "travis_url": "https://travis-ci.org/kenz-gelsoft/wxRust",
-          "travis_badge": "https://travis-ci.org/kenz-gelsoft/wxRust.png?branch=master",
+          "travis_badge": "https://travis-ci.org/kenz-gelsoft/wxRust.svg?branch=master",
           "unstable": True
         },
       "Arcterus/game-of-life": {

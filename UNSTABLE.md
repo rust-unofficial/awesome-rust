@@ -57,12 +57,12 @@ A list of awesome but unstable/experimental Rust projects which some day hopeful
 * Cap'n Proto
 * Character Encoding
 * CSV
-  * [Geal/rust-csv](https://github.com/Geal/rust-csv) — [<img src="https://travis-ci.org/Geal/rust-csv.png?branch=master">](https://travis-ci.org/Geal/rust-csv)
+  * [Geal/rust-csv](https://github.com/Geal/rust-csv) — [<img src="https://travis-ci.org/Geal/rust-csv.svg?branch=master">](https://travis-ci.org/Geal/rust-csv)
 * MsgPck
 * ProtocolBuffers
 * TOML
 * Tnetstring
-  * [erickt/rust-tnetstring](https://github.com/erickt/rust-tnetstring) — [<img src="https://travis-ci.org/erickt/rust-tnetstring.png?branch=master">](https://travis-ci.org/erickt/rust-tnetstring)
+  * [erickt/rust-tnetstring](https://github.com/erickt/rust-tnetstring) — [<img src="https://travis-ci.org/erickt/rust-tnetstring.svg?branch=master">](https://travis-ci.org/erickt/rust-tnetstring)
 * XML
 
 ### Game development
@@ -105,7 +105,7 @@ A list of awesome but unstable/experimental Rust projects which some day hopeful
 * SFML
 * Termbox
 * wxWidgets
-  * [kenz-gelsoft/wxRust](https://github.com/kenz-gelsoft/wxRust) — [wxWidgets](http://www.wxwidgets.org/) bindings [<img src="https://travis-ci.org/kenz-gelsoft/wxRust.png?branch=master">](https://travis-ci.org/kenz-gelsoft/wxRust)
+  * [kenz-gelsoft/wxRust](https://github.com/kenz-gelsoft/wxRust) — [wxWidgets](http://www.wxwidgets.org/) bindings [<img src="https://travis-ci.org/kenz-gelsoft/wxRust.svg?branch=master">](https://travis-ci.org/kenz-gelsoft/wxRust)
 
 ### Image processing
 
