@@ -96,6 +96,7 @@ Only projects that are stable and useful to users are added. Projects that do no
 
 ### Game development
 
+* [PistonDevelopers/piston](https://github.com/pistondevelopers/piston) — [<img src="https://travis-ci.org/PistonDevelopers/piston.svg?branch=master">](https://travis-ci.org/PistonDevelopers/piston)
 
 ### Games
 

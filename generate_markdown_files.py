@@ -358,7 +358,8 @@ DATA = \
         },
       "PistonDevelopers/piston": {
           "url": "https://github.com/pistondevelopers/piston",
-          "unstable": True
+          "travis_url": "https://travis-ci.org/PistonDevelopers/piston",
+          "travis_badge": "https://travis-ci.org/PistonDevelopers/piston.svg?branch=master",
         },
       "sebcrozet/kiss3d": {
           "url": "https://github.com/sebcrozet/kiss3d",

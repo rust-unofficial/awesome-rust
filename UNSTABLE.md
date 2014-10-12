@@ -69,7 +69,6 @@ A list of awesome but unstable/experimental Rust projects which some day hopeful
 
 * [bjz/bullet-rs](https://github.com/bjz/bullet-rs)
 * [JeremyLetang/rustenstein3D](https://github.com/JeremyLetang/rustenstein3D/) — a raycasting engine in rust
-* [PistonDevelopers/piston](https://github.com/pistondevelopers/piston)
 * [sebcrozet/kiss3d](https://github.com/sebcrozet/kiss3d)
 * [sebcrozet/ncollide](https://github.com/sebcrozet/ncollide)
 * [sebcrozet/nphysics](https://github.com/sebcrozet/nphysics)
