@@ -6,6 +6,10 @@ def md_link(name, url):
 
 DATA = \
     {
+      "seb-m/common.rs": {
+          "url": 'https://github.com/klutzy/suruga',
+          "descr": 'Common Rust crypto utilities'
+        },
       "klutzy/suruga": {
           "url": 'https://github.com/klutzy/suruga',
           "descr": 'Rust implementation of ' + md_link('TLS 1.2', 'http://tools.ietf.org/html/rfc5246')
@@ -452,6 +456,7 @@ add(   '\n### Cryptography\n', rows_stable, rows_unstable )
 entry( '* ', 'DaGenix/rust-crypto', rows_stable, rows_unstable )
 entry( '* ', 'dnaq/sodiumoxide', rows_stable, rows_unstable )
 entry( '* ', 'klutzy/suruga', rows_stable, rows_unstable )
+entry( '* ', 'seb-m/common.rs', rows_stable, rows_unstable )
 entry( '* ', 'sfackler/rust-openssl', rows_stable, rows_unstable )
 
 add(   '\n### Database\n', rows_stable, rows_unstable )
