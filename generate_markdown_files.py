@@ -270,8 +270,8 @@ DATA = \
       "Iron": {
           "url": "http://ironframework.io/",
           "descr": "inspired by " + md_link('Express', 'http://expressjs.com/'),
-          "travis_url": "https://travis-ci.org/iron/iron.svg?branch=master",
-          "travis_badge": "https://travis-ci.org/iron/iron"
+          "travis_url": "https://travis-ci.org/iron/iron",
+          "travis_badge": "https://travis-ci.org/iron/iron.svg?branch=master",
         },
       "Nickel": {
           "url": "http://nickel.rs/",
