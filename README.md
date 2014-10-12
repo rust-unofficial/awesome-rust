@@ -58,7 +58,7 @@ Only projects that are stable and useful to users are added. Projects that do no
 
 * [DaGenix/rust-crypto](https://github.com/DaGenix/rust-crypto) — cryptographic algorithms in Rust [<img src="https://travis-ci.org/DaGenix/rust-crypto.png?branch=master">](https://travis-ci.org/DaGenix/rust-crypto)
 * [dnaq/sodiumoxide](https://github.com/dnaq/sodiumoxide) — [libsodium](https://github.com/jedisct1/libsodium) bindings
-* [klutzy/suruga](https://github.com/klutzy/suruga) — Rust implementation of [TLS 1.2](http://tools.ietf.org/html/rfc5246)
+* [klutzy/suruga](https://github.com/klutzy/suruga) — a Rust implementation of [TLS 1.2](http://tools.ietf.org/html/rfc5246)
 * [seb-m/common.rs](https://github.com/klutzy/suruga) — Common Rust crypto utilities
 * [sfackler/rust-openssl](https://github.com/sfackler/rust-openssl) — OpenSSL bindings [<img src="https://travis-ci.org/sfackler/rust-openssl.png?branch=master">](https://travis-ci.org/sfackler/rust-openssl)
 
@@ -89,9 +89,9 @@ Only projects that are stable and useful to users are added. Projects that do no
 * Tnetstring
 * XML
   * [bjz/sax-rs](https://github.com/bjz/sax-rs) — bindings to libxml2's SAX parser [<img src="https://travis-ci.org/bjz/sax-rs.png?branch=master">](https://travis-ci.org/bjz/sax-rs)
-  * [DanielFath/xml-air](https://github.com/DanielFath/xml-air) — A hybrid pull, DOM parser written in pure Rust [<img src="https://travis-ci.org/DanielFath/xml-air.png?branch=master">](https://travis-ci.org/DanielFath/xml-air)
   * [Florob/RustyXML](https://github.com/Florob/RustyXML) — an XML parser written in Rust [<img src="https://travis-ci.org/Florob/RustyXML.png?branch=master">](https://travis-ci.org/Florob/RustyXM)
   * [netvl/rust-xml](https://github.com/netvl/rust-xml) — a streaming XML library [<img src="https://travis-ci.org/netvl/rust-xml.png?branch=master">](https://travis-ci.org/netvl/rust-xml)
+  * [Ygg01/xml-air](https://github.com/Ygg01/xml-air) — A hybrid pull, DOM parser written in pure Rust [<img src="https://travis-ci.org/Ygg01/xml-air.png?branch=master">](https://travis-ci.org/Ygg01/xml-air)
 
 ### Game development
 

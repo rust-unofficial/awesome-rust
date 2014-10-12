@@ -12,7 +12,7 @@ DATA = \
         },
       "klutzy/suruga": {
           "url": 'https://github.com/klutzy/suruga',
-          "descr": 'Rust implementation of ' + md_link('TLS 1.2', 'http://tools.ietf.org/html/rfc5246')
+          "descr": 'a Rust implementation of ' + md_link('TLS 1.2', 'http://tools.ietf.org/html/rfc5246')
         },
       "bjz/openal-rs": {
           "url": "https://github.com/bjz/openal-rs/",
@@ -147,11 +147,11 @@ DATA = \
           "travis_url": "https://travis-ci.org/bjz/sax-rs",
           "travis_badge": "https://travis-ci.org/bjz/sax-rs.png?branch=master"
         },
-      "DanielFath/xml-air": {
-          "url": "https://github.com/DanielFath/xml-air",
+      "Ygg01/xml-air": {
+          "url": "https://github.com/Ygg01/xml-air",
           "descr": "A hybrid pull, DOM parser written in pure Rust",
-          "travis_url": "https://travis-ci.org/DanielFath/xml-air",
-          "travis_badge": "https://travis-ci.org/DanielFath/xml-air.png?branch=master"
+          "travis_url": "https://travis-ci.org/Ygg01/xml-air",
+          "travis_badge": "https://travis-ci.org/Ygg01/xml-air.png?branch=master"
         },
       "Florob/RustyXML": {
           "url": "https://github.com/Florob/RustyXML",
@@ -486,9 +486,9 @@ add(   '* Tnetstring', rows_stable, rows_unstable )
 entry( '  * ', 'erickt/rust-tnetstring', rows_stable, rows_unstable )
 add(   '* XML', rows_stable, rows_unstable )
 entry( '  * ', 'bjz/sax-rs', rows_stable, rows_unstable )
-entry( '  * ', 'DanielFath/xml-air', rows_stable, rows_unstable )
 entry( '  * ', 'Florob/RustyXML', rows_stable, rows_unstable )
 entry( '  * ', 'netvl/rust-xml', rows_stable, rows_unstable )
+entry( '  * ', 'Ygg01/xml-air', rows_stable, rows_unstable )
 
 add(   '\n### Game development\n', rows_stable, rows_unstable )
 entry( '* ', 'JeremyLetang/rustenstein3D', rows_stable, rows_unstable )
