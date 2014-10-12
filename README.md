@@ -117,7 +117,7 @@ Only projects that are stable and useful to users are added. Projects that do no
 * SFML
   * [jeremyletang/rust-sfml](https://github.com/JeremyLetang/rust-sfml) — [<img src="https://travis-ci.org/jeremyletang/rust-sfml.svg?branch=master">](https://travis-ci.org/jeremyLetang/rust-sfml)
 * Termbox
-  * [gchp/rustbox](https://github.com/gchp/rustbox) — a Rust implementation of [termbox]() http://github.com/nsf/termbox
+  * [gchp/rustbox](https://github.com/gchp/rustbox) — a Rust implementation of [termbox](http://github.com/nsf/termbox)
 * wxWidgets
 
 ### Image processing

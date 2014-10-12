@@ -212,7 +212,7 @@ DATA = \
         },
       "gchp/rustbox": {
           "url": "https://github.com/gchp/rustbox",
-          "descr": "a Rust implementation of " + md_link('termbox', '') + " http://github.com/nsf/termbox"
+          "descr": "a Rust implementation of " + md_link('termbox', 'http://github.com/nsf/termbox')
         },
       "erickt/rust-zmq": {
           "url": "https://github.com/erickt/rust-zmq",
