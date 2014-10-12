@@ -72,7 +72,7 @@ A list of awesome but unstable/experimental Rust projects which some day hopeful
 * [sebcrozet/kiss3d](https://github.com/sebcrozet/kiss3d)
 * [sebcrozet/ncollide](https://github.com/sebcrozet/ncollide)
 * [sebcrozet/nphysics](https://github.com/sebcrozet/nphysics)
-* [SiegeLord/RustAllegro](https://github.com/SiegeLord/RustAllegro)
+* [SiegeLord/RustAllegro](https://github.com/SiegeLord/RustAllegro) — [<img src="https://travis-ci.org/SiegeLord/RustAllegro.svg?branch=master">](https://travis-ci.org/SiegeLord/RustAllegro)
 
 ### Games
 

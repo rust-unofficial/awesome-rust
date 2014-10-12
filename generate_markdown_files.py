@@ -383,6 +383,8 @@ DATA = \
         },
       "SiegeLord/RustAllegro": {
           "url": "https://github.com/SiegeLord/RustAllegro",
+          "travis_url": "https://travis-ci.org/SiegeLord/RustAllegro",
+          "travis_badge": "https://travis-ci.org/SiegeLord/RustAllegro.svg?branch=master",
           "unstable": True
         },
       "bjz/bullet-rs": {
