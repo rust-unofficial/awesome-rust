@@ -125,6 +125,7 @@ A list of awesome but unstable/experimental Rust projects which some day hopeful
 See also [http://arewewebyet.com/](http://arewewebyet.com/)
 
 * Core
+  * [Teepee](http://teepee.rs/) — [<img src="https://travis-ci.org/teepee/teepee.svg?branch=master">](https://travis-ci.org/teepee/teepee)
 * Client
 * Server
 

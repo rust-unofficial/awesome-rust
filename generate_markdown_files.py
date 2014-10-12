@@ -242,6 +242,12 @@ DATA = \
           "travis_url": "https://travis-ci.org/chris-morgan/rust-http",
           "travis_badge": "https://travis-ci.org/chris-morgan/rust-http.svg?branch=master"
         },
+      "Teepee": {
+          "url": "http://teepee.rs/",
+          "travis_url": "https://travis-ci.org/teepee/teepee",
+          "travis_badge": "https://travis-ci.org/teepee/teepee.svg?branch=master",
+          'unstable': True
+        },
       "hyperium/hyper": {
           "url": "https://github.com/hyperium/hyper",
           "travis_url": "https://travis-ci.org/hyperium/hyper",
@@ -606,6 +612,7 @@ add(   'See also ' + md_link('http://arewewebyet.com/', 'http://arewewebyet.com/
 add(   '* Core', rows_stable, rows_unstable )
 entry( '  * ', 'chris-morgan/rust-http', rows_stable, rows_unstable )
 entry( '  * ', 'hyperium/hyper', rows_stable, rows_unstable )
+entry( '  * ', 'Teepee', rows_stable, rows_unstable )
 add(   '* Client', rows_stable, rows_unstable )
 entry( '  * ', 'carllerche/curl-rust', rows_stable, rows_unstable )
 entry( '  * ', 'vhbit/curl-rs', rows_stable, rows_unstable )
