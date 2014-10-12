@@ -6,17 +6,17 @@ def md_link(name, url):
 
 DATA = \
     {
-      "seb-m/common.rs": {
-          "url": 'https://github.com/klutzy/suruga',
-          "descr": 'Common Rust crypto utilities'
+      "bjz/openal-rs": {
+          "url": "https://github.com/bjz/openal-rs/",
+          "descr": md_link('OpenAL 1.1', 'http://www.openal.org/') + " bindings"
+        },
+      "Cargo": {
+          "url": "http://crates.io",
+          "descr": "the Rust package manager"
         },
       "klutzy/suruga": {
           "url": 'https://github.com/klutzy/suruga',
           "descr": 'a Rust implementation of ' + md_link('TLS 1.2', 'http://tools.ietf.org/html/rfc5246')
-        },
-      "bjz/openal-rs": {
-          "url": "https://github.com/bjz/openal-rs/",
-          "descr": md_link('OpenAL 1.1', 'http://www.openal.org/') + " bindings"
         },
       "JeremyLetang/ears": {
           "url": "https://github.com/JeremyLetang/ears",
@@ -36,9 +36,15 @@ DATA = \
           "travis_url": "https://travis-ci.org/musitdev/rust-portmidi",
           "travis_badge": "https://travis-ci.org/musitdev/rust-portmidi.png?branch=master"
         },
-      "Cargo": {
-          "url": "http://crates.io",
-          "descr": "the Rust package manager"
+      "PistonDevelopers/image": {
+          "url": "https://github.com/PistonDevelopers/image",
+          "descr": 'Basic imaging processing functions and methods for converting to and from image formats',
+          "travis_url": "https://travis-ci.org/PistonDevelopers/image",
+          "travis_badge": "https://travis-ci.org/PistonDevelopers/image.png?branch=master"
+        },
+      "seb-m/common.rs": {
+          "url": 'https://github.com/klutzy/suruga',
+          "descr": 'Common Rust crypto utilities'
         },
       "SiegeLord/RustCMake": {
           "url": "https://github.com/SiegeLord/RustCMake",
@@ -169,7 +175,8 @@ DATA = \
           "url": "https://github.com/JeremyLetang/rustenstein3D/",
           "descr": "a raycasting engine in rust",
           "travis_url": "",
-          "travis_badge": ""
+          "travis_badge": "",
+          'unstable': True
         },
       "lifthrasiir/angolmois-rust": {
           "url": "https://github.com/lifthrasiir/angolmois-rust",
@@ -368,6 +375,7 @@ TOC = \
     - [Game development](#game-development)
     - [Games](#games)
     - [GUI](#gui)
+    - [Image processing](#image-processing)
     - [Network programming](#network-programming)
     - [Template engine](#template-engine)
     - [Testing](#testing)
@@ -510,6 +518,9 @@ add(   '* Termbox', rows_stable, rows_unstable )
 entry( '  * ', 'gchp/rustbox', rows_stable, rows_unstable )
 add(   '* wxWidgets', rows_stable, rows_unstable )
 entry( '  * ', 'kenz-gelsoft/wxRust', rows_stable, rows_unstable )
+
+add(   '\n### Image processing\n', rows_stable, rows_unstable )
+entry( '* ', 'PistonDevelopers/image', rows_stable, rows_unstable )
 
 add(   '\n### Network programming\n', rows_stable, rows_unstable )
 add(   '* ZeroMQ', rows_stable, rows_unstable )

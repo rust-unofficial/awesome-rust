@@ -17,6 +17,7 @@ Only projects that are stable and useful to users are added. Projects that do no
     - [Game development](#game-development)
     - [Games](#games)
     - [GUI](#gui)
+    - [Image processing](#image-processing)
     - [Network programming](#network-programming)
     - [Template engine](#template-engine)
     - [Testing](#testing)
@@ -95,7 +96,6 @@ Only projects that are stable and useful to users are added. Projects that do no
 
 ### Game development
 
-* [JeremyLetang/rustenstein3D](https://github.com/JeremyLetang/rustenstein3D/) — a raycasting engine in rust
 
 ### Games
 
@@ -115,6 +115,10 @@ Only projects that are stable and useful to users are added. Projects that do no
 * Termbox
   * [gchp/rustbox](https://github.com/gchp/rustbox) — a Rust implementation of [termbox]() http://github.com/nsf/termbox
 * wxWidgets
+
+### Image processing
+
+* [PistonDevelopers/image](https://github.com/PistonDevelopers/image) — Basic imaging processing functions and methods for converting to and from image formats [<img src="https://travis-ci.org/PistonDevelopers/image.png?branch=master">](https://travis-ci.org/PistonDevelopers/image)
 
 ### Network programming
 
