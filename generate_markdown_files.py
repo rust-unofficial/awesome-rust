@@ -383,6 +383,7 @@ DATA = \
         },
       "SiegeLord/RustAllegro": {
           "url": "https://github.com/SiegeLord/RustAllegro",
+          "descr": md_link('Allegro 5', 'http://liballeg.org/') + " bindings",
           "travis_url": "https://travis-ci.org/SiegeLord/RustAllegro",
           "travis_badge": "https://travis-ci.org/SiegeLord/RustAllegro.svg?branch=master",
           "unstable": True
