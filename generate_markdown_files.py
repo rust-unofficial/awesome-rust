@@ -281,16 +281,13 @@ DATA = \
         },
       "Rust by Example": {
           "url": "http://rustbyexample.com/",
-          "section": ["resources"]
         },
       "Rust CI": {
           "url": "http://www.rust-ci.org",
           "descr": "a " + md_link('Travis CI', 'https://travis-ci.com') + " dashboard for Rust projects",
-          "section": ["resources"]
         },
       "Rust Guidelines": {
           "url": "http://aturon.github.io",
-          "section": ["resources"]
         },
       "kenz-gelsoft/wxRust": {
             "url": "https://github.com/kenz-gelsoft/wxRust",
@@ -298,7 +295,59 @@ DATA = \
             "travis_url": "https://travis-ci.org/kenz-gelsoft/wxRust",
             "travis_badge": "https://travis-ci.org/kenz-gelsoft/wxRust.png?branch=master",
             "unstable": True
-        }
+        },
+      "Arcterus/game-of-life": {
+            "url": "https://github.com/Arcterus/game-of-life",
+            "unstable": True
+        },
+      "Arcterus/rust-snake": {
+            "url": "https://github.com/Arcterus/rust-snake",
+            "unstable": True
+        },
+      "bachm/rusty-tetris": {
+            "url": "https://github.com/bachm/rusty-tetris",
+            "unstable": True
+        },
+      "bvssvni/rust-snake": {
+            "url": "https://github.com/bvssvni/rust-snake",
+            "unstable": True
+        },
+      "Coeuvre/rust-2048": {
+            "url": "https://github.com/Coeuvre/rust-2048",
+            "unstable": True
+        },
+      "Coeuvre/rust-pong": {
+            "url": "https://github.com/Coeuvre/rust-pong",
+            "unstable": True
+        },
+      "dpc/rustyhex": {
+            "url": "https://github.com/dpc/rustyhex",
+            "unstable": True
+        },
+      "FrozenCow/rust-airhockey": {
+            "url": "https://github.com/FrozenCow/rust-airhockey",
+            "unstable": True
+        },
+      "jeaye/q3": {
+            "url": "https://github.com/jeaye/q3",
+            "unstable": True
+        },
+      "mynery/xxo": {
+            "url": "https://github.com/mynery/xxo",
+            "unstable": True
+        },
+      "ozkriff/marauder": {
+            "url": "https://github.com/ozkriff/marauder",
+            "unstable": True
+        },
+      "rlane/cubeland": {
+            "url": "https://github.com/rlane/cubeland",
+            "unstable": True
+        },
+      "zokier/pong-rs": {
+            "url": "https://github.com/zokier/pong-rs",
+            "unstable": True
+        },
     }
 
 
@@ -329,22 +378,6 @@ DATA = \
 	* [bjz/bullet-rs](https://github.com/bjz/bullet-rs/) Bindings and wrapper for the Bullet physics C API
 	* [sebcrozet/ncollide](https://github.com/sebcrozet/ncollide) n-dimensional collision detection library in Rust.
 	* [sebcrozet/nphysics](https://github.com/sebcrozet/nphysics) 2 and 3-dimensional rigid body physics engine for Rust. [![Build Status](https://travis-ci.org/sebcrozet/nphysics.png?branch=master)](https://travis-ci.org/sebcrozet/nphysics)
-
-## Games
-
-* [Arcterus/game-of-life](https://github.com/Arcterus/game-of-life)
-* [Arcterus/rust-snake](https://github.com/Arcterus/rust-snake)
-* [bachm/rusty-t*tris](https://github.com/bachm/rusty-tetris)
-* [bvssvni/rust-snake](https://github.com/bvssvni/rust-snake)
-* [Coeuvre/rust-2048](https://github.com/Coeuvre/rust-2048)
-* [Coeuvre/rust-pong](https://github.com/Coeuvre/rust-pong)
-* [dpc/rustyhex](https://github.com/dpc/rustyhex/) Simple roguelike written in Rust language
-* [FrozenCow/rust-airhockey](https://github.com/FrozenCow/rust-airhockey) A simple airhockey game using rust-sdl and OpenGL
-* [jeaye/q3](https://github.com/Jeaye/q3) A Quake 3 like game with voxelized destructible maps [<img src="https://travis-ci.org/jeaye/q3.png?branch=master">](https://travis-ci.org/jeaye/q3)
-* [mynery/xxo](https://github.com/mynery/xxo) Tic Tac Toe in rust with termbox
-* [ozkriff/marauder](https://github.com/ozkriff/marauder) Turn-based strategy game written in Rust using GLFW 3 and OpenGL [<img src="https://travis-ci.org/ozkriff/marauder.png?branch=master">](https://travis-ci.org/ozkriff/marauder)
-* [rlane/cubeland](https://github.com/rlane/cubeland) Infinite terrain with Rust and OpenGL
-* [zokier/pong-rs](https://github.com/zokier/pong-rs) Classic pong game
 """
 
 
@@ -502,7 +535,20 @@ add(   '\n### Game development\n', rows_stable, rows_unstable )
 entry( '* ', 'JeremyLetang/rustenstein3D', rows_stable, rows_unstable )
 
 add(   '\n### Games\n', rows_stable, rows_unstable )
+entry( '* ', 'Arcterus/game-of-life', rows_stable, rows_unstable )
+entry( '* ', 'Arcterus/rust-snake', rows_stable, rows_unstable )
+entry( '* ', 'bachm/rusty-tetris', rows_stable, rows_unstable )
+entry( '* ', 'bvssvni/rust-snake', rows_stable, rows_unstable )
+entry( '* ', 'Coeuvre/rust-2048', rows_stable, rows_unstable )
+entry( '* ', 'Coeuvre/rust-pong', rows_stable, rows_unstable )
+entry( '* ', 'dpc/rustyhex', rows_stable, rows_unstable )
+entry( '* ', 'FrozenCow/rust-airhockey', rows_stable, rows_unstable )
+entry( '* ', 'jeaye/q3', rows_stable, rows_unstable )
 entry( '* ', 'lifthrasiir/angolmois-rust', rows_stable, rows_unstable )
+entry( '* ', 'mynery/xxo', rows_stable, rows_unstable )
+entry( '* ', 'ozkriff/marauder', rows_stable, rows_unstable )
+entry( '* ', 'rlane/cubeland', rows_stable, rows_unstable )
+entry( '* ', 'zokier/pong-rs', rows_stable, rows_unstable )
 
 add(   '\n### GUI\n', rows_stable, rows_unstable )
 add(   '* Cocoa', rows_stable, rows_unstable )
