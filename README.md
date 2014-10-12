@@ -89,7 +89,6 @@ Only projects that are stable and useful to users are added. Projects that do no
   * [alexcrichton/toml-rs](https://github.com/alexcrichton/toml-rs)
 * Tnetstring
 * XML
-  * [bjz/sax-rs](https://github.com/bjz/sax-rs) — bindings to libxml2's SAX parser [<img src="https://travis-ci.org/bjz/sax-rs.svg?branch=master">](https://travis-ci.org/bjz/sax-rs)
   * [Florob/RustyXML](https://github.com/Florob/RustyXML) — an XML parser written in Rust [<img src="https://travis-ci.org/Florob/RustyXML.svg?branch=master">](https://travis-ci.org/Florob/RustyXM)
   * [netvl/rust-xml](https://github.com/netvl/rust-xml) — a streaming XML library [<img src="https://travis-ci.org/netvl/rust-xml.svg?branch=master">](https://travis-ci.org/netvl/rust-xml)
   * [Ygg01/xml-air](https://github.com/Ygg01/xml-air) — A hybrid pull, DOM parser written in pure Rust [<img src="https://travis-ci.org/Ygg01/xml-air.svg?branch=master">](https://travis-ci.org/Ygg01/xml-air)

@@ -147,12 +147,6 @@ DATA = \
           "travis_badge": "https://travis-ci.org/erickt/rust-tnetstring.svg?branch=master",
           "unstable": True
         },
-      "bjz/sax-rs": {
-          "url": "https://github.com/bjz/sax-rs",
-          "descr": "bindings to libxml2's SAX parser",
-          "travis_url": "https://travis-ci.org/bjz/sax-rs",
-          "travis_badge": "https://travis-ci.org/bjz/sax-rs.svg?branch=master"
-        },
       "Ygg01/xml-air": {
           "url": "https://github.com/Ygg01/xml-air",
           "descr": "A hybrid pull, DOM parser written in pure Rust",
@@ -541,7 +535,6 @@ entry( '  * ', 'alexcrichton/toml-rs', rows_stable, rows_unstable )
 add(   '* Tnetstring', rows_stable, rows_unstable )
 entry( '  * ', 'erickt/rust-tnetstring', rows_stable, rows_unstable )
 add(   '* XML', rows_stable, rows_unstable )
-entry( '  * ', 'bjz/sax-rs', rows_stable, rows_unstable )
 entry( '  * ', 'Florob/RustyXML', rows_stable, rows_unstable )
 entry( '  * ', 'netvl/rust-xml', rows_stable, rows_unstable )
 entry( '  * ', 'Ygg01/xml-air', rows_stable, rows_unstable )
