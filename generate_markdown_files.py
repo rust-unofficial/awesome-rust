@@ -348,6 +348,14 @@ DATA = \
             "url": "https://github.com/zokier/pong-rs",
             "unstable": True
         },
+      "bjz/gl-rs": {
+            "url": "https://github.com/bjz/gl-rs",
+            "unstable": True
+        },
+      "servo/rust-opengles": {
+            "url": "https://github.com/servo/rust-opengles",
+            "unstable": True
+        },
     }
 
 
@@ -363,9 +371,6 @@ DATA = \
 
 ## Game development
 
-* OpenGL
-	* [bjz/gl-rs](https://github.com/bjz/gl-rs) An OpenGL function pointer loader for Rust [<img src="https://travis-ci.org/bjz/gl-rs.png?branch=master">](https://travis-ci.org/bjz/gl-rs)
-	* [servo/rust-opengles](https://github.com/mozilla-servo/rust-opengles) OpenGL ES 2.0 bindings for Rust
 * Windowing
 	* [bjz/glfw-rs](https://github.com/bjz/glfw-rs) GLFW3 bindings and idiomatic wrapper for Rust. [<img src="https://travis-ci.org/bjz/glfw-rs.png?branch=master">](https://travis-ci.org/bjz/glfw-rs)
 	* [jeremyletang/rust-sfml](https://github.com/JeremyLetang/rust-sfml) SFML bindings for Rust [<img src="https://travis-ci.org/jeremyletang/rust-sfml.png?branch=master">](https://travis-ci.org/JeremyLetang/rust-sfml)
@@ -557,6 +562,9 @@ add(   '* Gtk+', rows_stable, rows_unstable )
 entry( '  * ', 'JeremyLetang/rgtk', rows_stable, rows_unstable )
 add(   '* ncurses', rows_stable, rows_unstable )
 entry( '  * ', 'jeaye/ncurses-rs', rows_stable, rows_unstable )
+add(   '* OpenGL', rows_stable, rows_unstable )
+entry( '  * ', 'bjz/gl-rs', rows_stable, rows_unstable )
+entry( '  * ', 'servo/rust-opengles', rows_stable, rows_unstable )
 add(   '* SDL', rows_stable, rows_unstable )
 entry( '  * ', 'AngryLawyer/rust-sdl2', rows_stable, rows_unstable )
 entry( '  * ', 'brson/rust-sdl', rows_stable, rows_unstable )
