@@ -148,9 +148,9 @@ See also [http://arewewebyet.com/](http://arewewebyet.com/)
   * [hyperium/hyper](https://github.com/hyperium/hyper) — [<img src="https://travis-ci.org/hyperium/hyper.svg?branch=master">](https://travis-ci.org/hyperium/hyper)
 * Client
   * [carllerche/curl-rust](https://github.com/carllerche/curl-rust) — [libcurl](http://curl.haxx.se/libcurl/) bindings
-  * [vhbit/curl-rs](https://github.com/vhbit/curl-rs) — [libcurl](http://curl.haxx.se/libcurl/) bindings [<img src="https://travis-ci.org/vhbit/curl-rs">](https://travis-ci.org/vhbit/curl-rs.svg?branch=master)
+  * [vhbit/curl-rs](https://github.com/vhbit/curl-rs) — [libcurl](http://curl.haxx.se/libcurl/) bindings
 * Server
-  * [erickt/rust-mongrel2](https://github.com/erickt/rust-mongrel2) — [Mongrel2](http://mongrel2.org) bindings [<img src="https://travis-ci.org/erickt/rust-mongrel2">](https://travis-ci.org/erickt/rust-mongrel2.svg?branch=master)
+  * [erickt/rust-mongrel2](https://github.com/erickt/rust-mongrel2) — [Mongrel2](http://mongrel2.org) bindings [<img src="https://travis-ci.org/erickt/rust-mongrel2.svg?branch=master">](https://travis-ci.org/erickt/rust-mongrel2)
   * [Iron](http://ironframework.io/) — inspired by [Express](http://expressjs.com/) [<img src="https://travis-ci.org/iron/iron">](https://travis-ci.org/iron/iron.svg?branch=master)
   * [Nickel](http://nickel.rs/) — inspired by [Express](http://expressjs.com/)
 

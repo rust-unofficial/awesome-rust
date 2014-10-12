@@ -260,14 +260,12 @@ DATA = \
       "vhbit/curl-rs": {
           "url": "https://github.com/vhbit/curl-rs",
           "descr": md_link('libcurl', 'http://curl.haxx.se/libcurl/') + " bindings",
-          "travis_url": "https://travis-ci.org/vhbit/curl-rs.svg?branch=master",
-          "travis_badge": "https://travis-ci.org/vhbit/curl-rs"
         },
       "erickt/rust-mongrel2": {
           "url": "https://github.com/erickt/rust-mongrel2",
           "descr": md_link('Mongrel2', 'http://mongrel2.org') + " bindings",
-          "travis_url": "https://travis-ci.org/erickt/rust-mongrel2.svg?branch=master",
-          "travis_badge": "https://travis-ci.org/erickt/rust-mongrel2"
+          "travis_url": "https://travis-ci.org/erickt/rust-mongrel2",
+          "travis_badge": "https://travis-ci.org/erickt/rust-mongrel2.svg?branch=master",
         },
       "Iron": {
           "url": "http://ironframework.io/",
