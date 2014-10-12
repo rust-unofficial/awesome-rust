@@ -67,13 +67,13 @@ A list of awesome but unstable/experimental Rust projects which some day hopeful
 
 ### Game development
 
+* [bjz/bullet-rs](https://github.com/bjz/bullet-rs)
 * [JeremyLetang/rustenstein3D](https://github.com/JeremyLetang/rustenstein3D/) — a raycasting engine in rust
 * [PistonDevelopers/piston](https://github.com/pistondevelopers/piston)
 * [sebcrozet/kiss3d](https://github.com/sebcrozet/kiss3d)
 * [sebcrozet/ncollide](https://github.com/sebcrozet/ncollide)
 * [sebcrozet/nphysics](https://github.com/sebcrozet/nphysics)
 * [SiegeLord/RustAllegro](https://github.com/SiegeLord/RustAllegro)
-* [bjz/bullet-rs](https://github.com/bjz/bullet-rs)
 
 ### Games
 
@@ -98,9 +98,9 @@ A list of awesome but unstable/experimental Rust projects which some day hopeful
 * ncurses
 * OpenGL
   * [bjz/gl-rs](https://github.com/bjz/gl-rs)
+  * [bjz/glfw-rs](https://github.com/bjz/glfw-rs)
   * [servo/rust-glut](https://github.com/mozilla-servo/rust-glut)
   * [servo/rust-opengles](https://github.com/servo/rust-opengles)
-  * [bjz/glfw-rs](https://github.com/bjz/glfw-rs)
 * SDL
 * SFML
   * [jeremyletang/rust-sfml](https://github.com/JeremyLetang/rust-sfml)
