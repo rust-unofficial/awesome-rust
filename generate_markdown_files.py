@@ -58,10 +58,13 @@ DATA = \
         },
       "docopt/docopt.rs": {
           "url": "https://github.com/docopt/docopt.rs",
-          "descr": "a Rust implementation of " + md_link('DocOpt', 'http://docopt.org')
+          "descr": "a Rust implementation of " + md_link('DocOpt', 'http://docopt.org'),
+          "travis_url": "https://travis-ci.org/docopt/docopt.rs",
+          "travis_badge": "https://travis-ci.org/docopt/docopt.rs.svg?branch=master"
         },
       "wycats/hammer.rs": {
-          "url": "https://github.com/wycats/hammer.rs"
+          "url": "https://github.com/wycats/hammer.rs",
+          "unstable": True
         },
       "lifthrasiir/rust-zip": {
           "url": "https://github.com/lifthrasiir/rust-zip",
@@ -215,16 +218,17 @@ DATA = \
           "travis_badge": "https://travis-ci.org/erickt/rust-zmq.svg?branch=master"
         },
       "zeromq/zmq.rs": {
-            "url": "https://github.com/zeromq/zmq.rs",
-            "descr": "Rust implementation of the " + md_link('ZeroMQ', 'http://zeromq.org') + "protocol",
-            "travis_url": "https://travis-ci.org/zeromq/zmq.rs",
-            "travis_badge": "https://travis-ci.org/zeromq/zmq.rs.svg?branch=master",
-            "unstable": True
+          "url": "https://github.com/zeromq/zmq.rs",
+          "descr": "Rust implementation of the " + md_link('ZeroMQ', 'http://zeromq.org') + "protocol",
+          "travis_url": "https://travis-ci.org/zeromq/zmq.rs",
+          "travis_badge": "https://travis-ci.org/zeromq/zmq.rs.svg?branch=master",
+          "unstable": True
         },
       "erickt/rust-mustache": {
           "url": "https://github.com/erickt/rust-mustache",
           "travis_url": "https://travis-ci.org/erickt/rust-mustache",
-          "travis_badge": "https://travis-ci.org/erickt/rust-mustache.svg?branch=master"
+          "travis_badge": "https://travis-ci.org/erickt/rust-mustache.svg?branch=master",
+          "unstable": True
         },
       "BurntSushi/quickcheck": {
           "url": "https://github.com/BurntSushi/quickcheck",

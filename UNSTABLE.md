@@ -35,6 +35,7 @@ A list of awesome but unstable/experimental Rust projects which some day hopeful
 
 ### Command-line argument parsing
 
+* [wycats/hammer.rs](https://github.com/wycats/hammer.rs)
 
 ### Compression
 
@@ -116,6 +117,7 @@ A list of awesome but unstable/experimental Rust projects which some day hopeful
 ### Template engine
 
 * Mustache
+  * [erickt/rust-mustache](https://github.com/erickt/rust-mustache) — [<img src="https://travis-ci.org/erickt/rust-mustache.svg?branch=master">](https://travis-ci.org/erickt/rust-mustache)
 
 ### Testing
 

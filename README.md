@@ -44,8 +44,7 @@ Only projects that are stable and useful to users are added. Projects that do no
 
 ### Command-line argument parsing
 
-* [docopt/docopt.rs](https://github.com/docopt/docopt.rs) — a Rust implementation of [DocOpt](http://docopt.org)
-* [wycats/hammer.rs](https://github.com/wycats/hammer.rs)
+* [docopt/docopt.rs](https://github.com/docopt/docopt.rs) — a Rust implementation of [DocOpt](http://docopt.org) [<img src="https://travis-ci.org/docopt/docopt.rs.svg?branch=master">](https://travis-ci.org/docopt/docopt.rs)
 
 ### Compression
 
@@ -131,7 +130,6 @@ Only projects that are stable and useful to users are added. Projects that do no
 ### Template engine
 
 * Mustache
-  * [erickt/rust-mustache](https://github.com/erickt/rust-mustache) — [<img src="https://travis-ci.org/erickt/rust-mustache.svg?branch=master">](https://travis-ci.org/erickt/rust-mustache)
   * [rustache/rustache](https://github.com/rustache/rustache) — [<img src="https://travis-ci.org/rustache/rustache.svg?branch=master">](https://travis-ci.org/rustache/rustache)
 
 ### Testing
