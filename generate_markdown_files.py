@@ -277,7 +277,9 @@ DATA = \
         },
       "Nickel": {
           "url": "http://nickel.rs/",
-          "descr": "inspired by " + md_link('Express', 'http://expressjs.com/')
+          "descr": "inspired by " + md_link('Express', 'http://expressjs.com/'),
+          "travis_url": "https://travis-ci.org/nickel-org/nickel.rs",
+          "travis_badge": "https://travis-ci.org/nickel-org/nickel.rs.svg?branch=master",
         },
       "Rust by Example": {
           "url": "http://rustbyexample.com/",
