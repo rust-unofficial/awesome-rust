@@ -356,34 +356,43 @@ DATA = \
             "url": "https://github.com/servo/rust-opengles",
             "unstable": True
         },
-    }
-
-
-
-"""
-      "": {
-            "url": "",
-            "descr": " " + md_link('', '') + " ",
-            "travis_url": "",
-            "travis_badge": "",
+      "PistonDevelopers/piston": {
+            "url": "https://github.com/pistondevelopers/piston",
             "unstable": True
         },
-
-## Game development
-
-* Windowing
-	* [bjz/glfw-rs](https://github.com/bjz/glfw-rs) GLFW3 bindings and idiomatic wrapper for Rust. [<img src="https://travis-ci.org/bjz/glfw-rs.png?branch=master">](https://travis-ci.org/bjz/glfw-rs)
-	* [jeremyletang/rust-sfml](https://github.com/JeremyLetang/rust-sfml) SFML bindings for Rust [<img src="https://travis-ci.org/jeremyletang/rust-sfml.png?branch=master">](https://travis-ci.org/JeremyLetang/rust-sfml)
-	* [servo/rust-glut](https://github.com/mozilla-servo/rust-glut) GLUT bindings for Rust
-	* [SiegeLord/RustAllegro](https://github.com/SiegeLord/RustAllegro) A Rust wrapper and bindings of Allegro 5 game programming library [![Build Status](https://travis-ci.org/SiegeLord/RustAllegro.png?branch=master)](https://travis-ci.org/SiegeLord/RustAllegro)
-* Game Engines
-	* [PistonDevelopers/piston](https://github.com/pistondevelopers/piston/) A user friendly game engine written in Rust
-	* [sebcrozet/kiss3d](https://github.com/sebcrozet/kiss3d) Keep it simple, stupid 3d graphics engine for Rust.
-* Collision Detection, Physics
-	* [bjz/bullet-rs](https://github.com/bjz/bullet-rs/) Bindings and wrapper for the Bullet physics C API
-	* [sebcrozet/ncollide](https://github.com/sebcrozet/ncollide) n-dimensional collision detection library in Rust.
-	* [sebcrozet/nphysics](https://github.com/sebcrozet/nphysics) 2 and 3-dimensional rigid body physics engine for Rust. [![Build Status](https://travis-ci.org/sebcrozet/nphysics.png?branch=master)](https://travis-ci.org/sebcrozet/nphysics)
-"""
+      "sebcrozet/kiss3d": {
+            "url": "https://github.com/sebcrozet/kiss3d",
+            "unstable": True
+        },
+      "servo/rust-glut": {
+            "url": "https://github.com/mozilla-servo/rust-glut",
+            "unstable": True
+        },
+      "bjz/glfw-rs": {
+            "url": "https://github.com/bjz/glfw-rs",
+            "unstable": True
+        },
+      "jeremyletang/rust-sfml": {
+            "url": "https://github.com/JeremyLetang/rust-sfml",
+            "unstable": True
+        },
+      "SiegeLord/RustAllegro": {
+            "url": "https://github.com/SiegeLord/RustAllegro",
+            "unstable": True
+        },
+      "bjz/bullet-rs": {
+            "url": "https://github.com/bjz/bullet-rs",
+            "unstable": True
+        },
+      "sebcrozet/ncollide": {
+            "url": "https://github.com/sebcrozet/ncollide",
+            "unstable": True
+        },
+      "sebcrozet/nphysics": {
+            "url": "https://github.com/sebcrozet/nphysics",
+            "unstable": True
+        },
+    }
 
 
 HEADER_STABLE = \
@@ -538,6 +547,12 @@ entry( '  * ', 'Ygg01/xml-air', rows_stable, rows_unstable )
 
 add(   '\n### Game development\n', rows_stable, rows_unstable )
 entry( '* ', 'JeremyLetang/rustenstein3D', rows_stable, rows_unstable )
+entry( '* ', 'PistonDevelopers/piston', rows_stable, rows_unstable )
+entry( '* ', 'sebcrozet/kiss3d', rows_stable, rows_unstable )
+entry( '* ', 'sebcrozet/ncollide', rows_stable, rows_unstable )
+entry( '* ', 'sebcrozet/nphysics', rows_stable, rows_unstable )
+entry( '* ', 'SiegeLord/RustAllegro', rows_stable, rows_unstable )
+entry( '* ', 'bjz/bullet-rs', rows_stable, rows_unstable )
 
 add(   '\n### Games\n', rows_stable, rows_unstable )
 entry( '* ', 'Arcterus/game-of-life', rows_stable, rows_unstable )
@@ -564,10 +579,14 @@ add(   '* ncurses', rows_stable, rows_unstable )
 entry( '  * ', 'jeaye/ncurses-rs', rows_stable, rows_unstable )
 add(   '* OpenGL', rows_stable, rows_unstable )
 entry( '  * ', 'bjz/gl-rs', rows_stable, rows_unstable )
+entry( '  * ', 'servo/rust-glut', rows_stable, rows_unstable )
 entry( '  * ', 'servo/rust-opengles', rows_stable, rows_unstable )
+entry( '  * ', 'bjz/glfw-rs', rows_stable, rows_unstable )
 add(   '* SDL', rows_stable, rows_unstable )
 entry( '  * ', 'AngryLawyer/rust-sdl2', rows_stable, rows_unstable )
 entry( '  * ', 'brson/rust-sdl', rows_stable, rows_unstable )
+add(   '* SFML', rows_stable, rows_unstable )
+entry( '  * ', 'jeremyletang/rust-sfml', rows_stable, rows_unstable )
 add(   '* Termbox', rows_stable, rows_unstable )
 entry( '  * ', 'gchp/rustbox', rows_stable, rows_unstable )
 add(   '* wxWidgets', rows_stable, rows_unstable )

@@ -113,6 +113,7 @@ Only projects that are stable and useful to users are added. Projects that do no
 * SDL
   * [AngryLawyer/rust-sdl2](https://github.com/AngryLawyer/rust-sdl2) — [SDL2](http://www.libsdl.org/) bindings [<img src="https://travis-ci.org/AngryLawyer/rust-sdl2.png?branch=master">](https://travis-ci.org/AngryLawyer/rust-sdl2)
   * [brson/rust-sdl](https://github.com/brson/rust-sdl) — [SDL1](http://www.libsdl.org/) bindings [<img src="https://travis-ci.org/brson/rust-sdl.png?branch=master">](https://travis-ci.org/brson/rust-sdl)
+* SFML
 * Termbox
   * [gchp/rustbox](https://github.com/gchp/rustbox) — a Rust implementation of [termbox]() http://github.com/nsf/termbox
 * wxWidgets
