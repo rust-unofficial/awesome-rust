@@ -43,7 +43,7 @@ Only projects that are stable and useful to users are added. Projects that do no
 
 ### Command-line argument parsing
 
-* [docopt/docopt.rs](https://github.com/docopt/docopt.rs) — a [DocOpt](http://docopt.org) port to Rust
+* [docopt/docopt.rs](https://github.com/docopt/docopt.rs) — a Rust implementation of [DocOpt](http://docopt.org)
 * [wycats/hammer.rs](https://github.com/wycats/hammer.rs)
 
 ### Compression
@@ -128,7 +128,7 @@ Only projects that are stable and useful to users are added. Projects that do no
 
 ### Testing
 
-* [BurntSushi/quickcheck](https://github.com/BurntSushi/quickcheck) — [QuickCheck](http://www.haskell.org/haskellwiki/Introduction_to_QuickCheck1) in Rust [<img src="https://travis-ci.org/BurntSushi/quickcheck.png?branch=master">](https://travis-ci.org/BurntSushi/quickcheck)
+* [BurntSushi/quickcheck](https://github.com/BurntSushi/quickcheck) — a Rust implementation of [QuickCheck](http://www.haskell.org/haskellwiki/Introduction_to_QuickCheck1) [<img src="https://travis-ci.org/BurntSushi/quickcheck.png?branch=master">](https://travis-ci.org/BurntSushi/quickcheck)
 * [farcaller/shiny](https://github.com/farcaller/shiny) — a fancy syntax similar to ruby's rspec or Objective-C's kiwi
 
 ### Web programming

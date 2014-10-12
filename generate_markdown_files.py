@@ -52,7 +52,7 @@ DATA = \
         },
       "docopt/docopt.rs": {
           "url": "https://github.com/docopt/docopt.rs",
-          "descr": "a " + md_link('DocOpt', 'http://docopt.org') + " port to Rust"
+          "descr": "a Rust implementation of " + md_link('DocOpt', 'http://docopt.org')
         },
       "wycats/hammer.rs": {
           "url": "https://github.com/wycats/hammer.rs"
@@ -227,7 +227,7 @@ DATA = \
         },
       "BurntSushi/quickcheck": {
           "url": "https://github.com/BurntSushi/quickcheck",
-          "descr": md_link('QuickCheck', 'http://www.haskell.org/haskellwiki/Introduction_to_QuickCheck1') + ' in Rust',
+          "descr": 'a Rust implementation of ' + md_link('QuickCheck', 'http://www.haskell.org/haskellwiki/Introduction_to_QuickCheck1'),
           "travis_url": "https://travis-ci.org/BurntSushi/quickcheck",
           "travis_badge": "https://travis-ci.org/BurntSushi/quickcheck.png?branch=master"
         },
