@@ -227,7 +227,7 @@ DATA = \
         },
       "BurntSushi/quickcheck": {
           "url": "https://github.com/BurntSushi/quickcheck",
-          "descr": "property-based testing using randomly generated input",
+          "descr": md_link('QuickCheck', 'http://www.haskell.org/haskellwiki/Introduction_to_QuickCheck1') + ' in Rust',
           "travis_url": "https://travis-ci.org/BurntSushi/quickcheck",
           "travis_badge": "https://travis-ci.org/BurntSushi/quickcheck.png?branch=master"
         },

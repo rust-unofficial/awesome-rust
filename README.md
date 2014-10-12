@@ -128,7 +128,7 @@ Only projects that are stable and useful to users are added. Projects that do no
 
 ### Testing
 
-* [BurntSushi/quickcheck](https://github.com/BurntSushi/quickcheck) — property-based testing using randomly generated input [<img src="https://travis-ci.org/BurntSushi/quickcheck.png?branch=master">](https://travis-ci.org/BurntSushi/quickcheck)
+* [BurntSushi/quickcheck](https://github.com/BurntSushi/quickcheck) — [QuickCheck](http://www.haskell.org/haskellwiki/Introduction_to_QuickCheck1) in Rust [<img src="https://travis-ci.org/BurntSushi/quickcheck.png?branch=master">](https://travis-ci.org/BurntSushi/quickcheck)
 * [farcaller/shiny](https://github.com/farcaller/shiny) — a fancy syntax similar to ruby's rspec or Objective-C's kiwi
 
 ### Web programming
