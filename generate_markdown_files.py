@@ -234,7 +234,9 @@ DATA = \
         },
       "farcaller/shiny": {
           "url": "https://github.com/farcaller/shiny",
-          "descr": "a fancy syntax similar to ruby's rspec or Objective-C's kiwi"
+          "descr": "a fancy syntax similar to ruby's rspec or Objective-C's kiwi",
+          "travis_url": "https://travis-ci.org/farcaller/shiny",
+          "travis_badge": "https://travis-ci.org/farcaller/shiny.svg?branch=master"
         },
       "chris-morgan/rust-http": {
           "url": "https://github.com/chris-morgan/rust-http",
