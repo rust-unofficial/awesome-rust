@@ -103,7 +103,6 @@ A list of awesome but unstable/experimental Rust projects which some day hopeful
   * [servo/rust-opengles](https://github.com/servo/rust-opengles)
 * SDL
 * SFML
-  * [jeremyletang/rust-sfml](https://github.com/JeremyLetang/rust-sfml)
 * Termbox
 * wxWidgets
   * [kenz-gelsoft/wxRust](https://github.com/kenz-gelsoft/wxRust) — [wxWidgets](http://www.wxwidgets.org/) bindings [<img src="https://travis-ci.org/kenz-gelsoft/wxRust.png?branch=master">](https://travis-ci.org/kenz-gelsoft/wxRust)

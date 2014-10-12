@@ -290,107 +290,108 @@ DATA = \
           "url": "http://aturon.github.io",
         },
       "kenz-gelsoft/wxRust": {
-            "url": "https://github.com/kenz-gelsoft/wxRust",
-            "descr": md_link('wxWidgets', 'http://www.wxwidgets.org/') + " bindings",
-            "travis_url": "https://travis-ci.org/kenz-gelsoft/wxRust",
-            "travis_badge": "https://travis-ci.org/kenz-gelsoft/wxRust.png?branch=master",
-            "unstable": True
+          "url": "https://github.com/kenz-gelsoft/wxRust",
+          "descr": md_link('wxWidgets', 'http://www.wxwidgets.org/') + " bindings",
+          "travis_url": "https://travis-ci.org/kenz-gelsoft/wxRust",
+          "travis_badge": "https://travis-ci.org/kenz-gelsoft/wxRust.png?branch=master",
+          "unstable": True
         },
       "Arcterus/game-of-life": {
-            "url": "https://github.com/Arcterus/game-of-life",
-            "unstable": True
+          "url": "https://github.com/Arcterus/game-of-life",
+          "unstable": True
         },
       "Arcterus/rust-snake": {
-            "url": "https://github.com/Arcterus/rust-snake",
-            "unstable": True
+          "url": "https://github.com/Arcterus/rust-snake",
+          "unstable": True
         },
       "bachm/rusty-tetris": {
-            "url": "https://github.com/bachm/rusty-tetris",
-            "unstable": True
+          "url": "https://github.com/bachm/rusty-tetris",
+          "unstable": True
         },
       "bvssvni/rust-snake": {
-            "url": "https://github.com/bvssvni/rust-snake",
-            "unstable": True
+          "url": "https://github.com/bvssvni/rust-snake",
+          "unstable": True
         },
       "Coeuvre/rust-2048": {
-            "url": "https://github.com/Coeuvre/rust-2048",
-            "unstable": True
+          "url": "https://github.com/Coeuvre/rust-2048",
+          "unstable": True
         },
       "Coeuvre/rust-pong": {
-            "url": "https://github.com/Coeuvre/rust-pong",
-            "unstable": True
+          "url": "https://github.com/Coeuvre/rust-pong",
+          "unstable": True
         },
       "dpc/rustyhex": {
-            "url": "https://github.com/dpc/rustyhex",
-            "unstable": True
+          "url": "https://github.com/dpc/rustyhex",
+          "unstable": True
         },
       "FrozenCow/rust-airhockey": {
-            "url": "https://github.com/FrozenCow/rust-airhockey",
-            "unstable": True
+          "url": "https://github.com/FrozenCow/rust-airhockey",
+          "unstable": True
         },
       "jeaye/q3": {
-            "url": "https://github.com/jeaye/q3",
-            "unstable": True
+          "url": "https://github.com/jeaye/q3",
+          "unstable": True
         },
       "mynery/xxo": {
-            "url": "https://github.com/mynery/xxo",
-            "unstable": True
+          "url": "https://github.com/mynery/xxo",
+          "unstable": True
         },
       "ozkriff/marauder": {
-            "url": "https://github.com/ozkriff/marauder",
-            "unstable": True
+          "url": "https://github.com/ozkriff/marauder",
+          "unstable": True
         },
       "rlane/cubeland": {
-            "url": "https://github.com/rlane/cubeland",
-            "unstable": True
+          "url": "https://github.com/rlane/cubeland",
+          "unstable": True
         },
       "zokier/pong-rs": {
-            "url": "https://github.com/zokier/pong-rs",
-            "unstable": True
+          "url": "https://github.com/zokier/pong-rs",
+          "unstable": True
         },
       "bjz/gl-rs": {
-            "url": "https://github.com/bjz/gl-rs",
-            "unstable": True
+          "url": "https://github.com/bjz/gl-rs",
+          "unstable": True
         },
       "servo/rust-opengles": {
-            "url": "https://github.com/servo/rust-opengles",
-            "unstable": True
+          "url": "https://github.com/servo/rust-opengles",
+          "unstable": True
         },
       "PistonDevelopers/piston": {
-            "url": "https://github.com/pistondevelopers/piston",
-            "unstable": True
+          "url": "https://github.com/pistondevelopers/piston",
+          "unstable": True
         },
       "sebcrozet/kiss3d": {
-            "url": "https://github.com/sebcrozet/kiss3d",
-            "unstable": True
+          "url": "https://github.com/sebcrozet/kiss3d",
+          "unstable": True
         },
       "servo/rust-glut": {
-            "url": "https://github.com/mozilla-servo/rust-glut",
-            "unstable": True
+          "url": "https://github.com/mozilla-servo/rust-glut",
+          "unstable": True
         },
       "bjz/glfw-rs": {
-            "url": "https://github.com/bjz/glfw-rs",
-            "unstable": True
+          "url": "https://github.com/bjz/glfw-rs",
+          "unstable": True
         },
       "jeremyletang/rust-sfml": {
-            "url": "https://github.com/JeremyLetang/rust-sfml",
-            "unstable": True
+          "url": "https://github.com/JeremyLetang/rust-sfml",
+          "travis_url": "https://travis-ci.org/JeremyLetang/rust-sfml",
+          "travis_badge": "https://travis-ci.org/jeremyletang/rust_sfml.png?branch=master",
         },
       "SiegeLord/RustAllegro": {
-            "url": "https://github.com/SiegeLord/RustAllegro",
-            "unstable": True
+          "url": "https://github.com/SiegeLord/RustAllegro",
+          "unstable": True
         },
       "bjz/bullet-rs": {
-            "url": "https://github.com/bjz/bullet-rs",
-            "unstable": True
+          "url": "https://github.com/bjz/bullet-rs",
+          "unstable": True
         },
       "sebcrozet/ncollide": {
-            "url": "https://github.com/sebcrozet/ncollide",
-            "unstable": True
+          "url": "https://github.com/sebcrozet/ncollide",
+          "unstable": True
         },
       "sebcrozet/nphysics": {
-            "url": "https://github.com/sebcrozet/nphysics",
-            "unstable": True
+          "url": "https://github.com/sebcrozet/nphysics",
+          "unstable": True
         },
     }
 
