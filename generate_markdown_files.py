@@ -6,6 +6,10 @@ def md_link(name, url):
 
 DATA = \
     {
+      "klutzy/suruga": {
+          "url": 'https://github.com/klutzy/suruga',
+          "descr": 'Rust implementation of ' + md_link('TLS 1.2', 'http://tools.ietf.org/html/rfc5246')
+        },
       "bjz/openal-rs": {
           "url": "https://github.com/bjz/openal-rs/",
           "descr": md_link('OpenAL 1.1', 'http://www.openal.org/') + " bindings"
@@ -447,6 +451,7 @@ entry( '* ', 'eholk/rust-opencl', rows_stable, rows_unstable )
 add(   '\n### Cryptography\n', rows_stable, rows_unstable )
 entry( '* ', 'DaGenix/rust-crypto', rows_stable, rows_unstable )
 entry( '* ', 'dnaq/sodiumoxide', rows_stable, rows_unstable )
+entry( '* ', 'klutzy/suruga', rows_stable, rows_unstable )
 entry( '* ', 'sfackler/rust-openssl', rows_stable, rows_unstable )
 
 add(   '\n### Database\n', rows_stable, rows_unstable )

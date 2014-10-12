@@ -58,6 +58,7 @@ Only projects that are stable and useful to users are added. Projects that do no
 
 * [DaGenix/rust-crypto](https://github.com/DaGenix/rust-crypto) — cryptographic algorithms in Rust [<img src="https://travis-ci.org/DaGenix/rust-crypto.png?branch=master">](https://travis-ci.org/DaGenix/rust-crypto)
 * [dnaq/sodiumoxide](https://github.com/dnaq/sodiumoxide) — [libsodium](https://github.com/jedisct1/libsodium) bindings
+* [klutzy/suruga](https://github.com/klutzy/suruga) — Rust implementation of [TLS 1.2](http://tools.ietf.org/html/rfc5246)
 * [sfackler/rust-openssl](https://github.com/sfackler/rust-openssl) — OpenSSL bindings [<img src="https://travis-ci.org/sfackler/rust-openssl.png?branch=master">](https://travis-ci.org/sfackler/rust-openssl)
 
 ### Database
