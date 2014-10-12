@@ -400,6 +400,11 @@ DATA = \
           "url": "https://github.com/sebcrozet/nphysics",
           "unstable": True
         },
+      "rustache/rustache": {
+          "url": "https://github.com/rustache/rustache",
+          "travis_url": "https://travis-ci.org/rustache/rustache",
+          "travis_badge": "https://travis-ci.org/rustache/rustache.svg?branch=master"
+        },
     }
 
 
@@ -609,6 +614,7 @@ entry( '  * ', 'erickt/rust-zmq', rows_stable, rows_unstable )
 add(   '\n### Template engine\n', rows_stable, rows_unstable )
 add(   '* Mustache', rows_stable, rows_unstable )
 entry( '  * ', 'erickt/rust-mustache', rows_stable, rows_unstable )
+entry( '  * ', 'rustache/rustache', rows_stable, rows_unstable )
 
 add(   '\n### Testing\n', rows_stable, rows_unstable )
 entry( '* ', 'BurntSushi/quickcheck', rows_stable, rows_unstable )

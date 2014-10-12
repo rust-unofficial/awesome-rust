@@ -132,6 +132,7 @@ Only projects that are stable and useful to users are added. Projects that do no
 
 * Mustache
   * [erickt/rust-mustache](https://github.com/erickt/rust-mustache) — [<img src="https://travis-ci.org/erickt/rust-mustache.svg?branch=master">](https://travis-ci.org/erickt/rust-mustache)
+  * [rustache/rustache](https://github.com/rustache/rustache) — [<img src="https://travis-ci.org/rustache/rustache.svg?branch=master">](https://travis-ci.org/rustache/rustache)
 
 ### Testing
 
