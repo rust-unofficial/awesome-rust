@@ -1,4 +1,9 @@
 # -*- coding: utf-8 -*-
+"""
+Generates the files `README.md` and `UNSTABLE.md`.
+It helps keep the content in a sane format and also allows for entries
+to be easily switched between stable/unstable status.
+"""
 
 def md_link(name, url):
   "Returns a web link in Markdown format"
@@ -154,7 +159,8 @@ DATA = \
           "url": "https://github.com/Ygg01/xml-air",
           "descr": "A hybrid pull, DOM parser written in pure Rust",
           "travis_url": "https://travis-ci.org/Ygg01/xml-air",
-          "travis_badge": "https://travis-ci.org/Ygg01/xml-air.svg?branch=master"
+          "travis_badge": "https://travis-ci.org/Ygg01/xml-air.svg?branch=master",
+          "unstable": True
         },
       "Florob/RustyXML": {
           "url": "https://github.com/Florob/RustyXML",
@@ -390,7 +396,6 @@ DATA = \
           "descr": md_link('Allegro 5', 'http://liballeg.org/') + " bindings",
           "travis_url": "https://travis-ci.org/SiegeLord/RustAllegro",
           "travis_badge": "https://travis-ci.org/SiegeLord/RustAllegro.svg?branch=master",
-          "unstable": True
         },
       "bjz/bullet-rs": {
           "url": "https://github.com/bjz/bullet-rs",
@@ -417,7 +422,7 @@ HEADER_STABLE = \
 
 A curated list of awesome Rust code and resources. Inspired by the other [awesome lists](https://github.com/bayandin/awesome-awesomeness).
 
-Only projects that are stable and useful to users are added. Projects that do not compile with Rust-nightly for a longer time are moved to `UNSTABLE.md`."""
+Only projects that are stable and useful to users are added. Projects that do not compile with Rust-nightly for a longer time are moved to [UNSTABLE.md](UNSTABLE.md)."""
 
 HEADER_UNSTABLE = \
 """# Unstable

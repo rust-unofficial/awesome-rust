@@ -65,6 +65,7 @@ A list of awesome but unstable/experimental Rust projects which some day hopeful
 * Tnetstring
   * [erickt/rust-tnetstring](https://github.com/erickt/rust-tnetstring) — [<img src="https://travis-ci.org/erickt/rust-tnetstring.svg?branch=master">](https://travis-ci.org/erickt/rust-tnetstring)
 * XML
+  * [Ygg01/xml-air](https://github.com/Ygg01/xml-air) — A hybrid pull, DOM parser written in pure Rust [<img src="https://travis-ci.org/Ygg01/xml-air.svg?branch=master">](https://travis-ci.org/Ygg01/xml-air)
 
 ### Game development
 
@@ -73,7 +74,6 @@ A list of awesome but unstable/experimental Rust projects which some day hopeful
 * [sebcrozet/kiss3d](https://github.com/sebcrozet/kiss3d)
 * [sebcrozet/ncollide](https://github.com/sebcrozet/ncollide)
 * [sebcrozet/nphysics](https://github.com/sebcrozet/nphysics)
-* [SiegeLord/RustAllegro](https://github.com/SiegeLord/RustAllegro) — [Allegro 5](http://liballeg.org/) bindings [<img src="https://travis-ci.org/SiegeLord/RustAllegro.svg?branch=master">](https://travis-ci.org/SiegeLord/RustAllegro)
 
 ### Games
 
