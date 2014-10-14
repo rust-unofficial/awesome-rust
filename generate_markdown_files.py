@@ -300,6 +300,7 @@ DATA = \
             "descr": md_link('Mongrel2', 'http://mongrel2.org') + " bindings",
             "travis_url": "https://travis-ci.org/erickt/rust-mongrel2",
             "travis_badge": "https://travis-ci.org/erickt/rust-mongrel2.svg?branch=master",
+            "unstable": True
           },
         "Iron": {
             "url": "http://ironframework.io/",

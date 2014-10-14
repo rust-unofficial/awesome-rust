@@ -133,5 +133,6 @@ See also [http://arewewebyet.com/](http://arewewebyet.com/)
   * [Teepee](http://teepee.rs/) — [<img src="https://travis-ci.org/teepee/teepee.svg?branch=master">](https://travis-ci.org/teepee/teepee)
 * Client
 * Server
+  * [erickt/rust-mongrel2](https://github.com/erickt/rust-mongrel2) — [Mongrel2](http://mongrel2.org) bindings [<img src="https://travis-ci.org/erickt/rust-mongrel2.svg?branch=master">](https://travis-ci.org/erickt/rust-mongrel2)
 
 ## Resources
