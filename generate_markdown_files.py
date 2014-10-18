@@ -9,8 +9,22 @@ def md_link(name, url):
   "Returns a web link in Markdown format"
   return '[%s](%s)' % (name, url)
 
+"""
+        '': {
+            "url": '',
+            "descr": md_link('', '') + ' bindings',
+            "travis_url": '',
+            "travis_badge": '',
+        },
+"""
 DATA = \
     {
+        'servo/html5ever': {
+            "url": 'https://github.com/servo/html5ever',
+            "descr": 'High-performance browser-grade HTML5 parser',
+            "travis_url": 'https://travis-ci.org/servo/html5ever',
+            "travis_badge": 'https://travis-ci.org/servo/html5ever.svg?branch=master',
+        },
         "alexcrichton/ssh2-rs": {
             "url": "https://github.com/alexcrichton/ssh2-rs",
             "descr": md_link('libssh2', 'http://www.libssh2.org/') + " bindings",
@@ -577,6 +591,8 @@ entry( '  * ', 'lifthrasiir/rust-encoding', rows_stable, rows_unstable )
 add(   '* CSV', rows_stable, rows_unstable )
 entry( '  * ', 'BurntSushi/rust-csv', rows_stable, rows_unstable )
 entry( '  * ', 'Geal/rust-csv', rows_stable, rows_unstable )
+add(   '* HTML', rows_stable, rows_unstable )
+entry( '  * ', 'servo/html5ever', rows_stable, rows_unstable )
 add(   '* MsgPck', rows_stable, rows_unstable )
 entry( '  * ', 'mneumann/rust-msgpack', rows_stable, rows_unstable )
 add(   '* ProtocolBuffers', rows_stable, rows_unstable )

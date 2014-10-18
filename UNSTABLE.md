@@ -59,6 +59,7 @@ A list of awesome but unstable/experimental Rust projects which some day hopeful
 * Character Encoding
 * CSV
   * [Geal/rust-csv](https://github.com/Geal/rust-csv) — [<img src="https://travis-ci.org/Geal/rust-csv.svg?branch=master">](https://travis-ci.org/Geal/rust-csv)
+* HTML
 * MsgPck
 * ProtocolBuffers
 * TOML
