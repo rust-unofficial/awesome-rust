@@ -117,6 +117,7 @@ A list of awesome but unstable/experimental Rust projects which some day hopeful
 * SSH
 * Stomp
 * ZeroMQ
+  * [erickt/rust-zmq](https://github.com/erickt/rust-zmq) — [ZeroMQ](http://zeromq.org) bindings [<img src="https://travis-ci.org/erickt/rust-zmq.svg?branch=master">](https://travis-ci.org/erickt/rust-zmq)
 
 ### Template engine
 

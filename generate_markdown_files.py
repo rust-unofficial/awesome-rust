@@ -257,7 +257,8 @@ DATA = \
             "url": "https://github.com/erickt/rust-zmq",
             "descr": md_link('ZeroMQ', 'http://zeromq.org') + " bindings",
             "travis_url": "https://travis-ci.org/erickt/rust-zmq",
-            "travis_badge": "https://travis-ci.org/erickt/rust-zmq.svg?branch=master"
+            "travis_badge": "https://travis-ci.org/erickt/rust-zmq.svg?branch=master",
+            "unstable": True
           },
         "zeromq/zmq.rs": {
             "url": "https://github.com/zeromq/zmq.rs",
