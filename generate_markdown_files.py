@@ -19,6 +19,12 @@ def md_link(name, url):
 """
 DATA = \
     {
+        'tomaka/glutin': {
+            "url": 'https://github.com/tomaka/glutin',
+            "descr": 'Rust alternative to ' + md_link('GLFW', 'http://www.glfw.org/'),
+            "travis_url": 'https://travis-ci.org/tomaka/glutin',
+            "travis_badge": 'https://travis-ci.org/tomaka/glutin.svg?branch=master',
+        },
         'servo/html5ever': {
             "url": 'https://github.com/servo/html5ever',
             "descr": 'High-performance browser-grade HTML5 parser',
@@ -644,6 +650,7 @@ entry( '  * ', 'bjz/gl-rs', rows_stable, rows_unstable )
 entry( '  * ', 'bjz/glfw-rs', rows_stable, rows_unstable )
 entry( '  * ', 'servo/rust-glut', rows_stable, rows_unstable )
 entry( '  * ', 'servo/rust-opengles', rows_stable, rows_unstable )
+entry( '  * ', 'tomaka/glutin', rows_stable, rows_unstable )
 add(   '* SDL', rows_stable, rows_unstable )
 entry( '  * ', 'AngryLawyer/rust-sdl2', rows_stable, rows_unstable )
 entry( '  * ', 'brson/rust-sdl', rows_stable, rows_unstable )
