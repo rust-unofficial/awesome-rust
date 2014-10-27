@@ -458,6 +458,12 @@ DATA = \
             "travis_url": "https://travis-ci.org/rustache/rustache",
             "travis_badge": "https://travis-ci.org/rustache/rustache.svg?branch=master"
           },
+        "thehydroimpulse/nanomsg.rs": {
+            "url": "https://github.com/thehydroimpulse/nanomsg.rs",
+            "descr": "a modern messaging library that is the successor to ZeroMQ",
+            "travis_url": "https://travis-ci.org/thehydroimpulse/nanomsg.rs",
+            "travis_badge": "https://travis-ci.org/thehydroimpulse/nanomsg.rs.svg?branch=master",
+          },
     }
 
 
@@ -673,6 +679,8 @@ add(   '* Stomp', rows_stable, rows_unstable )
 entry( '  * ', 'zslayton/stomp-rs', rows_stable, rows_unstable )
 add(   '* ZeroMQ', rows_stable, rows_unstable )
 entry( '  * ', 'erickt/rust-zmq', rows_stable, rows_unstable )
+add(   '* NanoMsg', rows_stable, rows_unstable )
+entry( '  * ', 'thehydroimpulse/nanomsg.rs', rows_stable, rows_unstable )
 
 add(   '\n### Template engine\n', rows_stable, rows_unstable )
 add(   '* Mustache', rows_stable, rows_unstable )
