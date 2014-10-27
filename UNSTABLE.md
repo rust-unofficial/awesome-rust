@@ -114,6 +114,7 @@ A list of awesome but unstable/experimental Rust projects which some day hopeful
 ### Network programming
 
 * Low level
+* NanoMsg
 * SSH
 * Stomp
 * ZeroMQ
