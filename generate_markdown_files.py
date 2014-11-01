@@ -19,6 +19,10 @@ def md_link(name, url):
 """
 DATA = \
     {
+        'bbodi/rust-voxlap': {
+            "url": 'https://github.com/bbodi/rust-voxlap',
+            "descr": md_link('Voxlap', 'http://advsys.net/ken/voxlap.htm') + ' bindings',
+        },
         'tomaka/glutin': {
             "url": 'https://github.com/tomaka/glutin',
             "descr": 'Rust alternative to ' + md_link('GLFW', 'http://www.glfw.org/'),
@@ -620,6 +624,7 @@ entry( '  * ', 'netvl/rust-xml', rows_stable, rows_unstable )
 entry( '  * ', 'Ygg01/xml-air', rows_stable, rows_unstable )
 
 add(   '\n### Game development\n', rows_stable, rows_unstable )
+entry( '* ', 'bbodi/rust-voxlap', rows_stable, rows_unstable )
 entry( '* ', 'bjz/bullet-rs', rows_stable, rows_unstable )
 entry( '* ', 'JeremyLetang/rustenstein3D', rows_stable, rows_unstable )
 entry( '* ', 'PistonDevelopers/piston', rows_stable, rows_unstable )
