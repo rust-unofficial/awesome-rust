@@ -98,6 +98,7 @@ Only projects that are stable and useful to users are added. Projects that do no
 
 * [PistonDevelopers/piston](https://github.com/pistondevelopers/piston) — [<img src="https://travis-ci.org/PistonDevelopers/piston.svg?branch=master">](https://travis-ci.org/PistonDevelopers/piston)
 * [SiegeLord/RustAllegro](https://github.com/SiegeLord/RustAllegro) — [Allegro 5](http://liballeg.org/) bindings [<img src="https://travis-ci.org/SiegeLord/RustAllegro.svg?branch=master">](https://travis-ci.org/SiegeLord/RustAllegro)
+* [Rust-Voxlap](https://github.com/bbodi/rust-voxlap) - [Voxlap](http://advsys.net/ken/voxlap.htm) bindings
 
 ### Games
 
