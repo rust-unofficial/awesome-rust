@@ -27,7 +27,7 @@ DATA = \
         },
         'alexcrichton/tar-rs': {
             "url": 'https://github.com/alexcrichton/tar-rs',
-            "descr": md_link('', '') + ' bindings',
+            "descr": 'tar archive reading/writing in Rust',
             "travis_url": 'https://travis-ci.org/alexcrichton/tar-rs',
             "travis_badge": 'https://travis-ci.org/alexcrichton/tar-rs.svg?branch=master',
         },
