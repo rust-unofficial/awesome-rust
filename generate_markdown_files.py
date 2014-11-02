@@ -13,12 +13,24 @@ def md_link(name, url):
         '': {
             "url": '',
             "descr": md_link('', '') + ' bindings',
-            "travis_url": '',
-            "travis_badge": '',
+            "travis_url": 'https://travis-ci.org/',
+            "travis_badge": 'https://travis-ci.org/.svg?branch=master',
         },
 """
 DATA = \
     {
+        'alexcrichton/bzip2-rs': {
+            "url": 'https://github.com/alexcrichton/bzip2-rs',
+            "descr": md_link('libbz2', 'http://www.bzip.org') + ' bindings',
+            "travis_url": 'https://travis-ci.org/alexcrichton/bzip2-rs',
+            "travis_badge": 'https://travis-ci.org/alexcrichton/bzip2-rs.svg?branch=master',
+        },
+        'alexcrichton/tar-rs': {
+            "url": 'https://github.com/alexcrichton/tar-rs',
+            "descr": md_link('', '') + ' bindings',
+            "travis_url": 'https://travis-ci.org/alexcrichton/tar-rs',
+            "travis_badge": 'https://travis-ci.org/alexcrichton/tar-rs.svg?branch=master',
+        },
         'bbodi/rust-voxlap': {
             "url": 'https://github.com/bbodi/rust-voxlap',
             "descr": md_link('Voxlap', 'http://advsys.net/ken/voxlap.htm') + ' bindings',
@@ -578,6 +590,8 @@ entry( '* ', 'docopt/docopt.rs', rows_stable, rows_unstable )
 entry( '* ', 'wycats/hammer.rs', rows_stable, rows_unstable )
 
 add(   '\n### Compression\n', rows_stable, rows_unstable )
+entry( '* ', 'alexcrichton/bzip2-rs', rows_stable, rows_unstable )
+entry( '* ', 'alexcrichton/tar-rs', rows_stable, rows_unstable )
 entry( '* ', 'lifthrasiir/rust-zip', rows_stable, rows_unstable )
 
 add(   '\n### Computation\n', rows_stable, rows_unstable )
