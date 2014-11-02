@@ -61,7 +61,7 @@ Only projects that are stable and useful to users are added. Projects that do no
 * [dnaq/sodiumoxide](https://github.com/dnaq/sodiumoxide) — [libsodium](https://github.com/jedisct1/libsodium) bindings
 * [klutzy/suruga](https://github.com/klutzy/suruga) — a Rust implementation of [TLS 1.2](http://tools.ietf.org/html/rfc5246)
 * [seb-m/common.rs](https://github.com/klutzy/suruga) — Common Rust crypto utilities
-* [sfackler/rust-openssl](https://github.com/sfackler/rust-openssl) — OpenSSL bindings [<img src="https://travis-ci.org/sfackler/rust-openssl.svg?branch=master">](https://travis-ci.org/sfackler/rust-openssl)
+* [sfackler/rust-openssl](https://github.com/sfackler/rust-openssl) — [OpenSSL](https://www.openssl.org/) bindings [<img src="https://travis-ci.org/sfackler/rust-openssl.svg?branch=master">](https://travis-ci.org/sfackler/rust-openssl)
 
 ### Database
 

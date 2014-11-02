@@ -141,7 +141,7 @@ DATA = \
           },
         "sfackler/rust-openssl": {
             "url": "https://github.com/sfackler/rust-openssl",
-            "descr": "OpenSSL bindings",
+            "descr": md_link('OpenSSL', 'https://www.openssl.org/') + " bindings",
             "travis_url": "https://travis-ci.org/sfackler/rust-openssl",
             "travis_badge": "https://travis-ci.org/sfackler/rust-openssl.svg?branch=master"
           },
