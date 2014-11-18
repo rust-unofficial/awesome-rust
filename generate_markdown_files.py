@@ -211,7 +211,9 @@ DATA = \
             "travis_badge": "https://travis-ci.org/stepancheg/rust-protobuf.svg?branch=master"
           },
         "alexcrichton/toml-rs": {
-            "url": "https://github.com/alexcrichton/toml-rs"
+            "url": "https://github.com/alexcrichton/toml-rs",
+            "travis_url": "https://travis-ci.org/alexcrichton/toml-rs",
+            "travis_badge": "https://travis-ci.org/alexcrichton/toml-rs.svg?branch=master"
           },
         "erickt/rust-tnetstring": {
             "url": "https://github.com/erickt/rust-tnetstring",
