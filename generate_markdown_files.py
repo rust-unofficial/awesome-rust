@@ -19,6 +19,12 @@ def md_link(name, url):
 """
 DATA = \
     {
+        'alexcrichton/flate2-rs': {
+            "url": 'https://github.com/alexcrichton/flate2-rs',
+            "descr": md_link('miniz', 'https://code.google.com/p/miniz/') + ' bindings',
+            "travis_url": 'https://travis-ci.org/alexcrichton/flate2-rs',
+            "travis_badge": 'https://travis-ci.org/alexcrichton/flate2-rs.svg?branch=master',
+        },
         'alexcrichton/bzip2-rs': {
             "url": 'https://github.com/alexcrichton/bzip2-rs',
             "descr": md_link('libbz2', 'http://www.bzip.org') + ' bindings',
@@ -591,6 +597,7 @@ entry( '* ', 'wycats/hammer.rs', rows_stable, rows_unstable )
 
 add(   '\n### Compression\n', rows_stable, rows_unstable )
 entry( '* ', 'alexcrichton/bzip2-rs', rows_stable, rows_unstable )
+entry( '* ', 'alexcrichton/flate2-rs', rows_stable, rows_unstable )
 entry( '* ', 'alexcrichton/tar-rs', rows_stable, rows_unstable )
 entry( '* ', 'lifthrasiir/rust-zip', rows_stable, rows_unstable )
 
