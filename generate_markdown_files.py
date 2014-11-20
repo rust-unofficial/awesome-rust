@@ -15,6 +15,7 @@ def md_link(name, url):
             "descr": md_link('', '') + ' bindings',
             "travis_url": 'https://travis-ci.org/',
             "travis_badge": 'https://travis-ci.org/.svg?branch=master',
+            "unstable": True
         },
 """
 DATA = \
@@ -24,6 +25,7 @@ DATA = \
             "descr": md_link('RethinkDB', 'http://www.rethinkdb.com') + ' bindings',
             "travis_url": 'https://travis-ci.org/tomjakubowski/rethinkdb-rs',
             "travis_badge": 'https://travis-ci.org/tomjakubowski/rethinkdb-rs.svg?branch=master',
+            "unstable": True
         },
         'alexcrichton/flate2-rs': {
             "url": 'https://github.com/alexcrichton/flate2-rs',
