@@ -403,7 +403,7 @@ DATA = \
           },
         "Coeuvre/rust-2048": {
             "url": "https://github.com/Coeuvre/rust-2048",
-            "unstable": True
+            "unstable": False
           },
         "Coeuvre/rust-pong": {
             "url": "https://github.com/Coeuvre/rust-pong",
@@ -439,7 +439,7 @@ DATA = \
           },
         "bjz/gl-rs": {
             "url": "https://github.com/bjz/gl-rs",
-            "unstable": True
+            "unstable": False
           },
         "servo/rust-opengles": {
             "url": "https://github.com/servo/rust-opengles",
@@ -456,11 +456,11 @@ DATA = \
           },
         "servo/rust-glut": {
             "url": "https://github.com/mozilla-servo/rust-glut",
-            "unstable": True
+            "unstable": False
           },
         "bjz/glfw-rs": {
             "url": "https://github.com/bjz/glfw-rs",
-            "unstable": True
+            "unstable": False
           },
         "jeremyletang/rust-sfml": {
             "url": "https://github.com/JeremyLetang/rust-sfml",

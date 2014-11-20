@@ -85,7 +85,6 @@ A list of awesome but unstable/experimental Rust projects which some day hopeful
 * [Arcterus/rust-snake](https://github.com/Arcterus/rust-snake)
 * [bachm/rusty-tetris](https://github.com/bachm/rusty-tetris)
 * [bvssvni/rust-snake](https://github.com/bvssvni/rust-snake)
-* [Coeuvre/rust-2048](https://github.com/Coeuvre/rust-2048)
 * [Coeuvre/rust-pong](https://github.com/Coeuvre/rust-pong)
 * [dpc/rustyhex](https://github.com/dpc/rustyhex)
 * [FrozenCow/rust-airhockey](https://github.com/FrozenCow/rust-airhockey)
@@ -101,9 +100,6 @@ A list of awesome but unstable/experimental Rust projects which some day hopeful
 * Gtk+
 * ncurses
 * OpenGL
-  * [bjz/gl-rs](https://github.com/bjz/gl-rs)
-  * [bjz/glfw-rs](https://github.com/bjz/glfw-rs)
-  * [servo/rust-glut](https://github.com/mozilla-servo/rust-glut)
   * [servo/rust-opengles](https://github.com/servo/rust-opengles)
 * SDL
 * SFML

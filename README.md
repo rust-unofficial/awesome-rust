@@ -107,6 +107,7 @@ Only projects that are stable and useful to users are added. Projects that do no
 
 ### Games
 
+* [Coeuvre/rust-2048](https://github.com/Coeuvre/rust-2048)
 * [lifthrasiir/angolmois-rust](https://github.com/lifthrasiir/angolmois-rust) — a minimalistic music video game which supports the BMS format [<img src="https://travis-ci.org/lifthrasiir/angolmois-rust.svg?branch=master">](https://travis-ci.org/lifthrasiir/angolmois-rust)
 
 ### GUI
@@ -118,6 +119,9 @@ Only projects that are stable and useful to users are added. Projects that do no
 * ncurses
   * [jeaye/ncurses-rs](https://github.com/jeaye/ncurses-rs) — [<img src="https://travis-ci.org/jeaye/ncurses-rs.svg?branch=master">](https://travis-ci.org/jeaye/ncurses-rs)
 * OpenGL
+  * [bjz/gl-rs](https://github.com/bjz/gl-rs)
+  * [bjz/glfw-rs](https://github.com/bjz/glfw-rs)
+  * [servo/rust-glut](https://github.com/mozilla-servo/rust-glut)
   * [tomaka/glutin](https://github.com/tomaka/glutin) — Rust alternative to [GLFW](http://www.glfw.org/) [<img src="https://travis-ci.org/tomaka/glutin.svg?branch=master">](https://travis-ci.org/tomaka/glutin)
 * SDL
   * [AngryLawyer/rust-sdl2](https://github.com/AngryLawyer/rust-sdl2) — [SDL2](http://www.libsdl.org/) bindings [<img src="https://travis-ci.org/AngryLawyer/rust-sdl2.svg?branch=master">](https://travis-ci.org/AngryLawyer/rust-sdl2)
