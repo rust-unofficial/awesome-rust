@@ -48,6 +48,8 @@ A list of awesome but unstable/experimental Rust projects which some day hopeful
 
 ### Database
 
+* NoSQL
+  * RethinkDB
 * SQL
   * MySql
   * PostgreSql
@@ -127,6 +129,7 @@ A list of awesome but unstable/experimental Rust projects which some day hopeful
 
 ### Testing
 
+* [farcaller/shiny](https://github.com/farcaller/shiny) — a fancy syntax similar to ruby's rspec or Objective-C's kiwi [<img src="https://travis-ci.org/farcaller/shiny.svg?branch=master">](https://travis-ci.org/farcaller/shiny)
 
 ### Web programming
 

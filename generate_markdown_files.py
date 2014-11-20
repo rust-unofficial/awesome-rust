@@ -19,6 +19,12 @@ def md_link(name, url):
 """
 DATA = \
     {
+        'tomjakubowski/rethinkdb-rs': {
+            "url": 'https://github.com/tomjakubowski/rethinkdb-rs',
+            "descr": md_link('RethinkDB', 'http://www.rethinkdb.com') + ' bindings',
+            "travis_url": 'https://travis-ci.org/tomjakubowski/rethinkdb-rs',
+            "travis_badge": 'https://travis-ci.org/tomjakubowski/rethinkdb-rs.svg?branch=master',
+        },
         'alexcrichton/flate2-rs': {
             "url": 'https://github.com/alexcrichton/flate2-rs',
             "descr": md_link('miniz', 'https://code.google.com/p/miniz/') + ' bindings',
@@ -313,7 +319,8 @@ DATA = \
             "url": "https://github.com/farcaller/shiny",
             "descr": "a fancy syntax similar to ruby's rspec or Objective-C's kiwi",
             "travis_url": "https://travis-ci.org/farcaller/shiny",
-            "travis_badge": "https://travis-ci.org/farcaller/shiny.svg?branch=master"
+            "travis_badge": "https://travis-ci.org/farcaller/shiny.svg?branch=master",
+            "unstable": True
           },
         "chris-morgan/rust-http": {
             "url": "https://github.com/chris-morgan/rust-http",
@@ -615,6 +622,9 @@ entry( '* ', 'seb-m/common.rs', rows_stable, rows_unstable )
 entry( '* ', 'sfackler/rust-openssl', rows_stable, rows_unstable )
 
 add(   '\n### Database\n', rows_stable, rows_unstable )
+add(   '* NoSQL', rows_stable, rows_unstable )
+add(   '  * RethinkDB', rows_stable, rows_unstable )
+entry( '    * ', 'tomjakubowski/rethinkdb-rs', rows_stable, rows_unstable )
 add(   '* SQL', rows_stable, rows_unstable )
 add(   '  * MySql', rows_stable, rows_unstable )
 entry( '    * ', 'blackbeam/rust-mysql-simple', rows_stable, rows_unstable )

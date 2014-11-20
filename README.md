@@ -68,6 +68,9 @@ Only projects that are stable and useful to users are added. Projects that do no
 
 ### Database
 
+* NoSQL
+  * RethinkDB
+    * [tomjakubowski/rethinkdb-rs](https://github.com/tomjakubowski/rethinkdb-rs) — [RethinkDB](http://www.rethinkdb.com) bindings [<img src="https://travis-ci.org/tomjakubowski/rethinkdb-rs.svg?branch=master">](https://travis-ci.org/tomjakubowski/rethinkdb-rs)
 * SQL
   * MySql
     * [blackbeam/rust-mysql-simple](https://github.com/blackbeam/rust-mysql-simple) — a native MySql client [<img src="https://travis-ci.org/blackbeam/rust-mysql-simple.svg?branch=master">](https://travis-ci.org/blackbeam/rust-mysql-simple)
@@ -150,7 +153,6 @@ Only projects that are stable and useful to users are added. Projects that do no
 ### Testing
 
 * [BurntSushi/quickcheck](https://github.com/BurntSushi/quickcheck) — a Rust implementation of [QuickCheck](http://www.haskell.org/haskellwiki/Introduction_to_QuickCheck1) [<img src="https://travis-ci.org/BurntSushi/quickcheck.svg?branch=master">](https://travis-ci.org/BurntSushi/quickcheck)
-* [farcaller/shiny](https://github.com/farcaller/shiny) — a fancy syntax similar to ruby's rspec or Objective-C's kiwi [<img src="https://travis-ci.org/farcaller/shiny.svg?branch=master">](https://travis-ci.org/farcaller/shiny)
 
 ### Web programming
 
