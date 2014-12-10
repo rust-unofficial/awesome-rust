@@ -256,11 +256,11 @@ DATA = \
             "travis_url": "https://travis-ci.org/Florob/RustyXM",
             "travis_badge": "https://travis-ci.org/Florob/RustyXML.svg?branch=master"
           },
-        "netvl/rust-xml": {
-            "url": "https://github.com/netvl/rust-xml",
+        "netvl/xml-rs": {
+            "url": "https://github.com/netvl/xml-rs",
             "descr": "a streaming XML library",
-            "travis_url": "https://travis-ci.org/netvl/rust-xml",
-            "travis_badge": "https://travis-ci.org/netvl/rust-xml.svg?branch=master"
+            "travis_url": "https://travis-ci.org/netvl/xml-rs",
+            "travis_badge": "https://travis-ci.org/netvl/xml-rs.svg?branch=master"
           },
         "JeremyLetang/rustenstein3D": {
             "url": "https://github.com/JeremyLetang/rustenstein3D/",
@@ -670,7 +670,7 @@ add(   '* Tnetstring', rows_stable, rows_unstable )
 entry( '  * ', 'erickt/rust-tnetstring', rows_stable, rows_unstable )
 add(   '* XML', rows_stable, rows_unstable )
 entry( '  * ', 'Florob/RustyXML', rows_stable, rows_unstable )
-entry( '  * ', 'netvl/rust-xml', rows_stable, rows_unstable )
+entry( '  * ', 'netvl/xml-rs', rows_stable, rows_unstable )
 entry( '  * ', 'Ygg01/xml-air', rows_stable, rows_unstable )
 add(   '* YAML', rows_stable, rows_unstable )
 entry( '  * ', 'kimhyunkang/libyaml-rust', rows_stable, rows_unstable )
