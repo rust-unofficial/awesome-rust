@@ -338,6 +338,7 @@ DATA = \
           },
         "hyperium/hyper": {
             "url": "https://github.com/hyperium/hyper",
+            "descr": "an HTTP implementation",
             "travis_url": "https://travis-ci.org/hyperium/hyper",
             "travis_badge": "https://travis-ci.org/hyperium/hyper.svg?branch=master"
           },
@@ -358,7 +359,7 @@ DATA = \
           },
         "Iron": {
             "url": "http://ironframework.io/",
-            "descr": "inspired by " + md_link('Express', 'http://expressjs.com/'),
+            "descr": 'a Middleware-based server framework',
             "travis_url": "https://travis-ci.org/iron/iron",
             "travis_badge": "https://travis-ci.org/iron/iron.svg?branch=master",
           },
