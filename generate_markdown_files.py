@@ -22,7 +22,7 @@ DATA = \
     {
         'Rustless': {
             "url": 'http://rustless.org/',
-            "descr": 'a REST-like API micro-framework inspired by' + md_link('Grape', 'https://github.com/intridea/grape') + ' and ' + md_link('Hyper', 'https://github.com/hyperium/hyper'),
+            "descr": 'a REST-like API micro-framework inspired by ' + md_link('Grape', 'https://github.com/intridea/grape') + ' and ' + md_link('Hyper', 'https://github.com/hyperium/hyper'),
             "travis_url": 'https://travis-ci.org/rustless/rustless',
             "travis_badge": 'https://travis-ci.org/rustless/rustless.svg?branch=master',
             "unstable": False
@@ -366,7 +366,7 @@ DATA = \
           },
         "Iron": {
             "url": "http://ironframework.io/",
-            "descr": 'a Middleware-based server framework',
+            "descr": 'a middleware-based server framework',
             "travis_url": "https://travis-ci.org/iron/iron",
             "travis_badge": "https://travis-ci.org/iron/iron.svg?branch=master",
           },
