@@ -20,6 +20,13 @@ def md_link(name, url):
 """
 DATA = \
     {
+        'kimhyunkang/libyaml-rust': {
+            "url": 'https://github.com/kimhyunkang/libyaml-rust',
+            "descr": md_link('libyaml', 'http://pyyaml.org/wiki/LibYAML') + ' bindings',
+            "travis_url": 'https://travis-ci.org/kimhyunkang/libyaml-rust',
+            "travis_badge": 'https://travis-ci.org/kimhyunkang/libyaml-rust.svg?branch=master',
+            "unstable": True
+        },
         'Rustless': {
             "url": 'http://rustless.org/',
             "descr": 'a REST-like API micro-framework inspired by ' + md_link('Grape', 'https://github.com/intridea/grape') + ' and ' + md_link('Hyper', 'https://github.com/hyperium/hyper'),
@@ -665,6 +672,8 @@ add(   '* XML', rows_stable, rows_unstable )
 entry( '  * ', 'Florob/RustyXML', rows_stable, rows_unstable )
 entry( '  * ', 'netvl/rust-xml', rows_stable, rows_unstable )
 entry( '  * ', 'Ygg01/xml-air', rows_stable, rows_unstable )
+add(   '* YAML', rows_stable, rows_unstable )
+entry( '  * ', 'kimhyunkang/libyaml-rust', rows_stable, rows_unstable )
 
 add(   '\n### Game development\n', rows_stable, rows_unstable )
 entry( '* ', 'bbodi/rust-voxlap', rows_stable, rows_unstable )
