@@ -170,6 +170,7 @@ See also [http://arewewebyet.com/](http://arewewebyet.com/)
 * Server
   * [Iron](http://ironframework.io/) — a Middleware-based server framework [<img src="https://travis-ci.org/iron/iron.svg?branch=master">](https://travis-ci.org/iron/iron)
   * [Nickel](http://nickel.rs/) — inspired by [Express](http://expressjs.com/) [<img src="https://travis-ci.org/nickel-org/nickel.rs.svg?branch=master">](https://travis-ci.org/nickel-org/nickel.rs)
+  * [Rustless](http://rustless.org) - REST-like API micro-framework inspired by [Grape](https://github.com/intridea/grape) and based on [hyper](https://github.com/hyperium/hyper) <img src="https://travis-ci.org/rustless/rustless.svg?branch=master">
 
 ## Resources
 
