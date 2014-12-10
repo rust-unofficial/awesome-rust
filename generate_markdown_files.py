@@ -20,6 +20,13 @@ def md_link(name, url):
 """
 DATA = \
     {
+        'Rustless': {
+            "url": 'http://rustless.org/',
+            "descr": 'a REST-like API micro-framework inspired by' + md_link('Grape', 'https://github.com/intridea/grape') + ' and ' + md_link('Hyper', 'https://github.com/hyperium/hyper'),
+            "travis_url": 'https://travis-ci.org/rustless/rustless',
+            "travis_badge": 'https://travis-ci.org/rustless/rustless.svg?branch=master',
+            "unstable": False
+        },
         'tomjakubowski/rethinkdb-rs': {
             "url": 'https://github.com/tomjakubowski/rethinkdb-rs',
             "descr": md_link('RethinkDB', 'http://www.rethinkdb.com') + ' bindings',
@@ -745,6 +752,7 @@ add(   '* Server', rows_stable, rows_unstable )
 entry( '  * ', 'erickt/rust-mongrel2', rows_stable, rows_unstable )
 entry( '  * ', 'Iron', rows_stable, rows_unstable )
 entry( '  * ', 'Nickel', rows_stable, rows_unstable )
+entry( '  * ', 'Rustless', rows_stable, rows_unstable )
 
 add(   '\n## Resources\n', rows_stable, rows_unstable )
 entry( '* ', 'Rust by Example', rows_stable, rows_unstable )
