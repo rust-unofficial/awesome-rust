@@ -25,7 +25,7 @@ DATA = \
             "descr": md_link('libyaml', 'http://pyyaml.org/wiki/LibYAML') + ' bindings',
             "travis_url": 'https://travis-ci.org/kimhyunkang/libyaml-rust',
             "travis_badge": 'https://travis-ci.org/kimhyunkang/libyaml-rust.svg?branch=master',
-            "unstable": True
+            "unstable": False
         },
         'Rustless': {
             "url": 'http://rustless.org/',
