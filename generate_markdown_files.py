@@ -15,11 +15,18 @@ def md_link(name, url):
             "descr": md_link('', '') + ' bindings',
             "travis_url": 'https://travis-ci.org/',
             "travis_badge": 'https://travis-ci.org/.svg?branch=master',
-            "unstable": True
+            "unstable": False
         },
 """
 DATA = \
     {
+        'vhbit/ObjCrust': {
+            "url": 'https://github.com/vhbit/ObjCrust',
+            "descr": 'using Rust to create an iOS static library',
+            "travis_url": 'https://travis-ci.org/vhbit/ObjCrust',
+            "travis_badge": 'https://travis-ci.org/vhbit/ObjCrust.svg?branch=master',
+            "unstable": False
+        },
         'tomaka/android-rs-glue': {
             "url": 'https://github.com/tomaka/android-rs-glue',
             "descr": 'glue between Rust and Android',
@@ -745,6 +752,7 @@ entry( '* ', 'PistonDevelopers/image', rows_stable, rows_unstable )
 
 add(   '\n### Mobile\n', rows_stable, rows_unstable )
 entry( '* ', 'tomaka/android-rs-glue', rows_stable, rows_unstable )
+entry( '* ', 'vhbit/ObjCrust', rows_stable, rows_unstable )
 
 add(   '\n### Network programming\n', rows_stable, rows_unstable )
 add(   '* Low level', rows_stable, rows_unstable )
