@@ -25,7 +25,7 @@ DATA = \
             "descr": 'glue between Rust and Android',
             "travis_url": 'https://travis-ci.org/tomaka/android-rs-glue',
             "travis_badge": 'https://travis-ci.org/tomaka/android-rs-glue.svg?branch=master',
-            "unstable": True
+            "unstable": False
         },
         'TyOverby/bincode': {
             "url": 'https://github.com/TyOverby/bincode',
