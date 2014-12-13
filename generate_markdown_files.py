@@ -20,6 +20,13 @@ def md_link(name, url):
 """
 DATA = \
     {
+        'tomaka/android-rs-glue': {
+            "url": 'https://github.com/tomaka/android-rs-glue',
+            "descr": 'glue between Rust and Android',
+            "travis_url": 'https://travis-ci.org/tomaka/android-rs-glue',
+            "travis_badge": 'https://travis-ci.org/tomaka/android-rs-glue.svg?branch=master',
+            "unstable": True
+        },
         'TyOverby/bincode': {
             "url": 'https://github.com/TyOverby/bincode',
             "descr": 'a binary encoder/decoder in Rust',
@@ -550,6 +557,7 @@ TOC = \
     - [Games](#games)
     - [GUI](#gui)
     - [Image processing](#image-processing)
+    - [Mobile](#mobile)
     - [Network programming](#network-programming)
     - [Template engine](#template-engine)
     - [Testing](#testing)
@@ -734,6 +742,9 @@ entry( '  * ', 'kenz-gelsoft/wxRust', rows_stable, rows_unstable )
 
 add(   '\n### Image processing\n', rows_stable, rows_unstable )
 entry( '* ', 'PistonDevelopers/image', rows_stable, rows_unstable )
+
+add(   '\n### Mobile\n', rows_stable, rows_unstable )
+entry( '* ', 'tomaka/android-rs-glue', rows_stable, rows_unstable )
 
 add(   '\n### Network programming\n', rows_stable, rows_unstable )
 add(   '* Low level', rows_stable, rows_unstable )

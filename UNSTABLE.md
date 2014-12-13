@@ -16,6 +16,7 @@ A list of awesome but unstable/experimental Rust projects which some day hopeful
     - [Games](#games)
     - [GUI](#gui)
     - [Image processing](#image-processing)
+    - [Mobile](#mobile)
     - [Network programming](#network-programming)
     - [Template engine](#template-engine)
     - [Testing](#testing)
@@ -110,6 +111,10 @@ A list of awesome but unstable/experimental Rust projects which some day hopeful
 
 ### Image processing
 
+
+### Mobile
+
+* [tomaka/android-rs-glue](https://github.com/tomaka/android-rs-glue) — glue between Rust and Android [<img src="https://travis-ci.org/tomaka/android-rs-glue.svg?branch=master">](https://travis-ci.org/tomaka/android-rs-glue)
 
 ### Network programming
 
