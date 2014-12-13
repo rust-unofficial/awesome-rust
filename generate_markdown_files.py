@@ -20,6 +20,13 @@ def md_link(name, url):
 """
 DATA = \
     {
+        'TyOverby/bincode': {
+            "url": 'https://github.com/TyOverby/bincode',
+            "descr": 'a binary encoder/decoder in Rust',
+            "travis_url": 'https://travis-ci.org/TyOverby/bincode',
+            "travis_badge": 'https://travis-ci.org/TyOverby/bincode.svg?branch=master',
+            "unstable": False
+        },
         'kimhyunkang/libyaml-rust': {
             "url": 'https://github.com/kimhyunkang/libyaml-rust',
             "descr": md_link('libyaml', 'http://pyyaml.org/wiki/LibYAML') + ' bindings',
@@ -651,6 +658,7 @@ add(   '  * Sqlite', rows_stable, rows_unstable )
 entry( '    * ', 'linuxfood/rustsqlite', rows_stable, rows_unstable )
 
 add(   '\n### Encoding\n', rows_stable, rows_unstable )
+entry( '* ', 'TyOverby/bincode', rows_stable, rows_unstable )
 add(   '* Cap\'n Proto', rows_stable, rows_unstable )
 entry( '  * ', 'dwrensha/capnproto-rust', rows_stable, rows_unstable )
 add(   '* Character Encoding', rows_stable, rows_unstable )
