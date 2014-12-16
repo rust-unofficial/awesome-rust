@@ -46,7 +46,7 @@ DATA = \
             "url": 'https://github.com/carllerche/nix-rust',
             "descr": 'Linux API bindings',
             "travis_url": 'https://travis-ci.org/carllerche/nix-rust',
-            "travis_badge": 'https://travis-ci.org/lcarllerche/nix-rust.svg?branch=master',
+            "travis_badge": 'https://travis-ci.org/carllerche/nix-rust.svg?branch=master',
             "unstable": False
         },
         'vhbit/ObjCrust': {
@@ -704,8 +704,8 @@ add(   '  * Sqlite', rows_stable, rows_unstable )
 entry( '    * ', 'linuxfood/rustsqlite', rows_stable, rows_unstable )
 
 add(   '\n### Date and time\n', rows_stable, rows_unstable )
-entry( '* ', 'rust-lang/time', rows_stable, rows_unstable )
 entry( '* ', 'lifthrasiir/rust-chrono', rows_stable, rows_unstable )
+entry( '* ', 'rust-lang/time', rows_stable, rows_unstable )
 
 add(   '\n### Encoding\n', rows_stable, rows_unstable )
 entry( '* ', 'TyOverby/bincode', rows_stable, rows_unstable )
