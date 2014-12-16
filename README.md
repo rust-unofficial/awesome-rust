@@ -83,8 +83,8 @@ Only projects that are stable and useful to users are added. Projects that do no
 
 ### Date and time
 
-* [rust-lang/time](https://github.com/rust-lang/time) — [<img src="https://travis-ci.org/rust-lang/time.svg?branch=master">](https://travis-ci.org/rust-lang/time)
 * [lifthrasiir/rust-chrono](https://github.com/lifthrasiir/rust-chrono) — [<img src="https://travis-ci.org/lifthrasiir/rust-chrono.svg?branch=master">](https://travis-ci.org/lifthrasiir/rust-chrono)
+* [rust-lang/time](https://github.com/rust-lang/time) — [<img src="https://travis-ci.org/rust-lang/time.svg?branch=master">](https://travis-ci.org/rust-lang/time)
 
 ### Encoding
 
@@ -168,7 +168,7 @@ Only projects that are stable and useful to users are added. Projects that do no
 ### Platform specific
 
 * Linux
-  * [carllerche/nix-rust](https://github.com/carllerche/nix-rust) — Linux API bindings [<img src="https://travis-ci.org/lcarllerche/nix-rust.svg?branch=master">](https://travis-ci.org/carllerche/nix-rust)
+  * [carllerche/nix-rust](https://github.com/carllerche/nix-rust) — Linux API bindings [<img src="https://travis-ci.org/carllerche/nix-rust.svg?branch=master">](https://travis-ci.org/carllerche/nix-rust)
 
 ### Template engine
 
