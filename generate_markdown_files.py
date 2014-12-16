@@ -20,6 +20,35 @@ def md_link(name, url):
 """
 DATA = \
     {
+
+        'lifthrasiir/rust-chrono': {
+            "url": 'https://github.com/lifthrasiir/rust-chrono',
+            "descr": '',
+            "travis_url": 'https://travis-ci.org/lifthrasiir/rust-chrono',
+            "travis_badge": 'https://travis-ci.org/lifthrasiir/rust-chrono.svg?branch=master',
+            "unstable": False
+        },
+        'rust-lang/time': {
+            "url": 'https://github.com/rust-lang/time',
+            "descr": '',
+            "travis_url": 'https://travis-ci.org/rust-lang/time',
+            "travis_badge": 'https://travis-ci.org/rust-lang/time.svg?branch=master',
+            "unstable": False
+        },
+        'Ogeon/rustful': {
+            "url": 'https://github.com/Ogeon/rustful',
+            "descr": 'a RESTful web framework for Rust ',
+            "travis_url": 'https://travis-ci.org/Ogeon/rustful',
+            "travis_badge": 'https://travis-ci.org/Ogeon/rustful.svg?branch=master',
+            "unstable": False
+        },
+        'carllerche/nix-rust': {
+            "url": 'https://github.com/carllerche/nix-rust',
+            "descr": 'Linux API bindings',
+            "travis_url": 'https://travis-ci.org/carllerche/nix-rust',
+            "travis_badge": 'https://travis-ci.org/lcarllerche/nix-rust.svg?branch=master',
+            "unstable": False
+        },
         'vhbit/ObjCrust': {
             "url": 'https://github.com/vhbit/ObjCrust',
             "descr": 'using Rust to create an iOS static library',
@@ -262,7 +291,7 @@ DATA = \
             "url": "https://github.com/erickt/rust-tnetstring",
             "travis_url": "https://travis-ci.org/erickt/rust-tnetstring",
             "travis_badge": "https://travis-ci.org/erickt/rust-tnetstring.svg?branch=master",
-            "unstable": True
+            "unstable": False
           },
         "Ygg01/xml-air": {
             "url": "https://github.com/Ygg01/xml-air",
@@ -357,7 +386,7 @@ DATA = \
             "descr": "a fancy syntax similar to ruby's rspec or Objective-C's kiwi",
             "travis_url": "https://travis-ci.org/farcaller/shiny",
             "travis_badge": "https://travis-ci.org/farcaller/shiny.svg?branch=master",
-            "unstable": True
+            "unstable": False
           },
         "chris-morgan/rust-http": {
             "url": "https://github.com/chris-morgan/rust-http",
@@ -559,6 +588,7 @@ TOC = \
     - [Computation](#computation)
     - [Cryptography](#cryptography)
     - [Database](#database)
+    - [Date and time](#date-and-time)
     - [Encoding](#encoding)
     - [Game development](#game-development)
     - [Games](#games)
@@ -566,6 +596,7 @@ TOC = \
     - [Image processing](#image-processing)
     - [Mobile](#mobile)
     - [Network programming](#network-programming)
+    - [Platform specific](#platform-specific)
     - [Template engine](#template-engine)
     - [Testing](#testing)
     - [Web programming](#web-programming)
@@ -672,6 +703,10 @@ entry( '    * ', 'sfackler/rust-postgres', rows_stable, rows_unstable )
 add(   '  * Sqlite', rows_stable, rows_unstable )
 entry( '    * ', 'linuxfood/rustsqlite', rows_stable, rows_unstable )
 
+add(   '\n### Date and time\n', rows_stable, rows_unstable )
+entry( '* ', 'rust-lang/time', rows_stable, rows_unstable )
+entry( '* ', 'lifthrasiir/rust-chrono', rows_stable, rows_unstable )
+
 add(   '\n### Encoding\n', rows_stable, rows_unstable )
 entry( '* ', 'TyOverby/bincode', rows_stable, rows_unstable )
 add(   '* Cap\'n Proto', rows_stable, rows_unstable )
@@ -766,6 +801,10 @@ entry( '  * ', 'zslayton/stomp-rs', rows_stable, rows_unstable )
 add(   '* ZeroMQ', rows_stable, rows_unstable )
 entry( '  * ', 'erickt/rust-zmq', rows_stable, rows_unstable )
 
+add(   '\n### Platform specific\n', rows_stable, rows_unstable )
+add(   '* Linux', rows_stable, rows_unstable )
+entry( '  * ', 'carllerche/nix-rust', rows_stable, rows_unstable )
+
 add(   '\n### Template engine\n', rows_stable, rows_unstable )
 add(   '* Mustache', rows_stable, rows_unstable )
 entry( '  * ', 'erickt/rust-mustache', rows_stable, rows_unstable )
@@ -788,6 +827,7 @@ add(   '* Server', rows_stable, rows_unstable )
 entry( '  * ', 'erickt/rust-mongrel2', rows_stable, rows_unstable )
 entry( '  * ', 'Iron', rows_stable, rows_unstable )
 entry( '  * ', 'Nickel', rows_stable, rows_unstable )
+entry( '  * ', 'Ogeon/rustful', rows_stable, rows_unstable )
 entry( '  * ', 'Rustless', rows_stable, rows_unstable )
 
 add(   '\n## Resources\n', rows_stable, rows_unstable )

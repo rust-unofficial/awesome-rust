@@ -13,6 +13,7 @@ Only projects that are stable and useful to users are added. Projects that do no
     - [Computation](#computation)
     - [Cryptography](#cryptography)
     - [Database](#database)
+    - [Date and time](#date-and-time)
     - [Encoding](#encoding)
     - [Game development](#game-development)
     - [Games](#games)
@@ -20,6 +21,7 @@ Only projects that are stable and useful to users are added. Projects that do no
     - [Image processing](#image-processing)
     - [Mobile](#mobile)
     - [Network programming](#network-programming)
+    - [Platform specific](#platform-specific)
     - [Template engine](#template-engine)
     - [Testing](#testing)
     - [Web programming](#web-programming)
@@ -79,6 +81,11 @@ Only projects that are stable and useful to users are added. Projects that do no
   * Sqlite
     * [linuxfood/rustsqlite](https://github.com/linuxfood/rustsqlite) — [Sqlite3](http://www.sqlite.org/) bindings
 
+### Date and time
+
+* [rust-lang/time](https://github.com/rust-lang/time) — [<img src="https://travis-ci.org/rust-lang/time.svg?branch=master">](https://travis-ci.org/rust-lang/time)
+* [lifthrasiir/rust-chrono](https://github.com/lifthrasiir/rust-chrono) — [<img src="https://travis-ci.org/lifthrasiir/rust-chrono.svg?branch=master">](https://travis-ci.org/lifthrasiir/rust-chrono)
+
 ### Encoding
 
 * [TyOverby/bincode](https://github.com/TyOverby/bincode) — a binary encoder/decoder in Rust [<img src="https://travis-ci.org/TyOverby/bincode.svg?branch=master">](https://travis-ci.org/TyOverby/bincode)
@@ -97,6 +104,7 @@ Only projects that are stable and useful to users are added. Projects that do no
 * TOML
   * [alexcrichton/toml-rs](https://github.com/alexcrichton/toml-rs) — [<img src="https://travis-ci.org/alexcrichton/toml-rs.svg?branch=master">](https://travis-ci.org/alexcrichton/toml-rs)
 * Tnetstring
+  * [erickt/rust-tnetstring](https://github.com/erickt/rust-tnetstring) — [<img src="https://travis-ci.org/erickt/rust-tnetstring.svg?branch=master">](https://travis-ci.org/erickt/rust-tnetstring)
 * XML
   * [Florob/RustyXML](https://github.com/Florob/RustyXML) — an XML parser written in Rust [<img src="https://travis-ci.org/Florob/RustyXML.svg?branch=master">](https://travis-ci.org/Florob/RustyXM)
   * [netvl/xml-rs](https://github.com/netvl/xml-rs) — a streaming XML library [<img src="https://travis-ci.org/netvl/xml-rs.svg?branch=master">](https://travis-ci.org/netvl/xml-rs)
@@ -157,6 +165,11 @@ Only projects that are stable and useful to users are added. Projects that do no
   * [zslayton/stomp-rs](https://github.com/zslayton/stomp-rs) — [STOMP 1.2](http://stomp.github.io/stomp-specification-1.2.html) client implementation in Rust [<img src="https://api.travis-ci.org/zslayton/stomp-rs.svg?branch=master">](https://travis-ci.org/zslayton/stomp-rs)
 * ZeroMQ
 
+### Platform specific
+
+* Linux
+  * [carllerche/nix-rust](https://github.com/carllerche/nix-rust) — Linux API bindings [<img src="https://travis-ci.org/lcarllerche/nix-rust.svg?branch=master">](https://travis-ci.org/carllerche/nix-rust)
+
 ### Template engine
 
 * Mustache
@@ -165,6 +178,7 @@ Only projects that are stable and useful to users are added. Projects that do no
 ### Testing
 
 * [BurntSushi/quickcheck](https://github.com/BurntSushi/quickcheck) — a Rust implementation of [QuickCheck](http://www.haskell.org/haskellwiki/Introduction_to_QuickCheck1) [<img src="https://travis-ci.org/BurntSushi/quickcheck.svg?branch=master">](https://travis-ci.org/BurntSushi/quickcheck)
+* [farcaller/shiny](https://github.com/farcaller/shiny) — a fancy syntax similar to ruby's rspec or Objective-C's kiwi [<img src="https://travis-ci.org/farcaller/shiny.svg?branch=master">](https://travis-ci.org/farcaller/shiny)
 
 ### Web programming
 
@@ -179,6 +193,7 @@ See also [http://arewewebyet.com/](http://arewewebyet.com/)
 * Server
   * [Iron](http://ironframework.io/) — a middleware-based server framework [<img src="https://travis-ci.org/iron/iron.svg?branch=master">](https://travis-ci.org/iron/iron)
   * [Nickel](http://nickel.rs/) — inspired by [Express](http://expressjs.com/) [<img src="https://travis-ci.org/nickel-org/nickel.rs.svg?branch=master">](https://travis-ci.org/nickel-org/nickel.rs)
+  * [Ogeon/rustful](https://github.com/Ogeon/rustful) — a RESTful web framework for Rust  [<img src="https://travis-ci.org/Ogeon/rustful.svg?branch=master">](https://travis-ci.org/Ogeon/rustful)
   * [Rustless](http://rustless.org/) — a REST-like API micro-framework inspired by [Grape](https://github.com/intridea/grape) and [Hyper](https://github.com/hyperium/hyper) [<img src="https://travis-ci.org/rustless/rustless.svg?branch=master">](https://travis-ci.org/rustless/rustless)
 
 ## Resources

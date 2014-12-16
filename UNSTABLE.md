@@ -11,6 +11,7 @@ A list of awesome but unstable/experimental Rust projects which some day hopeful
     - [Computation](#computation)
     - [Cryptography](#cryptography)
     - [Database](#database)
+    - [Date and time](#date-and-time)
     - [Encoding](#encoding)
     - [Game development](#game-development)
     - [Games](#games)
@@ -18,6 +19,7 @@ A list of awesome but unstable/experimental Rust projects which some day hopeful
     - [Image processing](#image-processing)
     - [Mobile](#mobile)
     - [Network programming](#network-programming)
+    - [Platform specific](#platform-specific)
     - [Template engine](#template-engine)
     - [Testing](#testing)
     - [Web programming](#web-programming)
@@ -57,6 +59,9 @@ A list of awesome but unstable/experimental Rust projects which some day hopeful
   * PostgreSql
   * Sqlite
 
+### Date and time
+
+
 ### Encoding
 
 * Cap'n Proto
@@ -68,7 +73,6 @@ A list of awesome but unstable/experimental Rust projects which some day hopeful
 * ProtocolBuffers
 * TOML
 * Tnetstring
-  * [erickt/rust-tnetstring](https://github.com/erickt/rust-tnetstring) — [<img src="https://travis-ci.org/erickt/rust-tnetstring.svg?branch=master">](https://travis-ci.org/erickt/rust-tnetstring)
 * XML
   * [Ygg01/xml-air](https://github.com/Ygg01/xml-air) — A hybrid pull, DOM parser written in pure Rust [<img src="https://travis-ci.org/Ygg01/xml-air.svg?branch=master">](https://travis-ci.org/Ygg01/xml-air)
 * YAML
@@ -124,6 +128,10 @@ A list of awesome but unstable/experimental Rust projects which some day hopeful
 * ZeroMQ
   * [erickt/rust-zmq](https://github.com/erickt/rust-zmq) — [ZeroMQ](http://zeromq.org) bindings [<img src="https://travis-ci.org/erickt/rust-zmq.svg?branch=master">](https://travis-ci.org/erickt/rust-zmq)
 
+### Platform specific
+
+* Linux
+
 ### Template engine
 
 * Mustache
@@ -131,7 +139,6 @@ A list of awesome but unstable/experimental Rust projects which some day hopeful
 
 ### Testing
 
-* [farcaller/shiny](https://github.com/farcaller/shiny) — a fancy syntax similar to ruby's rspec or Objective-C's kiwi [<img src="https://travis-ci.org/farcaller/shiny.svg?branch=master">](https://travis-ci.org/farcaller/shiny)
 
 ### Web programming
 
