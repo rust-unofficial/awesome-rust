@@ -20,7 +20,20 @@ def md_link(name, url):
 """
 DATA = \
     {
-
+        'gchp/iota': {
+            "url": 'https://github.com/gchp/iota',
+            "descr": 'A simple text editor written in Rust',
+            "travis_url": 'https://travis-ci.org/gchp/iota',
+            "travis_badge": 'https://travis-ci.org/gchp/iota.svg?branch=master',
+            "unstable": False
+        },
+        'uutils/coreutils': {
+            "url": 'https://github.com/uutils/coreutils',
+            "descr": 'Cross-platform Rust rewrite of the GNU coreutils',
+            "travis_url": 'https://travis-ci.org/uutils/coreutils',
+            "travis_badge": 'https://travis-ci.org/uutils/coreutils.svg?branch=master',
+            "unstable": False
+        },
         'lifthrasiir/rust-chrono': {
             "url": 'https://github.com/lifthrasiir/rust-chrono',
             "descr": '',
@@ -657,6 +670,25 @@ rows_stable = [HEADER_STABLE, TOC]
 rows_unstable = [HEADER_UNSTABLE, TOC]
 
 add(  '## Applications\n', rows_stable, rows_unstable )
+entry( '* ', 'gchp/iota', rows_stable, rows_unstable )
+entry( '* ', 'uutils/coreutils', rows_stable, rows_unstable )
+
+add(   '\n### Games\n', rows_stable, rows_unstable )
+entry( '* ', 'Arcterus/game-of-life', rows_stable, rows_unstable )
+entry( '* ', 'Arcterus/rust-snake', rows_stable, rows_unstable )
+entry( '* ', 'bachm/rusty-tetris', rows_stable, rows_unstable )
+entry( '* ', 'bvssvni/rust-snake', rows_stable, rows_unstable )
+entry( '* ', 'Coeuvre/rust-2048', rows_stable, rows_unstable )
+entry( '* ', 'Coeuvre/rust-pong', rows_stable, rows_unstable )
+entry( '* ', 'dpc/rustyhex', rows_stable, rows_unstable )
+entry( '* ', 'FrozenCow/rust-airhockey', rows_stable, rows_unstable )
+entry( '* ', 'jeaye/q3', rows_stable, rows_unstable )
+entry( '* ', 'lifthrasiir/angolmois-rust', rows_stable, rows_unstable )
+entry( '* ', 'mynery/xxo', rows_stable, rows_unstable )
+entry( '* ', 'ozkriff/marauder', rows_stable, rows_unstable )
+entry( '* ', 'rlane/cubeland', rows_stable, rows_unstable )
+entry( '* ', 'zokier/pong-rs', rows_stable, rows_unstable )
+
 
 add(  '## Frameworks\n', rows_stable, rows_unstable )
 
@@ -745,22 +777,6 @@ entry( '* ', 'sebcrozet/kiss3d', rows_stable, rows_unstable )
 entry( '* ', 'sebcrozet/ncollide', rows_stable, rows_unstable )
 entry( '* ', 'sebcrozet/nphysics', rows_stable, rows_unstable )
 entry( '* ', 'SiegeLord/RustAllegro', rows_stable, rows_unstable )
-
-add(   '\n### Games\n', rows_stable, rows_unstable )
-entry( '* ', 'Arcterus/game-of-life', rows_stable, rows_unstable )
-entry( '* ', 'Arcterus/rust-snake', rows_stable, rows_unstable )
-entry( '* ', 'bachm/rusty-tetris', rows_stable, rows_unstable )
-entry( '* ', 'bvssvni/rust-snake', rows_stable, rows_unstable )
-entry( '* ', 'Coeuvre/rust-2048', rows_stable, rows_unstable )
-entry( '* ', 'Coeuvre/rust-pong', rows_stable, rows_unstable )
-entry( '* ', 'dpc/rustyhex', rows_stable, rows_unstable )
-entry( '* ', 'FrozenCow/rust-airhockey', rows_stable, rows_unstable )
-entry( '* ', 'jeaye/q3', rows_stable, rows_unstable )
-entry( '* ', 'lifthrasiir/angolmois-rust', rows_stable, rows_unstable )
-entry( '* ', 'mynery/xxo', rows_stable, rows_unstable )
-entry( '* ', 'ozkriff/marauder', rows_stable, rows_unstable )
-entry( '* ', 'rlane/cubeland', rows_stable, rows_unstable )
-entry( '* ', 'zokier/pong-rs', rows_stable, rows_unstable )
 
 add(   '\n### GUI\n', rows_stable, rows_unstable )
 add(   '* Cocoa', rows_stable, rows_unstable )
