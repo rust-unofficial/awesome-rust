@@ -20,9 +20,14 @@ def md_link(name, url):
 """
 DATA = \
     {
+        'Servo': {
+            "url": 'https://github.com/servo/servo',
+            "descr": 'a prototype web browser engine written in Rust',
+            "unstable": False
+        },
         'gchp/iota': {
             "url": 'https://github.com/gchp/iota',
-            "descr": 'A simple text editor written in Rust',
+            "descr": 'a simple text editor written in Rust',
             "travis_url": 'https://travis-ci.org/gchp/iota',
             "travis_badge": 'https://travis-ci.org/gchp/iota.svg?branch=master',
             "unstable": False
@@ -594,6 +599,7 @@ TOC = \
 """
 - [Awesome Rust](#awesome-rust)
   - [Applications](#applications)
+    - [Games](#games)
   - [Frameworks](#frameworks)
     - [Audio](#audio)
     - [Build system](#build-system)
@@ -672,6 +678,7 @@ rows_unstable = [HEADER_UNSTABLE, TOC]
 add(  '## Applications\n', rows_stable, rows_unstable )
 entry( '* ', 'gchp/iota', rows_stable, rows_unstable )
 entry( '* ', 'uutils/coreutils', rows_stable, rows_unstable )
+entry( '* ', 'Servo', rows_stable, rows_unstable )
 
 add(   '\n### Games\n', rows_stable, rows_unstable )
 entry( '* ', 'Arcterus/game-of-life', rows_stable, rows_unstable )

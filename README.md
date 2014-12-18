@@ -6,6 +6,7 @@ Only projects that are stable and useful to users are added. Projects that do no
 
 - [Awesome Rust](#awesome-rust)
   - [Applications](#applications)
+    - [Games](#games)
   - [Frameworks](#frameworks)
     - [Audio](#audio)
     - [Build system](#build-system)
@@ -30,8 +31,9 @@ Only projects that are stable and useful to users are added. Projects that do no
 
 ## Applications
 
-* [gchp/iota](https://github.com/gchp/iota) — A simple text editor written in Rust [<img src="https://travis-ci.org/gchp/iota.svg?branch=master">](https://travis-ci.org/gchp/iota)
+* [gchp/iota](https://github.com/gchp/iota) — a simple text editor written in Rust [<img src="https://travis-ci.org/gchp/iota.svg?branch=master">](https://travis-ci.org/gchp/iota)
 * [uutils/coreutils](https://github.com/uutils/coreutils) — Cross-platform Rust rewrite of the GNU coreutils [<img src="https://travis-ci.org/uutils/coreutils.svg?branch=master">](https://travis-ci.org/uutils/coreutils)
+* [Servo](https://github.com/servo/servo) — a prototype web browser engine written in Rust
 
 ### Games
 
