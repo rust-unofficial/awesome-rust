@@ -689,8 +689,7 @@ entry( '* ', 'ozkriff/marauder', rows_stable, rows_unstable )
 entry( '* ', 'rlane/cubeland', rows_stable, rows_unstable )
 entry( '* ', 'zokier/pong-rs', rows_stable, rows_unstable )
 
-
-add(  '## Frameworks\n', rows_stable, rows_unstable )
+add(  '\n## Frameworks\n', rows_stable, rows_unstable )
 
 add(  '\n### Audio\n', rows_stable, rows_unstable )
 entry( '* ', 'bjz/openal-rs', rows_stable, rows_unstable )
