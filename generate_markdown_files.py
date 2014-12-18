@@ -580,7 +580,8 @@ A list of awesome but unstable/experimental Rust projects which some day hopeful
 TOC = \
 """
 - [Awesome Rust](#awesome-rust)
-  - [Code](#code)
+  - [Applications](#applications)
+  - [Frameworks](#frameworks)
     - [Audio](#audio)
     - [Build system](#build-system)
     - [Command-line argument parsing](#command-line-argument-parsing)
@@ -655,7 +656,9 @@ def entry( prefix, name, rows_stable=None, rows_unstable=None ):
 rows_stable = [HEADER_STABLE, TOC]
 rows_unstable = [HEADER_UNSTABLE, TOC]
 
-add(  '## Code\n', rows_stable, rows_unstable )
+add(  '## Applications\n', rows_stable, rows_unstable )
+
+add(  '## Frameworks\n', rows_stable, rows_unstable )
 
 add(  '\n### Audio\n', rows_stable, rows_unstable )
 entry( '* ', 'bjz/openal-rs', rows_stable, rows_unstable )

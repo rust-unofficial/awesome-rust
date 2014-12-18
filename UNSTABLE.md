@@ -3,7 +3,8 @@
 A list of awesome but unstable/experimental Rust projects which some day hopefully will be migrated to `README.md`.
 
 - [Awesome Rust](#awesome-rust)
-  - [Code](#code)
+  - [Applications](#applications)
+  - [Frameworks](#frameworks)
     - [Audio](#audio)
     - [Build system](#build-system)
     - [Command-line argument parsing](#command-line-argument-parsing)
@@ -25,7 +26,9 @@ A list of awesome but unstable/experimental Rust projects which some day hopeful
     - [Web programming](#web-programming)
   - [Resources](#resources)
 
-## Code
+## Applications
+
+## Frameworks
 
 
 ### Audio

@@ -5,7 +5,8 @@ A curated list of awesome Rust code and resources. Inspired by the other [awesom
 Only projects that are stable and useful to users are added. Projects that do not compile with Rust-nightly for a longer time are moved to [UNSTABLE.md](UNSTABLE.md).
 
 - [Awesome Rust](#awesome-rust)
-  - [Code](#code)
+  - [Applications](#applications)
+  - [Frameworks](#frameworks)
     - [Audio](#audio)
     - [Build system](#build-system)
     - [Command-line argument parsing](#command-line-argument-parsing)
@@ -27,7 +28,9 @@ Only projects that are stable and useful to users are added. Projects that do no
     - [Web programming](#web-programming)
   - [Resources](#resources)
 
-## Code
+## Applications
+
+## Frameworks
 
 
 ### Audio
