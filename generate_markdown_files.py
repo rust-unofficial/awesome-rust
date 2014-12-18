@@ -34,7 +34,7 @@ DATA = \
         },
         'uutils/coreutils': {
             "url": 'https://github.com/uutils/coreutils',
-            "descr": 'Cross-platform Rust rewrite of the GNU coreutils',
+            "descr": 'cross-platform Rust rewrite of the GNU coreutils',
             "travis_url": 'https://travis-ci.org/uutils/coreutils',
             "travis_badge": 'https://travis-ci.org/uutils/coreutils.svg?branch=master',
             "unstable": False
