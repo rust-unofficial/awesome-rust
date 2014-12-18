@@ -218,10 +218,6 @@ DATA = \
             "travis_url": "https://travis-ci.org/SiegeLord/RustCMake",
             "travis_badge": "https://travis-ci.org/SiegeLord/RustCMake.svg?branch=master"
           },
-        "PistonDevelopers/rust-empty": {
-            "url": "https://github.com/PistonDevelopers/rust-empty",
-            "descr": "a Makefile to get started with Rust"
-          },
         "docopt/docopt.rs": {
             "url": "https://github.com/docopt/docopt.rs",
             "descr": "a Rust implementation of " + md_link('DocOpt', 'http://docopt.org'),
@@ -715,8 +711,6 @@ add(   '\n### Build system\n', rows_stable, rows_unstable )
 entry( '* ', 'Cargo', rows_stable, rows_unstable )
 add(   '* CMake', rows_stable, rows_unstable )
 entry( '  * ', 'SiegeLord/RustCMake', rows_stable, rows_unstable )
-add(   '* Make', rows_stable, rows_unstable )
-entry( '  * ', 'PistonDevelopers/rust-empty', rows_stable, rows_unstable )
 
 add(   '\n### Command-line argument parsing\n', rows_stable, rows_unstable )
 entry( '* ', 'docopt/docopt.rs', rows_stable, rows_unstable )
