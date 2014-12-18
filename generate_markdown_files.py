@@ -234,11 +234,11 @@ DATA = \
             "travis_url": "https://travis-ci.org/lifthrasiir/rust-zip",
             "travis_badge": "https://travis-ci.org/lifthrasiir/rust-zip.svg?branch=master"
           },
-        "eholk/rust-opencl": {
-            "url": "https://github.com/eholk/rust-opencl",
+        "luqmana/rust-opencl": {
+            "url": "https://github.com/luqmana/rust-opencl",
             "descr": md_link('OpenCL', 'https://www.khronos.org/opencl/') + " bindings",
-            "travis_url": "https://travis-ci.org/eholk/rust-opencl",
-            "travis_badge": "https://travis-ci.org/eholk/rust-opencl.svg?branch=master"
+            "travis_url": "https://travis-ci.org/luqmana/rust-opencl",
+            "travis_badge": "https://travis-ci.org/luqmana/rust-opencl.svg?branch=master"
           },
         "DaGenix/rust-crypto": {
             "url": "https://github.com/DaGenix/rust-crypto",
@@ -723,7 +723,7 @@ entry( '* ', 'alexcrichton/tar-rs', rows_stable, rows_unstable )
 entry( '* ', 'lifthrasiir/rust-zip', rows_stable, rows_unstable )
 
 add(   '\n### Computation\n', rows_stable, rows_unstable )
-entry( '* ', 'eholk/rust-opencl', rows_stable, rows_unstable )
+entry( '* ', 'luqmana/rust-opencl', rows_stable, rows_unstable )
 entry( '* ', 'thestinger/rust-gmp', rows_stable, rows_unstable )
 
 add(   '\n### Cryptography\n', rows_stable, rows_unstable )
