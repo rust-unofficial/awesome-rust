@@ -54,7 +54,6 @@ A list of awesome but unstable/experimental Rust projects which some day hopeful
 ### Build system
 
 * CMake
-* Make
 
 ### Command-line argument parsing
 

@@ -55,8 +55,6 @@ Only projects that are stable and useful to users are added. Projects that do no
 * [Cargo](http://crates.io) — the Rust package manager
 * CMake
   * [SiegeLord/RustCMake](https://github.com/SiegeLord/RustCMake) — an example project showing usage of CMake with Rust [<img src="https://travis-ci.org/SiegeLord/RustCMake.svg?branch=master">](https://travis-ci.org/SiegeLord/RustCMake)
-* Make
-  * [PistonDevelopers/rust-empty](https://github.com/PistonDevelopers/rust-empty) — a Makefile to get started with Rust
 
 ### Command-line argument parsing
 
