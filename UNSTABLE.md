@@ -112,6 +112,7 @@ A list of awesome but unstable/experimental Rust projects which some day hopeful
 * ncurses
 * OpenGL
   * [servo/rust-opengles](https://github.com/servo/rust-opengles)
+* Qt
 * SDL
 * SFML
 * Termbox

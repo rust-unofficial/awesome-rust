@@ -20,6 +20,13 @@ def md_link(name, url):
 """
 DATA = \
     {
+        'cyndis/qmlrs': {
+            "url": 'https://github.com/cyndis/qmlrs',
+            "descr": md_link('QtQuick', 'http://doc.qt.io') + ' bindings',
+            "travis_url": 'https://travis-ci.org/cyndis/qmlrs',
+            "travis_badge": 'https://travis-ci.org/cyndis/qmlrs.svg?branch=master',
+            "unstable": False
+        },
         'Servo': {
             "url": 'https://github.com/servo/servo',
             "descr": 'a prototype web browser engine written in Rust',
@@ -797,6 +804,8 @@ entry( '  * ', 'bjz/glfw-rs', rows_stable, rows_unstable )
 entry( '  * ', 'servo/rust-glut', rows_stable, rows_unstable )
 entry( '  * ', 'servo/rust-opengles', rows_stable, rows_unstable )
 entry( '  * ', 'tomaka/glutin', rows_stable, rows_unstable )
+add(   '* Qt', rows_stable, rows_unstable )
+entry( '  * ', 'cyndis/qmlrs', rows_stable, rows_unstable )
 add(   '* SDL', rows_stable, rows_unstable )
 entry( '  * ', 'AngryLawyer/rust-sdl2', rows_stable, rows_unstable )
 entry( '  * ', 'brson/rust-sdl', rows_stable, rows_unstable )
