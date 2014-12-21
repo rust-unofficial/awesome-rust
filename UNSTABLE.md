@@ -71,6 +71,7 @@ A list of awesome but unstable/experimental Rust projects which some day hopeful
 ### Database
 
 * NoSQL
+  * Redis
   * RethinkDB
     * [tomjakubowski/rethinkdb-rs](https://github.com/tomjakubowski/rethinkdb-rs) — [RethinkDB](http://www.rethinkdb.com) bindings [<img src="https://travis-ci.org/tomjakubowski/rethinkdb-rs.svg?branch=master">](https://travis-ci.org/tomjakubowski/rethinkdb-rs)
 * SQL

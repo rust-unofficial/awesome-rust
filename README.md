@@ -83,6 +83,8 @@ Only projects that are stable and useful to users are added. Projects that do no
 ### Database
 
 * NoSQL
+  * Redis
+    * [mitsuhiko/redis-rs]() — [Redis](http://redis.io) library in Rust [<img src="https://travis-ci.org/mitsuhiko/redis-rs.svg?branch=master">](https://travis-ci.org/mitsuhiko/redis-rs)
   * RethinkDB
 * SQL
   * MySql

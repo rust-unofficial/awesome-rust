@@ -20,6 +20,13 @@ def md_link(name, url):
 """
 DATA = \
     {
+        'mitsuhiko/redis-rs': {
+            "url": '',
+            "descr": md_link('Redis', 'http://redis.io') + ' library in Rust',
+            "travis_url": 'https://travis-ci.org/mitsuhiko/redis-rs',
+            "travis_badge": 'https://travis-ci.org/mitsuhiko/redis-rs.svg?branch=master',
+            "unstable": False
+        },
         'cyndis/qmlrs': {
             "url": 'https://github.com/cyndis/qmlrs',
             "descr": md_link('QtQuick', 'http://doc.qt.io') + ' bindings',
@@ -735,6 +742,8 @@ entry( '* ', 'sfackler/rust-openssl', rows_stable, rows_unstable )
 
 add(   '\n### Database\n', rows_stable, rows_unstable )
 add(   '* NoSQL', rows_stable, rows_unstable )
+add(   '  * Redis', rows_stable, rows_unstable )
+entry( '    * ', 'mitsuhiko/redis-rs', rows_stable, rows_unstable )
 add(   '  * RethinkDB', rows_stable, rows_unstable )
 entry( '    * ', 'tomjakubowski/rethinkdb-rs', rows_stable, rows_unstable )
 add(   '* SQL', rows_stable, rows_unstable )
