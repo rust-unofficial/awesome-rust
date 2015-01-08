@@ -767,7 +767,7 @@ entry( '* ', 'rust-lang/time', rows_stable, rows_unstable )
 
 add(   '\n### Encoding\n', rows_stable, rows_unstable )
 entry( '* ', 'TyOverby/bincode', rows_stable, rows_unstable )
-add(   '* Bencode', rows_stable, rows_unstable )
+add(   '  * Bencode', rows_stable, rows_unstable )
 entry( '* ', 'arjantop/rust-bencode', rows_stable, rows_unstable )
 add(   '* Cap\'n Proto', rows_stable, rows_unstable )
 entry( '  * ', 'dwrensha/capnproto-rust', rows_stable, rows_unstable )
