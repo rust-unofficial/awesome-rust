@@ -84,7 +84,7 @@ A list of awesome but unstable/experimental Rust projects which some day hopeful
 
 ### Encoding
 
-  * Bencode
+* Bencode
 * Cap'n Proto
 * Character Encoding
 * CSV
