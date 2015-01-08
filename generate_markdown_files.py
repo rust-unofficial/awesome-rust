@@ -20,6 +20,13 @@ def md_link(name, url):
 """
 DATA = \
     {
+        'arjantop/rust-bencode': {
+            "url": 'https://github.com/arjantop/rust-bencode',
+            "descr": md_link('Bencode', 'http://en.wikipedia.org/wiki/Bencode') + ' implementation in Rust',
+            "travis_url": 'https://travis-ci.org/arjantop/rust-bencode',
+            "travis_badge": 'https://travis-ci.org/arjantop/rust-bencode.svg?branch=master',
+            "unstable": False
+        },
         'mitsuhiko/redis-rs': {
             "url": '',
             "descr": md_link('Redis', 'http://redis.io') + ' library in Rust',
@@ -760,6 +767,8 @@ entry( '* ', 'rust-lang/time', rows_stable, rows_unstable )
 
 add(   '\n### Encoding\n', rows_stable, rows_unstable )
 entry( '* ', 'TyOverby/bincode', rows_stable, rows_unstable )
+add(   '* Bencode', rows_stable, rows_unstable )
+entry( '* ', 'arjantop/rust-bencode', rows_stable, rows_unstable )
 add(   '* Cap\'n Proto', rows_stable, rows_unstable )
 entry( '  * ', 'dwrensha/capnproto-rust', rows_stable, rows_unstable )
 add(   '* Character Encoding', rows_stable, rows_unstable )
