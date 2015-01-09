@@ -210,11 +210,11 @@ DATA = \
             "travis_url": "https://travis-ci.org/JeremyLetang/rust-portaudio",
             "travis_badge": "https://travis-ci.org/jeremyletang/rust-portaudio.svg?branch=master"
           },
-        "samdoshi/rust-portmidi": {
-            "url": "https://github.com/samdoshi/rust-portmidi",
+        "samdoshi/portmidi-rs": {
+            "url": "https://github.com/samdoshi/portmidi-rs",
             "descr": md_link('PortMidi', 'http://portmedia.sourceforge.net/portmidi/') + " bindings",
-            "travis_url": "https://travis-ci.org/samdoshi/rust-portmidi",
-            "travis_badge": "https://travis-ci.org/samdoshi/rust-portmidi.svg?branch=master"
+            "travis_url": "https://travis-ci.org/samdoshi/portmidi-rs",
+            "travis_badge": "https://travis-ci.org/samdoshi/portmidi-rs.svg?branch=master"
           },
         "PistonDevelopers/image": {
             "url": "https://github.com/PistonDevelopers/image",
@@ -719,7 +719,7 @@ add(  '\n### Audio\n', rows_stable, rows_unstable )
 entry( '* ', 'bjz/openal-rs', rows_stable, rows_unstable )
 entry( '* ', 'JeremyLetang/ears', rows_stable, rows_unstable )
 entry( '* ', 'JeremyLetang/rust-portaudio', rows_stable, rows_unstable )
-entry( '* ', 'samdoshi/rust-portmidi', rows_stable, rows_unstable )
+entry( '* ', 'samdoshi/portmidi-rs', rows_stable, rows_unstable )
 
 add(   '\n### Build system\n', rows_stable, rows_unstable )
 entry( '* ', 'Cargo', rows_stable, rows_unstable )
