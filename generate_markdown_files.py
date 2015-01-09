@@ -285,6 +285,8 @@ DATA = \
         "linuxfood/rustsqlite": {
             "url": "https://github.com/linuxfood/rustsqlite",
             "descr": md_link('Sqlite3', 'http://www.sqlite.org/') + " bindings",
+            "travis_url": "https://travis-ci.org/linuxfood/rustsqlite",
+            "travis_badge": "https://travis-ci.org/linuxfood/rustsqlite.svg?branch=master"
           },
         "dwrensha/capnproto-rust": {
             "url": "https://github.com/dwrensha/capnproto-rust",
