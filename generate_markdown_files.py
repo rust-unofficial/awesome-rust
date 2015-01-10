@@ -28,7 +28,7 @@ DATA = \
             "unstable": False
         },
         'mitsuhiko/redis-rs': {
-            "url": '',
+            "url": 'https://github.com/mitsuhiko/redis-rs',
             "descr": md_link('Redis', 'http://redis.io') + ' library in Rust',
             "travis_url": 'https://travis-ci.org/mitsuhiko/redis-rs',
             "travis_badge": 'https://travis-ci.org/mitsuhiko/redis-rs.svg?branch=master',
