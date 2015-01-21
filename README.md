@@ -175,6 +175,8 @@ Only projects that are stable and useful to users are added. Projects that do no
   * [alexcrichton/ssh2-rs](https://github.com/alexcrichton/ssh2-rs) — [libssh2](http://www.libssh2.org/) bindings [<img src="https://travis-ci.org/alexcrichton/ssh2-rs.svg?branch=master">](https://travis-ci.org/alexcrichton/ssh2-rs)
 * Stomp
   * [zslayton/stomp-rs](https://github.com/zslayton/stomp-rs) — [STOMP 1.2](http://stomp.github.io/stomp-specification-1.2.html) client implementation in Rust [<img src="https://api.travis-ci.org/zslayton/stomp-rs.svg?branch=master">](https://travis-ci.org/zslayton/stomp-rs)
+* Beanstalkd
+  * [schickling/rust-beanstalkd](https://github.com/schickling/rust-beanstalkd) - easy to use [beanstalkd](https://github.com/kr/beanstalkd) client in Rust [<img src="https://api.travis-ci.org/schickling/rust-beanstalkd.svg?branch=master">](https://travis-ci.org/schickling/rust-beanstalkd)
 * ZeroMQ
 
 ### Platform specific
