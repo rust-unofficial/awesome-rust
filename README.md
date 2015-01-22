@@ -37,7 +37,7 @@ Only projects that are stable and useful to users are added. Projects that do no
 
 ### Games
 
-* [Coeuvre/rust-2048](https://github.com/Coeuvre/rust-2048) — [<img src="https://travis-ci.org/Coeuvre/rust-2048.svg?branch=master">](https://travis-ci.org/Coeuvre/rust-2048)
+* [Coeuvre/rust-2048](https://github.com/Coeuvre/rust-2048)
 * [lifthrasiir/angolmois-rust](https://github.com/lifthrasiir/angolmois-rust) — a minimalistic music video game which supports the BMS format [<img src="https://travis-ci.org/lifthrasiir/angolmois-rust.svg?branch=master">](https://travis-ci.org/lifthrasiir/angolmois-rust)
 
 ## Frameworks
@@ -46,8 +46,8 @@ Only projects that are stable and useful to users are added. Projects that do no
 ### Audio
 
 * [bjz/openal-rs](https://github.com/bjz/openal-rs) — [OpenAL 1.1](http://www.openal.org/) bindings [<img src="https://travis-ci.org/bjz/openal-rs.svg?branch=master">](https://travis-ci.org/bjz/openal-rs)
-* [JeremyLetang/ears](https://github.com/JeremyLetang/ears) — a simple library to play Sounds and Musics, on top of OpenAL and libsndfile [<img src="https://travis-ci.org/JeremyLetang/ears.svg?branch=master">](https://travis-ci.org/JeremyLetang/ears)
-* [JeremyLetang/rust-portaudio](https://github.com/JeremyLetang/rust-portaudio) — [PortAudio](http://www.portaudio.com/) bindings [<img src="https://travis-ci.org/JeremyLetang/rust-portaudio.svg?branch=master">](https://travis-ci.org/JeremyLetang/rust-portaudio)
+* [JeremyLetang/ears](https://github.com/JeremyLetang/ears) — a simple library to play Sounds and Musics, on top of OpenAL and libsndfile
+* [JeremyLetang/rust-portaudio](https://github.com/JeremyLetang/rust-portaudio) — [PortAudio](http://www.portaudio.com/) bindings
 * [samdoshi/portmidi-rs](https://github.com/samdoshi/portmidi-rs) — [PortMidi](http://portmedia.sourceforge.net/portmidi/) bindings [<img src="https://travis-ci.org/samdoshi/portmidi-rs.svg?branch=master">](https://travis-ci.org/samdoshi/portmidi-rs)
 
 ### Build system
@@ -76,7 +76,7 @@ Only projects that are stable and useful to users are added. Projects that do no
 
 * [DaGenix/rust-crypto](https://github.com/DaGenix/rust-crypto) — cryptographic algorithms in Rust [<img src="https://travis-ci.org/DaGenix/rust-crypto.svg?branch=master">](https://travis-ci.org/DaGenix/rust-crypto)
 * [dnaq/sodiumoxide](https://github.com/dnaq/sodiumoxide) — [libsodium](https://github.com/jedisct1/libsodium) bindings [<img src="https://travis-ci.org/dnaq/sodiumoxide.svg?branch=master">](https://travis-ci.org/dnaq/sodiumoxide)
-* [klutzy/suruga](https://github.com/klutzy/suruga) — a Rust implementation of [TLS 1.2](http://tools.ietf.org/html/rfc5246) [<img src="https://travis-ci.org/klutzy/suruga.svg?branch=master">](https://travis-ci.org/klutzy/suruga)
+* [klutzy/suruga](https://github.com/klutzy/suruga) — a Rust implementation of [TLS 1.2](http://tools.ietf.org/html/rfc5246)
 * [seb-m/common.rs](https://github.com/seb-m/common.rs) — Common Rust crypto utilities [<img src="https://travis-ci.org/seb-m/common.rs.svg?branch=master">](https://travis-ci.org/seb-m/common.rs)
 * [sfackler/rust-openssl](https://github.com/sfackler/rust-openssl) — [OpenSSL](https://www.openssl.org/) bindings [<img src="https://travis-ci.org/sfackler/rust-openssl.svg?branch=master">](https://travis-ci.org/sfackler/rust-openssl)
 
@@ -128,7 +128,7 @@ Only projects that are stable and useful to users are added. Projects that do no
 
 ### Game development
 
-* [bbodi/rust-voxlap](https://github.com/bbodi/rust-voxlap) — [Voxlap](http://advsys.net/ken/voxlap.htm) bindings [<img src="https://travis-ci.org/bbodi/rust-voxlap.svg?branch=master">](https://travis-ci.org/bbodi/rust-voxlap)
+* [bbodi/rust-voxlap](https://github.com/bbodi/rust-voxlap) — [Voxlap](http://advsys.net/ken/voxlap.htm) bindings
 * [PistonDevelopers/piston](https://github.com/PistonDevelopers/piston) — [<img src="https://travis-ci.org/PistonDevelopers/piston.svg?branch=master">](https://travis-ci.org/PistonDevelopers/piston)
 * [SiegeLord/RustAllegro](https://github.com/SiegeLord/RustAllegro) — [Allegro 5](http://liballeg.org/) bindings [<img src="https://travis-ci.org/SiegeLord/RustAllegro.svg?branch=master">](https://travis-ci.org/SiegeLord/RustAllegro)
 
@@ -137,7 +137,7 @@ Only projects that are stable and useful to users are added. Projects that do no
 * Cocoa
   * [mozilla-servo/rust-cocoa](https://github.com/mozilla-servo/rust-cocoa)
 * Gtk+
-  * [JeremyLetang/rgtk](https://github.com/JeremyLetang/rgtk) — [Gtk+](http://www.gtk.org) bindings [<img src="https://travis-ci.org/JeremyLetang/rgtk.svg?branch=master">](https://travis-ci.org/JeremyLetang/rgtk)
+  * [JeremyLetang/rgtk](https://github.com/JeremyLetang/rgtk) — [Gtk+](http://www.gtk.org) bindings
 * ncurses
   * [jeaye/ncurses-rs](https://github.com/jeaye/ncurses-rs) — [<img src="https://travis-ci.org/jeaye/ncurses-rs.svg?branch=master">](https://travis-ci.org/jeaye/ncurses-rs)
 * OpenGL

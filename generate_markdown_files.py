@@ -45,6 +45,7 @@ DATA = \
             'url': 'http://crates.io/',
         },
         'Coeuvre/rust-2048': {
+            'travis_url': None,
             'unstable': False,
         },
         'Coeuvre/rust-pong': {
@@ -73,14 +74,17 @@ DATA = \
         },
         'JeremyLetang/ears': {
             'descr': "a simple library to play Sounds and Musics, on top of OpenAL and libsndfile",
+            'travis_url': None,
             'unstable': False,
         },
         'JeremyLetang/rgtk': {
             'descr': "[Gtk+](http://www.gtk.org) bindings",
+            'travis_url': None,
             'unstable': False,
         },
         'JeremyLetang/rust-portaudio': {
             'descr': "[PortAudio](http://www.portaudio.com/) bindings",
+            'travis_url': None,
             'unstable': False,
         },
         'JeremyLetang/rustenstein3D': {
@@ -181,6 +185,7 @@ DATA = \
         },
         'bbodi/rust-voxlap': {
             'descr': "[Voxlap](http://advsys.net/ken/voxlap.htm) bindings",
+            'travis_url': None,
             'unstable': False,
         },
         'bjz/bullet-rs': {
@@ -287,6 +292,7 @@ DATA = \
         },
         'klutzy/suruga': {
             'descr': "a Rust implementation of [TLS 1.2](http://tools.ietf.org/html/rfc5246)",
+            'travis_url': None,
             'unstable': False,
         },
         'libpnet/libpnet': {
