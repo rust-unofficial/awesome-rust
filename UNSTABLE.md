@@ -32,18 +32,18 @@ A list of awesome but unstable/experimental Rust projects which some day hopeful
 
 ### Games
 
-* [Arcterus/game-of-life](https://github.com/Arcterus/game-of-life)
-* [Arcterus/rust-snake](https://github.com/Arcterus/rust-snake)
-* [bachm/rusty-tetris](https://github.com/bachm/rusty-tetris)
-* [bvssvni/rust-snake](https://github.com/bvssvni/rust-snake)
-* [Coeuvre/rust-pong](https://github.com/Coeuvre/rust-pong)
-* [dpc/rustyhex](https://github.com/dpc/rustyhex)
-* [FrozenCow/rust-airhockey](https://github.com/FrozenCow/rust-airhockey)
-* [jeaye/q3](https://github.com/jeaye/q3)
-* [mynery/xxo](https://github.com/mynery/xxo)
-* [ozkriff/marauder](https://github.com/ozkriff/marauder)
-* [rlane/cubeland](https://github.com/rlane/cubeland)
-* [zokier/pong-rs](https://github.com/zokier/pong-rs)
+* [Arcterus/game-of-life](https://github.com/Arcterus/game-of-life) — [<img src="https://travis-ci.org/Arcterus/game-of-life.svg?branch=master">](https://travis-ci.org/Arcterus/game-of-life)
+* [Arcterus/rust-snake](https://github.com/Arcterus/rust-snake) — [<img src="https://travis-ci.org/Arcterus/rust-snake.svg?branch=master">](https://travis-ci.org/Arcterus/rust-snake)
+* [bachm/rusty-tetris](https://github.com/bachm/rusty-tetris) — [<img src="https://travis-ci.org/bachm/rusty-tetris.svg?branch=master">](https://travis-ci.org/bachm/rusty-tetris)
+* [bvssvni/rust-snake](https://github.com/bvssvni/rust-snake) — [<img src="https://travis-ci.org/bvssvni/rust-snake.svg?branch=master">](https://travis-ci.org/bvssvni/rust-snake)
+* [Coeuvre/rust-pong](https://github.com/Coeuvre/rust-pong) — [<img src="https://travis-ci.org/Coeuvre/rust-pong.svg?branch=master">](https://travis-ci.org/Coeuvre/rust-pong)
+* [dpc/rustyhex](https://github.com/dpc/rustyhex) — [<img src="https://travis-ci.org/dpc/rustyhex.svg?branch=master">](https://travis-ci.org/dpc/rustyhex)
+* [FrozenCow/rust-airhockey](https://github.com/FrozenCow/rust-airhockey) — [<img src="https://travis-ci.org/FrozenCow/rust-airhockey.svg?branch=master">](https://travis-ci.org/FrozenCow/rust-airhockey)
+* [jeaye/q3](https://github.com/jeaye/q3) — [<img src="https://travis-ci.org/jeaye/q3.svg?branch=master">](https://travis-ci.org/jeaye/q3)
+* [mynery/xxo](https://github.com/mynery/xxo) — [<img src="https://travis-ci.org/mynery/xxo.svg?branch=master">](https://travis-ci.org/mynery/xxo)
+* [ozkriff/marauder](https://github.com/ozkriff/marauder) — [<img src="https://travis-ci.org/ozkriff/marauder.svg?branch=master">](https://travis-ci.org/ozkriff/marauder)
+* [rlane/cubeland](https://github.com/rlane/cubeland) — [<img src="https://travis-ci.org/rlane/cubeland.svg?branch=master">](https://travis-ci.org/rlane/cubeland)
+* [zokier/pong-rs](https://github.com/zokier/pong-rs) — [<img src="https://travis-ci.org/zokier/pong-rs.svg?branch=master">](https://travis-ci.org/zokier/pong-rs)
 
 ## Frameworks
 
@@ -57,7 +57,7 @@ A list of awesome but unstable/experimental Rust projects which some day hopeful
 
 ### Command-line argument parsing
 
-* [wycats/hammer.rs](https://github.com/wycats/hammer.rs)
+* [wycats/hammer.rs](https://github.com/wycats/hammer.rs) — [<img src="https://travis-ci.org/wycats/hammer.rs.svg?branch=master">](https://travis-ci.org/wycats/hammer.rs)
 
 ### Compression
 
@@ -100,11 +100,11 @@ A list of awesome but unstable/experimental Rust projects which some day hopeful
 
 ### Game development
 
-* [bjz/bullet-rs](https://github.com/bjz/bullet-rs)
-* [JeremyLetang/rustenstein3D](https://github.com/JeremyLetang/rustenstein3D/) — a raycasting engine in rust
-* [sebcrozet/kiss3d](https://github.com/sebcrozet/kiss3d)
-* [sebcrozet/ncollide](https://github.com/sebcrozet/ncollide)
-* [sebcrozet/nphysics](https://github.com/sebcrozet/nphysics)
+* [bjz/bullet-rs](https://github.com/bjz/bullet-rs) — [<img src="https://travis-ci.org/bjz/bullet-rs.svg?branch=master">](https://travis-ci.org/bjz/bullet-rs)
+* [JeremyLetang/rustenstein3D](https://github.com/JeremyLetang/rustenstein3D) — a raycasting engine in rust [<img src="https://travis-ci.org/JeremyLetang/rustenstein3D.svg?branch=master">](https://travis-ci.org/JeremyLetang/rustenstein3D)
+* [sebcrozet/kiss3d](https://github.com/sebcrozet/kiss3d) — [<img src="https://travis-ci.org/sebcrozet/kiss3d.svg?branch=master">](https://travis-ci.org/sebcrozet/kiss3d)
+* [sebcrozet/ncollide](https://github.com/sebcrozet/ncollide) — [<img src="https://travis-ci.org/sebcrozet/ncollide.svg?branch=master">](https://travis-ci.org/sebcrozet/ncollide)
+* [sebcrozet/nphysics](https://github.com/sebcrozet/nphysics) — [<img src="https://travis-ci.org/sebcrozet/nphysics.svg?branch=master">](https://travis-ci.org/sebcrozet/nphysics)
 
 ### GUI
 
@@ -112,7 +112,7 @@ A list of awesome but unstable/experimental Rust projects which some day hopeful
 * Gtk+
 * ncurses
 * OpenGL
-  * [servo/rust-opengles](https://github.com/servo/rust-opengles)
+  * [servo/rust-opengles](https://github.com/servo/rust-opengles) — [<img src="https://travis-ci.org/servo/rust-opengles.svg?branch=master">](https://travis-ci.org/servo/rust-opengles)
 * Qt
 * SDL
 * SFML
@@ -129,6 +129,7 @@ A list of awesome but unstable/experimental Rust projects which some day hopeful
 ### Network programming
 
 * Low level
+* Beanstalkd
 * NanoMsg
 * SSH
 * Stomp
@@ -152,7 +153,7 @@ A list of awesome but unstable/experimental Rust projects which some day hopeful
 See also [http://arewewebyet.com/](http://arewewebyet.com/)
 
 * Core
-  * [Teepee](http://teepee.rs/) — [<img src="https://travis-ci.org/teepee/teepee.svg?branch=master">](https://travis-ci.org/teepee/teepee)
+  * [Teepee](https://github.com/Teepee) — [<img src="https://travis-ci.org/Teepee.svg?branch=master">](https://travis-ci.org/Teepee)
 * Client
 * Server
   * [erickt/rust-mongrel2](https://github.com/erickt/rust-mongrel2) — [Mongrel2](http://mongrel2.org) bindings [<img src="https://travis-ci.org/erickt/rust-mongrel2.svg?branch=master">](https://travis-ci.org/erickt/rust-mongrel2)
