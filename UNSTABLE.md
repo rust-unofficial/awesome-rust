@@ -130,7 +130,10 @@ A list of awesome but unstable/experimental Rust projects which some day hopeful
 
 * Low level
 * Beanstalkd
+* FTP
 * NanoMsg
+* NNTP
+* POP3
 * SSH
 * Stomp
 * ZeroMQ

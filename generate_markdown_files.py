@@ -21,6 +21,18 @@ def md_link(name, url):
 """
 DATA = \
     {
+        'mattnenterprise/rust-nntp': {
+            "descr": 'A ' + md_link('NNTP', 'http://en.wikipedia.org/wiki/Network_News_Transfer_Protocol') + ' client for Rust',
+            "unstable": False
+        },
+        'mattnenterprise/rust-pop3': {
+            "descr": 'A ' + md_link('POP3', 'http://en.wikipedia.org/wiki/Post_Office_Protocol') + ' client for Rust',
+            "unstable": False
+        },
+        'mattnenterprise/rust-ftp': {
+            "descr": 'An ' + md_link('FTP', 'http://en.wikipedia.org/wiki/File_Transfer_Protocol') + ' client for Rust',
+            "unstable": False
+        },
         'AngryLawyer/rust-sdl2': {
             'descr': "[SDL2](http://www.libsdl.org/) bindings",
             'unstable': False,
@@ -736,8 +748,14 @@ add('* Low level', rows_stable, rows_unstable)
 entry('  * ', 'libpnet/libpnet', rows_stable, rows_unstable)
 add('* Beanstalkd', rows_stable, rows_unstable)
 entry('  * ', 'schickling/rust-beanstalkd', rows_stable, rows_unstable)
+add('* FTP', rows_stable, rows_unstable)
+entry('  * ', 'mattnenterprise/rust-ftp', rows_stable, rows_unstable)
 add('* NanoMsg', rows_stable, rows_unstable)
 entry('  * ', 'thehydroimpulse/nanomsg.rs', rows_stable, rows_unstable)
+add('* NNTP', rows_stable, rows_unstable)
+entry('  * ', 'mattnenterprise/rust-nntp', rows_stable, rows_unstable)
+add('* POP3', rows_stable, rows_unstable)
+entry('  * ', 'mattnenterprise/rust-pop3', rows_stable, rows_unstable)
 add('* SSH', rows_stable, rows_unstable)
 entry('  * ', 'alexcrichton/ssh2-rs', rows_stable, rows_unstable)
 add('* Stomp', rows_stable, rows_unstable)
