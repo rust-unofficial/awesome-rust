@@ -139,7 +139,7 @@ Only projects that are stable and useful to users are added. Projects that do no
 * Cocoa
   * [mozilla-servo/rust-cocoa](https://github.com/mozilla-servo/rust-cocoa)
 * Gtk+
-  * [JeremyLetang/rgtk](https://github.com/JeremyLetang/rgtk) — [Gtk+](http://www.gtk.org) bindings
+  * [JeremyLetang/rgtk](https://github.com/JeremyLetang/rgtk) — [Gtk+](http://www.gtk.org) bindings [<img src="https://travis-ci.org/jeremyLetang/rgtk.svg?branch=master">](https://travis-ci.org/jeremyLetang/rgtk)
 * ncurses
   * [jeaye/ncurses-rs](https://github.com/jeaye/ncurses-rs) — [<img src="https://travis-ci.org/jeaye/ncurses-rs.svg?branch=master">](https://travis-ci.org/jeaye/ncurses-rs)
 * OpenGL
