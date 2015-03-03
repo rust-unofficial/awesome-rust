@@ -28,6 +28,8 @@ Only projects that are stable and useful to users are added. Projects that do no
     - [Testing](#testing)
     - [Web programming](#web-programming)
   - [Resources](#resources)
+  - [Tools](#tools)
+    - [IDE](#ide)
 
 ## Applications
 
@@ -221,3 +223,10 @@ See also [http://arewewebyet.com/](http://arewewebyet.com/)
 * [Rust by Example](http://rustbyexample.com/)
 * [Rust CI](http://www.rust-ci.org/) — a [Travis CI](https://travis-ci.com) dashboard for Rust projects
 * [Rust Guidelines](http://aturon.github.io/)
+
+
+## Tools
+
+### IDE
+  * [Idea-rust](https://github.com/Vektah/idea-rust) —  [<img src="https://travis-ci.org/Vektah/idea-rust.svg?branch=master">](https://travis-ci.org/Vektah/idea-rust)
+  * [RustDT](https://github.com/RustDT/RustDT) —  [<img src="https://travis-ci.org/RustDT/RustDT.svg?branch=master">](https://travis-ci.org/RustDT/RustDT)
