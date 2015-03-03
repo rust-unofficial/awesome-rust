@@ -228,5 +228,5 @@ See also [http://arewewebyet.com/](http://arewewebyet.com/)
 ## Tools
 
 ### IDE
-  * [Idea-rust](https://github.com/Vektah/idea-rust) —  [<img src="https://travis-ci.org/Vektah/idea-rust.svg?branch=master">](https://travis-ci.org/Vektah/idea-rust)
-  * [RustDT](https://github.com/RustDT/RustDT) —  [<img src="https://travis-ci.org/RustDT/RustDT.svg?branch=master">](https://travis-ci.org/RustDT/RustDT)
+  * [Idea-rust](https://github.com/Vektah/idea-rust) — an [IntelliJ](https://www.jetbrains.com/idea/)-based IDE for Rust [<img src="https://travis-ci.org/Vektah/idea-rust.svg?branch=master">](https://travis-ci.org/Vektah/idea-rust)
+  * [RustDT](https://github.com/RustDT/RustDT) — an [Eclipse](https://eclipse.org/)-based IDE for Rust [<img src="https://travis-ci.org/RustDT/RustDT.svg?branch=master">](https://travis-ci.org/RustDT/RustDT)
