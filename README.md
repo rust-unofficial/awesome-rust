@@ -5,7 +5,7 @@ A curated list of awesome Rust code and resources. Inspired by the other [awesom
 Only projects that are stable and useful to users are added. Projects that do not compile with Rust-nightly for a longer time are removed.
 
 - [Awesome Rust](#awesome-rust)
-  - [Applications](#applications)
+  - [Applications written in Rust](#applications-written-in-rust)
     - [Games](#games)
   - [Frameworks](#frameworks)
     - [Audio](#audio)
@@ -31,7 +31,7 @@ Only projects that are stable and useful to users are added. Projects that do no
   - [Tools](#tools)
     - [IDE](#ide)
 
-## Applications
+## Applications written in Rust
 
 * [gchp/iota](https://github.com/gchp/iota) — a simple text editor written in Rust [<img src="https://travis-ci.org/gchp/iota.svg?branch=master">](https://travis-ci.org/gchp/iota)
 * [uutils/coreutils](https://github.com/uutils/coreutils) — cross-platform Rust rewrite of the GNU coreutils [<img src="https://travis-ci.org/uutils/coreutils.svg?branch=master">](https://travis-ci.org/uutils/coreutils)
