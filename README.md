@@ -94,6 +94,7 @@ Only projects that are stable and useful to users are added. Projects that do no
   * PostgreSql
     * [sfackler/rust-postgres](https://github.com/sfackler/rust-postgres) — a native [PostgreSQL](http://www.postgresql.org) client [<img src="https://travis-ci.org/sfackler/rust-postgres.svg?branch=master">](https://travis-ci.org/sfackler/rust-postgres)
   * Sqlite
+    * [dckc/rust-sqlite3](https://github.com/dckc/rust-sqlite3) — [Sqlite3](http://www.sqlite.org/) bindings [<img src="https://travis-ci.org/dckc/rust-sqlite3.svg?branch=master">](https://travis-ci.org/dckc/rust-sqlite3)
     * [linuxfood/rustsqlite](https://github.com/linuxfood/rustsqlite) — [Sqlite3](http://www.sqlite.org/) bindings [<img src="https://travis-ci.org/linuxfood/rustsqlite.svg?branch=master">](https://travis-ci.org/linuxfood/rustsqlite)
 
 ### Date and time
