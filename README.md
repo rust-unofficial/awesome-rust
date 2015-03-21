@@ -61,7 +61,7 @@ Only projects that are stable and useful to users are added. Projects that do no
 ### Command-line argument parsing
 
 * [docopt/docopt.rs](https://github.com/docopt/docopt.rs) — a Rust implementation of [DocOpt](http://docopt.org) [<img src="https://travis-ci.org/docopt/docopt.rs.svg?branch=master">](https://travis-ci.org/docopt/docopt.rs)
-* [kbknapp/clap-rs](https://github.com/kbknapp/clap-rs) - Simple command-line argument parser [<img src="https://travis-ci.org/kbknapp/clap-rs.svg?branch=master">](https://travis-ci.org/kbknapp/clap-rs)
+* [kbknapp/clap-rs](https://github.com/kbknapp/clap-rs) — Simple command-line argument parser [<img src="https://travis-ci.org/kbknapp/clap-rs.svg?branch=master">](https://travis-ci.org/kbknapp/clap-rs)
 
 ### Compression
 
