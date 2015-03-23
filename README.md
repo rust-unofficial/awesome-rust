@@ -7,7 +7,7 @@ Only projects that are stable and useful to users are added. Projects that do no
 - [Awesome Rust](#awesome-rust)
   - [Applications written in Rust](#applications-written-in-rust)
     - [Games](#games)
-  - [Frameworks](#frameworks)
+  - [Libraries](#libraries)
     - [Audio](#audio)
     - [Build system](#build-system)
     - [Command-line argument parsing](#command-line-argument-parsing)
@@ -44,7 +44,7 @@ Only projects that are stable and useful to users are added. Projects that do no
 * [Coeuvre/rust-2048](https://github.com/Coeuvre/rust-2048)
 * [lifthrasiir/angolmois-rust](https://github.com/lifthrasiir/angolmois-rust) — a minimalistic music video game which supports the BMS format [<img src="https://travis-ci.org/lifthrasiir/angolmois-rust.svg?branch=master">](https://travis-ci.org/lifthrasiir/angolmois-rust)
 
-## Frameworks
+## Libraries
 
 
 ### Audio
