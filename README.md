@@ -38,6 +38,7 @@ Only projects that are stable and useful to users are added. Projects that do no
 * [Servo](https://github.com/servo/servo) — a prototype web browser engine written in Rust
 * [uutils/coreutils](https://github.com/uutils/coreutils) — cross-platform Rust rewrite of the GNU coreutils [<img src="https://travis-ci.org/uutils/coreutils.svg?branch=master">](https://travis-ci.org/uutils/coreutils)
 * [xsv](https://github.com/BurntSushi/xsv) — A fast CSV command line tool (slicing, indexing, selecting, searching, sampling, etc.) [<img src="https://travis-ci.org/BurntSushi/xsv.svg?branch=master">](https://travis-ci.org/BurntSushi/xsv)
+* [clog](https://github.com/thoughtram/clog) - A [conventional changelog](https://github.com/ajoslin/conventional-changelog/blob/master/CONVENTIONS.md) for the rest of us [<img src="https://travis-ci.org/thoughtram/clog.svg?branch=master">](https://travis-ci.org/thoughtram/clog)
 
 ### Games
 
