@@ -24,6 +24,7 @@ Only projects that are stable and useful to users are added. Projects that do no
     - [Mobile](#mobile)
     - [Network programming](#network-programming)
     - [Platform specific](#platform-specific)
+    - [Sound](#sound)
     - [Template engine](#template-engine)
     - [Testing](#testing)
     - [Text processing](#text-processing)
@@ -205,6 +206,10 @@ Only projects that are stable and useful to users are added. Projects that do no
 
 * Linux
   * [carllerche/nix-rust](https://github.com/carllerche/nix-rust) — Linux API bindings [<img src="https://travis-ci.org/carllerche/nix-rust.svg?branch=master">](https://travis-ci.org/carllerche/nix-rust)
+
+## Sound
+
+* [RustAudio](https://github.com/RustAudio)
 
 ### Template engine
 
