@@ -45,14 +45,14 @@ Only projects that are stable and useful to users are added. Projects that do no
 * [Coeuvre/rust-2048](https://github.com/Coeuvre/rust-2048)
 * [lifthrasiir/angolmois-rust](https://github.com/lifthrasiir/angolmois-rust) — a minimalistic music video game which supports the BMS format [<img src="https://travis-ci.org/lifthrasiir/angolmois-rust.svg?branch=master">](https://travis-ci.org/lifthrasiir/angolmois-rust)
 
-## Libraries
 
+## Libraries
 
 ### Audio
 
 * [bjz/openal-rs](https://github.com/bjz/openal-rs) — [OpenAL 1.1](http://www.openal.org/) bindings [<img src="https://travis-ci.org/bjz/openal-rs.svg?branch=master">](https://travis-ci.org/bjz/openal-rs)
 * [JeremyLetang/ears](https://github.com/JeremyLetang/ears) — a simple library to play Sounds and Musics, on top of OpenAL and libsndfile
-* [JeremyLetang/rust-portaudio](https://github.com/JeremyLetang/rust-portaudio) — [PortAudio](http://www.portaudio.com/) bindings
+* [JeremyLetang/rust-portaudio](https://github.com/JeremyLetang/rust-portaudio) — [PortAudio](http://www.portaudio.com/) bindings [<img src="https://travis-ci.org/leremyletang/rust-portaudio.svg?branch=master">](https://travis-ci.org/leremyletang/rust-portaudio)
 * [RustAudio](https://github.com/RustAudio)
 * [samdoshi/portmidi-rs](https://github.com/samdoshi/portmidi-rs) — [PortMidi](http://portmedia.sourceforge.net/portmidi/) bindings [<img src="https://travis-ci.org/samdoshi/portmidi-rs.svg?branch=master">](https://travis-ci.org/samdoshi/portmidi-rs)
 
