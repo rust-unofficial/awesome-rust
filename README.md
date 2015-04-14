@@ -24,7 +24,6 @@ Only projects that are stable and useful to users are added. Projects that do no
     - [Mobile](#mobile)
     - [Network programming](#network-programming)
     - [Platform specific](#platform-specific)
-    - [Sound](#sound)
     - [Template engine](#template-engine)
     - [Testing](#testing)
     - [Text processing](#text-processing)
@@ -55,6 +54,7 @@ Only projects that are stable and useful to users are added. Projects that do no
 * [JeremyLetang/ears](https://github.com/JeremyLetang/ears) — a simple library to play Sounds and Musics, on top of OpenAL and libsndfile
 * [JeremyLetang/rust-portaudio](https://github.com/JeremyLetang/rust-portaudio) — [PortAudio](http://www.portaudio.com/) bindings
 * [samdoshi/portmidi-rs](https://github.com/samdoshi/portmidi-rs) — [PortMidi](http://portmedia.sourceforge.net/portmidi/) bindings [<img src="https://travis-ci.org/samdoshi/portmidi-rs.svg?branch=master">](https://travis-ci.org/samdoshi/portmidi-rs)
+* [RustAudio](https://github.com/RustAudio)
 
 ### Build system
 
@@ -206,10 +206,6 @@ Only projects that are stable and useful to users are added. Projects that do no
 
 * Linux
   * [carllerche/nix-rust](https://github.com/carllerche/nix-rust) — Linux API bindings [<img src="https://travis-ci.org/carllerche/nix-rust.svg?branch=master">](https://travis-ci.org/carllerche/nix-rust)
-
-## Sound
-
-* [RustAudio](https://github.com/RustAudio)
 
 ### Template engine
 
