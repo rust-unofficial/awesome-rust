@@ -248,6 +248,8 @@ See also [http://arewewebyet.com/](http://arewewebyet.com/)
 
 ## Tools
 
+* [nrc/rustfmt](https://github.com/nrc/rustfmt) — a Rust code formatter [<img src="https://travis-ci.org/nrc/rustfmt.svg?branch=master">](https://travis-ci.org/nrc/rustfmt)
+
 ### IDE
 
   * [Ride](https://github.com/madeso/ride) — [<img src="https://travis-ci.org/madeso/ride.svg?branch=master">](https://travis-ci.org/madeso/ride)
