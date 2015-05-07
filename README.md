@@ -71,6 +71,7 @@ Only projects that are stable and useful to users are added. Projects that do no
 
 * [alexcrichton/bzip2-rs](https://github.com/alexcrichton/bzip2-rs) — [libbz2](http://www.bzip.org) bindings [<img src="https://travis-ci.org/alexcrichton/bzip2-rs.svg?branch=master">](https://travis-ci.org/alexcrichton/bzip2-rs)
 * [alexcrichton/flate2-rs](https://github.com/alexcrichton/flate2-rs) — [miniz](https://code.google.com/p/miniz/) bindings [<img src="https://travis-ci.org/alexcrichton/flate2-rs.svg?branch=master">](https://travis-ci.org/alexcrichton/flate2-rs)
+- [alexcrichton/rust-compress](https://github.com/alexcrichton/rust-compress) - various algorithms in pure-Rust: DEFLATE, LZ4, BWT, Distance + Arithmetic Coding, RLE. [<img src="https://travis-ci.org/alexcrichton/rust-compress.svg?branch=master">](https://travis-ci.org/alexcrichton/rust-compress)
 * [alexcrichton/tar-rs](https://github.com/alexcrichton/tar-rs) — tar archive reading/writing in Rust [<img src="https://travis-ci.org/alexcrichton/tar-rs.svg?branch=master">](https://travis-ci.org/alexcrichton/tar-rs)
 * [lifthrasiir/rust-zip](https://github.com/lifthrasiir/rust-zip) — read and write ZIP archives [<img src="https://travis-ci.org/lifthrasiir/rust-zip.svg?branch=master">](https://travis-ci.org/lifthrasiir/rust-zip)
 
@@ -79,6 +80,9 @@ Only projects that are stable and useful to users are added. Projects that do no
 * [luqmana/rust-opencl](https://github.com/luqmana/rust-opencl) — [OpenCL](https://www.khronos.org/opencl/) bindings [<img src="https://travis-ci.org/luqmana/rust-opencl.svg?branch=master">](https://travis-ci.org/luqmana/rust-opencl)
 * [thestinger/rust-gmp](https://github.com/thestinger/rust-gmp) — [libgmp](https://gmplib.org/) bindings [<img src="https://travis-ci.org/thestinger/rust-gmp.svg?branch=master">](https://travis-ci.org/thestinger/rust-gmp)
 * [GuillaumeGomez/rust-GSL](https://github.com/GuillaumeGomez) - [GSL](http://www.gnu.org/software/gsl/) bindings [<img src="https://travis-ci.org/GuillaumeGomez/rust-GSL.svg?branch=master">](https://travis-ci.org/GuillaumeGomez/rust-GSL)
+* [stainless-steel/blas](https://github.com/stainless-steel/blas) - [BLAS](http://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms) [<img src="https://travis-ci.org/stainless-steel/blas.svg?branch=master">](https://travis-ci.org/stainless-steel/blas)
+* [stainless-steel/lapack](https://github.com/stainless-steel/lapack) - [BLAS](http://en.wikipedia.org/wiki/LAPACK) [<img src="https://travis-ci.org/stainless-steel/lapack.svg?branch=master">](https://travis-ci.org/stainless-steel/lapack)
+
 
 ### Cryptography
 
