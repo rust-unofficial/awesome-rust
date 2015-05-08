@@ -15,6 +15,7 @@ Only projects that are stable and useful to users are added. Projects that do no
     - [Computation](#computation)
     - [Cryptography](#cryptography)
     - [Database](#database)
+    - [Date structures](#data-structures)
     - [Date and time](#date-and-time)
     - [Encoding](#encoding)
     - [Game development](#game-development)
