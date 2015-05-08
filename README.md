@@ -30,7 +30,7 @@ Only projects that are stable and useful to users are added. Projects that do no
     - [Web programming](#web-programming)
   - [Resources](#resources)
   - [Tools](#tools)
-    - [IDE](#ide)
+    - [IDEs](#ides)
 
 ## Applications written in Rust
 
@@ -260,7 +260,7 @@ See also [http://arewewebyet.com/](http://arewewebyet.com/)
 * [nrc/rustfmt](https://github.com/nrc/rustfmt) — a Rust code formatter [<img src="https://travis-ci.org/nrc/rustfmt.svg?branch=master">](https://travis-ci.org/nrc/rustfmt)
 * [phildawes/racer](https://github.com/phildawes/racer) — code completion for Rust [<img src="https://travis-ci.org/phildawes/racer.svg?branch=master">](https://travis-ci.org/phildawes/racer)
 
-### IDE
+### IDEs
 
   * [Ride](https://github.com/madeso/ride) — [<img src="https://travis-ci.org/madeso/ride.svg?branch=master">](https://travis-ci.org/madeso/ride)
   * [RustDT](https://github.com/RustDT/RustDT) — an [Eclipse](https://eclipse.org/)-based IDE for Rust [<img src="https://travis-ci.org/RustDT/RustDT.svg?branch=master">](https://travis-ci.org/RustDT/RustDT)
