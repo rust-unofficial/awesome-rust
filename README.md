@@ -2,7 +2,7 @@
 
 A curated list of awesome Rust code and resources. Inspired by the other [awesome lists](https://github.com/bayandin/awesome-awesomeness).
 
-Only projects that are stable and useful to users are added. Projects that do not compile with Rust-nightly for a longer time are removed.
+Ther goal is to have only projects that are mostly stable and useful to users. Projects that do not compile with Rust-nightly for a longer time should be removed.
 
 - [Awesome Rust](#awesome-rust)
   - [Applications written in Rust](#applications-written-in-rust)
