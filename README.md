@@ -96,6 +96,8 @@ Ther goal is to have only projects that are mostly stable and useful to users. P
 ### Database
 
 * NoSQL
+  * Cassandra
+    * [tupshin/cassandra-rust](https://github.com/tupshin/cassandra-rust) — [Cassandra](http://cassandra.apache.org) bindings
   * LMDB
     * [vhbit/lmdb-rs](https://github.com/vhbit/lmdb-rs) — [LMDB](http://symas.com/mdb/) bindings [<img src="https://travis-ci.org/vhbit/lmdb-rs.svg?branch=master">](https://travis-ci.org/vhbit/lmdb-rs)
   * Redis
