@@ -268,6 +268,7 @@ See also [http://arewewebyet.com/](http://arewewebyet.com/)
 * [Rust by Example](http://rustbyexample.com/)
 * [Rust CI](http://www.rust-ci.org/) — a [Travis CI](https://travis-ci.com) dashboard for Rust projects
 * [Rust Guidelines](http://aturon.github.io/)
+* [rust-learning](https://github.com/ctjhoa/rust-learning) - a collection of useful resources to learn rust
 
 
 ## Tools
