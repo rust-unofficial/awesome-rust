@@ -18,6 +18,7 @@ Ther goal is to have only projects that are mostly stable and useful to users. P
     - [Date structures](#data-structures)
     - [Date and time](#date-and-time)
     - [Encoding](#encoding)
+    - [Filesystem](#filesystem)
     - [Game development](#game-development)
     - [Games](#games)
     - [GUI](#gui)
@@ -154,6 +155,11 @@ Ther goal is to have only projects that are mostly stable and useful to users. P
   * [netvl/xml-rs](https://github.com/netvl/xml-rs) — a streaming XML library [<img src="https://travis-ci.org/netvl/xml-rs.svg?branch=master">](https://travis-ci.org/netvl/xml-rs)
 * YAML
   * [kimhyunkang/libyaml-rust](https://github.com/kimhyunkang/libyaml-rust) — [libyaml](http://pyyaml.org/wiki/LibYAML) bindings [<img src="https://travis-ci.org/kimhyunkang/libyaml-rust.svg?branch=master">](https://travis-ci.org/kimhyunkang/libyaml-rust)
+
+### Filesystem
+
+* FUSE
+  * [zargony/rust-fuse](https://github.com/zargony/rust-fuse) — [FUSE](http://fuse.sourceforge.net/) bindings <img src="https://travis-ci.org/zargony/rust-fuse.svg?branch=master">
 
 ### Game development
 
