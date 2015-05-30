@@ -15,7 +15,7 @@ Ther goal is to have only projects that are mostly stable and useful to users. P
     - [Computation](#computation)
     - [Cryptography](#cryptography)
     - [Database](#database)
-    - [Date structures](#data-structures)
+    - [Data structures](#data-structures)
     - [Date and time](#date-and-time)
     - [Encoding](#encoding)
     - [Filesystem](#filesystem)
