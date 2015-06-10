@@ -48,6 +48,8 @@ Ther goal is to have only projects that are mostly stable and useful to users. P
 
 * [Coeuvre/rust-2048](https://github.com/Coeuvre/rust-2048)
 * [lifthrasiir/angolmois-rust](https://github.com/lifthrasiir/angolmois-rust) — a minimalistic music video game which supports the BMS format [<img src="https://travis-ci.org/lifthrasiir/angolmois-rust.svg?branch=master">](https://travis-ci.org/lifthrasiir/angolmois-rust)
+* [xojoc/snake-piston](https://github.com/xojoc/snake-piston) — a Snake game in Rust [<img src="https://travis-ci.org/xojoc/snake-piston.svg?branch=master">](https://travis-ci.org/xojoc/snake-piston)
+
 
 
 ## Libraries
