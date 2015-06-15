@@ -177,8 +177,8 @@ Ther goal is to have only projects that are mostly stable and useful to users. P
 
 * Cocoa
   * [mozilla-servo/rust-cocoa](https://github.com/mozilla-servo/rust-cocoa)
-* Gtk+
-  * [rust-gnome/gtk](https://github.com/rust-gnome/gtk) — [Gtk+](http://www.gtk.org) bindings [<img src="https://travis-ci.org/rust-gnome/gtk.svg?branch=master">](https://travis-ci.org/rust-gnome/gtk)
+* GTK+
+  * [rust-gnome/gtk](https://github.com/rust-gnome/gtk) — [GTK+](http://www.gtk.org) bindings [<img src="https://travis-ci.org/rust-gnome/gtk.svg?branch=master">](https://travis-ci.org/rust-gnome/gtk)
 * ncurses
   * [jeaye/ncurses-rs](https://github.com/jeaye/ncurses-rs) — [<img src="https://travis-ci.org/jeaye/ncurses-rs.svg?branch=master">](https://travis-ci.org/jeaye/ncurses-rs)
 * OpenGL
@@ -300,6 +300,6 @@ See also [http://arewewebyet.com/](http://arewewebyet.com/)
   * [PistonDevelopers/VisualRust](https://github.com/PistonDevelopers/VisualRust) — a Visual Studio extension for Rust [<img src="https://travis-ci.org/PistonDevelopers/VisualRust.svg?branch=master">](https://travis-ci.org/PistonDevelopers/VisualRust)
   * [Ride](https://github.com/madeso/ride) — [<img src="https://travis-ci.org/madeso/ride.svg?branch=master">](https://travis-ci.org/madeso/ride)
   * [RustDT](https://github.com/RustDT/RustDT) — an [Eclipse](https://eclipse.org/)-based IDE for Rust [<img src="https://travis-ci.org/RustDT/RustDT.svg?branch=master">](https://travis-ci.org/RustDT/RustDT)
-  * [SolidOak](https://github.com/oakes/SolidOak) — a simple IDE for Rust, based on Gtk+ and [Neovim](https://github.com/neovim/neovim) [<img src="https://travis-ci.org/oakes/SolidOak.svg?branch=master">](https://travis-ci.org/oakes/SolidOak)
+  * [SolidOak](https://github.com/oakes/SolidOak) — a simple IDE for Rust, based on GTK+ and [Neovim](https://github.com/neovim/neovim) [<img src="https://travis-ci.org/oakes/SolidOak.svg?branch=master">](https://travis-ci.org/oakes/SolidOak)
   * [Vektah/idea-rust](https://github.com/Vektah/idea-rust) — an [IntelliJ](https://www.jetbrains.com/idea/)-based IDE for Rust [<img src="https://travis-ci.org/Vektah/idea-rust.svg?branch=master">](https://travis-ci.org/Vektah/idea-rust)
   * [Visual Studio Code](https://code.visualstudio.com/)
