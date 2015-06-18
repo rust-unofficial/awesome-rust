@@ -176,7 +176,7 @@ Ther goal is to have only projects that are mostly stable and useful to users. P
 ### GUI
 
 * Cocoa
-  * [servo/rust-cocoa](https://github.com/servo/rust-cocoa)
+  * [servo/rust-cocoa](https://github.com/servo/cocoa-rs)
 * GTK+
   * [rust-gnome/gtk](https://github.com/rust-gnome/gtk) — [GTK+](http://www.gtk.org) bindings [<img src="https://travis-ci.org/rust-gnome/gtk.svg?branch=master">](https://travis-ci.org/rust-gnome/gtk)
 * ncurses
