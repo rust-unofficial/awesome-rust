@@ -177,6 +177,8 @@ The goal is to have only projects that are mostly stable and useful to users.
 
 * Cocoa
   * [servo/rust-cocoa](https://github.com/servo/cocoa-rs)
+* IUP
+  * [dcampbell24/iup-rust](https://github.com/dcampbell24/iup-rust)
 * GTK+
   * [rust-gnome/gtk](https://github.com/rust-gnome/gtk) — [GTK+](http://www.gtk.org) bindings [<img src="https://travis-ci.org/rust-gnome/gtk.svg?branch=master">](https://travis-ci.org/rust-gnome/gtk)
 * ncurses
