@@ -33,6 +33,7 @@ The goal is to have only projects that are mostly stable and useful to users.
   - [Resources](#resources)
   - [Tools](#tools)
     - [IDEs](#ides)
+  - [License](#license)
 
 ## Applications written in Rust
 
@@ -306,3 +307,8 @@ See also [http://arewewebyet.com/](http://arewewebyet.com/)
   * [SolidOak](https://github.com/oakes/SolidOak) — a simple IDE for Rust, based on GTK+ and [Neovim](https://github.com/neovim/neovim) [<img src="https://travis-ci.org/oakes/SolidOak.svg?branch=master">](https://travis-ci.org/oakes/SolidOak)
   * [Vektah/idea-rust](https://github.com/Vektah/idea-rust) — an [IntelliJ](https://www.jetbrains.com/idea/)-based IDE for Rust [<img src="https://travis-ci.org/Vektah/idea-rust.svg?branch=master">](https://travis-ci.org/Vektah/idea-rust)
   * [Visual Studio Code](https://code.visualstudio.com/)
+
+
+## License
+
+[![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
