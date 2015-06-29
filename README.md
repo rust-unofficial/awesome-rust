@@ -42,7 +42,7 @@ The goal is to have only projects that are mostly stable and useful to users.
 * [kbknapp/docli](https://github.com/kbknapp/docli-rs) - a command line utility for managing DigitalOcean infrastructure [<img src="https://travis-ci.org/kbknapp/docli-rs.svg?branch=master">](https://travis-ci.org/kbknapp/docli-rs)
 * [seppo0010/rsedis](https://github.com/seppo0010/rsedis) — Redis reimplementation in Rust. [<img src="https://travis-ci.org/seppo0010/rsedis.svg?branch=master">](https://travis-ci.org/seppo0010/rsedis)
 * [Servo](https://github.com/servo/servo) — a prototype web browser engine written in Rust
-* [thoughtram/clog](https://github.com/thoughtram/clog) — a [conventional changelog](https://github.com/ajoslin/conventional-changelog/blob/master/CONVENTIONS.md) port (generates a changelog from git metadata) [<img src="https://travis-ci.org/thoughtram/clog.svg?branch=master">](https://travis-ci.org/thoughtram/clog)
+* [thoughtram/clog](https://github.com/thoughtram/clog) — a [conventional changelog](http://blog.thoughtram.io/announcements/tools/2014/09/18/announcing-clog-a-conventional-changelog-generator-for-the-rest-of-us.html) port (generates a changelog from git metadata) [<img src="https://travis-ci.org/thoughtram/clog.svg?branch=master">](https://travis-ci.org/thoughtram/clog)
 * [uutils/coreutils](https://github.com/uutils/coreutils) — cross-platform Rust rewrite of the GNU coreutils [<img src="https://travis-ci.org/uutils/coreutils.svg?branch=master">](https://travis-ci.org/uutils/coreutils)
 
 ### Games
