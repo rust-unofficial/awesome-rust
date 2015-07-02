@@ -184,7 +184,7 @@ The goal is to have only projects that are mostly stable and useful to users.
 * GTK+
   * [rust-gnome/gtk](https://github.com/rust-gnome/gtk) — [GTK+](http://www.gtk.org) bindings [<img src="https://travis-ci.org/rust-gnome/gtk.svg?branch=master">](https://travis-ci.org/rust-gnome/gtk)
 * ncurses
-  * [jeaye/ncurses-rs](https://github.com/jeaye/ncurses-rs) — [<img src="https://travis-ci.org/jeaye/ncurses-rs.svg?branch=master">](https://travis-ci.org/jeaye/ncurses-rs)
+  * [jeaye/ncurses-rs](https://github.com/jeaye/ncurses-rs) — [ncurses](http://www.gnu.org/software/ncurses/) bindings [<img src="https://travis-ci.org/jeaye/ncurses-rs.svg?branch=master">](https://travis-ci.org/jeaye/ncurses-rs)
 * OpenGL
   * [bjz/gl-rs](https://github.com/bjz/gl-rs) — [<img src="https://travis-ci.org/bjz/gl-rs.svg?branch=master">](https://travis-ci.org/bjz/gl-rs)
   * [bjz/glfw-rs](https://github.com/bjz/glfw-rs) — [<img src="https://travis-ci.org/bjz/glfw-rs.svg?branch=master">](https://travis-ci.org/bjz/glfw-rs)
