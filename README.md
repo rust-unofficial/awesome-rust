@@ -100,13 +100,16 @@ The goal is to have only projects that are mostly stable and useful to users.
 * [seb-m/common.rs](https://github.com/seb-m/common.rs) — Common Rust crypto utilities [<img src="https://travis-ci.org/seb-m/common.rs.svg?branch=master">](https://travis-ci.org/seb-m/common.rs)
 * [sfackler/rust-openssl](https://github.com/sfackler/rust-openssl) — [OpenSSL](https://www.openssl.org/) bindings [<img src="https://travis-ci.org/sfackler/rust-openssl.svg?branch=master">](https://travis-ci.org/sfackler/rust-openssl)
 
+
 ### Database
 
 * NoSQL
   * Cassandra
     * [tupshin/cassandra-rust](https://github.com/tupshin/cassandra-rust) — [Cassandra](http://cassandra.apache.org) bindings
   * Elastic (formerly Elasticsearch)
-    * [benashford/rs-es] (https://github.com/benashford/rs-es) - A Rust client for the [Elastic] (https://www.elastic.co/) REST API 
+    * [benashford/rs-es] (https://github.com/benashford/rs-es) - A Rust client for the [Elastic] (https://www.elastic.co/) REST API
+  * ForestDB
+    * [vhbit/sherwood](https://github.com/vhbit/sherwood) — [ForestDB](https://github.com/couchbase/forestdb) bindings [<img src="https://travis-ci.org/vhbit/sherwood.svg?branch=master">](https://travis-ci.org/vhbit/sherwood)
   * LMDB
     * [vhbit/lmdb-rs](https://github.com/vhbit/lmdb-rs) — [LMDB](http://symas.com/mdb/) bindings [<img src="https://travis-ci.org/vhbit/lmdb-rs.svg?branch=master">](https://travis-ci.org/vhbit/lmdb-rs)
   * Redis
