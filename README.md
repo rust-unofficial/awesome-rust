@@ -107,7 +107,7 @@ The goal is to have only projects that are mostly stable and useful to users.
   * Cassandra
     * [tupshin/cassandra-rust](https://github.com/tupshin/cassandra-rust) — [Cassandra](http://cassandra.apache.org) bindings
   * Elastic (formerly Elasticsearch)
-    * [benashford/rs-es] (https://github.com/benashford/rs-es) - A Rust client for the [Elastic] (https://www.elastic.co/) REST API
+    * [benashford/rs-es] (https://github.com/benashford/rs-es) - A Rust client for the [Elastic] (https://www.elastic.co/) REST API [<img src="https://travis-ci.org/benashford/rs-es.svg?branch=master">](https://travis-ci.org/benashford/rs-es)
   * ForestDB
     * [vhbit/sherwood](https://github.com/vhbit/sherwood) — [ForestDB](https://github.com/couchbase/forestdb) bindings [<img src="https://travis-ci.org/vhbit/sherwood.svg?branch=master">](https://travis-ci.org/vhbit/sherwood)
   * LMDB
