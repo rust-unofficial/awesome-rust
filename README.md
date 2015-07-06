@@ -88,6 +88,7 @@ The goal is to have only projects that are mostly stable and useful to users.
 * [luqmana/rust-opencl](https://github.com/luqmana/rust-opencl) — [OpenCL](https://www.khronos.org/opencl/) bindings [<img src="https://travis-ci.org/luqmana/rust-opencl.svg?branch=master">](https://travis-ci.org/luqmana/rust-opencl)
 * [thestinger/rust-gmp](https://github.com/thestinger/rust-gmp) — [libgmp](https://gmplib.org/) bindings [<img src="https://travis-ci.org/thestinger/rust-gmp.svg?branch=master">](https://travis-ci.org/thestinger/rust-gmp)
 * [GuillaumeGomez/rust-GSL](https://github.com/GuillaumeGomez) - [GSL](http://www.gnu.org/software/gsl/) bindings [<img src="https://travis-ci.org/GuillaumeGomez/rust-GSL.svg?branch=master">](https://travis-ci.org/GuillaumeGomez/rust-GSL)
+* [mikkyang/rust-blas](https://github.com/mikkyang/rust-blas) - [BLAS](http://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms)
 * [stainless-steel/blas](https://github.com/stainless-steel/blas) - [BLAS](http://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms) [<img src="https://travis-ci.org/stainless-steel/blas.svg?branch=master">](https://travis-ci.org/stainless-steel/blas)
 * [stainless-steel/lapack](https://github.com/stainless-steel/lapack) - [BLAS](http://en.wikipedia.org/wiki/LAPACK) [<img src="https://travis-ci.org/stainless-steel/lapack.svg?branch=master">](https://travis-ci.org/stainless-steel/lapack)
 
