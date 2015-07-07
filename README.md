@@ -299,7 +299,7 @@ See also [http://arewewebyet.com/](http://arewewebyet.com/)
 * [rust-learning](https://github.com/ctjhoa/rust-learning) - a collection of useful resources to learn rust
 
 
-## Development Tools
+## Development tools
 
 * [brson/multirust](https://github.com/brson/multirust) — manage multiple Rust installations [<img src="https://travis-ci.org/brson/multirust.svg?branch=master">](https://travis-ci.org/brson/multirust)
 * [crabtw/rust-bindgen](https://github.com/crabtw/rust-bindgen) — a Rust bindings generator [<img src="https://travis-ci.org/crabtw/rust-bindgen.svg?branch=master">](https://travis-ci.org/crabtw/rust-bindgen)
