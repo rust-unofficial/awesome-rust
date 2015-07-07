@@ -31,7 +31,7 @@ The goal is to have only projects that are mostly stable and useful to users.
     - [Text processing](#text-processing)
     - [Web programming](#web-programming)
   - [Resources](#resources)
-  - [Tools](#development-tools)
+  - [Development Tools](#development-tools)
     - [IDEs](#ides)
   - [License](#license)
 
