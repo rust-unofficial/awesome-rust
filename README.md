@@ -23,6 +23,7 @@ The goal is to have only projects that are mostly stable and useful to users.
     - [Games](#games)
     - [GUI](#gui)
     - [Image processing](#image-processing)
+    - [Markup language](#markup-language)
     - [Mobile](#mobile)
     - [Network programming](#network-programming)
     - [Platform specific](#platform-specific)
@@ -217,6 +218,12 @@ The goal is to have only projects that are mostly stable and useful to users.
 * [chyh1990/imageproc](https://github.com/chyh1990/imageproc) — An advanced image processing library for Rust. [![Build Status](https://travis-ci.org/chyh1990/imageproc.svg?branch=master)](https://travis-ci.org/chyh1990/imageproc)
 * [cybergeek94/img-hash](https://github.com/cybergeek94/img-hash) — Perceptual image hashing and comparison for equality and similarity. [![Build Status](https://travis-ci.org/cybergeek94/img-hash.svg?branch=master)](https://travis-ci.org/cybergeek94/img-hash)
 * [PistonDevelopers/image](https://github.com/PistonDevelopers/image) — Basic imaging processing functions and methods for converting to and from image formats [<img src="https://travis-ci.org/PistonDevelopers/image.svg?branch=master">](https://travis-ci.org/PistonDevelopers/image)
+
+
+### Markup language
+
+* CommonMark
+  * [google/pulldown-cmark](https://github.com/google/pulldown-cmark) — [CommonMark](http://commonmark.org/) parser in in Rust
 
 ### Mobile
 
