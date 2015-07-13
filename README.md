@@ -223,7 +223,7 @@ The goal is to have only projects that are mostly stable and useful to users.
 ### Markup language
 
 * CommonMark
-  * [google/pulldown-cmark](https://github.com/google/pulldown-cmark) — [CommonMark](http://commonmark.org/) parser in in Rust
+  * [google/pulldown-cmark](https://github.com/google/pulldown-cmark) — [CommonMark](http://commonmark.org/) parser in Rust
 
 ### Mobile
 
