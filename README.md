@@ -41,8 +41,8 @@ The goal is to have only projects that are mostly stable and useful to users.
 * [buster/rrun](https://github.com/buster/rrun) — A command launcher for Linux, similar to gmrun  [<img src="https://travis-ci.org/buster/rrun.svg?branch=master">](https://travis-ci.org/buster/rrun)
 * [BurntSushi/xsv](https://github.com/BurntSushi/xsv) — A fast CSV command line tool (slicing, indexing, selecting, searching, sampling, etc.) [<img src="https://travis-ci.org/BurntSushi/xsv.svg?branch=master">](https://travis-ci.org/BurntSushi/xsv)
 * [gchp/iota](https://github.com/gchp/iota) — a simple text editor written in Rust [<img src="https://travis-ci.org/gchp/iota.svg?branch=master">](https://travis-ci.org/gchp/iota)
-* [imjacobclark/Herd](https://github.com/imjacobclark/Herd) - an experimental HTTP load testing application written in Rust
-* [kbknapp/docli](https://github.com/kbknapp/docli-rs) - a command line utility for managing DigitalOcean infrastructure [<img src="https://travis-ci.org/kbknapp/docli-rs.svg?branch=master">](https://travis-ci.org/kbknapp/docli-rs)
+* [imjacobclark/Herd](https://github.com/imjacobclark/Herd) — an experimental HTTP load testing application written in Rust
+* [kbknapp/docli](https://github.com/kbknapp/docli-rs) — a command line utility for managing DigitalOcean infrastructure [<img src="https://travis-ci.org/kbknapp/docli-rs.svg?branch=master">](https://travis-ci.org/kbknapp/docli-rs)
 * [MaidSafe](http://maidsafe.net/) — a decentralized platform.
 * [seppo0010/rsedis](https://github.com/seppo0010/rsedis) — Redis reimplementation in Rust. [<img src="https://travis-ci.org/seppo0010/rsedis.svg?branch=master">](https://travis-ci.org/seppo0010/rsedis)
 * [Servo](https://github.com/servo/servo) — a prototype web browser engine written in Rust
@@ -312,7 +312,7 @@ See also [http://arewewebyet.com/](http://arewewebyet.com/)
 * [brson/multirust](https://github.com/brson/multirust) — manage multiple Rust installations [<img src="https://travis-ci.org/brson/multirust.svg?branch=master">](https://travis-ci.org/brson/multirust)
 * [crabtw/rust-bindgen](https://github.com/crabtw/rust-bindgen) — a Rust bindings generator [<img src="https://travis-ci.org/crabtw/rust-bindgen.svg?branch=master">](https://travis-ci.org/crabtw/rust-bindgen)
 * [dan-t/rusty-tags](https://github.com/dan-t/rusty-tags) — create ctags/etags for a cargo project and all of its dependencies [<img src="https://travis-ci.org/dan-t/rusty-tags.svg?branch=master">](https://travis-ci.org/dan-t/rusty-tags)
-* [frewsxcv/crate-deps](https://github.com/frewsxcv/crate-deps) - generates images of dependency graphs for crates hosted on crates.io
+* [frewsxcv/crate-deps](https://github.com/frewsxcv/crate-deps) — generates images of dependency graphs for crates hosted on crates.io
 * [kmcallister/afl.rs](https://github.com/kmcallister/afl.rs) — a Rust fuzzer, using [AFL](http://lcamtuf.coredump.cx/afl/) [<img src="https://travis-ci.org/kmcallister/afl.rs.svg?branch=master">](https://travis-ci.org/kmcallister/afl.rs)
 * [Manishearth/rust-clippy](https://github.com/Manishearth/rust-clippy) — a collection of lints that catch newbie mistakes and oversights during the build [<img src="https://travis-ci.org/Manishearth/rust-clippy.svg?branch=master">](https://travis-ci.org/Manishearth/rust-clippy)
 * [nrc/rustfmt](https://github.com/nrc/rustfmt) — a Rust code formatter [<img src="https://travis-ci.org/nrc/rustfmt.svg?branch=master">](https://travis-ci.org/nrc/rustfmt)
