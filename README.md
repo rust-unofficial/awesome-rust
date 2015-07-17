@@ -26,6 +26,7 @@ The goal is to have only projects that are mostly stable and useful to users.
     - [Markup language](#markup-language)
     - [Mobile](#mobile)
     - [Network programming](#network-programming)
+    - [Parser](#parser)
     - [Platform specific](#platform-specific)
     - [Template engine](#template-engine)
     - [Testing](#testing)
@@ -252,6 +253,12 @@ The goal is to have only projects that are mostly stable and useful to users.
   * [meqif/rust-utp](https://github.com/meqif/rust-utp) — A [uTP](http://www.bittorrent.org/beps/bep_0029.html) (Micro Transport Protocol) library for Rust. [<img src="https://travis-ci.org/meqif/rust-utp.svg?branch=master">](https://travis-ci.org/meqif/rust-utp)
 * ZeroMQ
   * [erickt/rust-zmq](https://github.com/erickt/rust-zmq) — [ZeroMQ](http://zeromq.org/) bindings [<img src="https://travis-ci.org/erickt/rust-zmq.svg?branch=master">](https://travis-ci.org/erickt/rust-zmq)
+
+
+### Parser
+
+  * [Geal/nom](https://github.com/Geal/nom) — parser combinator framework [<img src="https://travis-ci.org/Geal/nom.svg?branch=master">](https://travis-ci.org/Geal/nom)
+
 
 ### Platform specific
 
