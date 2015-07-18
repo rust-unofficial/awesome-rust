@@ -257,7 +257,8 @@ The goal is to have only projects that are mostly stable and useful to users.
 
 ### Parser
 
-  * [Geal/nom](https://github.com/Geal/nom) — parser combinator framework [<img src="https://travis-ci.org/Geal/nom.svg?branch=master">](https://travis-ci.org/Geal/nom)
+  * [Geal/nom](https://github.com/Geal/nom) — parser combinator library [<img src="https://travis-ci.org/Geal/nom.svg?branch=master">](https://travis-ci.org/Geal/nom)
+  * [Marwes/combine](https://github.com/Marwes/combine) — parser combinator library [<img src="https://travis-ci.org/Marwes/combine.svg?branch=master">](https://travis-ci.org/Marwes/combine)
 
 
 ### Platform specific
