@@ -168,6 +168,8 @@ The goal is to have only projects that are mostly stable and useful to users.
   * [3Hren/msgpack-rust](https://github.com/3Hren/msgpack-rust) — a pure Rust low/high level MessagePack implementation [<img src="https://travis-ci.org/3Hren/msgpack-rust.svg?branch=master">](https://travis-ci.org/3Hren/msgpack-rust)
 * ProtocolBuffers
   * [stepancheg/rust-protobuf](https://github.com/stepancheg/rust-protobuf) — [<img src="https://travis-ci.org/stepancheg/rust-protobuf.svg?branch=master">](https://travis-ci.org/stepancheg/rust-protobuf)
+* Ron (Rusty Object Notation)
+  * [kvark/ron](https://github.com/kvark/ron) - [<img src="https://travis-ci.org/kvark/ron.png?branch=master">](https://travis-ci.org/kvark/ron)
 * Tnetstring
   * [erickt/rust-tnetstring](https://github.com/erickt/rust-tnetstring) — [<img src="https://travis-ci.org/erickt/rust-tnetstring.svg?branch=master">](https://travis-ci.org/erickt/rust-tnetstring)
 * TOML
