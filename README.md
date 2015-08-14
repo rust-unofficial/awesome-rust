@@ -324,7 +324,7 @@ See also [http://arewewebyet.com/](http://arewewebyet.com/)
 * [Rust CI](http://www.rust-ci.org/) — a [Travis CI](https://travis-ci.com) dashboard for Rust projects
 * [Rust Guidelines](http://aturon.github.io/)
 * [rust-learning](https://github.com/ctjhoa/rust-learning) — a collection of useful resources to learn Rust
-
+* [RustCamp 2015 Talks](http://confreaks.tv/events/rustcamp2015)
 
 ## Development tools
 
