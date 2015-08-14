@@ -120,7 +120,7 @@ The goal is to have only projects that are mostly stable and useful to users.
   * LMDB
     * [vhbit/lmdb-rs](https://github.com/vhbit/lmdb-rs) — [LMDB](http://symas.com/mdb/) bindings [<img src="https://travis-ci.org/vhbit/lmdb-rs.svg?branch=master">](https://travis-ci.org/vhbit/lmdb-rs)
   * MongoDB
-    * [mongodbinc-interns/mongo-rust-driver-prototype](https://github.com/mongodbinc-interns/mongo-rust-driver-prototype) — [MongoDB](https://www.mongodb.org/) bindings [<img src="https://travis-ci.org/mongodbinc-interns/mongo-rust-driver-prototype.svg?branch=master">](https://travis-ci.org/mongodbinc-interns/mongo-rust-driver-prototype)
+    * [mongodbinc-interns/mongo-rust-driver-prototype](https://github.com/mongodbinc-interns/mongo-rust-driver-prototype) — [MongoDB](https://www.mongodb.org/) bindings [<img src="https://travis-ci.org/mongodbinc-interns/mongo-rust-driver-prototype.svg?branch=master">](https://travis-ci.org/mongodbinc-interns/mongodbinc-interns/mongo-rust-driver-prototype)
   * Redis
     * [mitsuhiko/redis-rs](https://github.com/mitsuhiko/redis-rs) — [Redis](http://redis.io) library in Rust [<img src="https://travis-ci.org/mitsuhiko/redis-rs.svg?branch=master">](https://travis-ci.org/mitsuhiko/redis-rs)
 * SQL
