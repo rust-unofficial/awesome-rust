@@ -304,7 +304,7 @@ The goal is to have only projects that are mostly stable and useful to users.
 
 ### Web programming
 
-See also [http://arewewebyet.com/](http://arewewebyet.com/)
+See also [http://arewewebyet.com/](http://arewewebyet.com/) and [rust-web-framework-comparison](https://github.com/flosse/rust-web-framework-comparison)
 
 * Client
   * [carllerche/curl-rust](https://github.com/carllerche/curl-rust) — [libcurl](http://curl.haxx.se/libcurl/) bindings [<img src="https://travis-ci.org/carllerche/curl-rust.svg?branch=master">](https://travis-ci.org/carllerche/curl-rust)
