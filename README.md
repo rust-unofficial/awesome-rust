@@ -47,7 +47,7 @@ The goal is to have only projects that are mostly stable and useful to users.
 * [MaidSafe](http://maidsafe.net/) — a decentralized platform.
 * [seppo0010/rsedis](https://github.com/seppo0010/rsedis) — Redis reimplementation in Rust. [<img src="https://travis-ci.org/seppo0010/rsedis.svg?branch=master">](https://travis-ci.org/seppo0010/rsedis)
 * [Servo](https://github.com/servo/servo) — a prototype web browser engine written in Rust
-* [thoughtram/clog](https://github.com/thoughtram/clog) — a [conventional changelog](http://blog.thoughtram.io/announcements/tools/2014/09/18/announcing-clog-a-conventional-changelog-generator-for-the-rest-of-us.html) port (generates a changelog from git metadata) [<img src="https://travis-ci.org/thoughtram/clog.svg?branch=master">](https://travis-ci.org/thoughtram/clog)
+* [clog-tool/clog-cli](https://github.com/clog-tool/clog-cli) — a [conventional changelog](http://blog.thoughtram.io/announcements/tools/2014/09/18/announcing-clog-a-conventional-changelog-generator-for-the-rest-of-us.html) port (generates a changelog from git metadata) [<img src="https://travis-ci.org/clog-tool/clog-cli.svg?branch=master">](https://travis-ci.org/clog-tool/clog-cli)
 * [uutils/coreutils](https://github.com/uutils/coreutils) — cross-platform Rust rewrite of the GNU coreutils [<img src="https://travis-ci.org/uutils/coreutils.svg?branch=master">](https://travis-ci.org/uutils/coreutils)
 
 ### Games
@@ -72,6 +72,7 @@ The goal is to have only projects that are mostly stable and useful to users.
 * [Cargo](http://crates.io/) — the Rust package manager
 * CMake
   * [SiegeLord/RustCMake](https://github.com/SiegeLord/RustCMake) — an example project showing usage of CMake with Rust [<img src="https://travis-ci.org/SiegeLord/RustCMake.svg?branch=master">](https://travis-ci.org/SiegeLord/RustCMake)
+* [clog-tool/clog-lib](https://github.com/clog-tool/clog-lib) — a library for generating a changelogs from git metadata [<img src="https://travis-ci.org/clog-tool/clog-lib.svg?branch=master">](https://travis-ci.org/clog-tool/clog-lib)
 
 ### Command-line argument parsing
 
