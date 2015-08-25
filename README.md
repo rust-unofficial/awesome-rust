@@ -76,6 +76,7 @@ The goal is to have only projects that are mostly stable and useful to users.
   * [killercup/cargo-edit](https://github.com/killercup/cargo-edit) - allows you to add and list dependencies by reading/writing to your Cargo.toml file from the command line [<img src="https://travis-ci.org/killercup/cargo-edit.svg?branch=master">](https://travis-ci.org/killercup/cargo-edit)
   * [kbknapp/cargo-outdated](https://github.com/kbknapp/cargo-outdated) - displays when newer versions of Rust dependencies are available, or out of date [<img src="https://travis-ci.org/kbknapp/cargo-outdated.svg?branch=master">](https://travis-ci.org/kbknapp/cargo-outdated)
   * [DanielKeep/cargo-script](https://github.com/DanielKeep/cargo-script) - lets people quickly and easily run Rust "scripts" which can make use of Cargo's package ecosystem
+  * [passcod/cargo-watch](https://github.com/passcod/cargo-watch) - utility for cargo to compile projects when sources change [<img src="https://travis-ci.org/passcod/cargo-watch.svg?branch=master">](https://travis-ci.org/passcod/cargo-watch)
 * CMake
   * [SiegeLord/RustCMake](https://github.com/SiegeLord/RustCMake) — an example project showing usage of CMake with Rust [<img src="https://travis-ci.org/SiegeLord/RustCMake.svg?branch=master">](https://travis-ci.org/SiegeLord/RustCMake)
 * [clog-tool/clog-lib](https://github.com/clog-tool/clog-lib) — a library for generating a changelogs from git metadata [<img src="https://travis-ci.org/clog-tool/clog-lib.svg?branch=master">](https://travis-ci.org/clog-tool/clog-lib)
