@@ -28,6 +28,7 @@ The goal is to have only projects that are mostly stable and useful to users.
     - [Network programming](#network-programming)
     - [Parser](#parser)
     - [Platform specific](#platform-specific)
+    - [Profiling](#profiling)
     - [Template engine](#template-engine)
     - [Testing](#testing)
     - [Text processing](#text-processing)
@@ -288,6 +289,10 @@ The goal is to have only projects that are mostly stable and useful to users.
   * [hannobraun/inotify-rs](https://github.com/hannobraun/inotify-rs) — [inotify](http://en.wikipedia.org/wiki/Inotify) bindings [<img src="https://travis-ci.org/hannobraun/inotify-rs.svg?branch=master">](https://travis-ci.org/hannobraun/inotify-rs)
 * Windows
   * [retep998/winapi-rs](https://github.com/retep998/winapi-rs) — Windows API bindings [<img src="https://travis-ci.org/retep998/winapi-rs.svg?branch=master">](https://travis-ci.org/retep998/winapi-rs)
+
+### Profiling
+* Generate FlameGraph
+  * [mrhooray/torch](https://github.com/mrhooray/torch)
 
 ### Template engine
 
