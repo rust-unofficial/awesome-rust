@@ -324,9 +324,11 @@ See also [http://arewewebyet.com/](http://arewewebyet.com/) and [Rust web framew
 
 * Client
   * [carllerche/curl-rust](https://github.com/carllerche/curl-rust) — [libcurl](http://curl.haxx.se/libcurl/) bindings [<img src="https://travis-ci.org/carllerche/curl-rust.svg?branch=master">](https://travis-ci.org/carllerche/curl-rust)
+  * [cyderize/rust-websocket](https://github.com/cyderize/rust-websocket) — a framework for dealing with [WebSocket](http://datatracker.ietf.org/doc/rfc6455/) connections (both clients and servers) [<img src="https://travis-ci.org/cyderize/rust-websocket.svg?branch=master">](https://travis-ci.org/cyderize/rust-websocket)
   * [hyperium/hyper](https://github.com/hyperium/hyper) — an HTTP implementation [<img src="https://travis-ci.org/hyperium/hyper.svg?branch=master">](https://travis-ci.org/hyperium/hyper)
   * [vhbit/curl-rs](https://github.com/vhbit/curl-rs) — [libcurl](http://curl.haxx.se/libcurl/) bindings [<img src="https://travis-ci.org/vhbit/curl-rs.svg?branch=master">](https://travis-ci.org/vhbit/curl-rs)
 * Server
+  * [cyderize/rust-websocket](https://github.com/cyderize/rust-websocket) — a framework for dealing with [WebSocket](http://datatracker.ietf.org/doc/rfc6455/) connections (both clients and servers) [<img src="https://travis-ci.org/cyderize/rust-websocket.svg?branch=master">](https://travis-ci.org/cyderize/rust-websocket)
   * [hyperium/hyper](https://github.com/hyperium/hyper) — an HTTP implementation [<img src="https://travis-ci.org/hyperium/hyper.svg?branch=master">](https://travis-ci.org/hyperium/hyper)
   * [Iron](http://ironframework.io/) — a middleware-based server framework [<img src="https://travis-ci.org/iron/iron.svg?branch=master">](https://travis-ci.org/iron/iron)
   * [Nickel](http://nickel.rs/) — inspired by [Express](http://expressjs.com/) [<img src="https://travis-ci.org/nickel-org/nickel.rs.svg?branch=master">](https://travis-ci.org/nickel-org/nickel.rs)
