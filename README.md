@@ -347,10 +347,11 @@ See also [http://arewewebyet.com/](http://arewewebyet.com/) and [Rust web framew
 ## Resources
 
 * [Rust by Example](http://rustbyexample.com/)
+* [RustCamp 2015 Talks](http://confreaks.tv/events/rustcamp2015)
 * [Rust CI](http://www.rust-ci.org/) — a [Travis CI](https://travis-ci.com) dashboard for Rust projects
+* [The Rust FFI Omnibus](http://jakegoulding.com/rust-ffi-omnibus/) — a collection of examples of using code written in Rust from other languages.
 * [Rust Guidelines](http://aturon.github.io/)
 * [rust-learning](https://github.com/ctjhoa/rust-learning) — a collection of useful resources to learn Rust
-* [RustCamp 2015 Talks](http://confreaks.tv/events/rustcamp2015)
 
 ## Development tools
 
