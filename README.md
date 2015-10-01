@@ -355,6 +355,7 @@ See also [http://arewewebyet.com/](http://arewewebyet.com/) and [Rust web framew
 * [The Rust FFI Omnibus](http://jakegoulding.com/rust-ffi-omnibus/) — a collection of examples of using code written in Rust from other languages.
 * [Rust Guidelines](http://aturon.github.io/)
 * [rust-learning](https://github.com/ctjhoa/rust-learning) — a collection of useful resources to learn Rust
+* [Rustlings](https://github.com/carols10cents/rustlings) — small exercises to get you used to reading and writing Rust code
 * [TeXitoi/benchmarksgame-rs](https://github.com/TeXitoi/benchmarksgame-rs) — Rust implementations for the [The Computer Language Benchmarks Game](http://benchmarksgame.alioth.debian.org/) [<img src="https://travis-ci.org/TeXitoi/benchmarksgame-rs.svg?branch=master">](https://travis-ci.org/TeXitoi/benchmarksgame-rs)
 
 ## Development tools
