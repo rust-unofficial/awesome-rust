@@ -58,7 +58,7 @@ The goal is to have only projects that are mostly stable and useful to users.
 * [Games Made With Piston](https://github.com/PistonDevelopers/piston/wiki/Games-Made-With-Piston)
 * [lifthrasiir/angolmois-rust](https://github.com/lifthrasiir/angolmois-rust) — a minimalistic music video game which supports the BMS format [<img src="https://travis-ci.org/lifthrasiir/angolmois-rust.svg?branch=master">](https://travis-ci.org/lifthrasiir/angolmois-rust)
 * [swatteau/sokoban-rs](https://github.com/swatteau/sokoban-rs) — a rust implementation of the famous Sokoban game
-* [Zone of Control](https://github.com/ozkriff/zoc) - a turn-based hexagonal strategy game [<img src="https://travis-ci.org/ozkriff/zoc.png?branch=master">](https://travis-ci.org/ozkriff/zoc)
+* [Zone of Control](https://github.com/ozkriff/zoc) — a turn-based hexagonal strategy game [<img src="https://travis-ci.org/ozkriff/zoc.png?branch=master">](https://travis-ci.org/ozkriff/zoc)
 
 
 ## Libraries
@@ -113,7 +113,7 @@ The goal is to have only projects that are mostly stable and useful to users.
 * OpenCL
   * [luqmana/rust-opencl](https://github.com/luqmana/rust-opencl) — [OpenCL](https://www.khronos.org/opencl/) bindings [<img src="https://travis-ci.org/luqmana/rust-opencl.svg?branch=master">](https://travis-ci.org/luqmana/rust-opencl)
 * Scirust
-  * [indigits/scirust](https://github.com/indigits/scirust) - scientific computing library in Rust [![Build Status](https://travis-ci.org/indigits/scirust.svg?branch=master)](https://travis-ci.org/indigits/scirust)   
+  * [indigits/scirust](https://github.com/indigits/scirust) — scientific computing library in Rust [![Build Status](https://travis-ci.org/indigits/scirust.svg?branch=master)](https://travis-ci.org/indigits/scirust)   
 
 ### Cryptography
 
