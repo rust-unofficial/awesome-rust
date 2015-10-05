@@ -111,6 +111,8 @@ The goal is to have only projects that are mostly stable and useful to users.
   * [stainless-steel/lapack](https://github.com/stainless-steel/lapack) — [LAPACK](http://en.wikipedia.org/wiki/LAPACK) bindings [<img src="https://travis-ci.org/stainless-steel/lapack.svg?branch=master">](https://travis-ci.org/stainless-steel/lapack)
 * OpenCL
   * [luqmana/rust-opencl](https://github.com/luqmana/rust-opencl) — [OpenCL](https://www.khronos.org/opencl/) bindings [<img src="https://travis-ci.org/luqmana/rust-opencl.svg?branch=master">](https://travis-ci.org/luqmana/rust-opencl)
+* Scirust
+  * [indigits/scirust](https://github.com/indigits/scirust) - scientific computing library in Rust [![Build Status](https://travis-ci.org/indigits/scirust.svg?branch=master)](https://travis-ci.org/indigits/scirust)   
 
 ### Cryptography
 
