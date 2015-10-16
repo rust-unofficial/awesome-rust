@@ -51,7 +51,7 @@ The goal is to have only projects that are mostly stable and useful to users.
 * [gchp/iota](https://github.com/gchp/iota) — a simple text editor [<img src="https://travis-ci.org/gchp/iota.svg?branch=master">](https://travis-ci.org/gchp/iota)
 * [imjacobclark/Herd](https://github.com/imjacobclark/Herd) — an experimental HTTP load testing application
 * [kbknapp/docli](https://github.com/kbknapp/docli-rs) — a command line utility for managing DigitalOcean infrastructure [<img src="https://travis-ci.org/kbknapp/docli-rs.svg?branch=master">](https://travis-ci.org/kbknapp/docli-rs)
-* [MaidSafe](http://maidsafe.net/) — a decentralized platform. src="https://travis-ci.org/thepowersgang/rust_os.svg?branch=master">](https://travis-ci.org/thepowersgang/rust_os)
+* [MaidSafe](http://maidsafe.net/) — a decentralized platform.
 * [seppo0010/rsedis](https://github.com/seppo0010/rsedis) — a Redis reimplementation [<img src="https://travis-ci.org/seppo0010/rsedis.svg?branch=master">](https://travis-ci.org/seppo0010/rsedis)
 * [Servo](https://github.com/servo/servo) — a prototype web browser engine
 * [uutils/coreutils](https://github.com/uutils/coreutils) — a cross-platform Rust rewrite of the GNU coreutils [<img src="https://travis-ci.org/uutils/coreutils.svg?branch=master">](https://travis-ci.org/uutils/coreutils)
@@ -68,7 +68,7 @@ The goal is to have only projects that are mostly stable and useful to users.
 [A comparison of operating systems written in Rust](https://github.com/flosse/rust-os-comparison)
 
   * [redox-os/redox](https://github.com/redox-os/redox) — [<img src="https://travis-ci.org/redox-os/redox.svg?branch=master">](https://travis-ci.org/redox-os/redox)
-  * [thepowersgang/rust_os](https://github.com/thepowersgang/rust_os) — [<img
+  * [thepowersgang/rust_os](https://github.com/thepowersgang/rust_os) — [<img src="https://travis-ci.org/thepowersgang/rust_os.svg?branch=master">](https://travis-ci.org/thepowersgang/rust_os)
 
 
 ## Libraries
