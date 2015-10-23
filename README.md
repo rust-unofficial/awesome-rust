@@ -327,6 +327,11 @@ The goal is to have only projects that are mostly stable and useful to users.
 * Generate FlameGraph
   * [mrhooray/torch](https://github.com/mrhooray/torch)
 
+### ORMs
+* [rustorm](https://github.com/ivanceras/rustorm)
+* [treasure](https://github.com/phonkee/treasure)
+* [deuterium-orm](https://github.com/deuterium-orm/deuterium)
+
 ### Template engine
 
 * HTML
