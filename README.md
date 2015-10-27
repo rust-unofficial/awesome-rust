@@ -37,6 +37,7 @@ The goal is to have only projects that are mostly stable and useful to users.
   - [Resources](#resources)
   - [Development Tools](#development-tools)
     - [IDEs](#ides)
+    - [Profiling](#profiling)
   - [License](#license)
 
 ## Applications written in Rust
@@ -391,9 +392,6 @@ See also [http://arewewebyet.com/](http://arewewebyet.com/) and [Rust web framew
 * [Manishearth/rust-clippy](https://github.com/Manishearth/rust-clippy) — a collection of lints that catch newbie mistakes and oversights during the build [<img src="https://travis-ci.org/Manishearth/rust-clippy.svg?branch=master">](https://travis-ci.org/Manishearth/rust-clippy)
 * [nrc/rustfmt](https://github.com/nrc/rustfmt) — a Rust code formatter [<img src="https://travis-ci.org/nrc/rustfmt.svg?branch=master">](https://travis-ci.org/nrc/rustfmt)
 * [phildawes/racer](https://github.com/phildawes/racer) — code completion for Rust [<img src="https://travis-ci.org/phildawes/racer.svg?branch=master">](https://travis-ci.org/phildawes/racer)
-* Profiling
-  * FlameGraph
-    * [mrhooray/torch](https://github.com/mrhooray/torch)
 
 ### IDEs
 
@@ -405,6 +403,10 @@ See also [http://areweideyet.com/](http://areweideyet.com/).
   * [SolidOak](https://github.com/oakes/SolidOak) — a simple IDE for Rust, based on GTK+ and [Neovim](https://github.com/neovim/neovim) [<img src="https://travis-ci.org/oakes/SolidOak.svg?branch=master">](https://travis-ci.org/oakes/SolidOak)
   * [Vektah/idea-rust](https://github.com/Vektah/idea-rust) — an [IntelliJ](https://www.jetbrains.com/idea/)-based IDE for Rust [<img src="https://travis-ci.org/Vektah/idea-rust.svg?branch=master">](https://travis-ci.org/Vektah/idea-rust)
   * [Visual Studio Code](https://code.visualstudio.com/)
+
+### Profiling
+
+* [mrhooray/torch](https://github.com/mrhooray/torch) — generates FlameGraphs
 
 
 ## License
