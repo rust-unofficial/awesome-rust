@@ -154,7 +154,7 @@ The goal is to have only projects that are mostly stable and useful to users.
 * SQL
   * MySql
     * [blackbeam/rust-mysql-simple](https://github.com/blackbeam/rust-mysql-simple) — a native MySql client [<img src="https://travis-ci.org/blackbeam/rust-mysql-simple.svg?branch=master">](https://travis-ci.org/blackbeam/rust-mysql-simple)
- * ORMs
+ * ORM
     * [deuterium-orm/deuterium-orm](https://github.com/deuterium-orm/deuterium)
     * [ivanceras/rustorm](https://github.com/ivanceras/rustorm)
     * [phonkee/treasure](https://github.com/phonkee/treasure)
@@ -330,12 +330,6 @@ The goal is to have only projects that are mostly stable and useful to users.
   * [retep998/winapi-rs](https://github.com/retep998/winapi-rs) — Windows API bindings [<img src="https://travis-ci.org/retep998/winapi-rs.svg?branch=master">](https://travis-ci.org/retep998/winapi-rs)
 
 
-### Profiling
-
-* Generate FlameGraph
-  * [mrhooray/torch](https://github.com/mrhooray/torch)
-
-
 ### Template engine
 
 * HTML
@@ -398,6 +392,9 @@ See also [http://arewewebyet.com/](http://arewewebyet.com/) and [Rust web framew
 * [Manishearth/rust-clippy](https://github.com/Manishearth/rust-clippy) — a collection of lints that catch newbie mistakes and oversights during the build [<img src="https://travis-ci.org/Manishearth/rust-clippy.svg?branch=master">](https://travis-ci.org/Manishearth/rust-clippy)
 * [nrc/rustfmt](https://github.com/nrc/rustfmt) — a Rust code formatter [<img src="https://travis-ci.org/nrc/rustfmt.svg?branch=master">](https://travis-ci.org/nrc/rustfmt)
 * [phildawes/racer](https://github.com/phildawes/racer) — code completion for Rust [<img src="https://travis-ci.org/phildawes/racer.svg?branch=master">](https://travis-ci.org/phildawes/racer)
+* Profiling
+  * FlameGraph
+    * [mrhooray/torch](https://github.com/mrhooray/torch)
 
 ### IDEs
 
