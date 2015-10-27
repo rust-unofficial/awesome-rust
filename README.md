@@ -154,6 +154,10 @@ The goal is to have only projects that are mostly stable and useful to users.
 * SQL
   * MySql
     * [blackbeam/rust-mysql-simple](https://github.com/blackbeam/rust-mysql-simple) — a native MySql client [<img src="https://travis-ci.org/blackbeam/rust-mysql-simple.svg?branch=master">](https://travis-ci.org/blackbeam/rust-mysql-simple)
+ * ORMs
+    * [deuterium-orm/deuterium-orm](https://github.com/deuterium-orm/deuterium)
+    * [ivanceras/rustorm](https://github.com/ivanceras/rustorm)
+    * [phonkee/treasure](https://github.com/phonkee/treasure)
   * PostgreSql
     * [sfackler/rust-postgres](https://github.com/sfackler/rust-postgres) — a native [PostgreSQL](http://www.postgresql.org) client [<img src="https://travis-ci.org/sfackler/rust-postgres.svg?branch=master">](https://travis-ci.org/sfackler/rust-postgres)
   * Sqlite
@@ -166,11 +170,13 @@ The goal is to have only projects that are mostly stable and useful to users.
 * [lifthrasiir/rust-chrono](https://github.com/lifthrasiir/rust-chrono) — [<img src="https://travis-ci.org/lifthrasiir/rust-chrono.svg?branch=master">](https://travis-ci.org/lifthrasiir/rust-chrono)
 * [rust-lang/time](https://github.com/rust-lang/time) — [<img src="https://travis-ci.org/rust-lang/time.svg?branch=master">](https://travis-ci.org/rust-lang/time)
 
+
 ### Data structures
 
 * [bluss/rust-itertools](https://github.com/bluss/rust-itertools) — [<img src="https://travis-ci.org/bluss/rust-itertools.svg?branch=master">](https://travis-ci.org/bluss/rust-itertools)
 * [reem/rust-typemap](https://github.com/reem/rust-typemap) — [<img src="https://travis-ci.org/reem/rust-typemap.svg?branch=master">](https://travis-ci.org/reem/rust-typemap)
 * [serde-rs/serde](https://github.com/serde-rs/serde) — a framework to generically serialize Rust data structures [<img src="https://api.travis-ci.org/serde-rs/serde.svg?branch=master">](https://travis-ci.org/serde-rs/serde)
+
 
 ### Distributed Systems
 
@@ -323,14 +329,12 @@ The goal is to have only projects that are mostly stable and useful to users.
 * Windows
   * [retep998/winapi-rs](https://github.com/retep998/winapi-rs) — Windows API bindings [<img src="https://travis-ci.org/retep998/winapi-rs.svg?branch=master">](https://travis-ci.org/retep998/winapi-rs)
 
+
 ### Profiling
+
 * Generate FlameGraph
   * [mrhooray/torch](https://github.com/mrhooray/torch)
 
-### ORMs
-* [rustorm](https://github.com/ivanceras/rustorm)
-* [treasure](https://github.com/phonkee/treasure)
-* [deuterium-orm](https://github.com/deuterium-orm/deuterium)
 
 ### Template engine
 
