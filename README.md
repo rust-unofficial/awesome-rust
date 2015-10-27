@@ -30,7 +30,6 @@ The goal is to have only projects that are mostly stable and useful to users.
     - [Network programming](#network-programming)
     - [Parser](#parser)
     - [Platform specific](#platform-specific)
-    - [Profiling](#profiling)
     - [Template engine](#template-engine)
     - [Testing](#testing)
     - [Text processing](#text-processing)
