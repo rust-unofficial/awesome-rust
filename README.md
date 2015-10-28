@@ -409,8 +409,7 @@ See also [http://areweideyet.com/](http://areweideyet.com/).
 
 ### Profiling
 
-* [mrhooray/torch](https://github.com/mrhooray/torch) — generates FlameGraphs
-
+* [mrhooray/torch](https://github.com/mrhooray/torch) — generates FlameGraphs based on DWARF Debug Info
 
 ### Testing
 
