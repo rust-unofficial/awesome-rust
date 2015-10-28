@@ -36,6 +36,7 @@ The goal is to have only projects that are mostly stable and useful to users.
     - [Web programming](#web-programming)
   - [Resources](#resources)
   - [Development Tools](#development-tools)
+    - [Debugging](#debugging)
     - [IDEs](#ides)
     - [Profiling](#profiling)
   - [License](#license)
@@ -392,6 +393,11 @@ See also [http://arewewebyet.com/](http://arewewebyet.com/) and [Rust web framew
 * [Manishearth/rust-clippy](https://github.com/Manishearth/rust-clippy) — a collection of lints that catch newbie mistakes and oversights during the build [<img src="https://travis-ci.org/Manishearth/rust-clippy.svg?branch=master">](https://travis-ci.org/Manishearth/rust-clippy)
 * [nrc/rustfmt](https://github.com/nrc/rustfmt) — a Rust code formatter [<img src="https://travis-ci.org/nrc/rustfmt.svg?branch=master">](https://travis-ci.org/nrc/rustfmt)
 * [phildawes/racer](https://github.com/phildawes/racer) — code completion for Rust [<img src="https://travis-ci.org/phildawes/racer.svg?branch=master">](https://travis-ci.org/phildawes/racer)
+
+### Debugging
+
+* GDB
+  * [rust-gdb](https://github.com/rust-lang/rust/blob/master/src/etc/rust-gdb)
 
 ### IDEs
 
