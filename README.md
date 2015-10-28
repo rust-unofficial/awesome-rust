@@ -31,7 +31,6 @@ The goal is to have only projects that are mostly stable and useful to users.
     - [Parser](#parser)
     - [Platform specific](#platform-specific)
     - [Template engine](#template-engine)
-    - [Testing](#testing)
     - [Text processing](#text-processing)
     - [Web programming](#web-programming)
   - [Resources](#resources)
@@ -39,6 +38,7 @@ The goal is to have only projects that are mostly stable and useful to users.
     - [Debugging](#debugging)
     - [IDEs](#ides)
     - [Profiling](#profiling)
+    - [Testing](#testing)
   - [License](#license)
 
 ## Applications written in Rust
@@ -340,11 +340,6 @@ The goal is to have only projects that are mostly stable and useful to users.
 * [sunng87/handlebars-iron](https://github.com/sunng87/handlebars-iron) — [Handlebars-rust](https://github.com/sunng87/handlebars-rust) as an Iron web framework middleware. [<img src="https://travis-ci.org/sunng87/handlebars-iron.svg?branch=master">](https://travis-ci.org/sunng87/handlebars-iron)
 * [sunng87/handlebars-rust](https://github.com/sunng87/handlebars-rust) — Handlebars template engine with inheritance, custom helper support. [<img src="https://travis-ci.org/sunng87/handlebars-rust.svg?branch=master">](https://travis-ci.org/sunng87/handlebars-rust)
 
-### Testing
-
-* [BurntSushi/quickcheck](https://github.com/BurntSushi/quickcheck) — a Rust implementation of [QuickCheck](http://www.haskell.org/haskellwiki/Introduction_to_QuickCheck1) [<img src="https://travis-ci.org/BurntSushi/quickcheck.svg?branch=master">](https://travis-ci.org/BurntSushi/quickcheck)
-* [farcaller/shiny](https://github.com/farcaller/shiny) — a fancy syntax similar to Ruby's Rspec or Objective-C' kiwi [<img src="https://travis-ci.org/farcaller/shiny.svg?branch=master">](https://travis-ci.org/farcaller/shiny)
-
 ### Text processing
 
 * [BurntSushi/suffix](https://github.com/BurntSushi/suffix) — Linear time suffix array construction (with Unicode support) [<img src="https://travis-ci.org/BurntSushi/suffix.svg?branch=master">](https://travis-ci.org/BurntSushi/suffix)
@@ -415,6 +410,12 @@ See also [http://areweideyet.com/](http://areweideyet.com/).
 ### Profiling
 
 * [mrhooray/torch](https://github.com/mrhooray/torch) — generates FlameGraphs
+
+
+### Testing
+
+* [BurntSushi/quickcheck](https://github.com/BurntSushi/quickcheck) — a Rust implementation of [QuickCheck](http://www.haskell.org/haskellwiki/Introduction_to_QuickCheck1) [<img src="https://travis-ci.org/BurntSushi/quickcheck.svg?branch=master">](https://travis-ci.org/BurntSushi/quickcheck)
+* [farcaller/shiny](https://github.com/farcaller/shiny) — a fancy syntax similar to Ruby's Rspec or Objective-C' kiwi [<img src="https://travis-ci.org/farcaller/shiny.svg?branch=master">](https://travis-ci.org/farcaller/shiny)
 
 
 ## License
