@@ -196,9 +196,9 @@ See also [http://areweideyet.com/](http://areweideyet.com/).
   * MySql
     * [blackbeam/rust-mysql-simple](https://github.com/blackbeam/rust-mysql-simple) — a native MySql client [<img src="https://travis-ci.org/blackbeam/rust-mysql-simple.svg?branch=master">](https://travis-ci.org/blackbeam/rust-mysql-simple)
  * ORM
-    * [deuterium-orm/deuterium-orm](https://github.com/deuterium-orm/deuterium)
-    * [ivanceras/rustorm](https://github.com/ivanceras/rustorm)
-    * [phonkee/treasure](https://github.com/phonkee/treasure)
+    * [deuterium-orm/deuterium-orm](https://github.com/deuterium-orm/deuterium) — a fancy SQL builder for Rust  [![Build Status](https://travis-ci.org/deuterium-orm/deuterium.svg?branch=master)](https://travis-ci.org/deuterium-orm/deuterium)
+    * [ivanceras/rustorm](https://github.com/ivanceras/rustorm) — An ORM for rust [![Build Status](https://api.travis-ci.org/ivanceras/rustorm.svg)](https://travis-ci.org/ivanceras/rustorm)
+    * [phonkee/treasure](https://github.com/phonkee/treasure) — ORM library for rust
   * PostgreSql
     * [sfackler/rust-postgres](https://github.com/sfackler/rust-postgres) — a native [PostgreSQL](http://www.postgresql.org) client [<img src="https://travis-ci.org/sfackler/rust-postgres.svg?branch=master">](https://travis-ci.org/sfackler/rust-postgres)
   * Sqlite
