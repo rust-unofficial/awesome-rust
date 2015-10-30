@@ -73,7 +73,7 @@ The goal is to have only projects that are mostly stable and useful to users.
 ## Development tools
 
 * [brson/multirust](https://github.com/brson/multirust) — manage multiple Rust installations [<img src="https://travis-ci.org/brson/multirust.svg?branch=master">](https://travis-ci.org/brson/multirust)
-* [Diggsey/multirust-rs](https://github.com/Diggsey/multirust-rs) - reimplementation of multirust in rust [<img src="https://travis-ci.org/Diggsey/multirust-rs.svg?branch=master">](https://travis-ci.org/Diggsey/multirust-rs)
+* [Diggsey/multirust-rs](https://github.com/Diggsey/multirust-rs) — reimplementation of multirust in rust [<img src="https://travis-ci.org/Diggsey/multirust-rs.svg?branch=master">](https://travis-ci.org/Diggsey/multirust-rs)
 * [clog-tool/clog-cli](https://github.com/clog-tool/clog-cli) — a [conventional changelog](http://blog.thoughtram.io/announcements/tools/2014/09/18/announcing-clog-a-conventional-changelog-generator-for-the-rest-of-us.html) port (generates a changelog from git metadata) [<img src="https://travis-ci.org/clog-tool/clog-cli.svg?branch=master">](https://travis-ci.org/clog-tool/clog-cli)
 * [crabtw/rust-bindgen](https://github.com/crabtw/rust-bindgen) — a Rust bindings generator [<img src="https://travis-ci.org/crabtw/rust-bindgen.svg?branch=master">](https://travis-ci.org/crabtw/rust-bindgen)
 * [dan-t/rusty-tags](https://github.com/dan-t/rusty-tags) — create ctags/etags for a cargo project and all of its dependencies [<img src="https://travis-ci.org/dan-t/rusty-tags.svg?branch=master">](https://travis-ci.org/dan-t/rusty-tags)
