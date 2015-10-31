@@ -329,7 +329,8 @@ See also [http://areweideyet.com/](http://areweideyet.com/).
 * iOS
   * [TimNN/cargo-lipo](https://github.com/TimNN/cargo-lipo) — a cargo lipo subcommand which automatically creates a universal library for use with your iOS application. [<img src="https://travis-ci.org/TimNN/cargo-lipo.svg?branch=master">](https://travis-ci.org/TimNN/cargo-lipo)
   * [vhbit/ObjCrust](https://github.com/vhbit/ObjCrust) — using Rust to create an iOS static library [<img src="https://travis-ci.org/vhbit/ObjCrust.svg?branch=master">](https://travis-ci.org/vhbit/ObjCrust)
-
+* Pebble
+  * [andars/pebble.rs](https://github.com/andars/pebble.rs) — a crate that allows Rust to be used to develop Pebble applications. [<img src="https://travis-ci.org/andars/pebble.rs.svg?branch=master">](https://travis-ci.org/andars/pebble.rs)
 
 ### Network programming
 
