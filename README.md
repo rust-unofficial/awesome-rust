@@ -16,6 +16,7 @@ The goal is to have only projects that are mostly stable and useful to users.
   - [Libraries](#libraries)
     - [Audio](#audio)
     - [Build system](#build-system)
+    - [Cloud](#cloud)
     - [Command-line argument parsing](#command-line-argument-parsing)
     - [Compression](#compression)
     - [Computation](#computation)
@@ -138,6 +139,10 @@ See also [http://areweideyet.com/](http://areweideyet.com/).
 * CMake
   * [SiegeLord/RustCMake](https://github.com/SiegeLord/RustCMake) — an example project showing usage of CMake with Rust [<img src="https://travis-ci.org/SiegeLord/RustCMake.svg?branch=master">](https://travis-ci.org/SiegeLord/RustCMake)
 
+### Cloud
+
+* DigitalOcean
+  * [kbknapp/doapi](https://github.com/kbknapp/doapi-rs) — DigitalOcean v2 API bindings [<img src="https://travis-ci.org/kbknapp/doapi-rs.svg?branch=master">](https://travis-ci.org/kbknapp/doapi-rs)
 
 ### Command-line argument parsing
 
@@ -363,8 +368,6 @@ See also [http://areweideyet.com/](http://areweideyet.com/).
 
 ### Platform specific
 
-* DigitalOcean
-  * [kbknapp/doapi](https://github.com/kbknapp/doapi-rs) — DigitalOcean v2 API bindings [<img src="https://travis-ci.org/kbknapp/doapi-rs.svg?branch=master">](https://travis-ci.org/kbknapp/doapi-rs)
 * Linux
   * [carllerche/nix-rust](https://github.com/carllerche/nix-rust) — Linux API bindings [<img src="https://travis-ci.org/carllerche/nix-rust.svg?branch=master">](https://travis-ci.org/carllerche/nix-rust)
   * [hannobraun/inotify-rs](https://github.com/hannobraun/inotify-rs) — [inotify](http://en.wikipedia.org/wiki/Inotify) bindings [<img src="https://travis-ci.org/hannobraun/inotify-rs.svg?branch=master">](https://travis-ci.org/hannobraun/inotify-rs)
