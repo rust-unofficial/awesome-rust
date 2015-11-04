@@ -93,7 +93,7 @@ The goal is to have only projects that are mostly stable and useful to users.
 
 ### IDEs
 
-See also [http://areweideyet.com/](http://areweideyet.com/).
+See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](https://www.rust-lang.org/ides.html).
 
   * [alexeykudinkin/intellij-rust](https://github.com/alexeykudinkin/intellij-rust) — an [IntelliJ](https://www.jetbrains.com/idea/)-based IDE for Rust [<img src="https://travis-ci.org/alexeykudinkin/intellij-rust.svg?branch=master">](https://travis-ci.org/alexeykudinkin/intellij-rust)
   * [PistonDevelopers/VisualRust](https://github.com/PistonDevelopers/VisualRust) — a Visual Studio extension for Rust [<img src="https://travis-ci.org/PistonDevelopers/VisualRust.svg?branch=master">](https://travis-ci.org/PistonDevelopers/VisualRust)
