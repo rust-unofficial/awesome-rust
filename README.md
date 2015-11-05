@@ -25,6 +25,7 @@ The goal is to have only projects that are mostly stable and useful to users.
     - [Data structures](#data-structures)
     - [Date and time](#date-and-time)
     - [Distributed Systems](#distributed-systems)
+    - [Email](#email)
     - [Encoding](#encoding)
     - [Filesystem](#filesystem)
     - [Game development](#game-development)
@@ -214,6 +215,7 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
     * [jgallagher/rusqlite](https://github.com/jgallagher/rusqlite) — [Sqlite3](http://www.sqlite.org/) bindings [<img src="https://travis-ci.org/jgallagher/rusqlite.svg?branch=master">](https://travis-ci.org/jgallagher/rusqlite)
     * [linuxfood/rustsqlite](https://github.com/linuxfood/rustsqlite) — [Sqlite3](http://www.sqlite.org/) bindings [<img src="https://travis-ci.org/linuxfood/rustsqlite.svg?branch=master">](https://travis-ci.org/linuxfood/rustsqlite)
 
+
 ### Date and time
 
 * [lifthrasiir/rust-chrono](https://github.com/lifthrasiir/rust-chrono) — [<img src="https://travis-ci.org/lifthrasiir/rust-chrono.svg?branch=master">](https://travis-ci.org/lifthrasiir/rust-chrono)
@@ -235,6 +237,11 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
   * [schickling/rust-beanstalkd](https://github.com/schickling/rust-beanstalkd) — [Beanstalkd](https://github.com/kr/beanstalkd) bindings [<img src="https://travis-ci.org/schickling/rust-beanstalkd.svg?branch=master">](https://travis-ci.org/schickling/rust-beanstalkd)
 * HDFS
   * [hyunsik/hdfs-rs](https://github.com/hyunsik/hdfs-rs) — libhdfs bindings [<img src="https://travis-ci.org/hyunsik/hdfs-rs.svg?branch=master">](https://travis-ci.org/hyunsik/hdfs-rs)
+
+
+## Email
+
+* [lettre/lettre](https://github.com/lettre/lettre) — an SMTP-library for Rust [<img src="https://travis-ci.org/lettre/lettre.svg?branch=master">](https://travis-ci.org/lettre/lettre)
 
 
 ### Encoding
