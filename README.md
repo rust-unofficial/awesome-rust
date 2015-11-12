@@ -76,15 +76,15 @@ The goal is to have only projects that are mostly stable and useful to users.
 ## Development tools
 
 * [brson/multirust](https://github.com/brson/multirust) — manage multiple Rust installations [<img src="https://travis-ci.org/brson/multirust.svg?branch=master">](https://travis-ci.org/brson/multirust)
+* [Clippy](https://github.com/Manishearth/rust-clippy) — a collection of lints that catch newbie mistakes and oversights during the build [<img src="https://travis-ci.org/Manishearth/rust-clippy.svg?branch=master">](https://travis-ci.org/Manishearth/rust-clippy)
 * [Diggsey/multirust-rs](https://github.com/Diggsey/multirust-rs) — reimplementation of multirust in rust [<img src="https://travis-ci.org/Diggsey/multirust-rs.svg?branch=master">](https://travis-ci.org/Diggsey/multirust-rs)
 * [clog-tool/clog-cli](https://github.com/clog-tool/clog-cli) — a [conventional changelog](http://blog.thoughtram.io/announcements/tools/2014/09/18/announcing-clog-a-conventional-changelog-generator-for-the-rest-of-us.html) port (generates a changelog from git metadata) [<img src="https://travis-ci.org/clog-tool/clog-cli.svg?branch=master">](https://travis-ci.org/clog-tool/clog-cli)
 * [crabtw/rust-bindgen](https://github.com/crabtw/rust-bindgen) — a Rust bindings generator [<img src="https://travis-ci.org/crabtw/rust-bindgen.svg?branch=master">](https://travis-ci.org/crabtw/rust-bindgen)
 * [dan-t/rusty-tags](https://github.com/dan-t/rusty-tags) — create ctags/etags for a cargo project and all of its dependencies [<img src="https://travis-ci.org/dan-t/rusty-tags.svg?branch=master">](https://travis-ci.org/dan-t/rusty-tags)
 * [ellisonch/rust-stopwatch](https://github.com/ellisonch/rust-stopwatch) — a stopwatch library for Rust. Used to time things. [<img src="https://travis-ci.org/ellisonch/rust-stopwatch.svg?branch=master">](https://travis-ci.org/ellisonch/rust-stopwatch)
 * [frewsxcv/crate-deps](https://github.com/frewsxcv/crate-deps) — generates images of dependency graphs for crates hosted on crates.io
-* [Manishearth/rust-clippy](https://github.com/Manishearth/rust-clippy) — a collection of lints that catch newbie mistakes and oversights during the build [<img src="https://travis-ci.org/Manishearth/rust-clippy.svg?branch=master">](https://travis-ci.org/Manishearth/rust-clippy)
-* [phildawes/racer](https://github.com/phildawes/racer) — code completion for Rust [<img src="https://travis-ci.org/phildawes/racer.svg?branch=master">](https://travis-ci.org/phildawes/racer)
-* [rust-lang-nursery/rustfmt](https://github.com/rust-lang-nursery/rustfmt) — a Rust code formatter [<img src="https://travis-ci.org/rust-lang-nursery/rustfmt.svg?branch=master">](https://travis-ci.org/rust-lang-nursery/rustfmt)
+* [Racer](https://github.com/phildawes/racer) — code completion for Rust [<img src="https://travis-ci.org/phildawes/racer.svg?branch=master">](https://travis-ci.org/phildawes/racer)
+* [rustfmt](https://github.com/rust-lang-nursery/rustfmt) — a Rust code formatter [<img src="https://travis-ci.org/rust-lang-nursery/rustfmt.svg?branch=master">](https://travis-ci.org/rust-lang-nursery/rustfmt)
 
 ### Debugging
 
