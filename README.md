@@ -319,6 +319,8 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
   * [Kiss-ui](https://github.com/KISS-UI/kiss-ui) — a simple UI framework built on IUP [![Build Status](https://travis-ci.org/cybergeek94/kiss-ui.svg?branch=master)](https://travis-ci.org/cybergeek94/kiss-ui)
 * GTK+
   * [gtk-rs/gtk](https://github.com/gtk-rs/gtk) — [GTK+](http://www.gtk.org) bindings [<img src="https://travis-ci.org/gtk-rs/gtk.svg?branch=master">](https://travis-ci.org/gtk-rs/gtk)
+* WxWidgets
+  * [wxRust](https://github.com/kenz-gelsoft/wxRust) — [![master build status](https://travis-ci.org/kenz-gelsoft/wxRust.svg?branch=master)](https://travis-ci.org/kenz-gelsoft/wxRust)
 * ncurses
   * [jeaye/ncurses-rs](https://github.com/jeaye/ncurses-rs) — [ncurses](http://www.gnu.org/software/ncurses/) bindings [<img src="https://travis-ci.org/jeaye/ncurses-rs.svg?branch=master">](https://travis-ci.org/jeaye/ncurses-rs)
 * OpenGL
