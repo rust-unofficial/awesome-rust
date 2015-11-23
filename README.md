@@ -130,7 +130,7 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
 
 ### Authentication
 
-* [keats/rust-jwt](https://github.com/keats/rust-jwt) — JWT lib in rust  [![Build Status](https://api.travis-ci.org/Keats/rust-jwt.svg?branch=master)](https://travis-ci.org/Keats/rust-jwt)
+* [keats/rust-jwt](https://github.com/keats/rust-jwt) — [JSON Web Token](https://en.wikipedia.org/wiki/JSON_Web_Token) lib in rust  [![Build Status](https://api.travis-ci.org/Keats/rust-jwt.svg?branch=master)](https://travis-ci.org/Keats/rust-jwt)
 
 
 ### Build system
