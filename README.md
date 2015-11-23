@@ -28,7 +28,6 @@ The goal is to have only projects that are mostly stable and useful to users.
     - [Distributed Systems](#distributed-systems)
     - [Email](#email)
     - [Encoding](#encoding)
-    - [Filesystem](#filesystem)
     - [Game development](#game-development)
     - [Games](#games)
     - [Geospatial](#geospatial)
@@ -298,12 +297,6 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
   * [kimhyunkang/libyaml-rust](https://github.com/kimhyunkang/libyaml-rust) — [libyaml](http://pyyaml.org/wiki/LibYAML) bindings [<img src="https://travis-ci.org/kimhyunkang/libyaml-rust.svg?branch=master">](https://travis-ci.org/kimhyunkang/libyaml-rust)
 
 
-### Filesystem
-
-* FUSE
-  * [zargony/rust-fuse](https://github.com/zargony/rust-fuse) — [FUSE](http://fuse.sourceforge.net/) bindings <img src="https://travis-ci.org/zargony/rust-fuse.svg?branch=master">
-
-
 ### Game development
 
 * [bbodi/rust-voxlap](https://github.com/bbodi/rust-voxlap) — [Voxlap](http://advsys.net/ken/voxlap.htm) bindings
@@ -403,6 +396,8 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
 * Linux
   * [carllerche/nix-rust](https://github.com/carllerche/nix-rust) — Linux API bindings [<img src="https://travis-ci.org/carllerche/nix-rust.svg?branch=master">](https://travis-ci.org/carllerche/nix-rust)
   * [hannobraun/inotify-rs](https://github.com/hannobraun/inotify-rs) — [inotify](https://en.wikipedia.org/wiki/Inotify) bindings [<img src="https://travis-ci.org/hannobraun/inotify-rs.svg?branch=master">](https://travis-ci.org/hannobraun/inotify-rs)
+* Unix-like
+  * [zargony/rust-fuse](https://github.com/zargony/rust-fuse) — [FUSE](http://fuse.sourceforge.net/) bindings <img src="https://travis-ci.org/zargony/rust-fuse.svg?branch=master">
 * Windows
   * [retep998/winapi-rs](https://github.com/retep998/winapi-rs) — Windows API bindings [<img src="https://travis-ci.org/retep998/winapi-rs.svg?branch=master">](https://travis-ci.org/retep998/winapi-rs)
 
