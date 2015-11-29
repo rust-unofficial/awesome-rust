@@ -38,6 +38,7 @@ The goal is to have only projects that are mostly stable and useful to users.
     - [Network programming](#network-programming)
     - [Parser](#parser)
     - [Platform specific](#platform-specific)
+    - [Resource Embedding](#resource-embedding)
     - [Template engine](#template-engine)
     - [Text processing](#text-processing)
     - [Web programming](#web-programming)
@@ -402,6 +403,8 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
 * Windows
   * [retep998/winapi-rs](https://github.com/retep998/winapi-rs) — Windows API bindings [<img src="https://travis-ci.org/retep998/winapi-rs.svg?branch=master">](https://travis-ci.org/retep998/winapi-rs)
 
+### Resource Embedding
+* [pyros2097/rust-embed](https://github.com/pyros2097/rust-embed]) — Generates rust code to embed resource files into your rust executable
 
 ### Template engine
 
