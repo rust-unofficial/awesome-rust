@@ -297,7 +297,8 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
 * YAML
   * [chyh1990/yaml-rust](https://github.com/chyh1990/yaml-rust) — The missing YAML 1.2 implementation for Rust. [<img src="https://travis-ci.org/chyh1990/yaml-rust.svg?branch=master">](https://travis-ci.org/chyh1990/yaml-rust)
   * [kimhyunkang/libyaml-rust](https://github.com/kimhyunkang/libyaml-rust) — [libyaml](http://pyyaml.org/wiki/LibYAML) bindings [<img src="https://travis-ci.org/kimhyunkang/libyaml-rust.svg?branch=master">](https://travis-ci.org/kimhyunkang/libyaml-rust)
-
+* Jsonnet
+  * [Qihoo360/rust-jsonnet](https://github.com/Qihoo360/rust-jsonnet) — [<img src="https://img.shields.io/badge/cargo.io-0.1.0-orange.svg">](https://img.shields.io/badge/cargo.io-0.1.0-orange.svg)
 
 ### Game development
 
