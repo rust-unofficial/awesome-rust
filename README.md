@@ -8,6 +8,7 @@ The goal is to have only projects that are mostly stable and useful to users.
   - [Applications written in Rust](#applications-written-in-rust)
     - [Games](#games)
     - [Operating systems](#operating-systems)
+  - [Asynchronous](#asynchronous)
   - [Development Tools](#development-tools)
     - [Debugging](#debugging)
     - [IDEs](#ides)
@@ -75,6 +76,9 @@ The goal is to have only projects that are mostly stable and useful to users.
   * [redox-os/redox](https://github.com/redox-os/redox) — [<img src="https://travis-ci.org/redox-os/redox.svg?branch=master">](https://travis-ci.org/redox-os/redox)
   * [thepowersgang/rust_os](https://github.com/thepowersgang/rust_os) — [<img src="https://travis-ci.org/thepowersgang/rust_os.svg?branch=master">](https://travis-ci.org/thepowersgang/rust_os)
 
+## Asynchronous
+
+* [zonyitoo/coio-rs](https://github.com/zonyitoo/coio-rs) — a coroutine I/O library with a working-stealing scheduler [<img src="https://travis-ci.org/zonyitoo/coio-rs.svg?branch=master">](https://travis-ci.org/zonyitoo/coio-rs)
 
 ## Development tools
 
