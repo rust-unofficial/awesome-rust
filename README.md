@@ -353,7 +353,7 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
 
 
 ### Machine Learning and Data Analysis
-* [autumnai/leaf](https://github.com/autumnai/leaf) - Open Machine Intelligence Framework. ![Build Status](https://travis-ci.org/autumnai/leaf.svg?branch=master)
+* [autumnai/leaf](https://github.com/autumnai/leaf) - Open Machine Intelligence Framework. [![Build Status](https://travis-ci.org/autumnai/leaf.svg?branch=master)](https://travis-ci.org/autumnai/leaf)
 * [rust-bio/rust-bio](https://github.com/rust-bio/rust-bio) - This library provides implementations of many algorithms and data structures that are useful for bioinformatics. [![Travis](https://img.shields.io/travis/rust-bio/rust-bio.svg?style=flat-square)](https://travis-ci.org/rust-bio/rust-bio)
 * [maciejkula/rustlearn](https://github.com/maciejkula/rustlearn) - Machine learning crate for Rust. [![Circle CI](https://circleci.com/gh/maciejkula/rustlearn.svg?style=svg)](https://circleci.com/gh/maciejkula/rustlearn)
 
