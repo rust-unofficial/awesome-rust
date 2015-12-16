@@ -34,6 +34,7 @@ The goal is to have only projects that are mostly stable and useful to users.
     - [Geospatial](#geospatial)
     - [GUI](#gui)
     - [Image processing](#image-processing)
+    - [Machine Learning and Data Analysis](#machine-learning-and-data-analysis)
     - [Markup language](#markup-language)
     - [Mobile](#mobile)
     - [Network programming](#network-programming)
@@ -349,6 +350,12 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
 * [chyh1990/imageproc](https://github.com/chyh1990/imageproc) — An advanced image processing library for Rust. [![Build Status](https://travis-ci.org/chyh1990/imageproc.svg?branch=master)](https://travis-ci.org/chyh1990/imageproc)
 * [cybergeek94/img-hash](https://github.com/cybergeek94/img_hash) — Perceptual image hashing and comparison for equality and similarity.
 * [PistonDevelopers/image](https://github.com/PistonDevelopers/image) — Basic imaging processing functions and methods for converting to and from image formats [<img src="https://travis-ci.org/PistonDevelopers/image.svg?branch=master">](https://travis-ci.org/PistonDevelopers/image)
+
+
+### Machine Learning and Data Analysis
+* [autumnai/leaf](https://github.com/autumnai/leaf) - Open Machine Intelligence Framework. ![Build Status](https://travis-ci.org/autumnai/leaf.svg?branch=master)
+* [rust-bio/rust-bio](https://github.com/rust-bio/rust-bio) - This library provides implementations of many algorithms and data structures that are useful for bioinformatics. [![Travis](https://img.shields.io/travis/rust-bio/rust-bio.svg?style=flat-square)](https://travis-ci.org/rust-bio/rust-bio)
+* [maciejkula/rustlearn](https://github.com/maciejkula/rustlearn) - Machine learning crate for Rust. [![Circle CI](https://circleci.com/gh/maciejkula/rustlearn.svg?style=svg)](https://circleci.com/gh/maciejkula/rustlearn)
 
 
 ### Markup language
