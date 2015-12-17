@@ -435,7 +435,7 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
 
 ### Web programming
 
-See also [http://arewewebyet.com/](http://arewewebyet.com/) and [Rust web framework comparison](https://github.com/flosse/rust-web-framework-comparison).
+See also [Rust web framework comparison](https://github.com/flosse/rust-web-framework-comparison).
 
 * HTTP Client
   * [carllerche/curl-rust](https://github.com/carllerche/curl-rust) — [libcurl](http://curl.haxx.se/libcurl/) bindings [<img src="https://travis-ci.org/carllerche/curl-rust.svg?branch=master">](https://travis-ci.org/carllerche/curl-rust)
