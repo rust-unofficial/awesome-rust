@@ -96,7 +96,7 @@ The goal is to have only projects that are mostly stable and useful to users.
 * GDB
   * [rust-gdb](https://github.com/rust-lang/rust/blob/master/src/etc/rust-gdb)
 * LLDB
-  * [lldb_batchmode.py](https://github.com/rust-lang/rust/blob/master/src/etc/lldb_batchmode.py)
+  * [lldb_batchmode.py](https://github.com/rust-lang/rust/blob/master/src/etc/lldb_batchmode.py) — allows to use LLDB in a way similar to GDB's batch mode.
 
 ### IDEs
 
