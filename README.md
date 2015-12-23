@@ -17,6 +17,7 @@ The goal is to have only projects that are mostly stable and useful to users.
     - [Asynchronous](#asynchronous)
     - [Audio](#audio)
     - [Authentication](#authentication)
+    - [Bioinformatics](#bioinformatics)
     - [Build system](#build-system)
     - [Cloud](#cloud)
     - [Command-line argument parsing](#command-line-argument-parsing)
@@ -138,6 +139,11 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
 ### Authentication
 
 * [keats/rust-jwt](https://github.com/keats/rust-jwt) — [JSON Web Token](https://en.wikipedia.org/wiki/JSON_Web_Token) lib in rust  [![Build Status](https://api.travis-ci.org/Keats/rust-jwt.svg?branch=master)](https://travis-ci.org/Keats/rust-jwt)
+
+
+### Bioinformatics
+
+* [Rust-Bio](https://github.com/rust-bio) - bioinformatics libraries in Rust.
 
 
 ### Build system
