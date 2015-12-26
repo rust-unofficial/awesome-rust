@@ -477,6 +477,10 @@ See also [Rust web framework comparison](https://github.com/flosse/rust-web-fram
 * [Rustlings](https://github.com/carols10cents/rustlings) — small exercises to get you used to reading and writing Rust code
 * [TeXitoi/benchmarksgame-rs](https://github.com/TeXitoi/benchmarksgame-rs) — Rust implementations for the [The Computer Language Benchmarks Game](http://benchmarksgame.alioth.debian.org/) [<img src="https://travis-ci.org/TeXitoi/benchmarksgame-rs.svg?branch=master">](https://travis-ci.org/TeXitoi/benchmarksgame-rs)
 
+* Podcasts
+  * [New Rustacean](http://www.newrustacean.com) - a podcast about learning Rust
+  * [Rusty Radio](http://rustyrad.io) - covering the rust ecosystem
+
 
 ## License
 
