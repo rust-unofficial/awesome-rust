@@ -465,8 +465,14 @@ See also [Rust web framework comparison](https://github.com/flosse/rust-web-fram
   * [cyderize/rust-websocket](https://github.com/cyderize/rust-websocket) — a framework for dealing with WebSocket connections (both clients and servers) [<img src="https://travis-ci.org/cyderize/rust-websocket.svg?branch=master">](https://travis-ci.org/cyderize/rust-websocket)
   * [housleyjk/ws-rs](https://github.com/housleyjk/ws-rs) — lightweight, event-driven WebSockets for Rust [<img src="https://travis-ci.org/housleyjk/ws-rs.svg?branch=stable">](https://travis-ci.org/housleyjk/ws-rs)
 
+
 ## Resources
 
+* Benchmarks
+  * [TeXitoi/benchmarksgame-rs](https://github.com/TeXitoi/benchmarksgame-rs) — Rust implementations for the [The Computer Language Benchmarks Game](http://benchmarksgame.alioth.debian.org/) [<img src="https://travis-ci.org/TeXitoi/benchmarksgame-rs.svg?branch=master">](https://travis-ci.org/TeXitoi/benchmarksgame-rs)
+* Podcasts
+  * [New Rustacean](http://www.newrustacean.com) — a podcast about learning Rust
+  * [Rusty Radio](http://rustyrad.io) — covering the rust ecosystem
 * [Rust by Example](http://rustbyexample.com/)
 * [RustCamp 2015 Talks](http://confreaks.tv/events/rustcamp2015)
 * [Rust CI](http://www.rust-ci.org/) — a [Travis CI](https://travis-ci.com) dashboard for Rust projects
@@ -475,11 +481,6 @@ See also [Rust web framework comparison](https://github.com/flosse/rust-web-fram
 * [Rust Guidelines](http://aturon.github.io/)
 * [rust-learning](https://github.com/ctjhoa/rust-learning) — a collection of useful resources to learn Rust
 * [Rustlings](https://github.com/carols10cents/rustlings) — small exercises to get you used to reading and writing Rust code
-* [TeXitoi/benchmarksgame-rs](https://github.com/TeXitoi/benchmarksgame-rs) — Rust implementations for the [The Computer Language Benchmarks Game](http://benchmarksgame.alioth.debian.org/) [<img src="https://travis-ci.org/TeXitoi/benchmarksgame-rs.svg?branch=master">](https://travis-ci.org/TeXitoi/benchmarksgame-rs)
-
-* Podcasts
-  * [New Rustacean](http://www.newrustacean.com) - a podcast about learning Rust
-  * [Rusty Radio](http://rustyrad.io) - covering the rust ecosystem
 
 
 ## License
