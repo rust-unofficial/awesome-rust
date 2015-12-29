@@ -104,7 +104,8 @@ The goal is to have only projects that are mostly stable and useful to users.
 * [crabtw/rust-bindgen](https://github.com/crabtw/rust-bindgen) — a Rust bindings generator [<img src="https://travis-ci.org/crabtw/rust-bindgen.svg?branch=master">](https://travis-ci.org/crabtw/rust-bindgen)
 * Java
   * [drrb/java-rust-example](https://github.com/drrb/java-rust-example) — a Java/Rust Example [<img src="https://travis-ci.org/drrb/java-rust-example.svg?branch=master">](https://travis-ci.org/drrb/java-rust-example)
-
+* Node.js
+  * [rustbridge/neon](https://github.com/rustbridge/neon) — [<img src="https://travis-ci.org/rustbridge/neon.svg?branch=master">](https://travis-ci.org/rustbridge/neon)
 
 ### IDEs
 
