@@ -15,6 +15,7 @@ The goal is to have only projects that are mostly stable and useful to users.
     - [Profiling](#profiling)
     - [Testing](#testing)
   - [Libraries](#libraries)
+    - [Astronomy](#astronomy)
     - [Asynchronous](#asynchronous)
     - [Audio](#audio)
     - [Authentication](#authentication)
@@ -130,6 +131,9 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
 * [frewsxcv/afl.rs](https://github.com/frewsxcv/afl.rs) — a Rust fuzzer, using [AFL](http://lcamtuf.coredump.cx/afl/) [<img src="https://api.travis-ci.org/frewsxcv/afl.rs.svg?branch=master">](https://travis-ci.org/frewsxcv/afl.rs)
 
 ## Libraries
+
+### Astronomy
+* [saurvs/astro-rust](https://github.com/saurvs/astro-rust) — a library of algorithms for accurate astronomical calculations [<img src="https://travis-ci.org/saurvs/astro-rust.svg?branch=master">](https://travis-ci.org/saurvs/astro-rust)
 
 ### Asynchronous
 
