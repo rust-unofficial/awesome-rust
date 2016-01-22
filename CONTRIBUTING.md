@@ -1,8 +1,8 @@
 # Contributing
 
-Do you want to help? Great
+Do you want to contribute? I'd love that.
 
-## How
+## How?
 
 If you want to add an entry to the `README.md`:
 
