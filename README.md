@@ -1,8 +1,9 @@
 # Awesome Rust
 
 A curated list of Rust code and resources, inspired by the other [awesome lists](https://github.com/bayandin/awesome-awesomeness).
-
 The goal is to have only projects that are mostly stable and useful to users.
+
+If you want to contribute, please read [this](CONTRIBUTING.md).
 
 - [Awesome Rust](#awesome-rust)
   - [Applications written in Rust](#applications-written-in-rust)
