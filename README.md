@@ -500,7 +500,6 @@ See also [Rust web framework comparison](https://github.com/flosse/rust-web-fram
   * [Rusty Radio](http://rustyrad.io) — covering the rust ecosystem
 * [Rust by Example](http://rustbyexample.com/)
 * [RustCamp 2015 Talks](http://confreaks.tv/events/rustcamp2015)
-* [Rust CI](http://www.rust-ci.org/) — a [Travis CI](https://travis-ci.com) dashboard for Rust projects
 * [Rust Design Patterns](https://github.com/nrc/patterns)
 * [The Rust FFI Omnibus](http://jakegoulding.com/rust-ffi-omnibus/) — a collection of examples of using code written in Rust from other languages.
 * [Rust Guidelines](http://aturon.github.io/)
