@@ -107,10 +107,15 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 
 ### FFI
 
+See also [Rust Inside Other Languages](https://doc.rust-lang.org/book/rust-inside-other-languages.html).
+
 * C
   * [crabtw/rust-bindgen](https://github.com/crabtw/rust-bindgen) — a Rust bindings generator [<img src="https://travis-ci.org/crabtw/rust-bindgen.svg?branch=master">](https://travis-ci.org/crabtw/rust-bindgen)
 * Java
   * [drrb/java-rust-example](https://github.com/drrb/java-rust-example) — a Java/Rust Example [<img src="https://travis-ci.org/drrb/java-rust-example.svg?branch=master">](https://travis-ci.org/drrb/java-rust-example)
+* Python
+  * [lukemetz/rustpy](https://github.com/dgrunwald/rust-cpython) — Rust bindings for Python [<img src="https://travis-ci.org/ldgrunwald/rust-cpython.svg?branch=master">](https://travis-ci.org/dgrunwald/rust-cpython)
+  * [lukemetz/rustpy](https://github.com/lukemetz/rustpy) — use Python from Rust [<img src="https://travis-ci.org/lukemetz/rustpy.svg?branch=master">](https://travis-ci.org/lukemetz/rustpy)
 * Node.js
   * [rustbridge/neon](https://github.com/rustbridge/neon) — a safe Rust abstraction layer for native Node.js modules [<img src="https://travis-ci.org/rustbridge/neon.svg?branch=master">](https://travis-ci.org/rustbridge/neon)
 
