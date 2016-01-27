@@ -107,7 +107,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 
 ### FFI
 
-See also [Rust Inside Other Languages](https://doc.rust-lang.org/book/rust-inside-other-languages.html).
+See also [Foreign Function Interface](https://doc.rust-lang.org/book/ffi.html) and [Rust Inside Other Languages](https://doc.rust-lang.org/book/rust-inside-other-languages.html).
 
 * C
   * [crabtw/rust-bindgen](https://github.com/crabtw/rust-bindgen) — a Rust bindings generator [<img src="https://travis-ci.org/crabtw/rust-bindgen.svg?branch=master">](https://travis-ci.org/crabtw/rust-bindgen)
