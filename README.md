@@ -114,7 +114,7 @@ See also [Rust Inside Other Languages](https://doc.rust-lang.org/book/rust-insid
 * Java
   * [drrb/java-rust-example](https://github.com/drrb/java-rust-example) — a Java/Rust Example [<img src="https://travis-ci.org/drrb/java-rust-example.svg?branch=master">](https://travis-ci.org/drrb/java-rust-example)
 * Python
-  * [dgrunwald/rust-cpython](https://github.com/dgrunwald/rust-cpython) — Rust bindings for Python
+  * [dgrunwald/rust-cpython](https://github.com/dgrunwald/rust-cpython) — Rust bindings for Python [<img src="https://travis-ci.org/dgrunwald/rust-cpython.svg?branch=master">](https://travis-ci.org/dgrunwald/rust-cpython)
   * [lukemetz/rustpy](https://github.com/lukemetz/rustpy) — use Python from Rust [<img src="https://travis-ci.org/lukemetz/rustpy.svg?branch=master">](https://travis-ci.org/lukemetz/rustpy)
 * Node.js
   * [rustbridge/neon](https://github.com/rustbridge/neon) — a safe Rust abstraction layer for native Node.js modules [<img src="https://travis-ci.org/rustbridge/neon.svg?branch=master">](https://travis-ci.org/rustbridge/neon)
