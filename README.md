@@ -243,6 +243,8 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
 
 ### Database
 
+([Crates](https://crates.io/keywords/database))
+
 * NoSQL
   * Cassandra
     * [tupshin/cassandra-rust](https://github.com/tupshin/cassandra-rs) — [Cassandra](http://cassandra.apache.org) bindings
