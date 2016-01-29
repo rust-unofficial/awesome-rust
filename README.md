@@ -261,7 +261,7 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
   * Redis
     * [mitsuhiko/redis-rs](https://github.com/mitsuhiko/redis-rs) — [Redis](http://redis.io) library in Rust [<img src="https://travis-ci.org/mitsuhiko/redis-rs.svg?branch=master">](https://travis-ci.org/mitsuhiko/redis-rs)
 * SQL [[sql](https://crates.io/keywords/sql)]
-  * MySql
+  * MySql [[mysql](https://crates.io/keywords/mysql)]
     * [blackbeam/rust-mysql-simple](https://github.com/blackbeam/rust-mysql-simple) — a native MySql client [<img src="https://travis-ci.org/blackbeam/rust-mysql-simple.svg?branch=master">](https://travis-ci.org/blackbeam/rust-mysql-simple)
  * ORM [[orm](https://crates.io/keywords/orm)]
     * [deuterium-orm/deuterium-orm](https://github.com/deuterium-orm/deuterium) — an SQL query builder for Rust  [![Build Status](https://travis-ci.org/deuterium-orm/deuterium.svg?branch=master)](https://travis-ci.org/deuterium-orm/deuterium)
