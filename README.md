@@ -246,7 +246,7 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
 [[database](https://crates.io/keywords/database)]
 
 * NoSQL [[nosql](https://crates.io/keywords/nosql)]
-  * Cassandra [[cassandra](https://crates.io/keywords/cassandra)]
+  * Cassandra [[cassandra](https://crates.io/keywords/cassandra), [cql](https://crates.io/keywords/cql)]
     * [tupshin/cassandra-rust](https://github.com/tupshin/cassandra-rs) — [Cassandra](http://cassandra.apache.org) bindings
   * CouchDB
     * [couchdb-rs/couchdb] (https://github.com/couchdb-rs/couchdb) [[couchdb](https://crates.io/crates/couchdb/)] — a Rust client for the CouchDB REST API [<img src="https://travis-ci.org/couchdb-rs/couchdb.svg?branch=master">](https://travis-ci.org/couchdb-rs/couchdb)
