@@ -249,7 +249,7 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
   * Cassandra
     * [tupshin/cassandra-rust](https://github.com/tupshin/cassandra-rs) — [Cassandra](http://cassandra.apache.org) bindings
   * CouchDB
-    * [couchdb-rs/couchdb] (https://github.com/couchdb-rs/couchdb) — a Rust client for the CouchDB REST API [<img src="https://travis-ci.org/couchdb-rs/couchdb.svg?branch=master">](https://travis-ci.org/couchdb-rs/couchdb)
+    * [couchdb-rs/couchdb] (https://github.com/couchdb-rs/couchdb) [[Crate](https://crates.io/crates/couchdb/)] — a Rust client for the CouchDB REST API [<img src="https://travis-ci.org/couchdb-rs/couchdb.svg?branch=master">](https://travis-ci.org/couchdb-rs/couchdb)
   * Elasticsearch
     * [benashford/rs-es] (https://github.com/benashford/rs-es) — a Rust client for the [Elastic] (https://www.elastic.co/) REST API [<img src="https://travis-ci.org/benashford/rs-es.svg?branch=master">](https://travis-ci.org/benashford/rs-es)
   * ForestDB
