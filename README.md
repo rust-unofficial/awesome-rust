@@ -213,7 +213,7 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
 
 ### Computation
 
-* BLAS
+* BLAS [[blas](https://crates.io/keywords/blas)]
   * [mikkyang/rust-blas](https://github.com/mikkyang/rust-blas) — [BLAS](https://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms) bindings
   * [stainless-steel/blas](https://github.com/stainless-steel/blas) — [BLAS](https://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms) bindings [<img src="https://travis-ci.org/stainless-steel/blas.svg?branch=master">](https://travis-ci.org/stainless-steel/blas)
 * GMP
