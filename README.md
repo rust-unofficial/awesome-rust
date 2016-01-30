@@ -249,18 +249,18 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
 
 [[database](https://crates.io/keywords/database)]
 
-* [sfackler/r2d2] (https://github.com/sfackler/r2d2) — generic connection pool [<img src="https://travis-ci.org/sfackler/r2d2.svg?branch=master">](https://travis-ci.org/sfackler/r2d2)
+* [sfackler/r2d2](https://github.com/sfackler/r2d2) — generic connection pool [<img src="https://travis-ci.org/sfackler/r2d2.svg?branch=master">](https://travis-ci.org/sfackler/r2d2)
 * NoSQL [[nosql](https://crates.io/keywords/nosql)]
   * Cassandra [[cassandra](https://crates.io/keywords/cassandra), [cql](https://crates.io/keywords/cql)]
     * [tupshin/cassandra-rust](https://github.com/tupshin/cassandra-rs) — [Cassandra](http://cassandra.apache.org) bindings
-  * CouchDB
-    * [couchdb-rs/couchdb] (https://github.com/couchdb-rs/couchdb) [[couchdb](https://crates.io/crates/couchdb/)] — a Rust client for the CouchDB REST API [<img src="https://travis-ci.org/couchdb-rs/couchdb.svg?branch=master">](https://travis-ci.org/couchdb-rs/couchdb)
-  * Elasticsearch
-    * [benashford/rs-es] (https://github.com/benashford/rs-es) — a Rust client for the [Elastic] (https://www.elastic.co/) REST API [<img src="https://travis-ci.org/benashford/rs-es.svg?branch=master">](https://travis-ci.org/benashford/rs-es)
+  * CouchDB [[couchdb](https://crates.io/keywords/couchdb)]
+    * [couchdb-rs/couchdb](https://github.com/couchdb-rs/couchdb) [[couchdb](https://crates.io/crates/couchdb/)] — a Rust client for the CouchDB REST API [<img src="https://travis-ci.org/couchdb-rs/couchdb.svg?branch=master">](https://travis-ci.org/couchdb-rs/couchdb)
+  * Elasticsearch [[elasticsearch](https://crates.io/keywords/elasticsearch)]
+    * [benashford/rs-es](https://github.com/benashford/rs-es) [[rs-es](https://crates.io/crates/rs-es/)] — a Rust client for the [Elastic](https://www.elastic.co/) REST API [<img src="https://travis-ci.org/benashford/rs-es.svg?branch=master">](https://travis-ci.org/benashford/rs-es)
   * ForestDB
     * [vhbit/sherwood](https://github.com/vhbit/sherwood) — [ForestDB](https://github.com/couchbase/forestdb) bindings [<img src="https://travis-ci.org/vhbit/sherwood.svg?branch=master">](https://travis-ci.org/vhbit/sherwood)
-  * LMDB
-    * [vhbit/lmdb-rs](https://github.com/vhbit/lmdb-rs) — [LMDB](http://symas.com/mdb/) bindings [<img src="https://travis-ci.org/vhbit/lmdb-rs.svg?branch=master">](https://travis-ci.org/vhbit/lmdb-rs)
+  * LMDB [[lmdb](https://crates.io/keywords/lmdb)]
+    * [vhbit/lmdb-rs](https://github.com/vhbit/lmdb-rs) [[lmdb-rs](https://crates.io/crates/lmdb-rs/)] — [LMDB](http://symas.com/mdb/) bindings [<img src="https://travis-ci.org/vhbit/lmdb-rs.svg?branch=master">](https://travis-ci.org/vhbit/lmdb-rs)
   * MongoDB [[mongodb](https://crates.io/keywords/mongodb)]
     * [mongodb-labs/mongo-rust-driver-prototype](https://github.com/mongodb-labs/mongo-rust-driver-prototype) [[mongodb](https://crates.io/crates/mongodb/)] — [MongoDB](https://www.mongodb.org/) bindings [<img src="https://travis-ci.org/mongodb-labs/mongo-rust-driver-prototype.svg">](https://travis-ci.org/mongodb-labs/mongo-rust-driver-prototype)
   * Neo4j [[cypher](https://crates.io/keywords/cypher), [neo4j](https://crates.io/keywords/neo4j)]
