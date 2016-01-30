@@ -195,7 +195,7 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
 ### Cloud
 
 * AWS
-  * [DualSpark/rusoto](https://github.com/rusoto/rusoto) — [<img src="https://travis-ci.org/DualSpark/rusoto.svg?branch=master">](https://travis-ci.org/DualSpark/rusoto)
+  * [rusoto/rusoto](https://github.com/rusoto/rusoto) — [<img src="https://travis-ci.org/rusoto/rusoto.svg?branch=master">](https://travis-ci.org/rusoto/rusoto)
   * [thommay/aws-rs](https://github.com/thommay/aws-rs) — [<img src="https://travis-ci.org/thommay/aws-rs.svg?branch=master">](https://travis-ci.org/thommay/aws-rs)
 * DigitalOcean
   * [kbknapp/doapi](https://github.com/kbknapp/doapi-rs) — DigitalOcean v2 API bindings [<img src="https://travis-ci.org/kbknapp/doapi-rs.svg?branch=master">](https://travis-ci.org/kbknapp/doapi-rs)
