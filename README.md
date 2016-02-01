@@ -108,7 +108,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 
 ### FFI
 
-See also [Foreign Function Interface](https://doc.rust-lang.org/book/ffi.html) and [Rust Inside Other Languages](https://doc.rust-lang.org/book/rust-inside-other-languages.html).
+See also [Foreign Function Interface](https://doc.rust-lang.org/book/ffi.html), [Rust Inside Other Languages](https://doc.rust-lang.org/book/rust-inside-other-languages.html) and [The Rust FFI Omnibus](http://jakegoulding.com/rust-ffi-omnibus/) (a collection of examples of using code written in Rust from other languages).
 
 * C
   * [crabtw/rust-bindgen](https://github.com/crabtw/rust-bindgen) — a Rust bindings generator [<img src="https://travis-ci.org/crabtw/rust-bindgen.svg?branch=master">](https://travis-ci.org/crabtw/rust-bindgen)
@@ -534,7 +534,6 @@ See also [Rust web framework comparison](https://github.com/flosse/rust-web-fram
 * [Rust by Example](http://rustbyexample.com/)
 * [RustCamp 2015 Talks](http://confreaks.tv/events/rustcamp2015)
 * [Rust Design Patterns](https://github.com/nrc/patterns)
-* [The Rust FFI Omnibus](http://jakegoulding.com/rust-ffi-omnibus/) — a collection of examples of using code written in Rust from other languages.
 * [Rust Guidelines](http://aturon.github.io/)
 * [rust-learning](https://github.com/ctjhoa/rust-learning) — a collection of useful resources to learn Rust
 * [Rustlings](https://github.com/carols10cents/rustlings) — small exercises to get you used to reading and writing Rust code
