@@ -146,7 +146,7 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
 ## Libraries
 
 ### Astronomy
-* [saurvs/astro-rust](https://github.com/saurvs/astro-rust) — a library of algorithms for accurate astronomical calculations [<img src="https://travis-ci.org/saurvs/astro-rust.svg?branch=master">](https://travis-ci.org/saurvs/astro-rust)
+* [saurvs/astro-rust](https://github.com/saurvs/astro-rust) — astronomy for Rust [<img src="https://travis-ci.org/saurvs/astro-rust.svg?branch=master">](https://travis-ci.org/saurvs/astro-rust)
 
 ### Asynchronous
 
