@@ -258,6 +258,8 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
     * [couchdb-rs/couchdb](https://github.com/couchdb-rs/couchdb) [[couchdb](https://crates.io/crates/couchdb/)] — a Rust client for the CouchDB REST API [<img src="https://travis-ci.org/couchdb-rs/couchdb.svg?branch=master">](https://travis-ci.org/couchdb-rs/couchdb)
   * Elasticsearch [[elasticsearch](https://crates.io/keywords/elasticsearch)]
     * [benashford/rs-es](https://github.com/benashford/rs-es) [[rs-es](https://crates.io/crates/rs-es/)] — a Rust client for the [Elastic](https://www.elastic.co/) REST API [<img src="https://travis-ci.org/benashford/rs-es.svg?branch=master">](https://travis-ci.org/benashford/rs-es)
+  * etcd
+    * [jimmycuadra/rust-etcd](https://github.com/jimmycuadra/rust-etcd) [[etcd](https://crates.io/crates/etcd/)] — A client library for CoreOS's etcd. [<img src="https://travis-ci.org/jimmycuadra/rust-etcd.svg?branch=master">](https://travis-ci.org/jimmycuadra/rust-etcd)
   * ForestDB
     * [vhbit/sherwood](https://github.com/vhbit/sherwood) — [ForestDB](https://github.com/couchbase/forestdb) bindings [<img src="https://travis-ci.org/vhbit/sherwood.svg?branch=master">](https://travis-ci.org/vhbit/sherwood)
   * LMDB [[lmdb](https://crates.io/keywords/lmdb)]
