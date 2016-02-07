@@ -53,6 +53,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 
 ## Applications written in Rust
 
+* [Aaronepower/tokei](https://github.com/Aaronepower/tokei) — counts the lines of code [<img src="https://img.shields.io/travis/Aaronepower/tokei.svg">](https://travis-ci.org/Aaronepower/tokei)
 * [azerupi/mdBook](https://github.com/azerupi/mdBook) — a command line utility to create books from markdown files [<img src="https://travis-ci.org/azerupi/mdBook.svg?branch=master">](https://travis-ci.org/azerupi/mdBook)
 * [bluejekyll/trust-dns](https://github.com/bluejekyll/trust-dns) — a DNS-server [<img src="https://travis-ci.org/bluejekyll/trust-dns.svg?branch=master">](https://travis-ci.org/bluejekyll/trust-dns)
 * [BurntSushi/xsv](https://github.com/BurntSushi/xsv) — a fast CSV command line tool (slicing, indexing, selecting, searching, sampling, etc.) [<img src="https://travis-ci.org/BurntSushi/xsv.svg?branch=master">](https://travis-ci.org/BurntSushi/xsv)
@@ -71,7 +72,6 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 * [seppo0010/rsedis](https://github.com/seppo0010/rsedis) — a Redis reimplementation [<img src="https://travis-ci.org/seppo0010/rsedis.svg?branch=master">](https://travis-ci.org/seppo0010/rsedis)
 * [Servo](https://github.com/servo/servo) — a prototype web browser engine
 * [uutils/coreutils](https://github.com/uutils/coreutils) — a cross-platform Rust rewrite of the GNU coreutils [<img src="https://travis-ci.org/uutils/coreutils.svg?branch=master">](https://travis-ci.org/uutils/coreutils)
-* [Aaronepower/tokei](https://github.com/Aaronepower/tokei) — A CLOC(Count Lines Of Code) utility program [<img src="https://img.shields.io/travis/Aaronepower/tokei.svg">](https://travis-ci.org/Aaronepower/tokei)
 
 ### Games
 
