@@ -307,7 +307,7 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
 ### Distributed Systems
 
 * Apache Kafka
-  * [Kafka Rust Client](https://github.com/spicavigo/kafka-rust)
+  * [spicavigo/kafka-rust](https://github.com/spicavigo/kafka-rust) — [<img src="https://travis-ci.org/spicavigo/kafka-rust.svg?branch=master">](https://travis-ci.org/spicavigo/kafka-rust)
 * Beanstalkd
   * [schickling/rust-beanstalkd](https://github.com/schickling/rust-beanstalkd) — [Beanstalkd](https://github.com/kr/beanstalkd) bindings [<img src="https://travis-ci.org/schickling/rust-beanstalkd.svg?branch=master">](https://travis-ci.org/schickling/rust-beanstalkd)
 * HDFS
