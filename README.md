@@ -185,6 +185,7 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
   * [pwoolcoc/cargo-fmt](https://github.com/pwoolcoc/cargo-fmt) — allows you to call `rustfmt` from `cargo` [<img src="https://travis-ci.org/pwoolcoc/cargo-fmt.svg?branch=master">](https://travis-ci.org/pwoolcoc/cargo-fmt)
   * [kbknapp/cargo-graph](https://github.com/kbknapp/cargo-graph) — updated fork of `cargo-dot` with additional features [<img src="https://travis-ci.org/kbknapp/cargo-graph.svg?branch=master">](https://travis-ci.org/kbknapp/cargo-graph)
   * [kbknapp/cargo-outdated](https://github.com/kbknapp/cargo-outdated) — displays when newer versions of Rust dependencies are available, or out of date [<img src="https://travis-ci.org/kbknapp/cargo-outdated.svg?branch=master">](https://travis-ci.org/kbknapp/cargo-outdated)
+  * [imp/cargo-multi](https://github.com/imp/cargo-multi) [[cargo-multi](https://crates.io/crates/cargo-multi/)] — runs specified cargo command on multiple crates [<img src="https://travis-ci.org/imp/cargo-multi.svg?branch=master">](https://travis-ci.org/imp/cargo-multi)
   * [DanielKeep/cargo-script](https://github.com/DanielKeep/cargo-script) — lets people quickly and easily run Rust "scripts" which can make use of Cargo's package ecosystem
   * [passcod/cargo-watch](https://github.com/passcod/cargo-watch) — utility for cargo to compile projects when sources change [<img src="https://travis-ci.org/passcod/cargo-watch.svg?branch=master">](https://travis-ci.org/passcod/cargo-watch)
 * CMake
