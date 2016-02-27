@@ -79,7 +79,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 * [lifthrasiir/angolmois-rust](https://github.com/lifthrasiir/angolmois-rust) — a minimalistic music video game which supports the BMS format [<img src="https://travis-ci.org/lifthrasiir/angolmois-rust.svg?branch=master">](https://travis-ci.org/lifthrasiir/angolmois-rust)
 * [swatteau/sokoban-rs](https://github.com/swatteau/sokoban-rs) — a Sokoban implementation
 * [Zone of Control](https://github.com/ozkriff/zoc) — a turn-based hexagonal strategy game [<img src="https://travis-ci.org/ozkriff/zoc.svg?branch=master">](https://travis-ci.org/ozkriff/zoc)
-* [rhex](https://github.com/dpc/rhex) - hexagonal ascii roguelike
+* [rhex](https://github.com/dpc/rhex) — hexagonal ascii roguelike
 
 ### Operating systems
 
@@ -373,7 +373,7 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
 * Allegro
   * [SiegeLord/RustAllegro](https://github.com/SiegeLord/RustAllegro) — [Allegro 5](http://liballeg.org/) bindings [<img src="https://travis-ci.org/SiegeLord/RustAllegro.svg?branch=master">](https://travis-ci.org/SiegeLord/RustAllegro)
 * Amethyst
-  * [ebkalderon/amethyst](https://github.com/ebkalderon/amethyst) - data-oriented game engine [<img src="https://travis-ci.org/ebkalderon/amethyst.svg?branch=master">](https://travis-ci.org/ebkalderon/amethyst)
+  * [ebkalderon/amethyst](https://github.com/ebkalderon/amethyst) — data-oriented game engine [<img src="https://travis-ci.org/ebkalderon/amethyst.svg?branch=master">](https://travis-ci.org/ebkalderon/amethyst)
 * Corange
   * [lucidscape/corange-rs](https://github.com/lucidscape/corange-rs) — [Corange](https://github.com/orangeduck/Corange) bindings
 * Piston
