@@ -11,6 +11,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
     - [Operating systems](#operating-systems)
   - [Development Tools](#development-tools)
     - [Debugging](#debugging)
+    - [Embedded](#embedded)
     - [FFI](#ffi)
     - [IDEs](#ides)
     - [Profiling](#profiling)
@@ -33,7 +34,6 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
     - [Date and time](#date-and-time)
     - [Distributed Systems](#distributed-systems)
     - [Email](#email)
-	- [Embedded](#embedded)
     - [Encoding](#encoding)
     - [Game development](#game-development)
     - [Games](#games)
@@ -108,6 +108,15 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   * [rust-gdb](https://github.com/rust-lang/rust/blob/master/src/etc/rust-gdb)
 * LLDB
   * [lldb_batchmode.py](https://github.com/rust-lang/rust/blob/master/src/etc/lldb_batchmode.py) — allows to use LLDB in a way similar to GDB's batch mode.
+
+
+### Embedded
+
+* Cross compiling
+  * [japaric/rust-cross](https://github.com/japaric/rust-cross) — everything you need to know about cross compiling Rust programs [<img src="https://travis-ci.org/japaric/rust-cross.svg?branch=master">](https://travis-ci.org/japaric/rust-cross) 
+* Raspberry Pi
+  * [Ogeon/rust-on-raspberry-pi](https://github.com/Ogeon/rust-on-raspberry-pi) — instructions for how to cross compile Rust projects for the Raspberry Pi .
+
 
 ### FFI
 
@@ -322,13 +331,6 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
 
 * [gsquire/sendgrid-rs](https://github.com/gsquire/sendgrid-rs) — unofficial Rust library for SendGrid API [<img src="https://travis-ci.org/gsquire/sendgrid-rs.svg?branch=master">](https://travis-ci.org/gsquire/sendgrid-rs)
 * [lettre/lettre](https://github.com/lettre/lettre) — an SMTP-library for Rust [<img src="https://travis-ci.org/lettre/lettre.svg?branch=master">](https://travis-ci.org/lettre/lettre)
-
-### Embedded
-
-* Cross compiling
-  * [japaric/rust-cross](https://github.com/japaric/rust-cross) — everything you need to know about cross compiling Rust programs [<img src="https://travis-ci.org/japaric/rust-cross.svg?branch=master">](https://travis-ci.org/japaric/rust-cross) 
-* Raspberry Pi
-  * [Ogeon/rust-on-raspberry-pi](https://github.com/Ogeon/rust-on-raspberry-pi) — instructions for how to cross compile Rust projects for the Raspberry Pi .
 
   
 ### Encoding
