@@ -129,6 +129,8 @@ See also [Foreign Function Interface](https://doc.rust-lang.org/book/ffi.html), 
   * [drrb/java-rust-example](https://github.com/drrb/java-rust-example) — use Rust from Java [<img src="https://travis-ci.org/drrb/java-rust-example.svg?branch=master">](https://travis-ci.org/drrb/java-rust-example)
 * Node.js
   * [rustbridge/neon](https://github.com/rustbridge/neon) — use Rust from Node.js [<img src="https://travis-ci.org/rustbridge/neon.svg?branch=master">](https://travis-ci.org/rustbridge/neon)
+* Objective-C
+  * [SSheldon/rust-objc](https://github.com/SSheldon/rust-objc) - Objective-C Runtime bindings and wrapper for Rust
 * Python
   * [dgrunwald/rust-cpython](https://github.com/dgrunwald/rust-cpython) — Python bindings [<img src="https://travis-ci.org/dgrunwald/rust-cpython.svg?branch=master">](https://travis-ci.org/dgrunwald/rust-cpython)
   * [lukemetz/rustpy](https://github.com/lukemetz/rustpy) — Python bindings [<img src="https://travis-ci.org/lukemetz/rustpy.svg?branch=master">](https://travis-ci.org/lukemetz/rustpy)
