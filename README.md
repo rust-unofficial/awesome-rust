@@ -269,6 +269,7 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
 
 [[database](https://crates.io/keywords/database)]
 
+* [pingcap/tikv](https://github.com/pingcap/tikv) — TiKV is a distributed KV database powered by Rust [<img src="https://travis-ci.org/pingcap/tikv.svg?branch=master">](https://travis-ci.org/pingcap/tikv)
 * [sfackler/r2d2](https://github.com/sfackler/r2d2) — generic connection pool [<img src="https://travis-ci.org/sfackler/r2d2.svg?branch=master">](https://travis-ci.org/sfackler/r2d2)
 * NoSQL [[nosql](https://crates.io/keywords/nosql)]
   * Cassandra [[cassandra](https://crates.io/keywords/cassandra), [cql](https://crates.io/keywords/cql)]
