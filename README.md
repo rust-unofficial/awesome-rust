@@ -171,7 +171,7 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
 ### Asynchronous
 
 * [zonyitoo/coio-rs](https://github.com/zonyitoo/coio-rs) — a coroutine I/O library with a working-stealing scheduler [<img src="https://travis-ci.org/zonyitoo/coio-rs.svg?branch=master">](https://travis-ci.org/zonyitoo/coio-rs)
-
+* [thehydroimpulse/tangle](https://github.com/thehydroimpulse/tangle) — a scala-inspired futures library [<img src="https://travis-ci.org/thehydroimpulse/tangle.svg?branch=master">](https://travis-ci.org/thehydroimpulse/tangle)
 
 ### Audio
 
