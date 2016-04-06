@@ -25,6 +25,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
     - [Build system](#build-system)
     - [Cloud](#cloud)
     - [Command-line argument parsing](#command-line-argument-parsing)
+    - [Command-line interface](#command-line-interface)
     - [Compression](#compression)
     - [Computation](#computation)
     - [Concurrency](#concurrency)
@@ -225,6 +226,11 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
 
 * [docopt/docopt.rs](https://github.com/docopt/docopt.rs) — a Rust implementation of [DocOpt](http://docopt.org) [<img src="https://travis-ci.org/docopt/docopt.rs.svg?branch=master">](https://travis-ci.org/docopt/docopt.rs)
 * [kbknapp/clap-rs](https://github.com/kbknapp/clap-rs) — a simple to use, full featured command-line argument parser [<img src="https://travis-ci.org/kbknapp/clap-rs.svg?branch=master">](https://travis-ci.org/kbknapp/clap-rs)
+
+### Command-line interface
+
+* [kkawakam/rustyline](https://github.com/kkawakam/rustyline) - Readline Implementation in Rust [![Build Status](https://travis-ci.org/kkawakam/rustyline.svg?branch=master)](https://travis-ci.org/kkawakam/rustyline)
+* [srijs/rust-copperline](https://github.com/srijs/rust-copperline) - Pure-Rust Command Line Editing Library
 
 ### Compression
 
@@ -501,6 +507,7 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
   * [kevinmehall/rust-peg](https://github.com/kevinmehall/rust-peg) — Parsing Expression Grammar (PEG) parser generator
   * [m4rw3r/chomp](https://github.com/m4rw3r/chomp) – A fast monadic-style parser combinator [<img src="https://travis-ci.org/m4rw3r/chomp.svg?branch=master">](https://travis-ci.org/m4rw3r/chomp)
   * [Marwes/combine](https://github.com/Marwes/combine) — parser combinator library [<img src="https://travis-ci.org/Marwes/combine.svg?branch=master">](https://travis-ci.org/Marwes/combine)
+  * [nikomatsakis/lalrpop](https://github.com/nikomatsakis/lalrpop) - LR(1) parser generator for Rust [![Build status](https://travis-ci.org/nikomatsakis/lalrpop.svg?branch=master)](https://travis-ci.org/nikomatsakis/lalrpop)
   * [ptal/oak](https://github.com/ptal/oak) — a typed PEG parser generator (compiler plugin)
   * [rustless/queryst](https://github.com/rustless/queryst) — a query string parsing library for Rust inspired by https://github.com/ljharb/qs [![Build Status](https://travis-ci.org/rustless/queryst.svg?branch=master)](https://travis-ci.org/rustless/queryst)
 
