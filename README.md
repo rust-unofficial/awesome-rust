@@ -413,6 +413,7 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
 [[gui](https://crates.io/keywords/gui)]
 
 * [PistonDevelopers/conrod](https://github.com/PistonDevelopers/conrod/) — An easy-to-use, immediate-mode, 2D GUI library written entirely in Rust [<img src="https://travis-ci.org/PistonDevelopers/conrod.svg?branch=master">](https://travis-ci.org/PistonDevelopers/conrod)
+* [pravic/rust-sciter](https://github.com/pravic/rust-sciter) — Rust bindings for the Sciter, embeddable HTML/CSS/script engine (cross-platform desktop GUI toolkit). [<img src="https://ci.appveyor.com/api/projects/status/github/pravic/rust-sciter?svg=true">](https://ci.appveyor.com/project/pravic/rust-sciter)
 * Cocoa
   * [servo/rust-cocoa](https://github.com/servo/cocoa-rs)
 * IUP
