@@ -64,6 +64,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   * [simias/rustation](https://github.com/simias/rustation) — a Playstation emulator [<img src="https://travis-ci.org/simias/rustation.svg?branch=master">](https://travis-ci.org/simias/rustation)
 * [gchp/iota](https://github.com/gchp/iota) — a simple text editor [<img src="https://travis-ci.org/gchp/iota.svg?branch=master">](https://travis-ci.org/gchp/iota)
 * [dlecan/generic-dns-update](https://github.com/dlecan/generic-dns-update) — a tool to update DNS zonefiles with your IP address [<img src="https://travis-ci.org/dlecan/generic-dns-update.svg?branch=master">](https://travis-ci.org/dlecan/generic-dns-update)
+* [Factotum](https://github.com/snowplow/factotum) - [A system to programmatically run data pipelines](http://snowplowanalytics.com/blog/2016/04/09/introducing-factotum-data-pipeline-runner/) [<img src="https://travis-ci.org/snowplow/factotum.svg?branch=master">](https://travis-ci.org/snowplow/factotum)
 * [Fractalide](https://github.com/fractalide/fractalide) — Flow-based Programming environment.
 * [imjacobclark/Herd](https://github.com/imjacobclark/Herd) — an experimental HTTP load testing application
 * [jedisct1/flowgger](https://github.com/jedisct1/flowgger) — a fast, simple and lightweight data collector
