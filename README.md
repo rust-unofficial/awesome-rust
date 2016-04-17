@@ -75,6 +75,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 * [Servo](https://github.com/servo/servo) — a prototype web browser engine
 * Virtualization
   * [tailhook/vagga](https://github.com/tailhook/vagga) — a containerization tool without daemons [<img src="https://travis-ci.org/tailhook/vagga.svg?branch=master">](https://travis-ci.org/tailhook/vagga)
+* [cristianoliveira/funzzy](https://github.com/cristianoliveira/funzzy) — a configurable watcher inspired in [entr](http://entrproject.org/) [<img src="https://api.travis-ci.org/cristianoliveira/funzzy.svg?branch=master">](https://travis-ci.org/cristianoliveira/funzzy)
 
 ### Games
 
