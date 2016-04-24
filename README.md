@@ -24,6 +24,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
     - [Authentication](#authentication)
     - [Bioinformatics](#bioinformatics)
     - [Build system](#build-system)
+    - [Caching](#caching)
     - [Cloud](#cloud)
     - [Command-line argument parsing](#command-line-argument-parsing)
     - [Command-line interface](#command-line-interface)
@@ -219,6 +220,10 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
   * [passcod/cargo-watch](https://github.com/passcod/cargo-watch) — utility for cargo to compile projects when sources change [<img src="https://travis-ci.org/passcod/cargo-watch.svg?branch=master">](https://travis-ci.org/passcod/cargo-watch)
 * CMake
   * [SiegeLord/RustCMake](https://github.com/SiegeLord/RustCMake) — an example project showing usage of CMake with Rust [<img src="https://travis-ci.org/SiegeLord/RustCMake.svg?branch=master">](https://travis-ci.org/SiegeLord/RustCMake)
+
+### Caching
+
+* [jaysonsantos/bmemcached-rs](https://github.com/jaysonsantos/bmemcached-rs) - Memcached library written in pure rust [<img src="https://travis-ci.org/jaysonsantos/bmemcached-rs.svg?branch=master">](https://travis-ci.org/jaysonsantos/bmemcached-rs)
 
 ### Concurrency
 
