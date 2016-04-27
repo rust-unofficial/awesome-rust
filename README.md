@@ -134,7 +134,7 @@ See also [Games Made With Piston](https://github.com/PistonDevelopers/piston/wik
 
 ### FFI
 
-See also [Foreign Function Interface](https://doc.rust-lang.org/book/ffi.html), [Rust Inside Other Languages](https://doc.rust-lang.org/book/rust-inside-other-languages.html) and [The Rust FFI Omnibus](http://jakegoulding.com/rust-ffi-omnibus/) (a collection of examples of using code written in Rust from other languages).
+See also [Foreign Function Interface](https://doc.rust-lang.org/book/ffi.html) and [The Rust FFI Omnibus](http://jakegoulding.com/rust-ffi-omnibus/) (a collection of examples of using code written in Rust from other languages).
 
 * C
   * [crabtw/rust-bindgen](https://github.com/crabtw/rust-bindgen) — a Rust bindings generator [<img src="https://travis-ci.org/crabtw/rust-bindgen.svg?branch=master">](https://travis-ci.org/crabtw/rust-bindgen)
