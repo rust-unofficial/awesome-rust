@@ -155,6 +155,8 @@ See also [Foreign Function Interface](https://doc.rust-lang.org/book/ffi.html) a
   * [lukemetz/rustpy](https://github.com/lukemetz/rustpy) — Python bindings [<img src="https://travis-ci.org/lukemetz/rustpy.svg?branch=master">](https://travis-ci.org/lukemetz/rustpy)
 * R
   * [rustr/rustr](https://github.com/rustr/rustr) — use Rust from R, and use R in Rust [<img src="https://travis-ci.org/rustr/rustr.svg?branch=master">](https://travis-ci.org/rustr/rustr)
+* Ruby
+  * [rustbridge/helix](https://github.com/rustbridge/helix) [[ruby](https://crates.io/crates/ruby/)] — [<img src="https://travis-ci.org/rustbridge/helix.svg?branch=master">](https://travis-ci.org/rustbridge/helix)
 
 ### IDEs
 
