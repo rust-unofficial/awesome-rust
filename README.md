@@ -115,7 +115,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [frewsxcv/crate-deps](https://github.com/frewsxcv/crate-deps) — generates images of dependency graphs for crates hosted on crates.io
 * Multirust — manage multiple Rust installations
   * [brson/multirust](https://github.com/brson/multirust) — the original multirust as shell scripts [<img src="https://travis-ci.org/brson/multirust.svg?branch=master">](https://travis-ci.org/brson/multirust)
-  * [Diggsey/multirust-rs](https://github.com/Diggsey/multirust-rs) — multirust reimplementation in Rust [<img src="https://travis-ci.org/Diggsey/multirust-rs.svg?branch=master">](https://travis-ci.org/Diggsey/multirust-rs)
+  * [rust-lang-nursery/rustup.rs](https://github.com/rust-lang-nursery/rustup.rs) — the Rust toolchain installer [<img src="https://travis-ci.org/Diggsey/multirust-rs.svg?branch=master">](https://travis-ci.org/Diggsey/multirust-rs)
 * [Racer](https://github.com/phildawes/racer) — code completion for Rust [<img src="https://travis-ci.org/phildawes/racer.svg?branch=master">](https://travis-ci.org/phildawes/racer)
 * [rustfmt](https://github.com/rust-lang-nursery/rustfmt) — a Rust code formatter [<img src="https://travis-ci.org/rust-lang-nursery/rustfmt.svg?branch=master">](https://travis-ci.org/rust-lang-nursery/rustfmt)
 
