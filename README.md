@@ -113,11 +113,9 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [clog-tool/clog-cli](https://github.com/clog-tool/clog-cli) — generates a changelog from git metadata ([conventional changelog](http://blog.thoughtram.io/announcements/tools/2014/09/18/announcing-clog-a-conventional-changelog-generator-for-the-rest-of-us.html)) [<img src="https://travis-ci.org/clog-tool/clog-cli.svg?branch=master">](https://travis-ci.org/clog-tool/clog-cli)
 * [dan-t/rusty-tags](https://github.com/dan-t/rusty-tags) — create ctags/etags for a cargo project and all of its dependencies [<img src="https://travis-ci.org/dan-t/rusty-tags.svg?branch=master">](https://travis-ci.org/dan-t/rusty-tags)
 * [frewsxcv/crate-deps](https://github.com/frewsxcv/crate-deps) — generates images of dependency graphs for crates hosted on crates.io
-* Multirust — manage multiple Rust installations
-  * [brson/multirust](https://github.com/brson/multirust) — the original multirust as shell scripts [<img src="https://travis-ci.org/brson/multirust.svg?branch=master">](https://travis-ci.org/brson/multirust)
-  * [rust-lang-nursery/rustup.rs](https://github.com/rust-lang-nursery/rustup.rs) — the Rust toolchain installer [<img src="https://travis-ci.org/rust-lang-nursery/rustup.rs.svg?branch=master">](https://travis-ci.org/rust-lang-nursery/rustup.rs)
 * [Racer](https://github.com/phildawes/racer) — code completion for Rust [<img src="https://travis-ci.org/phildawes/racer.svg?branch=master">](https://travis-ci.org/phildawes/racer)
 * [rustfmt](https://github.com/rust-lang-nursery/rustfmt) — a Rust code formatter [<img src="https://travis-ci.org/rust-lang-nursery/rustfmt.svg?branch=master">](https://travis-ci.org/rust-lang-nursery/rustfmt)
+* [Rustup](https://github.com/rust-lang-nursery/rustup.rs) — the Rust toolchain installer [<img src="https://travis-ci.org/rust-lang-nursery/rustup.rs.svg?branch=master">](https://travis-ci.org/rust-lang-nursery/rustup.rs)
 
 ### Debugging
 
