@@ -246,7 +246,7 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
 
 ### Cloud
 
-* AWS
+* AWS [[aws](https://crates.io/keywords/aws)]
   * [rusoto/rusoto](https://github.com/rusoto/rusoto) — [<img src="https://travis-ci.org/rusoto/rusoto.svg?branch=master">](https://travis-ci.org/rusoto/rusoto)
   * [thommay/aws-rs](https://github.com/thommay/aws-rs) — [<img src="https://travis-ci.org/thommay/aws-rs.svg?branch=master">](https://travis-ci.org/thommay/aws-rs)
 * DigitalOcean
