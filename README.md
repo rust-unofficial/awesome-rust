@@ -185,6 +185,9 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
 ## Libraries
 
 ### Astronomy
+
+[[astronomy](https://crates.io/keywords/astronomy)]
+
 * [saurvs/astro-rust](https://github.com/saurvs/astro-rust) — astronomy for Rust [<img src="https://travis-ci.org/saurvs/astro-rust.svg?branch=master">](https://travis-ci.org/saurvs/astro-rust)
 
 ### Asynchronous
