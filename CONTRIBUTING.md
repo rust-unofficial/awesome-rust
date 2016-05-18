@@ -2,6 +2,8 @@
 
 Do you want to contribute? I'd love that.
 
+My goal is to have mostly projects that are stable and useful to users.
+
 ## How?
 
 If you want to add an entry to the `README.md` please consider this:
