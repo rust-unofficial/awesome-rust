@@ -460,24 +460,24 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
 * [PistonDevelopers/conrod](https://github.com/PistonDevelopers/conrod/) — An easy-to-use, immediate-mode, 2D GUI library written entirely in Rust [<img src="https://travis-ci.org/PistonDevelopers/conrod.svg?branch=master">](https://travis-ci.org/PistonDevelopers/conrod)
 * Cocoa
   * [servo/rust-cocoa](https://github.com/servo/cocoa-rs)
-* IUP
-  * [dcampbell24/iup-rust](https://github.com/dcampbell24/iup-rust) — [IUP](http://webserver2.tecgraf.puc-rio.br/iup/) bindings [<img src="https://travis-ci.org/dcampbell24/iup-rust.svg?branch=master">](https://travis-ci.org/dcampbell24/iup-rust)
+* [IUP](http://webserver2.tecgraf.puc-rio.br/iup/)
+  * [dcampbell24/iup-rust](https://github.com/dcampbell24/iup-rust) — IUP bindings [<img src="https://travis-ci.org/dcampbell24/iup-rust.svg?branch=master">](https://travis-ci.org/dcampbell24/iup-rust)
   * [Kiss-ui](https://github.com/KISS-UI/kiss-ui) — a simple UI framework built on IUP [![Build Status](https://travis-ci.org/cybergeek94/kiss-ui.svg?branch=master)](https://travis-ci.org/cybergeek94/kiss-ui)
-* GTK+ [[gtk](https://crates.io/keywords/gtk)]
-  * [gtk-rs/gtk](https://github.com/gtk-rs/gtk) — [GTK+](http://www.gtk.org) bindings [<img src="https://travis-ci.org/gtk-rs/gtk.svg?branch=master">](https://travis-ci.org/gtk-rs/gtk)
-* ncurses [[ncurses](https://crates.io/keywords/ncurses)]
-  * [jeaye/ncurses-rs](https://github.com/jeaye/ncurses-rs) — [ncurses](http://www.gnu.org/software/ncurses/) bindings [<img src="https://travis-ci.org/jeaye/ncurses-rs.svg?branch=master">](https://travis-ci.org/jeaye/ncurses-rs)
+* [GTK+](http://www.gtk.org) [[gtk](https://crates.io/keywords/gtk)]
+  * [gtk-rs/gtk](https://github.com/gtk-rs/gtk) — GTK+ bindings [<img src="https://travis-ci.org/gtk-rs/gtk.svg?branch=master">](https://travis-ci.org/gtk-rs/gtk)
+* [ncurses](http://www.gnu.org/software/ncurses/) [[ncurses](https://crates.io/keywords/ncurses)]
+  * [jeaye/ncurses-rs](https://github.com/jeaye/ncurses-rs) — ncurses bindings [<img src="https://travis-ci.org/jeaye/ncurses-rs.svg?branch=master">](https://travis-ci.org/jeaye/ncurses-rs)
 * OpenGL [[opengl](https://crates.io/keywords/opengl)]
   * [bjz/gl-rs](https://github.com/bjz/gl-rs) — [<img src="https://travis-ci.org/bjz/gl-rs.svg?branch=master">](https://travis-ci.org/bjz/gl-rs)
   * [bjz/glfw-rs](https://github.com/PistonDevelopers/glfw-rs) — [<img src="https://travis-ci.org/bjz/glfw-rs.svg?branch=master">](https://travis-ci.org/bjz/glfw-rs)
   * [tomaka/glium](https://github.com/tomaka/glium) — safe OpenGL wrapper for the Rust language. [<img src="https://travis-ci.org/tomaka/glium.svg?branch=master">](https://travis-ci.org/tomaka/glium)
   * [tomaka/glutin](https://github.com/tomaka/glutin) — Rust alternative to [GLFW](http://www.glfw.org/) [<img src="https://travis-ci.org/tomaka/glutin.svg?branch=master">](https://travis-ci.org/tomaka/glutin)
-* Qt
-  * [cyndis/qmlrs](https://github.com/cyndis/qmlrs) — [QtQuick](http://doc.qt.io) bindings [<img src="https://travis-ci.org/cyndis/qmlrs.svg?branch=master">](https://travis-ci.org/cyndis/qmlrs)
-* Sciter
-  * [pravic/rust-sciter](https://github.com/pravic/rust-sciter) — Rust bindings for the Sciter, embeddable HTML/CSS/script engine (cross-platform desktop GUI toolkit). [<img src="https://ci.appveyor.com/api/projects/status/github/pravic/rust-sciter?svg=true">](https://ci.appveyor.com/project/pravic/rust-sciter)
-* Termbox
-  * [gchp/rustbox](https://github.com/gchp/rustbox) — a Rust implementation of [termbox](https://github.com/nsf/termbox) [<img src="https://travis-ci.org/gchp/rustbox.svg?branch=master">](https://travis-ci.org/gchp/rustbox)
+* [Qt](http://doc.qt.io)
+  * [cyndis/qmlrs](https://github.com/cyndis/qmlrs) — QtQuick bindings [<img src="https://travis-ci.org/cyndis/qmlrs.svg?branch=master">](https://travis-ci.org/cyndis/qmlrs)
+* [Sciter](http://sciter.com/)
+  * [pravic/rust-sciter](https://github.com/pravic/rust-sciter) — Sciter bindings [<img src="https://ci.appveyor.com/api/projects/status/github/pravic/rust-sciter?svg=true">](https://ci.appveyor.com/project/pravic/rust-sciter)
+* [Termbox](https://github.com/nsf/termbox)
+  * [gchp/rustbox](https://github.com/gchp/rustbox) — a Rust implementation of Termbox [<img src="https://travis-ci.org/gchp/rustbox.svg?branch=master">](https://travis-ci.org/gchp/rustbox)
 * [Vulkan](https://www.khronos.org/vulkan/) [[vulkan](https://crates.io/keywords/vulkan)]
   * [tomaka/vulkano](https://github.com/tomaka/vulkano) [[vulkano](https://crates.io/crates/vulkano)] — [<img src="https://travis-ci.org/tomaka/vulkano.svg?branch=master">](https://travis-ci.org/tomaka/vulkano)
 
