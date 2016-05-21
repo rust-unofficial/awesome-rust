@@ -275,15 +275,15 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
 
 ### Computation
 
-* BLAS [[blas](https://crates.io/keywords/blas)]
-  * [mikkyang/rust-blas](https://github.com/mikkyang/rust-blas) — [BLAS](https://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms) bindings
-  * [stainless-steel/blas](https://github.com/stainless-steel/blas) — [BLAS](https://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms) bindings [<img src="https://travis-ci.org/stainless-steel/blas.svg?branch=master">](https://travis-ci.org/stainless-steel/blas)
-* GMP
-  * [thestinger/rust-gmp](https://github.com/thestinger/rust-gmp) — [libgmp](https://gmplib.org/) bindings [<img src="https://travis-ci.org/thestinger/rust-gmp.svg?branch=master">](https://travis-ci.org/thestinger/rust-gmp)
-* GSL
-  * [GuillaumeGomez/rust-GSL](https://github.com/GuillaumeGomez) — [GSL](http://www.gnu.org/software/gsl/) bindings [<img src="https://travis-ci.org/GuillaumeGomez/rust-GSL.svg?branch=master">](https://travis-ci.org/GuillaumeGomez/rust-GSL)
-* LAPACK
-  * [stainless-steel/lapack](https://github.com/stainless-steel/lapack) — [LAPACK](https://en.wikipedia.org/wiki/LAPACK) bindings [<img src="https://travis-ci.org/stainless-steel/lapack.svg?branch=master">](https://travis-ci.org/stainless-steel/lapack)
+* [BLAS](https://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms) [[blas](https://crates.io/keywords/blas)]
+  * [mikkyang/rust-blas](https://github.com/mikkyang/rust-blas) — BLAS bindings
+  * [stainless-steel/blas](https://github.com/stainless-steel/blas) — BLAS bindings [<img src="https://travis-ci.org/stainless-steel/blas.svg?branch=master">](https://travis-ci.org/stainless-steel/blas)
+* [GMP](https://gmplib.org/)
+  * [thestinger/rust-gmp](https://github.com/thestinger/rust-gmp) — libgmp bindings [<img src="https://travis-ci.org/thestinger/rust-gmp.svg?branch=master">](https://travis-ci.org/thestinger/rust-gmp)
+* [GSL](http://www.gnu.org/software/gsl/)
+  * [GuillaumeGomez/rust-GSL](https://github.com/GuillaumeGomez) — GSL bindings [<img src="https://travis-ci.org/GuillaumeGomez/rust-GSL.svg?branch=master">](https://travis-ci.org/GuillaumeGomez/rust-GSL)
+* [LAPACK](https://en.wikipedia.org/wiki/LAPACK)
+  * [stainless-steel/lapack](https://github.com/stainless-steel/lapack) — LAPACK bindings [<img src="https://travis-ci.org/stainless-steel/lapack.svg?branch=master">](https://travis-ci.org/stainless-steel/lapack)
 * Parallel
   * [arrayfire/arrayfire-rust](https://github.com/arrayfire/arrayfire-rust) — [Arrayfire](http://arrayfire.com) bindings
   * [autumnai/collenchyma](https://github.com/autumnai/collenchyma) — An extensible, pluggable, backend-agnostic framework for parallel, high-performance computations on CUDA, OpenCL and common host CPU. [<img src="https://travis-ci.org/autumnai/collenchyma.svg?branch=master">](https://travis-ci.org/autumnai/collenchyma)
