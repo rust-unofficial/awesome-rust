@@ -91,7 +91,7 @@ See also [Friends of Rust](https://www.rust-lang.org/friends.html) (organization
 * NES
   * [pcwalton/sprocketnes](https://github.com/pcwalton/sprocketnes) — [<img src="https://travis-ci.org/pcwalton/sprocketnes.svg?branch=master">](https://travis-ci.org/pcwalton/sprocketnes)
 * Playstation
-  * [simias/rustation](https://github.com/simias/rustation) — a Playstation emulator [<img src="https://travis-ci.org/simias/rustation.svg?branch=master">](https://travis-ci.org/simias/rustation)
+  * [simias/rustation](https://github.com/simias/rustation) — [<img src="https://travis-ci.org/simias/rustation.svg?branch=master">](https://travis-ci.org/simias/rustation)
 
 
 ### Games
