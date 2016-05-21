@@ -4,7 +4,7 @@ A curated list of Rust code and resources, inspired by other awesome lists.
 
 If you want to contribute, please read [this](CONTRIBUTING.md).
 
-- [Awesome Rust](#awesome-rust)
+- Table of Contents
   - [Applications written in Rust](#applications-written-in-rust)
     - [Games](#games)
     - [Operating systems](#operating-systems)
