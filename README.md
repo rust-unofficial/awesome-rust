@@ -5,7 +5,7 @@ A curated list of Rust code and resources, inspired by other awesome lists.
 If you want to contribute, please read [this](CONTRIBUTING.md).
 
 ## Table of Contents
-em
+
 - [Applications written in Rust](#applications-written-in-rust)
   - [Emulators](#emulators)
   - [Games](#games)
