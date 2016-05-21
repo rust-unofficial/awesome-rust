@@ -590,7 +590,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 See also [Rust web framework comparison](https://github.com/flosse/rust-web-framework-comparison).
 
 * HTTP Client
-  * [carllerche/curl-rust](https://github.com/carllerche/curl-rust) — [libcurl](http://curl.haxx.se/libcurl/) bindings [<img src="https://travis-ci.org/carllerche/curl-rust.svg?branch=master">](https://travis-ci.org/carllerche/curl-rust)
+  * [alexcrichton/curl-rust](https://github.com/alexcrichton/curl-rust) — [libcurl](http://curl.haxx.se/libcurl/) bindings [<img src="https://travis-ci.org/alexcrichton/curl-rust.svg?branch=master">](https://travis-ci.org/alexcrichton/curl-rust)
   * [hyperium/hyper](https://github.com/hyperium/hyper) — an HTTP implementation [<img src="https://travis-ci.org/hyperium/hyper.svg?branch=master">](https://travis-ci.org/hyperium/hyper)
   * [vhbit/curl-rs](https://github.com/vhbit/curl-rs) — [libcurl](http://curl.haxx.se/libcurl/) bindings [<img src="https://travis-ci.org/vhbit/curl-rs.svg?branch=master">](https://travis-ci.org/vhbit/curl-rs)
 * HTTP Server
