@@ -602,6 +602,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 
 ### Virtualization
 
+* [ekse/unicorn-rs](https://github.com/ekse/unicorn-rs) — Rust bindings for the unicorn CPU emulator
 * [saurvs/hypervisor-rs](https://github.com/saurvs/hypervisor-rs) — Hardware-accelerated virtualization on OS X
 
 ### Web programming
