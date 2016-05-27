@@ -92,6 +92,8 @@ See also [Friends of Rust](https://www.rust-lang.org/friends.html) (organization
   * [pcwalton/sprocketnes](https://github.com/pcwalton/sprocketnes) — [<img src="https://travis-ci.org/pcwalton/sprocketnes.svg?branch=master">](https://travis-ci.org/pcwalton/sprocketnes)
 * Playstation
   * [simias/rustation](https://github.com/simias/rustation) — [<img src="https://travis-ci.org/simias/rustation.svg?branch=master">](https://travis-ci.org/simias/rustation)
+* ZX Spectrum
+  * [pacmancoder/rustzx](https://github.com/pacmancoder/rustzx) — [<img src="https://travis-ci.org/pacmancoder/rustzx.svg?branch=master">](https://travis-ci.org/pacmancoder/rustzx)
 
 
 ### Games
