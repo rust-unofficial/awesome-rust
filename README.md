@@ -42,6 +42,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   - [Game development](#game-development)
   - [Games](#games)
   - [Geospatial](#geospatial)
+  - [Graphics](#graphics)
   - [GUI](#gui)
   - [Image processing](#image-processing)
   - [Machine learning](#machine-learning)
@@ -470,6 +471,8 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
   * [brson/rust-sdl](https://github.com/brson/rust-sdl) — [SDL1](http://www.libsdl.org/) bindings [<img src="https://travis-ci.org/brson/rust-sdl.svg?branch=master">](https://travis-ci.org/brson/rust-sdl)
 * SFML
   * [jeremyletang/rust-sfml](https://github.com/jeremyletang/rust-sfml) — [SFML](http://www.sfml-dev.org/) bindings [<img src="https://travis-ci.org/jeremyletang/rust-sfml.svg?branch=master">](https://travis-ci.org/jeremyletang/rust-sfml)
+* Entity-Component Systems (ECS)
+  * [slide-rs/specs](https://github.com/slide-rs/specs) - Specs Parallel ECS [<img src="https://travis-ci.org/slide-rs/specs.svg">](httpsL//github.com/travis-ci.org/slide-rs/specs)
 * Voxlap
   * [bbodi/rust-voxlap](https://github.com/bbodi/rust-voxlap) — [Voxlap](http://advsys.net/ken/voxlap.htm) bindings
 
@@ -478,6 +481,20 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
 [[geo](https://crates.io/keywords/geo), [gis](https://crates.io/keywords/gis)]
 
 * [Georust](https://github.com/georust) — geospatial tools and libraries written in Rust
+
+
+### Graphics
+
+[[graphics](https://crates.io.keywords/graphics)]
+
+* [gfx-rs/gfx](https://github.com/gfx-rs/gfx) - A high-performance, bindless graphics API for Rust. [<img src="https://img.shields.io/travis/gfx-rs/gfx/master.svg">](https://travis-ci.org/gfx-rs/gfx)
+* OpenGL [[opengl](https://crates.io/keywords/opengl)]
+  * [bjz/gl-rs](https://github.com/bjz/gl-rs) — [<img src="https://travis-ci.org/bjz/gl-rs.svg?branch=master">](https://travis-ci.org/bjz/gl-rs)
+  * [PistonDevelopers/glfw-rs](https://github.com/PistonDevelopers/glfw-rs) — [<img src="https://travis-ci.org/PistonDevelopers/glfw-rs.svg?branch=master">](https://travis-ci.org/PistonDevelopers/glfw-rs)
+  * [tomaka/glium](https://github.com/tomaka/glium) — safe OpenGL wrapper for the Rust language. [<img src="https://travis-ci.org/tomaka/glium.svg?branch=master">](https://travis-ci.org/tomaka/glium)
+  * [tomaka/glutin](https://github.com/tomaka/glutin) — Rust alternative to [GLFW](http://www.glfw.org/) [<img src="https://travis-ci.org/tomaka/glutin.svg?branch=master">](https://travis-ci.org/tomaka/glutin)
+* [Vulkan](https://www.khronos.org/vulkan/) [[vulkan](https://crates.io/keywords/vulkan)]
+  * [tomaka/vulkano](https://github.com/tomaka/vulkano) [[vulkano](https://crates.io/crates/vulkano)] — [<img src="https://travis-ci.org/tomaka/vulkano.svg?branch=master">](https://travis-ci.org/tomaka/vulkano)
 
 
 ### GUI
@@ -494,19 +511,12 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
   * [gtk-rs/gtk](https://github.com/gtk-rs/gtk) — GTK+ bindings [<img src="https://travis-ci.org/gtk-rs/gtk.svg?branch=master">](https://travis-ci.org/gtk-rs/gtk)
 * [ncurses](http://www.gnu.org/software/ncurses/) [[ncurses](https://crates.io/keywords/ncurses)]
   * [jeaye/ncurses-rs](https://github.com/jeaye/ncurses-rs) — ncurses bindings [<img src="https://travis-ci.org/jeaye/ncurses-rs.svg?branch=master">](https://travis-ci.org/jeaye/ncurses-rs)
-* OpenGL [[opengl](https://crates.io/keywords/opengl)]
-  * [bjz/gl-rs](https://github.com/bjz/gl-rs) — [<img src="https://travis-ci.org/bjz/gl-rs.svg?branch=master">](https://travis-ci.org/bjz/gl-rs)
-  * [PistonDevelopers/glfw-rs](https://github.com/PistonDevelopers/glfw-rs) — [<img src="https://travis-ci.org/PistonDevelopers/glfw-rs.svg?branch=master">](https://travis-ci.org/PistonDevelopers/glfw-rs)
-  * [tomaka/glium](https://github.com/tomaka/glium) — safe OpenGL wrapper for the Rust language. [<img src="https://travis-ci.org/tomaka/glium.svg?branch=master">](https://travis-ci.org/tomaka/glium)
-  * [tomaka/glutin](https://github.com/tomaka/glutin) — Rust alternative to [GLFW](http://www.glfw.org/) [<img src="https://travis-ci.org/tomaka/glutin.svg?branch=master">](https://travis-ci.org/tomaka/glutin)
 * [Qt](http://doc.qt.io)
   * [cyndis/qmlrs](https://github.com/cyndis/qmlrs) — QtQuick bindings [<img src="https://travis-ci.org/cyndis/qmlrs.svg?branch=master">](https://travis-ci.org/cyndis/qmlrs)
 * [Sciter](http://sciter.com/)
   * [pravic/rust-sciter](https://github.com/pravic/rust-sciter) — Sciter bindings [<img src="https://ci.appveyor.com/api/projects/status/github/pravic/rust-sciter?svg=true">](https://ci.appveyor.com/project/pravic/rust-sciter)
 * [Termbox](https://github.com/nsf/termbox)
   * [gchp/rustbox](https://github.com/gchp/rustbox) — a Rust implementation of Termbox [<img src="https://travis-ci.org/gchp/rustbox.svg?branch=master">](https://travis-ci.org/gchp/rustbox)
-* [Vulkan](https://www.khronos.org/vulkan/) [[vulkan](https://crates.io/keywords/vulkan)]
-  * [tomaka/vulkano](https://github.com/tomaka/vulkano) [[vulkano](https://crates.io/crates/vulkano)] — [<img src="https://travis-ci.org/tomaka/vulkano.svg?branch=master">](https://travis-ci.org/tomaka/vulkano)
 
 ### Image processing
 
