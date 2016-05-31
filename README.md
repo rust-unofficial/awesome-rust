@@ -76,6 +76,7 @@ See also [Friends of Rust](https://www.rust-lang.org/friends.html) (organization
 * [cristianoliveira/funzzy](https://github.com/cristianoliveira/funzzy) — a configurable watcher inspired in [entr](http://entrproject.org/) [<img src="https://api.travis-ci.org/cristianoliveira/funzzy.svg?branch=master">](https://travis-ci.org/cristianoliveira/funzzy)
 * [xi-editor](https://github.com/google/xi-editor) — a modern editor with a backend written in Rust.
 
+
 * **Database**
   * [pingcap/tikv](https://github.com/pingcap/tikv) — a distributed KV database in Rust [<img src="https://travis-ci.org/pingcap/tikv.svg?branch=master">](https://travis-ci.org/pingcap/tikv)
   * [seppo0010/rsedis](https://github.com/seppo0010/rsedis) — a Redis reimplementation in Rust [<img src="https://travis-ci.org/seppo0010/rsedis.svg?branch=master">](https://travis-ci.org/seppo0010/rsedis)
@@ -89,12 +90,12 @@ See also [Friends of Rust](https://www.rust-lang.org/friends.html) (organization
     * [simias/rustation](https://github.com/simias/rustation) — [<img src="https://travis-ci.org/simias/rustation.svg?branch=master">](https://travis-ci.org/simias/rustation)
   * ZX Spectrum
     * [pacmancoder/rustzx](https://github.com/pacmancoder/rustzx) — [<img src="https://travis-ci.org/pacmancoder/rustzx.svg?branch=master">](https://travis-ci.org/pacmancoder/rustzx)
-* **Games** see also [Games Made With Piston](https://github.com/PistonDevelopers/piston/wiki/Games-Made-With-Piston).
+* **Games**, see also [Games Made With Piston](https://github.com/PistonDevelopers/piston/wiki/Games-Made-With-Piston).
   * [lifthrasiir/angolmois-rust](https://github.com/lifthrasiir/angolmois-rust) — a minimalistic music video game which supports the BMS format [<img src="https://travis-ci.org/lifthrasiir/angolmois-rust.svg?branch=master">](https://travis-ci.org/lifthrasiir/angolmois-rust)
   * [swatteau/sokoban-rs](https://github.com/swatteau/sokoban-rs) — a Sokoban implementation
   * [Zone of Control](https://github.com/ozkriff/zoc) — a turn-based hexagonal strategy game [<img src="https://travis-ci.org/ozkriff/zoc.svg?branch=master">](https://travis-ci.org/ozkriff/zoc)
   * [rhex](https://github.com/dpc/rhex) — hexagonal ascii roguelike
-* **Operating systems** see also [A comparison of operating systems written in Rust](https://github.com/flosse/rust-os-comparison)
+* **Operating systems**, see also [A comparison of operating systems written in Rust](https://github.com/flosse/rust-os-comparison)
   * [redox-os/redox](https://github.com/redox-os/redox) — [<img   src="https://travis-ci.org/redox-os/redox.svg?branch=master">](https://travis-ci.org/redox-os/redox)
   * [thepowersgang/rust_os](https://github.com/thepowersgang/rust_os) — [<img src="https://travis-ci.org/thepowersgang/rust_os.svg?branch=master">](https://travis-ci.org/thepowersgang/rust_os)
 * **System tools**
