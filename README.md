@@ -311,6 +311,7 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
 * [libOctavo/octavo](https://github.com/libOctavo/octavo) — Modular hash and crypto library in Rust [<img src="https://api.travis-ci.org/libOctavo/octavo.svg?branch=master">](https://travis-ci.org/libOctavo/octavo)
 * [sfackler/rust-native-tls](https://github.com/sfackler/rust-native-tls) - Bindings for native TLS libraries
 * [sfackler/rust-openssl](https://github.com/sfackler/rust-openssl) — [OpenSSL](https://www.openssl.org/) bindings [<img src="https://travis-ci.org/sfackler/rust-openssl.svg?branch=master">](https://travis-ci.org/sfackler/rust-openssl)
+* [steffengy/schannel-rs](https://github.com/steffengy/schannel-rs) - Bindings for Schannel (Windows native TLS)
 
 
 ### Database
