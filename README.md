@@ -35,6 +35,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   - [Distributed Systems](#distributed-systems)
   - [Email](#email)
   - [Encoding](#encoding)
+  - [Filesystem](#filesystem)
   - [Game development](#game-development)
   - [Games](#games)
   - [Geospatial](#geospatial)
@@ -441,6 +442,14 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
   * [chyh1990/yaml-rust](https://github.com/chyh1990/yaml-rust) — The missing YAML 1.2 implementation for Rust. [<img src="https://travis-ci.org/chyh1990/yaml-rust.svg?branch=master">](https://travis-ci.org/chyh1990/yaml-rust)
   * [dtolnay/serde-yaml](https://github.com/dtolnay/serde-yaml) [[serde\_yaml](https://crates.io/crates/serde_yaml)] — YAML support for [Serde](https://github.com/serde-rs/serde) framework [<img src="https://travis-ci.org/dtolnay/serde-yaml.svg?branch=master">](https://travis-ci.org/dtolnay/serde-yaml)
   * [kimhyunkang/libyaml-rust](https://github.com/kimhyunkang/libyaml-rust) — [libyaml](http://pyyaml.org/wiki/LibYAML) bindings [<img src="https://travis-ci.org/kimhyunkang/libyaml-rust.svg?branch=master">](https://travis-ci.org/kimhyunkang/libyaml-rust)
+
+### Filesystem
+
+[[filesystem](https://crates.io/keywords/filesystem)]
+
+* Temporary Files
+  * [rust-lang-nursery/tempdir](https://github.com/rust-lang-nursery/tempdir) — temporary directory library [<img src="https://travis-ci.org/rust-lang-nursery/tempdir.svg?branch=master">](https://travis-ci.org/rust-lang-nursery/tempdir)
+  * [Stebalien/tempfile](https://github.com/Stebalien/tempfile) — temporary file library [<img src="https://travis-ci.org/Stebalien/tempfile.svg?branch=master">](https://travis-ci.org/Stebalien/tempfile)
 
 ### Game development
 
