@@ -655,6 +655,7 @@ See also [Rust web framework comparison](https://github.com/flosse/rust-web-fram
 * [Rust Guidelines](http://aturon.github.io/)
 * [rust-learning](https://github.com/ctjhoa/rust-learning) — a collection of useful resources to learn Rust
 * [Rustlings](https://github.com/carols10cents/rustlings) — small exercises to get you used to reading and writing Rust code
+* [Awesome Rust @LibHunt](https://rust.libhunt.com) — The Awesome Rust list with ordering by popularity, dev activity and additional metadata
 
 
 ## License
