@@ -87,7 +87,6 @@ See also [Friends of Rust](https://www.rust-lang.org/friends.html) (organization
     * [mvdnes/rboy](https://github.com/mvdnes/rboy) — [<img src="https://travis-ci.org/mvdnes/rboy.svg?branch=master">](https://travis-ci.org/mvdnes/rboy)
   * NES
     * [iamsix/oxidenes](https://github.com/iamsix/oxidenes) — [<img src="https://travis-ci.org/iamsix/oxidenes.svg?branch=master">](https://travis-ci.org/iamsix/oxidenes)
-  * Playstation
     * [pcwalton/sprocketnes](https://github.com/pcwalton/sprocketnes) — [<img src="https://travis-ci.org/pcwalton/sprocketnes.svg?branch=master">](https://travis-ci.org/pcwalton/sprocketnes)
   * Playstation
     * [simias/rustation](https://github.com/simias/rustation) — [<img src="https://travis-ci.org/simias/rustation.svg?branch=master">](https://travis-ci.org/simias/rustation)
