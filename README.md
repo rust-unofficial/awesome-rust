@@ -345,6 +345,8 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
   * UnQLite
     * [zitsen/unqlite.rs](https://github.com/zitsen/unqlite.rs) — [UnQLite](http://unqlite.org) - An Embeddable NoSQL Database Engine library wrapper for Rust [<img src="https://travis-ci.org/zitsen/unqlite.rs.svg?branch=master">](https://travis-ci.org/zitsen/unqlite.rs)
 * SQL [[sql](https://crates.io/keywords/sql)]
+  * Microsoft SQL
+    * [steffengy/tiberius](https://github.com/steffengy/tiberius) — [<img src="https://travis-ci.org/steffengy/tiberius.svg?branch=master">](https://travis-ci.org/steffengy/tiberius)
   * MySql [[mysql](https://crates.io/keywords/mysql)]
     * [blackbeam/rust-mysql-simple](https://github.com/blackbeam/rust-mysql-simple) [[mysql](https://crates.io/crates/mysql)] — a native MySql client [<img src="https://travis-ci.org/blackbeam/rust-mysql-simple.svg?branch=master">](https://travis-ci.org/blackbeam/rust-mysql-simple)
  * ORM [[orm](https://crates.io/keywords/orm)]
