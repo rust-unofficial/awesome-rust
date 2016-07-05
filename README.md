@@ -201,6 +201,7 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
 [[astronomy](https://crates.io/keywords/astronomy)]
 
 * [saurvs/astro-rust](https://github.com/saurvs/astro-rust) — astronomy for Rust [<img src="https://travis-ci.org/saurvs/astro-rust.svg?branch=master">](https://travis-ci.org/saurvs/astro-rust)
+* [flosse/rust-sun](https://github.com/flosse/rust-sun) — A rust port of the JS library suncalc [<img src="https://travis-ci.org/flosse/rust-sun.svg?branch=master">](https://travis-ci.org/flosse/rust-sun)
 
 ### Asynchronous
 
