@@ -662,15 +662,18 @@ See also [Rust web framework comparison](https://github.com/flosse/rust-web-fram
 
 * Benchmarks
   * [TeXitoi/benchmarksgame-rs](https://github.com/TeXitoi/benchmarksgame-rs) — Rust implementations for the [The Computer Language Benchmarks Game](http://benchmarksgame.alioth.debian.org/) [<img src="https://travis-ci.org/TeXitoi/benchmarksgame-rs.svg?branch=master">](https://travis-ci.org/TeXitoi/benchmarksgame-rs)
+* Learning
+  * [exercism.io](http://exercism.io/languages/rust) - programming exercises that help you learn new concepts in Rust.
+  * [Rust by Example](http://rustbyexample.com/)
+  * [rust-learning](https://github.com/ctjhoa/rust-learning) — a collection of useful resources to learn Rust
+  * [Rustlings](https://github.com/carols10cents/rustlings) — small exercises to get you used to reading and writing Rust code
 * Podcasts
   * [New Rustacean](http://www.newrustacean.com) — a podcast about learning Rust
   * [Rusty Radio](http://rustyrad.io) — covering the rust ecosystem
-* [Rust by Example](http://rustbyexample.com/)
 * [RustCamp 2015 Talks](http://confreaks.tv/events/rustcamp2015)
 * [Rust Design Patterns](https://github.com/nrc/patterns)
 * [Rust Guidelines](http://aturon.github.io/)
-* [rust-learning](https://github.com/ctjhoa/rust-learning) — a collection of useful resources to learn Rust
-* [Rustlings](https://github.com/carols10cents/rustlings) — small exercises to get you used to reading and writing Rust code
+
 
 
 ## License
