@@ -474,6 +474,7 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
   * [SiegeLord/RustAllegro](https://github.com/SiegeLord/RustAllegro) — [Allegro 5](http://liballeg.org/) bindings [<img src="https://travis-ci.org/SiegeLord/RustAllegro.svg?branch=master">](https://travis-ci.org/SiegeLord/RustAllegro)
 * Amethyst
   * [ebkalderon/amethyst](https://github.com/ebkalderon/amethyst) — data-oriented game engine [<img src="https://travis-ci.org/ebkalderon/amethyst.svg?branch=master">](https://travis-ci.org/ebkalderon/amethyst)
+* [vityafx/challonge-rs](https://github.com/vityafx/challonge-rs) [[challonge](https://crates.io/crates/challonge)] — Client library for the Challonge REST API. Helps to organize tournaments. [<img src="https://travis-ci.org/vityafx/challonge-rs.svg?branch=master">](https://travis-ci.org/vityafx/challonge-rs)
 * Corange
   * [lucidscape/corange-rs](https://github.com/lucidscape/corange-rs) — [Corange](https://github.com/orangeduck/Corange) bindings
 * Piston
