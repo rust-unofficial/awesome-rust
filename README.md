@@ -502,7 +502,7 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
 
 * [gfx-rs/gfx](https://github.com/gfx-rs/gfx) — A high-performance, bindless graphics API for Rust. [<img src="https://img.shields.io/travis/gfx-rs/gfx/master.svg">](https://travis-ci.org/gfx-rs/gfx)
 * OpenGL [[opengl](https://crates.io/keywords/opengl)]
-  * [bjz/gl-rs](https://github.com/bjz/gl-rs) — [<img src="https://travis-ci.org/bjz/gl-rs.svg?branch=master">](https://travis-ci.org/bjz/gl-rs)
+  * [brendanzab/gl-rs](https://github.com/brendanzab/gl-rs) — [<img src="https://travis-ci.org/brendanzab/gl-rs.svg?branch=master">](https://travis-ci.org/brendanzab/gl-rs)
   * [PistonDevelopers/glfw-rs](https://github.com/PistonDevelopers/glfw-rs) — [<img src="https://travis-ci.org/PistonDevelopers/glfw-rs.svg?branch=master">](https://travis-ci.org/PistonDevelopers/glfw-rs)
   * [tomaka/glium](https://github.com/tomaka/glium) — safe OpenGL wrapper for the Rust language. [<img src="https://travis-ci.org/tomaka/glium.svg?branch=master">](https://travis-ci.org/tomaka/glium)
   * [tomaka/glutin](https://github.com/tomaka/glutin) — Rust alternative to [GLFW](http://www.glfw.org/) [<img src="https://travis-ci.org/tomaka/glutin.svg?branch=master">](https://travis-ci.org/tomaka/glutin)
