@@ -635,6 +635,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 
 ### Virtualization
 
+* [beneills/quantum](https://github.com/beneills/quantum) — Advanced Rust quantum computer simulator [<img src="https://travis-ci.org/beneills/quantum.svg?branch=master">](https://travis-ci.org/beneills/quantum)
 * [ekse/unicorn-rs](https://github.com/ekse/unicorn-rs) — Rust bindings for the unicorn CPU emulator
 * [saurvs/hypervisor-rs](https://github.com/saurvs/hypervisor-rs) — Hardware-accelerated virtualization on OS X
 
