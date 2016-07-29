@@ -477,6 +477,8 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
 * [vityafx/challonge-rs](https://github.com/vityafx/challonge-rs) [[challonge](https://crates.io/crates/challonge)] — Client library for the Challonge REST API. Helps to organize tournaments. [<img src="https://travis-ci.org/vityafx/challonge-rs.svg?branch=master">](https://travis-ci.org/vityafx/challonge-rs)
 * Corange
   * [lucidscape/corange-rs](https://github.com/lucidscape/corange-rs) — [Corange](https://github.com/orangeduck/Corange) bindings
+* Entity-Component Systems (ECS)
+  * [slide-rs/specs](https://github.com/slide-rs/specs) — Specs Parallel ECS [<img src="https://travis-ci.org/slide-rs/specs.svg">](httpsL//github.com/travis-ci.org/slide-rs/specs)
 * Piston
   * [Piston](http://www.piston.rs) — [<img src="https://travis-ci.org/PistonDevelopers/piston.svg?branch=master">](https://travis-ci.org/PistonDevelopers/piston)
 * SDL [[sdl](https://crates.io/keywords/sdl)]
@@ -484,8 +486,6 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
   * [brson/rust-sdl](https://github.com/brson/rust-sdl) — [SDL1](http://www.libsdl.org/) bindings [<img src="https://travis-ci.org/brson/rust-sdl.svg?branch=master">](https://travis-ci.org/brson/rust-sdl)
 * SFML
   * [jeremyletang/rust-sfml](https://github.com/jeremyletang/rust-sfml) — [SFML](http://www.sfml-dev.org/) bindings [<img src="https://travis-ci.org/jeremyletang/rust-sfml.svg?branch=master">](https://travis-ci.org/jeremyletang/rust-sfml)
-* Entity-Component Systems (ECS)
-  * [slide-rs/specs](https://github.com/slide-rs/specs) — Specs Parallel ECS [<img src="https://travis-ci.org/slide-rs/specs.svg">](httpsL//github.com/travis-ci.org/slide-rs/specs)
 * Voxlap
   * [bbodi/rust-voxlap](https://github.com/bbodi/rust-voxlap) — [Voxlap](http://advsys.net/ken/voxlap.htm) bindings
 
