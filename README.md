@@ -50,6 +50,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   - [Platform specific](#platform-specific)
   - [Template engine](#template-engine)
   - [Text processing](#text-processing)
+  - [Text rendering](#text-rendering)
   - [Virtualization](#virtualization)
   - [Web programming](#web-programming)
 - [Resources](#resources)
@@ -634,6 +635,10 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [BurntSushi/tabwriter](https://github.com/BurntSushi/tabwriter) — Elastic tab stops (i.e., text column alignment) [<img src="https://travis-ci.org/BurntSushi/tabwriter.svg?branch=master">](https://travis-ci.org/BurntSushi/tabwriter)
 * [pwoolcoc/ngrams](https://github.com/pwoolcoc/ngrams) — Construct [n-grams](https://en.wikipedia.org/wiki/N-gram) from arbitrary iterators [<img src="https://travis-ci.org/pwoolcoc/ngrams.svg?branch=master">](https://travis-ci.org/pwoolcoc/ngrams)
 * [rust-lang-nursery/regex](https://github.com/rust-lang-nursery/regex) — Regular expressions (RE2 style) [<img src="https://travis-ci.org/rust-lang-nursery/regex.svg?branch=master">](https://travis-ci.org/rust-lang-nursery/regex)
+
+### Text rendering
+
+* [dylanede/rusttype](https://github.com/dylanede/rusttype) — A pure Rust alternative to libraries like FreeType. [<img src="https://img.shields.io/travis/dylanede/rusttype/master.svg">](https://travis-ci.org/dylanede/rusttype)
 
 ### Virtualization
 
