@@ -673,6 +673,8 @@ See also [Rust web framework comparison](https://github.com/flosse/rust-web-fram
 
 * Benchmarks
   * [TeXitoi/benchmarksgame-rs](https://github.com/TeXitoi/benchmarksgame-rs) — Rust implementations for the [The Computer Language Benchmarks Game](http://benchmarksgame.alioth.debian.org/) [<img src="https://travis-ci.org/TeXitoi/benchmarksgame-rs.svg?branch=master">](https://travis-ci.org/TeXitoi/benchmarksgame-rs)
+* Books
+  * [sger/RustBooks](https://github.com/sger/RustBooks) - List of Rust books.
 * Learning
   * [exercism.io](http://exercism.io/languages/rust) - programming exercises that help you learn new concepts in Rust.
   * [Rust by Example](http://rustbyexample.com/)
