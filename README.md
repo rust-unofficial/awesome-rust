@@ -684,6 +684,7 @@ See also [Rust web framework comparison](https://github.com/flosse/rust-web-fram
 * [RustCamp 2015 Talks](http://confreaks.tv/events/rustcamp2015)
 * [Rust Design Patterns](https://github.com/nrc/patterns)
 * [Rust Guidelines](http://aturon.github.io/)
+* [RustBooks](https://github.com/sger/RustBooks) - list of RustBooks
 
 
 
