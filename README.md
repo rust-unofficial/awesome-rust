@@ -594,6 +594,8 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 
 ### Mobile
 
+[Geal/rust_on_mobile](https://github.com/Geal/rust_on_mobile)
+
 * Android
   * [tomaka/android-rs-glue](https://github.com/tomaka/android-rs-glue) — glue between Rust and Android [<img src="https://travis-ci.org/tomaka/android-rs-glue.svg?branch=master">](https://travis-ci.org/tomaka/android-rs-glue)
 * iOS
