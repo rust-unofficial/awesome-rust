@@ -204,7 +204,7 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
   * [IntelliJ](https://www.jetbrains.com/idea/)
     * [intellij-rust/intellij-rust](https://github.com/intellij-rust/intellij-rust) — [<img src="https://travis-ci.org/intellij-rust/intellij-rust.svg?branch=master">](https://travis-ci.org/intellij-rust/intellij-rust)
     * [intellij-rust/intellij-toml](https://github.com/intellij-rust/intellij-toml) — basic Toml support
-    * [JustSid/AfterglowIntelliJ](https://github.com/JustSid/AfterglowIntelliJ) - custom icons
+    * [JustSid/AfterglowIntelliJ](https://github.com/JustSid/AfterglowIntelliJ) — custom icons
   * [Ride](https://github.com/madeso/ride) — [<img src="https://travis-ci.org/madeso/ride.svg?branch=master">](https://travis-ci.org/madeso/ride)
   * [SolidOak](https://github.com/oakes/SolidOak) — a simple IDE for Rust, based on GTK+ and [Neovim](https://github.com/neovim/neovim)
   * Visual Studio
@@ -246,7 +246,7 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
 * [zonyitoo/coio-rs](https://github.com/zonyitoo/coio-rs) — a coroutine I/O library with a working-stealing scheduler [<img src="https://travis-ci.org/zonyitoo/coio-rs.svg?branch=master">](https://travis-ci.org/zonyitoo/coio-rs)
 * [thehydroimpulse/tangle](https://github.com/thehydroimpulse/tangle) — a scala-inspired futures library [<img src="https://travis-ci.org/thehydroimpulse/tangle.svg?branch=master">](https://travis-ci.org/thehydroimpulse/tangle)
 * [dpc/mioco](https://github.com/dpc/mioco) — Scalable, coroutine-based, asynchronous IO handling library [<img src="https://img.shields.io/travis/dpc/mioco/master.svg?style=flat-square" alt="Travis CI Build Status">](https://travis-ci.org/dpc/mioco)
-* [alexcrichton/futures-rs](https://github.com/alexcrichton/futures-rs) - Zero-cost futures in Rust [<img src="https://travis-ci.org/alexcrichton/futures-rs.svg?branch=master" alt="Travis CI Build Status">](https://travis-ci.org/alexcrichton/futures-rs)
+* [alexcrichton/futures-rs](https://github.com/alexcrichton/futures-rs) — Zero-cost futures in Rust [<img src="https://travis-ci.org/alexcrichton/futures-rs.svg?branch=master" alt="Travis CI Build Status">](https://travis-ci.org/alexcrichton/futures-rs)
 * [carllerche/mio](https://github.com/carllerche/mio) — MIO is a lightweight IO library for Rust with a focus on adding as little overhead as possible over the OS abstractions [<img src="https://travis-ci.org/carllerche/mio.svg?branch=master">](https://travis-ci.org/carllerche/mio)
 
 
@@ -348,15 +348,15 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
 
 * [briansmith/ring](https://github.com/briansmith/ring) — Safe, fast, small crypto using Rust and BoringSSL's cryptography primitives. [<img src="https://travis-ci.org/briansmith/ring.svg?branch=master">](https://travis-ci.org/briansmith/ring)
 * [briansmith/webpki](https://github.com/briansmith/webpki) — Web PKI TLS X.509 certificate validation in Rust. [<img src="https://travis-ci.org/briansmith/webpki.svg?branch=master">](https://travis-ci.org/briansmith/webpki)
-* [ctz/rustls](https://github.com/ctz/rustls) - a Rust implementation of TLS
+* [ctz/rustls](https://github.com/ctz/rustls) — a Rust implementation of TLS
 * [DaGenix/rust-crypto](https://github.com/DaGenix/rust-crypto) — cryptographic algorithms in Rust [<img src="https://travis-ci.org/DaGenix/rust-crypto.svg?branch=master">](https://travis-ci.org/DaGenix/rust-crypto)
 * [dnaq/sodiumoxide](https://github.com/dnaq/sodiumoxide) — [libsodium](https://github.com/jedisct1/libsodium) bindings [<img src="https://travis-ci.org/dnaq/sodiumoxide.svg?branch=master">](https://travis-ci.org/dnaq/sodiumoxide)
 * [klutzy/suruga](https://github.com/klutzy/suruga) — a Rust implementation of [TLS 1.2](http://tools.ietf.org/html/rfc5246)
 * [libOctavo/octavo](https://github.com/libOctavo/octavo) — Modular hash and crypto library in Rust [<img src="https://api.travis-ci.org/libOctavo/octavo.svg?branch=master">](https://travis-ci.org/libOctavo/octavo)
-* [sfackler/rust-native-tls](https://github.com/sfackler/rust-native-tls) - Bindings for native TLS libraries
+* [sfackler/rust-native-tls](https://github.com/sfackler/rust-native-tls) — Bindings for native TLS libraries
 * [sfackler/rust-openssl](https://github.com/sfackler/rust-openssl) — [OpenSSL](https://www.openssl.org/) bindings [<img src="https://travis-ci.org/sfackler/rust-openssl.svg?branch=master">](https://travis-ci.org/sfackler/rust-openssl)
-* [sfackler/rust-security-framework](https://github.com/sfackler/rust-security-framework) - Bindings for Security Framework (OSX native crypto)
-* [steffengy/schannel-rs](https://github.com/steffengy/schannel-rs) - Bindings for Schannel (Windows native TLS)
+* [sfackler/rust-security-framework](https://github.com/sfackler/rust-security-framework) — Bindings for Security Framework (OSX native crypto)
+* [steffengy/schannel-rs](https://github.com/steffengy/schannel-rs) — Bindings for Schannel (Windows native TLS)
 
 
 ### Database
@@ -385,7 +385,7 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
   * [RocksDB](http://rocksdb.org/)
     * [spacejam/rust-rocksdb](https://github.com/spacejam/rust-rocksdb) — RocksDB bindings [<img src="https://travis-ci.org/spacejam/rust-rocksdb.svg?branch=master">](https://travis-ci.org/spacejam/rust-rocksdb)
   * UnQLite
-    * [zitsen/unqlite.rs](https://github.com/zitsen/unqlite.rs) — [UnQLite](http://unqlite.org) - An Embeddable NoSQL Database Engine library wrapper for Rust [<img src="https://travis-ci.org/zitsen/unqlite.rs.svg?branch=master">](https://travis-ci.org/zitsen/unqlite.rs)
+    * [zitsen/unqlite.rs](https://github.com/zitsen/unqlite.rs) — [UnQLite](http://unqlite.org) — An Embeddable NoSQL Database Engine library wrapper for Rust [<img src="https://travis-ci.org/zitsen/unqlite.rs.svg?branch=master">](https://travis-ci.org/zitsen/unqlite.rs)
 * SQL [[sql](https://crates.io/keywords/sql)]
   * Microsoft SQL
     * [steffengy/tiberius](https://github.com/steffengy/tiberius) — [<img src="https://travis-ci.org/steffengy/tiberius.svg?branch=master">](https://travis-ci.org/steffengy/tiberius)
@@ -438,7 +438,7 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
 
 * [gsquire/sendgrid-rs](https://github.com/gsquire/sendgrid-rs) — unofficial Rust library for SendGrid API [<img src="https://travis-ci.org/gsquire/sendgrid-rs.svg?branch=master">](https://travis-ci.org/gsquire/sendgrid-rs)
 * [lettre/lettre](https://github.com/lettre/lettre) — an SMTP-library for Rust [<img src="https://travis-ci.org/lettre/lettre.svg?branch=master">](https://travis-ci.org/lettre/lettre)
-* [staktrace/mailparse](https://github.com/staktrace/mailparse) [[mailparse](https://crates.io/crates/mailparse)] - a library for parsing real-world email files [<img src="https://travis-ci.org/staktrace/mailparse.svg?branch=master">](https://travis-ci.org/staktrace/mailparse)
+* [staktrace/mailparse](https://github.com/staktrace/mailparse) [[mailparse](https://crates.io/crates/mailparse)] — a library for parsing real-world email files [<img src="https://travis-ci.org/staktrace/mailparse.svg?branch=master">](https://travis-ci.org/staktrace/mailparse)
 
 ### Encoding
 
@@ -611,7 +611,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
   * [mattnenterprise/rust-ftp](https://github.com/mattnenterprise/rust-ftp) — an [FTP](https://en.wikipedia.org/wiki/File_Transfer_Protocol) client for Rust [<img src="https://travis-ci.org/mattnenterprise/rust-ftp.svg?branch=master">](https://travis-ci.org/mattnenterprise/rust-ftp)
 * Low level
   * [libpnet/libpnet](https://github.com/libpnet/libpnet) — a cross-platform, low level networking [<img src="https://travis-ci.org/libpnet/libpnet.svg?branch=master">](https://travis-ci.org/libpnet/libpnet)
-  * [tokio-rs/tokio](https://github.com/tokio-rs/tokio) - Tokio is a network application framework for rapid development and highly scalable production deployments of clients and servers.
+  * [tokio-rs/tokio](https://github.com/tokio-rs/tokio) — a network application framework for rapid development and highly scalable production deployments of clients and servers.
 * NanoMsg
   * [thehydroimpulse/nanomsg.rs](https://github.com/thehydroimpulse/nanomsg.rs) — [nanomsg](http://nanomsg.org/) bindings [<img src="https://travis-ci.org/thehydroimpulse/nanomsg.rs.svg?branch=master">](https://travis-ci.org/thehydroimpulse/nanomsg.rs)
 * NNTP
@@ -630,7 +630,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 
 ### Parser
 
-  * [dragostis/pest](https://github.com/dragostis/pest) - Elegant, efficient grammars [![Build Status](https://travis-ci.org/dragostis/pest.svg?branch=master)]
+  * [dragostis/pest](https://github.com/dragostis/pest) — Elegant, efficient grammars [![Build Status](https://travis-ci.org/dragostis/pest.svg?branch=master)]
 (https://travis-ci.org/dragostis/pest)
   * [Geal/nom](https://github.com/Geal/nom) — parser combinator library [<img src="https://travis-ci.org/Geal/nom.svg?branch=master">](https://travis-ci.org/Geal/nom)
   * [ivanceras/inquerest](https://github.com/ivanceras/inquerest) — an URL parameter parser for rest filter inquiry [![Build Status](https://travis-ci.org/ivanceras/inquerest.svg?branch=master)](https://travis-ci.org/ivanceras/inquerest)
@@ -708,7 +708,7 @@ See also [Rust web framework comparison](https://github.com/flosse/rust-web-fram
 * Benchmarks
   * [TeXitoi/benchmarksgame-rs](https://github.com/TeXitoi/benchmarksgame-rs) — Rust implementations for the [The Computer Language Benchmarks Game](http://benchmarksgame.alioth.debian.org/) [<img src="https://travis-ci.org/TeXitoi/benchmarksgame-rs.svg?branch=master">](https://travis-ci.org/TeXitoi/benchmarksgame-rs)
 * Learning
-  * [exercism.io](http://exercism.io/languages/rust) - programming exercises that help you learn new concepts in Rust.
+  * [exercism.io](http://exercism.io/languages/rust) — programming exercises that help you learn new concepts in Rust.
   * [Rust by Example](http://rustbyexample.com/)
   * [rust-learning](https://github.com/ctjhoa/rust-learning) — a collection of useful resources to learn Rust
   * [Rustlings](https://github.com/carols10cents/rustlings) — small exercises to get you used to reading and writing Rust code
@@ -718,7 +718,7 @@ See also [Rust web framework comparison](https://github.com/flosse/rust-web-fram
 * [RustCamp 2015 Talks](http://confreaks.tv/events/rustcamp2015)
 * [Rust Design Patterns](https://github.com/nrc/patterns)
 * [Rust Guidelines](http://aturon.github.io/)
-* [RustBooks](https://github.com/sger/RustBooks) - list of RustBooks
+* [RustBooks](https://github.com/sger/RustBooks) — list of RustBooks
 
 
 
