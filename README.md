@@ -191,6 +191,7 @@ See also [Foreign Function Interface](https://doc.rust-lang.org/book/ffi.html) a
 * R
   * [rustr/rustr](https://github.com/rustr/rustr) — use Rust from R, and use R in Rust [<img src="https://travis-ci.org/rustr/rustr.svg?branch=master">](https://travis-ci.org/rustr/rustr)
 * Ruby
+  * [d-unseductable/ruru](https://github.com/d-unseductable/ruru) — native Ruby extensions written in Rust [<img src="https://travis-ci.org/d-unseductable/ruru.svg?branch=master">](https://travis-ci.org/d-unseductable/ruru)
   * [rustbridge/helix](https://github.com/rustbridge/helix) — write Ruby classes in Rust [<img src="https://travis-ci.org/rustbridge/helix.svg?branch=master">](https://travis-ci.org/rustbridge/helix)
 
 
