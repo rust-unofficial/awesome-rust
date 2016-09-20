@@ -392,6 +392,7 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
   * Microsoft SQL
     * [steffengy/tiberius](https://github.com/steffengy/tiberius) — [<img src="https://travis-ci.org/steffengy/tiberius.svg?branch=master">](https://travis-ci.org/steffengy/tiberius)
   * MySql [[mysql](https://crates.io/keywords/mysql)]
+    * [AgilData/mysql-proxy-rs](https://github.com/AgilData/mysql-proxy-rs) — a MySQL Proxy [<img src="https://travis-ci.org/AgilData/mysql-proxy-rs.svg?branch=master">](https://travis-ci.org/AgilData/mysql-proxy-rs)
     * [blackbeam/rust-mysql-simple](https://github.com/blackbeam/rust-mysql-simple) [[mysql](https://crates.io/crates/mysql)] — a native MySql client [<img src="https://travis-ci.org/blackbeam/rust-mysql-simple.svg?branch=master">](https://travis-ci.org/blackbeam/rust-mysql-simple)
  * ORM [[orm](https://crates.io/keywords/orm)]
     * [deuterium-orm/deuterium](https://github.com/deuterium-orm/deuterium) — an SQL query builder for Rust  [![Build Status](https://travis-ci.org/deuterium-orm/deuterium.svg?branch=master)](https://travis-ci.org/deuterium-orm/deuterium)
