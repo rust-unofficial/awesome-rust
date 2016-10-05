@@ -343,7 +343,12 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
   * [luqmana/rust-opencl](https://github.com/luqmana/rust-opencl) — [OpenCL](https://www.khronos.org/opencl/) bindings [<img src="https://travis-ci.org/luqmana/rust-opencl.svg?branch=master">](https://travis-ci.org/luqmana/rust-opencl)
 * Scirust
   * [indigits/scirust](https://github.com/indigits/scirust) — scientific computing library in Rust [![Build Status](https://travis-ci.org/indigits/scirust.svg?branch=master)](https://travis-ci.org/indigits/scirust)
-
+* Rustimization [[rustimization](https://crates.io/crates/rustimization)]
+  * [noshu/rustimization](https://github.com/noshu/rustimization) — A rust optimization library which includes L-BFGS-B and Conjugate Gradient algorithm
+* [L-BFGS-B](https://en.wikipedia.org/wiki/Limited-memory_BFGS) [[lbfgsb](http://users.iems.northwestern.edu/~nocedal/lbfgsb.html)]
+  * [noshu/lbfgsb-sys](https://github.com/noshu/lbfgsb-sys) — Rust binding of fortran L-BFGS-B subroutine
+* [Conjugate Gradient](https://en.wikipedia.org/wiki/Limited-memory_BFGS) [[CG+](http://users.iems.northwestern.edu/~nocedal/CG+.html)]
+  * [noshu/cg-sys](https://github.com/noshu/cg-sys) — Rust binding of fortran CG+ subroutine
 
 ### Cryptography
 
