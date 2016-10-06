@@ -218,7 +218,7 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
 
 ### Pattern Recognition
 
-* [sfikas/rusteval](https://github.com/sfikas/rusteval) - A tool used to evaluate the output of image/document retrieval algorithms [![Build Status](https://travis-ci.org/sfikas/rusteval.svg?branch=master)](https://travis-ci.org/sfikas/rusteval)
+* [sfikas/rusteval](https://github.com/sfikas/rusteval) - A tool used to evaluate the output of retrieval algorithms [![Build Status](https://travis-ci.org/sfikas/rusteval.svg?branch=master)](https://travis-ci.org/sfikas/rusteval)
 
 ### Profiling
 
