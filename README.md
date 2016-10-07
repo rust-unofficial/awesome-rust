@@ -397,6 +397,8 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
     * [spacejam/rust-rocksdb](https://github.com/spacejam/rust-rocksdb) — RocksDB bindings [<img src="https://travis-ci.org/spacejam/rust-rocksdb.svg?branch=master">](https://travis-ci.org/spacejam/rust-rocksdb)
   * [UnQLite](http://unqlite.org)
     * [zitsen/unqlite.rs](https://github.com/zitsen/unqlite.rs) — UnQLite bindings [<img src="https://travis-ci.org/zitsen/unqlite.rs.svg?branch=master">](https://travis-ci.org/zitsen/unqlite.rs)
+  * [ZooKeeper](https://zookeeper.apache.org/)
+    * [bonifaido/rust-zookeeper](https://github.com/bonifaido/rust-zookeeper) [[zookeeper](https://crates.io/crates/zookeeper)] — A client library for Apache ZooKeeper. [<img src="https://travis-ci.org/bonifaido/rust-zookeeper.svg?branch=master">](https://travis-ci.org/bonifaido/rust-zookeeper)
 * SQL [[sql](https://crates.io/keywords/sql)]
   * Microsoft SQL
     * [steffengy/tiberius](https://github.com/steffengy/tiberius) — [<img src="https://travis-ci.org/steffengy/tiberius.svg?branch=master">](https://travis-ci.org/steffengy/tiberius)
