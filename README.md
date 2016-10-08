@@ -676,6 +676,8 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * HTML
   * [lfairy/maud](https://github.com/lfairy/maud) — compile-time HTML templates [<img src="https://travis-ci.org/lfairy/maud.svg?branch=master">](https://travis-ci.org/lfairy/maud)
   * [Stebalien/horrorshow-rs](https://github.com/Stebalien/horrorshow-rs) — compile-time HTML templates [<img src="https://travis-ci.org/Stebalien/horrorshow-rs.svg?branch=master">](https://travis-ci.org/Stebalien/horrorshow-rs)
+  * [kaj/ructe](https://github.com/kaj/ructe) - HTML template system for Rust [<img src="https://travis-ci.org/kaj/ructe.svg?branch=master">](https://travis-ci.org/kaj/ructe)
+  * [Keats/tera](https://github.com/Keats/tera) - template engine based on Jinja2 and the Django template language. [<img src="https://travis-ci.org/Keats/tera.svg?branch=master">](https://travis-ci.org/Keats/tera)
 * Mustache
   * [rustache/rustache](https://github.com/rustache/rustache) — [<img src="https://travis-ci.org/rustache/rustache.svg?branch=master">](https://travis-ci.org/rustache/rustache)
 * [tailhook/marafet](https://github.com/tailhook/marafet) — Compiler for Jade-like template language to cito.js-based virtual dom
