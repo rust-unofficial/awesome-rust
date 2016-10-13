@@ -73,8 +73,6 @@ See also [Friends of Rust](https://www.rust-lang.org/friends.html) (organization
 * [MaidSafe](http://maidsafe.net/) — a decentralized platform.
 * [qmx/limonite](https://github.com/qmx/limonite) — static blog/website generator [<img src="https://travis-ci.org/qmx/limonite.svg?branch=master">](https://travis-ci.org/qmx/limonite)
 * [Servo](https://github.com/servo/servo) — a prototype web browser engine
-* Virtualization
-  * [tailhook/vagga](https://github.com/tailhook/vagga) — a containerization tool without daemons [<img src="https://travis-ci.org/tailhook/vagga.svg?branch=master">](https://travis-ci.org/tailhook/vagga)
 * [cristianoliveira/funzzy](https://github.com/cristianoliveira/funzzy) — a configurable watcher inspired in [entr](http://entrproject.org/) [<img src="https://api.travis-ci.org/cristianoliveira/funzzy.svg?branch=master">](https://travis-ci.org/cristianoliveira/funzzy)
 
 * **Audio**
@@ -116,7 +114,8 @@ See also [Friends of Rust](https://www.rust-lang.org/friends.html) (organization
 * **Text editors**
   * [gchp/iota](https://github.com/gchp/iota) — a simple text editor [<img src="https://travis-ci.org/gchp/iota.svg?branch=master">](https://travis-ci.org/gchp/iota)
   * [xi-editor](https://github.com/google/xi-editor) — a modern editor with a backend written in Rust.
-
+* **Virtualization**
+  * [tailhook/vagga](https://github.com/tailhook/vagga) — a containerization tool without daemons [<img src="https://travis-ci.org/tailhook/vagga.svg?branch=master">](https://travis-ci.org/tailhook/vagga)
 
 ## Development tools
 
