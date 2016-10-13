@@ -100,6 +100,8 @@ See also [Friends of Rust](https://www.rust-lang.org/friends.html) (organization
   * [swatteau/sokoban-rs](https://github.com/swatteau/sokoban-rs) — a Sokoban implementation
   * [Zone of Control](https://github.com/ozkriff/zoc) — a turn-based hexagonal strategy game [<img src="https://travis-ci.org/ozkriff/zoc.svg?branch=master">](https://travis-ci.org/ozkriff/zoc)
   * [rhex](https://github.com/dpc/rhex) — hexagonal ascii roguelike
+* **Graphics**
+  * [ivanceras/svgbobrus](https://github.com/ivanceras/svgbobrus) — converts your ASCII diagrams into SVG graphics
 * **Operating systems**, see also [A comparison of operating systems written in Rust](https://github.com/flosse/rust-os-comparison)
   * [redox-os/redox](https://github.com/redox-os/redox) — [<img   src="https://travis-ci.org/redox-os/redox.svg?branch=master">](https://travis-ci.org/redox-os/redox)
   * [thepowersgang/rust_os](https://github.com/thepowersgang/rust_os) — [<img src="https://travis-ci.org/thepowersgang/rust_os.svg?branch=master">](https://travis-ci.org/thepowersgang/rust_os)
