@@ -164,6 +164,7 @@ See also [Friends of Rust](https://www.rust-lang.org/friends.html) (organization
 
 * Cross compiling
   * [japaric/rust-cross](https://github.com/japaric/rust-cross) — everything you need to know about cross compiling Rust programs [<img src="https://travis-ci.org/japaric/rust-cross.svg?branch=master">](https://travis-ci.org/japaric/rust-cross)
+  * [japaric/xargo](https://github.com/japaric/xargo) — effortless cross compilation of Rust programs to custom bare-metal targets like ARM Cortex-M [<img src="https://travis-ci.org/japaric/xargo.svg?branch=master">](https://travis-ci.org/japaric/xargo)
 * Raspberry Pi
   * [Ogeon/rust-on-raspberry-pi](https://github.com/Ogeon/rust-on-raspberry-pi) — instructions for how to cross compile Rust projects for the Raspberry Pi .
 
