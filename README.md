@@ -147,6 +147,7 @@ See also [Friends of Rust](https://www.rust-lang.org/friends.html) (organization
   * [sunng87/cargo-release](https://github.com/sunng87/cargo-release) [[cargo-release](https://crates.io/crates/cargo-release)] — tool for releasing git-managed cargo project, build, tag, publish, doc and push
   * [DanielKeep/cargo-script](https://github.com/DanielKeep/cargo-script) [[cargo-script](https://crates.io/crates/cargo-script)] — lets people quickly and easily run Rust "scripts" which can make use of Cargo's package ecosystem
   * [passcod/cargo-watch](https://github.com/passcod/cargo-watch) [[cargo-watch](https://crates.io/crates/cargo-watch)] — utility for cargo to compile projects when sources change [<img src="https://travis-ci.org/passcod/cargo-watch.svg?branch=master">](https://travis-ci.org/passcod/cargo-watch)
+  * [BurntSushi/cargo-benchcmp](https://github.com/BurntSushi/cargo-benchcmp) [[cargo-benchcmp](https://crates.io/crates/cargo-benchcmp)] - utility to compare Rust micro-benchmarks
 * CMake
   * [SiegeLord/RustCMake](https://github.com/SiegeLord/RustCMake) — an example project showing usage of CMake with Rust [<img src="https://travis-ci.org/SiegeLord/RustCMake.svg?branch=master">](https://travis-ci.org/SiegeLord/RustCMake)
 
@@ -163,6 +164,7 @@ See also [Friends of Rust](https://www.rust-lang.org/friends.html) (organization
 
 * Cross compiling
   * [japaric/rust-cross](https://github.com/japaric/rust-cross) — everything you need to know about cross compiling Rust programs [<img src="https://travis-ci.org/japaric/rust-cross.svg?branch=master">](https://travis-ci.org/japaric/rust-cross)
+  * [japaric/xargo](https://github.com/japaric/xargo) — effortless cross compilation of Rust programs to custom bare-metal targets like ARM Cortex-M [<img src="https://travis-ci.org/japaric/xargo.svg?branch=master">](https://travis-ci.org/japaric/xargo)
 * Raspberry Pi
   * [Ogeon/rust-on-raspberry-pi](https://github.com/Ogeon/rust-on-raspberry-pi) — instructions for how to cross compile Rust projects for the Raspberry Pi .
 
@@ -249,13 +251,13 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
 [[astronomy](https://crates.io/keywords/astronomy)]
 
 * [saurvs/astro-rust](https://github.com/saurvs/astro-rust) — astronomy for Rust [<img src="https://travis-ci.org/saurvs/astro-rust.svg?branch=master">](https://travis-ci.org/saurvs/astro-rust)
+* [mindriot101/rust-fitsio](https://github.com/mindriot101/rust-fitsio) [[fitsio](https://crates.io/crates/fitsio)] — fits interface library wrapping cfitsio [<img src="https://travis-ci.org/mindriot101/rust-fitsio.svg?branch=master">](https://travis-ci.org/mindriot101/rust-fitsio)
 * [flosse/rust-sun](https://github.com/flosse/rust-sun) — A rust port of the JS library suncalc [<img src="https://travis-ci.org/flosse/rust-sun.svg?branch=master">](https://travis-ci.org/flosse/rust-sun)
 
 
 ### Asynchronous
 
 * [zonyitoo/coio-rs](https://github.com/zonyitoo/coio-rs) — a coroutine I/O library with a working-stealing scheduler [<img src="https://travis-ci.org/zonyitoo/coio-rs.svg?branch=master">](https://travis-ci.org/zonyitoo/coio-rs)
-* [thehydroimpulse/tangle](https://github.com/thehydroimpulse/tangle) — a scala-inspired futures library [<img src="https://travis-ci.org/thehydroimpulse/tangle.svg?branch=master">](https://travis-ci.org/thehydroimpulse/tangle)
 * [dpc/mioco](https://github.com/dpc/mioco) — Scalable, coroutine-based, asynchronous IO handling library [<img src="https://img.shields.io/travis/dpc/mioco/master.svg?style=flat-square" alt="Travis CI Build Status">](https://travis-ci.org/dpc/mioco)
 * [alexcrichton/futures-rs](https://github.com/alexcrichton/futures-rs) — Zero-cost futures in Rust [<img src="https://travis-ci.org/alexcrichton/futures-rs.svg?branch=master" alt="Travis CI Build Status">](https://travis-ci.org/alexcrichton/futures-rs)
 * [carllerche/mio](https://github.com/carllerche/mio) — MIO is a lightweight IO library for Rust with a focus on adding as little overhead as possible over the OS abstractions [<img src="https://travis-ci.org/carllerche/mio.svg?branch=master">](https://travis-ci.org/carllerche/mio)
