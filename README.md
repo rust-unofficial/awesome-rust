@@ -255,7 +255,7 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
 ### Authentication
 
 * [keats/rust-jwt](https://github.com/keats/rust-jwt) — [JSON Web Token](https://en.wikipedia.org/wiki/JSON_Web_Token) lib in rust  [![Build Status](https://api.travis-ci.org/Keats/rust-jwt.svg?branch=master)](https://travis-ci.org/Keats/rust-jwt)
-
+* [hngiang/rust-accountkit](https://github.com/hngiang/rust-accountkit) - An implementation [Facebook AccountKit](https://developers.facebook.com/docs/accountkit) for Rust [![Build Status](https://travis-ci.org/hngiang/rust-accountkit.svg?branch=master)](https://travis-ci.org/hngiang/rust-accountkit)
 
 ### Bioinformatics
 
