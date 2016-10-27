@@ -41,6 +41,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   - [Graphics](#graphics)
   - [GUI](#gui)
   - [Image processing](#image-processing)
+  - [Logging](#logging)
   - [Machine learning](#machine-learning)
   - [Markup language](#markup-language)
   - [Mobile](#mobile)
@@ -598,6 +599,15 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
 * [chyh1990/imageproc](https://github.com/chyh1990/imageproc) — An advanced image processing library for Rust. [![Build Status](https://travis-ci.org/chyh1990/imageproc.svg?branch=master)](https://travis-ci.org/chyh1990/imageproc)
 * [cybergeek94/img-hash](https://github.com/cybergeek94/img_hash) — Perceptual image hashing and comparison for equality and similarity.
 * [PistonDevelopers/image](https://github.com/PistonDevelopers/image) — Basic imaging processing functions and methods for converting to and from image formats [<img src="https://travis-ci.org/PistonDevelopers/image.svg?branch=master">](https://travis-ci.org/PistonDevelopers/image)
+
+
+### Logging
+
+[[log](https://crates.io/keywords/log)]
+
+* [rust-lang-nursery/log](https://github.com/rust-lang-nursery/log) — Logging implementation for Rust [![Build Status](https://travis-ci.org/rust-lang-nursery/log.svg?branch=master)](https://travis-ci.org/rust-lang-nursery/log)
+* [slog-rs/slog](https://github.com/slog-rs/slog) — Structured, composable logging for Rust [![Build Status](https://travis-ci.org/slog-rs/slog.svg?branch=master)](https://travis-ci.org/slog-rs/slog)
+* [sfackler/log4rs](https://github.com/sfackler/log4rs) — highly configurable logging framework modeled after Java's Logback and log4j libraries [![Build Status](https://travis-ci.org/sfackler/log4rs.svg?branch=master)](https://travis-ci.org/sfackler/log4rs)
 
 
 ### Machine learning
