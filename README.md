@@ -134,6 +134,7 @@ See also [Friends of Rust](https://www.rust-lang.org/friends.html) (organization
 * [rustfmt](https://github.com/rust-lang-nursery/rustfmt) — a Rust code formatter [<img src="https://travis-ci.org/rust-lang-nursery/rustfmt.svg?branch=master">](https://travis-ci.org/rust-lang-nursery/rustfmt)
 * [Rustup](https://github.com/rust-lang-nursery/rustup.rs) — the Rust toolchain installer [<img src="https://travis-ci.org/rust-lang-nursery/rustup.rs.svg?branch=master">](https://travis-ci.org/rust-lang-nursery/rustup.rs)
 * [rst](https://github.com/vitiral/rst) — the requirements tracking tool made for developers [<img src="https://travis-ci.org/vitiral/rst.svg?branch=master">](https://travis-ci.org/vitiral/rst)
+* [semantic-rs](https://github.com/semantic-rs/semantic-rs) — automatic crate publishing [<img src="https://travis-ci.org/semantic-rs/semantic-rs.svg?branch=master">](https://travis-ci.org/semantic-rs/semantic-rs)
 
 ### Build system
 
