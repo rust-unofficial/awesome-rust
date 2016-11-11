@@ -176,7 +176,7 @@ See also [Friends of Rust](https://www.rust-lang.org/friends.html) (organization
 
 ### FFI
 
-See also [Foreign Function Interface](https://doc.rust-lang.org/book/ffi.html) and [The Rust FFI Omnibus](http://jakegoulding.com/rust-ffi-omnibus/) (a collection of examples of using code written in Rust from other languages).
+See also [Foreign Function Interface](https://doc.rust-lang.org/book/ffi.html),  [The Rust FFI Omnibus](http://jakegoulding.com/rust-ffi-omnibus/) (a collection of examples of using code written in Rust from other languages) and [FFI examples written in Rust](https://github.com/alexcrichton/rust-ffi-examples).
 
 * C
   * [Sean1708/rusty-cheddar](https://github.com/Sean1708/rusty-cheddar) — generates C header files from Rust source files [<img src="https://travis-ci.org/Sean1708/rusty-cheddar.svg?branch=master">](https://travis-ci.org/Sean1708/rusty-cheddar)
