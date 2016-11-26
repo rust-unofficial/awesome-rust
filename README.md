@@ -184,6 +184,10 @@ See also [Foreign Function Interface](https://doc.rust-lang.org/book/ffi.html), 
   * [Yamakaky/rust-bindgen](https://github.com/Yamakaky/rust-bindgen) — a Rust bindings generator [<img src="https://travis-ci.org/Yamakaky/rust-bindgen.svg?branch=master">](https://travis-ci.org/Yamakaky/rust-bindgen)
 * Erlang
   * [hansihe/Rustler](https://github.com/hansihe/Rustler) — safe Rust bridge for creating Erlang NIF functions [<img src="https://travis-ci.org/hansihe/Rustler.svg?branch=master">](https://travis-ci.org/hansihe/Rustler)
+* Haskell
+  * [mgattozzi/curryrs](https://github.com/mgattozzi/curryrs) — Bridge the gap between Haskell and Rust
+  * [mgattozzi/haskellrs](https://github.com/mgattozzi/haskellrs) — Rust in Haskell FFI Example
+  * [mgattozzi/rushs](https://github.com/mgattozzi/rushs) — Haskell in Rust FFI Example
 * Java
   * [drrb/java-rust-example](https://github.com/drrb/java-rust-example) — use Rust from Java [<img src="https://travis-ci.org/drrb/java-rust-example.svg?branch=master">](https://travis-ci.org/drrb/java-rust-example)
 * Lua
