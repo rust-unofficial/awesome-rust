@@ -184,7 +184,8 @@ See also [Foreign Function Interface](https://doc.rust-lang.org/book/ffi.html), 
 * C
   * [Sean1708/rusty-cheddar](https://github.com/Sean1708/rusty-cheddar) — generates C header files from Rust source files [<img src="https://travis-ci.org/Sean1708/rusty-cheddar.svg?branch=master">](https://travis-ci.org/Sean1708/rusty-cheddar)
   * [Yamakaky/rust-bindgen](https://github.com/Yamakaky/rust-bindgen) — a Rust bindings generator [<img src="https://travis-ci.org/Yamakaky/rust-bindgen.svg?branch=master">](https://travis-ci.org/Yamakaky/rust-bindgen)
-    * [servo/rust-bindgen](https://github.com/servo/rust-bindgen) — supports C++
+* C++
+  * [servo/rust-bindgen](https://github.com/servo/rust-bindgen) — 
 * Erlang
   * [hansihe/Rustler](https://github.com/hansihe/Rustler) — safe Rust bridge for creating Erlang NIF functions [<img src="https://travis-ci.org/hansihe/Rustler.svg?branch=master">](https://travis-ci.org/hansihe/Rustler)
 * Haskell
