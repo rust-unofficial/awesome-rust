@@ -73,6 +73,7 @@ See also [Friends of Rust](https://www.rust-lang.org/friends.html) (organization
 * [MaidSafe](http://maidsafe.net/) — a decentralized platform.
 * [notty](https://github.com/withoutboats/notty) — an experimental project to bring new features to the command-line 
 * [qmx/limonite](https://github.com/qmx/limonite) — static blog/website generator [<img src="https://travis-ci.org/qmx/limonite.svg?branch=master">](https://travis-ci.org/qmx/limonite)
+* [Sandstorm Collections App](https://github.com/sandstorm-io/collections-app)
 * [Servo](https://github.com/servo/servo) — a prototype web browser engine
 * [cristianoliveira/funzzy](https://github.com/cristianoliveira/funzzy) — a configurable watcher inspired in [entr](http://entrproject.org/) [<img src="https://api.travis-ci.org/cristianoliveira/funzzy.svg?branch=master">](https://travis-ci.org/cristianoliveira/funzzy)
 * [Parity](https://github.com/ethcore/parity) — Fast, light, and robust Ethereum implementation [![Build Status](https://travis-ci.org/ethcore/parity.svg?branch=master)](https://travis-ci.org/ethcore/parity)
