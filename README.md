@@ -195,6 +195,7 @@ See also [Foreign Function Interface](https://doc.rust-lang.org/book/ffi.html), 
 * Java
   * [drrb/java-rust-example](https://github.com/drrb/java-rust-example) — use Rust from Java [<img src="https://travis-ci.org/drrb/java-rust-example.svg?branch=master">](https://travis-ci.org/drrb/java-rust-example)
   * [GravityScore/RustJNI](https://github.com/GravityScore/RustJNI) — use Java from Rust [<img src="https://travis-ci.org/GravityScore/RustJNI.svg?branch=master">](https://travis-ci.org/GravityScore/RustJNI)
+  * [sfackler/rust-jni-sys](https://github.com/sfackler/rust-jni-sys) [[jni-sys](https://crates.io/crates/jni-sys)] — Rust definitions corresponding to jni.h [<img src="https://travis-ci.org/sfackler/rust-jni-sys.svg?branch=master">](https://travis-ci.org/sfackler/rust-jni-sys)
 * Lua
   * [jcmoyer/rust-lua53](https://github.com/jcmoyer/rust-lua53) — Lua 5.3 bindings for Rust [<img src="https://travis-ci.org/jcmoyer/rust-lua53.svg?branch=master">](https://travis-ci.org/jcmoyer/rust-lua53)
   * [kballard/rust-lua](https://github.com/kballard/rust-lua) — Safe Rust bindings to Lua 5.1 [<img src="https://travis-ci.org/kballard/rust-lua.svg">](https://travis-ci.org/kballard/rust-lua)
