@@ -7,24 +7,27 @@ use std::io::Read;
 use std::path::Path;
 
 fn main() {
-    let path = Path::new("README.md");
+    let readme_file_path = Path::new("README.md");
 
-    let display = path.display();
+    let display = readme_file_path.display();
 
-    let mut file = match File::open(&path) {
-        Err(why) => panic!("couldn't open {}: {}", display, why.description()),
+    // Try to open the README.md file.
+    let mut file = match File::open(&readme_file_path) {
+        Err(why) => panic!("could not open \"{}\": {}", display, why.description()),
         Ok(file) => file,
     };
 
-    let mut readme_content = String::new();
+    let mut readme_file_content = String::new();
 
-    match file.read_to_string(&mut readme_content) {
-        Err(why) => panic!("couldn't read {}: {}", display, why.description()),
-        Ok(_) => print!("{} contains:\n{}", display, readme_content),
+    // Try to read the README.md file in a string.
+    if let Err(why) = file.read_to_string(&mut readme_file_content) {
+        panic!("couldn't read {}: {}", display, why.description());
     }
 
-    let mut parser = Parser::new(&readme_content);
+    // Parse the Markdown string.
+    let mut parser = Parser::new(&readme_file_content);
 
+    // Iterate over the Markdown entities.
     while let Some(event) = parser.next() {
         match event {
             Event::Start(tag) => println!("start: {:?}", tag),
