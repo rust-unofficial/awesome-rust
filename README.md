@@ -234,6 +234,10 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
     * [JustSid/AfterglowIntelliJ](https://github.com/JustSid/AfterglowIntelliJ) — custom icons
   * [Ride](https://github.com/madeso/ride) — [<img src="https://travis-ci.org/madeso/ride.svg?branch=master">](https://travis-ci.org/madeso/ride)
   * [SolidOak](https://github.com/oakes/SolidOak) — a simple IDE for Rust, based on GTK+ and [Neovim](https://github.com/neovim/neovim)
+  * [Vim](http://www.vim.org/) - the ubiquitous text editor
+	* [rust.vim](https://github.com/rust-lang/rust.vim) - provides file detection, syntax highlighting, formatting, Syntastic integration, and more.
+	* [vim-cargo](https://github.com/timonv/vim-cargo) - command bindings to quickly run cargo stuff from vim.
+	* [vim-racer](https://github.com/racer-rust/vim-racer) - allows vim to use [Racer](https://github.com/phildawes/racer) for Rust code completion and navigation.
   * Visual Studio
     * [PistonDevelopers/VisualRust](https://github.com/PistonDevelopers/VisualRust) — a Visual Studio extension for Rust [<img src="https://travis-ci.org/PistonDevelopers/VisualRust.svg?branch=master">](https://travis-ci.org/PistonDevelopers/VisualRust)
   * [Visual Studio Code](https://code.visualstudio.com/)
