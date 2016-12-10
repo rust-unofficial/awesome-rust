@@ -1,0 +1,7 @@
+[package]
+name = "awesome-rust"
+version = "0.1.0"
+authors = []
+
+[dependencies]
+pulldown-cmark= "0.0.8"
