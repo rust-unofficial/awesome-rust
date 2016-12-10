@@ -34,6 +34,29 @@ enum ReadmeFileParsingState {
     Finished,
 }
 
+/// Tries to parse the README.md content string.
+fn parse(markdown_string: &str) -> ReadmeFileContent {
+
+    // Create a Markdown parser for the README.md content string.
+    let mut parser = Parser::new(markdown_string);
+
+    let mut readme_file_content = ReadmeFileContent::new();
+
+    let mut readme_file_parsing_state = ReadmeFileParsingState::Header;
+
+    while readme_file_parsing_state != ReadmeFileParsingState::Finished {
+        readme_file_parsing_state = match readme_file_parsing_state {
+            ReadmeFileParsingState::Header => parse_header(&mut parser, &mut readme_file_content),
+            ReadmeFileParsingState::TableOfContent => parse_toc(&mut parser, &mut readme_file_content),
+            ReadmeFileParsingState::Content => parse_content(&mut parser, &mut readme_file_content),
+            ReadmeFileParsingState::Footer => parse_footer(&mut parser, &mut readme_file_content),
+            ReadmeFileParsingState::Finished => ReadmeFileParsingState::Finished,
+        }
+    }
+
+    readme_file_content
+}
+
 
 fn parse_header(parser: &mut Parser, content: &mut ReadmeFileContent) -> ReadmeFileParsingState {
 
@@ -98,19 +121,8 @@ fn main() {
         panic!("couldn't read {}: {}", display, why.description());
     }
 
-    // Create a parser for the Markdown string.
-    let mut parser = Parser::new(&markdown_string);
+    // Try to parse the Markdown content string.
+    let readme_file_content = parse(&markdown_string);
 
-    let mut readme_file_content = ReadmeFileContent::new();
-    let mut readme_file_parsing_state = ReadmeFileParsingState::Header;
-
-    while readme_file_parsing_state != ReadmeFileParsingState::Finished {
-        readme_file_parsing_state = match readme_file_parsing_state {
-            ReadmeFileParsingState::Header => parse_header(&mut parser, &mut readme_file_content),
-            ReadmeFileParsingState::TableOfContent => parse_toc(&mut parser, &mut readme_file_content),
-            ReadmeFileParsingState::Content => parse_content(&mut parser, &mut readme_file_content),
-            ReadmeFileParsingState::Footer => parse_footer(&mut parser, &mut readme_file_content),
-            ReadmeFileParsingState::Finished => ReadmeFileParsingState::Finished,
-        }
-    }
+    println!("{:?}", readme_file_content);
 }
