@@ -7,18 +7,24 @@ use std::io::Read;
 use std::path::Path;
 
 
-/// The content of the README.md file.
+/// The high-level content of the README.md file.
 #[derive(Debug)]
 struct ReadmeFileContent<'a> {
 
     /// The header Markdown events.
-    header: Vec<Event<'a>>,
+    header_markdown_events: Vec<Event<'a>>,
+
+    // TODO
+
+    /// The footer Markdown events.
+    footer_markdown_events: Vec<Event<'a>>,
 }
 
 impl<'a> ReadmeFileContent<'a> {
     fn new() -> ReadmeFileContent<'a> {
         ReadmeFileContent {
-            header: Vec::new()
+            header_markdown_events: Vec::new(),
+            footer_markdown_events: Vec::new(),
         }
     }
 }
@@ -33,6 +39,21 @@ enum ReadmeFileParsingState {
     Footer,
     Finished,
 }
+
+
+/// A reference to an external resource in the README.md file.
+struct Entry {
+
+    /// The label, e.g. "rust-lang/rust" or "Servo".
+    label: String,
+
+    /// The main URL, e.g. "https://github.com/rust-lang/rust" or "https://servo.org".
+    url: String,
+
+    /// The description, e.g. "a modern, high-performance browser engine".
+    description: String,
+}
+
 
 /// Tries to parse the README.md content string.
 fn parse(markdown_string: &str) -> ReadmeFileContent {
@@ -96,8 +117,10 @@ fn parse_content(parser: &mut Parser, content: &mut ReadmeFileContent) -> Readme
 
 fn parse_footer(parser: &mut Parser, content: &mut ReadmeFileContent) -> ReadmeFileParsingState {
 
-    // TODO
-    println!("TODO: `parse_footer()`");
+    while let Some(event) = parser.next() {
+        // TODO: collect the events
+        //content.footer_markdown_events.push(event);
+    }
 
     ReadmeFileParsingState::Finished
 }
