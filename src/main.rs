@@ -115,11 +115,11 @@ fn parse_content(parser: &mut Parser, content: &mut ReadmeFileContent) -> Readme
     ReadmeFileParsingState::Footer
 }
 
-fn parse_footer(parser: &mut Parser, content: &mut ReadmeFileContent) -> ReadmeFileParsingState {
+fn parse_footer<'a>(parser: &mut Parser<'a>, content: &mut ReadmeFileContent<'a>) -> ReadmeFileParsingState {
 
+    // Collect the remaining Markdown events.
     while let Some(event) = parser.next() {
-        // TODO: collect the events
-        //content.footer_markdown_events.push(event);
+        content.footer_markdown_events.push(event);
     }
 
     ReadmeFileParsingState::Finished
