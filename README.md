@@ -778,6 +778,7 @@ See also [Rust web framework comparison](https://github.com/flosse/rust-web-fram
   * [Nickel](https://github.com/nickel-org/nickel.rs/) — inspired by [Express](http://expressjs.com/) [<img src="https://travis-ci.org/nickel-org/nickel.rs.svg?branch=master">](https://travis-ci.org/nickel-org/nickel.rs)
   * [Ogeon/rustful](https://github.com/Ogeon/rustful) — a RESTful web framework for Rust  [<img src="https://travis-ci.org/Ogeon/rustful.svg?branch=master">](https://travis-ci.org/Ogeon/rustful)
   * [Rustless](https://github.com/rustless/rustless) — a REST-like API micro-framework inspired by [Grape](https://github.com/ruby-grape/grape) and [Hyper](https://github.com/hyperium/hyper) [<img src="https://travis-ci.org/rustless/rustless.svg?branch=master">](https://travis-ci.org/rustless/rustless)
+  * [SergioBenitez/Rocket](https://github.com/SergioBenitez/Rocket) — [<img src="https://travis-ci.org/SergioBenitez/Rocket.svg?branch=master">](https://travis-ci.org/SergioBenitez/Rocket)
   * [tiny-http](https://github.com/frewsxcv/tiny-http) — Low level HTTP server library [<img src="https://travis-ci.org/frewsxcv/tiny-http.svg?branch=master">](https://travis-ci.org/frewsxcv/tiny-http)
   * [tomaka/rouille](https://github.com/tomaka/rouille) — Web framework in Rust[<img src="https://travis-ci.org/tomaka/rouille.svg?branch=master">](https://travis-ci.org/tomaka/rouille)
   * [sappworks/sapper](https://github.com/sappworks/sapper) — A lightweight web framework built on async hyper, implemented in Rust language. [<img src="https://travis-ci.org/sappworks/sapper.svg?branch=master">](https://travis-ci.org/tomaka/rouille)
@@ -806,7 +807,6 @@ See also [Rust web framework comparison](https://github.com/flosse/rust-web-fram
 * [Rust Design Patterns](https://github.com/nrc/patterns)
 * [Rust Guidelines](http://aturon.github.io/)
 * [RustBooks](https://github.com/sger/RustBooks) — list of RustBooks
-
 
 
 ## License
