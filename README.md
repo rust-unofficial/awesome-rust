@@ -749,7 +749,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [rust-lang-nursery/regex](https://github.com/rust-lang-nursery/regex) — Regular expressions (RE2 style) [<img src="https://travis-ci.org/rust-lang-nursery/regex.svg?branch=master">](https://travis-ci.org/rust-lang-nursery/regex)
 
 
-## Text search
+### Text search
 
 * [BurntSushi/fst](https://github.com/BurntSushi/fst) [[fst](https://crates.io/crates/fst)] — [<img src="https://travis-ci.org/BurntSushi/fst.svg?branch=master">](https://travis-ci.org/BurntSushi/fst)
 * [JDemler/perlin](https://github.com/JDemler/perlin) [[perlin](https://crates.io/crates/perlin)] — [<img src="https://travis-ci.org/JDemler/perlin.svg?branch=master">](https://travis-ci.org/JDemler/perlin)
