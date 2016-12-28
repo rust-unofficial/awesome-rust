@@ -101,7 +101,7 @@ fn parse_header(parser: &mut Parser, content: &mut ReadmeFileContent) -> ReadmeF
 
 fn parse_toc(parser: &mut Parser, content: &mut ReadmeFileContent) -> ReadmeFileParsingState {
 
-    // TODO
+    // TODO: Skip the table of content.
     println!("TODO: `parse_toc()`");
 
     ReadmeFileParsingState::Content
@@ -127,6 +127,7 @@ fn parse_footer<'a>(parser: &mut Parser<'a>, content: &mut ReadmeFileContent<'a>
 
 
 fn main() {
+    // The path to the README.md file.
     let readme_file_path = Path::new("README.md");
 
     let display = readme_file_path.display();
@@ -137,14 +138,14 @@ fn main() {
         Ok(file) => file,
     };
 
+    // Try to read the README.md file in a string.
     let mut markdown_string = String::new();
 
-    // Try to read the README.md file in a string.
     if let Err(why) = file.read_to_string(&mut markdown_string) {
         panic!("couldn't read {}: {}", display, why.description());
     }
 
-    // Try to parse the Markdown content string.
+    // Try to parse the README.md content string.
     let readme_file_content = parse(&markdown_string);
 
     println!("{:?}", readme_file_content);
