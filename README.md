@@ -248,6 +248,7 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
     * [PistonDevelopers/VisualRust](https://github.com/PistonDevelopers/VisualRust) — a Visual Studio extension for Rust [<img src="https://travis-ci.org/PistonDevelopers/VisualRust.svg?branch=master">](https://travis-ci.org/PistonDevelopers/VisualRust)
   * [Visual Studio Code](https://code.visualstudio.com/)
     * [saviorisdead/RustyCode](https://github.com/saviorisdead/RustyCode)
+    * [KalitaAlexey/vscode-rust](https://github.com/KalitaAlexey/vscode-rust) - a fork of RustyCode
 
 ### Pattern Recognition
 
