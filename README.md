@@ -39,6 +39,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   - [Game development](#game-development)
   - [Geospatial](#geospatial)
   - [Graphics](#graphics)
+  - [Graph processing](#graph-processing)
   - [GUI](#gui)
   - [Image processing](#image-processing)
   - [Logging](#logging)
@@ -601,6 +602,11 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
   * [kaj/rust-pdf](https://github.com/kaj/rust-pdf) — [<img src="https://travis-ci.org/kaj/rust-pdf.svg?branch=master">](https://travis-ci.org/kaj/rust-pdf)
 * [Vulkan](https://www.khronos.org/vulkan/) [[vulkan](https://crates.io/keywords/vulkan)]
   * [tomaka/vulkano](https://github.com/tomaka/vulkano) [[vulkano](https://crates.io/crates/vulkano)] — [<img src="https://travis-ci.org/tomaka/vulkano.svg?branch=master">](https://travis-ci.org/tomaka/vulkano)
+
+
+### Graph processing
+
+* [kud1ing/tinkerpop-rs](https://github.com/kud1ing/tinkerpop-rs) — an example how to use Apache TinkerPop from Rust [<img src="https://travis-ci.org/kud1ing/tinkerpop-rs.svg?branch=master">](https://travis-ci.org/kud1ing/tinkerpop-rs)
 
 
 ### GUI
