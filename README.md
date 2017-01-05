@@ -71,6 +71,7 @@ See also [Friends of Rust](https://www.rust-lang.org/friends.html) (organization
 * [Fractalide](https://github.com/fractalide/fractalide) — Simple Rust Microservices
 * [imjacobclark/Herd](https://github.com/imjacobclark/Herd) — an experimental HTTP load testing application
 * [jedisct1/flowgger](https://github.com/jedisct1/flowgger) — a fast, simple and lightweight data collector
+* [jwilm/alacritty](https://github.com/jwilm/alacritty) — a cross-platform, GPU enhanced terminal emulator
 * [kbknapp/docli](https://github.com/kbknapp/docli-rs) — a command line utility for managing DigitalOcean infrastructure [<img src="https://travis-ci.org/kbknapp/docli-rs.svg?branch=master">](https://travis-ci.org/kbknapp/docli-rs)
 * [MaidSafe](http://maidsafe.net/) — a decentralized platform.
 * [notty](https://github.com/withoutboats/notty) — an experimental project to bring new features to the command-line
