@@ -130,6 +130,8 @@ See also [Friends of Rust](https://www.rust-lang.org/friends.html) (organization
   * [BurntSushi/xsv](https://github.com/BurntSushi/xsv) — a fast CSV command line tool (slicing, indexing, selecting, searching, sampling, etc.) [<img src="https://travis-ci.org/BurntSushi/xsv.svg?branch=master">](https://travis-ci.org/BurntSushi/xsv)
 * **Virtualization**
   * [tailhook/vagga](https://github.com/tailhook/vagga) — a containerization tool without daemons [<img src="https://travis-ci.org/tailhook/vagga.svg?branch=master">](https://travis-ci.org/tailhook/vagga)
+* **Window Managers**
+  * [Immington-Industries/Way Cooler](https://github.com/Immington-Industries/way-cooler) - a customizable tiling window manager [<img src="https://travis-ci.org/Immington-Industries/way-cooler.svg?branch=master">](https://travis-ci.org/Immington-Industries/way-cooler)
 
 ## Development tools
 
