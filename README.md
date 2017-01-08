@@ -131,7 +131,7 @@ See also [Friends of Rust](https://www.rust-lang.org/friends.html) (organization
 * **Virtualization**
   * [tailhook/vagga](https://github.com/tailhook/vagga) — a containerization tool without daemons [<img src="https://travis-ci.org/tailhook/vagga.svg?branch=master">](https://travis-ci.org/tailhook/vagga)
 * **Window Managers**
-  * [Way Cooler](https://github.com/Immington-Industries/way-cooler) - a customizable tiling window manager
+  * [Immington-Industries/Way Cooler](https://github.com/Immington-Industries/way-cooler) - a customizable tiling window manager [<img src="https://travis-ci.org/Immington-Industries/way-cooler.svg?branch=master">](https://travis-ci.org/Immington-Industries/way-cooler)
 
 ## Development tools
 
