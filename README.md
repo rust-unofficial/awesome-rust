@@ -145,6 +145,7 @@ See also [Friends of Rust](https://www.rust-lang.org/friends.html) (organization
 * [Racer](https://github.com/phildawes/racer) — code completion for Rust [<img src="https://travis-ci.org/phildawes/racer.svg?branch=master">](https://travis-ci.org/phildawes/racer)
 * [rustfmt](https://github.com/rust-lang-nursery/rustfmt) — a Rust code formatter [<img src="https://travis-ci.org/rust-lang-nursery/rustfmt.svg?branch=master">](https://travis-ci.org/rust-lang-nursery/rustfmt)
 * [Rustup](https://github.com/rust-lang-nursery/rustup.rs) — the Rust toolchain installer [<img src="https://travis-ci.org/rust-lang-nursery/rustup.rs.svg?branch=master">](https://travis-ci.org/rust-lang-nursery/rustup.rs)
+* [Rust Language Server](https://github.com/jonathandturner/rls) — a server that runs in the background, providing IDEs, editors, and other tools with information about Rust programs
 * [rst](https://github.com/vitiral/rst) — the requirements tracking tool made for developers [<img src="https://travis-ci.org/vitiral/rst.svg?branch=master">](https://travis-ci.org/vitiral/rst)
 * [semantic-rs](https://github.com/semantic-rs/semantic-rs) — automatic crate publishing [<img src="https://travis-ci.org/semantic-rs/semantic-rs.svg?branch=master">](https://travis-ci.org/semantic-rs/semantic-rs)
 
