@@ -178,7 +178,8 @@ See also [Friends of Rust](https://www.rust-lang.org/friends.html) (organization
   * [rust-gdb](https://github.com/rust-lang/rust/blob/master/src/etc/rust-gdb)
 * LLDB
   * [lldb_batchmode.py](https://github.com/rust-lang/rust/blob/master/src/etc/lldb_batchmode.py) — allows to use LLDB in a way similar to GDB's batch mode.
-
+* rr
+  * [rr](http://rr-project.org/) — rr is a lightweight tool for recording and replaying execution of applications
 
 ### Embedded
 
