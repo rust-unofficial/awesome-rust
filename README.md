@@ -484,6 +484,7 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
 [[date](https://crates.io/keywords/date), [time](https://crates.io/keywords/time)]
 
 * [lifthrasiir/rust-chrono](https://github.com/lifthrasiir/rust-chrono) — [<img src="https://travis-ci.org/lifthrasiir/rust-chrono.svg?branch=master">](https://travis-ci.org/lifthrasiir/rust-chrono)
+* [yaa110/rust-persian-calendar](https://github.com/yaa110/rust-persian-calendar) — [<img src="https://travis-ci.org/yaa110/rust-persian-calendar.svg?branch=master">](https://travis-ci.org/yaa110/rust-persian-calendar)
 
 
 ### Distributed Systems
