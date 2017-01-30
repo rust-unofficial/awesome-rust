@@ -28,6 +28,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   - [Compression](#compression)
   - [Computation](#computation)
   - [Concurrency](#concurrency)
+  - [Configuration](#configuration)
   - [Cryptography](#cryptography)
   - [Database](#database)
   - [Data structures](#data-structures)
@@ -398,6 +399,10 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
   * [noshu/lbfgsb-sys](https://github.com/noshu/lbfgsb-sys) — Rust binding of fortran L-BFGS-B subroutine
 * [Conjugate Gradient](https://en.wikipedia.org/wiki/Limited-memory_BFGS) [[CG+](http://users.iems.northwestern.edu/~nocedal/CG+.html)]
   * [noshu/cg-sys](https://github.com/noshu/cg-sys) — Rust binding of fortran CG+ subroutine
+
+### Configuration
+
+* [mehcode/config-rs](https://github.com/mehcode/config-rs) [[config](https://crates.io/crates/config)] — Layered configuration system for Rust applications (with strong support for 12-factor applications). [<img src="https://travis-ci.org/mehcode/config-rs.svg?branch=master">](https://travis-ci.org/mehcode/config-rs)
 
 ### Cryptography
 
