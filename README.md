@@ -127,6 +127,7 @@ See also [Friends of Rust](https://www.rust-lang.org/friends.html) (organization
   * [uutils/coreutils](https://github.com/uutils/coreutils) — a cross-platform Rust rewrite of the GNU coreutils [<img src="https://travis-ci.org/uutils/coreutils.svg?branch=master">](https://travis-ci.org/uutils/coreutils)
 * **Text editors**
   * [gchp/iota](https://github.com/gchp/iota) — a simple text editor [<img src="https://travis-ci.org/gchp/iota.svg?branch=master">](https://travis-ci.org/gchp/iota)
+  * [mathall/rim](https://github.com/mathall/rim) - Vim-like text editor written in Rust [<img src="https://travis-ci.org/mathall/rim.svg?branch=master">](https://travis-ci.org/mathall/rim)
   * [xi-editor](https://github.com/google/xi-editor) — a modern editor with a backend written in Rust.
 * **Text processing**
   * [BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep) — combines the usability of The Silver Searcher with the raw speed of grep [<img src="https://travis-ci.org/BurntSushi/ripgrep.svg?branch=master">](https://travis-ci.org/BurntSushi/ripgrep)
