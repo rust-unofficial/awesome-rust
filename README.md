@@ -568,7 +568,8 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
 ### Filesystem
 
 [[filesystem](https://crates.io/keywords/filesystem)]
-
+* Operations
+  * [webdesus/fs_extra](https://github.com/webdesus/fs_extra) — expanding opportunities standard library std::fs and std::io [<img src="https://travis-ci.org/webdesus/fs_extra.svg?branch=master">](https://travis-ci.org/webdesus/fs_extra)
 * Temporary Files
   * [rust-lang-nursery/tempdir](https://github.com/rust-lang-nursery/tempdir) — temporary directory library [<img src="https://travis-ci.org/rust-lang-nursery/tempdir.svg?branch=master">](https://travis-ci.org/rust-lang-nursery/tempdir)
   * [Stebalien/tempfile](https://github.com/Stebalien/tempfile) — temporary file library [<img src="https://travis-ci.org/Stebalien/tempfile.svg?branch=master">](https://travis-ci.org/Stebalien/tempfile)
