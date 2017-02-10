@@ -601,7 +601,7 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
 [[geo](https://crates.io/keywords/geo), [gis](https://crates.io/keywords/gis)]
 
 * [Georust](https://github.com/georust) — geospatial tools and libraries written in Rust
-
+* [rust-reverse-geocoder](https://github.com/llambda/rust-reverse-geocoder) — a fast, offline reverse geocoder in Rust, inspired by https://github.com/thampiman/reverse-geocoder
 
 ### Graphics
 
