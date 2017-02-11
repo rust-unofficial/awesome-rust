@@ -107,7 +107,7 @@ See also [Friends of Rust](https://www.rust-lang.org/friends.html) (organization
   * [swatteau/sokoban-rs](https://github.com/swatteau/sokoban-rs) — a Sokoban implementation
   * [Zone of Control](https://github.com/ozkriff/zoc) — a turn-based hexagonal strategy game [<img src="https://travis-ci.org/ozkriff/zoc.svg?branch=master">](https://travis-ci.org/ozkriff/zoc)
   * [rhex](https://github.com/dpc/rhex) — hexagonal ascii roguelike
-  * [citybound](https://github.com/citybound/citybound) - The city sim you deserve
+  * [citybound](https://github.com/citybound/citybound) — The city sim you deserve
 * **Graphics**
   * [ivanceras/svgbobrus](https://github.com/ivanceras/svgbobrus) — converts ASCII diagrams into SVG graphics [<img src="https://api.travis-ci.org/ivanceras/svgbobrus.svg">](https://travis-ci.org/ivanceras/svgbobrus)
   * [RazrFalcon/svgcleaner](https://github.com/RazrFalcon/svgcleaner) — tidies SVG graphics
@@ -127,7 +127,7 @@ See also [Friends of Rust](https://www.rust-lang.org/friends.html) (organization
   * [uutils/coreutils](https://github.com/uutils/coreutils) — a cross-platform Rust rewrite of the GNU coreutils [<img src="https://travis-ci.org/uutils/coreutils.svg?branch=master">](https://travis-ci.org/uutils/coreutils)
 * **Text editors**
   * [gchp/iota](https://github.com/gchp/iota) — a simple text editor [<img src="https://travis-ci.org/gchp/iota.svg?branch=master">](https://travis-ci.org/gchp/iota)
-  * [mathall/rim](https://github.com/mathall/rim) - Vim-like text editor written in Rust [<img src="https://travis-ci.org/mathall/rim.svg?branch=master">](https://travis-ci.org/mathall/rim)
+  * [mathall/rim](https://github.com/mathall/rim) — Vim-like text editor written in Rust [<img src="https://travis-ci.org/mathall/rim.svg?branch=master">](https://travis-ci.org/mathall/rim)
   * [xi-editor](https://github.com/google/xi-editor) — a modern editor with a backend written in Rust.
 * **Text processing**
   * [BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep) — combines the usability of The Silver Searcher with the raw speed of grep [<img src="https://travis-ci.org/BurntSushi/ripgrep.svg?branch=master">](https://travis-ci.org/BurntSushi/ripgrep)
@@ -135,7 +135,7 @@ See also [Friends of Rust](https://www.rust-lang.org/friends.html) (organization
 * **Virtualization**
   * [tailhook/vagga](https://github.com/tailhook/vagga) — a containerization tool without daemons [<img src="https://travis-ci.org/tailhook/vagga.svg?branch=master">](https://travis-ci.org/tailhook/vagga)
 * **Window Managers**
-  * [Immington-Industries/Way Cooler](https://github.com/Immington-Industries/way-cooler) - a customizable tiling window manager [<img src="https://travis-ci.org/Immington-Industries/way-cooler.svg?branch=master">](https://travis-ci.org/Immington-Industries/way-cooler)
+  * [Immington-Industries/Way Cooler](https://github.com/Immington-Industries/way-cooler) — a customizable tiling window manager [<img src="https://travis-ci.org/Immington-Industries/way-cooler.svg?branch=master">](https://travis-ci.org/Immington-Industries/way-cooler)
 
 ## Development tools
 
@@ -259,7 +259,7 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
     * [PistonDevelopers/VisualRust](https://github.com/PistonDevelopers/VisualRust) — a Visual Studio extension for Rust [<img src="https://travis-ci.org/PistonDevelopers/VisualRust.svg?branch=master">](https://travis-ci.org/PistonDevelopers/VisualRust)
   * [Visual Studio Code](https://code.visualstudio.com/)
     * [saviorisdead/RustyCode](https://github.com/saviorisdead/RustyCode)
-    * [KalitaAlexey/vscode-rust](https://github.com/KalitaAlexey/vscode-rust) - a fork of RustyCode
+    * [KalitaAlexey/vscode-rust](https://github.com/KalitaAlexey/vscode-rust) — a fork of RustyCode
 
 ### Pattern Recognition
 
@@ -838,7 +838,7 @@ See also [Rust web framework comparison](https://github.com/flosse/rust-web-fram
   * [Rust by Example](http://rustbyexample.com/)
   * [rust-learning](https://github.com/ctjhoa/rust-learning) — a collection of useful resources to learn Rust
   * [Rustlings](https://github.com/carols10cents/rustlings) — small exercises to get you used to reading and writing Rust code
-  * [stdx](https://github.com/brson/stdx) - Learn these crates first as an extension to std
+  * [stdx](https://github.com/brson/stdx) — Learn these crates first as an extension to std
 * Podcasts
   * [New Rustacean](http://www.newrustacean.com) — a podcast about learning Rust
   * [Rusty Radio](http://rustyrad.io) — covering the rust ecosystem
