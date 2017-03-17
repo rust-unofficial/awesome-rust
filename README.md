@@ -266,9 +266,9 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
   * Visual Studio
     * [PistonDevelopers/VisualRust](https://github.com/PistonDevelopers/VisualRust) — a Visual Studio extension for Rust [<img src="https://travis-ci.org/PistonDevelopers/VisualRust.svg?branch=master">](https://travis-ci.org/PistonDevelopers/VisualRust)
   * [Visual Studio Code](https://code.visualstudio.com/)
-    * [saviorisdead/RustyCode](https://github.com/saviorisdead/RustyCode)
-    * [KalitaAlexey/vscode-rust](https://github.com/KalitaAlexey/vscode-rust) — a fork of RustyCode
     * [CodeLLDB](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb) — a LLDB extension
+    * [KalitaAlexey/vscode-rust](https://marketplace.visualstudio.com/items?itemName=kalitaalexey.vscode-rust) — a fork of RustyCode
+    * [saviorisdead/RustyCode](https://marketplace.visualstudio.com/items?itemName=saviorisdead.RustyCode) (unmaintained)
 
 ### Pattern Recognition
 
