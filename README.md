@@ -381,7 +381,7 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
 * tar
   * [alexcrichton/tar-rs](https://github.com/alexcrichton/tar-rs) — tar archive reading/writing in Rust [<img src="https://travis-ci.org/alexcrichton/tar-rs.svg?branch=master">](https://travis-ci.org/alexcrichton/tar-rs)
 * zip
-  * [slackito/zip](https://github.com/slackito/zip) — read and write ZIP archives [<img src="https://travis-ci.org/slackito/zip.svg?branch=master">](https://travis-ci.org/slackito/zip)
+  * [mvdnes/zip-rs](https://github.com/mvdnes/zip-rs) — read and write ZIP archives [![Build Status](https://travis-ci.org/mvdnes/zip-rs.svg?branch=master)](https://travis-ci.org/mvdnes/zip-rs)
 
 
 ### Computation
