@@ -106,7 +106,7 @@ See also [Friends of Rust](https://www.rust-lang.org/friends.html) (organization
     * [pacmancoder/rustzx](https://github.com/pacmancoder/rustzx) — [<img src="https://travis-ci.org/pacmancoder/rustzx.svg?branch=master">](https://travis-ci.org/pacmancoder/rustzx)
   * Virtual Boy
     * [emu-rs/rustual-boy](https://github.com/emu-rs/rustual-boy) — [<img src="https://travis-ci.org/emu-rs/rustual-boy.svg?branch=master">](https://travis-ci.org/emu-rs/rustual-boy)
-  * Emulator Development tools 
+  * Emulator Development tools
     * SNES
       * [ioncodes/snesutilities](https://github.com/ioncodes/snesutilities) — ROM analyser/extractor
 * **Games**, see also [Games Made With Piston](https://github.com/PistonDevelopers/piston/wiki/Games-Made-With-Piston).
@@ -185,6 +185,7 @@ See also [Friends of Rust](https://www.rust-lang.org/friends.html) (organization
 
 * GDB
   * [rust-gdb](https://github.com/rust-lang/rust/blob/master/src/etc/rust-gdb)
+  * [gdbgui](https://github.com/cs01/gdbgui) — Browser based frontend for gdb to debug C, C++, Rust, and go. [<img src="https://travis-ci.org/cs01/gdbgui.svg?branch=master">](https://travis-ci.org/cs01/gdbgui)
 * LLDB
   * [lldb_batchmode.py](https://github.com/rust-lang/rust/blob/master/src/etc/lldb_batchmode.py) — allows to use LLDB in a way similar to GDB's batch mode.
   * [CodeLLDB](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb) — a LLDB extension for [Visual Studio Code](https://code.visualstudio.com/).
