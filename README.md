@@ -50,6 +50,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   - [Network programming](#network-programming)
   - [Parser](#parser)
   - [Platform specific](#platform-specific)
+  - [Scriting](#scripting)
   - [Template engine](#template-engine)
   - [Text processing](#text-processing)
   - [Text search](#text-search)
@@ -771,6 +772,13 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
   * [zargony/rust-fuse](https://github.com/zargony/rust-fuse) — [FUSE](https://github.com/libfuse/libfuse) bindings <img src="https://travis-ci.org/zargony/rust-fuse.svg?branch=master">
 * Windows
   * [retep998/winapi-rs](https://github.com/retep998/winapi-rs) — Windows API bindings [<img src="https://travis-ci.org/retep998/winapi-rs.svg?branch=master">](https://travis-ci.org/retep998/winapi-rs)
+
+
+## Scripting
+[[scripting](https://crates.io/keywords/scripting)]
+* [PistonDevelopers/dyon](https://github.com/PistonDevelopers/dyon) - A rusty dynamically typed scripting language
+* [gluon-lang/gluon](https://github.com/gluon-lang/gluon) -  A small, statically-typed, functional programming language
+* [murarth/ketos](https://github.com/murarth/ketos) - A Lisp dialect functional programming language serving as a scripting and extension language for rust
 
 
 ### Template engine
