@@ -50,7 +50,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   - [Network programming](#network-programming)
   - [Parser](#parser)
   - [Platform specific](#platform-specific)
-  - [Scriting](#scripting)
+  - [Scripting](#scripting)
   - [Template engine](#template-engine)
   - [Text processing](#text-processing)
   - [Text search](#text-search)
