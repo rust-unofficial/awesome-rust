@@ -239,7 +239,6 @@ See also [Foreign Function Interface](https://doc.rust-lang.org/book/ffi.html), 
   * [SSheldon/rust-objc](https://github.com/SSheldon/rust-objc) — Objective-C Runtime bindings and wrapper for Rust
 * Python
   * [dgrunwald/rust-cpython](https://github.com/dgrunwald/rust-cpython) — Python bindings [<img src="https://travis-ci.org/dgrunwald/rust-cpython.svg?branch=master">](https://travis-ci.org/dgrunwald/rust-cpython)
-  * [lukemetz/rustpy](https://github.com/lukemetz/rustpy) — Python bindings [<img src="https://travis-ci.org/lukemetz/rustpy.svg?branch=master">](https://travis-ci.org/lukemetz/rustpy)
 * R
   * [rustr/rustr](https://github.com/rustr/rustr) — use Rust from R, and use R in Rust [<img src="https://travis-ci.org/rustr/rustr.svg?branch=master">](https://travis-ci.org/rustr/rustr)
 * Ruby
