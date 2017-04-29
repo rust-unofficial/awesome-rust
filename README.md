@@ -10,6 +10,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 - [Development Tools](#development-tools)
   - [Build system](#build-system)
   - [Debugging](#debugging)
+  - [Deployment](#deployment)
   - [Embedded](#embedded)
   - [FFI](#ffi)
   - [IDEs](#ides)
@@ -194,6 +195,10 @@ See also [Friends of Rust](https://www.rust-lang.org/friends.html) (organization
   * [CodeLLDB](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb) — a LLDB extension for [Visual Studio Code](https://code.visualstudio.com/).
 * rr
   * [rr](http://rr-project.org/) — rr is a lightweight tool for recording and replaying execution of applications
+
+### Deployment
+* Docker
+  * [mini-docker-rust](https://github.com/kpcyrd/mini-docker-rust) — An example project for very small rust docker images [<img src="https://travis-ci.org/kpcyrd/mini-docker-rust.svg?branch=master">](https://travis-ci.org/kpcyrd/mini-docker-rust)
 
 ### Embedded
 
