@@ -20,6 +20,7 @@ struct ReadmeFileContent<'a> {
     footer_markdown_events: Vec<Event<'a>>,
 }
 
+/// Creates an empty README.md file content.
 impl<'a> ReadmeFileContent<'a> {
     fn new() -> ReadmeFileContent<'a> {
         ReadmeFileContent {
@@ -44,18 +45,18 @@ enum ReadmeFileParsingState {
 /// A reference to an external resource in the README.md file.
 struct Entry {
 
-    /// The label, e.g. "rust-lang/rust" or "Servo".
+    /// The entry label, e.g. "rust-lang/rust" or "Servo".
     label: String,
 
-    /// The main URL, e.g. "https://github.com/rust-lang/rust" or "https://servo.org".
+    /// The entry's main URL, e.g. "https://github.com/rust-lang/rust" or "https://servo.org".
     url: String,
 
-    /// The description, e.g. "a modern, high-performance browser engine".
+    /// The entry description, e.g. "a modern, high-performance browser engine".
     description: String,
 }
 
 
-/// Tries to parse the README.md content string.
+/// Tries to parse the README.md file content string.
 fn parse(markdown_string: &str) -> ReadmeFileContent {
 
     // Create a Markdown parser for the README.md content string.
@@ -78,7 +79,7 @@ fn parse(markdown_string: &str) -> ReadmeFileContent {
     readme_file_content
 }
 
-
+/// Parses the README.md file header.
 fn parse_header(parser: &mut Parser, content: &mut ReadmeFileContent) -> ReadmeFileParsingState {
 
     // TODO
@@ -99,6 +100,7 @@ fn parse_header(parser: &mut Parser, content: &mut ReadmeFileContent) -> ReadmeF
     ReadmeFileParsingState::TableOfContent
 }
 
+/// Parses the README.md file table of content.
 fn parse_toc(parser: &mut Parser, content: &mut ReadmeFileContent) -> ReadmeFileParsingState {
 
     // TODO: Skip the table of content.
@@ -107,6 +109,7 @@ fn parse_toc(parser: &mut Parser, content: &mut ReadmeFileContent) -> ReadmeFile
     ReadmeFileParsingState::Content
 }
 
+/// Parses the README.md file content.
 fn parse_content(parser: &mut Parser, content: &mut ReadmeFileContent) -> ReadmeFileParsingState {
 
     // TODO
@@ -115,6 +118,7 @@ fn parse_content(parser: &mut Parser, content: &mut ReadmeFileContent) -> Readme
     ReadmeFileParsingState::Footer
 }
 
+/// Parses the README.md file footer.
 fn parse_footer<'a>(parser: &mut Parser<'a>, content: &mut ReadmeFileContent<'a>) -> ReadmeFileParsingState {
 
     // Collect the remaining Markdown events.
