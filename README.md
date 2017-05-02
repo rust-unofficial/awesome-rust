@@ -266,6 +266,10 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
     * [zargony/atom-language-rust](https://github.com/zargony/atom-language-rust)
   * [Eclipse](https://eclipse.org/)
     * [RustDT](https://github.com/RustDT/RustDT) — [<img src="https://travis-ci.org/RustDT/RustDT.svg?branch=master">](https://travis-ci.org/RustDT/RustDT)
+  * [Emacs](https://www.gnu.org/software/emacs/)
+    * [rust-mode](https://github.com/rust-lang/rust-mode) — Rust Major Mode
+    * [flycheck-rust](https://github.com/flycheck/flycheck-rust) — Rust support for [Flycheck](https://github.com/flycheck/flycheck)
+    * [emacs-racer](https://github.com/racer-rust/emacs-racer) — Autocompletion (see also [company](https://company-mode.github.io) and [auto-complete](https://github.com/auto-complete/auto-complete))
   * [NetBeans](https://netbeans.org/)
     * [drrb/rust-netbeans](https://github.com/drrb/rust-netbeans)
   * [IntelliJ](https://www.jetbrains.com/idea/)
