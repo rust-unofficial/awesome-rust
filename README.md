@@ -887,6 +887,7 @@ See also [Rust web framework comparison](https://github.com/flosse/rust-web-fram
   * [Rustlings](https://github.com/carols10cents/rustlings) — small exercises to get you used to reading and writing Rust code
   * [Rust Recipes](https://github.com/kud1ing/rust-recipes) — short recipes how to do solve common problems in Rust
   * [stdx](https://github.com/brson/stdx) — Learn these crates first as an extension to std
+  * [University of Pennsylvania's Comp Sci Rust Programming Course](http://cis198-2016s.github.io/schedule/)
 * Podcasts
   * [New Rustacean](http://www.newrustacean.com) — a podcast about learning Rust
   * [Rusty Radio](http://rustyrad.io) — covering the rust ecosystem
