@@ -127,7 +127,6 @@ See also [Friends of Rust](https://www.rust-lang.org/friends.html) (organization
   * [redox-os/redox](https://github.com/redox-os/redox) — [<img   src="https://travis-ci.org/redox-os/redox.svg?branch=master">](https://travis-ci.org/redox-os/redox)
   * [thepowersgang/rust_os](https://github.com/thepowersgang/rust_os) — [<img src="https://travis-ci.org/thepowersgang/rust_os.svg?branch=master">](https://travis-ci.org/thepowersgang/rust_os)
 * **System tools**
-  * [Ralvke/ltg_push](https://github.com/Ralvke/ltg_push) — Push log files' updates to Telegram [<img src="https://api.travis-ci.org/Ralvke/ltg_push.svg?branch=master">](https://travis-ci.org/Ralvke/ltg_push)
   * [Aaronepower/tokei](https://github.com/Aaronepower/tokei) — counts the lines of code [<img src="https://img.shields.io/travis/Aaronepower/tokei.svg">](https://travis-ci.org/Aaronepower/tokei)
   * [buster/rrun](https://github.com/buster/rrun) — a command launcher for Linux, similar to gmrun  [<img src="https://travis-ci.org/buster/rrun.svg?branch=master">](https://travis-ci.org/buster/rrun)
   * [cristianoliveira/funzzy](https://github.com/cristianoliveira/funzzy) — a configurable filesystem watcher inspired by [entr](http://entrproject.org/) [<img src="https://api.travis-ci.org/cristianoliveira/funzzy.svg?branch=master">](https://travis-ci.org/cristianoliveira/funzzy)
@@ -137,6 +136,7 @@ See also [Friends of Rust](https://www.rust-lang.org/friends.html) (organization
   * [mmstick/tv-renamer](https://github.com/mmstick/tv-renamer) — a tv series renaming application with an optional GTK3 frontend. [<img src="https://travis-ci.org/mmstick/tv-renamer.svg?branch=master">](https://travis-ci.org/mmstick/tv-renamer)
   * [ogham/exa](https://github.com/ogham/exa) — a replacement for 'ls' [<img src="https://travis-ci.org/ogham/exa.svg?branch=master">](https://travis-ci.org/ogham/exa)
   * [uutils/coreutils](https://github.com/uutils/coreutils) — a cross-platform Rust rewrite of the GNU coreutils [<img src="https://travis-ci.org/uutils/coreutils.svg?branch=master">](https://travis-ci.org/uutils/coreutils)
+  * [Ralvke/ltg_push](https://github.com/Ralvke/ltg_push) — Push log files' updates to Telegram [<img src="https://api.travis-ci.org/Ralvke/ltg_push.svg?branch=master">](https://travis-ci.org/Ralvke/ltg_push)
 * **Text editors**
   * [gchp/iota](https://github.com/gchp/iota) — a simple text editor [<img src="https://travis-ci.org/gchp/iota.svg?branch=master">](https://travis-ci.org/gchp/iota)
   * [mathall/rim](https://github.com/mathall/rim) — Vim-like text editor written in Rust [<img src="https://travis-ci.org/mathall/rim.svg?branch=master">](https://travis-ci.org/mathall/rim)
