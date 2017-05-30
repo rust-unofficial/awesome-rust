@@ -226,6 +226,7 @@ See also [Foreign Function Interface](https://doc.rust-lang.org/book/first-editi
 
 * C
   * [Sean1708/rusty-cheddar](https://github.com/Sean1708/rusty-cheddar) — generates C header files from Rust source files [<img src="https://api.travis-ci.org/Sean1708/rusty-cheddar.svg?branch=master">](https://travis-ci.org/Sean1708/rusty-cheddar)
+  * [rlhunt/cbindgen](https://github.com/rlhunt/cbindgen/r) — generates C header files from Rust source files. Used in Gecko for WebRender [<img src="https://api.travis-ci.org/rlhunt/cbindgen.svg?branch=master">](https://travis-ci.org/rlhunt/cbindgen)
 * C++
   * [servo/rust-bindgen](https://github.com/servo/rust-bindgen) — a Rust bindings generator
 * Erlang
