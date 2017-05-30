@@ -630,6 +630,7 @@ See also [http://areweideyet.com/](http://areweideyet.com/) and [Rust and IDEs](
   * [slide-rs/specs](https://github.com/slide-rs/specs) — Specs Parallel ECS [<img src="https://travis-ci.org/slide-rs/specs.svg">](httpsL//github.com/travis-ci.org/slide-rs/specs)
 * Game Engines
   * [Amethyst](https://www.amethyst.rs) — Data-oriented game engine [<img src="https://travis-ci.org/amethyst/amethyst.svg?branch=master">](https://travis-ci.org/amethyst/amethyst)
+  * [Kiss3d](http://kiss3d.org) — Draw simple geometric figures and play with them with one-liners [<img src="https://api.travis-ci.org/sebcrozet/kiss3d.svg?branch=master">](https://api.travis-ci.org/sebcrozet/kiss3d)
   * [Piston](http://www.piston.rs) — [<img src="https://travis-ci.org/PistonDevelopers/piston.svg?branch=master">](https://travis-ci.org/PistonDevelopers/piston)
 * SDL [[sdl](https://crates.io/keywords/sdl)]
   * [brson/rust-sdl](https://github.com/brson/rust-sdl) — [SDL1](http://www.libsdl.org/) bindings [<img src="https://travis-ci.org/brson/rust-sdl.svg?branch=master">](https://travis-ci.org/brson/rust-sdl)
