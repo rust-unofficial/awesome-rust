@@ -136,6 +136,7 @@ See also [Friends of Rust](https://www.rust-lang.org/friends.html) (organization
   * [mmstick/systemd-manager](https://github.com/mmstick/systemd-manager) — a systemd service manager written in Rust using GTK-rs.
   * [mmstick/tv-renamer](https://github.com/mmstick/tv-renamer) — a tv series renaming application with an optional GTK3 frontend. [<img src="https://travis-ci.org/mmstick/tv-renamer.svg?branch=master">](https://travis-ci.org/mmstick/tv-renamer)
   * [ogham/exa](https://github.com/ogham/exa) — a replacement for 'ls' [<img src="https://travis-ci.org/ogham/exa.svg?branch=master">](https://travis-ci.org/ogham/exa)
+  * [sharkdp/fd](https://github.com/sharkdp/fd) — A simple, fast and user-friendly alternative to find. [![Build Status](https://travis-ci.org/sharkdp/fd.svg?branch=master)](https://travis-ci.org/sharkdp/fd)
   * [Ralvke/ltg_push](https://github.com/Ralvke/ltg_push) — Push log files' updates to Telegram [<img src="https://api.travis-ci.org/Ralvke/ltg_push.svg?branch=master">](https://travis-ci.org/Ralvke/ltg_push)
   * [uutils/coreutils](https://github.com/uutils/coreutils) — a cross-platform Rust rewrite of the GNU coreutils [<img src="https://travis-ci.org/uutils/coreutils.svg?branch=master">](https://travis-ci.org/uutils/coreutils)
 * **Text editors**
