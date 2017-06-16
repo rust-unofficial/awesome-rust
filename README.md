@@ -92,8 +92,9 @@ See also [Friends of Rust](https://www.rust-lang.org/friends.html) (organization
   * [indiscipline/zrtstr](https://github.com/indiscipline/zrtstr) — a command line utility for checking if stereo wav files are faux-stereo (i.e. have identical channels) and converting such files to mono. [<img src="https://travis-ci.org/indiscipline/zrtstr.svg?branch=master">](https://travis-ci.org/indiscipline/zrtstr)
 * **Database**
   * [pingcap/tikv](https://github.com/pingcap/tikv) — a distributed KV database in Rust [<img src="https://travis-ci.org/pingcap/tikv.svg?branch=master">](https://travis-ci.org/pingcap/tikv)
+  * [PumpkinDB](https://github.com/PumpkinDB/PumpkinDB) — an event sourcing database engine [<img src="https://travis-ci.org/PumpkinDB/PumpkinDB.svg?branch=master">](https://travis-ci.org/PumpkinDB/PumpkinDB)
   * [seppo0010/rsedis](https://github.com/seppo0010/rsedis) — a Redis reimplementation in Rust [<img src="https://travis-ci.org/seppo0010/rsedis.svg?branch=master">](https://travis-ci.org/seppo0010/rsedis)
-  * [PumpkinDB/PumpkinDB](https://github.com/PumpkinDB/PumpkinDB) — an event sourcing database engine [<img src="https://travis-ci.org/PumpkinDB/PumpkinDB.svg?branch=master">](https://travis-ci.org/PumpkinDB/PumpkinDB)
+
 * **Emulators** [[emulator](https://crates.io/keywords/emulator)]
   * Commodore 64
     * [kondrak/rust64](https://github.com/kondrak/rust64) — [<img src="https://travis-ci.org/kondrak/rust64.svg?branch=master">](https://travis-ci.org/kondrak/rust64)
