@@ -9,5 +9,5 @@ My goal is to have mostly projects that are stable and useful to users.
 If you want to add an entry to the `README.md` please consider this:
 
 - is the entry valuable to people trying to get things done in Rust?
-- if yes, use the template `[XXX/YYY](https://github.com/XXX/YYY) [[YYY](https://crates.io/crates/YYY)] — DESCRIPTION [<img src="https://travis-ci.org/XXX/YYY.svg?branch=master">](https://travis-ci.org/XXX/YYY)`
+- if yes, use the template `[XXX/YYY](https://github.com/XXX/YYY) [[YYY](https://crates.io/crates/YYY)] — DESCRIPTION [<img src="https://api.travis-ci.org/XXX/YYY.svg?branch=master">](https://travis-ci.org/XXX/YYY)`
 - pay attention to the alphabetical ordering
