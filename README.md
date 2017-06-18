@@ -86,7 +86,7 @@ See also [Friends of Rust](https://www.rust-lang.org/friends.html) (organization
 * [Sandstorm Collections App](https://github.com/sandstorm-io/collections-app)
 * [Servo](https://github.com/servo/servo) — a prototype web browser engine
 * [Parity](https://github.com/paritytech/parity) — Fast, light, and robust Ethereum implementation [![build status](https://gitlab.ethcore.io/parity/parity/badges/master/build.svg)](https://gitlab.ethcore.io/parity/parity/commits/master)
-* [parity-bitcoin](https://github.com/paritytech/parity-bitcoin) - The Parity Bitcoin client [<img src="https://api.travis-ci.com/paritytech/parity-bitcoin.svg?token=DMFvZu71iaTbUYx9UypXhttps://travis-ci.com/paritytech/parity-bitcoin.svg?token=DMFvZu71iaTbUYx9UypX&branch=masterbranch=master">](https://travis-ci.com/paritytech/parity-bitcoin)
+* [parity-bitcoin](https://github.com/paritytech/parity-bitcoin) - The Parity Bitcoin client [<img src="https://api.travis-ci.org/paritytech/parity-bitcoin.svg?branch=master">](https://travis-ci.com/paritytech/parity-bitcoin)
 
 * **Audio**
   * [indiscipline/zrtstr](https://github.com/indiscipline/zrtstr) — a command line utility for checking if stereo wav files are faux-stereo (i.e. have identical channels) and converting such files to mono. [<img src="https://api.travis-ci.org/indiscipline/zrtstr.svg?branch=master">](https://travis-ci.org/indiscipline/zrtstr)
