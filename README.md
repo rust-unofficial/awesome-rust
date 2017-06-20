@@ -394,8 +394,8 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust and IDEs](https
 
 ### Compression
 
-* brotli
-  * [ende76/brotli-rs](https://github.com/ende76/brotli-rs) — implementation of [Brotli](https://opensource.googleblog.com/2015/09/introducing-brotli-new-compression.html) compression
+* [Brotli](https://opensource.googleblog.com/2015/09/introducing-brotli-new-compression.html)
+  * [ende76/brotli-rs](https://github.com/ende76/brotli-rs) — implementation of Brotli compression
   * [dropbox/rust-brotli](https://github.com/dropbox/rust-brotli) — Brotli decompressor in Rust that optionally avoids the stdlib
 * bzip2
   * [alexcrichton/bzip2-rs](https://github.com/alexcrichton/bzip2-rs) — [libbz2](http://www.bzip.org) bindings [<img src="https://api.travis-ci.org/alexcrichton/bzip2-rs.svg?branch=master">](https://travis-ci.org/alexcrichton/bzip2-rs)
