@@ -416,7 +416,7 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust and IDEs](https
 * [BLAS](https://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms) [[blas](https://crates.io/keywords/blas)]
   * [mikkyang/rust-blas](https://github.com/mikkyang/rust-blas) — BLAS bindings
   * [stainless-steel/blas](https://github.com/stainless-steel/blas) — BLAS bindings [<img src="https://api.travis-ci.org/stainless-steel/blas.svg?branch=master">](https://travis-ci.org/stainless-steel/blas)
-* [Conjugate Gradient](https://en.wikipedia.org/wiki/Limited-memory_BFGS) [[CG+](http://users.iems.northwestern.edu/~nocedal/CG+.html)]
+* [Conjugate Gradient](https://en.wikipedia.org/wiki/Limited-memory_BFGS)
   * [noshu/cg-sys](https://github.com/noshu/cg-sys) — Rust binding of fortran CG+ subroutine
 * [GMP](https://gmplib.org/)
   * [fizyk20/rust-gmp](https://github.com/fizyk20/rust-gmp) — libgmp bindings [<img src="https://api.travis-ci.org/fizyk20/rust-gmp.svg?branch=master">](https://travis-ci.org/fizyk20/rust-gmp)
@@ -424,7 +424,7 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust and IDEs](https
   * [GuillaumeGomez/rust-GSL](https://github.com/GuillaumeGomez) — GSL bindings [<img src="https://api.travis-ci.org/GuillaumeGomez/rust-GSL.svg?branch=master">](https://travis-ci.org/GuillaumeGomez/rust-GSL)
 * [LAPACK](https://en.wikipedia.org/wiki/LAPACK)
   * [stainless-steel/lapack](https://github.com/stainless-steel/lapack) — LAPACK bindings [<img src="https://api.travis-ci.org/stainless-steel/lapack.svg?branch=master">](https://travis-ci.org/stainless-steel/lapack)
-* [L-BFGS-B](https://en.wikipedia.org/wiki/Limited-memory_BFGS) [[lbfgsb](http://users.iems.northwestern.edu/~nocedal/lbfgsb.html)]
+* [L-BFGS-B](https://en.wikipedia.org/wiki/Limited-memory_BFGS)
   * [noshu/lbfgsb-sys](https://github.com/noshu/lbfgsb-sys) — Rust binding of fortran L-BFGS-B subroutine
 * [sebcrozet/nalgebra](https://github.com/sebcrozet/nalgebra) — low-dimensional linear algebra library [<img src="https://api.travis-ci.org/sebcrozet/nalgebra.svg?branch=master">](https://travis-ci.org/sebcrozet/nalgebra)
 * Parallel
