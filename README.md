@@ -264,7 +264,7 @@ See also [Foreign Function Interface](https://doc.rust-lang.org/book/first-editi
 
 ### IDEs
 
-See also [https://areweideyet.com/](https://areweideyet.com/) and [Rust and IDEs](https://www.rust-lang.org/ides.html).
+See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust and IDEs](https://www.rust-lang.org/ides.html).
 
   * [Atom](https://atom.io/)
     * [zargony/atom-language-rust](https://github.com/zargony/atom-language-rust)
@@ -621,7 +621,7 @@ See also [https://areweideyet.com/](https://areweideyet.com/) and [Rust and IDEs
 
 ### Game development
 
-([AreWeGameYet](http://arewegameyet.com))
+See also [Are we game yet?](http://arewegameyet.com)
 * Allegro
   * [SiegeLord/RustAllegro](https://github.com/SiegeLord/RustAllegro) — [Allegro 5](http://liballeg.org/) bindings [<img src="https://api.travis-ci.org/SiegeLord/RustAllegro.svg?branch=master">](https://travis-ci.org/SiegeLord/RustAllegro)
 * Challonge
