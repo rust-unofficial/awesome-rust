@@ -1,3 +1,3 @@
 language: rust
 before_script: gem install awesome_bot
-script: awesome_bot -f README.md --allow-dupe --white-list crates.io
+script: awesome_bot -f README.md --allow-dupe --allow-ssl --white-list crates.io
