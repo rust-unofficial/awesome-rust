@@ -894,6 +894,7 @@ See also [Rust web framework comparison](https://github.com/flosse/rust-web-fram
   * [Learning systems programming with Rust](https://speakerdeck.com/jvns/learning-systems-programming-with-rust) — Presented by [Julia Evans](https://twitter.com/@b0rk) @ Rustconf 2016.
 * Learning
   * [exercism.io](http://exercism.io/languages/rust/about) — programming exercises that help you learn new concepts in Rust.
+  * [Idiomatic Rust](https://github.com/mre/idiomatic-rust) -  A peer-reviewed collection of articles/talks/repos which teach idiomatic Rust.
   * [Learning Rust With Entirely Too Many Linked Lists](http://cglab.ca/~abeinges/blah/too-many-lists/book/) — in-depth exploration of Rust's memory management rules, through implementing a few different types of list structures.
   * [Rust by Example](https://rustbyexample.com/)
   * [Rust Cookbook](https://brson.github.io/rust-cookbook/) — a collection of simple examples that demonstrate good practices to accomplish common programming tasks, using the crates of the Rust ecosystem.
