@@ -80,7 +80,7 @@ See also [Friends of Rust](https://www.rust-lang.org/friends.html) (organization
 * [jedisct1/flowgger](https://github.com/jedisct1/flowgger) — a fast, simple and lightweight data collector
 * [jwilm/alacritty](https://github.com/jwilm/alacritty) — a cross-platform, GPU enhanced terminal emulator
 * [kbknapp/docli](https://github.com/kbknapp/docli-rs) — a command line utility for managing DigitalOcean infrastructure [<img src="https://api.travis-ci.org/kbknapp/docli-rs.svg?branch=master">](https://travis-ci.org/kbknapp/docli-rs)
-* [MaidSafe](http://maidsafe.net/) — a decentralized platform.
+* [MaidSafe](https://maidsafe.net) — a decentralized platform.
 * [notty](https://github.com/withoutboats/notty) — A new kind of terminal
 * [qmx/limonite](https://github.com/qmx/limonite) — static blog/website generator [<img src="https://api.travis-ci.org/qmx/limonite.svg?branch=master">](https://travis-ci.org/qmx/limonite)
 * [Sandstorm Collections App](https://github.com/sandstorm-io/collections-app)
@@ -156,7 +156,7 @@ See also [Friends of Rust](https://www.rust-lang.org/friends.html) (organization
 
 ## Development tools
 
-* [Clippy](https://github.com/Manishearth/rust-clippy) [[clippy](https://crates.io/crates/clippy)] — Rust lints [<img src="https://api.travis-ci.org/Manishearth/rust-clippy.svg?branch=master">](https://travis-ci.org/Manishearth/rust-clippy)
+* [Clippy](https://github.com/rust-lang-nursery/rust-clippy) [[clippy](https://crates.io/crates/clippy)] — Rust lints [<img src="https://api.travis-ci.org/rust-lang-nursery/rust-clippy.svg?branch=master">](https://travis-ci.org/rust-lang-nursery/rust-clippy)
 * [clog-tool/clog-cli](https://github.com/clog-tool/clog-cli) — generates a changelog from git metadata ([conventional changelog](https://blog.thoughtram.io/announcements/tools/2014/09/18/announcing-clog-a-conventional-changelog-generator-for-the-rest-of-us.html)) [<img src="https://api.travis-ci.org/clog-tool/clog-cli.svg?branch=master">](https://travis-ci.org/clog-tool/clog-cli)
 * [dan-t/rusty-tags](https://github.com/dan-t/rusty-tags) — create ctags/etags for a cargo project and all of its dependencies [<img src="https://api.travis-ci.org/dan-t/rusty-tags.svg?branch=master">](https://travis-ci.org/dan-t/rusty-tags)
 * [frewsxcv/crate-deps](https://github.com/frewsxcv/crate-deps) — generates images of dependency graphs for crates hosted on crates.io
