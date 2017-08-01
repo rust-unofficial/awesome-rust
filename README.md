@@ -227,10 +227,10 @@ See also [Friends of Rust](https://www.rust-lang.org/friends.html) (organization
 See also [Foreign Function Interface](https://doc.rust-lang.org/book/first-edition/ffi.html),  [The Rust FFI Omnibus](http://jakegoulding.com/rust-ffi-omnibus/) (a collection of examples of using code written in Rust from other languages) and [FFI examples written in Rust](https://github.com/alexcrichton/rust-ffi-examples).
 
 * C
-  * [rlhunt/cbindgen](https://github.com/rlhunt/cbindgen/) — generates C header files from Rust source files. Used in Gecko for WebRender [<img src="https://api.travis-ci.org/rlhunt/cbindgen.svg?branch=master">](https://travis-ci.org/rlhunt/cbindgen)
+  * [rlhunt/cbindgen](https://github.com/eqrion/cbindgen ) — generates C header files from Rust source files. Used in Gecko for WebRender [<img src="https://api.travis-ci.org/eqrion/cbindgen .svg?branch=master">](https://travis-ci.org/eqrion/cbindgen )
   * [Sean1708/rusty-cheddar](https://github.com/Sean1708/rusty-cheddar) — generates C header files from Rust source files [<img src="https://api.travis-ci.org/Sean1708/rusty-cheddar.svg?branch=master">](https://travis-ci.org/Sean1708/rusty-cheddar)
 * C++
-  * [servo/rust-bindgen](https://github.com/servo/rust-bindgen) — a Rust bindings generator
+  * [rust-lang-nursery/rust-bindgen](https://github.com/rust-lang-nursery/rust-bindgen) — a Rust bindings generator
 * Erlang
   * [hansihe/Rustler](https://github.com/hansihe/Rustler) — safe Rust bridge for creating Erlang NIF functions [<img src="https://api.travis-ci.org/hansihe/rustler.svg?branch=master">](https://travis-ci.org/hansihe/rustler)
 * Haskell
@@ -640,7 +640,7 @@ See also [Are we game yet?](http://arewegameyet.com)
   * [Piston](http://www.piston.rs) — [<img src="https://api.travis-ci.org/PistonDevelopers/piston.svg?branch=master">](https://travis-ci.org/PistonDevelopers/piston)
 * [SDL](http://www.libsdl.org/) [[sdl](https://crates.io/keywords/sdl)]
   * [brson/rust-sdl](https://github.com/brson/rust-sdl) — SDL1 bindings [<img src="https://api.travis-ci.org/brson/rust-sdl.svg?branch=master">](https://travis-ci.org/brson/rust-sdl)
-  * [AngryLawyer/rust-sdl2](https://github.com/AngryLawyer/rust-sdl2) — SDL2 bindings [<img src="https://api.travis-ci.org/AngryLawyer/rust-sdl2.svg?branch=master">](https://travis-ci.org/AngryLawyer/rust-sdl2)
+  * [Rust-SDL2/rust-sdl2](https://github.com/Rust-SDL2/rust-sdl2) — SDL2 bindings [<img src="https://api.travis-ci.org/Rust-SDL2/rust-sdl2.svg?branch=master">](https://travis-ci.org/Rust-SDL2/rust-sdl2)
 * SFML
   * [jeremyletang/rust-sfml](https://github.com/jeremyletang/rust-sfml) — [SFML](https://www.sfml-dev.org/) bindings [<img src="https://api.travis-ci.org/jeremyletang/rust-sfml.svg?branch=master">](https://travis-ci.org/jeremyletang/rust-sfml)
 * Voxlap
