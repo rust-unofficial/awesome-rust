@@ -905,7 +905,6 @@ See also [Rust web framework comparison](https://github.com/flosse/rust-web-fram
   * [University of Pennsylvania's Comp Sci Rust Programming Course](http://cis198-2016s.github.io/schedule/)
 * Podcasts
   * [New Rustacean](http://www.newrustacean.com) — a podcast about learning Rust
-  * [Rusty Radio](http://rustyrad.io) — covering the rust ecosystem
 * [RustCamp 2015 Talks](http://confreaks.tv/events/rustcamp2015)
 * [Rust Design Patterns](https://github.com/rust-unofficial/patterns)
 * [Rust Guidelines](http://aturon.github.io/)
