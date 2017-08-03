@@ -706,7 +706,7 @@ See also [Are we game yet?](http://arewegameyet.com)
   * [White-Oak/qml-rust](https://github.com/White-Oak/qml-rust) — QML bindings. [<img src="https://api.travis-ci.org/White-Oak/qml-rust.svg?branch=master">](https://travis-ci.org/White-Oak/qml-rust)
 * [saurvs/nfd-rs](https://github.com/saurvs/nfd-rs) — [nativefiledialog](https://github.com/mlabbe/nativefiledialog) bindings
 * [Sciter](https://sciter.com/)
-  * [pravic/rust-sciter](https://github.com/pravic/rust-sciter) — Sciter bindings [<img src="https://ci.appveyor.com/api/projects/status/github/pravic/rust-sciter?svg=true">](https://ci.appveyor.com/project/pravic/rust-sciter)
+  * [sciter-sdk/rust-sciter](https://github.com/sciter-sdk/rust-sciter) — Sciter bindings [<img src="https://ci.appveyor.com/api/projects/status/github/sciter-sdk/rust-sciter?svg=true">](https://ci.appveyor.com/project/sciter-sdk/rust-sciter)
 * [Termbox](https://github.com/nsf/termbox)
   * [gchp/rustbox](https://github.com/gchp/rustbox) — a Rust implementation of Termbox [<img src="https://api.travis-ci.org/gchp/rustbox.svg?branch=master">](https://travis-ci.org/gchp/rustbox)
 
