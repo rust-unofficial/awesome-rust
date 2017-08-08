@@ -2,7 +2,7 @@
 
 Do you want to contribute? We'd love that.
 
-Our goal is to have mostly projects that are stable and useful to most users.
+Our goal is to have mostly projects that are stable and useful to many users.
 
 ## How?
 
