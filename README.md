@@ -669,6 +669,7 @@ See also [Are we game yet?](http://arewegameyet.com)
   * [tomaka/glutin](https://github.com/tomaka/glutin) — Rust alternative to [GLFW](http://www.glfw.org/) [<img src="https://api.travis-ci.org/tomaka/glutin.svg?branch=master">](https://travis-ci.org/tomaka/glutin)
 * PDF
   * [kaj/rust-pdf](https://github.com/kaj/rust-pdf) — [<img src="https://api.travis-ci.org/kaj/rust-pdf.svg?branch=master">](https://travis-ci.org/kaj/rust-pdf)
+  * [sharazam/printpdf](https://github.com/sharazam/printpdf) — PDF writing library [<img src="https://api.travis-ci.org/sharazam/printpdf.svg?branch=master">](https://travis-ci.org/sharazam/printpdf)
 * [Vulkan](https://www.khronos.org/vulkan/) [[vulkan](https://crates.io/keywords/vulkan)]
   * [tomaka/vulkano](https://github.com/tomaka/vulkano) [[vulkano](https://crates.io/crates/vulkano)] — [<img src="https://api.travis-ci.org/tomaka/vulkano.svg?branch=master">](https://travis-ci.org/tomaka/vulkano)
 
