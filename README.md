@@ -15,6 +15,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   - [FFI](#ffi)
   - [IDEs](#ides)
   - [Profiling](#profiling)
+  - [Static Analysis](#static-analysis)
   - [Testing](#testing)
 - [Libraries](#libraries)
   - [Astronomy](#astronomy)
@@ -309,6 +310,12 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust and IDEs](https
 * FlameGraphs
   * [mrhooray/torch](https://github.com/mrhooray/torch) — generates FlameGraphs based on DWARF Debug Info
   * [TyOverby/flame](https://github.com/TyOverby/flame) — [<img src="https://api.travis-ci.org/TyOverby/flame.svg?branch=master">](https://travis-ci.org/TyOverby/flame)
+
+### Static Analysis
+
+[[assert](https://crates.io/keywords/assert), [static](https://crates.io/keywords/static)]
+
+* [nvzqz/static-assertions-rs](https://github.com/nvzqz/static-assertions-rs/) [[static_assertions](https://crates.io/crates/static_assertions)] Compile-time assertions to ensure that invariants are met [![Build Status](https://api.travis-ci.org/nvzqz/static-assertions-rs.svg?branch=master)](https://travis-ci.org/nvzqz/static-assertions-rs/)
 
 ### Testing
 
