@@ -412,6 +412,7 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust and IDEs](https
 
 * [kkawakam/rustyline](https://github.com/kkawakam/rustyline) — Readline Implementation in Rust [![Build Status](https://api.travis-ci.org/kkawakam/rustyline.svg?branch=master)](https://travis-ci.org/kkawakam/rustyline)
 * [srijs/rust-copperline](https://github.com/srijs/rust-copperline) — pure-Rust Command Line Editing Library
+* [imp/pager-rs](https://gitlab.com/imp/pager-rs) - helps pipe your output through an external pager [![Build Status](https://gitlab.com/imp/pager-rs/badges/master/build.svg)](https://gitlab.com/imp/pager-rs/pipelines)
 
 
 ### Compression
