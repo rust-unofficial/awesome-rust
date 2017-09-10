@@ -410,9 +410,9 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust and IDEs](https
 
 ### Command-line interface
 
+* [imp/pager-rs](https://gitlab.com/imp/pager-rs) — helps pipe your output through an external pager [![Build Status](https://gitlab.com/imp/pager-rs/badges/master/build.svg)](https://gitlab.com/imp/pager-rs/pipelines)
 * [kkawakam/rustyline](https://github.com/kkawakam/rustyline) — Readline Implementation in Rust [![Build Status](https://api.travis-ci.org/kkawakam/rustyline.svg?branch=master)](https://travis-ci.org/kkawakam/rustyline)
 * [srijs/rust-copperline](https://github.com/srijs/rust-copperline) — pure-Rust Command Line Editing Library
-* [imp/pager-rs](https://gitlab.com/imp/pager-rs) - helps pipe your output through an external pager [![Build Status](https://gitlab.com/imp/pager-rs/badges/master/build.svg)](https://gitlab.com/imp/pager-rs/pipelines)
 
 
 ### Compression
@@ -821,7 +821,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 ### Platform specific
 
 * Linux
-  * [hannobraun/inotify-rs](https://github.com/hannobraun/inotify-rs) — [inotify](https://en.wikipedia.org/wiki/Inotify) bindings [<img src="https://api.travis-ci.org/hannobraun/inotify-rs.svg?branch=master">](https://travis-ci.org/hannobraun/inotify-rs)
+  * [hannobraun/inotify-rs](https://github.com/inotify-rs/inotify) — [inotify](https://en.wikipedia.org/wiki/Inotify) bindings [<img src="https://api.travis-ci.org/inotify-rs/inotify.svg?branch=master">](https://travis-ci.org/inotify-rs/inotify)
   * [yaa110/rust-iptables](https://github.com/yaa110/rust-iptables) — [iptables](https://www.netfilter.org/projects/iptables/index.html) bindings [<img src="https://api.travis-ci.org/yaa110/rust-iptables.svg?branch=master">](https://travis-ci.org/yaa110/rust-iptables)
 * Unix-like
   * [nix-rust/nix](https://github.com/nix-rust/nix) — Unix-like API bindings [<img src="https://api.travis-ci.org/nix-rust/nix.svg?branch=master">](https://travis-ci.org/nix-rust/nix)
