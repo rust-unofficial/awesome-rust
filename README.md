@@ -729,6 +729,7 @@ See also [Are we game yet?](http://arewegameyet.com)
   * [sciter-sdk/rust-sciter](https://github.com/sciter-sdk/rust-sciter) — Sciter bindings [<img src="https://ci.appveyor.com/api/projects/status/github/sciter-sdk/rust-sciter?svg=true">](https://ci.appveyor.com/project/sciter-sdk/rust-sciter)
 * [Termbox](https://github.com/nsf/termbox)
   * [gchp/rustbox](https://github.com/gchp/rustbox) — a Rust implementation of Termbox [<img src="https://api.travis-ci.org/gchp/rustbox.svg?branch=master">](https://travis-ci.org/gchp/rustbox)
+  * [ticki/termion](https://github.com/ticki/termion) - A bindless library for controlling terminals/TTY - provides a full-featured alternative to Termbox [<img src="https://travis-ci.org/ticki/termion.svg?branch=master">](https://travis-ci.org/ticki/termion)
 
 
 ### Image processing
