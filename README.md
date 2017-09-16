@@ -158,6 +158,8 @@ See also [Friends of Rust](https://www.rust-lang.org/friends.html) (organization
   * [tailhook/vagga](https://github.com/tailhook/vagga) — a containerization tool without daemons [<img src="https://api.travis-ci.org/tailhook/vagga.svg?branch=master">](https://travis-ci.org/tailhook/vagga)
 * **Window Managers**
   * [way-cooler/way-cooler](https://github.com/way-cooler/way-cooler) — a customizable Wayland compositor (window manager) [<img src="https://api.travis-ci.org/way-cooler/way-cooler.svg?branch=master">](https://travis-ci.org/way-cooler/way-cooler)
+* **Web**
+  * [mcux/kylyp](https://github.com/mcux/kylyp) — kylyp : use rust, rocket, diesel, postgresql, and responsive design to build A new Forum. [<img src="https://api.travis-ci.org/mcux/kylyp.svg?branch=master">](https://travis-ci.org/mcux/kylyp)
 
 ## Development tools
 
