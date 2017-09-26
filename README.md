@@ -137,6 +137,7 @@ See also [Friends of Rust](https://www.rust-lang.org/friends.html) (organization
   * [buster/rrun](https://github.com/buster/rrun) — a command launcher for Linux, similar to gmrun  [<img src="https://api.travis-ci.org/buster/rrun.svg?branch=master">](https://travis-ci.org/buster/rrun)
   * [cristianoliveira/funzzy](https://github.com/cristianoliveira/funzzy) — a configurable filesystem watcher inspired by [entr](http://entrproject.org/) [<img src="https://api.travis-ci.org/cristianoliveira/funzzy.svg?branch=master">](https://travis-ci.org/cristianoliveira/funzzy)
   * [derniercri/snatch](https://github.com/derniercri/snatch) — a download accelerator [<img src="https://api.travis-ci.org/derniercri/snatch.svg?branch=master">](https://travis-ci.org/derniercri/snatch)
+  * [lotabout/skim](https://github.com/lotabout/skim) — A fuzzy finder in pure rust [<img src="https://travis-ci.org/lotabout/skim.svg?branch=master">](https://travis-ci.org/lotabout/skim)
   * [mmstick/parallel](https://github.com/mmstick/parallel) — a command-line CPU load balancer
   * [mmstick/systemd-manager](https://github.com/mmstick/systemd-manager) — a systemd service manager written in Rust using GTK-rs.
   * [mmstick/tv-renamer](https://github.com/mmstick/tv-renamer) — a tv series renaming application with an optional GTK3 frontend. [<img src="https://api.travis-ci.org/mmstick/tv-renamer.svg?branch=master">](https://travis-ci.org/mmstick/tv-renamer)
