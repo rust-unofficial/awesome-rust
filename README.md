@@ -155,6 +155,7 @@ See also [Friends of Rust](https://www.rust-lang.org/friends.html) (organization
 * **Utilities**
   * [arthrp/quick-skeleton](https://github.com/arthrp/quick-skeleton) — Project scaffolding tool, similar to Yeoman and Slush.
   * [yaa110/rubigo](https://github.com/yaa110/rubigo) — Golang dependency tool and package manager, written in Rust [<img src="https://api.travis-ci.org/yaa110/rubigo.svg?branch=master">](https://travis-ci.org/yaa110/rubigo)
+  * [amar-laksh/workstation](https://github.com/amar-laksh/workstation) - A commandline tool to help you manage your workstation by distancing you from your screen, locking your screen when you aren't there among other things with OPENCV!
 * **Virtualization**
   * [tailhook/vagga](https://github.com/tailhook/vagga) — a containerization tool without daemons [<img src="https://api.travis-ci.org/tailhook/vagga.svg?branch=master">](https://travis-ci.org/tailhook/vagga)
 * **Window Managers**
