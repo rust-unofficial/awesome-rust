@@ -925,6 +925,8 @@ See also [Are we web yet?](http://www.arewewebyet.org) and [Rust web framework c
   * [TeXitoi/benchmarksgame-rs](https://github.com/TeXitoi/benchmarksgame-rs) — Rust implementations for the [The Computer Language Benchmarks Game](http://benchmarksgame.alioth.debian.org/) [<img src="https://api.travis-ci.org/TeXitoi/benchmarksgame-rs.svg?branch=master">](https://travis-ci.org/TeXitoi/benchmarksgame-rs)
 * Decks & Presentations
   * [Learning systems programming with Rust](https://speakerdeck.com/jvns/learning-systems-programming-with-rust) — Presented by [Julia Evans](https://twitter.com/@b0rk) @ Rustconf 2016.
+  * [Rust: Hack Without Fear!](https://www.youtube.com/watch?v=lO1z-7cuRYI) Presented by [Nicholas Matsakis](https://github.com/nikomatsakis) @ C++Now 2018
+  * [Shipping a Solid Rust Crate](https://www.youtube.com/watch?v=t4CyEKb-ywA) Presented by [Michael Gattozzi](https://github.com/mgattozzi) @ RustConf 2017
 * Learning
   * [exercism.io](http://exercism.io/languages/rust/about) — programming exercises that help you learn new concepts in Rust.
   * [Idiomatic Rust](https://github.com/mre/idiomatic-rust) —  A peer-reviewed collection of articles/talks/repos which teach idiomatic Rust.
