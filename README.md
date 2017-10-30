@@ -392,6 +392,7 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust and IDEs](https
 
 ### Caching
 
+* [aisk/rust-memcache](https://github.com/aisk/rust-memcache) - Memcached client library [https://travis-ci.org/aisk/rust-memcache.svg?branch=master](https://github.com/aisk/rust-memcache)
 * [jaysonsantos/bmemcached-rs](https://github.com/jaysonsantos/bmemcached-rs) — Memcached library written in pure rust [<img src="https://api.travis-ci.org/jaysonsantos/bmemcached-rs.svg?branch=master">](https://travis-ci.org/jaysonsantos/bmemcached-rs)
 * [jaemk/cached](https://github.com/jaemk/cached) — Simple function caching/memoization
 
