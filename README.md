@@ -45,6 +45,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   - [Graph processing](#graph-processing)
   - [GUI](#gui)
   - [Image processing](#image-processing)
+  - [Language specification](#language-specification)
   - [Logging](#logging)
   - [Machine learning](#machine-learning)
   - [Markup language](#markup-language)
@@ -758,6 +759,11 @@ See also [Are we game yet?](http://arewegameyet.com)
 * [PistonDevelopers/image](https://github.com/PistonDevelopers/image) — Basic imaging processing functions and methods for converting to and from image formats [<img src="https://api.travis-ci.org/PistonDevelopers/image.svg?branch=master">](https://travis-ci.org/PistonDevelopers/image)
 * [kali/opencv-rust](https://github.com/kali/opencv-rust) — Rust bindings for OpenCV [<img src="https://api.travis-ci.org/kali/opencv-rust.svg?branch=cv2">](https://travis-ci.org/kali/opencv-rust)
 * [teovoinea/steganography](https://github.com/teovoinea/steganography) [[steganography](https://crates.io/crates/steganography)] — A simple steganography library [<img src="https://api.travis-ci.org/teovoinea/steganography.svg?branch=master">](https://travis-ci.org/teovoinea/steganography)
+
+
+### Language specification
+
+* [snewt/bnf](https://github.com/snewt/bnf) — A library for parsing Backus–Naur form context-free grammars. [<img src="https://api.travis-ci.org/snewt/bnf.svg?branch=master">](https://travis-ci.org/snewt/bnf)
 
 
 ### Logging
