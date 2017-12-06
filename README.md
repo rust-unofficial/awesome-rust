@@ -86,12 +86,19 @@ See also [Friends of Rust](https://www.rust-lang.org/friends.html) (organization
 * [jwilm/alacritty](https://github.com/jwilm/alacritty) — a cross-platform, GPU enhanced terminal emulator
 * [kbknapp/docli](https://github.com/kbknapp/docli-rs) — a command line utility for managing DigitalOcean infrastructure [<img src="https://api.travis-ci.org/kbknapp/docli-rs.svg?branch=master">](https://travis-ci.org/kbknapp/docli-rs)
 * [MaidSafe](https://maidsafe.net) — a decentralized platform.
+* [mmstick/cargo-deb](https://github.com/mmstick/cargo-deb) - Cargo subcommand for generating binary Debian packages
+* [mmstick/concurr](https://github.com/mmstick/concurr) - Alternative to GNU Parallel w/ client-server architecture
+* [mmstick/fontfinder](https://github.com/mmstick/fontfinder) - GTK3 application for previewing and installing Google fonts
+* [mmstick/parallel](https://github.com/mmstick/parallel) - Reimplementation of GNU Parallel
+* [mmstick/systemd-manager](https://github.com/mmstick/systemd-manager) - GTK3 application for managing systemd services
+* [mmstick/tv-renamer](https://github.com/mmstick/tv-renamer) - GTK3 application for renaming TV series w/ TVDB support
 * [notty](https://github.com/withoutboats/notty) — A new kind of terminal
 * [Parity](https://github.com/paritytech/parity) — Fast, light, and robust Ethereum implementation [![build status](https://gitlab.ethcore.io/parity/parity/badges/master/build.svg)](https://gitlab.ethcore.io/parity/parity/commits/master)
 * [parity-bitcoin](https://github.com/paritytech/parity-bitcoin) — The Parity Bitcoin client [<img src="https://api.travis-ci.org/paritytech/parity-bitcoin.svg?branch=master">](https://travis-ci.com/paritytech/parity-bitcoin)
 * [Pijul](https://pijul.org) — a patch-based distributed version control system
 * [qmx/limonite](https://github.com/qmx/limonite) — static blog/website generator [<img src="https://api.travis-ci.org/qmx/limonite.svg?branch=master">](https://travis-ci.org/qmx/limonite)
 * [quadrupleslap/leven](https://github.com/quadrupleslap/leven) [[leven](https://crates.io/crates/leven)] — a simple, parallelized blog generator. [<img src="https://api.travis-ci.org/quadrupleslap/leven.svg?branch=master">](https://travis-ci.org/quadrupleslap/leven)
+* [redox-os/ion](https://github.com/redox-os/ion) - Next-generation system shell [<img src="https://api.travis-ci.org/redox-os/ion.svg?branch=master">](https://travis-ci.org/redox-os/ion)
 * [Sandstorm Collections App](https://github.com/sandstorm-io/collections-app)
 * [Servo](https://github.com/servo/servo) — a prototype web browser engine
 * [Weld](https://github.com/serayuzgur/weld) — Full fake REST API generator [<img src="https://api.travis-ci.org/serayuzgur/weld.svg">](https://travis-ci.org/serayuzgur/weld)
