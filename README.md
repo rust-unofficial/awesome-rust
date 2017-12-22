@@ -33,6 +33,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   - [Configuration](#configuration)
   - [Cryptography](#cryptography)
   - [Database](#database)
+  - [Data processing](#data-processing)
   - [Data structures](#data-structures)
   - [Date and time](#date-and-time)
   - [Distributed Systems](#distributed-systems)
@@ -565,6 +566,13 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust and IDEs](https
 * ORM [[orm](https://crates.io/keywords/orm)]
   * [diesel-rs/diesel](https://github.com/diesel-rs/diesel) — an ORM and Query builder for Rust [![Build Status](https://api.travis-ci.org/diesel-rs/diesel.svg)](https://travis-ci.org/diesel-rs/diesel)
   * [ivanceras/rustorm](https://github.com/ivanceras/rustorm) — an ORM for Rust [![Build Status](https://api.travis-ci.org/ivanceras/rustorm.svg)](https://travis-ci.org/ivanceras/rustorm)
+
+
+### Data processing
+
+* [bluss/rust-ndarray](https://github.com/bluss/rust-ndarray) — N-dimensional array with array views, multidimensional slicing, and efficient operations
+* [kernelmachine/utah](https://github.com/kernelmachine/utah) — Dataframe structure and operations in Rust
+* [weld-project/weld](https://github.com/weld-project/weld) - High-performance runtime for data analytics applications
 
 
 ### Data structures
