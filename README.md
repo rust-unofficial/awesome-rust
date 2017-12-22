@@ -35,6 +35,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   - [Database](#database)
   - [Data processing](#data-processing)
   - [Data structures](#data-structures)
+  - [Data visualization](#data-visualization)
   - [Date and time](#date-and-time)
   - [Distributed Systems](#distributed-systems)
   - [Email](#email)
@@ -583,6 +584,10 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust and IDEs](https
 * [fizyk20/generic-array](https://github.com/fizyk20/generic-array) – a hack to allow for arrays sized by typenums [<img src="https://api.travis-ci.org/fizyk20/generic-array.svg?branch=master">](https://travis-ci.org/fizyk20/generic-array)
 * [Nemo157/roaring-rs](https://github.com/Nemo157/roaring-rs) – Roaring Bitmaps in Rust [<img src="https://api.travis-ci.org/Nemo157/roaring-rs.svg?branch=master">](https://travis-ci.org/Nemo157/roaring-rs)
 * [reem/rust-typemap](https://github.com/reem/rust-typemap) — [<img src="https://api.travis-ci.org/reem/rust-typemap.svg?branch=master">](https://travis-ci.org/reem/rust-typemap)
+
+### Data Visualization
+
+* [saresend/gust](https://github.com/saresend/Gust) - [<img src="https://api.travis-ci.org/saresend/Gust.svg?branch=master">](https://travis-ci.org/saresend/Gust)
 
 
 ### Date and time
