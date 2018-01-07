@@ -177,7 +177,7 @@ See also [Friends of Rust](https://www.rust-lang.org/friends.html) (organization
 * **Window Managers**
   * [way-cooler/way-cooler](https://github.com/way-cooler/way-cooler) — a customizable Wayland compositor (window manager) [<img src="https://api.travis-ci.org/way-cooler/way-cooler.svg?branch=master">](https://travis-ci.org/way-cooler/way-cooler)
 * **Web**
-  * [mcux/kylyp](https://github.com/uncode/kylyp) — A new Forum use rust, rocket, diesel, postgresql, and responsive design [<img src="https://api.travis-ci.org/mcux/kylyp.svg?branch=master">](https://travis-ci.org/mcux/kylyp)
+  * [OUISRC/muro](https://github.com/OUISRC/muro) — A new Forum use rust, rocket, diesel, postgresql, and responsive design [<img src="https://api.travis-ci.org/OUISRC/muro.svg?branch=master">](https://travis-ci.org/OUISRC/muro)
 
 ## Development tools
 
