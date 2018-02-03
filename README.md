@@ -403,7 +403,7 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust and IDEs](https
 * [tomaka/rodio](https://github.com/tomaka/rodio) - A Rust audio playback library [![Build Status](https://api.travis-ci.org/tomaka/rodio.svg?branch=master)](https://travis-ci.org/tomaka/rodio)
 * [RustAudio](https://github.com/RustAudio)
   * [RustAudio/rust-portaudio](https://github.com/RustAudio/rust-portaudio) — [PortAudio](http://www.portaudio.com/) bindings [<img src="https://api.travis-ci.org/RustAudio/rust-portaudio.svg?branch=master">](https://travis-ci.org/RustAudio/rust-portaudio)
-
+* [germangb/minimp3-rs](https://github.com/germangb/minimp3-rs) - Lightweight mp3 decoding library [![Build Status](https://api.travis-ci.org/germangb/minimp3-rs.svg?branch=master)](https://travis-ci.org/germangb/minimp3-rs)
 
 ### Authentication
 
