@@ -448,7 +448,7 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust and IDEs](https
 
 * [docopt/docopt.rs](https://github.com/docopt/docopt.rs) — a Rust implementation of [DocOpt](http://docopt.org) [<img src="https://api.travis-ci.org/docopt/docopt.rs.svg?branch=master">](https://travis-ci.org/docopt/docopt.rs)
 * [kbknapp/clap-rs](https://github.com/kbknapp/clap-rs) — a simple to use, full featured command-line argument parser [<img src="https://api.travis-ci.org/kbknapp/clap-rs.svg?branch=master">](https://travis-ci.org/kbknapp/clap-rs)
-* [TeXitoi/structopt](https://github.com/TeXitoi/structopt) — parse command line argument by defining a struct. It combines clap with custom derive. [![Build status](https://travis-ci.org/TeXitoi/structopt.svg?branch=master)](https://travis-ci.org/TeXitoi/structopt)
+* [TeXitoi/structopt](https://github.com/TeXitoi/structopt) — parse command line argument by defining a struct. It combines clap with custom derive. [![Build status](https://api.travis-ci.org/TeXitoi/structopt.svg?branch=master)](https://travis-ci.org/TeXitoi/structopt)
 
 
 ### Command-line interface
@@ -578,7 +578,7 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust and IDEs](https
   * PostgreSql [[postgres](https://crates.io/keywords/postgres), [postgresql](https://crates.io/keywords/postgresql)]
     * [sfackler/rust-postgres](https://github.com/sfackler/rust-postgres) [[postgres](https://crates.io/crates/postgres)] — a native [PostgreSQL](https://www.postgresql.org/) client [<img src="https://api.travis-ci.org/sfackler/rust-postgres.svg?branch=master">](https://travis-ci.org/sfackler/rust-postgres)
   * Sqlite [[sqlite](https://crates.io/keywords/sqlite)]
-    * [jgallagher/rusqlite](https://github.com/jgallagher/rusqlite) — [Sqlite3](https://www.sqlite.org/) bindings [<img src="https://api.travis-ci.org/jgallagher/rusqlite.svg?branch=master">](https://travis-ci.org/jgallagher/rusqlite)
+    * [jgallagher/rusqlite](https://github.com/jgallagher/rusqlite) — [Sqlite3](https://www.sqlite.org/index.html) bindings [<img src="https://api.travis-ci.org/jgallagher/rusqlite.svg?branch=master">](https://travis-ci.org/jgallagher/rusqlite)
 * ORM [[orm](https://crates.io/keywords/orm)]
   * [diesel-rs/diesel](https://github.com/diesel-rs/diesel) — an ORM and Query builder for Rust [![Build Status](https://api.travis-ci.org/diesel-rs/diesel.svg)](https://travis-ci.org/diesel-rs/diesel)
   * [ivanceras/rustorm](https://github.com/ivanceras/rustorm) — an ORM for Rust [![Build Status](https://api.travis-ci.org/ivanceras/rustorm.svg)](https://travis-ci.org/ivanceras/rustorm)
@@ -985,7 +985,7 @@ See also [Are we web yet?](http://www.arewewebyet.org) and [Rust web framework c
   * [sappworks/sapper](https://github.com/sappworks/sapper) — A lightweight web framework built on async hyper, implemented in Rust language. [<img src="https://api.travis-ci.org/sappworks/sapper.svg?branch=master">](https://travis-ci.org/sappworks/sapper)
   * [tiny-http](https://github.com/tiny-http/tiny-http) — Low level HTTP server library [<img src="https://api.travis-ci.org/frewsxcv/tiny-http.svg?branch=master">](https://travis-ci.org/frewsxcv/tiny-http)
   * [tomaka/rouille](https://github.com/tomaka/rouille) — Web framework in Rust [<img src="https://api.travis-ci.org/tomaka/rouille.svg?branch=master">](https://travis-ci.org/tomaka/rouille)
-  * [daniel-Q6wUOI/zap](https://github.com/daniel-Q6wUOI/zap) - A lightning fast http framework for Rust [<img src="https://api.travis-ci.org/daniel-Q6wUOI/zap.svg?branch=master">](https://travis-ci.org/daniel-Q6wUOI/zap)
+  * [daniel-Q6wUOI/zap](https://github.com/oltdaniel/zap) - A lightning fast http framework for Rust [<img src="https://api.travis-ci.org/daniel-Q6wUOI/zap.svg?branch=master">](https://travis-ci.org/daniel-Q6wUOI/zap)
   * [actix/actix-web](https://github.com/actix/actix-web) — A lightweight async web framework for Rust with websocket support [<img src="https://api.travis-ci.org/actix/actix-web.svg?branch=master">](https://travis-ci.org/actix/actix-web)
 * [WebSocket](https://datatracker.ietf.org/doc/rfc6455/)
   * [cyderize/rust-websocket](https://github.com/cyderize/rust-websocket) — a framework for dealing with WebSocket connections (both clients and servers) [<img src="https://api.travis-ci.org/cyderize/rust-websocket.svg?branch=master">](https://travis-ci.org/cyderize/rust-websocket)
