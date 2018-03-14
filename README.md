@@ -941,6 +941,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [PistonDevelopers/dyon](https://github.com/PistonDevelopers/dyon) — A rusty dynamically typed scripting language
 * [gluon-lang/gluon](https://github.com/gluon-lang/gluon) —  A small, statically-typed, functional programming language
 * [murarth/ketos](https://github.com/murarth/ketos) — A Lisp dialect functional programming language serving as a scripting and extension language for rust
+* [JohnBSmith/moss](https://github.com/JohnBSmith/moss) [[moss](https://crates.io/crates/moss)] — A dynamically typed scripting language
 * [jonathandturner/rhai](https://github.com/jonathandturner/rhai) — A tiny and fast embedded scripting language resembling a combination of JS and Rust
 
 ### Template engine
