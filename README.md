@@ -614,7 +614,7 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust and IDEs](https
 
 ### Data processing
 
-* [bluss/rust-ndarray](https://github.com/bluss/rust-ndarray) — N-dimensional array with array views, multidimensional slicing, and efficient operations
+* [bluss/ndarray](https://github.com/bluss/ndarray) — N-dimensional array with array views, multidimensional slicing, and efficient operations
 * [kernelmachine/utah](https://github.com/kernelmachine/utah) — Dataframe structure and operations in Rust
 * [weld-project/weld](https://github.com/weld-project/weld) - High-performance runtime for data analytics applications
 
