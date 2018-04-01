@@ -92,8 +92,6 @@ See also [Friends of Rust](https://www.rust-lang.org/friends.html) (organization
 * [MaidSafe](https://maidsafe.net) — a decentralized platform.
 * [nicohman/eidolon](https://github.com/nicohman/eidolon) — a steam and drm-free game registry and launcher for linux and macosx [<img src="https://api.travis-ci.org/nicohman/eidolon.svg?branch=master">](https://travis-ci.org/nicohman/eidolon)
 * [notty](https://github.com/withoutboats/notty) — A new kind of terminal
-* [Parity](https://github.com/paritytech/parity) — Fast, light, and robust Ethereum implementation [![build status](https://gitlab.ethcore.io/parity/parity/badges/master/build.svg)](https://gitlab.ethcore.io/parity/parity/commits/master)
-* [parity-bitcoin](https://github.com/paritytech/parity-bitcoin) — The Parity Bitcoin client [<img src="https://api.travis-ci.org/paritytech/parity-bitcoin.svg?branch=master">](https://travis-ci.com/paritytech/parity-bitcoin)
 * [Pijul](https://pijul.org) — a patch-based distributed version control system
 * [qmx/limonite](https://github.com/qmx/limonite) — static blog/website generator [<img src="https://api.travis-ci.org/qmx/limonite.svg?branch=master">](https://travis-ci.org/qmx/limonite)
 * [quadrupleslap/leven](https://github.com/quadrupleslap/leven) [[leven](https://crates.io/crates/leven)] — a simple, parallelized blog generator. [<img src="https://api.travis-ci.org/quadrupleslap/leven.svg?branch=master">](https://travis-ci.org/quadrupleslap/leven)
