@@ -81,7 +81,6 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 - [Resources](#resources)
 - [License](#license)
 
-
 ## Applications
 
 See also [Friends of Rust](https://www.rust-lang.org/friends.html) (organizations running Rust in production).
@@ -450,14 +449,12 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust and IDEs](https
 * [mindriot101/rust-fitsio](https://github.com/mindriot101/rust-fitsio) [[fitsio](https://crates.io/crates/fitsio)] — fits interface library wrapping cfitsio [<img src="https://api.travis-ci.org/mindriot101/rust-fitsio.svg?branch=master">](https://travis-ci.org/mindriot101/rust-fitsio)
 * [flosse/rust-sun](https://github.com/flosse/rust-sun) — A rust port of the JS library suncalc [<img src="https://api.travis-ci.org/flosse/rust-sun.svg?branch=master">](https://travis-ci.org/flosse/rust-sun)
 
-
 ### Asynchronous
 
 * [zonyitoo/coio-rs](https://github.com/zonyitoo/coio-rs) — a coroutine I/O library with a working-stealing scheduler [<img src="https://api.travis-ci.org/zonyitoo/coio-rs.svg?branch=master">](https://travis-ci.org/zonyitoo/coio-rs)
 * [dpc/mioco](https://github.com/dpc/mioco) — Scalable, coroutine-based, asynchronous IO handling library [<img src="https://img.shields.io/travis/dpc/mioco/master.svg?style=flat-square" alt="Travis CI Build Status">](https://travis-ci.org/dpc/mioco)
 * [rust-lang-nursery/futures-rs](https://github.com/rust-lang-nursery/futures-rs) — Zero-cost futures in Rust [<img src="https://api.travis-ci.org/rust-lang-nursery/futures-rs.svg?branch=master" alt="Travis CI Build Status">](https://travis-ci.org/rust-lang-nursery/futures-rs)
 * [carllerche/mio](https://github.com/carllerche/mio) — MIO is a lightweight IO library for Rust with a focus on adding as little overhead as possible over the OS abstractions [<img src="https://api.travis-ci.org/carllerche/mio.svg?branch=master">](https://travis-ci.org/carllerche/mio)
-
 
 ### Audio
 
@@ -477,11 +474,9 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust and IDEs](https
 * [hngnaig/rust-accountkit](https://github.com/hngnaig/rust-accountkit) — An implementation [Facebook AccountKit](https://developers.facebook.com/docs/accountkit) for Rust [![Build Status](https://api.travis-ci.org/hngnaig/rust-accountkit.svg?branch=master)](https://travis-ci.org/hngnaig/rust-accountkit)
 * [Keats/jsonwebtoken](https://github.com/Keats/jsonwebtoken) — [JSON Web Token](https://en.wikipedia.org/wiki/JSON_Web_Token) lib in rust  [![Build Status](https://api.travis-ci.org/Keats/jsonwebtoken.svg?branch=master)](https://travis-ci.org/Keats/jsonwebtoken)
 
-
 ### Bioinformatics
 
 * [Rust-Bio](https://github.com/rust-bio) — bioinformatics libraries in Rust.
-
 
 ### Caching
 
@@ -496,14 +491,12 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust and IDEs](https
 * [rustcc/coroutine-rs](https://github.com/rustcc/coroutine-rs) – Coroutine Library in Rust [<img src="https://img.shields.io/travis/rustcc/coroutine-rs.svg">](https://travis-ci.org/rustcc/coroutine-rs)
 * [zonyitoo/coio-rs](https://github.com/zonyitoo/coio-rs) – Coroutine I/O for Rust [<img src="https://api.travis-ci.org/zonyitoo/coio-rs.svg?branch=master">](https://travis-ci.org/zonyitoo/coio-rs)
 
-
 ### Cloud
 
 * AWS [[aws](https://crates.io/keywords/aws)]
   * [rusoto/rusoto](https://github.com/rusoto/rusoto) — [<img src="https://api.travis-ci.org/rusoto/rusoto.svg?branch=master">](https://travis-ci.org/rusoto/rusoto)
 * DigitalOcean
   * [kbknapp/doapi](https://github.com/kbknapp/doapi-rs) — DigitalOcean v2 API bindings [<img src="https://api.travis-ci.org/kbknapp/doapi-rs.svg?branch=master">](https://travis-ci.org/kbknapp/doapi-rs)
-
 
 ### Command-line
 
@@ -562,7 +555,6 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust and IDEs](https
 * zip
   * [mvdnes/zip-rs](https://github.com/mvdnes/zip-rs) — read and write ZIP archives [![Build Status](https://api.travis-ci.org/mvdnes/zip-rs.svg?branch=master)](https://travis-ci.org/mvdnes/zip-rs)
 
-
 ### Computation
 
 * [BLAS](https://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms) [[blas](https://crates.io/keywords/blas)]
@@ -590,11 +582,9 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust and IDEs](https
 * Rustimization [[rustimization](https://crates.io/crates/rustimization)]
   * [noshu/rustimization](https://github.com/noshu/rustimization) — A rust optimization library which includes L-BFGS-B and Conjugate Gradient algorithm
 
-
 ### Configuration
 
 * [mehcode/config-rs](https://github.com/mehcode/config-rs) [[config](https://crates.io/crates/config)] — Layered configuration system for Rust applications (with strong support for 12-factor applications). [<img src="https://api.travis-ci.org/mehcode/config-rs.svg?branch=master">](https://travis-ci.org/mehcode/config-rs)
-
 
 ### Cryptography
 
@@ -617,7 +607,6 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust and IDEs](https
 * [sfackler/rust-security-framework](https://github.com/sfackler/rust-security-framework) — Bindings for Security Framework (OSX native crypto)
 * [steffengy/schannel-rs](https://github.com/steffengy/schannel-rs) — Bindings for Schannel (Windows native TLS)
 * [zebradil/rustotpony](https://github.com/zebradil/rustotpony) — CLI manager of one-time password generators aka Google Authenticator (TOTP)
-
 
 ### Database
 
@@ -670,13 +659,11 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust and IDEs](https
   * [diesel-rs/diesel](https://github.com/diesel-rs/diesel) — an ORM and Query builder for Rust [![Build Status](https://api.travis-ci.org/diesel-rs/diesel.svg)](https://travis-ci.org/diesel-rs/diesel)
   * [ivanceras/rustorm](https://github.com/ivanceras/rustorm) — an ORM for Rust [![Build Status](https://api.travis-ci.org/ivanceras/rustorm.svg)](https://travis-ci.org/ivanceras/rustorm)
 
-
 ### Data processing
 
 * [bluss/ndarray](https://github.com/bluss/ndarray) — N-dimensional array with array views, multidimensional slicing, and efficient operations
 * [kernelmachine/utah](https://github.com/kernelmachine/utah) — Dataframe structure and operations in Rust
 * [weld-project/weld](https://github.com/weld-project/weld) - High-performance runtime for data analytics applications
-
 
 ### Data structures
 
@@ -694,14 +681,12 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust and IDEs](https
 
 * [saresend/gust](https://github.com/saresend/Gust) - [<img src="https://api.travis-ci.org/saresend/Gust.svg?branch=master">](https://travis-ci.org/saresend/Gust)
 
-
 ### Date and time
 
 [[date](https://crates.io/keywords/date), [time](https://crates.io/keywords/time)]
 
 * [chronotope/chrono](https://github.com/chronotope/chrono) — [<img src="https://api.travis-ci.org/chronotope/chrono.svg?branch=master">](https://travis-ci.org/chronotope/chrono)
 * [yaa110/rust-persian-calendar](https://github.com/yaa110/rust-persian-calendar) — [<img src="https://api.travis-ci.org/yaa110/rust-persian-calendar.svg?branch=master">](https://travis-ci.org/yaa110/rust-persian-calendar)
-
 
 ### Distributed systems
 
@@ -714,7 +699,6 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust and IDEs](https
   * [schickling/rust-beanstalkd](https://github.com/schickling/rust-beanstalkd) — [Beanstalkd](https://github.com/kr/beanstalkd) bindings [<img src="https://api.travis-ci.org/schickling/rust-beanstalkd.svg?branch=master">](https://travis-ci.org/schickling/rust-beanstalkd)
 * HDFS
   * [hyunsik/hdfs-rs](https://github.com/hyunsik/hdfs-rs) — libhdfs bindings [<img src="https://api.travis-ci.org/hyunsik/hdfs-rs.svg?branch=master">](https://travis-ci.org/hyunsik/hdfs-rs)
-
 
 ### Email
 
@@ -849,11 +833,9 @@ See also [Are we game yet?](http://arewegameyet.com)
 * [Vulkan](https://www.khronos.org/vulkan/) [[vulkan](https://crates.io/keywords/vulkan)]
   * [vulkano](https://github.com/vulkano-rs/vulkano) [[vulkano](https://crates.io/crates/vulkano)] — [<img src="https://api.travis-ci.org/vulkano-rs/vulkano.svg?branch=master">](https://travis-ci.org/vulkano-rs/vulkano)
 
-
 ### Graph processing
 
 * [kud1ing/tinkerpop-rs](https://github.com/kud1ing/tinkerpop-rs) — an example how to use Apache TinkerPop from Rust [<img src="https://api.travis-ci.org/kud1ing/tinkerpop-rs.svg?branch=master">](https://travis-ci.org/kud1ing/tinkerpop-rs)
-
 
 ### GUI
 
@@ -886,7 +868,6 @@ See also [Are we game yet?](http://arewegameyet.com)
 * [Sciter](https://sciter.com/)
   * [sciter-sdk/rust-sciter](https://github.com/sciter-sdk/rust-sciter) — Sciter bindings [<img src="https://ci.appveyor.com/api/projects/status/github/sciter-sdk/rust-sciter?svg=true">](https://ci.appveyor.com/project/sciter-sdk/rust-sciter)
 
-
 ### Image processing
 
 * [abonander/img_hash](https://github.com/abonander/img_hash) — Perceptual image hashing and comparison for equality and similarity.
@@ -895,11 +876,9 @@ See also [Are we game yet?](http://arewegameyet.com)
 * [kali/opencv-rust](https://github.com/kali/opencv-rust) — Rust bindings for OpenCV [<img src="https://api.travis-ci.org/kali/opencv-rust.svg?branch=cv2">](https://travis-ci.org/kali/opencv-rust)
 * [teovoinea/steganography](https://github.com/teovoinea/steganography) [[steganography](https://crates.io/crates/steganography)] — A simple steganography library [<img src="https://api.travis-ci.org/teovoinea/steganography.svg?branch=master">](https://travis-ci.org/teovoinea/steganography)
 
-
 ### Language specification
 
 * [shnewto/bnf](https://github.com/shnewto/bnf) — A library for parsing Backus–Naur form context-free grammars. [<img src="https://api.travis-ci.org/shnewto/bnf.svg?branch=master">](https://travis-ci.org/shnewto/bnf)
-
 
 ### Logging
 
@@ -908,7 +887,6 @@ See also [Are we game yet?](http://arewegameyet.com)
 * [rust-lang-nursery/log](https://github.com/rust-lang-nursery/log) — Logging implementation for Rust [![Build Status](https://api.travis-ci.org/rust-lang-nursery/log.svg?branch=master)](https://travis-ci.org/rust-lang-nursery/log)
 * [slog-rs/slog](https://github.com/slog-rs/slog) — Structured, composable logging for Rust [![Build Status](https://api.travis-ci.org/slog-rs/slog.svg?branch=master)](https://travis-ci.org/slog-rs/slog)
 * [sfackler/log4rs](https://github.com/sfackler/log4rs) — highly configurable logging framework modeled after Java's Logback and log4j libraries [![Build Status](https://api.travis-ci.org/sfackler/log4rs.svg?branch=master)](https://travis-ci.org/sfackler/log4rs)
-
 
 ### Machine learning
 
@@ -929,12 +907,10 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * hado
   * [ludat/hado-rs](https://github.com/ludat/hado-rs) - A little macro for writing haskell-like do expressions without too much ceremony
 
-
 ### Markup language
 
 * CommonMark
   * [google/pulldown-cmark](https://github.com/google/pulldown-cmark) — [CommonMark](http://commonmark.org/) parser in Rust
-
 
 ### Mobile
 
@@ -947,7 +923,6 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
   * [vhbit/ObjCrust](https://github.com/vhbit/ObjCrust) — using Rust to create an iOS static library [<img src="https://api.travis-ci.org/vhbit/ObjCrust.svg?branch=master">](https://travis-ci.org/vhbit/ObjCrust)
 * Pebble
   * [andars/pebble.rs](https://github.com/andars/pebble.rs) — a crate that allows Rust to be used to develop Pebble applications.
-
 
 ### Network programming
 
@@ -978,7 +953,6 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * CoAP
   * [Covertness/coap-rs](https://github.com/Covertness/coap-rs) — A [Constrained Application Protocol(CoAP)](https://tools.ietf.org/html/rfc7252) library for Rust. [<img src="https://api.travis-ci.org/Covertness/coap-rs.svg?branch=master">](https://travis-ci.org/Covertness/coap-rs)
 
-
 ### Parser
 
   * [Geal/nom](https://github.com/Geal/nom) — parser combinator library [<img src="https://api.travis-ci.org/Geal/nom.svg?branch=master">](https://travis-ci.org/Geal/nom)
@@ -992,7 +966,6 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
   * [ptal/oak](https://github.com/ptal/oak) — a typed PEG parser generator (compiler plugin)
   * [rustless/queryst](https://github.com/rustless/queryst) — a query string parsing library for Rust inspired by https://github.com/ljharb/qs [![Build Status](https://api.travis-ci.org/rustless/queryst.svg?branch=master)](https://travis-ci.org/rustless/queryst)
 
-
 ### Platform specific
 
 * Linux
@@ -1003,7 +976,6 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
   * [zargony/rust-fuse](https://github.com/zargony/rust-fuse) — [FUSE](https://github.com/libfuse/libfuse) bindings <img src="https://api.travis-ci.org/zargony/rust-fuse.svg?branch=master">
 * Windows
   * [retep998/winapi-rs](https://github.com/retep998/winapi-rs) — Windows API bindings [<img src="https://api.travis-ci.org/retep998/winapi-rs.svg?branch=master">](https://travis-ci.org/retep998/winapi-rs)
-
 
 ### Scripting
 [[scripting](https://crates.io/keywords/scripting)]
@@ -1027,7 +999,6 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
   * [rustache/rustache](https://github.com/rustache/rustache) — [<img src="https://api.travis-ci.org/rustache/rustache.svg?branch=master">](https://travis-ci.org/rustache/rustache)
 * [tailhook/marafet](https://github.com/tailhook/marafet) — Compiler for Jade-like template language to cito.js-based virtual dom
 
-
 ### Text processing
 
 * [BurntSushi/suffix](https://github.com/BurntSushi/suffix) — Linear time suffix array construction (with Unicode support) [<img src="https://api.travis-ci.org/BurntSushi/suffix.svg?branch=master">](https://travis-ci.org/BurntSushi/suffix)
@@ -1045,13 +1016,11 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [CurrySoftware/perlin](https://github.com/CurrySoftware/perlin) [[perlin](https://crates.io/crates/perlin)] — [<img src="https://api.travis-ci.org/CurrySoftware/perlin.svg?branch=master">](https://travis-ci.org/CurrySoftware/perlin)
 * [tantivy-search/tantivy](https://github.com/tantivy-search/tantivy) [[tantivy](https://crates.io/crates/tantivy)] — [<img src="https://api.travis-ci.org/tantivy-search/tantivy.svg?branch=master">](https://travis-ci.org/tantivy-search/tantivy)
 
-
 ### Virtualization
 
 * [beneills/quantum](https://github.com/beneills/quantum) — Advanced Rust quantum computer simulator [<img src="https://api.travis-ci.org/beneills/quantum.svg?branch=master">](https://travis-ci.org/beneills/quantum)
 * [ekse/unicorn-rs](https://github.com/ekse/unicorn-rs) — Rust bindings for the unicorn CPU emulator
 * [saurvs/hypervisor-rs](https://github.com/saurvs/hypervisor-rs) — Hardware-accelerated virtualization on OS X
-
 
 ### Web programming
 
@@ -1096,7 +1065,6 @@ See also [Are we web yet?](http://www.arewewebyet.org) and [Rust web framework c
 * Static Site Generators
   * [Keats/gutenberg](https://github.com/Keats/gutenberg) [[gutenberg](https://www.getgutenberg.io/)] — An opinionated static site generator with everything built-in. [![Build Status](https://api.travis-ci.org/Keats/gutenberg.svg?branch=master)](https://travis-ci.org/Keats/gutenberg)
 
-
 ## Resources
 
 * Benchmarks
@@ -1122,7 +1090,6 @@ See also [Are we web yet?](http://www.arewewebyet.org) and [Rust web framework c
 * [Rust Design Patterns](https://github.com/rust-unofficial/patterns)
 * [Rust Guidelines](http://aturon.github.io/)
 * [RustBooks](https://github.com/sger/RustBooks) — list of RustBooks
-
 
 ## License
 
