@@ -315,7 +315,7 @@ See also [Foreign Function Interface](https://doc.rust-lang.org/book/first-editi
   * [d-unseductable/ruru](https://github.com/d-unseductable/ruru) — native Ruby extensions written in Rust [<img src="https://api.travis-ci.org/d-unseductable/ruru.svg?branch=master">](https://travis-ci.org/d-unseductable/ruru)
   * [tildeio/helix](https://github.com/tildeio/helix) — write Ruby classes in Rust [<img src="https://api.travis-ci.org/tildeio/helix.svg?branch=master">](https://travis-ci.org/tildeio/helix)
 * Web Assembly
-  * [alexcrichton/wasm-bindgen](https://github.com/alexcrichton/wasm-bindgen) A project for facilitating high-level interactions between wasm modules and JS. [<img src="https://api.travis-ci.org/alexcrichton/wasm-bindgen.svg?branch=master">](https://travis-ci.org/alexcrichton/wasm-bindgen)]
+  * [rustwasm/wasm-bindgen](https://github.com/rustwasm/wasm-bindgen) A project for facilitating high-level interactions between wasm modules and JS. [<img src="https://api.travis-ci.org/rustwasm/wasm-bindgen.svg?branch=master">](https://travis-ci.org/rustwasm/wasm-bindgen)]
 
 ### IDEs
 
