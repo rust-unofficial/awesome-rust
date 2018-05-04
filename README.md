@@ -365,7 +365,8 @@ See also [Foreign Function Interface](https://doc.rust-lang.org/book/first-editi
   * [d-unseductable/ruru](https://github.com/d-unseductable/ruru) — native Ruby extensions written in Rust [<img src="https://api.travis-ci.org/d-unseductable/ruru.svg?branch=master">](https://travis-ci.org/d-unseductable/ruru)
   * [tildeio/helix](https://github.com/tildeio/helix) — write Ruby classes in Rust [<img src="https://api.travis-ci.org/tildeio/helix.svg?branch=master">](https://travis-ci.org/tildeio/helix)
 * Web Assembly
-  * [rustwasm/wasm-bindgen](https://github.com/rustwasm/wasm-bindgen) A project for facilitating high-level interactions between wasm modules and JS. [<img src="https://api.travis-ci.org/rustwasm/wasm-bindgen.svg?branch=master">](https://travis-ci.org/rustwasm/wasm-bindgen)]
+  * [ashleygwilliams/wasm-pack](https://github.com/ashleygwilliams/wasm-pack) — :package: :sparkles: pack up the wasm and publish it to npm! [<img src="https://api.travis-ci.org/ashleygwilliams/wasm-pack.svg?branch=master">](https://travis-ci.org/ashleygwilliams/wasm-packn)
+  * [rustwasm/wasm-bindgen](https://github.com/rustwasm/wasm-bindgen) — A project for facilitating high-level interactions between wasm modules and JS. [<img src="https://api.travis-ci.org/rustwasm/wasm-bindgen.svg?branch=master">](https://travis-ci.org/rustwasm/wasm-bindgen)
 
 ### IDEs
 
