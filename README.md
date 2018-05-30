@@ -180,6 +180,7 @@ See also [Games Made With Piston](https://github.com/PistonDevelopers/piston/wik
 ### Industrial automation
 
 * [slowtec/tokio-modbus](https://github.com/slowtec/tokio-modbus) - A [tokio](https://tokio.rs)-based [modbus](http://modbus.org) library. [![Build Status](https://api.travis-ci.org/slowtec/tokio-modbus.svg?branch=master)](https://travis-ci.org/slowtec/tokio-modbus)
+* [locka99/opcua](https://github.com/locka99/opcua) - A pure rust [OPC UA](https://opcfoundation.org/opc-ua/) library.
 
 ### Operating systems
 
