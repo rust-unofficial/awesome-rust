@@ -220,6 +220,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 
 * [BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep) — combines the usability of The Silver Searcher with the raw speed of grep [<img src="https://api.travis-ci.org/BurntSushi/ripgrep.svg?branch=master">](https://travis-ci.org/BurntSushi/ripgrep)
 * [BurntSushi/xsv](https://github.com/BurntSushi/xsv) — a fast CSV command line tool (slicing, indexing, selecting, searching, sampling, etc.) [<img src="https://api.travis-ci.org/BurntSushi/xsv.svg?branch=master">](https://travis-ci.org/BurntSushi/xsv)
+* [whitfin/runiq](https://github.com/whitfin/runiq) [[runiq](https://crates.io/crates/runiq)] - an efficient way to filter duplicate lines from unsorted input. 
 
 ### Utilities
 
