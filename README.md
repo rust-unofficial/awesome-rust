@@ -22,6 +22,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   - [Virtualization](#virtualization)
   - [Window managers](#window-managers)
   - [Web](#web)
+  - [Web Servers](#web-servers)
 - [Development tools](#development-tools)
   - [Build system](#build-system)
   - [Debugging](#debugging)
@@ -242,6 +243,12 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 ### Web
 
 * [OUISRC/muro](https://github.com/OUISRC/muro) — A new Forum use rust, rocket, diesel, postgresql, and responsive design [<img src="https://api.travis-ci.org/OUISRC/muro.svg?branch=master">](https://travis-ci.org/OUISRC/muro)
+
+### Web Servers
+
+* [thecoshman/http](https://github.com/thecoshman/http) — Host These Things Please - a basic http server for hosting a folder fast and simply [<img src="https://api.travis-ci.org/thecoshman/http.svg?branch=master">](https://travis-ci.org/thecoshman/http)
+- [svenstaro/miniserve](https://github.com/svenstaro/miniserve) — a small, self-contained cross-platform CLI tool that allows you to just grab the binary and serve some file(s) via HTTP [<img src="https://api.travis-ci.org/svenstaro/miniserve.svg?branch=master">](https://travis-ci.org/svenstaro/miniserve)
+- [TheWaWaR/simple-http-server](https://github.com/TheWaWaR/simple-http-server) - simple static http server
 
 ## Development tools
 
