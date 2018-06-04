@@ -18,7 +18,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   - [System tools](#system-tools)
   - [Text editors](#text-editors)
   - [Text processing](#text-processing)
-  - [utilities](#utilities)
+  - [Utilities](#utilities)
   - [Virtualization](#virtualization)
   - [Window managers](#window-managers)
   - [Web](#web)
