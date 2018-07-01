@@ -84,7 +84,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 
 ## Applications
 
-See also [Friends of Rust](https://www.rust-lang.org/friends.html) (organizations running Rust in production).
+See also [Friends of Rust](https://www.rust-lang.org/friends.html)(organizations running Rust in production).
 
 * [andschwa/rust-genetic-algorithm](https://github.com/andschwa/rust-genetic-algorithm) — a genetic algorithm for academic benchmark problems [<img src="https://api.travis-ci.org/andschwa/rust-genetic-algorithm.svg?branch=master">](https://travis-ci.org/andschwa/rust-genetic-algorithm)
 * [azerupi/mdBook](https://github.com/rust-lang-nursery/mdBook) — a command line utility to create books from markdown files [<img src="https://api.travis-ci.org/azerupi/mdBook.svg?branch=master">](https://travis-ci.org/azerupi/mdBook)
