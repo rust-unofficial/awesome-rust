@@ -19,6 +19,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   - [Text editors](#text-editors)
   - [Text processing](#text-processing)
   - [Utilities](#utilities)
+  - [Video](#video)
   - [Virtualization](#virtualization)
   - [Window managers](#window-managers)
   - [Web](#web)
@@ -229,6 +230,10 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [arthrp/quick-skeleton](https://github.com/arthrp/quick-skeleton) — Project scaffolding tool, similar to Yeoman and Slush.
 * [yaa110/rubigo](https://github.com/yaa110/rubigo) — Golang dependency tool and package manager, written in Rust [<img src="https://api.travis-ci.org/yaa110/rubigo.svg?branch=master">](https://travis-ci.org/yaa110/rubigo)
 * [amar-laksh/workstation](https://github.com/amar-laksh/workstation) - A commandline tool to help you manage your workstation by distancing you from your screen, locking your screen when you aren't there among other things with OPENCV!
+
+### Video
+
+* [yuvadm/slingr](https://github.com/yuvadm/slingr) - A simple CLI for streaming media files over a local network to UPnP media renderers [<img src="https://travis-ci.org/yuvadm/slingr.svg?branch=master">](https://travis-ci.org/yuvadm/slingr)
 
 ### Virtualization
 
