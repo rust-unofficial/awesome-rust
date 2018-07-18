@@ -79,6 +79,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   - [Text search](#text-search)
   - [Virtualization](#virtualization-1)
   - [Web programming](#web-programming)
+  - [Peripherals](#peripherals)
 - [Resources](#resources)
 - [License](#license)
 
@@ -1081,6 +1082,11 @@ See also [Are we web yet?](http://www.arewewebyet.org) and [Rust web framework c
   * [cobalt-org/cobalt.rs](https://github.com/cobalt-org/cobalt.rs) - Static site generator written in Rust [<img src="https://api.travis-ci.org/cobalt-org/cobalt.rs.svg?branch=master">](https://travis-ci.org/cobalt-org/cobalt.rs)
   * [FuGangqiang/mdblog.rs](https://github.com/FuGangqiang/mdblog.rs) — Static site generator from markdown files.
   * [quadrupleslap/leven](https://github.com/quadrupleslap/leven) [[leven](https://crates.io/crates/leven)] — a simple, parallelized blog generator. [<img src="https://api.travis-ci.org/quadrupleslap/leven.svg?branch=master">](https://travis-ci.org/quadrupleslap/leven)
+  
+### Peripherals
+
+* Serial Port
+  * [Susurrus/serialport-rs](https://github.com/Susurrus/serialport-rs) [[serialport](https://docs.rs/serialport/3.0.0/serialport/)] - A cross-platform library that provides access to a serial port
 
 ## Resources
 
