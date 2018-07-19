@@ -221,6 +221,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 
 ### Text editors
 
+* [Remacs](https://github.com/Wilfred/remacs) - A community-driven port of Emacs to Rust. [<img src="https://api.travis-ci.org/Wilfred/remacs.svg?branch=master">](https://travis-ci.org/Wilfred/remacs)
 * [gchp/iota](https://github.com/gchp/iota) — a simple text editor [<img src="https://api.travis-ci.org/gchp/iota.svg?branch=master">](https://travis-ci.org/gchp/iota)
 * [mathall/rim](https://github.com/mathall/rim) — Vim-like text editor written in Rust [<img src="https://api.travis-ci.org/mathall/rim.svg?branch=master">](https://travis-ci.org/mathall/rim)
 * [xi-editor](https://github.com/google/xi-editor) — a modern editor with a backend written in Rust.
