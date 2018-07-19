@@ -15,6 +15,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   - [Graphics](#graphics)
   - [Industrial automation](#industrial-automation)
   - [Operating systems](#operating-systems)
+  - [Productivity](#productivity)
   - [System tools](#system-tools)
   - [Text editors](#text-editors)
   - [Text processing](#text-processing)
@@ -191,6 +192,10 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [thepowersgang/rust_os](https://github.com/thepowersgang/rust_os) — [<img src="https://api.travis-ci.org/thepowersgang/rust_os.svg?branch=master">](https://travis-ci.org/thepowersgang/rust_os)
 * [tock/tock](https://github.com/tock/tock) — A secure embedded operating system for Cortex-M based microcontrollers
 * [nebulet/nebulet](https://github.com/nebulet/nebulet) — A microkernel that implements a WebAssembly "usermode" that runs in Ring 0.
+
+### Productivity
+
+* [simeg/eureka](https://github.com/simeg/eureka) [[eureka](https://crates.io/crates/eureka)] - a CLI tool to input and store your ideas without leaving the terminal
 
 ### System tools
 
