@@ -130,6 +130,7 @@ See also [Friends of Rust](https://www.rust-lang.org/friends.html)(organizations
 * [pingcap/tikv](https://github.com/pingcap/tikv) — a distributed KV database in Rust [<img src="https://api.travis-ci.org/pingcap/tikv.svg?branch=master">](https://travis-ci.org/pingcap/tikv)
 * [PumpkinDB](https://github.com/PumpkinDB/PumpkinDB) — an event sourcing database engine [<img src="https://api.travis-ci.org/PumpkinDB/PumpkinDB.svg?branch=master">](https://travis-ci.org/PumpkinDB/PumpkinDB)
 * [seppo0010/rsedis](https://github.com/seppo0010/rsedis) — a Redis reimplementation in Rust [<img src="https://api.travis-ci.org/seppo0010/rsedis.svg?branch=master">](https://travis-ci.org/seppo0010/rsedis)
+* [Mentat](https://mozilla.github.io/mentat/) - Project Mentat is a persistent, embedded knowledge base. It draws heavily on DataScript and Datomic. Mentat is intended to be a flexible relational (not key-value, not document-oriented) store that makes it easy to describe, grow, and reuse your domain schema.
 
 ### Emulators
 
