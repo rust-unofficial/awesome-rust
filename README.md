@@ -122,14 +122,17 @@ See also [Friends of Rust](https://www.rust-lang.org/friends.html)(organizations
 ### Cryptocurrencies
 
 * [ethaddrgen](https://github.com/Limeth/ethaddrgen) — Custom Ethereum vanity address generator made in Rust [<img src="https://api.travis-ci.org/Limeth/ethaddrgen.svg?branch=master">](https://travis-ci.org/Limeth/ethaddrgen)
-* [Parity](https://github.com/paritytech/parity) — Fast, light, and robust Ethereum implementation
+* [polkadot](https://github.com/paritytech/polkadot) — Heterogeneous multi‑chain technology with pooled security
+* [parity-ethereum](https://github.com/paritytech/parity-ethereum) — Fast, light, and robust Ethereum client
 * [parity-bitcoin](https://github.com/paritytech/parity-bitcoin) — The Parity Bitcoin client [<img src="https://api.travis-ci.org/paritytech/parity-bitcoin.svg?branch=master">](https://travis-ci.com/paritytech/parity-bitcoin)
+* [parity-bridge](https://github.com/paritytech/parity-bridge) — Bridge between any two ethereum-based networks
 
 ### Database
 
 * [pingcap/tikv](https://github.com/pingcap/tikv) — a distributed KV database in Rust [<img src="https://api.travis-ci.org/pingcap/tikv.svg?branch=master">](https://travis-ci.org/pingcap/tikv)
 * [PumpkinDB](https://github.com/PumpkinDB/PumpkinDB) — an event sourcing database engine [<img src="https://api.travis-ci.org/PumpkinDB/PumpkinDB.svg?branch=master">](https://travis-ci.org/PumpkinDB/PumpkinDB)
 * [seppo0010/rsedis](https://github.com/seppo0010/rsedis) — a Redis reimplementation in Rust [<img src="https://api.travis-ci.org/seppo0010/rsedis.svg?branch=master">](https://travis-ci.org/seppo0010/rsedis)
+* [ParityDB](https://github.com/paritytech/paritydb) - Fast and reliable database, optimised for read operation
 
 ### Emulators
 
