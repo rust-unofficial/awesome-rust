@@ -253,7 +253,9 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 
 ### Web
 
-* [OUISRC/muro](https://github.com/OUISRC/muro) — A new Forum use rust, rocket, diesel, postgresql, and responsive design [<img src="https://api.travis-ci.org/OUISRC/muro.svg?branch=master">](https://travis-ci.org/OUISRC/muro)
+* [OUISRC/muro](https://github.com/OUISRC/muro) — The interest and community for internet .(reddit clone) [<img src="https://api.travis-ci.org/OUISRC/muro.svg?branch=master">](https://travis-ci.org/OUISRC/muro)
+* [ruster-xyz/ruster](https://github.com/ruster-xyz/ruster) — online community in rust for rust community [<img src="https://api.travis-ci.org/ruster-xyz/ruster.svg?branch=master">](https://travis-ci.org/ruster-xyz/ruster)
+
 
 ### Web Servers
 
