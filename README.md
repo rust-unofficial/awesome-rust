@@ -948,7 +948,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 ### Markup language
 
 * CommonMark
-  * [google/pulldown-cmark](https://github.com/google/pulldown-cmark) — [CommonMark](http://commonmark.org/) parser in Rust
+  * [google/pulldown-cmark](https://github.com/google/pulldown-cmark) — [CommonMark](https://commonmark.org/) parser in Rust
 
 ### Mobile
 
