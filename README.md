@@ -16,6 +16,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   - [Industrial automation](#industrial-automation)
   - [Operating systems](#operating-systems)
   - [Productivity](#productivity)
+  - [Security tools](#security-tools)
   - [System tools](#system-tools)
   - [Text editors](#text-editors)
   - [Text processing](#text-processing)
@@ -197,6 +198,12 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 ### Productivity
 
 * [simeg/eureka](https://github.com/simeg/eureka) [[eureka](https://crates.io/crates/eureka)] - a CLI tool to input and store your ideas without leaving the terminal
+
+### Security tools
+
+* [kpcyrd/badtouch](https://github.com/kpcyrd/badtouch) — Scriptable network authentication cracker [<img src="https://api.travis-ci.org/kpcyrd/badtouch.svg?branch=master">](https://travis-ci.org/kpcyrd/badtouch)
+* [kpcyrd/rshijack](https://github.com/kpcyrd/rshijack) — tcp connection hijacker, rust rewrite of shijack [<img src="https://api.travis-ci.org/kpcyrd/rshijack.svg?branch=master">](https://travis-ci.org/kpcyrd/rshijack)
+* [kpcyrd/sniffglue](https://github.com/kpcyrd/sniffglue) — Secure multithreaded packet sniffer [<img src="https://api.travis-ci.org/kpcyrd/sniffglue.svg?branch=master">](https://travis-ci.org/kpcyrd/sniffglue)
 
 ### System tools
 
