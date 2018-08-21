@@ -867,6 +867,7 @@ See also [Are we game yet?](http://arewegameyet.com)
 
 [[geo](https://crates.io/keywords/geo), [gis](https://crates.io/keywords/gis)]
 
+* [vlopes11/geomorph](https://github.com/vlopes11/geomorph) [[geomorph](https://crates.io/crates/geomorph)] — conversion between UTM, LatLon and MGRS coordinates [<img src="https://api.travis-ci.org/vlopes11/geomorph.svg?branch=master">](https://travis-ci.org/vlopes11/geomorph)
 * [Georust](https://github.com/georust) — geospatial tools and libraries written in Rust
 * [rust-reverse-geocoder](https://github.com/llambda/rust-reverse-geocoder) — a fast, offline reverse geocoder in Rust, inspired by https://github.com/thampiman/reverse-geocoder
 
