@@ -1149,6 +1149,7 @@ See also [Are we web yet?](http://www.arewewebyet.org) and [Rust web framework c
   * [Rustlings](https://github.com/rustlings/rustlings) — small exercises to get you used to reading and writing Rust code
   * [stdx](https://github.com/brson/stdx) — Learn these crates first as an extension to std
   * [University of Pennsylvania's Comp Sci Rust Programming Course](http://cis198-2016s.github.io/schedule/)
+  * [Build a language VM] (https://blog.subnetzero.io/post/building-language-vm-part-00/)
 * Podcasts
   * [New Rustacean](https://newrustacean.com) — a podcast about learning Rust
 * [RustCamp 2015 Talks](http://confreaks.tv/events/rustcamp2015)
