@@ -37,6 +37,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   - [Profiling](#profiling)
   - [Static analysis](#static-analysis)
   - [Testing](#testing)
+  - [Transpiling](#transpiling)
 - [Libraries](#libraries)
   - [Artificial Intelligence](#artificial-intelligence)
       - [Genetic algorithms](#genetic-algorithms)
