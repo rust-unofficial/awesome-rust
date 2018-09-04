@@ -130,6 +130,7 @@ See also [Friends of Rust](https://www.rust-lang.org/friends.html)(organizations
 * [parity-ethereum](https://github.com/paritytech/parity-ethereum) — Fast, light, and robust Ethereum client
 * [parity-bitcoin](https://github.com/paritytech/parity-bitcoin) — The Parity Bitcoin client [<img src="https://api.travis-ci.org/paritytech/parity-bitcoin.svg?branch=master">](https://travis-ci.com/paritytech/parity-bitcoin)
 * [parity-bridge](https://github.com/paritytech/parity-bridge) — Bridge between any two ethereum-based networks
+* [ArgusObserver/wagu](https://github.com/ArgusObserver/wagu) [[wagu](https://crates.io/crates/wagu)] — Generate a wallet for any cryptocurrency [<img src="https://travis-ci.com/ArgusObserver/wagu.svg?branch=master">](https://travis-ci.com/ArgusObserver/wagu.svg?branch=master)
 
 ### Database
 
