@@ -126,6 +126,7 @@ See also [Friends of Rust](https://www.rust-lang.org/friends.html)(organizations
 ### Cryptocurrencies
 
 * [ethaddrgen](https://github.com/Limeth/ethaddrgen) — Custom Ethereum vanity address generator made in Rust [<img src="https://api.travis-ci.org/Limeth/ethaddrgen.svg?branch=master">](https://travis-ci.org/Limeth/ethaddrgen)
+* [coinbase-pro-rs](https://github.com/inv2004/coinbase-pro-rs) - Coinbase pro client in Rust, supports sync/async/websocket[<img src="https://travis-ci.org/inv2004/coinbase-pro-rs.svg?branch=master">](https://travis-ci.org/inv2004/coinbase-pro-rs)
 * [polkadot](https://github.com/paritytech/polkadot) — Heterogeneous multi‑chain technology with pooled security
 * [parity-ethereum](https://github.com/paritytech/parity-ethereum) — Fast, light, and robust Ethereum client
 * [parity-bitcoin](https://github.com/paritytech/parity-bitcoin) — The Parity Bitcoin client [<img src="https://api.travis-ci.org/paritytech/parity-bitcoin.svg?branch=master">](https://travis-ci.com/paritytech/parity-bitcoin)
