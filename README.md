@@ -1182,6 +1182,7 @@ See also [Are we web yet?](http://www.arewewebyet.org) and [Rust web framework c
 * [Rust Design Patterns](https://github.com/rust-unofficial/patterns)
 * [Rust Guidelines](http://aturon.github.io/)
 * [RustBooks](https://github.com/sger/RustBooks) — list of RustBooks
+* [Rust Subreddit](https://www.reddit.com/r/rust/) - a subreddit(forum) where rust related questions, articles and resources are posted and discussed
 
 ## License
 
