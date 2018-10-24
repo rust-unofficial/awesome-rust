@@ -178,6 +178,7 @@ See also [Games Made With Piston](https://github.com/PistonDevelopers/piston/wik
 * [rsaarelm/magog](https://github.com/rsaarelm/magog) - A roguelike game in Rust
 * [cristicbz/rust-doom](https://github.com/cristicbz/rust-doom) - A renderer for Doom, may progress to being a playable game [<img src="https://api.travis-ci.org/cristicbz/rust-doom.svg?branch=master">](https://travis-ci.org/cristicbz/rust-doom)
 * [Thinkofname/rust-quake](https://github.com/Thinkofname/rust-quake) - Quake map renderer in Rust
+* [aleshaleksey/TGWM](https://github.com/aleshaleksey/TGWM) - An RPG with turned-based mechanics (work in progress) [<img src="https://api.travis-ci.org/aleshaleksey/TGWM.svg?branch=master">](https://travis-ci.org/aleshaleksey/TGWM)
 
 ### Graphics
 
@@ -264,6 +265,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [yaa110/rubigo](https://github.com/yaa110/rubigo) — Golang dependency tool and package manager, written in Rust [<img src="https://api.travis-ci.org/yaa110/rubigo.svg?branch=master">](https://travis-ci.org/yaa110/rubigo)
 * [whitfin/s3-meta](https://github.com/whitfin/s3-meta) - A command line tool to gather metadata about your Amazon S3 buckets.
 * [amar-laksh/workstation](https://github.com/amar-laksh/workstation) - A commandline tool to help you manage your workstation by distancing you from your screen, locking your screen when you aren't there among other things with OPENCV!
+* [aleshaleksey/AZDice](https://github.com/aleshaleksey/AZDice) - A dice roll success distribution generator for tabletop homebrewers. [<img src="https://api.travis-ci.org/aleshaleksey/AZDice.svg?branch=master">](https://travis-ci.org/aleshaleksey/AZDice)
 
 ### Video
 
