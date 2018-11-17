@@ -844,7 +844,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * CSV
   * [BurntSushi/rust-csv](https://github.com/BurntSushi/rust-csv) — [<img src="https://api.travis-ci.org/BurntSushi/rust-csv.svg?branch=master">](https://travis-ci.org/BurntSushi/rust-csv)
 * HAR
-  * [mandrean/har-rs](https://github.com/mandrean/har-rs) - A HTTP Archive Format (HAR) serialization & deserialization library
+  * [mandrean/har-rs](https://github.com/mandrean/har-rs) - A HTTP Archive Format (HAR) serialization & deserialization library [![Build Status](https://travis-ci.org/mandrean/har-rs.svg?branch=master)](https://travis-ci.org/mandrean/har-rs)
 * HTML
   * [servo/html5ever](https://github.com/servo/html5ever) — High-performance browser-grade HTML5 parser [<img src="https://api.travis-ci.org/servo/html5ever.svg?branch=master">](https://travis-ci.org/servo/html5ever)
   * [veddan/rust-htmlescape](https://github.com/veddan/rust-htmlescape) — encoding/decoding HTML entities [<img src="https://api.travis-ci.org/veddan/rust-htmlescape.svg?branch=master">](https://travis-ci.org/veddan/rust-htmlescape)
