@@ -283,6 +283,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 
 ### Virtualization
 
+* [firecracker-microvm/firecracker](https://github.com/firecracker-microvm/firecracker) — a lightweight virtual machine for container workload  [Firecracker Microvm](https://firecracker-microvm.github.io/)
 * [tailhook/vagga](https://github.com/tailhook/vagga) — a containerization tool without daemons [<img src="https://api.travis-ci.org/tailhook/vagga.svg?branch=master">](https://travis-ci.org/tailhook/vagga)
 
 ### Window managers
@@ -291,6 +292,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 
 ### Web
 
+* [Plume-org/Plume](https://github.com/Plume-org/Plume) — ActivityPub federating blogging application [<img src="https://api.travis-ci.org/Plume-org/Plume.svg?branch=master">](https://travis-ci.org/Plume-org/Plume)
 * [rustlang-cn/ruster](https://github.com/rustlang-cn/ruster) — online community in rust for rust community [<img src="https://api.travis-ci.org/rustlang-cn/ruster.svg?branch=master">](https://travis-ci.org/rustlang-cn/ruster)
 
 
