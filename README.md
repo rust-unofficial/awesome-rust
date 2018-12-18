@@ -443,7 +443,7 @@ See also [Foreign Function Interface](https://doc.rust-lang.org/book/first-editi
 
 ### IDEs
 
-See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust and IDEs](https://www.rust-lang.org/ides.html).
+See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust Tools](https://www.rust-lang.org/tools).
 
   * [Atom](https://atom.io/)
     * [zargony/atom-language-rust](https://github.com/zargony/atom-language-rust)
