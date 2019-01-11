@@ -1131,6 +1131,9 @@ See also [Are we game yet?](http://arewegameyet.com)
   * [zargony/rust-fuse](https://github.com/zargony/rust-fuse) — [FUSE](https://github.com/libfuse/libfuse) bindings <img src="https://api.travis-ci.org/zargony/rust-fuse.svg?branch=master">
 * Windows
   * [retep998/winapi-rs](https://github.com/retep998/winapi-rs) — Windows API bindings [<img src="https://api.travis-ci.org/retep998/winapi-rs.svg?branch=master">](https://travis-ci.org/retep998/winapi-rs)
+* FreeBSD
+  * [fubarnetes/libjail-rs](https://github.com/fubarnetes/libjail-rs/) - Rust implementation of a FreeBSD jail library
+  * [dlrobertson/capsicum-rs](https://github.com/dlrobertson/capsicum-rs) - Rust bindings for the FreeBSD capsicum framework
 
 ### Scripting
 [[scripting](https://crates.io/keywords/scripting)]
