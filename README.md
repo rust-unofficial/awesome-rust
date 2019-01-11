@@ -1257,6 +1257,7 @@ See also [Are we web yet?](http://www.arewewebyet.org) and [Rust web framework c
   * [Build a language VM](https://blog.subnetzero.io/post/building-language-vm-part-00/)
 * Podcasts
   * [New Rustacean](https://newrustacean.com) — a podcast about learning Rust
+  * [Rusty Spike](https://rusty-spike.blubrry.net) - news on all things Rust
 * [RustCamp 2015 Talks](http://confreaks.tv/events/rustcamp2015)
 * [Rust Design Patterns](https://github.com/rust-unofficial/patterns)
 * [Rust Guidelines](http://aturon.github.io/)
