@@ -530,8 +530,8 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust Tools](https://
 
 ## Services
 
-- [docs.rs](https://docs.rs) - Automatic documentation generation of crates
 - [deps.rs](https://deps.rs) - Detect outdated or insecure dependencies
+- [docs.rs](https://docs.rs) - Automatic documentation generation of crates
 
 ## Libraries
 
