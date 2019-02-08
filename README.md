@@ -140,6 +140,7 @@ See also [Rust — Production](https://www.rust-lang.org/production)(organizatio
 * [cardano-cli](https://github.com/input-output-hk/cardano-cli) — Cardano Command Line Interface (CLI)
 * [Nervos CKB](https://github.com/nervosnetwork/ckb) - Nervos CKB is a public permissionless blockchain, the common knowledge layer of Nervos network.
 * [ChainX](https://github.com/chainx-org/ChainX) - Fully Decentralized Interchain Crypto Asset Management on Polkadot.
+* [hdwallet](https://github.com/jjyr/hdwallet) - BIP-32 HD wallet related key derivation utilities.
 
 ### Database
 
