@@ -121,6 +121,7 @@ See also [Rust — Production](https://www.rust-lang.org/production)(organizatio
 * [Sandstorm Collections App](https://github.com/sandstorm-io/collections-app)
 * [Servo](https://github.com/servo/servo) — a prototype web browser engine
 * [Weld](https://github.com/serayuzgur/weld) — Full fake REST API generator [<img src="https://api.travis-ci.org/serayuzgur/weld.svg">](https://travis-ci.org/serayuzgur/weld)
+* [asm-cli-rust](https://github.com/cch123/asm-cli-rust) — interative assembly shell written in rust.
 
 ### Audio
 
