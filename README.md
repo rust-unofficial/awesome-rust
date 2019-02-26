@@ -279,6 +279,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [lavifb/todo_r](https://github.com/lavifb/todo_r) — Find all your TODO notes with one command! [<img src="https://api.travis-ci.org/lavifb/todo_r.svg?branch=master">](https://travis-ci.org/lavifb/todo_r)
 * [whitfin/runiq](https://github.com/whitfin/runiq) — an efficient way to filter duplicate lines from unsorted input.
 * [whitfin/bytelines](https://github.com/whitfin/bytelines) - Read input lines as byte slices for high efficiency.
+* [vishaltelangre/ff](https://github.com/vishaltelangre/ff) — Find files (ff) by name! [<img src="https://api.travis-ci.org/vishaltelangre/ff.svg?branch=master">](https://travis-ci.org/vishaltelangre/ff)
 
 ### Utilities
 
