@@ -150,7 +150,7 @@ See also [Rust — Production](https://www.rust-lang.org/production)(organizatio
 
 * [indradb/indradb](https://github.com/indradb/indradb) — Rust based graph database [<img src="https://api.travis-ci.org/indradb/indradb.svg?branch=master">](https://travis-ci.org/indradb/indradb)
 * [Mentat](https://mozilla.github.io/mentat/) — Project Mentat is a persistent, embedded knowledge base. It draws heavily on DataScript and Datomic. Mentat is intended to be a flexible relational (not key-value, not document-oriented) store that makes it easy to describe, grow, and reuse your domain schema.
-* [Noria](https://github.com/mit-pdos/noria) - Dynamically changing, partially-stateful data-flow for web application backends [<img src="https://travis-ci.org/mit-pdos/noria.svg?branch=master">](https://travis-ci.org/mit-pdos/noria)
+* [Noria](https://github.com/mit-pdos/noria) - Dynamically changing, partially-stateful data-flow for web application backends [<img src="https://api.travis-ci.org/mit-pdos/noria.svg?branch=master">](https://travis-ci.org/mit-pdos/noria)
 * [PumpkinDB](https://github.com/PumpkinDB/PumpkinDB) — an event sourcing database engine [<img src="https://api.travis-ci.org/PumpkinDB/PumpkinDB.svg?branch=master">](https://travis-ci.org/PumpkinDB/PumpkinDB)
 * [seppo0010/rsedis](https://github.com/seppo0010/rsedis) — a Redis reimplementation in Rust [<img src="https://api.travis-ci.org/seppo0010/rsedis.svg?branch=master">](https://travis-ci.org/seppo0010/rsedis)
 * [ParityDB](https://github.com/paritytech/paritydb) — Fast and reliable database, optimised for read operation
@@ -267,7 +267,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 
 * [gchp/iota](https://github.com/gchp/iota) — a simple text editor [<img src="https://api.travis-ci.org/gchp/iota.svg?branch=master">](https://travis-ci.org/gchp/iota)
 * [mathall/rim](https://github.com/mathall/rim) — Vim-like text editor written in Rust [<img src="https://api.travis-ci.org/mathall/rim.svg?branch=master">](https://travis-ci.org/mathall/rim)
-* [Remacs](https://github.com/Wilfred/remacs) — A community-driven port of Emacs to Rust. [<img src="https://api.travis-ci.org/Wilfred/remacs.svg?branch=master">](https://travis-ci.org/Wilfred/remacs)
+* [Remacs](https://github.com/remacs/remacs) — A community-driven port of Emacs to Rust. [<img src="https://api.travis-ci.org/remacs/remacs.svg?branch=master">](https://travis-ci.org/remacs/remacs)
 * [xi-editor](https://github.com/xi-editor/xi-editor) — a modern editor with a backend written in Rust.
 * [xray](https://github.com/atom/xray) — An experimental next-generation Electron-based text editor. [<img src="https://api.travis-ci.org/atom/xray.svg?branch=master">](https://travis-ci.org/atom/xray)
 
@@ -765,7 +765,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 
 * [sfackler/r2d2](https://github.com/sfackler/r2d2) — generic connection pool [<img src="https://api.travis-ci.org/sfackler/r2d2.svg?branch=master">](https://travis-ci.org/sfackler/r2d2)
 * NoSQL [[nosql](https://crates.io/keywords/nosql)]
-  * [ArangoDB](https://argangodb.com/)
+  * [ArangoDB](https://www.arangodb.com/)
      * [Rincon](https://github.com/innoave/rincon) - An ArangoDB (NoSQL and Graph store) driver for Rust
   * [Cassandra](http://cassandra.apache.org) [[cassandra](https://crates.io/keywords/cassandra), [cql](https://crates.io/keywords/cql)]
     * [AlexPikalov/cdrs](https://github.com/AlexPikalov/cdrs) [[cdrs](https://crates.io/crates/cdrs)] — native client written in Rust [<img src="https://api.travis-ci.org/AlexPikalov/cdrs.svg?branch=master">](https://travis-ci.org/AlexPikalov/cdrs)
