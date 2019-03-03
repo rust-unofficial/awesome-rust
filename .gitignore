@@ -1,3 +1,5 @@
 .idea/
 Cargo.lock
 target/
+cleanup
+cleanup.exe
