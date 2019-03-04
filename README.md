@@ -839,6 +839,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [orium/rpds](https://github.com/orium/rpds) [[rpds](https://crates.io/crates/rpds)] — Persistent data structures in Rust. [<img src="https://api.travis-ci.org/orium/rpds.svg?branch=master">](https://travis-ci.org/orium/rpds)
 * [pop-os/progress-streams](https://github.com/pop-os/progress-streams) — Progress callbacks for types which implement `dyn io::Read` or `dyn io::Write`.
 * [reem/rust-typemap](https://github.com/reem/rust-typemap) — [<img src="https://api.travis-ci.org/reem/rust-typemap.svg?branch=master">](https://travis-ci.org/reem/rust-typemap)
+* [ChosunOne/merkle_bit](https://github.com/ChosunOne/merkle_bit) - [<img src="https://img.shields.io/travis/ChosunOne/merkle_bit/stable.svg">](https://travis-ci.com/ChosunOne/merkle_bit) - Starling (Merkle-BIT) is an efficient data structure for storing multiple versions of a key/value store, and allowing you to quickly revert to a previous state.
 * [xfix/enum-map](https://github.com/xfix/enum-map) [[enum-map](https://crates.io/crates/enum-map)] — An optimized map implementation for enums using an array to store values. [<img src="https://api.travis-ci.org/xfix/enum-map.svg?branch=master">](https://travis-ci.org/xfix/enum-map)
 
 ### Data visualization
