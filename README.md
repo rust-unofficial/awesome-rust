@@ -274,6 +274,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [xray](https://github.com/atom/xray) — An experimental next-generation Electron-based text editor. [<img src="https://api.travis-ci.org/atom/xray.svg?branch=master">](https://travis-ci.org/atom/xray)
 
 ### Text processing
+
 * [bloom42/misspell](https://github.com/bloom42/misspell) — Correct commonly misspelled English words in source files 📖 [<img src="https://api.travis-ci.org/bloom42/misspell.svg?branch=master">](https://travis-ci.org/bloom42/misspell)
 * [BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep) — combines the usability of The Silver Searcher with the raw speed of grep [<img src="https://api.travis-ci.org/BurntSushi/ripgrep.svg?branch=master">](https://travis-ci.org/BurntSushi/ripgrep)
 * [chmln/sd](https://github.com/chmln/sd) [[sd](https://crates.io/crates/sd)] -Intuitive find & replace CLI [<img src="https://api.travis-ci.org/chmln/sd.svg?branch=master">](https://travis-ci.org/chmln/sd)
