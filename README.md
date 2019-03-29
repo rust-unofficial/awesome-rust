@@ -79,7 +79,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   - [Markup language](#markup-language)
   - [Mobile](#mobile)
   - [Network programming](#network-programming)
-  - [Parser](#parser)
+  - [Parsing](#parsing)
   - [Platform specific](#platform-specific)
   - [Scripting](#scripting)
   - [Template engine](#template-engine)
@@ -1137,7 +1137,7 @@ See also [Are we game yet?](http://arewegameyet.com)
 * CoAP
   * [Covertness/coap-rs](https://github.com/Covertness/coap-rs) — A [Constrained Application Protocol(CoAP)](https://tools.ietf.org/html/rfc7252) library for Rust. [<img src="https://api.travis-ci.org/Covertness/coap-rs.svg?branch=master">](https://travis-ci.org/Covertness/coap-rs)
 
-### Parser
+### Parsing
 
   * [Geal/nom](https://github.com/Geal/nom) — parser combinator library [<img src="https://api.travis-ci.org/Geal/nom.svg?branch=master">](https://travis-ci.org/Geal/nom)
   * [ivanceras/inquerest](https://github.com/ivanceras/inquerest) — an URL parameter parser for rest filter inquiry [![Build Status](https://api.travis-ci.org/ivanceras/inquerest.svg?branch=master)](https://travis-ci.org/ivanceras/inquerest)
