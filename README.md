@@ -421,7 +421,7 @@ See also [Foreign Function Interface](https://doc.rust-lang.org/book/first-editi
 * C++
   * [rust-lang/rust-bindgen](https://github.com/rust-lang/rust-bindgen) — a Rust bindings generator
 * Erlang
-  * [hansihe/Rustler](https://github.com/hansihe/Rustler) — safe Rust bridge for creating Erlang NIF functions [<img src="https://api.travis-ci.org/hansihe/rustler.svg?branch=master">](https://travis-ci.org/hansihe/rustler)
+  * [rusterlium/rustler](https://github.com/rusterlium/rustler) — safe Rust bridge for creating Erlang NIF functions [<img src="https://api.travis-ci.org/rusterlium/rustler.svg?branch=master">](https://travis-ci.org/rusterlium/rustler)
 * Haskell
   * [mgattozzi/curryrs](https://github.com/mgattozzi/curryrs) — Bridge the gap between Haskell and Rust
   * [mgattozzi/haskellrs](https://github.com/mgattozzi/haskellrs) — Rust in Haskell FFI Example
@@ -474,7 +474,7 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust Tools](https://
     * [rust-mode](https://github.com/rust-lang/rust-mode) — Rust Major Mode
     * [flycheck-rust](https://github.com/flycheck/flycheck-rust) — Rust support for [Flycheck](https://github.com/flycheck/flycheck)
     * [emacs-racer](https://github.com/racer-rust/emacs-racer) — Autocompletion (see also [company](https://company-mode.github.io) and [auto-complete](https://github.com/auto-complete/auto-complete))
-    * [lsp-rust](https://github.com/emacs-lsp/lsp-rust) — Add rls support to [lsp-mode](https://github.com/emacs-lsp/lsp-mode)
+    * [lsp-rust](https://github.com/emacs-lsp-legacy/lsp-rust) — Add rls support to [lsp-mode](https://github.com/emacs-lsp/lsp-mode)
   * [gitpod.io](https://gitpod.io) — Online IDE with full Rust support based on Rust Language Server
   * [gnome-builder](https://wiki.gnome.org/Apps/Builder) native support for rust and cargo since Version 3.22.2
   * [Kakoune](http://kakoune.org/)
