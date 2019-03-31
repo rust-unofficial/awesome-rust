@@ -470,6 +470,7 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust Tools](https://
   * [Atom](https://atom.io/)
     * [zargony/atom-language-rust](https://github.com/zargony/atom-language-rust)
   * [Eclipse](https://www.eclipse.org/)
+    * [Eclipse Corrosion](https://github.com/eclipse/corrosion)
     * [RustDT](https://github.com/RustDT/RustDT) — [<img src="https://api.travis-ci.org/RustDT/RustDT.svg?branch=master">](https://travis-ci.org/RustDT/RustDT)
   * [Emacs](https://www.gnu.org/software/emacs/)
     * [rust-mode](https://github.com/rust-lang/rust-mode) — Rust Major Mode
