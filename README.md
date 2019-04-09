@@ -7,87 +7,87 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 ## Table of contents
 
 - [Applications](#applications)
-  - [Audio](#audio)
-  - [Cryptocurrencies](#cryptocurrencies)
-  - [Database](#database)
-  - [Emulators](#emulators)
-  - [Games](#games)
-  - [Graphics](#graphics)
-  - [Industrial automation](#industrial-automation)
-  - [Operating systems](#operating-systems)
-  - [Productivity](#productivity)
-  - [Security tools](#security-tools)
-  - [System tools](#system-tools)
-  - [Text editors](#text-editors)
-  - [Text processing](#text-processing)
-  - [Utilities](#utilities)
-  - [Video](#video)
-  - [Virtualization](#virtualization)
-  - [Window managers](#window-managers)
-  - [Web](#web)
-  - [Web Servers](#web-servers)
+  — [Audio](#audio)
+  — [Cryptocurrencies](#cryptocurrencies)
+  — [Database](#database)
+  — [Emulators](#emulators)
+  — [Games](#games)
+  — [Graphics](#graphics)
+  — [Industrial automation](#industrial-automation)
+  — [Operating systems](#operating-systems)
+  — [Productivity](#productivity)
+  — [Security tools](#security-tools)
+  — [System tools](#system-tools)
+  — [Text editors](#text-editors)
+  — [Text processing](#text-processing)
+  — [Utilities](#utilities)
+  — [Video](#video)
+  — [Virtualization](#virtualization)
+  — [Window managers](#window-managers)
+  — [Web](#web)
+  — [Web Servers](#web-servers)
 - [Development tools](#development-tools)
-  - [Build system](#build-system)
-  - [Debugging](#debugging)
-  - [Deployment](#deployment)
-  - [Embedded](#embedded)
-  - [FFI](#ffi)
-  - [IDEs](#ides)
-  - [Pattern recognition](#pattern-recognition)
-  - [Profiling](#profiling)
-  - [Services](#services)
-  - [Static analysis](#static-analysis)
-  - [Testing](#testing)
-  - [Transpiling](#transpiling)
+  — [Build system](#build-system)
+  — [Debugging](#debugging)
+  — [Deployment](#deployment)
+  — [Embedded](#embedded)
+  — [FFI](#ffi)
+  — [IDEs](#ides)
+  — [Pattern recognition](#pattern-recognition)
+  — [Profiling](#profiling)
+  — [Services](#services)
+  — [Static analysis](#static-analysis)
+  — [Testing](#testing)
+  — [Transpiling](#transpiling)
 - [Libraries](#libraries)
-  - [Artificial Intelligence](#artificial-intelligence)
-      - [Genetic algorithms](#genetic-algorithms)
-      - [Machine learning](#machine-learning)
-  - [Astronomy](#astronomy)
-  - [Asynchronous](#asynchronous)
-  - [Audio](#audio-1)
-  - [Authentication](#authentication)
-  - [Automotive](#automotive)
-  - [Bioinformatics](#bioinformatics)
-  - [Caching](#caching)
-  - [Cloud](#cloud)
-  - [Command-line](#command-line)
-  - [Compression](#compression)
-  - [Computation](#computation)
-  - [Concurrency](#concurrency)
-  - [Configuration](#configuration)
-  - [Cryptography](#cryptography)
-  - [Database](#database-1)
-  - [Data processing](#data-processing)
-  - [Data structures](#data-structures)
-  - [Data visualization](#data-visualization)
-  - [Date and time](#date-and-time)
-  - [Distributed systems](#distributed-systems)
-  - [Email](#email)
-  - [Encoding](#encoding)
-  - [Filesystem](#filesystem)
-  - [Game development](#game-development)
-  - [Geospatial](#geospatial)
-  - [Graphics](#graphics-1)
-  - [Graph processing](#graph-processing)
-  - [GUI](#gui)
-  - [Image processing](#image-processing)
-  - [Industrial automation](#industrial-automation)
-  - [Language specification](#language-specification)
-  - [Logging](#logging)
-  - [Macro](#macro)
-  - [Markup language](#markup-language)
-  - [Mobile](#mobile)
-  - [Network programming](#network-programming)
-  - [Parsing](#parsing)
-  - [Peripherals](#peripherals)
-  - [Platform specific](#platform-specific)
-  - [Scripting](#scripting)
-  - [Template engine](#template-engine)
-  - [Text processing](#text-processing-1)
-  - [Text search](#text-search)
-  - [Virtualization](#virtualization-1)
-  - [Web programming](#web-programming)
+  — [Artificial Intelligence](#artificial-intelligence)
+      — [Genetic algorithms](#genetic-algorithms)
+      — [Machine learning](#machine-learning)
+  — [Astronomy](#astronomy)
+  — [Asynchronous](#asynchronous)
+  — [Audio](#audio-1)
+  — [Authentication](#authentication)
+  — [Automotive](#automotive)
+  — [Bioinformatics](#bioinformatics)
+  — [Caching](#caching)
+  — [Cloud](#cloud)
+  — [Command-line](#command-line)
+  — [Compression](#compression)
+  — [Computation](#computation)
+  — [Concurrency](#concurrency)
+  — [Configuration](#configuration)
+  — [Cryptography](#cryptography)
+  — [Database](#database-1)
+  — [Data processing](#data-processing)
+  — [Data structures](#data-structures)
+  — [Data visualization](#data-visualization)
+  — [Date and time](#date-and-time)
+  — [Distributed systems](#distributed-systems)
+  — [Email](#email)
+  — [Encoding](#encoding)
+  — [Filesystem](#filesystem)
+  — [Game development](#game-development)
+  — [Geospatial](#geospatial)
+  — [Graphics](#graphics-1)
+  — [Graph processing](#graph-processing)
+  — [GUI](#gui)
+  — [Image processing](#image-processing)
+  — [Industrial automation](#industrial-automation)
+  — [Language specification](#language-specification)
+  — [Logging](#logging)
+  — [Macro](#macro)
+  — [Markup language](#markup-language)
+  — [Mobile](#mobile)
+  — [Network programming](#network-programming)
+  — [Parsing](#parsing)
+  — [Peripherals](#peripherals)
+  — [Platform specific](#platform-specific)
+  — [Scripting](#scripting)
+  — [Template engine](#template-engine)
+  — [Text processing](#text-processing-1)
+  — [Text search](#text-search)
+  — [Virtualization](#virtualization-1)
+  — [Web programming](#web-programming)
 - [Resources](#resources)
 - [License](#license)
 
@@ -133,7 +133,7 @@ See also [Rust — Production](https://www.rust-lang.org/production)(organizatio
 * [Joystream](https://github.com/Joystream/substrate-runtime-joystream) — A user governed video platform.
 * [Bitcoin Satoshi's Vision](https://github.com/brentongunning/rust-sv) — A Rust library for working with Bitcoin SV .
 * [ethaddrgen](https://github.com/Limeth/ethaddrgen) — Custom Ethereum vanity address generator made in Rust [<img src="https://api.travis-ci.org/Limeth/ethaddrgen.svg?branch=master">](https://travis-ci.org/Limeth/ethaddrgen)
-* [hdwallet](https://github.com/jjyr/hdwallet) - BIP-32 HD wallet related key derivation utilities.
+* [hdwallet](https://github.com/jjyr/hdwallet) — BIP-32 HD wallet related key derivation utilities.
 * [nearprotocol/nearcore](https://github.com/nearprotocol/nearcore) — decentralized smart-contract platform for low-end mobile devices.
 * [coinbase-pro-rs](https://github.com/inv2004/coinbase-pro-rs) — Coinbase pro client in Rust, supports sync/async/websocket [<img src="https://api.travis-ci.org/inv2004/coinbase-pro-rs.svg?branch=master">](https://travis-ci.org/inv2004/coinbase-pro-rs)
 * [Grin](https://github.com/mimblewimble/grin/) — Evolution of the MimbleWimble protocol
@@ -145,16 +145,15 @@ See also [Rust — Production](https://www.rust-lang.org/production)(organizatio
 * [Parity-Zcash](https://github.com/paritytech/parity-zcash) — Rust implementation of the Zcash protocol
 * [rust-cardano](https://github.com/input-output-hk/rust-cardano) — Rust implementation of Cardano primitives, helpers, and related applications
 * [cardano-cli](https://github.com/input-output-hk/cardano-cli) — Cardano Command Line Interface (CLI)
-* [Nervos CKB](https://github.com/nervosnetwork/ckb) - Nervos CKB is a public permissionless blockchain, the common knowledge layer of Nervos network.
-* [ChainX](https://github.com/chainx-org/ChainX) - Fully Decentralized Interchain Crypto Asset Management on Polkadot.
-* [rbtc](https://github.com/lucawen/rbtc) - Convert BTC to any currency and vice-versa. [<img src="https://api.travis-ci.com/lucawen/rbtc.svg?branch=master">](https://travis-ci.com/lucawen/rbtc/)
+* [Nervos CKB](https://github.com/nervosnetwork/ckb) — Nervos CKB is a public permissionless blockchain, the common knowledge layer of Nervos network.
+* [ChainX](https://github.com/chainx-org/ChainX) — Fully Decentralized Interchain Crypto Asset Management on Polkadot.
+* [rbtc](https://github.com/lucawen/rbtc) — Convert BTC to any currency and vice-versa. [<img src="https://api.travis-ci.com/lucawen/rbtc.svg?branch=master">](https://travis-ci.com/lucawen/rbtc/)
 * [wagu](https://crates.io/crates/wagu) — Generate a wallet for any cryptocurrency [<img src="https://api.travis-ci.com/ArgusObserver/wagu.svg?branch=master">](https://api.travis-ci.com/ArgusObserver/wagu.svg?branch=master)
 
 ### Database
 
-* [indradb/indradb](https://github.com/indradb/indradb) — Rust based graph database [<img src="https://api.travis-ci.org/indradb/indradb.svg?branch=master">](https://travis-ci.org/indradb/indradb)
-* [Mentat](https://mozilla.github.io/mentat/) — Project Mentat is a persistent, embedded knowledge base. It draws heavily on DataScript and Datomic. Mentat is intended to be a flexible relational (not key-value, not document-oriented) store that makes it easy to describe, grow, and reuse your domain schema.
-* [Noria](https://github.com/mit-pdos/noria) - Dynamically changing, partially-stateful data-flow for web application backends [<img src="https://api.travis-ci.org/mit-pdos/noria.svg?branch=master">](https://travis-ci.org/mit-pdos/noria)
+* [indradb](https://crates.io/crates/indradb) — Rust based graph database [<img src="https://api.travis-ci.org/indradb/indradb.svg?branch=master">](https://travis-ci.org/indradb/indradb)
+* [noria](https://crates.io/crates/noria) — Dynamically changing, partially-stateful data-flow for web application backends [<img src="https://api.travis-ci.org/mit-pdos/noria.svg?branch=master">](https://travis-ci.org/mit-pdos/noria)
 * [PumpkinDB](https://github.com/PumpkinDB/PumpkinDB) — an event sourcing database engine [<img src="https://api.travis-ci.org/PumpkinDB/PumpkinDB.svg?branch=master">](https://travis-ci.org/PumpkinDB/PumpkinDB)
 * [seppo0010/rsedis](https://github.com/seppo0010/rsedis) — A Redis reimplementation in Rust [<img src="https://api.travis-ci.org/seppo0010/rsedis.svg?branch=master">](https://travis-ci.org/seppo0010/rsedis)
 * [ParityDB](https://github.com/paritytech/paritydb) — Fast and reliable database, optimised for read operation
@@ -254,7 +253,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [mmstick/parallel](https://github.com/mmstick/parallel) — Reimplementation of GNU Parallel
 * [mmstick/systemd-manager](https://github.com/mmstick/systemd-manager) — A systemd service manager written in Rust using GTK-rs.
 * [mmstick/tv-renamer](https://github.com/mmstick/tv-renamer) — A tv series renaming application with an optional GTK3 frontend. [<img src="https://api.travis-ci.org/mmstick/tv-renamer.svg?branch=master">](https://travis-ci.org/mmstick/tv-renamer)
-* [Peltoche/lsd](https://github.com/Peltoche/lsd) - An ls with a lot of pretty colors and awesome icons [<img src="https://api.travis-ci.org/Peltoche/lsd.svg?branch=master">](https://travis-ci.org/Peltoche/lsd)
+* [Peltoche/lsd](https://github.com/Peltoche/lsd) — An ls with a lot of pretty colors and awesome icons [<img src="https://api.travis-ci.org/Peltoche/lsd.svg?branch=master">](https://travis-ci.org/Peltoche/lsd)
 * [ogham/exa](https://github.com/ogham/exa) — A replacement for 'ls' [<img src="https://api.travis-ci.org/ogham/exa.svg?branch=master">](https://travis-ci.org/ogham/exa)
 * [pop-os/debrep](https://github.com/pop-os/debrepbuild) — APT repository tool for building and managing an APT repo
 * [pop-os/popsicle](https://github.com/pop-os/popsicle) — GTK3 & CLI utility for flashing multiple USB devices in parallel
@@ -284,7 +283,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [sd](https://crates.io/crates/sd) -Intuitive find & replace CLI [<img src="https://api.travis-ci.org/chmln/sd.svg?branch=master">](https://travis-ci.org/chmln/sd)
 * [lavifb/todo_r](https://github.com/lavifb/todo_r) — Find all your TODO notes with one command! [<img src="https://api.travis-ci.org/lavifb/todo_r.svg?branch=master">](https://travis-ci.org/lavifb/todo_r)
 * [whitfin/runiq](https://github.com/whitfin/runiq) — an efficient way to filter duplicate lines from unsorted input.
-* [whitfin/bytelines](https://github.com/whitfin/bytelines) - Read input lines as byte slices for high efficiency.
+* [whitfin/bytelines](https://github.com/whitfin/bytelines) — Read input lines as byte slices for high efficiency.
 * [vishaltelangre/ff](https://github.com/vishaltelangre/ff) — Find files (ff) by name! [<img src="https://api.travis-ci.org/vishaltelangre/ff.svg?branch=master">](https://travis-ci.org/vishaltelangre/ff)
 
 ### Utilities
@@ -597,7 +596,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [TeaEntityLab/fpRust](https://github.com/TeaEntityLab/fpRust) — Monad/MonadIO, Handler, Coroutine/doNotation, Functional Programming features for Rust [<img src="https://api.travis-ci.org/TeaEntityLab/fpRust.svg?branch=master" alt="Travis CI Build Status">](https://travis-ci.org/TeaEntityLab/fpRust)
 * [rust-lang-nursery/futures-rs](https://github.com/rust-lang-nursery/futures-rs) — Zero-cost futures in Rust [<img src="https://api.travis-ci.org/rust-lang-nursery/futures-rs.svg?branch=master" alt="Travis CI Build Status">](https://travis-ci.org/rust-lang-nursery/futures-rs)
 * [carllerche/mio](https://github.com/carllerche/mio) — MIO is a lightweight IO library for Rust with a focus on adding as little overhead as possible over the OS abstractions [<img src="https://api.travis-ci.org/carllerche/mio.svg?branch=master">](https://travis-ci.org/carllerche/mio)
-* [Xudong-Huang/may](https://github.com/Xudong-Huang/may) - rust stackful coroutine library [<img src="https://api.travis-ci.org/Xudong-Huang/may.svg?branch=master">](https://travis-ci.org/Xudong-Huang/may)
+* [Xudong-Huang/may](https://github.com/Xudong-Huang/may) — rust stackful coroutine library [<img src="https://api.travis-ci.org/Xudong-Huang/may.svg?branch=master">](https://travis-ci.org/Xudong-Huang/may)
 
 ### Audio
 
@@ -618,16 +617,16 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 
 ### Automotive
 
-* [canparse](https://crates.io/crates/canparse) - A CAN signal and definition parser [<img src="https://api.travis-ci.org/jmagnuson/canparse.svg?branch=master">](https://travis-ci.org/jmagnuson/canparse)
-* [j2534](https://crates.io/crates/j2534) - J2534 PassThru bindings
-* [JulianSchmid/dlt_parse](https://github.com/JulianSchmid/dlt-parse-rs) - Rust DLT (Diagnostic Log and Trace) packet parser [<img src="https://api.travis-ci.org/JulianSchmid/dlt-parse-rs.svg?branch=master">](https://travis-ci.org/JulianSchmid/dlt-parse-rs)
-* [JulianSchmid/someip_parse](https://github.com/JulianSchmid/someip-parse-rs) [[someip_parse](https://crates.io/crates/someip_parse)] - A library for parsing the SOME/IP network protocol (without payload interpretation) [<img src="https://api.travis-ci.org/JulianSchmid/someip-parse-rs.svg?branch=master">](https://travis-ci.org/JulianSchmid/someip-parse-rs)
-* [LibreTuner/tuneutils](https://github.com/LibreTuner/tuneutils) [[tuneutils](https://crates.io/crates/tuneutils)] - Utilities for interfacing with, diagnosing, and tuning car
-* [marcelbuesing/can-dbc](https://github.com/marcelbuesing/can-dbc) [[can-dbc](https://crates.io/crates/can-dbc)] - A parser for the DBC format [<img src="https://api.travis-ci.org/marcelbuesing/can-dbc.svg?branch=dev">](https://travis-ci.org/marcelbuesing/can-dbc)
-* [marcelbuesing/tokio-socketcan-bcm](https://github.com/marcelbuesing/tokio-socketcan-bcm) [[tokio-socketcan-bcm](https://crates.io/crates/tokio-socketcan-bcm)] - Linux SocketCAN BCM support for tokio [<img src="https://api.travis-ci.org/marcelbuesing/tokio-socketcan-bcm.svg?branch=master">](https://travis-ci.org/marcelbuesing/tokio-socketcan-bcm)
-* [mbr/socketcan](https://github.com/mbr/socketcan-rs) [[socketcan](https://crates.io/crates/socketcan)] - Linux SocketCAN library [<img src="https://api.travis-ci.org/mbr/socketcan-rs.svg?branch=master">](https://travis-ci.org/mbr/socketcan-rs)
-* [oefd/tokio-socketcan](https://github.com/oefd/tokio-socketcan) [[tokio-socketcan]](https://crates.io/crates/tokio-socketcan)] - Linux SocketCAN support for tokio based on the socketcan crate
-* [Sensirion/lin-bus](https://github.com/Sensirion/lin-bus-rs) [[lin-bus](https://crates.io/crates/lin-bus)] - LIN bus driver traits and protocol implementation [<img src="https://circleci.com/gh/Sensirion/lin-bus-rs.svg?style=svg">](https://circleci.com/gh/Sensirion/lin-bus-rs)
+* [canparse](https://crates.io/crates/canparse) — A CAN signal and definition parser [<img src="https://api.travis-ci.org/jmagnuson/canparse.svg?branch=master">](https://travis-ci.org/jmagnuson/canparse)
+* [j2534](https://crates.io/crates/j2534) — J2534 PassThru bindings
+* [JulianSchmid/dlt_parse](https://github.com/JulianSchmid/dlt-parse-rs) — Rust DLT (Diagnostic Log and Trace) packet parser [<img src="https://api.travis-ci.org/JulianSchmid/dlt-parse-rs.svg?branch=master">](https://travis-ci.org/JulianSchmid/dlt-parse-rs)
+* [JulianSchmid/someip_parse](https://github.com/JulianSchmid/someip-parse-rs) [[someip_parse](https://crates.io/crates/someip_parse)] — A library for parsing the SOME/IP network protocol (without payload interpretation) [<img src="https://api.travis-ci.org/JulianSchmid/someip-parse-rs.svg?branch=master">](https://travis-ci.org/JulianSchmid/someip-parse-rs)
+* [LibreTuner/tuneutils](https://github.com/LibreTuner/tuneutils) [[tuneutils](https://crates.io/crates/tuneutils)] — Utilities for interfacing with, diagnosing, and tuning car
+* [marcelbuesing/can-dbc](https://github.com/marcelbuesing/can-dbc) [[can-dbc](https://crates.io/crates/can-dbc)] — A parser for the DBC format [<img src="https://api.travis-ci.org/marcelbuesing/can-dbc.svg?branch=dev">](https://travis-ci.org/marcelbuesing/can-dbc)
+* [marcelbuesing/tokio-socketcan-bcm](https://github.com/marcelbuesing/tokio-socketcan-bcm) [[tokio-socketcan-bcm](https://crates.io/crates/tokio-socketcan-bcm)] — Linux SocketCAN BCM support for tokio [<img src="https://api.travis-ci.org/marcelbuesing/tokio-socketcan-bcm.svg?branch=master">](https://travis-ci.org/marcelbuesing/tokio-socketcan-bcm)
+* [mbr/socketcan](https://github.com/mbr/socketcan-rs) [[socketcan](https://crates.io/crates/socketcan)] — Linux SocketCAN library [<img src="https://api.travis-ci.org/mbr/socketcan-rs.svg?branch=master">](https://travis-ci.org/mbr/socketcan-rs)
+* [oefd/tokio-socketcan](https://github.com/oefd/tokio-socketcan) [[tokio-socketcan]](https://crates.io/crates/tokio-socketcan)] — Linux SocketCAN support for tokio based on the socketcan crate
+* [Sensirion/lin-bus](https://github.com/Sensirion/lin-bus-rs) [[lin-bus](https://crates.io/crates/lin-bus)] — LIN bus driver traits and protocol implementation [<img src="https://circleci.com/gh/Sensirion/lin-bus-rs.svg?style=svg">](https://circleci.com/gh/Sensirion/lin-bus-rs)
 
 ### Bioinformatics
 
@@ -749,7 +748,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 ### Configuration
 
 * [mehcode/config-rs](https://github.com/mehcode/config-rs) [[config](https://crates.io/crates/config)] — Layered configuration system for Rust applications (with strong support for 12-factor applications). [<img src="https://api.travis-ci.org/mehcode/config-rs.svg?branch=master">](https://travis-ci.org/mehcode/config-rs)
-* [Kixunil/configure_me](https://github.com/Kixunil/configure_me) [[configure_me](https://crates.io/crates/configure_me)] - library for processing application configuration easily
+* [Kixunil/configure_me](https://github.com/Kixunil/configure_me) [[configure_me](https://crates.io/crates/configure_me)] — library for processing application configuration easily
 
 ### Cryptography
 
@@ -785,13 +784,13 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * NoSQL [[nosql](https://crates.io/keywords/nosql)]
 
   * [ArangoDB](https://www.arangodb.com)
-     * [Rincon](https://github.com/innoave/rincon) - An ArangoDB (NoSQL and Graph store) driver for Rust
+     * [Rincon](https://github.com/innoave/rincon) — An ArangoDB (NoSQL and Graph store) driver for Rust
   * [Cassandra](http://cassandra.apache.org) [[cassandra](https://crates.io/keywords/cassandra), [cql](https://crates.io/keywords/cql)]
     * [AlexPikalov/cdrs](https://github.com/AlexPikalov/cdrs) [[cdrs](https://crates.io/crates/cdrs)] — native client written in Rust [<img src="https://api.travis-ci.org/AlexPikalov/cdrs.svg?branch=master">](https://travis-ci.org/AlexPikalov/cdrs)
     * [Metaswitch/cassandra-rs](https://github.com/Metaswitch/cassandra-rs) —  bindings to the DataStax C/C++ client [<img src="https://api.travis-ci.org/Metaswitch/cassandra-rs.svg?branch=master">](https://travis-ci.org/Metaswitch/cassandra-rs)
   * CouchDB [[couchdb](https://crates.io/keywords/couchdb)]
     * [chill-rs/chill](https://github.com/chill-rs/chill) [[couchdb](https://crates.io/crates/chill)] — A Rust client for the CouchDB REST API [<img src="https://api.travis-ci.org/chill-rs/chill.svg?branch=master">](https://travis-ci.org/chill-rs/chill)
-    * [Sofa](https://github.com/YellowInnovation/sofa) - an interface to CouchDB HTTP REST API for stable rust
+    * [Sofa](https://github.com/YellowInnovation/sofa) — an interface to CouchDB HTTP REST API for stable rust
   * Elasticsearch [[elasticsearch](https://crates.io/keywords/elasticsearch)]
     * [benashford/rs-es](https://github.com/benashford/rs-es) [[rs-es](https://crates.io/crates/rs-es)] — A Rust client for the [Elastic](https://www.elastic.co/) REST API [<img src="https://api.travis-ci.org/benashford/rs-es.svg?branch=master">](https://travis-ci.org/benashford/rs-es)
     * [elastic-rs/elastic-reqwest](https://github.com/elastic-rs/elastic-reqwest) [[elastic_reqwest](https://crates.io/crates/elastic_reqwest)] — A lightweight implementation of the Elasticsearch API based on Reqwest [<img src="https://api.travis-ci.org/elastic-rs/elastic-reqwest.svg">](https://travis-ci.org/elastic-rs/elastic-reqwest)
@@ -818,7 +817,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
   * [ZooKeeper](https://zookeeper.apache.org/)
     * [bonifaido/rust-zookeeper](https://github.com/bonifaido/rust-zookeeper) [[zookeeper](https://crates.io/crates/zookeeper)] — A client library for Apache ZooKeeper. [<img src="https://api.travis-ci.org/bonifaido/rust-zookeeper.svg?branch=master">](https://travis-ci.org/bonifaido/rust-zookeeper)
   * [PickleDB](https://pythonhosted.org/pickleDB/)
-    * [seladb/pickledb-rs](https://github.com/seladb/pickledb-rs) - a lightweight and simple key-value store, heavily inspired by Python's PickleDB. [<img src="https://api.travis-ci.org/seladb/pickledb-rs.svg?branch=master">](https://travis-ci.org/seladb/pickledb-rs)
+    * [seladb/pickledb-rs](https://github.com/seladb/pickledb-rs) — a lightweight and simple key-value store, heavily inspired by Python's PickleDB. [<img src="https://api.travis-ci.org/seladb/pickledb-rs.svg?branch=master">](https://travis-ci.org/seladb/pickledb-rs)
 * SQL [[sql](https://crates.io/keywords/sql)]
   * Microsoft SQL
     * [steffengy/tiberius](https://github.com/steffengy/tiberius) — [<img src="https://api.travis-ci.org/steffengy/tiberius.svg?branch=master">](https://travis-ci.org/steffengy/tiberius)
@@ -851,7 +850,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [Nemo157/roaring-rs](https://github.com/Nemo157/roaring-rs) – Roaring Bitmaps in Rust [<img src="https://api.travis-ci.org/Nemo157/roaring-rs.svg?branch=master">](https://travis-ci.org/Nemo157/roaring-rs)
 * [orium/rpds](https://github.com/orium/rpds) [[rpds](https://crates.io/crates/rpds)] — Persistent data structures in Rust. [<img src="https://api.travis-ci.org/orium/rpds.svg?branch=master">](https://travis-ci.org/orium/rpds)
 * [pop-os/progress-streams](https://github.com/pop-os/progress-streams) — Progress callbacks for types which implement `dyn io::Read` or `dyn io::Write`.
-* [whitfin/usher](https://github.com/whitfin/usher) [[usher](https://crates.io/crates/usher)] - Parameterized routing for generic resources in Rust.
+* [whitfin/usher](https://github.com/whitfin/usher) [[usher](https://crates.io/crates/usher)] — Parameterized routing for generic resources in Rust.
 * [xfix/enum-map](https://github.com/xfix/enum-map) [[enum-map](https://crates.io/crates/enum-map)] — An optimized map implementation for enums using an array to store values. [<img src="https://api.travis-ci.org/xfix/enum-map.svg?branch=master">](https://travis-ci.org/xfix/enum-map)
 
 ### Data visualization
@@ -1040,14 +1039,14 @@ See also [Are we game yet?](http://arewegameyet.com)
 * [autopilot-rs/autopilot-rs](https://github.com/autopilot-rs/autopilot-rs) — A simple, cross-platform GUI automation library for Rust.
 * [maps4print/azul](https://github.com/maps4print/azul) — A free, functional, IMGUI-oriented GUI framework for rapid development of desktop applications written in Rust, supported by the Mozilla WebRender rendering engine. [<img src="https://api.travis-ci.org/maps4print/azul.svg?branch=master">](https://travis-ci.org/maps4print/azul)
 * [PistonDevelopers/conrod](https://github.com/PistonDevelopers/conrod/) — An easy-to-use, immediate-mode, 2D GUI library written entirely in Rust [<img src="https://api.travis-ci.org/PistonDevelopers/conrod.svg?branch=master">](https://travis-ci.org/PistonDevelopers/conrod)
-* [rise-ui](https://github.com/rise-ui/rise) - Simple component-based cross-Platform GUI Toolkit for developing beautiful and user-friendly interfaces.
+* [rise-ui](https://github.com/rise-ui/rise) — Simple component-based cross-Platform GUI Toolkit for developing beautiful and user-friendly interfaces.
 
 
 * Cocoa
   * [kylewlacy/sorbet-cocoa](https://github.com/kylewlacy/sorbet-cocoa) — [<img src="https://api.travis-ci.org/kylewlacy/sorbet-cocoa.svg?branch=master">](https://travis-ci.org/kylewlacy/sorbet-cocoa)
   * [servo/core-foundation-rs](https://github.com/servo/core-foundation-rs) — [<img src="https://api.travis-ci.org/servo/core-foundation-rs.svg?branch=master">](https://travis-ci.org/servo/core-foundation-rs)
 * [Flutter](https://flutter.dev/)
-  * [flutter-rs](https://github.com/gliheng/flutter-rs) - Build flutter desktop app in dart & rust.
+  * [flutter-rs](https://github.com/gliheng/flutter-rs) — Build flutter desktop app in dart & rust.
 * [GTK+](https://www.gtk.org/) [[gtk](https://crates.io/keywords/gtk)]
   * [gtk-rs/gtk](https://github.com/gtk-rs/gtk) — GTK+ bindings [<img src="https://api.travis-ci.org/gtk-rs/gtk.svg?branch=master">](https://travis-ci.org/gtk-rs/gtk)
   * [relm](https://github.com/antoyo/relm) — Asynchronous, GTK+-based, GUI library, inspired by Elm [<img src="https://api.travis-ci.org/antoyo/relm.svg?branch=master">](https://travis-ci.org/antoyo/relm)
@@ -1125,7 +1124,7 @@ See also [Are we game yet?](http://arewegameyet.com)
   * [mattnenterprise/rust-ftp](https://github.com/mattnenterprise/rust-ftp) — an [FTP](https://en.wikipedia.org/wiki/File_Transfer_Protocol) client for Rust [<img src="https://api.travis-ci.org/mattnenterprise/rust-ftp.svg?branch=master">](https://travis-ci.org/mattnenterprise/rust-ftp)
 * IPNetwork
   * [achanda/ipnetwork](https://github.com/achanda/ipnetwork) — A library to work with IP networks in pure Rust [<img src="https://api.travis-ci.org/achanda/ipnetwork.svg?branch=master">](https://travis-ci.org/achanda/ipnetwork)
-  * [candrew/netsim](https://github.com/canndrew/netsim) - A Rust library for network simulation and testing [<img src="https://api.travis-ci.org/canndrew/netsim.svg?branch=master">](https://travis-ci.org/canndrew/netsim)
+  * [candrew/netsim](https://github.com/canndrew/netsim) — A Rust library for network simulation and testing [<img src="https://api.travis-ci.org/canndrew/netsim.svg?branch=master">](https://travis-ci.org/canndrew/netsim)
 * Low level
   * [libpnet/libpnet](https://github.com/libpnet/libpnet) — A cross-platform, low level networking [<img src="https://api.travis-ci.org/libpnet/libpnet.svg?branch=master">](https://travis-ci.org/libpnet/libpnet)
   * [tokio-rs/tokio](https://github.com/tokio-rs/tokio) — A network application framework for rapid development and highly scalable production deployments of clients and servers.
@@ -1186,8 +1185,8 @@ See also [Are we game yet?](http://arewegameyet.com)
 * Windows
   * [retep998/winapi-rs](https://github.com/retep998/winapi-rs) — Windows API bindings [<img src="https://api.travis-ci.org/retep998/winapi-rs.svg?branch=master">](https://travis-ci.org/retep998/winapi-rs)
 * FreeBSD
-  * [fubarnetes/libjail-rs](https://github.com/fubarnetes/libjail-rs/) - Rust implementation of a FreeBSD jail library
-  * [dlrobertson/capsicum-rs](https://github.com/dlrobertson/capsicum-rs) - Rust bindings for the FreeBSD capsicum framework
+  * [fubarnetes/libjail-rs](https://github.com/fubarnetes/libjail-rs/) — Rust implementation of a FreeBSD jail library
+  * [dlrobertson/capsicum-rs](https://github.com/dlrobertson/capsicum-rs) — Rust bindings for the FreeBSD capsicum framework
 
 ### Scripting
 
@@ -1203,7 +1202,7 @@ See also [Are we game yet?](http://arewegameyet.com)
 
 * Handlebars
   * [sunng87/handlebars-rust](https://github.com/sunng87/handlebars-rust) — Handlebars template engine with inheritance, custom helper support. [<img src="https://api.travis-ci.org/sunng87/handlebars-rust.svg?branch=master">](https://travis-ci.org/sunng87/handlebars-rust)
-  * [r-iendo/yarte](https://gitlab.com/r-iendo/yarte) - compile-time handlebars-like templates [<img src="https://gitlab.com/r-iendo/yarte/badges/master/build.svg">](https://gitlab.com/r-iendo/yarte/pipelines)
+  * [r-iendo/yarte](https://gitlab.com/r-iendo/yarte) — compile-time handlebars-like templates [<img src="https://gitlab.com/r-iendo/yarte/badges/master/build.svg">](https://gitlab.com/r-iendo/yarte/pipelines)
 * HTML
   * [lfairy/maud](https://github.com/lfairy/maud) — compile-time HTML templates [<img src="https://api.travis-ci.org/lfairy/maud.svg?branch=master">](https://travis-ci.org/lfairy/maud)
   * [Stebalien/horrorshow-rs](https://github.com/Stebalien/horrorshow-rs) — compile-time HTML templates [<img src="https://api.travis-ci.org/Stebalien/horrorshow-rs.svg?branch=master">](https://travis-ci.org/Stebalien/horrorshow-rs)
@@ -1314,7 +1313,7 @@ See also [Are we web yet?](http://www.arewewebyet.org) and [Rust web framework c
   * [Build a language VM](https://blog.subnetzero.io/post/building-language-vm-part-00/)
 * Podcasts
   * [New Rustacean](https://newrustacean.com) — A podcast about learning Rust
-  * [Rusty Spike](https://rusty-spike.blubrry.net) - news on all things Rust
+  * [Rusty Spike](https://rusty-spike.blubrry.net) — news on all things Rust
 * [RustCamp 2015 Talks](http://confreaks.tv/events/rustcamp2015)
 * [Rust Design Patterns](https://github.com/rust-unofficial/patterns)
 * [Rust Guidelines](http://aturon.github.io/)
