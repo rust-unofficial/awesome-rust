@@ -35,10 +35,10 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   - [IDEs](#ides)
   - [Pattern recognition](#pattern-recognition)
   - [Profiling](#profiling)
+  - [Services](#services)
   - [Static analysis](#static-analysis)
   - [Testing](#testing)
   - [Transpiling](#transpiling)
-- [Services](#services)
 - [Libraries](#libraries)
   - [Artificial Intelligence](#artificial-intelligence)
       - [Genetic algorithms](#genetic-algorithms)
@@ -524,6 +524,11 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust Tools](https://
   * [mrhooray/torch](https://github.com/mrhooray/torch) — generates FlameGraphs based on DWARF Debug Info
   * [TyOverby/flame](https://github.com/TyOverby/flame) — [<img src="https://api.travis-ci.org/TyOverby/flame.svg?branch=master">](https://travis-ci.org/TyOverby/flame)
 
+### Services
+
+* [deps.rs](https://deps.rs) — Detect outdated or insecure dependencies
+* [docs.rs](https://docs.rs) — Automatic documentation generation of crates
+
 ### Static analysis
 
 [[assert](https://crates.io/keywords/assert), [static](https://crates.io/keywords/static)]
@@ -549,10 +554,6 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust Tools](https://
 * [immunant/c2rust](https://github.com/immunant/c2rust) — C to Rust translator and cross checker built atop Clang/LLVM. [![Build Status](https://api.travis-ci.org/immunant/c2rust.svg?branch=master)](https://travis-ci.org/immunant/c2rust)
 * [jameysharp/corrode](https://github.com/jameysharp/corrode) — A C to Rust translator written in Haskell.
 
-## Services
-
-- [deps.rs](https://deps.rs) - Detect outdated or insecure dependencies
-- [docs.rs](https://docs.rs) - Automatic documentation generation of crates
 
 ## Libraries
 
