@@ -88,6 +88,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   * [Text search](#text-search)
   * [Virtualization](#virtualization-1)
   * [Web programming](#web-programming)
+* [Registries](#registries)
 * [Resources](#resources)
 * [License](#license)
 
@@ -1289,6 +1290,12 @@ See also [Are we web yet?](http://www.arewewebyet.org) and [Rust web framework c
   * [FuGangqiang/mdblog.rs](https://github.com/FuGangqiang/mdblog.rs) — Static site generator from markdown files.
   * [leven-the-blog/leven](https://github.com/leven-the-blog/leven) [[leven](https://crates.io/crates/leven)] — A simple, parallelized blog generator. [<img src="https://api.travis-ci.org/leven-the-blog/leven.svg?branch=master">](https://travis-ci.org/leven-the-blog/leven)
 
+## Registries
+
+A registry allows you to publish your Rust libraries as crate packages, to share them with others publicly and privately.
+
+* [Crates](https://crates.io) - The official public registry for Rust/Cargo.
+* [Cloudsmith :heavy_dollar_sign:](https://cloudsmith.io/l/cargo-registry/) - A fully managed package management SaaS, with first-class support for public and private Cargo/Rust registries (plus many others). Has a generous free-tier and is also completely free for open-source.
 
 ## Resources
 
