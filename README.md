@@ -653,8 +653,6 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 
 * AWS [[aws](https://crates.io/keywords/aws)]
   * [rusoto/rusoto](https://github.com/rusoto/rusoto) — [<img src="https://api.travis-ci.org/rusoto/rusoto.svg?branch=master">](https://travis-ci.org/rusoto/rusoto)
-* DigitalOcean
-  * [kbknapp/doapi](https://github.com/kbknapp/doapi-rs) — DigitalOcean v2 API bindings [<img src="https://api.travis-ci.org/kbknapp/doapi-rs.svg?branch=master">](https://travis-ci.org/kbknapp/doapi-rs)
 
 ### Command-line
 
