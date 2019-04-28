@@ -226,7 +226,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 
 ### Productivity
 
-* [simeg/eureka](https://github.com/simeg/eureka) [[eureka](https://crates.io/crates/eureka)] — A CLI tool to input and store your ideas without leaving the terminal
+* [eureka](https://crates.io/crates/eureka) — A CLI tool to input and store your ideas without leaving the terminal
 
 ### Security tools
 
