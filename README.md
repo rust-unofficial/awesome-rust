@@ -1071,6 +1071,7 @@ See also [Are we game yet?](http://arewegameyet.com)
 * [saurvs/nfd-rs](https://github.com/saurvs/nfd-rs) — [nativefiledialog](https://github.com/mlabbe/nativefiledialog) bindings
 * [Sciter](https://sciter.com/)
   * [sciter-sdk/rust-sciter](https://github.com/sciter-sdk/rust-sciter) — Sciter bindings [<img src="https://ci.appveyor.com/api/projects/status/github/sciter-sdk/rust-sciter?svg=true">](https://ci.appveyor.com/project/sciter-sdk/rust-sciter)
+* [vislyhq/stretch](https://github.com/vislyhq/stretch) - an implemnetation of Flexbox written in Rust. The goal of stretch is to provide a solid foundation for layout across all platforms with a specific focus on mobile. [![CircleCI](https://circleci.com/gh/vislyhq/stretch.svg?style=svg)](https://circleci.com/gh/vislyhq/stretch)
 
 ### Image processing
 
