@@ -124,6 +124,7 @@ See also [Rust — Production](https://www.rust-lang.org/production)(organizatio
 * [Servo](https://github.com/servo/servo) — A prototype web browser engine
 * [trust-dns](https://crates.io/crates/trust-dns) — A DNS-server [<img src="https://api.travis-ci.org/bluejekyll/trust-dns.svg?branch=master">](https://travis-ci.org/bluejekyll/trust-dns)
 * [Weld](https://github.com/serayuzgur/weld) — Full fake REST API generator [<img src="https://api.travis-ci.org/serayuzgur/weld.svg">](https://travis-ci.org/serayuzgur/weld)
+* [kytan](https://github.com/changlan/kytan) - High Performance Peer-to-Peer VPN 
 
 ### Audio
 
