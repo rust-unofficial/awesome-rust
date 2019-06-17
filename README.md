@@ -143,7 +143,7 @@ See also [Rust — Production](https://www.rust-lang.org/production)(organizatio
 * [Joystream](https://github.com/Joystream/substrate-runtime-joystream) — A user governed video platform.
 * [nearprotocol/nearcore](https://github.com/nearprotocol/nearcore) — decentralized smart-contract platform for low-end mobile devices.
 * [Nervos CKB](https://github.com/nervosnetwork/ckb) — Nervos CKB is a public permissionless blockchain, the common knowledge layer of Nervos network.
-* [Nimiq](https://github.com/nimiq/core-rs) — Rust implementation of Nimiq node
+* [Nimiq](https://github.com/nimiq/core-rs) — Rust implementation of Nimiq node [<img src="https://travis-ci.com/nimiq/core-rs.svg?branch=master">](https://travis-ci.com/nimiq/core-rs)
 * [Parity-Bitcoin](https://github.com/paritytech/parity-bitcoin) — The Parity Bitcoin client [<img src="https://api.travis-ci.org/paritytech/parity-bitcoin.svg?branch=master">](https://travis-ci.com/paritytech/parity-bitcoin)
 * [Parity-Bridge](https://github.com/paritytech/parity-bridge) — Bridge between any two ethereum-based networks
 * [Parity-Ethereum](https://github.com/paritytech/parity-ethereum) — Fast, light, and robust Ethereum client
