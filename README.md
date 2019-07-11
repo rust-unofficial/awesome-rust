@@ -879,6 +879,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 ### Data visualization
 
 * [saresend/gust](https://github.com/saresend/Gust) — [<img src="https://api.travis-ci.org/saresend/Gust.svg?branch=master">](https://travis-ci.org/saresend/Gust)
+* [milliams/plotlib](https://github.com/milliams/plotlib) — [<img src="https://travis-ci.org/milliams/plotlib.svg?branch=master">](https://travis-ci.org/milliams/plotlib)
 
 ### Date and time
 
