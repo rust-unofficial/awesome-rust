@@ -101,6 +101,7 @@ See also [Rust — Production](https://www.rust-lang.org/production)(organizatio
 * [AnderEnder/s3find-rs](https://github.com/AnderEnder/s3find-rs) — A command line utility to walk an Amazon S3 hierarchy, an analog of find for Amazon S3 [<img src="https://api.travis-ci.org/AnderEnder/s3find-rs.svg?branch=master">](https://travis-ci.org/AnderEnder/s3find-rs)
 * [andschwa/rust-genetic-algorithm](https://github.com/andschwa/rust-genetic-algorithm) — A genetic algorithm for academic benchmark problems [<img src="https://api.travis-ci.org/andschwa/rust-genetic-algorithm.svg?branch=master">](https://travis-ci.org/andschwa/rust-genetic-algorithm)
 * [cloudflare/boringtun](https://github.com/cloudflare/boringtun) — A Userspace WireGuard VPN Implementation [<img src="https://img.shields.io/badge/crates.io-v0.2.0-orange.svg">](https://crates.io/crates/boringtun)
+* [denoland/deno](https://github.com/denoland/deno) — A secure JavaScript/TypeScript runtime built with V8, Rust, and Tokio [<img src="https://travis-ci.com/denoland/deno.svg?branch=master">](https://travis-ci.com/denoland/deno)
 * [ivanceras/diwata](https://github.com/ivanceras/diwata) — A database administration tool for postgresql [<img src="https://api.travis-ci.org/ivanceras/diwata.svg">](https://travis-ci.org/ivanceras/diwata)
 * [linkerd/linkerd2-proxy](https://github.com/linkerd/linkerd2-proxy) — Ultralight service mesh for Kubernetes.
 * [darrint/device-blocker](https://github.com/darrint/device-blocker) — Limit screen time to children's various mobile devices by blocking internet access on the family Wifi router.
@@ -132,28 +133,29 @@ See also [Rust — Production](https://www.rust-lang.org/production)(organizatio
 
 ### Cryptocurrencies
 
-* [Joystream](https://github.com/Joystream/substrate-runtime-joystream) — A user governed video platform.
 * [Bitcoin Satoshi's Vision](https://github.com/brentongunning/rust-sv) — A Rust library for working with Bitcoin SV .
-* [ethaddrgen](https://github.com/Limeth/ethaddrgen) — Custom Ethereum vanity address generator made in Rust [<img src="https://api.travis-ci.org/Limeth/ethaddrgen.svg?branch=master">](https://travis-ci.org/Limeth/ethaddrgen)
-* [hdwallet](https://github.com/jjyr/hdwallet) — BIP-32 HD wallet related key derivation utilities.
-* [nearprotocol/nearcore](https://github.com/nearprotocol/nearcore) — decentralized smart-contract platform for low-end mobile devices.
-* [coinbase-pro-rs](https://github.com/inv2004/coinbase-pro-rs) — Coinbase pro client in Rust, supports sync/async/websocket [<img src="https://api.travis-ci.org/inv2004/coinbase-pro-rs.svg?branch=master">](https://travis-ci.org/inv2004/coinbase-pro-rs)
-* [Grin](https://github.com/mimblewimble/grin/) — Evolution of the MimbleWimble protocol
-* [Substrate](https://github.com/paritytech/substrate) — Generic modular blockchain template written in Rust
-* [Polkadot](https://github.com/paritytech/polkadot) — Heterogeneous multi‑chain technology with pooled security
-* [Parity-Ethereum](https://github.com/paritytech/parity-ethereum) — Fast, light, and robust Ethereum client
-* [Parity-Bridge](https://github.com/paritytech/parity-bridge) — Bridge between any two ethereum-based networks
-* [Parity-Bitcoin](https://github.com/paritytech/parity-bitcoin) — The Parity Bitcoin client [<img src="https://api.travis-ci.org/paritytech/parity-bitcoin.svg?branch=master">](https://travis-ci.com/paritytech/parity-bitcoin)
-* [Parity-Zcash](https://github.com/paritytech/parity-zcash) — Rust implementation of the Zcash protocol
-* [rust-cardano](https://github.com/input-output-hk/rust-cardano) — Rust implementation of Cardano primitives, helpers, and related applications
 * [cardano-cli](https://github.com/input-output-hk/cardano-cli) — Cardano Command Line Interface (CLI)
-* [Nervos CKB](https://github.com/nervosnetwork/ckb) — Nervos CKB is a public permissionless blockchain, the common knowledge layer of Nervos network.
-* [infincia/bip39-rs](https://github.com/infincia/bip39-rs) — Rust implementation of BIP39.
 * [ChainX](https://github.com/chainx-org/ChainX) — Fully Decentralized Interchain Crypto Asset Management on Polkadot.
+* [coinbase-pro-rs](https://github.com/inv2004/coinbase-pro-rs) — Coinbase pro client in Rust, supports sync/async/websocket [<img src="https://api.travis-ci.org/inv2004/coinbase-pro-rs.svg?branch=master">](https://travis-ci.org/inv2004/coinbase-pro-rs)
+* [ethaddrgen](https://github.com/Limeth/ethaddrgen) — Custom Ethereum vanity address generator made in Rust [<img src="https://api.travis-ci.org/Limeth/ethaddrgen.svg?branch=master">](https://travis-ci.org/Limeth/ethaddrgen)
+* [Grin](https://github.com/mimblewimble/grin/) — Evolution of the MimbleWimble protocol
+* [hdwallet](https://github.com/jjyr/hdwallet) — BIP-32 HD wallet related key derivation utilities.
+* [infincia/bip39-rs](https://github.com/infincia/bip39-rs) — Rust implementation of BIP39.
+* [Joystream](https://github.com/Joystream/substrate-runtime-joystream) — A user governed video platform.
+* [nearprotocol/nearcore](https://github.com/nearprotocol/nearcore) — decentralized smart-contract platform for low-end mobile devices.
+* [Nervos CKB](https://github.com/nervosnetwork/ckb) — Nervos CKB is a public permissionless blockchain, the common knowledge layer of Nervos network.
+* [Nimiq](https://github.com/nimiq/core-rs) — Rust implementation of Nimiq node [<img src="https://travis-ci.com/nimiq/core-rs.svg?branch=master">](https://travis-ci.com/nimiq/core-rs)
+* [Parity-Bitcoin](https://github.com/paritytech/parity-bitcoin) — The Parity Bitcoin client [<img src="https://api.travis-ci.org/paritytech/parity-bitcoin.svg?branch=master">](https://travis-ci.com/paritytech/parity-bitcoin)
+* [Parity-Bridge](https://github.com/paritytech/parity-bridge) — Bridge between any two ethereum-based networks
+* [Parity-Ethereum](https://github.com/paritytech/parity-ethereum) — Fast, light, and robust Ethereum client
+* [Parity-Zcash](https://github.com/paritytech/parity-zcash) — Rust implementation of the Zcash protocol
+* [Polkadot](https://github.com/paritytech/polkadot) — Heterogeneous multi‑chain technology with pooled security
 * [rbtc](https://github.com/lucawen/rbtc) — Convert BTC to any currency and vice-versa. [<img src="https://api.travis-ci.com/lucawen/rbtc.svg?branch=master">](https://travis-ci.com/lucawen/rbtc/)
+* [rust-cardano](https://github.com/input-output-hk/rust-cardano) — Rust implementation of Cardano primitives, helpers, and related applications
+* [Substrate](https://github.com/paritytech/substrate) — Generic modular blockchain template written in Rust
 * [wagu](https://crates.io/crates/wagu) — Generate a wallet for any cryptocurrency [<img src="https://api.travis-ci.com/ArgusObserver/wagu.svg?branch=master">](https://api.travis-ci.com/ArgusObserver/wagu.svg?branch=master)
 * [zcash](https://github.com/zcash/zcash) — Zcash is an implementation of the "Zerocash" protocol.
-
+* [Holochain](https://github.com/holochain/holochain-rust) — Scalable P2P alternative to blockchain for all those distributed apps you always wanted to build [![Build Status](https://travis-ci.com/holochain/holochain-rust.svg?branch=master)](https://travis-ci.com/holochain/holochain-rust)
 
 ### Database
 
@@ -203,7 +205,8 @@ See also [Games Made With Piston](https://github.com/PistonDevelopers/piston/wik
 * [citybound](https://github.com/citybound/citybound) — The city sim you deserve
 * [ozkriff/zemeroth](https://github.com/ozkriff/zemeroth) — A small 2D turn-based hexagonal strategy game [<img src="https://api.travis-ci.org/ozkriff/zemeroth.svg?branch=master">](https://travis-ci.org/ozkriff/zemeroth)
 * [rsaarelm/magog](https://github.com/rsaarelm/magog) — A roguelike game in Rust
-* [schulke-214/rsnake](https://github.com/schulke-214/rsnake) - Snake written in Rust.
+* [schulke-214/rsnake](https://github.com/schulke-214/rsnake) — Snake written in Rust.
+* [schulke-214/connect-four](https://github.com/schulke-214/connect-four) — A simple connect four implementation.
 * [cristicbz/rust-doom](https://github.com/cristicbz/rust-doom) — A renderer for Doom, may progress to being a playable game [<img src="https://api.travis-ci.org/cristicbz/rust-doom.svg?branch=master">](https://travis-ci.org/cristicbz/rust-doom)
 * [Thinkofname/rust-quake](https://github.com/Thinkofname/rust-quake) — Quake map renderer in Rust
 * [aleshaleksey/TGWM](https://github.com/aleshaleksey/TGWM) — An RPG with turned-based mechanics (work in progress) [<img src="https://api.travis-ci.org/aleshaleksey/TGWM.svg?branch=master">](https://travis-ci.org/aleshaleksey/TGWM)
@@ -358,6 +361,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [rustfmt](https://github.com/rust-lang/rustfmt) — A Rust code formatter [<img src="https://api.travis-ci.org/rust-lang/rustfmt.svg?branch=master">](https://travis-ci.org/rust-lang/rustfmt)
 * [Rustup](https://github.com/rust-lang/rustup.rs) — the Rust toolchain installer [<img src="https://api.travis-ci.org/rust-lang/rustup.rs.svg?branch=master">](https://travis-ci.org/rust-lang/rustup.rs)
 * [Rust Language Server](https://github.com/rust-lang/rls) — A server that runs in the background, providing IDEs, editors, and other tools with information about Rust programs
+* [Rust Regex Playground](https://2fd.github.io/rust-regex-playground/#method=find&regex=%5Cw%2B&text=abc) — Web tool to evaluate rust regular expressions
 * [artifact](https://github.com/vitiral/artifact) — the design doc tool made for developers [![Build Status](https://api.travis-ci.org/vitiral/artifact.svg?branch=master)](https://travis-ci.org/vitiral/artifact)
 * [semantic-rs](https://github.com/semantic-rs/semantic-rs) — automatic crate publishing [<img src="https://api.travis-ci.org/semantic-rs/semantic-rs.svg?branch=master">](https://travis-ci.org/semantic-rs/semantic-rs)
 * [fw](https://github.com/brocode/fw) — workspace productivity booster [<img src="https://api.travis-ci.org/brocode/fw.svg?branch=master">](https://travis-ci.org/brocode/fw)
@@ -386,6 +390,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
   * [cargo-release](https://crates.io/crates/cargo-release) — tool for releasing git-managed cargo project, build, tag, publish, doc and push [<img src="https://api.travis-ci.org/sunng87/cargo-release.svg?branch=master">](https://travis-ci.org/sunng87/cargo-release)
   * [cargo-script](https://crates.io/crates/cargo-script) — lets people quickly and easily run Rust "scripts" which can make use of Cargo's package ecosystem [<img src="https://api.travis-ci.org/DanielKeep/cargo-script.svg?branch=master">](https://travis-ci.org/DanielKeep/cargo-script)
   * [cargo-testify](https://crates.io/crates/cargo-testify) — watches files changes, runs tests and notifies about the result with friendly OS notification [<img src="https://api.travis-ci.org/greyblake/cargo-testify.svg?branch=master">](https://travis-ci.org/greyblake/cargo-testify)
+  * [cargo-tree](https://github.com/sfackler/cargo-tree) – Cargo subcommand that visualizes a crate's dependency graph in a tree-like format [![CircleCI](https://circleci.com/gh/sfackler/cargo-tree.svg?style=shield)](https://circleci.com/gh/sfackler/cargo-tree)
   * [cargo-update](https://crates.io/crates/cargo-update) — cargo subcommand for checking and applying updates to installed executables [<img src="https://api.travis-ci.org/nabijaczleweli/cargo-update.svg?branch=master">](https://travis-ci.org/nabijaczleweli/cargo-update)
   * [cargo-watch](https://crates.io/crates/cargo-watch) — utility for cargo to compile projects when sources change [<img src="https://api.travis-ci.org/passcod/cargo-watch.svg?branch=master">](https://travis-ci.org/passcod/cargo-watch)
   * [liuchong/cargo-x](https://github.com/liuchong/cargo-x) — A very simple third-party cargo subcommand to execute a custom command [<img src="https://api.travis-ci.org/liuchong/cargo-x.svg?branch=master">](https://travis-ci.org/liuchong/cargo-x)
@@ -556,6 +561,7 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust Tools](https://
 
 [[testing](https://crates.io/keywords/testing)]
 
+* [mockiato](https://crates.io/crates/mockiato) — A strict, yet friendly mocking library for Rust 2018 [<img src="https://api.travis-ci.com/myelin-ai/mockiato.svg?branch=master">](https://travis-ci.com/myelin-ai/mockiato)
 * [mutagen](https://crates.io/crates/mutagen) — A source-level mutation testing framework (nightly only) [<img src="https://api.travis-ci.org/llogiq/mutagen.svg?branch=master">](https://travis-ci.org/llogiq/mutagen)
 * [AlKass/polish](https://github.com/AlKass/polish) — Mini Testing/Test-Driven Framework [![Build Status](https://api.travis-ci.org/AlKass/polish.svg?branch=master)](https://travis-ci.org/AlKass/polish) [![Crates Package Status](https://img.shields.io/crates/v/polish.svg)](https://crates.io/crates/polish)
 * [proptest](https://crates.io/crates/proptest) — property testing framework inspired by the [Hypothesis](https://hypothesis.works/) framework for Python [<img src="https://api.travis-ci.org/altsysrq/proptest.svg?branch=master">](https://travis-ci.org/altsysrq/proptest)
@@ -944,6 +950,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * JSON
   * [pikkr/pikkr](https://github.com/pikkr/pikkr) [[pikkr](https://crates.io/crates/pikkr)] — JSON parser which picks up values directly without performing tokenization in Rust
   * [serde-rs/json](https://github.com/serde-rs/json) [[serde\_json](https://crates.io/crates/serde_json)] — JSON support for [Serde](https://github.com/serde-rs/serde) framework [<img src="https://api.travis-ci.org/serde-rs/json.svg?branch=master">](https://travis-ci.org/serde-rs/json)
+  * [Licenser/simdjson-rs](https://github.com/Licenser/simdjson-rs) [[simd-json](https://crates.io/crates/simd-json)] - High performance JSON parser based on a port of simdjson 
   * [maciejhirsz/json-rust](https://github.com/maciejhirsz/json-rust) [[json](https://crates.io/crates/json)] — JSON implementation in Rust [<img src="https://api.travis-ci.org/maciejhirsz/json-rust.svg?branch=master">](https://travis-ci.org/maciejhirsz/json-rust)
 * Jsonnet
   * [Qihoo360/rust-jsonnet](https://github.com/Qihoo360/rust-jsonnet) —  [<img src="https://api.travis-ci.org/Qihoo360/rust-jsonnet.svg?branch=master">](https://travis-ci.org/Qihoo360/rust-jsonnet)
@@ -1047,6 +1054,7 @@ See also [Are we game yet?](http://arewegameyet.com)
   * [J-F-Liu/lopdf](https://github.com/J-F-Liu/lopdf) — PDF document manipulation [<img src="https://api.travis-ci.org/J-F-Liu/lopdf.svg?branch=master">](https://travis-ci.org/J-F-Liu/lopdf)
 * [Vulkan](https://www.khronos.org/vulkan/) [[vulkan](https://crates.io/keywords/vulkan)]
   * [vulkano](https://github.com/vulkano-rs/vulkano) [[vulkano](https://crates.io/crates/vulkano)] — [<img src="https://api.travis-ci.org/vulkano-rs/vulkano.svg?branch=master">](https://travis-ci.org/vulkano-rs/vulkano)
+  * [WASM-PDF](https://github.com/jussiniinikoski/wasm-pdf) – Generates PDF files with JavaScript and WASM (WebAssembly)
 
 ### Graph processing
 
@@ -1186,6 +1194,7 @@ See also [Are we game yet?](http://arewegameyet.com)
   * [pest-parser/pest](https://github.com/pest-parser/pest) — The Elegant Parser [![Build Status](https://api.travis-ci.org/pest-parser/pest.svg?branch=master)](https://travis-ci.org/pest-parser/pest)
   * [ptal/oak](https://github.com/ptal/oak) — A typed PEG parser generator (compiler plugin)
   * [rustless/queryst](https://github.com/rustless/queryst) — A query string parsing library for Rust inspired by https://github.com/ljharb/qs [![Build Status](https://api.travis-ci.org/rustless/queryst.svg?branch=master)](https://travis-ci.org/rustless/queryst)
+  * [freestrings/jsonpath](https://github.com/freestrings/jsonpath) - [JsonPath](https://goessner.net/articles/JsonPath/) engine written in Rust. Webassembly and Javascript support too [![Build Status](https://travis-ci.org/freestrings/jsonpath.svg?branch=master)](https://travis-ci.org/freestrings/jsonpath)
 
 ### Packaging formats
 
@@ -1254,6 +1263,7 @@ See also [Are we game yet?](http://arewegameyet.com)
 
 ### Text search
 
+* [andylokandy/simsearch-rs](https://github.com/andylokandy/simsearch-rs) [[simsearch](https://crates.io/crates/simsearch)] - A simple and lightweight fuzzy search engine that works in memory, searching for similar strings
 * [BurntSushi/fst](https://github.com/BurntSushi/fst) [[fst](https://crates.io/crates/fst)] — [<img src="https://api.travis-ci.org/BurntSushi/fst.svg?branch=master">](https://travis-ci.org/BurntSushi/fst)
 * [CurrySoftware/perlin](https://github.com/CurrySoftware/perlin) [[perlin](https://crates.io/crates/perlin)] — [<img src="https://api.travis-ci.org/CurrySoftware/perlin.svg?branch=master">](https://travis-ci.org/CurrySoftware/perlin)
 * [tantivy-search/tantivy](https://github.com/tantivy-search/tantivy) [[tantivy](https://crates.io/crates/tantivy)] — [<img src="https://api.travis-ci.org/tantivy-search/tantivy.svg?branch=master">](https://travis-ci.org/tantivy-search/tantivy)
@@ -1271,6 +1281,7 @@ See also [Are we web yet?](http://www.arewewebyet.org) and [Rust web framework c
 
 * Client-side / WASM
   * [cargo-web](https://crates.io/crates/cargo-web) — A Cargo subcommand for the client-side Web [![Build Status](https://api.travis-ci.org/koute/cargo-web.svg)](https://travis-ci.org/koute/cargo-web)
+  * [seed](https://github.com/David-OConnor/seed) - A Rust framework for creating web apps [![Build Status](https://api.travis-ci.org/David-OConnor/seed.svg?branch=master)](https://travis-ci.org/David-OConnor/seed)
   * [stdweb](https://crates.io/crates/stdweb) — A standard library for the client-side Web [![Build Status](https://api.travis-ci.org/koute/stdweb.svg)](https://travis-ci.org/koute/stdweb)
   * [yew](https://crates.io/crates/yew) — Rust framework for making client web apps
 * HTTP Client
