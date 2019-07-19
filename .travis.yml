@@ -1,4 +1,4 @@
 language: rust
 before_script: gem install awesome_bot
 # `crates.io` needs to be whitelisted, because of https://github.com/rust-lang/crates.io/issues/788
-script: awesome_bot -f README.md --allow-dupe --allow-ssl --white-list crates.io,sciter.com
+script: awesome_bot -f README.md --allow-dupe --allow-ssl --white-list crates.io,sciter.com,cloudsmith.io
