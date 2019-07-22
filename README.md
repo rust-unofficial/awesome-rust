@@ -86,6 +86,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   * [Template engine](#template-engine)
   * [Text processing](#text-processing-1)
   * [Text search](#text-search)
+  * [Unsafe](#unsafe)
   * [Virtualization](#virtualization-1)
   * [Web programming](#web-programming)
 * [Registries](#registries)
@@ -1271,6 +1272,10 @@ See also [Are we game yet?](http://arewegameyet.com)
 * [BurntSushi/fst](https://github.com/BurntSushi/fst) [[fst](https://crates.io/crates/fst)] — [<img src="https://api.travis-ci.org/BurntSushi/fst.svg?branch=master">](https://travis-ci.org/BurntSushi/fst)
 * [CurrySoftware/perlin](https://github.com/CurrySoftware/perlin) [[perlin](https://crates.io/crates/perlin)] — [<img src="https://api.travis-ci.com/CurrySoftware/perlin.svg?branch=master">](https://travis-ci.org/CurrySoftware/perlin)
 * [tantivy-search/tantivy](https://github.com/tantivy-search/tantivy) [[tantivy](https://crates.io/crates/tantivy)] — [<img src="https://api.travis-ci.org/tantivy-search/tantivy.svg?branch=master">](https://travis-ci.org/tantivy-search/tantivy)
+
+### Unsafe
+
+* [zerocopy](https://crates.io/crates/zerocopy) - Utilities for safely reinterpreting arbitrary byte sequences as native Rust types
 
 ### Virtualization
 
