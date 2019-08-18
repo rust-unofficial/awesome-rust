@@ -1145,7 +1145,9 @@ See also [Are we game yet?](http://arewegameyet.com)
   * [vhbit/ObjCrust](https://github.com/vhbit/ObjCrust) — using Rust to create an iOS static library [<img src="https://api.travis-ci.org/vhbit/ObjCrust.svg?branch=master">](https://travis-ci.org/vhbit/ObjCrust)
 * Pebble
   * [andars/pebble.rs](https://github.com/andars/pebble.rs) — A crate that allows Rust to be used to develop Pebble applications.
-
+* Android / iOS
+  * [i-schuetz/rust_android_ios](https://github.com/i-schuetz/rust_android_ios) — An example of using a shared Rust lib for Android and iOS using rust-swig and cbindgen respectively.
+  
 ### Network programming
 
 * HTTP
