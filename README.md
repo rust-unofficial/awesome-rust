@@ -124,6 +124,7 @@ See also [Rust — Production](https://www.rust-lang.org/production)(organizatio
 * [rsign](https://crates.io/crates/rsign) — A simple command-line tool used to generate/sign/verify digital signatures designed to be compatible with Minisign  [![Codeship Status for danielrangel/rsign](https://app.codeship.com/projects/60b28d80-7645-0135-4402-1639b58199d0/status?branch=master)](https://app.codeship.com/projects/244452)
 * [Sandstorm Collections App](https://github.com/sandstorm-io/collections-app)
 * [Servo](https://github.com/servo/servo) — A prototype web browser engine
+* [starfear/starway](https://github.com/starfear/starway) - Simple chat with rooms that uses TCP to communicate and JSON to speak. [<img src="https://travis-ci.org/starfear/starway.svg?branch=master">](https://travis-ci.org/starfear/starway)
 * [trust-dns](https://crates.io/crates/trust-dns) — A DNS-server [<img src="https://api.travis-ci.org/bluejekyll/trust-dns.svg?branch=master">](https://travis-ci.org/bluejekyll/trust-dns)
 * [Weld](https://github.com/serayuzgur/weld) — Full fake REST API generator [<img src="https://api.travis-ci.org/serayuzgur/weld.svg">](https://travis-ci.org/serayuzgur/weld)
 * [kytan](https://github.com/changlan/kytan) - High Performance Peer-to-Peer VPN 
