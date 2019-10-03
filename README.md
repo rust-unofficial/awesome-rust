@@ -127,6 +127,7 @@ See also [Rust — Production](https://www.rust-lang.org/production)(organizatio
 * [trust-dns](https://crates.io/crates/trust-dns) — A DNS-server [<img src="https://api.travis-ci.org/bluejekyll/trust-dns.svg?branch=master">](https://travis-ci.org/bluejekyll/trust-dns)
 * [Weld](https://github.com/serayuzgur/weld) — Full fake REST API generator [<img src="https://api.travis-ci.org/serayuzgur/weld.svg">](https://travis-ci.org/serayuzgur/weld)
 * [kytan](https://github.com/changlan/kytan) - High Performance Peer-to-Peer VPN 
+* [rx](https://github.com/cloudhead/rx) - Vi inspired Modern Pixel Art Editor
 
 ### Audio
 
