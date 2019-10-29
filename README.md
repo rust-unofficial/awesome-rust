@@ -16,6 +16,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
     - [Games](#games)
     - [Graphics](#graphics)
     - [Industrial automation](#industrial-automation)
+    - [Observability](#observability)
     - [Operating systems](#operating-systems)
     - [Productivity](#productivity)
     - [Security tools](#security-tools)
@@ -232,6 +233,10 @@ See also [Games Made With Piston](https://github.com/PistonDevelopers/piston/wik
 * [slowtec/tokio-modbus](https://github.com/slowtec/tokio-modbus) — A [tokio](https://tokio.rs)-based [modbus](http://modbus.org) library. [![Build Status](https://api.travis-ci.org/slowtec/tokio-modbus.svg?branch=master)](https://travis-ci.org/slowtec/tokio-modbus)
 * [locka99/opcua](https://github.com/locka99/opcua) — A pure rust [OPC UA](https://opcfoundation.org/about/opc-technologies/opc-ua/) library.
 * [BiancoRoyal/modbus-iiot-rust](https://github.com/BiancoRoyal/modbus-iiot-rust) — A pure rust [modbus](http://modbus.org) library with no or less dependencies. [![Build Status](https://api.travis-ci.org/BiancoRoyal/modbus-iiot-rust.svg?branch=master)](https://travis-ci.org/BiancoRoyal/modbus-iiot-rust)
+
+### Observability
+
+* [timberio/vector](https://github.com/timberio/vector) - A High-Performance, Logs, Metrics, & Events Router.
 
 ### Operating systems
 
