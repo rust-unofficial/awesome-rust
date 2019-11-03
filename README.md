@@ -23,6 +23,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
     - [System tools](#system-tools)
     - [Text editors](#text-editors)
     - [Text processing](#text-processing)
+    - [Image processing](#image-processing)
     - [Utilities](#utilities)
     - [Video](#video)
     - [Virtualization](#virtualization)
@@ -317,6 +318,10 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [whitfin/bytelines](https://github.com/whitfin/bytelines) — Read input lines as byte slices for high efficiency.
 * [vishaltelangre/ff](https://github.com/vishaltelangre/ff) — Find files (ff) by name! [<img src="https://api.travis-ci.org/vishaltelangre/ff.svg?branch=master">](https://travis-ci.org/vishaltelangre/ff)
 * [xsv](https://crates.io/crates/xsv) — A fast CSV command line tool (slicing, indexing, selecting, searching, sampling, etc.) [<img src="https://api.travis-ci.org/BurntSushi/xsv.svg?branch=master">](https://travis-ci.org/BurntSushi/xsv)
+
+### Image processing
+
+* [Imager](https://github.com/imager-io/imager) - Brute force image optimization
 
 ### Utilities
 
