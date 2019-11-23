@@ -607,6 +607,9 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust Tools](https://
 * [mneumann/evo-rs](https://github.com/mneumann/evo-rs) — Evolutionary Algorithm Library for Rust. Without changes for 3 years.
 * [yurytsoy/revonet](https://github.com/yurytsoy/revonet) — Rust implementation of real-coded GA for solving optimization problems and training of neural networks.
 
+#### Genetic Programming
+* [pkalivas/radiate](https://github.com/pkalivas/radiate) — Radiate is a parallel genetic programming engine capable of evolving solutions for supervised, unsupervised, and general reinforcement learning problems.
+
 #### Machine learning
 
 [[machine learning](https://crates.io/keywords/machine-learning)]
