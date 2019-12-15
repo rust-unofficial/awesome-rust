@@ -418,6 +418,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
   * [icepuma/rust-action](https://github.com/icepuma/rust-action) — rust github action
 * Webpack
   * [Ralvke/rust-loader](https://github.com/Ralvke/rust-loader) — Webpack Rust loader (wasm)
+* [Zwitterion](https://github.com/lastmjs/zwitterion) — A web dev server that lets you import anything*
 
 ### Debugging
 
