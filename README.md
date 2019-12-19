@@ -321,7 +321,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 
 ### Image processing
 
-* [Imager](https://github.com/imager-io/imager-tools) - Brute force image optimization
+* [Imager](https://github.com/imager-io/imager) - Automated image optimization.
 
 ### Utilities
 
