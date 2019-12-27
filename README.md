@@ -69,6 +69,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
     - [Email](#email)
     - [Encoding](#encoding)
     - [Filesystem](#filesystem)
+    - [Functional Programming](#functional-programming)
     - [Game development](#game-development)
     - [Geospatial](#geospatial)
     - [Graphics](#graphics-1)
@@ -1013,6 +1014,11 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
   * [Stebalien/tempfile](https://github.com/Stebalien/tempfile) — temporary file library [<img src="https://api.travis-ci.org/Stebalien/tempfile.svg?branch=master">](https://travis-ci.org/Stebalien/tempfile)
   * [Stebalien/xattr](https://github.com/Stebalien/xattr) [[xattr](https://crates.io/crates/xattr)] — list and manipulate unix extended file attributes [<img src="https://api.travis-ci.org/Stebalien/xattr.svg?branch=master">](https://travis-ci.org/Stebalien/xattr)
   * [zboxfs/zbox](https://github.com/zboxfs/zbox) [[zbox](https://crates.io/crates/zbox)] — Zero-details, privacy-focused embeddable file system. [<img src="https://api.travis-ci.org/zboxfs/zbox.svg?branch=master">](https://travis-ci.org/zboxfs/zbox)
+
+### Functional Programming
+[[functional programming](https://crates.io/keywords/fp)]
+* Prelude
+  * [JasonShin/fp-core.rs](https://github.com/JasonShin/fp-core.rs) - A library for functional programming in Rust [![Build Status](https://travis-ci.com/JasonShin/fp-core.rs.svg?branch=master)](https://travis-ci.com/JasonShin/fp-core.rs)
 
 ### Game development
 
