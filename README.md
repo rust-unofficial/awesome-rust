@@ -1262,6 +1262,7 @@ See also [Are we game yet?](http://arewegameyet.com)
 * [murarth/ketos](https://github.com/murarth/ketos) — A Lisp dialect functional programming language serving as a scripting and extension language for rust
 * [moss](https://crates.io/crates/moss) — A dynamically typed scripting language
 * [jonathandturner/rhai](https://github.com/jonathandturner/rhai) — A tiny and fast embedded scripting language resembling a combination of JS and Rust
+* [google/starlark-rust](https://github.com/google/starlark-rust) — An implementation of the [Starlark](https://github.com/bazelbuild/starlark) language, a non-Turing complete language based on Python.
 
 ### Template engine
 
