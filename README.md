@@ -256,7 +256,6 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 ### Security tools
 
 * [kpcyrd/badtouch](https://github.com/kpcyrd/badtouch) — A scriptable network authentication cracker [<img src="https://api.travis-ci.org/kpcyrd/badtouch.svg?branch=master">](https://travis-ci.org/kpcyrd/badtouch)
-* [Gymmasssorla/finshir](https://github.com/Hippolot/finshir) — A coroutines-driven Low & Slow traffic generator, written in Rust [<img src="https://api.travis-ci.com/Gymmasssorla/finshir.svg?branch=master">](https://travis-ci.com/Gymmasssorla/finshir)
 * [arvancloud/libinjection-rs](https://github.com/arvancloud/libinjection-rs) — Rust bindings for [libinjection](https://github.com/client9/libinjection) [<img src="https://api.travis-ci.org/arvancloud/libinjection-rs.svg?branch=master">](https://travis-ci.org/arvancloud/libinjection-rs)
 * [kpcyrd/rshijack](https://github.com/kpcyrd/rshijack) — A TCP connection hijacker, rust rewrite of shijack [<img src="https://api.travis-ci.org/kpcyrd/rshijack.svg?branch=master">](https://travis-ci.org/kpcyrd/rshijack)
 * [kpcyrd/sniffglue](https://github.com/kpcyrd/sniffglue) — A secure multithreaded packet sniffer [<img src="https://api.travis-ci.org/kpcyrd/sniffglue.svg?branch=master">](https://travis-ci.org/kpcyrd/sniffglue)
