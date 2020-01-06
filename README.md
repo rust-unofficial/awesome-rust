@@ -268,6 +268,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 
 ### System tools
 
+* [bandwhich](https://github.com/imsnif/bandwhich) — Terminal bandwidth utilization tool [<img src="https://api.travis-ci.org/imsnif/bandwhich.svg?branch=master">](https://travis-ci.com/imsnif/bandwhich)
 * [brocode/fblog](https://github.com/brocode/fblog) — Small command-line JSON Log viewer [<img src="https://api.travis-ci.org/brocode/fblog.svg?branch=master">](https://travis-ci.org/brocode/fblog)
 * [buster/rrun](https://github.com/buster/rrun) — A command launcher for Linux, similar to gmrun  [<img src="https://api.travis-ci.org/buster/rrun.svg?branch=master">](https://travis-ci.org/buster/rrun)
 * [cristianoliveira/funzzy](https://github.com/cristianoliveira/funzzy) — A configurable filesystem watcher inspired by [entr](http://entrproject.org/) [<img src="https://api.travis-ci.org/cristianoliveira/funzzy.svg?branch=master">](https://travis-ci.org/cristianoliveira/funzzy)
@@ -296,7 +297,6 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [m4b/bingrep](https://github.com/m4b/bingrep) — Greps through binaries from various OSs and architectures, and colors them. [<img src="https://api.travis-ci.org/m4b/bingrep.svg?branch=master">](https://travis-ci.org/m4b/bingrep)
 * [uutils/coreutils](https://github.com/uutils/coreutils) — A cross-platform Rust rewrite of the GNU coreutils [<img src="https://api.travis-ci.org/uutils/coreutils.svg?branch=master">](https://travis-ci.org/uutils/coreutils)
 * [watchexec](https://github.com/watchexec/watchexec) — Executes commands in response to file modifications [<img src="https://api.travis-ci.org/watchexec/watchexec.svg?branch=master">](https://travis-ci.org/watchexec/watchexec)
-* [bandwhich](https://github.com/imsnif/bandwhich) — Terminal bandwidth utilization tool [<img src="https://api.travis-ci.org/imsnif/bandwhich.svg?branch=master">](https://travis-ci.com/imsnif/bandwhich)
 * [XAMPPRocky/tokei](https://github.com/XAMPPRocky/tokei) — counts the lines of code [<img src="https://img.shields.io/travis/XAMPPRocky/tokei.svg">](https://travis-ci.org/XAMPPRocky/tokei)
 
 ### Text editors
