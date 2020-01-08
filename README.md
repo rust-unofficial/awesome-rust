@@ -6,8 +6,6 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 
 ## Table of contents
 
-- [Awesome Rust <img src="https://api.travis-ci.org/rust-unofficial/awesome-rust.svg?branch=master">](#awesome-rust-img-src%22httpsapitravis-ciorgrust-unofficialawesome-rustsvgbranchmaster%22)
-  - [Table of contents](#table-of-contents)
   - [Applications](#applications)
     - [Audio](#audio)
     - [Cryptocurrencies](#cryptocurrencies)
