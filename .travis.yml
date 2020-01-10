@@ -1,2 +1,3 @@
 language: rust
 script: cargo run
+cache: cargo
