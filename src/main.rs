@@ -9,7 +9,7 @@ use lazy_static::lazy_static;
 use std::sync::atomic::{AtomicU32, Ordering};
 use async_std::task;
 use std::time;
-use log::debug;
+use log::{warn, debug};
 use std::io::Write;
 
 struct MaxHandles {
@@ -65,10 +65,19 @@ fn to_anyhow<T, E>(res: std::result::Result<T, E>) -> Result<T>
 
 async fn get_url(url: String) -> (String, Result<String>) {
     let _handle = HANDLES.get().await;
-    debug!("Running {}", url);
-    let res = CLIENT.get(&url).send().await;
-    debug!("Finished {}", url);
-    (url, to_anyhow(res.map(|x| format!("{:?}", x))))
+    let mut res = Err(anyhow::anyhow!("Should always try at least once.."));
+    for _ in 0..5u8 {
+        debug!("Running {}", url);
+        let resp = CLIENT.get(&url).send().await;
+        if let Err(err) = resp {
+            warn!("Error while getting {}, retrying: {}", url, err);
+            continue;
+        }
+        debug!("Finished {}", url);
+        res = to_anyhow(resp.map(|x| format!("{:?}", x)));
+        break;
+    }
+    (url, res)
 }
 
 #[derive(Debug, Serialize, Deserialize)]
