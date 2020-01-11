@@ -5,6 +5,57 @@ use futures::future::FutureExt;
 use std::collections::{BTreeSet, BTreeMap};
 use serde::{Serialize, Deserialize};
 use anyhow::Result;
+use lazy_static::lazy_static;
+use std::sync::atomic::{AtomicU32, Ordering};
+use async_std::task;
+use std::time;
+use log::debug;
+use std::io::Write;
+
+struct MaxHandles {
+    remaining: AtomicU32
+}
+
+struct Handle<'a> {
+    parent: &'a MaxHandles
+}
+
+impl MaxHandles {
+    fn new(max: u32) -> MaxHandles {
+        MaxHandles { remaining: AtomicU32::new(max) }
+    }
+
+    async fn get<'a>(&'a self) -> Handle<'a> {
+        loop {
+            let current = self.remaining.load(Ordering::Relaxed);
+            if current > 0 {
+                let new_current = self.remaining.compare_and_swap(current, current - 1, Ordering::Relaxed);
+                if new_current == current { // worked
+                    debug!("Got handle with {}", new_current);
+                    return Handle { parent: self };
+                }
+            }
+            task::sleep(time::Duration::from_millis(500)).await;
+        }
+    }
+}
+
+impl<'a> Drop for Handle<'a> {
+    fn drop(&mut self) {
+        debug!("Dropping");
+        self.parent.remaining.fetch_add(1, Ordering::Relaxed);
+    }
+}
+
+lazy_static! {
+    static ref CLIENT: reqwest::Client = reqwest::Client::builder()
+        .danger_accept_invalid_certs(true) // because some certs are out of date
+        .user_agent("curl/7.54.0") // so some sites (e.g. sciter.com) don't reject us
+        .build().unwrap();
+
+    // This is to avoid errors with running out of file handles, so we only do 20 requests at a time
+    static ref HANDLES: MaxHandles = MaxHandles::new(20);
+}
 
 fn to_anyhow<T, E>(res: std::result::Result<T, E>) -> Result<T>
     where E: std::error::Error + std::marker::Send + std::marker::Sync + 'static
@@ -13,7 +64,10 @@ fn to_anyhow<T, E>(res: std::result::Result<T, E>) -> Result<T>
 }
 
 async fn get_url(url: String) -> (String, Result<String>) {
-    let res = reqwest::get(&url).await;
+    let _handle = HANDLES.get().await;
+    debug!("Running {}", url);
+    let res = CLIENT.get(&url).send().await;
+    debug!("Finished {}", url);
     (url, to_anyhow(res.map(|x| format!("{:?}", x))))
 }
 
@@ -34,6 +88,7 @@ impl Results {
 
 #[tokio::main]
 async fn main() -> Result<()> {
+    env_logger::init();
     let markdown_input = fs::read_to_string("README.md").expect("Can't read README.md");
     let parser = Parser::new(&markdown_input);
 
@@ -59,6 +114,7 @@ async fn main() -> Result<()> {
     }
 
     while url_checks.len() > 0 {
+        debug!("Waiting...");
         let ((url, res), _index, remaining) = select_all(url_checks).await;
         url_checks = remaining;
         match res {
@@ -71,11 +127,17 @@ async fn main() -> Result<()> {
                 results.failed.insert(url, err.to_string());
             }
         }
+        std::io::stdout().flush().unwrap();
         fs::write("results.yaml", serde_yaml::to_string(&results)?)?;
     }
     println!("");
-    for (url, error) in &results.failed {
-        println!("Error: {} {}", url, error);
+    if results.failed.is_empty() {
+        println!("No errors!");
+        Ok(())
+    } else {
+        for (url, error) in &results.failed {
+            println!("Error: {} {}", url, error);
+        }
+        Err(anyhow::anyhow!("{} urls with errors", results.failed.len()))
     }
-    Ok(())
 }
