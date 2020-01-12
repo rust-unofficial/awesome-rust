@@ -900,6 +900,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 
 * [saresend/gust](https://github.com/saresend/Gust) — [<img src="https://api.travis-ci.org/saresend/Gust.svg?branch=master">](https://travis-ci.org/saresend/Gust)
 * [milliams/plotlib](https://github.com/milliams/plotlib) — [<img src="https://api.travis-ci.org/milliams/plotlib.svg?branch=master">](https://travis-ci.org/milliams/plotlib)
+* [38/plotters](https://github.com/38/plotters) — [<img src="https://api.travis-ci.org/38/plotters.svg?branch=master">](https://travis-ci.org/38/plotters)
 
 ### Date and time
 
