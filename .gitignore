@@ -3,3 +3,4 @@ Cargo.lock
 target/
 cleanup
 cleanup.exe
+ab-results*.json
