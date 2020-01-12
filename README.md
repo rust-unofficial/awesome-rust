@@ -211,6 +211,7 @@ See also [Games Made With Piston](https://github.com/PistonDevelopers/piston/wik
 * [schulke-214/connect-four](https://github.com/schulke-214/connect-four) — A simple connect four implementation.
 * [rsaarelm/magog](https://github.com/rsaarelm/magog) — A roguelike game in Rust
 * [schulke-214/rsnake](https://github.com/schulke-214/rsnake) — Snake written in Rust.
+* [soydos](https://github.com/soydos/pusoy_dos2) - A wasm implementation of Pusoy Dos
 * [cristicbz/rust-doom](https://github.com/cristicbz/rust-doom) — A renderer for Doom, may progress to being a playable game [<img src="https://api.travis-ci.org/cristicbz/rust-doom.svg?branch=master">](https://travis-ci.org/cristicbz/rust-doom)
 * [Thinkofname/rust-quake](https://github.com/Thinkofname/rust-quake) — Quake map renderer in Rust
 * [rhex](https://github.com/dpc/rhex) — hexagonal ascii roguelike
