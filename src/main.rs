@@ -1,7 +1,6 @@
 use pulldown_cmark::{Parser, Event, Tag};
 use std::fs;
-use futures::future::select_all;
-use futures::future::FutureExt;
+use futures::future::{select_all, BoxFuture, FutureExt};
 use std::collections::{BTreeSet, BTreeMap};
 use serde::{Serialize, Deserialize};
 use anyhow::Result;
@@ -12,6 +11,7 @@ use std::time;
 use log::{warn, debug};
 use std::io::Write;
 use reqwest::{Client, redirect::Policy, StatusCode, header};
+use regex::Regex;
 
 struct MaxHandles {
     remaining: AtomicU32
@@ -65,39 +65,51 @@ fn to_anyhow<T, E>(res: std::result::Result<T, E>) -> Result<T>
     res.map_err(|x| Into::<anyhow::Error>::into(x))
 }
 
-async fn get_url(url: String) -> (String, Result<String>) {
-    let _handle = HANDLES.get().await;
-    let mut res = Err(anyhow::anyhow!("Should always try at least once.."));
-    for _ in 0..5u8 {
-        debug!("Running {}", url);
-        let resp = CLIENT
-            .get(&url)
-            .header(header::ACCEPT, "text/html, */*;q=0.8")
-            .send()
-            .await;
-        match resp {
-            Err(err) => {
-                warn!("Error while getting {}, retrying: {}", url, err);
-                continue;
-            }
-            Ok(ref ok) => {
-                let status = ok.status();
-                if status != StatusCode::OK {
-                    warn!("Error while getting {}, retrying: {}", url, status);
-                    if status.is_redirection() {
-                        res = Err(anyhow::anyhow!("Got status code {} redirecting to {}", status, ok.headers().get(header::LOCATION).and_then(|h| h.to_str().ok()).unwrap_or("<unknown>")));
-                    } else {
-                        res = Err(anyhow::anyhow!("Got status code {}", status));
-                    }
+fn get_url(url: String) -> BoxFuture<'static, (String, Result<String>)> {
+    async move {
+        let _handle = HANDLES.get().await;
+        let mut res = Err(anyhow::anyhow!("Should always try at least once.."));
+        for _ in 0..5u8 {
+            debug!("Running {}", url);
+            let resp = CLIENT
+                .get(&url)
+                .header(header::ACCEPT, "text/html, */*;q=0.8")
+                .send()
+                .await;
+            match resp {
+                Err(err) => {
+                    warn!("Error while getting {}, retrying: {}", url, err);
                     continue;
                 }
+                Ok(ref ok) => {
+                    let status = ok.status();
+                    if status != StatusCode::OK {
+                        lazy_static! {
+                            static ref ACTIONS_REGEX: Regex = Regex::new(r"https://github.com/(?P<org>[^/]+)/(?P<repo>[^/]+)/actions(?:\?workflow=.+)?").unwrap();
+                        }
+                        if status == StatusCode::NOT_FOUND && ACTIONS_REGEX.is_match(&url) {
+                            let rewritten = ACTIONS_REGEX.replace_all(&url, "https://github.com/$org/$repo");
+                            warn!("Got 404 with Github actions, so replacing {} with {}", url, rewritten);
+                            let (_new_url, res) = get_url(rewritten.to_string()).await;
+                            return (url, res);
+                        }
+
+                        warn!("Error while getting {}, retrying: {}", url, status);
+                        if status.is_redirection() {
+                            res = Err(anyhow::anyhow!("Got status code {} redirecting to {}", status, ok.headers().get(header::LOCATION).and_then(|h| h.to_str().ok()).unwrap_or("<unknown>")));
+                        } else {
+                            res = Err(anyhow::anyhow!("Got status code {}", status));
+                        }
+                        continue;
+                    }
+                }
             }
+            debug!("Finished {}", url);
+            res = to_anyhow(resp.map(|x| format!("{:?}", x)));
+            break;
         }
-        debug!("Finished {}", url);
-        res = to_anyhow(resp.map(|x| format!("{:?}", x)));
-        break;
-    }
-    (url, res)
+        (url, res)
+    }.boxed()
 }
 
 #[derive(Debug, Serialize, Deserialize)]
