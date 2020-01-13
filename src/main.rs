@@ -128,16 +128,19 @@ async fn main() -> Result<()> {
 
     for (event, _range) in parser.into_offset_iter() {
         if let Event::Start(tag) = event {
-            if let Tag::Link(_link_type, url, _title) = tag {
-                if !url.starts_with("http") {
-                    continue;
+            match tag {
+                Tag::Link(_link_type, url, _title) | Tag::Image(_link_type, url, _title) => {
+                    if !url.starts_with("http") {
+                        continue;
+                    }
+                    let url_string = url.to_string();
+                    if results.working.contains(&url_string) {
+                        continue;
+                    }
+                    let check = get_url(url_string).boxed();
+                    url_checks.push(check);
                 }
-                let url_string = url.to_string();
-                if results.working.contains(&url_string) {
-                    continue;
-                }
-                let check = get_url(url_string).boxed();
-                url_checks.push(check);
+                _ => {}
             }
         }
     }
