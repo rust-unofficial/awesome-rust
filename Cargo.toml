@@ -2,6 +2,8 @@
 name = "awesome-rust"
 version = "0.1.0"
 authors = []
+homepage = "https://github.com/rust-unofficial/awesome-rust"
+repository = "https://github.com/rust-unofficial/awesome-rust"
 
 [dependencies]
 pulldown-cmark= "0.0.8"
