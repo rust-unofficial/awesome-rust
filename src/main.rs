@@ -72,7 +72,7 @@ async fn get_url(url: String) -> (String, Result<String>) {
         debug!("Running {}", url);
         let resp = CLIENT
             .get(&url)
-            .header(header::ACCEPT, "text/html")
+            .header(header::ACCEPT, "text/html, */*;q=0.8")
             .send()
             .await;
         match resp {
