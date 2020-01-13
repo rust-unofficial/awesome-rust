@@ -21,6 +21,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
     - [System tools](#system-tools)
     - [Text editors](#text-editors)
     - [Text processing](#text-processing)
+    - [Image processing](#image-processing)
     - [Utilities](#utilities)
     - [Video](#video)
     - [Virtualization](#virtualization)
@@ -322,6 +323,10 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [vishaltelangre/ff](https://github.com/vishaltelangre/ff) — Find files (ff) by name! [<img src="https://api.travis-ci.org/vishaltelangre/ff.svg?branch=master">](https://travis-ci.org/vishaltelangre/ff)
 * [xsv](https://crates.io/crates/xsv) — A fast CSV command line tool (slicing, indexing, selecting, searching, sampling, etc.) [<img src="https://api.travis-ci.org/BurntSushi/xsv.svg?branch=master">](https://travis-ci.org/BurntSushi/xsv)
 * [Lispre/so_stupid_search](https://github.com/Lispre/so_stupid_search) - A simple and fast string search tool for human beings
+
+### Image processing
+
+* [Imager](https://github.com/imager-io/imager) - Automated image optimization.
 
 ### Utilities
 
