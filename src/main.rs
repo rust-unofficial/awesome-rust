@@ -11,7 +11,7 @@ use async_std::task;
 use std::time;
 use log::{warn, debug};
 use std::io::Write;
-use reqwest::{Client, redirect::Policy, StatusCode};
+use reqwest::{Client, redirect::Policy, StatusCode, header};
 
 struct MaxHandles {
     remaining: AtomicU32
@@ -70,7 +70,11 @@ async fn get_url(url: String) -> (String, Result<String>) {
     let mut res = Err(anyhow::anyhow!("Should always try at least once.."));
     for _ in 0..5u8 {
         debug!("Running {}", url);
-        let resp = CLIENT.get(&url).send().await;
+        let resp = CLIENT
+            .get(&url)
+            .header(header::ACCEPT, "text/html")
+            .send()
+            .await;
         match resp {
             Err(err) => {
                 warn!("Error while getting {}, retrying: {}", url, err);
