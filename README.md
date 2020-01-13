@@ -273,6 +273,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 
 ### System tools
 
+* [bandwhich](https://github.com/imsnif/bandwhich) — Terminal bandwidth utilization tool [<img src="https://api.travis-ci.org/imsnif/bandwhich.svg?branch=master">](https://travis-ci.com/imsnif/bandwhich)
 * [brocode/fblog](https://github.com/brocode/fblog) — Small command-line JSON Log viewer [<img src="https://api.travis-ci.org/brocode/fblog.svg?branch=master">](https://travis-ci.org/brocode/fblog)
 * [buster/rrun](https://github.com/buster/rrun) — A command launcher for Linux, similar to gmrun  [<img src="https://api.travis-ci.org/buster/rrun.svg?branch=master">](https://travis-ci.org/buster/rrun)
 * [cristianoliveira/funzzy](https://github.com/cristianoliveira/funzzy) — A configurable filesystem watcher inspired by [entr](http://entrproject.org/) [<img src="https://api.travis-ci.org/cristianoliveira/funzzy.svg?branch=master">](https://travis-ci.org/cristianoliveira/funzzy)
