@@ -11,6 +11,7 @@ use async_std::task;
 use std::time;
 use log::{warn, debug};
 use std::io::Write;
+use reqwest::{Client, redirect::Policy, StatusCode};
 
 struct MaxHandles {
     remaining: AtomicU32
@@ -48,9 +49,10 @@ impl<'a> Drop for Handle<'a> {
 }
 
 lazy_static! {
-    static ref CLIENT: reqwest::Client = reqwest::Client::builder()
+    static ref CLIENT: Client = Client::builder()
         .danger_accept_invalid_certs(true) // because some certs are out of date
         .user_agent("curl/7.54.0") // so some sites (e.g. sciter.com) don't reject us
+        .redirect(Policy::none())
         .build().unwrap();
 
     // This is to avoid errors with running out of file handles, so we only do 20 requests at a time
@@ -69,9 +71,18 @@ async fn get_url(url: String) -> (String, Result<String>) {
     for _ in 0..5u8 {
         debug!("Running {}", url);
         let resp = CLIENT.get(&url).send().await;
-        if let Err(err) = resp {
-            warn!("Error while getting {}, retrying: {}", url, err);
-            continue;
+        match resp {
+            Err(err) => {
+                warn!("Error while getting {}, retrying: {}", url, err);
+                continue;
+            }
+            Ok(ref ok) => {
+                if ok.status() != StatusCode::OK {
+                    warn!("Error while getting {}, retrying: {}", url, ok.status());
+                    res = Err(anyhow::anyhow!("Got status code {}", ok.status()));
+                    continue;
+                }
+            }
         }
         debug!("Finished {}", url);
         res = to_anyhow(resp.map(|x| format!("{:?}", x)));
