@@ -81,9 +81,14 @@ async fn get_url(url: String) -> (String, Result<String>) {
                 continue;
             }
             Ok(ref ok) => {
-                if ok.status() != StatusCode::OK {
-                    warn!("Error while getting {}, retrying: {}", url, ok.status());
-                    res = Err(anyhow::anyhow!("Got status code {}", ok.status()));
+                let status = ok.status();
+                if status != StatusCode::OK {
+                    warn!("Error while getting {}, retrying: {}", url, status);
+                    if status.is_redirection() {
+                        res = Err(anyhow::anyhow!("Got status code {} redirecting to {}", status, ok.headers().get(header::LOCATION).and_then(|h| h.to_str().ok()).unwrap_or("<unknown>")));
+                    } else {
+                        res = Err(anyhow::anyhow!("Got status code {}", status));
+                    }
                     continue;
                 }
             }
