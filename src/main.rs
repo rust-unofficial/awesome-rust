@@ -80,6 +80,7 @@ fn get_url(url: String) -> BoxFuture<'static, (String, Result<String>)> {
             match resp {
                 Err(err) => {
                     warn!("Error while getting {}, retrying: {}", url, err);
+                    res = to_anyhow(Err(err));
                     continue;
                 }
                 Ok(ref ok) => {
