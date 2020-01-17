@@ -3,7 +3,6 @@ use std::fs;
 use futures::future::{select_all, BoxFuture, FutureExt};
 use std::collections::{BTreeSet, BTreeMap};
 use serde::{Serialize, Deserialize};
-use anyhow::Result;
 use lazy_static::lazy_static;
 use std::sync::atomic::{AtomicU32, Ordering};
 use async_std::task;
@@ -12,6 +11,25 @@ use log::{warn, debug};
 use std::io::Write;
 use reqwest::{Client, redirect::Policy, StatusCode, header};
 use regex::Regex;
+
+use failure::{Fail, Error, format_err};
+
+#[derive(Debug, Fail)]
+enum CheckerError {
+    #[fail(display = "failed to try url")]
+    NotTried, // Generally shouldn't happen, but useful to have
+
+    #[fail(display = "http error: {}", status)]
+    HttpError {
+        status: StatusCode,
+        location: Option<String>,
+    },
+
+    #[fail(display = "reqwest error: {}", error)]
+    ReqwestError {
+        error: reqwest::Error,
+    }
+}
 
 struct MaxHandles {
     remaining: AtomicU32
@@ -60,16 +78,10 @@ lazy_static! {
     static ref HANDLES: MaxHandles = MaxHandles::new(20);
 }
 
-fn to_anyhow<T, E>(res: std::result::Result<T, E>) -> Result<T>
-    where E: std::error::Error + std::marker::Send + std::marker::Sync + 'static
-{
-    res.map_err(|x| Into::<anyhow::Error>::into(x))
-}
-
-fn get_url(url: String) -> BoxFuture<'static, (String, Result<String>)> {
+fn get_url(url: String) -> BoxFuture<'static, (String, Result<String, CheckerError>)> {
     async move {
         let _handle = HANDLES.get().await;
-        let mut res = Err(anyhow::anyhow!("Should always try at least once.."));
+        let mut res = Err(CheckerError::NotTried);
         for _ in 0..5u8 {
             debug!("Running {}", url);
             let resp = CLIENT
@@ -80,7 +92,7 @@ fn get_url(url: String) -> BoxFuture<'static, (String, Result<String>)> {
             match resp {
                 Err(err) => {
                     warn!("Error while getting {}, retrying: {}", url, err);
-                    res = to_anyhow(Err(err));
+                    res = Err(CheckerError::ReqwestError{error: err});
                     continue;
                 }
                 Ok(ref ok) => {
@@ -98,17 +110,17 @@ fn get_url(url: String) -> BoxFuture<'static, (String, Result<String>)> {
 
                         warn!("Error while getting {}, retrying: {}", url, status);
                         if status.is_redirection() {
-                            res = Err(anyhow::anyhow!("Got status code {} redirecting to {}", status, ok.headers().get(header::LOCATION).and_then(|h| h.to_str().ok()).unwrap_or("<unknown>")));
+                            res = Err(CheckerError::HttpError {status: status, location: ok.headers().get(header::LOCATION).and_then(|h| h.to_str().ok()).map(|x| x.to_string())});
                         } else {
-                            res = Err(anyhow::anyhow!("Got status code {}", status));
+                            res = Err(CheckerError::HttpError {status: status, location: None});
                         }
                         continue;
                     }
+                    debug!("Finished {}", url);
+                    res = Ok(format!("{:?}", ok));
+                    break;
                 }
             }
-            debug!("Finished {}", url);
-            res = to_anyhow(resp.map(|x| format!("{:?}", x)));
-            break;
         }
         (url, res)
     }.boxed()
@@ -130,12 +142,15 @@ impl Results {
 }
 
 #[tokio::main]
-async fn main() -> Result<()> {
+async fn main() -> Result<(), Error> {
     env_logger::init();
     let markdown_input = fs::read_to_string("README.md").expect("Can't read README.md");
     let parser = Parser::new(&markdown_input);
 
-    let mut results: Results = to_anyhow(fs::read_to_string("results.yaml")).and_then(|x| to_anyhow(serde_yaml::from_str(&x))).unwrap_or(Results::new());
+    let mut results: Results = fs::read_to_string("results.yaml")
+        .map_err(|e| format_err!("{}", e))
+        .and_then(|x| serde_yaml::from_str(&x).map_err(|e| format_err!("{}", e)))
+        .unwrap_or(Results::new());
     results.failed.clear();
 
     let mut url_checks = vec![];
@@ -170,7 +185,22 @@ async fn main() -> Result<()> {
             },
             Err(err) => {
                 print!("\u{2718} ");
-                results.failed.insert(url, err.to_string());
+                let message = match err {
+                    CheckerError::HttpError {status, location} => {
+                        match location {
+                            Some(loc) => {
+                                format!("[{}] {} -> {}", status.as_u16(), url, loc)
+                            }
+                            None => {
+                                format!("[{}] {}", status.as_u16(), url)
+                            }
+                        }
+                    }
+                    _ => {
+                        format!("{:?}", err)
+                    }
+                };
+                results.failed.insert(url, message);
             }
         }
         std::io::stdout().flush().unwrap();
@@ -181,9 +211,9 @@ async fn main() -> Result<()> {
         println!("No errors!");
         Ok(())
     } else {
-        for (url, error) in &results.failed {
-            println!("Error: {} {}", url, error);
+        for (_url, error) in &results.failed {
+            println!("{}", error);
         }
-        Err(anyhow::anyhow!("{} urls with errors", results.failed.len()))
+        Err(format_err!("{} urls with errors", results.failed.len()))
     }
 }
