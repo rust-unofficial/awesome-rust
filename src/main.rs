@@ -11,7 +11,7 @@ use log::{warn, debug};
 use std::io::Write;
 use reqwest::{Client, redirect::Policy, StatusCode, header};
 use regex::Regex;
-
+use scraper::{Html, Selector};
 use failure::{Fail, Error, format_err};
 
 #[derive(Debug, Fail)]
@@ -155,22 +155,43 @@ async fn main() -> Result<(), Error> {
 
     let mut url_checks = vec![];
 
+    let mut do_check = |url: String| {
+        if !url.starts_with("http") {
+            return;
+        }
+        if results.working.contains(&url) {
+            return;
+        }
+        let check = get_url(url).boxed();
+        url_checks.push(check);
+    };
+
     for (event, _range) in parser.into_offset_iter() {
-        if let Event::Start(tag) = event {
-            match tag {
-                Tag::Link(_link_type, url, _title) | Tag::Image(_link_type, url, _title) => {
-                    if !url.starts_with("http") {
-                        continue;
+        match event {
+            Event::Start(tag) => {
+                match tag {
+                    Tag::Link(_link_type, url, _title) | Tag::Image(_link_type, url, _title) => {
+                        do_check(url.to_string());
                     }
-                    let url_string = url.to_string();
-                    if results.working.contains(&url_string) {
-                        continue;
-                    }
-                    let check = get_url(url_string).boxed();
-                    url_checks.push(check);
+                    _ => {}
                 }
-                _ => {}
             }
+            Event::Html(content) => {
+                let fragment = Html::parse_fragment(&content);
+                for element in fragment.select(&Selector::parse("img").unwrap()) {
+                    let img_src = element.value().attr("src");
+                    if let Some(src) = img_src {
+                        do_check(src.to_string());
+                    }
+                }
+                for element in fragment.select(&Selector::parse("a").unwrap()) {
+                    let a_href = element.value().attr("href");
+                    if let Some(href) = a_href {
+                        do_check(href.to_string());
+                    }
+                }
+            }
+            _ => {}
         }
     }
 
