@@ -2,6 +2,19 @@
 name = "awesome-rust"
 version = "0.1.0"
 authors = []
+edition = "2018"
 
 [dependencies]
-pulldown-cmark= "0.0.8"
+pulldown-cmark = "0.6"
+futures = "0.3"
+reqwest = { version="0.10", default_features=false, features=["rustls-tls"] }
+tokio =  {version = "0.2", features = ["macros", "rt-core", "rt-threaded"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_yaml = "0.8"
+failure = "0.1"
+lazy_static = "1"
+env_logger = "0.7"
+async-std = "1"
+log = "0.4"
+regex = "1"
+scraper = "0.11"
