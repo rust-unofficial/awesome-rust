@@ -121,7 +121,7 @@ fn get_url(url: String) -> BoxFuture<'static, (String, Result<String, CheckerErr
                         }
                     }
                     lazy_static! {
-                        static ref TRAVIS_IMG_REGEX: Regex = Regex::new(r"https://api.travis-ci.com/[^/]+/.+\.svg").unwrap();
+                        static ref TRAVIS_IMG_REGEX: Regex = Regex::new(r"https://api.travis-ci.(?:com|org)/[^/]+/.+\.svg").unwrap();
                     }
                     if TRAVIS_IMG_REGEX.is_match(&url) {
                         let content_dispostion = ok.headers().get(header::CONTENT_DISPOSITION).and_then(|h| h.to_str().ok()).unwrap_or("");
