@@ -28,7 +28,10 @@ enum CheckerError {
     #[fail(display = "reqwest error: {}", error)]
     ReqwestError {
         error: reqwest::Error,
-    }
+    },
+
+    #[fail(display = "travis build is unknown")]
+    TravisBuildUnknown,
 }
 
 struct MaxHandles {
@@ -111,10 +114,22 @@ fn get_url(url: String) -> BoxFuture<'static, (String, Result<String, CheckerErr
                         warn!("Error while getting {}, retrying: {}", url, status);
                         if status.is_redirection() {
                             res = Err(CheckerError::HttpError {status: status, location: ok.headers().get(header::LOCATION).and_then(|h| h.to_str().ok()).map(|x| x.to_string())});
+                            break;
                         } else {
                             res = Err(CheckerError::HttpError {status: status, location: None});
+                            continue;
                         }
-                        continue;
+                    }
+                    lazy_static! {
+                        static ref TRAVIS_IMG_REGEX: Regex = Regex::new(r"https://api.travis-ci.(?:com|org)/[^/]+/.+\.svg").unwrap();
+                    }
+                    if TRAVIS_IMG_REGEX.is_match(&url) {
+                        let content_dispostion = ok.headers().get(header::CONTENT_DISPOSITION).and_then(|h| h.to_str().ok()).unwrap_or("");
+                        debug!("Content dispostion for {} is '{}'", content_dispostion, url);
+                        if content_dispostion == "inline; filename=\"unknown.svg\"" {
+                            res = Err(CheckerError::TravisBuildUnknown);
+                            break;
+                        }
                     }
                     debug!("Finished {}", url);
                     res = Ok(format!("{:?}", ok));
@@ -216,6 +231,9 @@ async fn main() -> Result<(), Error> {
                                 format!("[{}] {}", status.as_u16(), url)
                             }
                         }
+                    }
+                    CheckerError::TravisBuildUnknown => {
+                        format!("[Unknown travis build] {}", url)
                     }
                     _ => {
                         format!("{:?}", err)
