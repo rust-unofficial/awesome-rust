@@ -278,6 +278,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [buster/rrun](https://github.com/buster/rrun) — A command launcher for Linux, similar to gmrun  [<img src="https://api.travis-ci.org/buster/rrun.svg?branch=master">](https://travis-ci.org/buster/rrun)
 * [cristianoliveira/funzzy](https://github.com/cristianoliveira/funzzy) — A configurable filesystem watcher inspired by [entr](http://entrproject.org/) [<img src="https://api.travis-ci.org/cristianoliveira/funzzy.svg?branch=master">](https://travis-ci.org/cristianoliveira/funzzy)
 * [dalance/procs](https://github.com/dalance/procs) — A modern replacement for 'ps' written by Rust [<img src="https://dev.azure.com/dalance/procs/_apis/build/status/dalance.procs?branchName=master">](https://dev.azure.com/dalance/procs/_build/results?buildId=250)
+* [dust](https://github.com/bootandy/dust) - A more intuitive version of du
 * [ddh](https://github.com/darakian/ddh) — Fast duplicate file finder [<img src="https://api.travis-ci.org/darakian/ddh.svg?branch=master">](https://travis-ci.org/darakian/ddh)
 * [fselect](https://crates.io/crates/fselect) — Find files with SQL-like queries [<img src="https://api.travis-ci.org/jhspetersson/fselect.svg?branch=master">](https://travis-ci.org/jhspetersson/fselect)
 * [k0pernicus/zou](https://github.com/k0pernicus/zou) — A download accelerator
