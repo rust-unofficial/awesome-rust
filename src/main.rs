@@ -69,7 +69,7 @@ impl<'a> Drop for Handle<'a> {
 lazy_static! {
     static ref CLIENT: Client = Client::builder()
         .danger_accept_invalid_certs(true) // because some certs are out of date
-        .user_agent("curl/7.54.0") // so some sites (e.g. sciter.com) don't reject us
+        .user_agent("Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:68.0) Gecko/20100101 Firefox/68.0") // so some sites (e.g. sciter.com) don't reject us
         .redirect(Policy::none())
         .timeout(time::Duration::from_secs(20))
         .build().unwrap();
