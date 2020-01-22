@@ -1049,7 +1049,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 ### Functional Programming
 [[functional programming](https://crates.io/keywords/fp)]
 * Prelude
-  * [JasonShin/fp-core.rs](https://github.com/JasonShin/fp-core.rs) - A library for functional programming in Rust [![Build Status](https://travis-ci.com/JasonShin/fp-core.rs.svg?branch=master)](https://travis-ci.com/JasonShin/fp-core.rs)
+  * [JasonShin/fp-core.rs](https://github.com/JasonShin/fp-core.rs) - A library for functional programming in Rust [![Build Status](https://api.travis-ci.com/JasonShin/fp-core.rs.svg?branch=master)](https://travis-ci.com/JasonShin/fp-core.rs)
 
 ### Game development
 
