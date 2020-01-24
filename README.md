@@ -1450,6 +1450,7 @@ A registry allows you to publish your Rust libraries as crate packages, to share
 * [Rust Guidelines](http://aturon.github.io/)
 * [RustBooks](https://github.com/sger/RustBooks) — list of RustBooks
 * [Rust Subreddit](https://www.reddit.com/r/rust/) — A subreddit(forum) where rust related questions, articles and resources are posted and discussed
+* [Toplog](https://toplog.cc/) — an Article/Book/Event/Talk Aggregator for Rust by Rust
 
 ## License
 
