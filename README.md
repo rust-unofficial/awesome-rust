@@ -7,7 +7,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 ## Table of contents
 
   - [Applications](#applications)
-    - [Audio](#audio)
+    - [Audio and Music](#audio-and-music)
     - [Cryptocurrencies](#cryptocurrencies)
     - [Database](#database)
     - [Emulators](#emulators)
@@ -47,7 +47,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
       - [Machine learning](#machine-learning)
     - [Astronomy](#astronomy)
     - [Asynchronous](#asynchronous)
-    - [Audio](#audio-1)
+    - [Audio and Music](#audio-and-music-1)
     - [Authentication](#authentication)
     - [Automotive](#automotive)
     - [Bioinformatics](#bioinformatics)
@@ -136,7 +136,7 @@ See also [Rust — Production](https://www.rust-lang.org/production) organizatio
 * [tiny](https://github.com/osa1/tiny) - A terminal IRC client
 * [updns](https://github.com/wyhaya/updns) - DNS proxy tool
 
-### Audio
+### Audio and Music
 
 * [indiscipline/zrtstr](https://github.com/indiscipline/zrtstr) — A command line utility for checking if stereo wav files are faux-stereo (i.e. have identical channels) and converting such files to mono. [<img src="https://api.travis-ci.org/indiscipline/zrtstr.svg?branch=master">](https://travis-ci.org/indiscipline/zrtstr)
 * [Polaris](https://github.com/agersant/polaris) — A music streaming application.  [<img src="https://api.travis-ci.org/agersant/polaris.svg?branch=master">](https://travis-ci.org/agersant/polaris)
@@ -664,7 +664,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [Xudong-Huang/may](https://github.com/Xudong-Huang/may) — rust stackful coroutine library [<img src="https://api.travis-ci.org/Xudong-Huang/may.svg?branch=master">](https://travis-ci.org/Xudong-Huang/may)
 * [rustasync/runtime](https://github.com/rustasync/runtime) - A runtime agnostic API designed to make async feel like its part of stdlib [![Crates.io](https://img.shields.io/crates/v/runtime.svg?style=flat-square)](https://crates.io/crates/runtime) [![Build status](https://img.shields.io/azure-devops/build/yoshuawuyts/rustasync/2/master.svg?style=flat-square)](https://dev.azure.com/yoshuawuyts/rustasync/_build?definitionId=2)
 
-### Audio
+### Audio and Music
 
 [[audio](https://crates.io/keywords/audio)]
 
@@ -676,6 +676,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [RustAudio/rodio](https://github.com/RustAudio/rodio) — A Rust audio playback library [![Build Status](https://api.travis-ci.org/RustAudio/rodio.svg?branch=master)](https://travis-ci.org/RustAudio/rodio)
 * [RustAudio](https://github.com/RustAudio)
   * [RustAudio/rust-portaudio](https://github.com/RustAudio/rust-portaudio) — [PortAudio](http://www.portaudio.com/) bindings [<img src="https://api.travis-ci.org/RustAudio/rust-portaudio.svg?branch=master">](https://travis-ci.org/RustAudio/rust-portaudio)
+* [ozankasikci/rust-music-theory](https://github.com/ozankasikci/rust-music-theory) — A Rust music theory library [![Build Status](https://api.travis-ci.com/ozankasikci/rust-music-theory.svg?branch=master)](https://travis-ci.org/ozankasikci/rust-music-theory)
 
 ### Authentication
 
