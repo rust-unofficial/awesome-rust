@@ -135,7 +135,6 @@ See also [Rust — Production](https://www.rust-lang.org/production) organizatio
 * [tiny](https://github.com/osa1/tiny) - A terminal IRC client
 * [updns](https://github.com/wyhaya/updns) - DNS proxy tool
 
-
 ### Audio and Music
 
 * [indiscipline/zrtstr](https://github.com/indiscipline/zrtstr) — A command line utility for checking if stereo wav files are faux-stereo (i.e. have identical channels) and converting such files to mono. [<img src="https://api.travis-ci.org/indiscipline/zrtstr.svg?branch=master">](https://travis-ci.org/indiscipline/zrtstr)
