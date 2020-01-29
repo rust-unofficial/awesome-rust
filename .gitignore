@@ -4,3 +4,4 @@ target/
 cleanup
 cleanup.exe
 ab-results*.json
+results.yaml
