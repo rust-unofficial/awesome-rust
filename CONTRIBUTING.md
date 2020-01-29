@@ -13,3 +13,8 @@ If you want to add an entry to the `README.md` please consider this:
 - is the entry valuable to people trying to get things done in Rust?
 - if you want to add something, please use the template `[YYY](https://crates.io/crates/YYY) — DESCRIPTION [<img src="https://api.travis-ci.org/XXX/YYY.svg?branch=master">](https://travis-ci.org/XXX/YYY)`
 - please pay attention to the alphabetical ordering.
+
+
+## Removing projects
+
+We don't remove projects unless they are outright broken or pronounced deprecated by another project or by its author.
