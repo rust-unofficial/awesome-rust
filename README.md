@@ -25,7 +25,6 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
     - [Utilities](#utilities)
     - [Video](#video)
     - [Virtualization](#virtualization)
-    - [Window managers](#window-managers)
     - [Web](#web)
     - [Web Servers](#web-servers)
   - [Development tools](#development-tools)
@@ -363,10 +362,6 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [firecracker-microvm/firecracker](https://github.com/firecracker-microvm/firecracker) — A lightweight virtual machine for container workload  [Firecracker Microvm](https://firecracker-microvm.github.io/)
 * [oracle/railcar](https://github.com/oracle/railcar) — Docker-like container OCI runtime implementation in Rust [![wercker status](https://app.wercker.com/status/730e874772dc02c6005f4ae4e42b0ca4/s/master "wercker status")](https://app.wercker.com/applications/59696a02ee70670100155ae2 )
 * [tailhook/vagga](https://github.com/tailhook/vagga) — A containerization tool without daemons [<img src="https://api.travis-ci.org/tailhook/vagga.svg?branch=master">](https://travis-ci.org/tailhook/vagga)
-
-### Window managers
-
-* [way-cooler/way-cooler](https://github.com/way-cooler/way-cooler) — A customizable Wayland compositor (window manager) [<img src="https://api.travis-ci.org/way-cooler/way-cooler.svg?branch=master">](https://travis-ci.org/way-cooler/way-cooler)
 
 ### Web
 
