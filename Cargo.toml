@@ -2,6 +2,8 @@
 name = "awesome-rust"
 version = "0.1.0"
 authors = []
+homepage = "https://github.com/rust-unofficial/awesome-rust"
+repository = "https://github.com/rust-unofficial/awesome-rust"
 edition = "2018"
 
 [dependencies]
