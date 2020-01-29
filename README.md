@@ -132,6 +132,7 @@ See also [Rust — Production](https://www.rust-lang.org/production) organizatio
 * [Weld](https://github.com/serayuzgur/weld) — Full fake REST API generator [<img src="https://api.travis-ci.org/serayuzgur/weld.svg?branch=master">](https://travis-ci.org/serayuzgur/weld)
 * [kytan](https://github.com/changlan/kytan) - High Performance Peer-to-Peer VPN 
 * [rx](https://github.com/cloudhead/rx) - Vi inspired Modern Pixel Art Editor
+* [tiny](https://github.com/osa1/tiny) - A terminal IRC client
 * [updns](https://github.com/wyhaya/updns) - DNS proxy tool
 
 ### Audio
