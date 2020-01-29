@@ -1304,6 +1304,7 @@ See also [Are we game yet?](https://arewegameyet.com)
 
 [[scripting](https://crates.io/keywords/scripting)]
 
+* [duckscript](https://crates.io/crates/duckscript) — [Simple, extendable and embeddable scripting language.](https://github.com/sagiegurari/duckscript) [<img src="https://api.travis-ci.org/sagiegurari/duckscript.svg?branch=master">](https://travis-ci.org/sagiegurari/duckscript)
 * [PistonDevelopers/dyon](https://github.com/PistonDevelopers/dyon) — A rusty dynamically typed scripting language
 * [gluon-lang/gluon](https://github.com/gluon-lang/gluon) —  A small, statically-typed, functional programming language
 * [murarth/ketos](https://github.com/murarth/ketos) — A Lisp dialect functional programming language serving as a scripting and extension language for rust
