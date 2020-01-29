@@ -371,6 +371,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 ### Web
 
 * [Plume-org/Plume](https://github.com/Plume-org/Plume) — ActivityPub federating blogging application [<img src="https://api.travis-ci.org/Plume-org/Plume.svg?branch=master">](https://travis-ci.org/Plume-org/Plume)
+* [dessalines/lemmy](https://github.com/dessalines/lemmy) — A link aggregator / reddit clone for the fediverse. [![Build Status](https://api.travis-ci.org/dessalines/lemmy.svg?branch=master)](https://travis-ci.org/dessalines/lemmy)
 
 ### Web Servers
 
