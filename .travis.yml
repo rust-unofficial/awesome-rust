@@ -1,3 +1,7 @@
 language: rust
 script: cargo run
 cache: cargo
+
+env:
+  global:
+    - RUST_LOG=warn
