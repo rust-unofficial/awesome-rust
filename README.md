@@ -384,6 +384,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [dotenv-linter](https://github.com/mgrachev/dotenv-linter) - Linter for `.env` files [<img src="https://github.com/mgrachev/dotenv-linter/workflows/CI/badge.svg?branch=master">](https://github.com/mgrachev/dotenv-linter/actions?query=workflow%3ACI+branch%3Amaster)
 * [frewsxcv/crate-deps](https://github.com/frewsxcv/crate-deps) — generates images of dependency graphs for crates hosted on crates.io
 * [git-journal](https://github.com/saschagrunert/git-journal/) — The Git Commit Message and Changelog Generation Framework [<img src="https://api.travis-ci.org/saschagrunert/git-journal.svg?branch=master">](https://travis-ci.org/saschagrunert/git-journal)
+* [gstats](https://github.com/boonshift/gstats/) - command line tool to print a developer handy summary of all git repositories below current directory
 * [rust-lang/rustfix](https://github.com/rust-lang/rustfix)  — automatically applies the suggestions made by rustc
 * [just](https://github.com/casey/just) — A handy command runner for project-specific tasks [<img src="https://api.travis-ci.org/casey/just.svg?branch=master">](https://travis-ci.org/casey/just)
 * [Module Linker](https://github.com/fiatjaf/module-linker) — Extension that adds `<a>` links to references in `mod`, `use` and `extern crate` statements at GitHub.
