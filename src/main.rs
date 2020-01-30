@@ -103,6 +103,7 @@ fn get_url(url: String) -> BoxFuture<'static, (String, Result<String, CheckerErr
                     if status != StatusCode::OK {
                         lazy_static! {
                             static ref ACTIONS_REGEX: Regex = Regex::new(r"https://github.com/(?P<org>[^/]+)/(?P<repo>[^/]+)/actions(?:\?workflow=.+)?").unwrap();
+                            static ref YOUTUBE_REGEX: Regex = Regex::new(r"https://www.youtube.com/watch\?v=(?P<video_id>.+)").unwrap();
                         }
                         if status == StatusCode::NOT_FOUND && ACTIONS_REGEX.is_match(&url) {
                             let rewritten = ACTIONS_REGEX.replace_all(&url, "https://github.com/$org/$repo");
@@ -110,6 +111,15 @@ fn get_url(url: String) -> BoxFuture<'static, (String, Result<String, CheckerErr
                             let (_new_url, res) = get_url(rewritten.to_string()).await;
                             return (url, res);
                         }
+                        if status == StatusCode::FOUND && YOUTUBE_REGEX.is_match(&url) {
+                            // Based off of https://gist.github.com/tonY1883/a3b85925081688de569b779b4657439b
+                            // Guesswork is that the img feed will cause less 302's than the main url
+                            // See https://github.com/rust-unofficial/awesome-rust/issues/814 for original issue
+                            let rewritten = YOUTUBE_REGEX.replace_all(&url, "http://img.youtube.com/vi/$video_id/mqdefault.jpg");
+                            warn!("Got 302 with Youtube, so replacing {} with {}", url, rewritten);
+                            let (_new_url, res) = get_url(rewritten.to_string()).await;
+                            return (url, res);
+                        };
 
                         warn!("Error while getting {}, retrying: {}", url, status);
                         if status.is_redirection() {
