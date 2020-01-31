@@ -387,6 +387,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [gstats](https://github.com/boonshift/gstats/) - command line tool to print a developer handy summary of all git repositories below current directory
 * [rust-lang/rustfix](https://github.com/rust-lang/rustfix)  — automatically applies the suggestions made by rustc
 * [just](https://github.com/casey/just) — A handy command runner for project-specific tasks [<img src="https://api.travis-ci.org/casey/just.svg?branch=master">](https://travis-ci.org/casey/just)
+* [mask](https://github.com/jakedeichert/mask) — A CLI task runner defined by a simple markdown file [<img src="https://github.com/jakedeichert/mask/workflows/CI/badge.svg?branch=master">](https://github.com/jakedeichert/mask/actions?query=workflow%3ACI)
 * [Module Linker](https://github.com/fiatjaf/module-linker) — Extension that adds `<a>` links to references in `mod`, `use` and `extern crate` statements at GitHub.
 * [ptags](https://github.com/dalance/ptags) — A parallel universal-ctags wrapper for git repository [![Build Status](https://api.travis-ci.org/dalance/ptags.svg?branch=master)](https://travis-ci.org/dalance/ptags)
 * [Racer](https://github.com/racer-rust/racer) — code completion for Rust [<img src="https://api.travis-ci.org/racer-rust/racer.svg?branch=master">](https://travis-ci.org/racer-rust/racer)
