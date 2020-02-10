@@ -7,9 +7,9 @@ use lazy_static::lazy_static;
 use std::sync::atomic::{AtomicU32, Ordering};
 use async_std::task;
 use std::time;
-use log::{warn, debug};
+use log::{warn, debug, info};
 use std::io::Write;
-use reqwest::{Client, redirect::Policy, StatusCode, header};
+use reqwest::{Client, redirect::Policy, StatusCode, header, Url};
 use regex::Regex;
 use scraper::{Html, Selector};
 use failure::{Fail, Error, format_err};
@@ -104,6 +104,7 @@ fn get_url(url: String) -> BoxFuture<'static, (String, Result<String, CheckerErr
                         lazy_static! {
                             static ref ACTIONS_REGEX: Regex = Regex::new(r"https://github.com/(?P<org>[^/]+)/(?P<repo>[^/]+)/actions(?:\?workflow=.+)?").unwrap();
                             static ref YOUTUBE_REGEX: Regex = Regex::new(r"https://www.youtube.com/watch\?v=(?P<video_id>.+)").unwrap();
+                            static ref AZURE_BUILD_REGEX: Regex = Regex::new(r"https://dev.azure.com/[^/]+/[^/]+/_build").unwrap();
                         }
                         if status == StatusCode::NOT_FOUND && ACTIONS_REGEX.is_match(&url) {
                             let rewritten = ACTIONS_REGEX.replace_all(&url, "https://github.com/$org/$repo");
@@ -120,6 +121,14 @@ fn get_url(url: String) -> BoxFuture<'static, (String, Result<String, CheckerErr
                             let (_new_url, res) = get_url(rewritten.to_string()).await;
                             return (url, res);
                         };
+                        if status == StatusCode::FOUND && AZURE_BUILD_REGEX.is_match(&url) {
+                            // Azure build urls always redirect to a particular build id, so no stable url guarantees
+                            let redirect = ok.headers().get(header::LOCATION).unwrap().to_str().unwrap();
+                            let merged_url = Url::parse(&url).unwrap().join(redirect).unwrap();
+                            info!("Got 302 from Azure devops, so replacing {} with {}", url, merged_url);
+                            let (_new_url, res) = get_url(merged_url.into_string()).await;
+                            return (url, res);
+                        }
 
                         warn!("Error while getting {}, retrying: {}", url, status);
                         if status.is_redirection() {
