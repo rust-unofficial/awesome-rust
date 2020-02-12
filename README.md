@@ -1188,7 +1188,7 @@ See also [Are we game yet?](https://arewegameyet.com)
 * [rust-lang/log](https://github.com/rust-lang/log) — Logging implementation for Rust [![Build Status](https://api.travis-ci.org/rust-lang/log.svg?branch=master)](https://travis-ci.org/rust-lang/log)
 * [slog-rs/slog](https://github.com/slog-rs/slog) — Structured, composable logging for Rust [![Build Status](https://api.travis-ci.org/slog-rs/slog.svg?branch=master)](https://travis-ci.org/slog-rs/slog)
 * [estk/log4rs](https://github.com/estk/log4rs) — highly configurable logging framework modeled after Java's Logback and log4j libraries [![CircleCI](https://circleci.com/gh/estk/log4rs.svg?style=shield)](https://circleci.com/gh/estk/log4rs)
-* [tokio-rs/tracing](https://github.com/tokio-rs/tracing) — An application level tracing framework for Rust for logging, error handling, metrics, and more [![Build Status][https://github.com/tokio-rs/tracing/workflows/CI/badge.svg]][https://github.com/tokio-rs/tracing/actions?query=workflow%3ACI]
+* [tokio-rs/tracing](https://github.com/tokio-rs/tracing) — An application level tracing framework for Rust for logging, error handling, metrics, and more [![Build Status](https://github.com/tokio-rs/tracing/workflows/CI/badge.svg)](https://github.com/tokio-rs/tracing/actions?query=workflow%3ACI)
 
 ### Macro
 
