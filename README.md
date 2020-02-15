@@ -1155,7 +1155,7 @@ See also [Are we game yet?](https://arewegameyet.com)
   * [Kiss-ui](https://github.com/KISS-UI/kiss-ui) — A simple UI framework built on IUP [![Build Status](https://api.travis-ci.org/cybergeek94/kiss-ui.svg?branch=master)](https://travis-ci.org/cybergeek94/kiss-ui)
 * [libui](https://github.com/andlabs/libui)
   * [rust-native-ui/libui-rs](https://github.com/rust-native-ui/libui-rs) — libui bindings [<img src="https://api.travis-ci.org/rust-native-ui/libui-rs.svg?branch=master">](https://travis-ci.org/rust-native-ui/libui-rs).
-* [Nuklear](https://github.com/vurtun/nuklear)
+* [Nuklear](https://github.com/Immediate-Mode-UI/Nuklear)
   * [nuklear-rust](https://github.com/snuk182/nuklear-rust) — Rust bindings for Nuklear
 * [Qt](https://doc.qt.io)
   * [woboq/qmetaobject-rs](https://github.com/woboq/qmetaobject-rs) — Integrate Qml and Rust by building the QMetaObject at compile time. [<img src="https://api.travis-ci.org/woboq/qmetaobject-rs.svg?branch=master">](https://travis-ci.org/woboq/qmetaobject-rs)
