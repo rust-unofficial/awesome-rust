@@ -1,7 +1,18 @@
 language: rust
 script: cargo run
-cache: cargo
 
 env:
   global:
     - RUST_LOG=warn
+
+# Cache hints based off of https://gist.github.com/jkcclemens/000456ca646bd502cac0dbddcb8fa307
+cache:
+  cargo: true
+  directories:
+    - $TRAVIS_BUILD_DIR/results # So we don't have to check all the things every time
+before_cache:
+  - rm -rfv target/debug/incremental/awesome_rust-*
+  - rm -rfv target/debug/.fingerprint/awesome_rust-*
+  - rm -rfv target/debug/deps/awesome_crate-*
+  - rm -rfv target/debug/awesome_rust.d
+  - rm -rfv target/debug/incremental/awesome_rust-*
