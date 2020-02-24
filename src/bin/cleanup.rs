@@ -1,5 +1,5 @@
 // Cleans up `README.md`
-// Usage: rustc cleanup.rs && ./cleanup
+// Usage: cargo run --bin cleanup
 
 use std::fs;
 use std::fs::File;
