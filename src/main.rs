@@ -87,7 +87,7 @@ lazy_static! {
     static ref HANDLES: MaxHandles = MaxHandles::new(20);
 }
 
-fn get_url(url: String) -> BoxFuture<'static, (String, Result<String, CheckerError>)> {
+fn get_url(url: String) -> BoxFuture<'static, (String, Result<(), CheckerError>)> {
     async move {
         let _handle = HANDLES.get().await;
         let mut res = Err(CheckerError::NotTried);
@@ -104,7 +104,7 @@ fn get_url(url: String) -> BoxFuture<'static, (String, Result<String, CheckerErr
                     res = Err(CheckerError::ReqwestError{error: err});
                     continue;
                 }
-                Ok(ref ok) => {
+                Ok(ok) => {
                     let status = ok.status();
                     if status != StatusCode::OK {
                         lazy_static! {
@@ -150,9 +150,10 @@ fn get_url(url: String) -> BoxFuture<'static, (String, Result<String, CheckerErr
                         static ref GITHUB_ACTIONS_REGEX: Regex = Regex::new(r"https://github.com/[^/]+/[^/]+/workflows/[^/]+/badge.svg(\?.+)?").unwrap();
                     }
                     if let Some(matches) = TRAVIS_IMG_REGEX.captures(&url) {
-                        let content_dispostion = ok.headers().get(header::CONTENT_DISPOSITION).and_then(|h| h.to_str().ok()).unwrap_or("");
-                        debug!("Content dispostion for {} is '{}'", content_dispostion, url);
-                        if content_dispostion == "inline; filename=\"unknown.svg\"" {
+                        // Previously we checked the Content-Disposition headers, but sometimes that is incorrect
+                        // We're now looking for the explicit text "unknown" in the middle of the SVG
+                        let content = ok.text().await.unwrap();
+                        if content.contains("unknown") {
                             res = Err(CheckerError::TravisBuildUnknown);
                             break;
                         }
@@ -171,7 +172,7 @@ fn get_url(url: String) -> BoxFuture<'static, (String, Result<String, CheckerErr
                         }
                     }
                     debug!("Finished {}", url);
-                    res = Ok(format!("{:?}", ok));
+                    res = Ok(());
                     break;
                 }
             }
