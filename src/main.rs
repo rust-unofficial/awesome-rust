@@ -32,6 +32,12 @@ enum CheckerError {
 
     #[fail(display = "travis build is unknown")]
     TravisBuildUnknown,
+
+    #[fail(display = "travis build image with no branch")]
+    TravisBuildNoBranch,
+
+    #[fail(display = "github actions image with no branch")]
+    GithubActionNoBranch,
 }
 
 struct MaxHandles {
@@ -140,13 +146,27 @@ fn get_url(url: String) -> BoxFuture<'static, (String, Result<String, CheckerErr
                         }
                     }
                     lazy_static! {
-                        static ref TRAVIS_IMG_REGEX: Regex = Regex::new(r"https://api.travis-ci.(?:com|org)/[^/]+/.+\.svg").unwrap();
+                        static ref TRAVIS_IMG_REGEX: Regex = Regex::new(r"https://api.travis-ci.(?:com|org)/[^/]+/.+\.svg(\?.+)?").unwrap();
+                        static ref GITHUB_ACTIONS_REGEX: Regex = Regex::new(r"https://github.com/[^/]+/[^/]+/workflows/[^/]+/badge.svg(\?.+)?").unwrap();
                     }
-                    if TRAVIS_IMG_REGEX.is_match(&url) {
+                    if let Some(matches) = TRAVIS_IMG_REGEX.captures(&url) {
                         let content_dispostion = ok.headers().get(header::CONTENT_DISPOSITION).and_then(|h| h.to_str().ok()).unwrap_or("");
                         debug!("Content dispostion for {} is '{}'", content_dispostion, url);
                         if content_dispostion == "inline; filename=\"unknown.svg\"" {
                             res = Err(CheckerError::TravisBuildUnknown);
+                            break;
+                        }
+                        let query = matches.get(1).map(|x| x.as_str()).unwrap_or("");
+                        if !query.starts_with("?") || query.find("branch=").is_none() {
+                            res = Err(CheckerError::TravisBuildNoBranch);
+                            break;
+                        }
+                    }
+                    if let Some(matches) = GITHUB_ACTIONS_REGEX.captures(&url) {
+                        debug!("Github actions match {:?}", matches);
+                        let query = matches.get(1).map(|x| x.as_str()).unwrap_or("");
+                        if !query.starts_with("?") || query.find("branch=").is_none() {
+                            res = Err(CheckerError::GithubActionNoBranch);
                             break;
                         }
                     }
@@ -253,6 +273,12 @@ async fn main() -> Result<(), Error> {
                     }
                     CheckerError::TravisBuildUnknown => {
                         format!("[Unknown travis build] {}", url)
+                    }
+                    CheckerError::TravisBuildNoBranch => {
+                        format!("[Travis build image with no branch specified] {}", url)
+                    }
+                    CheckerError::GithubActionNoBranch => {
+                        format!("[Github action image with no branch specified] {}", url)
                     }
                     _ => {
                         format!("{:?}", err)
