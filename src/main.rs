@@ -95,7 +95,7 @@ fn get_url(url: String) -> BoxFuture<'static, (String, Result<(), CheckerError>)
             debug!("Running {}", url);
             let resp = CLIENT
                 .get(&url)
-                .header(header::ACCEPT, "text/html, */*;q=0.8")
+                .header(header::ACCEPT, "image/svg+xml, text/html, */*;q=0.8")
                 .send()
                 .await;
             match resp {
