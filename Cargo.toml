@@ -5,6 +5,7 @@ authors = []
 homepage = "https://github.com/rust-unofficial/awesome-rust"
 repository = "https://github.com/rust-unofficial/awesome-rust"
 edition = "2018"
+default-run = "awesome-rust"
 
 [dependencies]
 pulldown-cmark = "0.6"
