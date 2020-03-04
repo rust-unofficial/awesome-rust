@@ -13,6 +13,7 @@ use reqwest::{Client, redirect::Policy, StatusCode, header, Url};
 use regex::Regex;
 use scraper::{Html, Selector};
 use failure::{Fail, Error, format_err};
+use chrono::{Local, DateTime, Duration};
 
 #[derive(Debug, Fail)]
 enum CheckerError {
@@ -182,19 +183,14 @@ fn get_url(url: String) -> BoxFuture<'static, (String, Result<(), CheckerError>)
 }
 
 #[derive(Debug, Serialize, Deserialize)]
-struct Results {
-    working: BTreeSet<String>,
-    failed: BTreeMap<String, String>
+struct Link {
+    last_working: Option<DateTime<Local>>,
+    updated_at: DateTime<Local>,
+    working: bool,
+    message: String
 }
 
-impl Results {
-    fn new() -> Results {
-        Results {
-            working: BTreeSet::new(),
-            failed: BTreeMap::new()
-        }
-    }
-}
+type Results = BTreeMap<String, Link>;
 
 #[tokio::main]
 async fn main() -> Result<(), Error> {
@@ -202,20 +198,28 @@ async fn main() -> Result<(), Error> {
     let markdown_input = fs::read_to_string("README.md").expect("Can't read README.md");
     let parser = Parser::new(&markdown_input);
 
-    let mut results: Results = fs::read_to_string("results.yaml")
+    let mut used: BTreeSet<String> = BTreeSet::new();
+    let mut results: Results = fs::read_to_string("results/results.yaml")
         .map_err(|e| format_err!("{}", e))
         .and_then(|x| serde_yaml::from_str(&x).map_err(|e| format_err!("{}", e)))
         .unwrap_or(Results::new());
-    results.failed.clear();
 
     let mut url_checks = vec![];
 
+    let min_between_checks: Duration = Duration::days(1);
+    let max_allowed_failed: Duration = Duration::days(3);
     let mut do_check = |url: String| {
         if !url.starts_with("http") {
             return;
         }
-        if results.working.contains(&url) {
-            return;
+        used.insert(url.clone());
+        if let Some(link) = results.get(&url) {
+            if link.working {
+                let since = Local::now() - link.updated_at;
+                if since < min_between_checks {
+                    return;
+                }
+            }
         }
         let check = get_url(url).boxed();
         url_checks.push(check);
@@ -250,6 +254,13 @@ async fn main() -> Result<(), Error> {
         }
     }
 
+    let results_keys = results.keys().cloned().collect::<BTreeSet<String>>();
+    let old_links = results_keys.difference(&used);
+    for link in old_links {
+        results.remove(link).unwrap();
+    }
+    fs::write("results/results.yaml", serde_yaml::to_string(&results)?)?;
+
     while url_checks.len() > 0 {
         debug!("Waiting...");
         let ((url, res), _index, remaining) = select_all(url_checks).await;
@@ -257,7 +268,19 @@ async fn main() -> Result<(), Error> {
         match res {
             Ok(_) => {
                 print!("\u{2714} ");
-                results.working.insert(url);
+                if let Some(link) = results.get_mut(&url) {
+                    link.updated_at = Local::now();
+                    link.last_working = Some(Local::now());
+                    link.working = true;
+                    link.message = String::from("")
+                } else {
+                    results.insert(url.clone(), Link {
+                        updated_at: Local::now(),
+                        last_working: Some(Local::now()),
+                        working: true,
+                        message: String::from("")
+                    });
+                }
             },
             Err(err) => {
                 print!("\u{2718} ");
@@ -285,20 +308,49 @@ async fn main() -> Result<(), Error> {
                         format!("{:?}", err)
                     }
                 };
-                results.failed.insert(url, message);
+                if let Some(link) = results.get_mut(&url) {
+                    link.updated_at = Local::now();
+                    link.working = false;
+                    link.message = message;
+                    link.last_working = None;
+                } else {
+                    results.insert(url.clone(), Link {
+                        updated_at: Local::now(),
+                        working: false,
+                        message: message,
+                        last_working: None
+                    });
+                }
             }
         }
         std::io::stdout().flush().unwrap();
-        fs::write("results.yaml", serde_yaml::to_string(&results)?)?;
+        fs::write("results/results.yaml", serde_yaml::to_string(&results)?)?;
     }
     println!("");
-    if results.failed.is_empty() {
+    let mut failed: u32 = 0;
+
+    for (_url, link) in results.iter() {
+        if !link.working {
+            if link.last_working.is_none() {
+                println!("{}", link.message);
+                failed +=1;
+                continue;
+            }
+            if let Some(last_working) = link.last_working {
+                let since = Local::now() - last_working;
+                if since > max_allowed_failed {
+                    println!("{}", link.message);
+                    failed +=1;
+                } else {
+                    println!("Failure occurred but only {} ago, so we're not worrying yet: {}", since, link.message);
+                }
+            }
+        }
+    }
+    if failed == 0 {
         println!("No errors!");
         Ok(())
     } else {
-        for (_url, error) in &results.failed {
-            println!("{}", error);
-        }
-        Err(format_err!("{} urls with errors", results.failed.len()))
+        Err(format_err!("{} urls with errors", failed))
     }
 }

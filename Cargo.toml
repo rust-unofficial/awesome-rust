@@ -21,3 +21,4 @@ async-std = "1"
 log = "0.4"
 regex = "1"
 scraper = "0.11"
+chrono = { version = "0.4", features = ["serde"] }
