@@ -13,7 +13,7 @@ cache:
 before_cache:
   - rm -rfv target/debug/incremental/awesome_rust-*
   - rm -rfv target/debug/.fingerprint/awesome_rust-*
-  - rm -rfv target/debug/deps/awesome_crate-*
+  - rm -rfv target/debug/deps/awesome_rust-*
   - rm -rfv target/debug/awesome_rust.d
   - rm -rfv target/debug/incremental/awesome_rust-*
   - rm -rfv /home/travis/.cargo/registry/
