@@ -342,14 +342,14 @@ async fn main() -> Result<(), Error> {
     for (_url, link) in results.iter() {
         if !link.working {
             if link.last_working.is_none() {
-                println!("{}", link.message);
+                println!("{:?}", link);
                 failed +=1;
                 continue;
             }
             if let Some(last_working) = link.last_working {
                 let since = Local::now() - last_working;
                 if since > max_allowed_failed {
-                    println!("{}", link.message);
+                    println!("{:?}", link);
                     failed +=1;
                 } else {
                     println!("Failure occurred but only {} ago, so we're not worrying yet: {}", since, link.message);
