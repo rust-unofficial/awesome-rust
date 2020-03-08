@@ -261,6 +261,8 @@ async fn main() -> Result<(), Error> {
     }
     fs::write("results/results.yaml", serde_yaml::to_string(&results)?)?;
 
+    let mut not_written = 0;
+    let mut last_written = Local::now();
     while url_checks.len() > 0 {
         debug!("Waiting...");
         let ((url, res), _index, remaining) = select_all(url_checks).await;
@@ -324,8 +326,16 @@ async fn main() -> Result<(), Error> {
             }
         }
         std::io::stdout().flush().unwrap();
-        fs::write("results/results.yaml", serde_yaml::to_string(&results)?)?;
+
+        not_written += 1;
+        let duration = Local::now() - last_written;
+        if duration > Duration::seconds(5) || not_written > 20 {
+            fs::write("results/results.yaml", serde_yaml::to_string(&results)?)?;
+            not_written = 0;
+            last_written = Local::now();
+        }
     }
+    fs::write("results/results.yaml", serde_yaml::to_string(&results)?)?;
     println!("");
     let mut failed: u32 = 0;
 
