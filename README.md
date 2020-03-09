@@ -445,6 +445,8 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * Github actions
   * [icepuma/rust-action](https://github.com/icepuma/rust-action) — rust github action
   * [peaceiris/actions-mdbook](https://github.com/peaceiris/actions-mdbook) — GitHub Actions for mdBook
+* GitHub webhooks
+  * [snare](https://tratt.net/laurie/src/snare/) — GitHub webhooks runner daemon
 * Webpack
   * [Ralvke/rust-loader](https://github.com/Ralvke/rust-loader) — Webpack Rust loader (wasm)
 
