@@ -183,11 +183,16 @@ fn get_url(url: String) -> BoxFuture<'static, (String, Result<(), CheckerError>)
 }
 
 #[derive(Debug, Serialize, Deserialize)]
+enum Working {
+    Yes,
+    No(String)
+}
+
+#[derive(Debug, Serialize, Deserialize)]
 struct Link {
     last_working: Option<DateTime<Local>>,
     updated_at: DateTime<Local>,
-    working: bool,
-    message: String
+    working: Working,
 }
 
 type Results = BTreeMap<String, Link>;
@@ -214,7 +219,7 @@ async fn main() -> Result<(), Error> {
         }
         used.insert(url.clone());
         if let Some(link) = results.get(&url) {
-            if link.working {
+            if let Working::Yes = link.working {
                 let since = Local::now() - link.updated_at;
                 if since < min_between_checks {
                     return;
@@ -273,14 +278,12 @@ async fn main() -> Result<(), Error> {
                 if let Some(link) = results.get_mut(&url) {
                     link.updated_at = Local::now();
                     link.last_working = Some(Local::now());
-                    link.working = true;
-                    link.message = String::from("")
+                    link.working = Working::Yes;
                 } else {
                     results.insert(url.clone(), Link {
                         updated_at: Local::now(),
                         last_working: Some(Local::now()),
-                        working: true,
-                        message: String::from("")
+                        working: Working::Yes
                     });
                 }
             },
@@ -312,14 +315,12 @@ async fn main() -> Result<(), Error> {
                 };
                 if let Some(link) = results.get_mut(&url) {
                     link.updated_at = Local::now();
-                    link.working = false;
-                    link.message = message;
+                    link.working = Working::No(message);
                     link.last_working = None;
                 } else {
                     results.insert(url.clone(), Link {
                         updated_at: Local::now(),
-                        working: false,
-                        message: message,
+                        working: Working::No(message),
                         last_working: None
                     });
                 }
@@ -340,7 +341,7 @@ async fn main() -> Result<(), Error> {
     let mut failed: u32 = 0;
 
     for (_url, link) in results.iter() {
-        if !link.working {
+        if let Working::No(ref msg) = link.working {
             if link.last_working.is_none() {
                 println!("{:?}", link);
                 failed +=1;
@@ -352,7 +353,7 @@ async fn main() -> Result<(), Error> {
                     println!("{:?}", link);
                     failed +=1;
                 } else {
-                    println!("Failure occurred but only {} ago, so we're not worrying yet: {}", since, link.message);
+                    println!("Failure occurred but only {} ago, so we're not worrying yet: {}", since, msg);
                 }
             }
         }
