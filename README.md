@@ -956,6 +956,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 
 * [chronotope/chrono](https://github.com/chronotope/chrono) — [<img src="https://api.travis-ci.org/chronotope/chrono.svg?branch=master">](https://travis-ci.org/chronotope/chrono)
 * [yaa110/rust-persian-calendar](https://github.com/yaa110/rust-persian-calendar) — [<img src="https://api.travis-ci.org/yaa110/rust-persian-calendar.svg?branch=master">](https://travis-ci.org/yaa110/rust-persian-calendar)
+* [Mnwa/ms](https://github.com/Mnwa/ms) [[ms-converter](https://crates.io/crates/ms-converter)] — it's a library for converting human-like times to milliseconds [<img src="https://github.com/Mnwa/ms/workflows/build/badge.svg?branch=master">](https://github.com/Mnwa/ms/actions?query=workflow%3Abuild)
 
 ### Distributed systems
 
