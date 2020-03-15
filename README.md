@@ -351,7 +351,6 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [raftario/licensor](https://github.com/raftario/licensor) — write licenses to stdout [![GitHub Actions](https://github.com/raftario/licensor/workflows/Build/badge.svg?branch=master)](https://github.com/raftario/licensor/actions?workflowID=Build)
 * [arthrp/quick-skeleton](https://github.com/arthrp/quick-skeleton) — Project scaffolding tool, similar to Yeoman and Slush. [<img src="https://api.travis-ci.org/arthrp/quick-skeleton.svg?branch=master">](https://travis-ci.org/arthrp/quick-skeleton)
 * [repoch](https://github.com/lucawen/repoch) — Convert epoch to datetime and datetime to epoch [<img src="https://api.travis-ci.com/lucawen/repoch.svg?branch=master">](https://travis-ci.com/lucawen/repoch/)
-* [yaa110/rubigo](https://github.com/yaa110/rubigo) — Golang dependency tool and package manager, written in Rust [<img src="https://api.travis-ci.org/yaa110/rubigo.svg?branch=master">](https://travis-ci.org/yaa110/rubigo)
 * [whitfin/s3-concat](https://github.com/whitfin/s3-concat) — A command line tool to concatenate Amazon S3 files remotely using flexible patterns.
 * [whitfin/s3-meta](https://github.com/whitfin/s3-meta) — A command line tool to gather metadata about your Amazon S3 buckets.
 * [whitfin/s3-utils](https://github.com/whitfin/s3-utils) — A small tool containing utilities based around Amazon S3 to provide additional convenience APIs.
