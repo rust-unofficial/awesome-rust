@@ -869,6 +869,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 [[database](https://crates.io/keywords/database)]
 
 * [sfackler/r2d2](https://github.com/sfackler/r2d2) — generic connection pool [<img src="https://api.travis-ci.org/sfackler/r2d2.svg?branch=master">](https://travis-ci.org/sfackler/r2d2)
+* [launchbadge/sqlx](https://github.com/launchbadge/sqlx) - generic connection pool with async/await support and type enforcement [<img src="https://img.shields.io/github/workflow/status/launchbadge/sqlx/Rust?style=flat-square">](https://github.com/launchbadge/sqlx)
 * NoSQL [[nosql](https://crates.io/keywords/nosql)]
 
   * [ArangoDB](https://www.arangodb.com)
