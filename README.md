@@ -871,6 +871,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 [[database](https://crates.io/keywords/database)]
 
 * [sfackler/r2d2](https://github.com/sfackler/r2d2) — generic connection pool [<img src="https://api.travis-ci.org/sfackler/r2d2.svg?branch=master">](https://travis-ci.org/sfackler/r2d2)
+
 * NoSQL [[nosql](https://crates.io/keywords/nosql)]
 
   * [ArangoDB](https://www.arangodb.com)
@@ -910,6 +911,8 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
   * [PickleDB](https://pythonhosted.org/pickleDB/)
     * [seladb/pickledb-rs](https://github.com/seladb/pickledb-rs) — a lightweight and simple key-value store, heavily inspired by Python's PickleDB. [<img src="https://api.travis-ci.org/seladb/pickledb-rs.svg?branch=master">](https://travis-ci.org/seladb/pickledb-rs)
 * SQL [[sql](https://crates.io/keywords/sql)]
+  * Generic
+    * [launchbadge/sqlx](https://github.com/launchbadge/sqlx) - async PostgreSQL/MySQL/SQLite connection pool with strong typing support [<img src="https://img.shields.io/github/workflow/status/launchbadge/sqlx/Rust/master?style=flat-square">](https://github.com/launchbadge/sqlx)
   * Microsoft SQL
     * [steffengy/tiberius](https://github.com/steffengy/tiberius) — [<img src="https://api.travis-ci.org/steffengy/tiberius.svg?branch=master">](https://travis-ci.org/steffengy/tiberius)
   * MySql [[mysql](https://crates.io/keywords/mysql)]
