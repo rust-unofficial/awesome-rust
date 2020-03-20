@@ -311,7 +311,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [uutils/coreutils](https://github.com/uutils/coreutils) — A cross-platform Rust rewrite of the GNU coreutils [<img src="https://api.travis-ci.org/uutils/coreutils.svg?branch=master">](https://travis-ci.org/uutils/coreutils)
 * [watchexec](https://github.com/watchexec/watchexec) — Executes commands in response to file modifications [<img src="https://api.travis-ci.org/watchexec/watchexec.svg?branch=master">](https://travis-ci.org/watchexec/watchexec)
 * [XAMPPRocky/tokei](https://github.com/XAMPPRocky/tokei) — counts the lines of code [<img src="https://api.travis-ci.org/XAMPPRocky/tokei.svg?branch=master">](https://travis-ci.org/XAMPPRocky/tokei)
-* [ytop](https://github.com/cjbassi/ytop) - A TUI system monitor written in Rust ![Rust CI](https://github.com/cjbassi/ytop/workflows/Rust%20CI/badge.svg)
+* [ytop](https://github.com/cjbassi/ytop) - A TUI system monitor written in Rust [![Build status](https://github.com/cjbassi/ytop/workflows/Rust%20CI/badge.svg?branch=master)](https://github.com/cjbassi/ytop/actions?query=workflow%3A%22Rust+CI%22)
 
 ### Text editors
 
