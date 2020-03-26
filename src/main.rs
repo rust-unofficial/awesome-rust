@@ -316,7 +316,6 @@ async fn main() -> Result<(), Error> {
                 if let Some(link) = results.get_mut(&url) {
                     link.updated_at = Local::now();
                     link.working = Working::No(message);
-                    link.last_working = None;
                 } else {
                     results.insert(url.clone(), Link {
                         updated_at: Local::now(),
