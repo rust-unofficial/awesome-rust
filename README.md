@@ -1028,7 +1028,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * JSON
   * [pikkr/pikkr](https://github.com/pikkr/pikkr) [[pikkr](https://crates.io/crates/pikkr)] — JSON parser which picks up values directly without performing tokenization in Rust
   * [serde-rs/json](https://github.com/serde-rs/json) [[serde\_json](https://crates.io/crates/serde_json)] — JSON support for [Serde](https://github.com/serde-rs/serde) framework [<img src="https://api.travis-ci.org/serde-rs/json.svg?branch=master">](https://travis-ci.org/serde-rs/json)
-  * [simd-lite/simdjson-rs](https://github.com/simd-lite/simdjson-rs) [[simd-json](https://crates.io/crates/simd-json)] — High performance JSON parser based on a port of simdjson
+  * [simd-lite/simd-json](https://github.com/simd-lite/simd-json) [[simd-json](https://crates.io/crates/simd-json)] — High performance JSON parser based on a port of simdjson
   * [maciejhirsz/json-rust](https://github.com/maciejhirsz/json-rust) [[json](https://crates.io/crates/json)] — JSON implementation in Rust [<img src="https://api.travis-ci.org/maciejhirsz/json-rust.svg?branch=master">](https://travis-ci.org/maciejhirsz/json-rust)
   * [importcjj/rust-ajson](https://github.com/importcjj/rust-ajson) [[ajson]](https://crates.io/crates/ajson) —  Get JSON values quickly [<img src="https://api.travis-ci.com/importcjj/rust-ajson.svg?branch=master">](https://travis-ci.com/importcjj/rust-ajson)
 * Jsonnet
