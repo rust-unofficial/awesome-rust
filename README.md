@@ -85,6 +85,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
     - [Peripherals](#peripherals)
     - [Platform specific](#platform-specific)
     - [Scripting](#scripting)
+    - [Simulation](#simulation)
     - [Template engine](#template-engine)
     - [Text processing](#text-processing-1)
     - [Text search](#text-search)
@@ -1339,6 +1340,12 @@ See also [Are we game yet?](https://arewegameyet.com)
 * [murarth/ketos](https://github.com/murarth/ketos) — A Lisp dialect functional programming language serving as a scripting and extension language for rust
 * [moss](https://crates.io/crates/moss) — A dynamically typed scripting language
 * [jonathandturner/rhai](https://github.com/jonathandturner/rhai) — A tiny and fast embedded scripting language resembling a combination of JS and Rust
+
+### Simulation
+
+[[simulation](https://crates.io/keywords/simulation)]
+
+* [bigbang](https://crates.io/crates/bigbang) - Gravitational and collisional n-body simulation with optional GPU acceleration [<img src="https://api.travis-ci.org/sezna/bigbang.svg?branch=master">](https://travis-ci.org/sezna/bigbang)
 
 ### Template engine
 
