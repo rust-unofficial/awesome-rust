@@ -352,7 +352,7 @@ async fn main() -> Result<(), Error> {
                     println!("{:?}", link);
                     failed +=1;
                 } else {
-                    println!("Failure occurred but only {} ago, so we're not worrying yet: {}", since, msg);
+                    println!("Failure occurred but only {}, so we're not worrying yet: {}", chrono_humanize::HumanTime::from(-since), msg);
                 }
             }
         }
