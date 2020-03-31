@@ -279,6 +279,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 
 ### System tools
 
+* [ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide/) — A fast alternative to `cd` that learns your habits [![release](https://github.com/ajeetdsouza/zoxide/workflows/.github/workflows/release.yml/badge.svg)](https://github.com/ajeetdsouza/zoxide/actions)
 * [bandwhich](https://github.com/imsnif/bandwhich) — Terminal bandwidth utilization tool [<img src="https://api.travis-ci.com/imsnif/bandwhich.svg?branch=master">](https://travis-ci.com/imsnif/bandwhich)
 * [brocode/fblog](https://github.com/brocode/fblog) — Small command-line JSON Log viewer [<img src="https://api.travis-ci.org/brocode/fblog.svg?branch=master">](https://travis-ci.org/brocode/fblog)
 * [buster/rrun](https://github.com/buster/rrun) — A command launcher for Linux, similar to gmrun  [<img src="https://api.travis-ci.org/buster/rrun.svg?branch=master">](https://travis-ci.org/buster/rrun)
