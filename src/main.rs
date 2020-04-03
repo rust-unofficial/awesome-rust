@@ -15,20 +15,20 @@ use scraper::{Html, Selector};
 use failure::{Fail, Error, format_err};
 use chrono::{Local, DateTime, Duration};
 
-#[derive(Debug, Fail)]
+#[derive(Debug, Fail, Serialize, Deserialize)]
 enum CheckerError {
     #[fail(display = "failed to try url")]
     NotTried, // Generally shouldn't happen, but useful to have
 
     #[fail(display = "http error: {}", status)]
     HttpError {
-        status: StatusCode,
+        status: u16,
         location: Option<String>,
     },
 
     #[fail(display = "reqwest error: {}", error)]
     ReqwestError {
-        error: reqwest::Error,
+        error: String,
     },
 
     #[fail(display = "travis build is unknown")]
@@ -39,6 +39,33 @@ enum CheckerError {
 
     #[fail(display = "github actions image with no branch")]
     GithubActionNoBranch,
+}
+
+fn formatter(err: &CheckerError, url: &String) -> String {
+    match err {
+        CheckerError::HttpError {status, location} => {
+            match location {
+                Some(loc) => {
+                    format!("[{}] {} -> {}", status, url, loc)
+                }
+                None => {
+                    format!("[{}] {}", status, url)
+                }
+            }
+        }
+        CheckerError::TravisBuildUnknown => {
+            format!("[Unknown travis build] {}", url)
+        }
+        CheckerError::TravisBuildNoBranch => {
+            format!("[Travis build image with no branch specified] {}", url)
+        }
+        CheckerError::GithubActionNoBranch => {
+            format!("[Github action image with no branch specified] {}", url)
+        }
+        _ => {
+            format!("{:?}", err)
+        }
+    }
 }
 
 struct MaxHandles {
@@ -102,7 +129,7 @@ fn get_url(url: String) -> BoxFuture<'static, (String, Result<(), CheckerError>)
             match resp {
                 Err(err) => {
                     warn!("Error while getting {}, retrying: {}", url, err);
-                    res = Err(CheckerError::ReqwestError{error: err});
+                    res = Err(CheckerError::ReqwestError{error: err.to_string()});
                     continue;
                 }
                 Ok(ok) => {
@@ -139,10 +166,10 @@ fn get_url(url: String) -> BoxFuture<'static, (String, Result<(), CheckerError>)
 
                         warn!("Error while getting {}, retrying: {}", url, status);
                         if status.is_redirection() {
-                            res = Err(CheckerError::HttpError {status: status, location: ok.headers().get(header::LOCATION).and_then(|h| h.to_str().ok()).map(|x| x.to_string())});
+                            res = Err(CheckerError::HttpError {status: status.as_u16(), location: ok.headers().get(header::LOCATION).and_then(|h| h.to_str().ok()).map(|x| x.to_string())});
                             break;
                         } else {
-                            res = Err(CheckerError::HttpError {status: status, location: None});
+                            res = Err(CheckerError::HttpError {status: status.as_u16(), location: None});
                             continue;
                         }
                     }
@@ -185,7 +212,7 @@ fn get_url(url: String) -> BoxFuture<'static, (String, Result<(), CheckerError>)
 #[derive(Debug, Serialize, Deserialize)]
 enum Working {
     Yes,
-    No(String)
+    No(CheckerError)
 }
 
 #[derive(Debug, Serialize, Deserialize)]
@@ -289,37 +316,13 @@ async fn main() -> Result<(), Error> {
             },
             Err(err) => {
                 print!("\u{2718} ");
-                let message = match err {
-                    CheckerError::HttpError {status, location} => {
-                        match location {
-                            Some(loc) => {
-                                format!("[{}] {} -> {}", status.as_u16(), url, loc)
-                            }
-                            None => {
-                                format!("[{}] {}", status.as_u16(), url)
-                            }
-                        }
-                    }
-                    CheckerError::TravisBuildUnknown => {
-                        format!("[Unknown travis build] {}", url)
-                    }
-                    CheckerError::TravisBuildNoBranch => {
-                        format!("[Travis build image with no branch specified] {}", url)
-                    }
-                    CheckerError::GithubActionNoBranch => {
-                        format!("[Github action image with no branch specified] {}", url)
-                    }
-                    _ => {
-                        format!("{:?}", err)
-                    }
-                };
                 if let Some(link) = results.get_mut(&url) {
                     link.updated_at = Local::now();
-                    link.working = Working::No(message);
+                    link.working = Working::No(err);
                 } else {
                     results.insert(url.clone(), Link {
                         updated_at: Local::now(),
-                        working: Working::No(message),
+                        working: Working::No(err),
                         last_working: None
                     });
                 }
@@ -339,21 +342,28 @@ async fn main() -> Result<(), Error> {
     println!("");
     let mut failed: u32 = 0;
 
-    for (_url, link) in results.iter() {
-        if let Working::No(ref msg) = link.working {
-            if link.last_working.is_none() {
-                println!("{:?}", link);
-                failed +=1;
-                continue;
-            }
+    for (url, link) in results.iter() {
+        if let Working::No(ref err) = link.working {
+            match err {
+                CheckerError::HttpError {status, ..} if *status == 301 || *status == 302 => {
+                    println!("{:?}", link);
+                    failed +=1;
+                    continue;
+                }
+                _ => {}
+            };
             if let Some(last_working) = link.last_working {
                 let since = Local::now() - last_working;
                 if since > max_allowed_failed {
                     println!("{:?}", link);
                     failed +=1;
                 } else {
-                    println!("Failure occurred but only {}, so we're not worrying yet: {}", chrono_humanize::HumanTime::from(-since), msg);
+                    println!("Failure occurred but only {}, so we're not worrying yet: {}", chrono_humanize::HumanTime::from(-since), formatter(err, url));
                 }
+            } else {
+                println!("{:?}", link);
+                failed +=1;
+                continue;
             }
         }
     }
