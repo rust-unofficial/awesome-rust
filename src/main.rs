@@ -14,6 +14,7 @@ use regex::Regex;
 use scraper::{Html, Selector};
 use failure::{Fail, Error, format_err};
 use chrono::{Local, DateTime, Duration};
+use std::env;
 
 #[derive(Debug, Fail, Serialize, Deserialize)]
 enum CheckerError {
@@ -121,11 +122,31 @@ fn get_url(url: String) -> BoxFuture<'static, (String, Result<(), CheckerError>)
         let mut res = Err(CheckerError::NotTried);
         for _ in 0..5u8 {
             debug!("Running {}", url);
-            let resp = CLIENT
+            lazy_static! {
+                static ref GITHUB_REPO_REGEX: Regex = Regex::new(r"^https://github.com/(?P<org>[^/]+)/(?P<repo>[^/]+)$").unwrap();
+                static ref GITHUB_API_REGEX: Regex = Regex::new(r"https://api.github.com/").unwrap();
+            }
+            if GITHUB_REPO_REGEX.is_match(&url) {
+                let rewritten = GITHUB_REPO_REGEX.replace_all(&url, "https://api.github.com/repos/$org/$repo");
+                info!("Replacing {} with {} to workaround rate limits on Github", url, rewritten);
+                let (_new_url, res) = get_url(rewritten.to_string()).await;
+                return (url, res);
+            }
+            let mut req = CLIENT
                 .get(&url)
-                .header(header::ACCEPT, "image/svg+xml, text/html, */*;q=0.8")
-                .send()
-                .await;
+                .header(header::ACCEPT, "image/svg+xml, text/html, */*;q=0.8");
+
+            if GITHUB_API_REGEX.is_match(&url) {
+                if let Ok(username) = env::var("GITHUB_USERNAME") {
+                    if let Ok(password) = env::var("GITHUB_TOKEN") {
+                        // needs a token with at least public_repo scope
+                        info!("Using basic auth for {}", url);
+                        req = req.basic_auth(username, Some(password));
+                    }
+                }
+            }
+
+            let resp = req.send().await;
             match resp {
                 Err(err) => {
                     warn!("Error while getting {}, retrying: {}", url, err);
