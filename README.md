@@ -550,7 +550,7 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust Tools](https://
 
   * [Atom](https://atom.io/)
     * [zargony/atom-language-rust](https://github.com/zargony/atom-language-rust)
-    * [rust-lang/atom-ide-rust](https://github.com/rust-lang/atom-ide-rust) — Rust IDE support for Atom, powered by the Rust Language Server (RLS) [![Build Status](https://travis-ci.com/rust-lang/atom-ide-rust.svg?branch=master)](https://travis-ci.com/rust-lang/atom-ide-rust)
+    * [rust-lang/atom-ide-rust](https://github.com/rust-lang/atom-ide-rust) — Rust IDE support for Atom, powered by the Rust Language Server (RLS) [![Build Status](https://api.travis-ci.com/rust-lang/atom-ide-rust.svg?branch=master)](https://travis-ci.com/rust-lang/atom-ide-rust)
   * [Eclipse](https://www.eclipse.org/)
     * [Eclipse Corrosion](https://github.com/eclipse/corrosion)
     * [RustDT](https://github.com/RustDT/RustDT) — [<img src="https://api.travis-ci.org/RustDT/RustDT.svg?branch=master">](https://travis-ci.org/RustDT/RustDT)
