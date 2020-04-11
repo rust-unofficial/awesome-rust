@@ -11,6 +11,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
     - [Cryptocurrencies](#cryptocurrencies)
     - [Database](#database)
     - [Emulators](#emulators)
+    - [Firmware](#firmware)
     - [Games](#games)
     - [Graphics](#graphics)
     - [Industrial automation](#industrial-automation)
@@ -212,6 +213,10 @@ See also [crates matching keyword 'emulator'](https://crates.io/keywords/emulato
 * Emulator Development tools
   * SNES
     * [ioncodes/snesutilities](https://github.com/ioncodes/snesutilities) — ROM analyser/extractor
+
+### Firmware
+
+* [oreboot](https://github.com/oreboot/oreboot/) — oreboot is a fork of coreboot, with C removed, written in Rust.
 
 ### Games
 
