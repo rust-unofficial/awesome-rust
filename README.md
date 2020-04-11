@@ -490,6 +490,8 @@ See also [A comparison of operating systems written in Rust](https://github.com/
   * [Ogeon/rust-on-raspberry-pi](https://github.com/Ogeon/rust-on-raspberry-pi) — instructions for how to cross compile Rust projects for the Raspberry Pi .
 * Arduino
   * [avr-rust/ruduino](https://github.com/avr-rust/ruduino) ^`^t Reusable components for the Arduino Uno.
+* Debugging
+  * [probe-rs](https://github.com/probe-rs/probe-rs) — a modern, embedded debugging toolkit, written in Rust
 
 ### FFI
 
