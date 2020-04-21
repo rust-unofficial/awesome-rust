@@ -355,7 +355,7 @@ async fn main() -> Result<(), Error> {
             if let Some(last_working) = link.last_working {
                 let since = Local::now() - last_working;
                 if since > max_allowed_failed {
-                    println!("{:?}", link);
+                    println!("{} {:?}", url, link);
                     failed +=1;
                 } else {
                     println!("Failure occurred but only {}, so we're not worrying yet: {}", chrono_humanize::HumanTime::from(-since), formatter(err, url));
