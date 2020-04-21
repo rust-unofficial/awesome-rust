@@ -346,7 +346,7 @@ async fn main() -> Result<(), Error> {
         if let Working::No(ref err) = link.working {
             match err {
                 CheckerError::HttpError {status, ..} if *status == 301 || *status == 302 => {
-                    println!("{:?}", link);
+                    println!("{} {:?}", url, link);
                     failed +=1;
                     continue;
                 }
@@ -361,7 +361,7 @@ async fn main() -> Result<(), Error> {
                     println!("Failure occurred but only {}, so we're not worrying yet: {}", chrono_humanize::HumanTime::from(-since), formatter(err, url));
                 }
             } else {
-                println!("{:?}", link);
+                println!("{} {:?}", url, link);
                 failed +=1;
                 continue;
             }
