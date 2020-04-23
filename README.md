@@ -319,6 +319,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 
 ### Text editors
 
+* [amp](https://amp.rs) — Inspired by Vi/Vim. [<img src="https://api.travis-ci.org/jmacdonald/amp.svg?branch=master">](https://travis-ci.org/jmacdonald/amp)
 * [gchp/iota](https://github.com/gchp/iota) — A simple text editor [<img src="https://api.travis-ci.org/gchp/iota.svg?branch=master">](https://travis-ci.org/gchp/iota)
 * [ilai-deutel/kibi](https://github.com/ilai-deutel/kibi) — A tiny (≤1024 LOC) text editor with syntax highlighting, incremental search and more. [<img src="https://api.travis-ci.com/ilai-deutel/kibi.svg?branch=master">](https://travis-ci.com/ilai-deutel/kibi)
 * [mathall/rim](https://github.com/mathall/rim) — Vim-like text editor written in Rust
