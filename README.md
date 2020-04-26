@@ -1355,6 +1355,7 @@ See also [Are we game yet?](https://arewegameyet.com)
 [[simulation](https://crates.io/keywords/simulation)]
 
 * [bigbang](https://crates.io/crates/bigbang) - Gravitational and collisional n-body simulation with optional GPU acceleration [<img src="https://api.travis-ci.org/sezna/bigbang.svg?branch=master">](https://travis-ci.org/sezna/bigbang)
+* [nyx-space](https://crates.io/crates/nyx-space) - High fidelity, fast, reliable and validated astrodynamical toolkit library, used for spacecraft mission design and orbit determination [![Build Status](https://gitlab.com/chrisrabotin/nyx/badges/master/pipeline.svg)](https://gitlab.com/chrisrabotin/nyx/pipelines)
 
 ### Template engine
 
