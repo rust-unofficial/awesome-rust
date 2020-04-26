@@ -1,11 +1,10 @@
 language: rust
 before_script: cargo install sccache
-script: cargo run
+script: RUSTC_WRAPPER=sccache cargo run
 
 env:
   global:
     - RUST_LOG=warn
-    - RUSTC_WRAPPER=sccache
     - SCCACHE_CACHE_SIZE=1G
 
 cache:
