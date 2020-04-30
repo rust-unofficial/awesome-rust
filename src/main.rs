@@ -366,7 +366,7 @@ async fn main() -> Result<(), Error> {
     for (url, link) in results.iter() {
         if let Working::No(ref err) = link.working {
             match err {
-                CheckerError::HttpError {status, ..} if *status == 301 || *status == 302 => {
+                CheckerError::HttpError {status, ..} if *status == 301 || *status == 302 || *status == 404 => {
                     println!("{} {:?}", url, link);
                     failed +=1;
                     continue;
