@@ -126,7 +126,7 @@ fn get_url(url: String) -> BoxFuture<'static, (String, Result<(), CheckerError>)
                 static ref GITHUB_REPO_REGEX: Regex = Regex::new(r"^https://github.com/(?P<org>[^/]+)/(?P<repo>[^/]+)$").unwrap();
                 static ref GITHUB_API_REGEX: Regex = Regex::new(r"https://api.github.com/").unwrap();
             }
-            if GITHUB_REPO_REGEX.is_match(&url) {
+            if env::var("GITHUB_USERNAME").is_ok() && env::var("GITHUB_TOKEN").is_ok() && GITHUB_REPO_REGEX.is_match(&url) {
                 let rewritten = GITHUB_REPO_REGEX.replace_all(&url, "https://api.github.com/repos/$org/$repo");
                 info!("Replacing {} with {} to workaround rate limits on Github", url, rewritten);
                 let (_new_url, res) = get_url(rewritten.to_string()).await;
