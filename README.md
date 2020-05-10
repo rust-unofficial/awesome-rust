@@ -1174,6 +1174,8 @@ See also [Are we game yet?](https://arewegameyet.com)
 * Cocoa
   * [kylewlacy/sorbet-cocoa](https://github.com/kylewlacy/sorbet-cocoa)
   * [servo/core-foundation-rs](https://github.com/servo/core-foundation-rs) — [<img src="https://api.travis-ci.com/servo/core-foundation-rs.svg?branch=master">](https://travis-ci.org/servo/core-foundation-rs)
+* [FLTK](https://www.fltk.org/)
+  * [fltk-rs](https://github.com/MoAlyousef/fltk-rs) — FLTK Rust bindings [![Build and test](https://github.com/MoAlyousef/fltk-rs/workflows/Rust/badge.svg?branch=master)](https://github.com/MoAlyousef/fltk-rs/actions)
 * [Flutter](https://flutter.dev/)
   * [flutter-rs](https://github.com/flutter-rs/flutter-rs) — Build flutter desktop app in dart & rust.
 * [GTK+](https://www.gtk.org/) [[gtk](https://crates.io/keywords/gtk)]
@@ -1200,6 +1202,7 @@ See also [Are we game yet?](https://arewegameyet.com)
 * [Sciter](https://sciter.com/)
   * [sciter-sdk/rust-sciter](https://github.com/sciter-sdk/rust-sciter) — Sciter bindings [<img src="https://ci.appveyor.com/api/projects/status/github/sciter-sdk/rust-sciter?svg=true">](https://ci.appveyor.com/project/sciter-sdk/rust-sciter)
 * [hecrj/iced](https://github.com/hecrj/iced) — A cross-platform GUI library for Rust focused on simplicity and type-safety. Inspired by Elm.
+
 
 ### Image processing
 
