@@ -1358,6 +1358,7 @@ See also [Are we game yet?](https://arewegameyet.com)
 * [gluon-lang/gluon](https://github.com/gluon-lang/gluon) —  A small, statically-typed, functional programming language
 * [murarth/ketos](https://github.com/murarth/ketos) — A Lisp dialect functional programming language serving as a scripting and extension language for rust
 * [moss](https://crates.io/crates/moss) — A dynamically typed scripting language
+* [mun](https://github.com/mun-lang/mun) — A compiled, statically-typed scripting language with first class hot reloading support [<img src="https://api.travis-ci.org/mun-lang/mun.svg?branch=master">](https://travis-ci.org/mun-lang/mun)
 * [jonathandturner/rhai](https://github.com/jonathandturner/rhai) — A tiny and fast embedded scripting language resembling a combination of JS and Rust
 
 ### Simulation
