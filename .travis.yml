@@ -4,7 +4,7 @@ script: RUSTC_WRAPPER=sccache cargo run
 
 env:
   global:
-    - RUST_LOG=warn
+    - RUST_LOG=info
     - SCCACHE_CACHE_SIZE=1G
 
 cache:
