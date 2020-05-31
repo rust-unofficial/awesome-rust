@@ -931,7 +931,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
   * Generic
     * [launchbadge/sqlx](https://github.com/launchbadge/sqlx) - async PostgreSQL/MySQL/SQLite connection pool with strong typing support [<img src="https://img.shields.io/github/workflow/status/launchbadge/sqlx/Rust/master?style=flat-square">](https://github.com/launchbadge/sqlx)
   * Microsoft SQL
-    * [steffengy/tiberius](https://github.com/steffengy/tiberius) — [<img src="https://api.travis-ci.org/steffengy/tiberius.svg?branch=master">](https://travis-ci.org/steffengy/tiberius)
+    * [prisma/tiberius](https://github.com/prisma/tiberius) — ![Build status](https://badge.buildkite.com/172053d935f64a275beca911ab20bad34e7597775ce024469d.svg)
   * MySql [[mysql](https://crates.io/keywords/mysql)]
     * [AgilData/mysql-proxy-rs](https://github.com/AgilData/mysql-proxy-rs) — A MySQL Proxy [![CircleCI](https://circleci.com/gh/AgilData/mysql-proxy-rs/tree/master.svg?style=svg)](https://circleci.com/gh/AgilData/mysql-proxy-rs/tree/master)
     * [blackbeam/mysql_async](https://github.com/blackbeam/mysql_async) [[mysql_async](https://crates.io/crates/mysql_async)] — asyncronous Rust Mysql driver based on Tokio. [![CircleCI](https://circleci.com/gh/blackbeam/mysql_async/tree/master.svg?style=shield)](https://circleci.com/gh/blackbeam/mysql_async/tree/master)
