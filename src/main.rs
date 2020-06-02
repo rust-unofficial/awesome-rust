@@ -92,9 +92,7 @@ impl MaxHandles {
                     return Handle { parent: self };
                 }
             }
-            debug!("Sleeping for handle");
             task::sleep(time::Duration::from_millis(500)).await;
-            debug!("Awoke from sleeping");
         }
     }
 }
