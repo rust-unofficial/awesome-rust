@@ -92,15 +92,17 @@ impl MaxHandles {
                     return Handle { parent: self };
                 }
             }
+            debug!("Sleeping for handle");
             task::sleep(time::Duration::from_millis(500)).await;
+            debug!("Awoke from sleeping");
         }
     }
 }
 
 impl<'a> Drop for Handle<'a> {
     fn drop(&mut self) {
-        debug!("Dropping");
-        self.parent.remaining.fetch_add(1, Ordering::Relaxed);
+        let remaining = self.parent.remaining.fetch_add(1, Ordering::Relaxed);
+        debug!("Dropping (remaining {})", remaining);
     }
 }
 
@@ -317,7 +319,7 @@ async fn main() -> Result<(), Error> {
     let mut not_written = 0;
     let mut last_written = Local::now();
     while url_checks.len() > 0 {
-        debug!("Waiting...");
+        debug!("Waiting for {}", url_checks.len());
         let ((url, res), _index, remaining) = select_all(url_checks).await;
         url_checks = remaining;
         match res {
