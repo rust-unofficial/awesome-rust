@@ -3,7 +3,7 @@ script: cargo run
 
 env:
   global:
-    - RUST_LOG=warn
+    - RUST_LOG=debug
 
 cache:
   directories:
