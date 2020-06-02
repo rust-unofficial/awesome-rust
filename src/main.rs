@@ -111,6 +111,7 @@ lazy_static! {
         .danger_accept_invalid_certs(true) // because some certs are out of date
         .user_agent("Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:68.0) Gecko/20100101 Firefox/68.0") // so some sites (e.g. sciter.com) don't reject us
         .redirect(Policy::none())
+        .max_idle_per_host(0)
         .timeout(time::Duration::from_secs(20))
         .build().unwrap();
 
