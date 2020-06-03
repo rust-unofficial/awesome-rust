@@ -4,8 +4,6 @@ use futures::future::{select_all, BoxFuture, FutureExt};
 use std::collections::{BTreeSet, BTreeMap};
 use serde::{Serialize, Deserialize};
 use lazy_static::lazy_static;
-use std::sync::atomic::{AtomicU32, Ordering};
-use async_std::task;
 use std::time;
 use log::{warn, debug, info};
 use std::io::Write;
@@ -15,6 +13,8 @@ use scraper::{Html, Selector};
 use failure::{Fail, Error, format_err};
 use chrono::{Local, DateTime, Duration};
 use std::env;
+use tokio::sync::Semaphore;
+use tokio::sync::SemaphorePermit;
 
 #[derive(Debug, Fail, Serialize, Deserialize)]
 enum CheckerError {
@@ -70,37 +70,27 @@ fn formatter(err: &CheckerError, url: &String) -> String {
 }
 
 struct MaxHandles {
-    remaining: AtomicU32
+    remaining: Semaphore
 }
 
 struct Handle<'a> {
-    parent: &'a MaxHandles
+    _permit: SemaphorePermit<'a>
 }
 
 impl MaxHandles {
-    fn new(max: u32) -> MaxHandles {
-        MaxHandles { remaining: AtomicU32::new(max) }
+    fn new(max: usize) -> MaxHandles {
+        MaxHandles { remaining: Semaphore::new(max) }
     }
 
     async fn get<'a>(&'a self) -> Handle<'a> {
-        loop {
-            let current = self.remaining.load(Ordering::Relaxed);
-            if current > 0 {
-                let new_current = self.remaining.compare_and_swap(current, current - 1, Ordering::Relaxed);
-                if new_current == current { // worked
-                    debug!("Got handle with {}", new_current);
-                    return Handle { parent: self };
-                }
-            }
-            task::sleep(time::Duration::from_millis(500)).await;
-        }
+        let permit = self.remaining.acquire().await;
+        return Handle { _permit: permit };
     }
 }
 
 impl<'a> Drop for Handle<'a> {
     fn drop(&mut self) {
-        let remaining = self.parent.remaining.fetch_add(1, Ordering::Relaxed);
-        debug!("Dropping (remaining {})", remaining);
+        debug!("Dropping");
     }
 }
 
