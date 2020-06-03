@@ -118,8 +118,15 @@ lazy_static! {
 }
 
 fn get_url(url: String) -> BoxFuture<'static, (String, Result<(), CheckerError>)> {
+    debug!("Need handle for {}", url);
     async move {
         let _handle = HANDLES.get().await;
+        return get_url_core(url).await;
+    }.boxed()
+}
+
+fn get_url_core(url: String) -> BoxFuture<'static, (String, Result<(), CheckerError>)> {
+    async move {
         let mut res = Err(CheckerError::NotTried);
         for _ in 0..5u8 {
             debug!("Running {}", url);
@@ -130,7 +137,7 @@ fn get_url(url: String) -> BoxFuture<'static, (String, Result<(), CheckerError>)
             if env::var("GITHUB_USERNAME").is_ok() && env::var("GITHUB_TOKEN").is_ok() && GITHUB_REPO_REGEX.is_match(&url) {
                 let rewritten = GITHUB_REPO_REGEX.replace_all(&url, "https://api.github.com/repos/$org/$repo");
                 info!("Replacing {} with {} to workaround rate limits on Github", url, rewritten);
-                let (_new_url, res) = get_url(rewritten.to_string()).await;
+                let (_new_url, res) = get_url_core(rewritten.to_string()).await;
                 return (url, res);
             }
             let mut req = CLIENT
@@ -165,7 +172,7 @@ fn get_url(url: String) -> BoxFuture<'static, (String, Result<(), CheckerError>)
                         if status == StatusCode::NOT_FOUND && ACTIONS_REGEX.is_match(&url) {
                             let rewritten = ACTIONS_REGEX.replace_all(&url, "https://github.com/$org/$repo");
                             warn!("Got 404 with Github actions, so replacing {} with {}", url, rewritten);
-                            let (_new_url, res) = get_url(rewritten.to_string()).await;
+                            let (_new_url, res) = get_url_core(rewritten.to_string()).await;
                             return (url, res);
                         }
                         if status == StatusCode::FOUND && YOUTUBE_REGEX.is_match(&url) {
@@ -174,7 +181,7 @@ fn get_url(url: String) -> BoxFuture<'static, (String, Result<(), CheckerError>)
                             // See https://github.com/rust-unofficial/awesome-rust/issues/814 for original issue
                             let rewritten = YOUTUBE_REGEX.replace_all(&url, "http://img.youtube.com/vi/$video_id/mqdefault.jpg");
                             warn!("Got 302 with Youtube, so replacing {} with {}", url, rewritten);
-                            let (_new_url, res) = get_url(rewritten.to_string()).await;
+                            let (_new_url, res) = get_url_core(rewritten.to_string()).await;
                             return (url, res);
                         };
                         if status == StatusCode::FOUND && AZURE_BUILD_REGEX.is_match(&url) {
@@ -182,7 +189,7 @@ fn get_url(url: String) -> BoxFuture<'static, (String, Result<(), CheckerError>)
                             let redirect = ok.headers().get(header::LOCATION).unwrap().to_str().unwrap();
                             let merged_url = Url::parse(&url).unwrap().join(redirect).unwrap();
                             info!("Got 302 from Azure devops, so replacing {} with {}", url, merged_url);
-                            let (_new_url, res) = get_url(merged_url.into_string()).await;
+                            let (_new_url, res) = get_url_core(merged_url.into_string()).await;
                             return (url, res);
                         }
 
