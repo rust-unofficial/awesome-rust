@@ -1482,7 +1482,7 @@ See also [Are we web yet?](http://www.arewewebyet.org) and [Rust web framework c
 A registry allows you to publish your Rust libraries as crate packages, to share them with others publicly and privately.
 
 * [Crates](https://crates.io) — The official public registry for Rust/Cargo.
-* [Cloudsmith :heavy_dollar_sign:](https://cloudsmith.io/l/cargo-registry/) — A fully managed package management SaaS, with first-class support for public and private Cargo/Rust registries (plus many others). Has a generous free-tier and is also completely free for open-source.
+* [Cloudsmith :heavy_dollar_sign:](https://cloudsmith.com/cargo-registry/) — A fully managed package management SaaS, with first-class support for public and private Cargo/Rust registries (plus many others). Has a generous free-tier and is also completely free for open-source.
 
 ## Resources
 
