@@ -1099,7 +1099,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 
 ### Game development
 
-See also [Are we game yet?](https://arewegameyet.com)
+See also [Are we game yet?](https://arewegameyet.rs)
 * Allegro
   * [SiegeLord/RustAllegro](https://github.com/SiegeLord/RustAllegro) — [Allegro 5](https://liballeg.org/) bindings [<img src="https://api.travis-ci.org/SiegeLord/RustAllegro.svg?branch=master">](https://travis-ci.org/SiegeLord/RustAllegro)
 * Challonge
