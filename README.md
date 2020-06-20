@@ -135,6 +135,7 @@ See also [Rust — Production](https://www.rust-lang.org/production) organizatio
 * [rx](https://github.com/cloudhead/rx) — Vi inspired Modern Pixel Art Editor
 * [tiny](https://github.com/osa1/tiny) — A terminal IRC client
 * [updns](https://github.com/wyhaya/updns) — DNS proxy tool
+* [wezterm](https://github.com/wez/wezterm) — A GPU-accelerated cross-platform terminal emulator and multiplexer
 
 ### Audio and Music
 
