@@ -1359,6 +1359,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
 
 * [duckscript](https://crates.io/crates/duckscript) — [Simple, extendable and embeddable scripting language.](https://github.com/sagiegurari/duckscript) [<img src="https://api.travis-ci.org/sagiegurari/duckscript.svg?branch=master">](https://travis-ci.org/sagiegurari/duckscript)
 * [PistonDevelopers/dyon](https://github.com/PistonDevelopers/dyon) — A rusty dynamically typed scripting language
+* [GameLisp](https://github.com/fleabitdev/glsp/) — A safe and feature-rich scripting language for Rust game development with a specialised spike-free garbage collector
 * [gluon-lang/gluon](https://github.com/gluon-lang/gluon) —  A small, statically-typed, functional programming language
 * [murarth/ketos](https://github.com/murarth/ketos) — A Lisp dialect functional programming language serving as a scripting and extension language for rust
 * [moss](https://crates.io/crates/moss) — A dynamically typed scripting language
