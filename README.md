@@ -917,6 +917,8 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
     * [skade/leveldb](https://github.com/skade/leveldb) — [LevelDB](https://github.com/google/leveldb) bindings [<img src="https://api.travis-ci.org/skade/leveldb.svg?branch=master">](https://travis-ci.org/skade/leveldb)
   * LMDB [[lmdb](https://crates.io/keywords/lmdb)]
     * [vhbit/lmdb-rs](https://github.com/vhbit/lmdb-rs) [[lmdb-rs](https://crates.io/crates/lmdb-rs)] — [LMDB](https://symas.com/lmdb/) bindings [<img src="https://api.travis-ci.org/vhbit/lmdb-rs.svg?branch=master">](https://travis-ci.org/vhbit/lmdb-rs)
+  * MHdb
+    * [MHmorgan/mhdb](https://github.com/MHmorgan/mhdb) [[mhdb](https://crates.io/crates/mhdb)] — Pure rust embeddable key-value store database. [<img src="https://travis-ci.com/MHmorgan/mhdb.svg?branch=master">](https://travis-ci.com/github/MHmorgan/mhdb)
   * MongoDB [[mongodb](https://crates.io/keywords/mongodb)]
     * [mongodb/mongo-rust-driver](https://github.com/mongodb/mongo-rust-driver) [[mongodb](https://crates.io/crates/mongodb)] — [MongoDB](https://www.mongodb.com/) bindings
   * Neo4j [[cypher](https://crates.io/keywords/cypher), [neo4j](https://crates.io/keywords/neo4j)]
