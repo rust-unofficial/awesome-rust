@@ -156,6 +156,7 @@ See also [Rust — Production](https://www.rust-lang.org/production) organizatio
 * [Grin](https://github.com/mimblewimble/grin/) — Evolution of the MimbleWimble protocol
 * [hdwallet](https://github.com/jjyr/hdwallet) — BIP-32 HD wallet related key derivation utilities.
 * [Holochain](https://github.com/holochain/holochain-rust) — Scalable P2P alternative to blockchain for all those distributed apps you always wanted to build [![Build Status](https://api.travis-ci.com/holochain/holochain-rust.svg?branch=master)](https://travis-ci.com/holochain/holochain-rust)
+* [ibc-rs](https://github.com/informalsystems/ibc-rs) - Rust implementation of the [Interblockchain Communication](https://cosmos.network/ibc/) protocol 
 * [infincia/bip39-rs](https://github.com/infincia/bip39-rs) — Rust implementation of BIP39.
 * [Joystream](https://github.com/Joystream/joystream) — A user governed video platform [![Build Status](https://api.travis-ci.org/Joystream/joystream.svg?branch=master)](https://travis-ci.org/Joystream/joystream)
 * [Libra](https://github.com/libra/libra) — Libra’s mission is to enable a simple global currency and financial infrastructure that empowers billions of people.
@@ -171,6 +172,7 @@ See also [Rust — Production](https://www.rust-lang.org/production) organizatio
 * [rbtc](https://github.com/lucawen/rbtc) — Convert BTC to any currency and vice-versa. [![Build Status](https://api.travis-ci.com/lucawen/rbtc.svg?branch=master)](https://travis-ci.com/lucawen/rbtc)
 * [rust-cardano](https://github.com/input-output-hk/rust-cardano) — Rust implementation of Cardano primitives, helpers, and related applications
 * [Substrate](https://github.com/paritytech/substrate) — Generic modular blockchain template written in Rust
+* [tendermint-rs](https://github.com/informalsystems/tendermint-rs) - Rust implementation of Tendermint blockchain data structures and clients
 * [wagyu](https://github.com/AleoHQ/wagyu) [[wagyu](https://crates.io/crates/wagyu)] — Rust library for generating cryptocurrency wallets [<img src="https://api.travis-ci.com/AleoHQ/wagyu.svg?branch=master">](https://api.travis-ci.com/AleoHQ/wagyu.svg?branch=master)
 * [zcash](https://github.com/zcash/zcash) — Zcash is an implementation of the "Zerocash" protocol.
 * [YeeCo yeeroot](https://github.com/yeeco/yeeroot) — YeeCo yeeroot is a permissionless, secure, high performance and scalable public blockchain platform powered by full sharding technology on PoW consensus written in Rust
