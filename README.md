@@ -1315,7 +1315,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [libp2p/rust-libp2p](https://github.com/libp2p/rust-libp2p) — The Rust Implementation of libp2p networking stack. [![Circle CI](https://circleci.com/gh/libp2p/rust-libp2p.svg?style=svg)](https://circleci.com/gh/libp2p/rust-libp2p)
 
 ### Parsing
-
+  * [aleshaleksey/libazdice](https://github.com/aleshaleksey/libazdice) — A parser for parsing dice strings for TTRPGs and TTRPG development [<img src="https://api.travis-ci.org/aleshaleksey/libazdice.svg?branch=master">](https://travis-ci.org/aleshaleksey/libazdice)
   * [Folyd/robotstxt](https://github.com/Folyd/robotstxt) - A native Rust port of Google's robots.txt parser and matcher C++ library
   * [Geal/nom](https://github.com/Geal/nom) — parser combinator library [<img src="https://api.travis-ci.org/Geal/nom.svg?branch=master">](https://travis-ci.org/Geal/nom)
   * [ivanceras/inquerest](https://github.com/ivanceras/inquerest) — an URL parameter parser for rest filter inquiry [![Build Status](https://api.travis-ci.org/ivanceras/inquerest.svg?branch=master)](https://travis-ci.org/ivanceras/inquerest)
