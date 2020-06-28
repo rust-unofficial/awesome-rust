@@ -379,9 +379,10 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 
 ### Video
 
+* [tgotwig/vidmerger](https://github.com/tgotwig/vidmerger) —  A wrapper around ffmpeg which simplifies merging multiple videos 🎞
+* [xiph/rav1e](https://github.com/xiph/rav1e) — The fastest and safest AV1 encoder. [<img src="https://api.travis-ci.org/xiph/rav1e.svg?branch=master">](https://travis-ci.org/xiph/rav1e)
 * [yuvadm/slingr](https://github.com/yuvadm/slingr) — A simple CLI for streaming media files over a local network to UPnP media renderers [<img src="https://api.travis-ci.org/yuvadm/slingr.svg?branch=master">](https://travis-ci.org/yuvadm/slingr)
 * [yuvadm/streamlib](https://github.com/streamlib/streamlib) — Play your favorite live video and audio streams from command line
-* [xiph/rav1e](https://github.com/xiph/rav1e) — The fastest and safest AV1 encoder. [<img src="https://api.travis-ci.org/xiph/rav1e.svg?branch=master">](https://travis-ci.org/xiph/rav1e)
 
 ### Virtualization
 
