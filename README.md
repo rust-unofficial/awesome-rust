@@ -1215,7 +1215,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
 * [Sciter](https://sciter.com/)
   * [sciter-sdk/rust-sciter](https://github.com/sciter-sdk/rust-sciter) — Sciter bindings [<img src="https://ci.appveyor.com/api/projects/status/github/sciter-sdk/rust-sciter?svg=true">](https://ci.appveyor.com/project/sciter-sdk/rust-sciter)
 * [hecrj/iced](https://github.com/hecrj/iced) — A cross-platform GUI library for Rust focused on simplicity and type-safety. Inspired by Elm.
-
+* [tauri-apps/tauri](https://github.com/tauri-apps/tauri) — Toolchain for building highly secure native apps that have tiny binaries and are very fast from HTML, JS and CSS layer, powered by [webview](https://github.com/webview/webview).
 
 ### Image processing
 
