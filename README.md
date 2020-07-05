@@ -824,6 +824,8 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
   * [alexcrichton/tar-rs](https://github.com/alexcrichton/tar-rs) — tar archive reading/writing in Rust [<img src="https://api.travis-ci.com/alexcrichton/tar-rs.svg?branch=master">](https://travis-ci.org/alexcrichton/tar-rs)
 * zip
   * [mvdnes/zip-rs](https://github.com/mvdnes/zip-rs) — read and write ZIP archives [![Build Status](https://api.travis-ci.org/mvdnes/zip-rs.svg?branch=master)](https://travis-ci.org/mvdnes/zip-rs)
+* Columnar compression
+  * [velvia/compressed-vec](https://github.com/velvia/compressed-vec) - SIMD Floating point and integer compressed vector library  [![CircleCI](https://circleci.com/gh/velvia/compressed-vec.svg?style=shield)](https://circleci.com/gh/velvia/compressed-vec)
 
 ### Computation
 
