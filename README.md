@@ -1118,7 +1118,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [lucidscape/corange-rs](https://github.com/lucidscape/corange-rs) — [Corange](https://github.com/orangeduck/Corange) bindings
 * Entity-Component Systems (ECS)
   * [amethyst/specs](https://github.com/amethyst/specs) — Specs Parallel ECS [<img src="https://api.travis-ci.org/amethyst/specs.svg?branch=master">](https://travis-ci.org/amethyst/specs)
-  * [legion](https://github.com/TomGillen/legion) — A feature rich high performance ECS library with minimal boilerplate
+  * [legion](https://github.com/TomGillen/legion) — A feature rich high performance ECS library with minimal boilerplate [<img src="https://github.com/TomGillen/legion/workflows/CI/badge.svg?branch=master">](https://github.com/TomGillen/legion/actions)
 * Game Engines
   * [Amethyst](https://amethyst.rs) — Data-oriented game engine [<img src="https://jenkins.amethyst-engine.org/job/amethyst/job/master/badge/icon">](https://jenkins.amethyst-engine.org/blue/organizations/jenkins/amethyst/activity/)
   * [ggez](https://github.com/ggez/ggez) — A lightweight game framework for making 2D games with minimum friction [<img src="https://api.travis-ci.org/ggez/ggez.svg?branch=master">](https://travis-ci.org/ggez/ggez)
