@@ -917,6 +917,8 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
     * [Sofa](https://github.com/66Origin/sofa) — an interface to CouchDB HTTP REST API for stable rust
   * Crux [[crux](https://crates.io/keywords/crux)]
     * [naomijub/transistor](https://github.com/naomijub/transistor) — A Crux Database Client. [![Build Status](https://api.travis-ci.org/naomijub/transistor.svg?branch=master)](https://travis-ci.org/naomijub/transistor)
+  * [DynamoDB](https://aws.amazon.com/dynamodb/) [[dynamodb](https://crates.io/keywords/dynamodb)]
+    * [softprops/dynomite](https://github.com/softprops/dynomite) - A library for strongly-typed and convenient interaction with `rusoto_dynamodb` [<img src="https://github.com/softprops/dynomite/workflows/Main/badge.svg?branch=master"/>](https://github.com/softprops/dynomite/actions)
   * Elasticsearch [[elasticsearch](https://crates.io/keywords/elasticsearch)]
     * [benashford/rs-es](https://github.com/benashford/rs-es) [[rs-es](https://crates.io/crates/rs-es)] — A Rust client for the [Elastic](https://www.elastic.co/) REST API [<img src="https://api.travis-ci.org/benashford/rs-es.svg?branch=master">](https://travis-ci.org/benashford/rs-es)
     * [elastic-rs/elastic](https://github.com/elastic-rs/elastic) [[elastic](https://crates.io/crates/elastic)] — elastic is an efficient, modular API client for Elasticsearch written in Rust [<img src="https://api.travis-ci.org/elastic-rs/elastic.svg?branch=master">](https://travis-ci.org/elastic-rs/elastic) [<img src="https://ci.appveyor.com/api/projects/status/csa78tcumdpnbur2?svg=true">](https://ci.appveyor.com/project/KodrAus/elastic)
