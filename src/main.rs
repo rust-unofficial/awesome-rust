@@ -257,8 +257,8 @@ async fn main() -> Result<(), Error> {
 
     let mut url_checks = vec![];
 
-    let min_between_checks: Duration = Duration::days(1);
-    let max_allowed_failed: Duration = Duration::days(3);
+    let min_between_checks: Duration = Duration::days(3);
+    let max_allowed_failed: Duration = Duration::days(7);
     let mut do_check = |url: String| {
         if !url.starts_with("http") {
             return;
