@@ -17,6 +17,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
     - [Observability](#observability)
     - [Operating systems](#operating-systems)
     - [Productivity](#productivity)
+    - [Security tools](#security-tools)
     - [System tools](#system-tools)
     - [Text editors](#text-editors)
     - [Text processing](#text-processing)
@@ -282,7 +283,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [ripasso](https://github.com/cortex/ripasso/) — A password manager, filesystem compatible with pass
 * [kpcyrd/rshijack](https://github.com/kpcyrd/rshijack) — A TCP connection hijacker, rust rewrite of shijack [<img src="https://api.travis-ci.org/kpcyrd/rshijack.svg?branch=master">](https://travis-ci.org/kpcyrd/rshijack)
 * [rustscan/rustscan](https://github.com/RustScan/RustScan) — Make Nmap faster with this port scanning tool [<img alt="Actions" src="https://github.com/RustScan/RustScan/workflows/Continuous%20integration/badge.svg?branch=master">](https://github.com/RustScan/RustScan/actions?query=workflow%3A%22Continuous+integration%22)
-* [kpcyrd/sniffglue](https://github.com/kpcyrd/sniffglue) — A secure multithreaded packet sniffer [<img alt="Actions" src="https://github.com/RustScan/RustScan/workflows/Continuous%20integration/badge.svg?branch=master">](https://travis-ci.org/kpcyrd/sniffglue)
+* [kpcyrd/sniffglue](https://github.com/kpcyrd/sniffglue) — A secure multithreaded packet sniffer [<img src="https://api.travis-ci.org/kpcyrd/sniffglue.svg?branch=master">](https://travis-ci.org/kpcyrd/sniffglue)
 * [kpcyrd/sn0int](https://github.com/kpcyrd/sn0int) — A semi-automatic OSINT framework and package manager [<img src="https://api.travis-ci.org/kpcyrd/sn0int.svg?branch=master">](https://travis-ci.org/kpcyrd/sn0int)
 * [phra/rustbuster](https://github.com/phra/rustbuster) — A Comprehensive Web Fuzzer and Content Discovery Tool
 
