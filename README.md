@@ -519,7 +519,7 @@ See also [Foreign Function Interface](https://doc.rust-lang.org/book/first-editi
   * [Sean1708/rusty-cheddar](https://github.com/Sean1708/rusty-cheddar) — generates C header files from Rust source files [<img src="https://api.travis-ci.org/Sean1708/rusty-cheddar.svg?branch=master">](https://travis-ci.org/Sean1708/rusty-cheddar)
 * C++
   * [rust-lang/rust-bindgen](https://github.com/rust-lang/rust-bindgen) — A Rust bindings generator
-  * [dtolnay/cxx](https://github.com/dtolnay/cxx) — Safe interop between Rust and C++ [<img src="https://api.travis-ci.com/dtolnay/cxx.svg?branch=master">](https://travis-ci.com/dtolnay/cxx)
+  * [dtolnay/cxx](https://github.com/dtolnay/cxx) — Safe interop between Rust and C++ [<img alt="github" src="https://img.shields.io/badge/github-dtolnay/cxx-8da0cb?style=for-the-badge&labelColor=555555&logo=github" height="20">](https://github.com/dtolnay/cxx)
   * [rust-cpp](https://crates.io/crates/cpp) - Embed C++ code directly in Rust. [![Build Status](https://api.travis-ci.org/mystor/rust-cpp.svg?branch=master)](https://travis-ci.org/mystor/rust-cpp) [![Build status](https://ci.appveyor.com/api/projects/status/uu76vmcrwnjqra0u/branch/master?svg=true)](https://ci.appveyor.com/project/mystor/rust-cpp/branch/master)
 * Erlang
   * [rusterlium/rustler](https://github.com/rusterlium/rustler) — safe Rust bridge for creating Erlang NIF functions [<img src="https://api.travis-ci.org/rusterlium/rustler.svg?branch=master">](https://travis-ci.org/rusterlium/rustler)
