@@ -979,6 +979,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 
 * [bluss/ndarray](https://github.com/rust-ndarray/ndarray) — N-dimensional array with array views, multidimensional slicing, and efficient operations
 * [kernelmachine/utah](https://github.com/kernelmachine/utah) — Dataframe structure and operations in Rust
+* [ritchie46/polars](https://github.com/ritchie46/polars) - Fast feature complete DataFrame library [![Build Status](https://api.travis-ci.com/ritchie46/polars.svg?branch=master)](https://travis-ci.com/ritchie46/polars)
 * [weld-project/weld](https://github.com/weld-project/weld) — High-performance runtime for data analytics applications
 
 ### Data structures
