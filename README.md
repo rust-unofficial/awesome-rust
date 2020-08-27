@@ -1558,7 +1558,7 @@ A registry allows you to publish your Rust libraries as crate packages, to share
   * [New Rustacean](https://newrustacean.com) — A podcast about learning Rust
   * [Rustacean Station](https://rustacean-station.org/) — A community project for creating podcast content for Rust
   * [Rusty Spike](https://rusty-spike.blubrry.net) — news on all things Rust
-* [RustCamp 2015 Talks](http://confreaks.tv/events/rustcamp2015)
+* [RustCamp 2015 Talks](https://www.youtube.com/playlist?list=PLE7tQUdRKcybdIw61JpCoo89i4pWU5f_t)
 * [Rust Design Patterns](https://github.com/rust-unofficial/patterns)
 * [Rust Guidelines](http://aturon.github.io/)
 * [RustBooks](https://github.com/sger/RustBooks) — list of RustBooks
