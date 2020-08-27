@@ -722,7 +722,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
   * [RustAudio/rodio](https://github.com/RustAudio/rodio) — A Rust audio playback library [![Build Status](https://api.travis-ci.org/RustAudio/rodio.svg?branch=master)](https://travis-ci.org/RustAudio/rodio)
   * [RustAudio/rust-portaudio](https://github.com/RustAudio/rust-portaudio) — [PortAudio](http://www.portaudio.com/) bindings [<img src="https://api.travis-ci.org/RustAudio/rust-portaudio.svg?branch=master">](https://travis-ci.org/RustAudio/rust-portaudio)
 * [ozankasikci/rust-music-theory](https://github.com/ozankasikci/rust-music-theory) — A Rust music theory library [![Build Status](https://api.travis-ci.com/ozankasikci/rust-music-theory.svg?branch=master)](https://travis-ci.org/ozankasikci/rust-music-theory)
-* [MoAlyousef/soloud-rs](https://github.com/MoAlyousef/soloud-rs) — Rust bindings for the [soloud audio engine library](https://sol.gfxile.net/soloud/) ![Build](https://github.com/MoAlyousef/soloud-rs/workflows/Build/badge.svg)
+* [MoAlyousef/soloud-rs](https://github.com/MoAlyousef/soloud-rs) — Rust bindings for the [soloud audio engine library](https://sol.gfxile.net/soloud/) [![Build](https://github.com/MoAlyousef/soloud-rs/workflows/Build/badge.svg?branch=master)](https://github.com/MoAlyousef/soloud-rs/actions)
 
 ### Authentication
 
