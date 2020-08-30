@@ -876,6 +876,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [theimpossibleastronaut/configster](https://github.com/theimpossibleastronaut/configster) [[configster](https://crates.io/crates/configster)] — Rust library for parsing configuration files [<img src="https://api.travis-ci.com/theimpossibleastronaut/configster.svg?branch=trunk">](https://travis-ci.com/theimpossibleastronaut/configster)
 * [Kixunil/configure_me](https://github.com/Kixunil/configure_me) [[configure_me](https://crates.io/crates/configure_me)] — library for processing application configuration easily
 * [andoriyu/uclicious](https://github.com/andoriyu/uclicious) [[uclicious](https://crates.io/crates/uclicious)] — [libUCL](https://github.com/vstakhov/libucl) based feature-rich configuration library. [![CircleCI](https://circleci.com/gh/vstakhov/libucl.svg?style=svg)](https://circleci.com/gh/vstakhov/libucl)
+* [FlashSystems/justconfig](https://github.com/FlashSystems/just-config) - Easily extendable, layered configuration library that introduces no additional dependencies into your project.
 
 ### Cryptography
 
