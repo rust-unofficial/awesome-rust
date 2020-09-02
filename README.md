@@ -488,8 +488,6 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * LLDB
   * [lldb_batchmode.py](https://github.com/rust-lang/rust/blob/master/src/etc/lldb_batchmode.py) — allows to use LLDB in a way similar to GDB's batch mode.
   * [CodeLLDB](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb) — A LLDB extension for [Visual Studio Code](https://code.visualstudio.com/).
-* rr
-  * [rr](https://rr-project.org/) — rr is a lightweight tool for recording and replaying execution of applications
 
 ### Deployment
 
