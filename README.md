@@ -1118,6 +1118,8 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 ### Filesystem
 
 [[filesystem](https://crates.io/keywords/filesystem)]
+* Libraries
+  * [jonhkr/rust-file-seq](https://github.com/jonhkr/rust-file-seq) -> Fail-safe sequence implementation that uses the file system as store [![Crates.io](https://img.shields.io/crates/v/file-seq)](https://crates.io/crates/file-seq) [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/jonhkr/rust-file-seq/Rust)](https://github.com/jonhkr/rust-file-seq/actions)
 * Operations
   * [pop-os/dbus-udisks2](https://github.com/pop-os/dbus-udisks2) -> UDisks2 DBus API
   * [pop-os/sys-mount](https://github.com/pop-os/sys-mount) — High level abstraction for the `mount` / `umount2` system calls.
