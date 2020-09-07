@@ -186,7 +186,7 @@ See also [Rust — Production](https://www.rust-lang.org/production) organizatio
 * [ParityDB](https://github.com/paritytech/parity-db) — Fast and reliable database, optimised for read operation
 * [PumpkinDB](https://github.com/PumpkinDB/PumpkinDB) — an event sourcing database engine [<img src="https://api.travis-ci.org/PumpkinDB/PumpkinDB.svg?branch=master">](https://travis-ci.org/PumpkinDB/PumpkinDB)
 * [seppo0010/rsedis](https://github.com/seppo0010/rsedis) — A Redis reimplementation in Rust [<img src="https://api.travis-ci.org/seppo0010/rsedis.svg?branch=master">](https://travis-ci.org/seppo0010/rsedis)
-* [TerrabaseDB](https://github.com/terrabasedb/terrabase) — A multi-model NoSQL database ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/terrabasedb/terrabase/Tests?style=flat-square)
+* [TerrabaseDB](https://github.com/terrabasedb/terrabasedb) — A multi-model NoSQL database ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/terrabasedb/terrabasedb/Tests?style=flat-square)
 * [tikv](https://github.com/tikv/tikv) — A distributed KV database in Rust [<img src="https://circleci.com/gh/tikv/tikv.svg?style=shield&circle-token=36bab0a8e43edb0941b31c38557d2d9d0d58f708">](https://circleci.com/gh/tikv/tikv)
 * [sled](https://crates.io/crates/sled) — A (beta) modern embedded database [![Build Status](https://github.com/spacejam/sled/workflows/Rust/badge.svg?branch=master)](https://github.com/spacejam/sled/actions?workflow=Rust)
 
@@ -1145,7 +1145,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [lucidscape/corange-rs](https://github.com/lucidscape/corange-rs) — [Corange](https://github.com/orangeduck/Corange) bindings
 * Entity-Component Systems (ECS)
   * [amethyst/specs](https://github.com/amethyst/specs) — Specs Parallel ECS [<img src="https://api.travis-ci.org/amethyst/specs.svg?branch=master">](https://travis-ci.org/amethyst/specs)
-  * [legion](https://github.com/TomGillen/legion) — A feature rich high performance ECS library with minimal boilerplate [<img src="https://github.com/TomGillen/legion/workflows/CI/badge.svg?branch=master">](https://github.com/TomGillen/legion/actions)
+  * [legion](https://github.com/amethyst/legion) — A feature rich high performance ECS library with minimal boilerplate [<img src="https://github.com/amethyst/legion/workflows/CI/badge.svg?branch=master">](https://github.com/amethyst/legion/actions)
 * Game Engines
   * [Amethyst](https://amethyst.rs) — Data-oriented game engine - [![Crates.io](https://img.shields.io/crates/v/amethyst)](https://crates.io/crates/amethyst) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/amethyst/amethyst/blob/master/COPYING)
   * [Bevy](https://github.com/bevyengine/bevy) is a refreshingly simple data-driven game engine built in Rust. - [![Crates.io](https://img.shields.io/crates/v/bevy.svg)](https://crates.io/crates/bevy)
