@@ -324,6 +324,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [Ralvke/logram](https://github.com/Ralvke/logram) — Push log files' updates to Telegram
 * [redox-os/ion](https://github.com/redox-os/ion) — Next-generation system shell [<img src="https://api.travis-ci.org/redox-os/ion.svg?branch=master">](https://travis-ci.org/redox-os/ion)
 * [unwrittenfun/hotkey-rs](https://github.com/unwrittenfun/hotkey-rs) — A library to listen to global hotkeys in Rust
+* [nivekuil/rip](https://github.com/nivekuil/rip) - A safe and ergonomic alternative to `rm` [<img src="https://api.travis-ci.org/nivekuil/rip.svg?branch=master">](https://travis-ci.org/nivekuil/rip)
 * [sharkdp/bat](https://github.com/sharkdp/bat) — A cat(1) clone with wings. [<img src="https://api.travis-ci.org/sharkdp/bat.svg?branch=master">](https://travis-ci.org/sharkdp/bat)
 * [sharkdp/fd](https://github.com/sharkdp/fd) — A simple, fast and user-friendly alternative to find. [![Build Status](https://api.travis-ci.org/sharkdp/fd.svg?branch=master)](https://travis-ci.org/sharkdp/fd)
 * [sitkevij/hex](https://github.com/sitkevij/hex) — A colorized hexdump terminal utility. [<img src="https://api.travis-ci.org/sitkevij/hex.svg?branch=master">](https://travis-ci.org/sitkevij/hex)
