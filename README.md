@@ -988,6 +988,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 
 ### Data processing
 
+* [amv-dev/yata](https://github.com/amv-dev/yata) — high perfomance technical analysis library [![Build Status](https://img.shields.io/github/workflow/status/amv-dev/yata/Rust?branch=master)](https://github.com/amv-dev/yata/actions?query=workflow%3ARust)
 * [bluss/ndarray](https://github.com/rust-ndarray/ndarray) — N-dimensional array with array views, multidimensional slicing, and efficient operations
 * [kernelmachine/utah](https://github.com/kernelmachine/utah) — Dataframe structure and operations in Rust
 * [ritchie46/polars](https://github.com/ritchie46/polars) - Fast feature complete DataFrame library [![Build Status](https://api.travis-ci.com/ritchie46/polars.svg?branch=master)](https://travis-ci.com/ritchie46/polars)
