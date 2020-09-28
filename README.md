@@ -631,7 +631,7 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust Tools](https://
 
 ### Services
 
-* [deps.rs](https://github.com/srijs/deps.rs) — Detect outdated or insecure dependencies
+* [deps.rs](https://github.com/deps-rs/deps.rs) — Detect outdated or insecure dependencies
 * [docs.rs](https://docs.rs) — Automatic documentation generation of crates
 
 ### Static analysis
