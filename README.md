@@ -243,6 +243,7 @@ See also [Games Made With Piston](https://github.com/PistonDevelopers/piston/wik
 * [ozkriff/zemeroth](https://github.com/ozkriff/zemeroth) — A small 2D turn-based hexagonal strategy game [<img src="https://api.travis-ci.org/ozkriff/zemeroth.svg?branch=master">](https://travis-ci.org/ozkriff/zemeroth)
 * [Zone of Control](https://github.com/ozkriff/zoc) — A turn-based hexagonal strategy game [<img src="https://api.travis-ci.org/ozkriff/zoc.svg?branch=master">](https://travis-ci.org/ozkriff/zoc)
 * [KostasKyriakou/snake_game](https://github.com/KostasKyriakou/snake_game) - Simple terminal snake game written in Rust.
+* [cody2007/arcane_fortune](https://github.com/cody2007/arcane_fortune) — A terminal 4x game that simulates entire cities.
 
 ### Graphics
 
