@@ -459,6 +459,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
   * [cargo-edit](https://crates.io/crates/cargo-edit) — allows you to add and list dependencies by reading/writing to your Cargo.toml file from the command line [<img src="https://api.travis-ci.org/killercup/cargo-edit.svg?branch=master">](https://travis-ci.org/killercup/cargo-edit)
   * [cargo-find](https://crates.io/crates/cargo-find) <sup>deprecated</sup> — Find crates from command line [<img src="https://api.travis-ci.org/Ralvke/cargo-find.svg?branch=master">](https://travis-ci.org/Ralvke/cargo-find)
   * [cargo-generate](https://github.com/ashleygwilliams/cargo-generate) A generator of a rust project by leveraging a pre-existing git repository as a template [<img src="https://api.travis-ci.com/ashleygwilliams/cargo-generate.svg?branch=master">](https://travis-ci.com/ashleygwilliams/cargo-generate)
+  * [cargo-get](https://crates.io/crates/cargo-get) - Cargo plugin to easily query information from Cargo.toml files ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/nicolaiunrein/cargo-get/CI)
   * [cargo-graph](https://crates.io/crates/cargo-graph) — updated fork of `cargo-dot` with additional features. Unmaintained, see `cargo-deps` [<img src="https://api.travis-ci.org/kbknapp/cargo-graph.svg?branch=master">](https://travis-ci.org/kbknapp/cargo-graph)
   * [cargo-info](https://crates.io/crates/cargo-info) — queries crates.io for crates details from command line [<img src="https://api.travis-ci.org/imp/cargo-info.svg?branch=master">](https://travis-ci.org/imp/cargo-info)
   * [cargo-license](https://crates.io/crates/cargo-license) — A cargo subcommand to quickly view the licenses of all dependencies. [<img src="https://api.travis-ci.org/onur/cargo-license.svg?branch=master">](https://travis-ci.org/onur/cargo-license)
@@ -842,7 +843,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * gzip
   * [carols10cents/zopfli](https://github.com/carols10cents/zopfli) — implementation of the [Zopfli](https://github.com/google/zopfli) compression algorithm for higher quality deflate or zlib compression
 * miniz
-  * [alexcrichton/flate2-rs](https://github.com/alexcrichton/flate2-rs) — [miniz](https://code.google.com/archive/p/miniz) bindings [<img src="https://api.travis-ci.com/alexcrichton/flate2-rs.svg?branch=master">](https://travis-ci.org/alexcrichton/flate2-rs)
+  * [rust-lang/flate2-rs](https://github.com/rust-lang/flate2-rs) — [miniz](https://code.google.com/archive/p/miniz) bindings [<img src="https://github.com/rust-lang/flate2-rs/workflows/CI/badge.svg?branch=master">](https://github.com/rust-lang/flate2-rs/actions)
 * snappy
   * [JeffBelgum/rust-snappy](https://github.com/JeffBelgum/rust-snappy) — [snappy](https://github.com/google/snappy) bindings [<img src="https://api.travis-ci.org/JeffBelgum/rust-snappy.svg?branch=master">](https://travis-ci.org/JeffBelgum/rust-snappy)
 * tar
