@@ -417,7 +417,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [svenstaro/miniserve](https://github.com/svenstaro/miniserve) — A small, self-contained cross-platform CLI tool that allows you to just grab the binary and serve some file(s) via HTTP [<img src="https://github.com/svenstaro/miniserve/workflows/CI/badge.svg?branch=master">](https://github.com/svenstaro/miniserve/actions)
 * [TheWaWaR/simple-http-server](https://github.com/TheWaWaR/simple-http-server) — simple static http server
 * [wyhaya/see](https://github.com/wyhaya/see) — Static HTTP file server [![Build Status](https://api.travis-ci.org/wyhaya/see.svg?branch=master)](https://travis-ci.org/wyhaya/see)
-* [ronanyeah/rust-hasura](https://github.com/ronanyeah/rust-hasura) — A demonstration of how a Rust GraphQL server can be used as a remote schema with [Hasura](https://hasura.io/)
+* [ronanyeah/rust-hasura](https://github.com/ronanyeah/rust-hasura) — A demonstration of how a Rust GraphQL server can be used as a remote schema with [Hasura](https://hasura.io/) ![Build status](https://github.com/ronanyeah/rust-hasura/workflows/Rust/badge.svg)
 
 ## Development tools
 
