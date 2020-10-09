@@ -9,7 +9,6 @@ use log::{warn, debug, info};
 use std::io::Write;
 use reqwest::{Client, redirect::Policy, StatusCode, header, Url};
 use regex::Regex;
-use scraper::{Html, Selector};
 use failure::{Fail, Error, format_err};
 use chrono::{Local, DateTime, Duration};
 use std::env;
@@ -287,19 +286,7 @@ async fn main() -> Result<(), Error> {
                 }
             }
             Event::Html(content) => {
-                let fragment = Html::parse_fragment(&content);
-                for element in fragment.select(&Selector::parse("img").unwrap()) {
-                    let img_src = element.value().attr("src");
-                    if let Some(src) = img_src {
-                        do_check(src.to_string());
-                    }
-                }
-                for element in fragment.select(&Selector::parse("a").unwrap()) {
-                    let a_href = element.value().attr("href");
-                    if let Some(href) = a_href {
-                        do_check(href.to_string());
-                    }
-                }
+                return Err(format_err!("Contains HTML content, not markdown: {}", content));
             }
             _ => {}
         }
