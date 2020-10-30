@@ -230,6 +230,7 @@ See also [Games Made With Piston](https://github.com/PistonDevelopers/piston/wik
 * [lifthrasiir/angolmois-rust](https://github.com/lifthrasiir/angolmois-rust) — A minimalistic music video game which supports the BMS format [![build badge](https://api.travis-ci.org/lifthrasiir/angolmois-rust.svg?branch=master)](https://travis-ci.org/lifthrasiir/angolmois-rust)
 * [citybound](https://github.com/citybound/citybound) — The city sim you deserve
 * [schulke-214/connect-four](https://github.com/schulke-214/connect-four) — A simple connect four implementation.
+* [doukutsu-rs/doukutsu-rs](https://github.com/doukutsu-rs/doukutsu-rs) — A Rust reimplementation of Cave Story engine with some enhancements.
 * [rsaarelm/magog](https://github.com/rsaarelm/magog) — A roguelike game in Rust
 * [schulke-214/rsnake](https://github.com/schulke-214/rsnake) — Snake written in Rust.
 * [soydos](https://github.com/soydos/pusoy_dos2) — A wasm implementation of Pusoy Dos
