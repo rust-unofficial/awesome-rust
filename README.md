@@ -1053,6 +1053,9 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [lettre/lettre](https://github.com/lettre/lettre) — an SMTP-library for Rust [![build badge](https://api.travis-ci.org/lettre/lettre.svg?branch=master)](https://travis-ci.org/lettre/lettre)
 * [staktrace/mailparse](https://github.com/staktrace/mailparse) [[mailparse](https://crates.io/crates/mailparse)] — A library for parsing real-world email files [![build badge](https://api.travis-ci.org/staktrace/mailparse.svg?branch=master)](https://travis-ci.org/staktrace/mailparse)
 * [meli](https://git.meli.delivery/meli/meli.git) [[meli](https://crates.io/crates/meli)] — terminal email client
+* [jdrouet/mrml](https://github.com/jdrouet/mrml) [![build badge](https://api.travis-ci.org/jdrouet/mrml.svg?branch=main)](https://travis-ci.org/jdrouet/mrml) - A library to generate nice email templates working on any mail client.
+* [jdrouet/catapulte](https://github.com/jdrouet/catapulte) [![build badge](https://api.travis-ci.org/jdrouet/catapulte.svg?branch=main)](https://travis-ci.org/jdrouet/catapulte) - A microservice to send emails using [MRML](https://github.com/jdrouet/mrml) templates.
+* [jdrouet/jolimail](https://github.com/jdrouet/jolimail) [![build badge](https://api.travis-ci.org/jdrouet/jolimail.svg?branch=main)](https://travis-ci.org/jdrouet/jolimail) - A web application to build [MRML](https://github.com/jdrouet/mrml) templates.
 
 ### Encoding
 
