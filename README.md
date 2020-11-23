@@ -890,7 +890,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [Kixunil/configure_me](https://github.com/Kixunil/configure_me) [[configure_me](https://crates.io/crates/configure_me)] — library for processing application configuration easily
 * [andoriyu/uclicious](https://github.com/andoriyu/uclicious) [[uclicious](https://crates.io/crates/uclicious)] — [libUCL](https://github.com/vstakhov/libucl) based feature-rich configuration library. [![CircleCI](https://circleci.com/gh/vstakhov/libucl.svg?style=svg)](https://circleci.com/gh/vstakhov/libucl)
 * [FlashSystems/justconfig](https://github.com/FlashSystems/just-config) - Easily extendable, layered configuration library that introduces no additional dependencies into your project.
-* [ANtlord/yasec](https://github.com/ANtlord/yasec/) - full featured boilerplace-free configuration from environment variables.
+* [ANtlord/yasec](https://github.com/ANtlord/yasec/) [[Yasec](https://crates.io/crates/yasec)] - full featured boilerplace-free configuration from environment variables. [![build badge](https://api.travis-ci.org/ANtlord/yasec.svg?branch=master)](https://travis-ci.org/ANtlord/yasec)
 
 ### Cryptography
 
