@@ -1496,7 +1496,7 @@ See also [Are we web yet?](https://www.arewewebyet.org) and [Rust web framework 
   * [yew](https://crates.io/crates/yew) — Rust framework for making client web apps
   * [sauron](https://github.com/ivanceras/sauron) - Client side web framework which closely adheres to The Elm Architecture. [![Build Status](https://api.travis-ci.org/ivanceras/sauron.svg?branch=master)](https://travis-ci.org/ivanceras/sauron)
 * HTTP Client
-  * [alexcrichton/curl-rust](https://github.com/alexcrichton/curl-rust) — [libcurl](https://curl.haxx.se/libcurl/) bindings [![build badge](https://api.travis-ci.com/alexcrichton/curl-rust.svg?branch=master)](https://travis-ci.org/alexcrichton/curl-rust)
+  * [alexcrichton/curl-rust](https://github.com/alexcrichton/curl-rust) — [libcurl](https://curl.se/libcurl/) bindings [![build badge](https://api.travis-ci.com/alexcrichton/curl-rust.svg?branch=master)](https://travis-ci.org/alexcrichton/curl-rust)
   * [async-graphql](https://github.com/async-graphql/async-graphql) - A GraphQL server library implemented in Rust [![Build Status](https://dev.azure.com/graphql-rust/GraphQL%20Rust/_apis/build/status/graphql-rust.juniper)](https://dev.azure.com/graphql-rust/GraphQL%20Rust/_build/latest?definitionId=1)
   * [graphql-client](https://github.com/graphql-rust/graphql-client) — Typed, correct GraphQL requests and responses in Rust. [![Github actions Status](https://github.com/graphql-rust/graphql-client/workflows/CI/badge.svg?branch=master)](https://github.com/graphql-rust/graphql-client/actions)
   * [hyperium/hyper](https://github.com/hyperium/hyper) — an HTTP implementation [![build badge](https://api.travis-ci.org/hyperium/hyper.svg?branch=master)](https://travis-ci.org/hyperium/hyper)
@@ -1572,7 +1572,7 @@ A registry allows you to publish your Rust libraries as crate packages, to share
   * [Learning Rust With Entirely Too Many Linked Lists](https://rust-unofficial.github.io/too-many-lists/) — in-depth exploration of Rust's memory management rules, through implementing a few different types of list structures.
   * [Rust by Example](https://doc.rust-lang.org/rust-by-example/)
   * [Rust Cookbook](https://rust-lang-nursery.github.io/rust-cookbook/) — A collection of simple examples that demonstrate good practices to accomplish common programming tasks, using the crates of the Rust ecosystem.
-  * [Rust Online Courses at Classpert](https://classpert.com/it-computer-science/software-development/rust) — A list of Rust online courses (paid) from Classpert Online Course Search
+  * [Rust Online Courses at Classpert](https://classpert.com/topics/rust) — A list of Rust online courses (paid) from Classpert Online Course Search
   * [Rust for professionals](https://overexact.com/rust-for-professionals/) — A quick introduction to Rust for experienced software developers.
   * [Rust in Motion](https://www.manning.com/livevideo/rust-in-motion?a_aid=cnichols&a_bid=6a993c2e) — A video series by [Carol Nichols](https://github.com/carols10cents) and [Jake Goulding](https://github.com/shepmaster) (paid)
   * [rust-learning](https://github.com/ctjhoa/rust-learning) — A collection of useful resources to learn Rust
@@ -1584,7 +1584,6 @@ A registry allows you to publish your Rust libraries as crate packages, to share
 * Podcasts
   * [New Rustacean](https://newrustacean.com) — A podcast about learning Rust
   * [Rustacean Station](https://rustacean-station.org/) — A community project for creating podcast content for Rust
-  * [Rusty Spike](https://rusty-spike.blubrry.net) — news on all things Rust
 * [RustCamp 2015 Talks](https://www.youtube.com/playlist?list=PLE7tQUdRKcybdIw61JpCoo89i4pWU5f_t)
 * [Rust Design Patterns](https://github.com/rust-unofficial/patterns)
 * [Rust Guidelines](http://aturon.github.io/)
