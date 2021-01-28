@@ -1581,6 +1581,7 @@ A registry allows you to publish your Rust libraries as crate packages, to share
   * [University of Pennsylvania's Comp Sci Rust Programming Course](http://cis198-2016s.github.io/schedule/)
   * [Build a language VM](https://blog.subnetzero.io/post/building-language-vm-part-00/)
   * [Code Playground](https://codeplayground.app) - Interactively edit & play rust snippets on your iPhone and iPad devices.
+  * [Refactoring to Rust](https://www.manning.com/books/refactoring-to-rust) - A book that introduces to Rust language.  
 * Podcasts
   * [New Rustacean](https://newrustacean.com) — A podcast about learning Rust
   * [Rustacean Station](https://rustacean-station.org/) — A community project for creating podcast content for Rust
