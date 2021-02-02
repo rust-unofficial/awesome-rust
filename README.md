@@ -86,6 +86,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
     - [Platform specific](#platform-specific)
     - [Scripting](#scripting)
     - [Simulation](#simulation)
+    - [Task scheduling](#task-scheduling)
     - [Template engine](#template-engine)
     - [Text processing](#text-processing-1)
     - [Text search](#text-search)
@@ -1446,6 +1447,10 @@ See also [Are we game yet?](https://arewegameyet.rs)
 
 * [bigbang](https://crates.io/crates/bigbang) - Gravitational and collisional n-body simulation with optional GPU acceleration [![build badge](https://api.travis-ci.org/sezna/bigbang.svg?branch=master)](https://travis-ci.org/sezna/bigbang)
 * [nyx-space](https://crates.io/crates/nyx-space) - High fidelity, fast, reliable and validated astrodynamical toolkit library, used for spacecraft mission design and orbit determination [![Build Status](https://gitlab.com/chrisrabotin/nyx/badges/master/pipeline.svg)](https://gitlab.com/chrisrabotin/nyx/pipelines)
+### Task scheduling
+
+* [BinChengZhao/delay-timer](https://github.com/BinChengZhao/delay-timer) — delay-timer is a task manager based on a time wheel algorithm, which makes it easy to manage timed tasks, or to periodically execute arbitrary tasks such as closures. [![Cargo](https://img.shields.io/crates/v/delay_timer.svg)](
+https://crates.io/crates/delay_timer)
 
 ### Template engine
 
