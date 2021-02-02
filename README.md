@@ -347,6 +347,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [XAMPPRocky/tokei](https://github.com/XAMPPRocky/tokei) — counts the lines of code [![build badge](https://api.travis-ci.org/XAMPPRocky/tokei.svg?branch=master)](https://travis-ci.org/XAMPPRocky/tokei)
 * [yake](https://crates.io/crates/yake) — Yake is a task runner based on yaml files [![build badge](https://gitlab.com/elbartus/yake/badges/master/pipeline.svg)](https://gitlab.com/elbartus/yake)
 * [ytop](https://github.com/cjbassi/ytop) - A TUI system monitor written in Rust [![Build status](https://github.com/cjbassi/ytop/workflows/Rust%20CI/badge.svg?branch=master)](https://github.com/cjbassi/ytop/actions?query=workflow%3A%22Rust+CI%22)
+* [cocom](https://github.com/LamdaLamdaLamda/cocom) - NTP client purely written in Rust. [![Build Status](https://travis-ci.com/LamdaLamdaLamda/cocom.svg?branch=main)](https://travis-ci.com/LamdaLamdaLamda/cocom)
 
 ### Text editors
 
