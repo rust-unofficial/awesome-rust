@@ -1,6 +1,6 @@
 language: rust
 before_script: sccache --version || cargo install sccache
-script: RUSTC_WRAPPER=sccache cargo run
+script: RUSTC_WRAPPER=sccache cargo run || true
 
 env:
   global:
