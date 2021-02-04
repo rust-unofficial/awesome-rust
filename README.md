@@ -1467,15 +1467,11 @@ See also [Are we game yet?](https://arewegameyet.rs)
 * [nyx-space](https://crates.io/crates/nyx-space) - High fidelity, fast, reliable and validated astrodynamical toolkit library, used for spacecraft mission design and orbit determination [![Build Status](https://gitlab.com/chrisrabotin/nyx/badges/master/pipeline.svg)](https://gitlab.com/chrisrabotin/nyx/pipelines)
 ### Task scheduling
 
-* [BinChengZhao/delay-timer](https://github.com/BinChengZhao/delay-timer) — Time-manager of delayed tasks. Like crontab, but synchronous asynchronous tasks are possible, and dynamic add/cancel/remove is supported and based on a time wheel algorithm. 
+* [BinChengZhao/delay-timer](https://github.com/BinChengZhao/delay-timer) — Time-manager of delayed tasks. Like crontab, but synchronous asynchronous tasks are possible. 
 [![Build](https://github.com/BinChengZhao/delay-timer/workflows/Build%20and%20test/badge.svg)](
 https://github.com/BinChengZhao/delay-timer/actions)
-[![License](https://img.shields.io/badge/license-MIT%2FApache--2.0-blue.svg)](
-https://github.com/BinChengZhao/delay-timer)
 [![Cargo](https://img.shields.io/crates/v/delay_timer.svg)](
 https://crates.io/crates/delay_timer)
-[![Documentation](https://docs.rs/delay_timer/badge.svg)](
-https://docs.rs/delay_timer)
 
 ### Template engine
 
