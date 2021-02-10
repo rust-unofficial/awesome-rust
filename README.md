@@ -379,6 +379,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 
 ### Image processing
 
+* [legendofa/handwritten-notetaking-editor](https://github.com/legendofa/handwritten-notetaking-editor) — GTK program for taking notes on pen/touch enabled systems.
 * [Imager](https://github.com/imager-io/imager) — Automated image optimization.
 
 ### Utilities
