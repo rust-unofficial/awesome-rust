@@ -1416,7 +1416,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [replicadse/wavefront_rs](https://github.com/replicadse/wavefront_rs) — A parser for the Wavefront OBJ format. [![crates.io](https://img.shields.io/crates/v/wavefront_rs.svg)](https://crates.io/crates/wavefront_rs) [![crates.io](https://img.shields.io/crates/d/wavefront_rs?label=crates.io%20downloads)](https://crates.io/crates/wavefront_rs) [![build badge](https://github.com/replicadse/wavefront_rs/workflows/pipeline/badge.svg?branch=master)](https://github.com/replicadse/wavefront_rs/actions)
   * [s-panferov/queryst](https://github.com/s-panferov/queryst) — A query string parsing library for Rust inspired by https://github.com/ljharb/qs
   * [freestrings/jsonpath](https://github.com/freestrings/jsonpath) — [JsonPath](https://goessner.net/articles/JsonPath/) engine written in Rust. Webassembly and Javascript support too [![Build Status](https://api.travis-ci.org/freestrings/jsonpath.svg?branch=master)](https://travis-ci.org/freestrings/jsonpath)
-
+  * [softdevteam/grmtools](https://github.com/softdevteam/grmtools/) - A LR parser with better error correction
 ### Packaging formats
 
 - [pop-os/debarchive](https://github.com/pop-os/debarchive) Library for reading and extracting debian archives
