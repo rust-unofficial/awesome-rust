@@ -1598,14 +1598,19 @@ A registry allows you to publish your Rust libraries as crate packages, to share
   * [Shipping a Solid Rust Crate](https://www.youtube.com/watch?v=t4CyEKb-ywA) — Presented by [Michael Gattozzi](https://github.com/mgattozzi) @ RustConf 2017
   * [Rust: Hack Without Fear!](https://www.youtube.com/watch?v=lO1z-7cuRYI) — Presented by [Nicholas Matsakis](https://github.com/nikomatsakis) @ C++Now 2018
 * Learning
-  * [Easy Rust](https://github.com/Dhghomon/easy_rust) - Learn Rust in easy English.
-  * [Rust Gym](https://github.com/warycat/rustgym) - A big collection of coding interview problems solved in Rust.
-  * [Programming Community Curated Resources for Learning Rust](https://hackr.io/tutorials/learn-rust) — A list of recommended resources voted by the programming community.
+  * [A Go Developer's Rust Learning Journey](https://github.com/inancgumus/learnrust) - Learn Rust through a Go developer's perspective.
   * [awesome-rust-mentors](https://rustbeginners.github.io/awesome-rust-mentors/) — A list of helpful Rust mentors willing to take mentees and eductate them about Rust and programming.
   * [Awesome Rust Streaming](https://github.com/jamesmunns/awesome-rust-streaming) - A community curated list of livestreams about Rust.
+  * [Build a language VM](https://blog.subnetzero.io/post/building-language-vm-part-00/)
+  * [Code Playground](https://codeplayground.app) - Interactively edit & play rust snippets on your iPhone and iPad devices.
+  * [Easy Rust](https://github.com/Dhghomon/easy_rust) - Learn Rust in easy English.
   * [exercism.io](https://exercism.io/tracks/rust) — programming exercises that help you learn new concepts in Rust.
   * [Idiomatic Rust](https://github.com/mre/idiomatic-rust) —  A peer-reviewed collection of articles/talks/repos which teach idiomatic Rust.
   * [Learning Rust With Entirely Too Many Linked Lists](https://rust-unofficial.github.io/too-many-lists/) — in-depth exploration of Rust's memory management rules, through implementing a few different types of list structures.
+  * [New Rustacean](https://newrustacean.com) — A podcast about learning Rust
+  * [Programming Community Curated Resources for Learning Rust](https://hackr.io/tutorials/learn-rust) — A list of recommended resources voted by the programming community.
+  * [Refactoring to Rust](https://www.manning.com/books/refactoring-to-rust) - A book that introduces to Rust language.  
+  * [Rust Gym](https://github.com/warycat/rustgym) - A big collection of coding interview problems solved in Rust.
   * [Rust by Example](https://doc.rust-lang.org/rust-by-example/)
   * [Rust Cookbook](https://rust-lang-nursery.github.io/rust-cookbook/) — A collection of simple examples that demonstrate good practices to accomplish common programming tasks, using the crates of the Rust ecosystem.
   * [Rust Online Courses at Classpert](https://classpert.com/topics/rust) — A list of Rust online courses (paid) from Classpert Online Course Search
@@ -1615,11 +1620,7 @@ A registry allows you to publish your Rust libraries as crate packages, to share
   * [Rustlings](https://github.com/rust-lang/rustlings) — small exercises to get you used to reading and writing Rust code
   * [stdx](https://github.com/brson/stdx) — Learn these crates first as an extension to std
   * [University of Pennsylvania's Comp Sci Rust Programming Course](http://cis198-2016s.github.io/schedule/)
-  * [Build a language VM](https://blog.subnetzero.io/post/building-language-vm-part-00/)
-  * [Code Playground](https://codeplayground.app) - Interactively edit & play rust snippets on your iPhone and iPad devices.
-  * [Refactoring to Rust](https://www.manning.com/books/refactoring-to-rust) - A book that introduces to Rust language.  
 * Podcasts
-  * [New Rustacean](https://newrustacean.com) — A podcast about learning Rust
   * [Rustacean Station](https://rustacean-station.org/) — A community project for creating podcast content for Rust
 * [RustCamp 2015 Talks](https://www.youtube.com/playlist?list=PLE7tQUdRKcybdIw61JpCoo89i4pWU5f_t)
 * [Rust Design Patterns](https://github.com/rust-unofficial/patterns)
