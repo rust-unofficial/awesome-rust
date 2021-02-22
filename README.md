@@ -1488,7 +1488,7 @@ https://crates.io/crates/delay_timer)
 
 ### Text processing
 
-* [becheran/wildmatch](https://github.com/becheran/wildmatch) — Simple string matching with questionmark- and star-wildcard operator [![build badge](https://github.com/becheran/wildmatch/workflows/Build/badge.svg)](https://github.com/becheran/wildmatch/actions?workflow=Build)
+* [becheran/wildmatch](https://github.com/becheran/wildmatch) — Simple string matching with questionmark- and star-wildcard operator [![build badge](https://github.com/becheran/wildmatch/workflows/Build/badge.svg?branch=master)](https://github.com/becheran/wildmatch/actions?workflow=Build)
 * [BurntSushi/suffix](https://github.com/BurntSushi/suffix) — Linear time suffix array construction (with Unicode support) [![build badge](https://api.travis-ci.org/BurntSushi/suffix.svg?branch=master)](https://travis-ci.org/BurntSushi/suffix)
 * [BurntSushi/tabwriter](https://github.com/BurntSushi/tabwriter) — Elastic tab stops (i.e., text column alignment) [![build badge](https://api.travis-ci.org/BurntSushi/tabwriter.svg?branch=master)](https://travis-ci.org/BurntSushi/tabwriter)
 * [mgeisler/textwrap](https://github.com/mgeisler/textwrap) [[textwrap](https://crates.io/crates/textwrap)] — Word wrap text (with support for hyphenation) [![build badge](https://api.travis-ci.org/mgeisler/textwrap.svg?branch=master)](https://travis-ci.org/mgeisler/textwrap)
