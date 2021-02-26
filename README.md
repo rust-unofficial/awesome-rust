@@ -380,6 +380,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 ### Image processing
 
 * [Imager](https://github.com/imager-io/imager) — Automated image optimization.
+* [ICLR](https://github.com/umgefahren/image-comp-lib-rust) - New image compression library, written in Rust. [![Actions Status](https://github.com/umgefahren/image-comp-lib-rust/workflows/Rust/badge.svg)](https://github.com/umgefahren/image-comp-lib-rust/actions)
 
 ### Utilities
 
