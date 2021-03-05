@@ -10,6 +10,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
     - [Audio and Music](#audio-and-music)
     - [Cryptocurrencies](#cryptocurrencies)
     - [Database](#database)
+    - [Data streaming](#data-streaming)
     - [Emulators](#emulators)
     - [Games](#games)
     - [Graphics](#graphics)
@@ -196,6 +197,10 @@ See also [Rust — Production](https://www.rust-lang.org/production) organizatio
 * [tikv](https://github.com/tikv/tikv) — A distributed KV database in Rust [![build badge](https://circleci.com/gh/tikv/tikv.svg?style=shield&circle-token=36bab0a8e43edb0941b31c38557d2d9d0d58f708)](https://app.circleci.com/pipelines/github/tikv/tikv)
 * [sled](https://crates.io/crates/sled) — A (beta) modern embedded database [![Build Status](https://github.com/spacejam/sled/workflows/Rust/badge.svg?branch=master)](https://github.com/spacejam/sled/actions?workflow=Rust)
 * [TerminusDB](https://github.com/terminusdb/terminusdb-store) - open source graph database and document store [![Build Status](https://github.com/terminusdb/terminusdb-store/workflows/Build/badge.svg)](https://github.com/terminusdb/terminusdb-store/actions)
+
+### Data streaming
+
+* [Fluvio](https://github.com/infinyon/fluvio) [[crate](https://crates.io/crates/fluvio)] - High performance distributed streaming engine in Rust [![build badge](https://github.com/infinyon/fluvio/actions/workflows/ci.yml/badge.svg?branch=stable)](https://github.com/infinyon/fluvio)
 
 ### Emulators
 
