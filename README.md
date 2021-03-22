@@ -17,6 +17,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
     - [Observability](#observability)
     - [Operating systems](#operating-systems)
     - [Productivity](#productivity)
+    - [Robotics](#robotics)
     - [Security tools](#security-tools)
     - [System tools](#system-tools)
     - [Text editors](#text-editors)
@@ -288,6 +289,9 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [eureka](https://crates.io/crates/eureka) — A CLI tool to input and store your ideas without leaving the terminal
 * [pier-cli/pier](https://github.com/pier-cli/pier) — A central repository to manage (add, search metadata, etc.) all your one-liners, scripts, tools, and CLIs [![build badge](https://api.travis-ci.com/BenSchZA/pier.svg?branch=master)](https://travis-ci.com/BenSchZA/pier)
 * [subilo](https://github.com/Bansco/subilo) - A continuous deployment agent [![Build Status](https://github.com/Bansco/subilo/workflows/Rust/badge.svg?branch=master)](https://github.com/Bansco/subilo/actions?query=workflow%3ARust)
+
+### Robotics
+* [CleanIt](https://github.com/Sollimann/CleanIt) — Open-source Autonomy Software in Rust-lang with gRPC for the Roomba series robot vacuum cleaners.  [![Build Status](https://github.com/Sollimann/CleanIt/workflows/rust-ci/badge.svg)](https://github.com/Sollimann/CleanIt/actions)
 
 ### Security tools
 
