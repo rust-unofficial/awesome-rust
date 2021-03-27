@@ -807,7 +807,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 
 * AWS [[aws](https://crates.io/keywords/aws)]
   * [rusoto/rusoto](https://github.com/rusoto/rusoto) — [![build badge](https://api.travis-ci.org/rusoto/rusoto.svg?branch=master)](https://travis-ci.org/rusoto/rusoto)
-* [Qovery Engine](https://github.com/Qovery/engine) – Qovery Engine is an open-source abstraction layer library that turns easy apps deployment on AWS, GCP, Azure, and other Cloud providers in just a few minutes.
+* [Qovery Engine](https://github.com/Qovery/engine) – Qovery Engine is an open-source abstraction layer library that turns easy apps deployment on AWS, GCP, Azure, and other Cloud providers in just a few minutes. [![build badge](https://api.travis-ci.org/qovery/engine.svg?branch=master)](https://travis-ci.org/qovery/engine)
 
 ### Command-line
 
