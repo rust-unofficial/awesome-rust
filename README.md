@@ -147,6 +147,7 @@ See also [Rust — Production](https://www.rust-lang.org/production) organizatio
 * [Phate6660/rsmpc](https://github.com/Phate6660/rsmpc) — An implementation of mpc, but not directly as there will be a few differences.
 * [Phate6660/rsmpc](https://github.com/Phate6660/rsmpc-gui) — A gtk frontend for mpd.
 * [Polaris](https://github.com/agersant/polaris) — A music streaming application.  [![build badge](https://api.travis-ci.org/agersant/polaris.svg?branch=master)](https://travis-ci.org/agersant/polaris)
+* [Spectrum Analyzer](https://crates.io/crates/spectrum-analyzer) — A simple and fast `no_std`-library to get the frequency spectrum of a digital signal (e.g. audio) using FFT. One important goal is to be educational (lots of comments and links). ![Continous Integration](https://api.travis-ci.org/phip1611/spectrum-analyzer.svg?branch=main)
 * [Spotify TUI](https://github.com/Rigellute/spotify-tui) — A Spotify client for the terminal written in Rust. ![Continuous Integration](https://github.com/Rigellute/spotify-tui/workflows/Continuous%20Integration/badge.svg?branch=master)
 * [Spotifyd](https://github.com/Spotifyd/spotifyd) — An open source Spotify client running as a UNIX daemon. ![Continuous Integration](https://github.com/Spotifyd/spotifyd/workflows/Continuous%20Integration/badge.svg?branch=master)
 
