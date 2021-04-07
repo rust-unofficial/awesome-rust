@@ -407,6 +407,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [nomino](https://github.com/yaa110/nomino) — Batch rename utility for developers [![Build Status](https://api.travis-ci.org/yaa110/nomino.svg?branch=master)](https://travis-ci.org/yaa110/nomino)
 * [barberousse](https://github.com/zeapo/barberousse) — AWS Secrets Manager editor ![build](https://github.com/zeapo/barberousse/workflows/build/badge.svg?branch=master)
 * [vamolessa/verco](https://github.com/vamolessa/verco) [[verco](https://crates.io/crates/verco)] — A simple Git/Hg tui client focused on keyboard shortcuts
+* [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) — A remote desktop software, great alternative of TeamViewer and AnyDesk.
 
 ### Video
 
