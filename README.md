@@ -152,6 +152,7 @@ See also [Rust — Production](https://www.rust-lang.org/production) organizatio
 
 ### Cryptocurrencies
 
+- [Acala](https://github.com/AcalaNetwork/Acala) - The DeFi Hub of Polkadot
 - [Bitcoin Dev Kit](https://github.com/bitcoindevkit/bdk) - A modern, lightweight, descriptor-based wallet library written in Rust!
 - [Bitcoin Satoshi's Vision](https://github.com/brentongunning/rust-sv) — A Rust library for working with Bitcoin SV .
 - [cardano-cli](https://github.com/input-output-hk/cardano-cli) — Cardano Command Line Interface (CLI)
