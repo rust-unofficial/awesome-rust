@@ -380,6 +380,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 ### Image processing
 
 * [Imager](https://github.com/imager-io/imager) — Automated image optimization.
+* [shssoichiro/oxipng](https://github.com/shssoichiro/oxipng) [[oxipng](https://crates.io/crates/oxipng)] — Multithreaded PNG optimizer written in Rust. [![Build Status](https://github.com/shssoichiro/oxipng/workflows/oxipng/badge.svg)](https://github.com/shssoichiro/oxipng/actions?query=branch%3Amaster) [![Version](https://img.shields.io/crates/v/oxipng.svg)](https://crates.io/crates/oxipng)
 
 ### Utilities
 
