@@ -1267,7 +1267,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [kylewlacy/sorbet-cocoa](https://github.com/kylewlacy/sorbet-cocoa)
   * [servo/core-foundation-rs](https://github.com/servo/core-foundation-rs) — [![build badge](https://api.travis-ci.com/servo/core-foundation-rs.svg?branch=master)](https://travis-ci.org/servo/core-foundation-rs)
 * [FLTK](https://www.fltk.org/)
-  * [fltk-rs](https://github.com/MoAlyousef/fltk-rs) — FLTK Rust bindings [![Build](https://github.com/MoAlyousef/fltk-rs/workflows/Build/badge.svg?branch=master)](https://github.com/MoAlyousef/fltk-rs/actions)
+  * [fltk-rs](https://github.com/fltk-rs/fltk-rs) — FLTK Rust bindings [![Build](https://github.com/fltk-rs/fltk-rs/workflows/Build/badge.svg?branch=master)](https://github.com/fltk-rs/fltk-rs/actions)
 * [Flutter](https://flutter.dev/)
   * [flutter-rs](https://github.com/flutter-rs/flutter-rs) — Build flutter desktop app in dart & rust.
 * [GTK+](https://www.gtk.org/) [[gtk](https://crates.io/keywords/gtk)]
