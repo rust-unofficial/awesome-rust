@@ -24,8 +24,9 @@ jobs:
     - uses: pat-s/always-upload-cache@v2.1.3
       with:
         path: results/results.yaml
-        key: results-${{ hashFiles('Cargo.lock') }}-${{ hashFiles('README.md') }}
+        key: results-${{ hashFiles('Cargo.lock') }}-${{ hashFiles('README.md') }}-${{ github.sha }}
         restore-keys: |
+          results-${{ hashFiles('Cargo.lock') }}-${{ hashFiles('README.md') }}-
           results-${{ hashFiles('Cargo.lock') }}-
           results-
     - name: Build
