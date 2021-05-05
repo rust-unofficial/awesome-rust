@@ -29,6 +29,7 @@ jobs:
           results-${{ hashFiles('Cargo.lock') }}-
           results-
     - name: Build
-      run: cargo run
+      run: cargo build
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        RUST_LOG: warn
