@@ -21,7 +21,7 @@ jobs:
         toolchain: stable
         override: true
     - uses: Swatinem/rust-cache@v1    
-    - uses: actions/cache@v2
+    - uses: actions/always-upload-cache@v2.1.3
       with:
         path: results/results.yaml
         key: results-${{ hashFiles('Cargo.lock') }}-${{ hashFiles('README.md') }}
