@@ -29,6 +29,7 @@ jobs:
           results-${{ hashFiles('Cargo.lock') }}-${{ hashFiles('README.md') }}-
           results-${{ hashFiles('Cargo.lock') }}-
           results-
+    - run: set
     - name: Build
       run: cargo build
     - name: Run
