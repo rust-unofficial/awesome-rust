@@ -11,10 +11,22 @@ env:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v2
+    - uses: actions-rs/toolchain@v1
+      with:
+        profile: minimal
+        toolchain: stable
+        override: true
+    - uses: Swatinem/rust-cache@v1    
+    - uses: actions/cache@v2
+      with:
+        path: results/results.yaml
+        key: results-${{ hashFiles('Cargo.lock') }}-${{ hashFiles('README.md') }}
+        restore-keys: |
+          results-${{ hashFiles('Cargo.lock') }}
+          results-
     - name: Build
       run: cargo run
