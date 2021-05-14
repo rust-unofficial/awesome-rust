@@ -234,6 +234,7 @@ See also [crates matching keyword 'emulator'](https://crates.io/keywords/emulato
 
 See also [Games Made With Piston](https://github.com/PistonDevelopers/piston/wiki/Games-Made-With-Piston).
 
+* [dskart/rustcraft](https://github.com/dskart/rustcraft) - A simple Minecraft engine in Rust using wgpu.
 * [lifthrasiir/angolmois-rust](https://github.com/lifthrasiir/angolmois-rust) — A minimalistic music video game which supports the BMS format [![build badge](https://api.travis-ci.org/lifthrasiir/angolmois-rust.svg?branch=master)](https://travis-ci.org/lifthrasiir/angolmois-rust)
 * [citybound](https://github.com/citybound/citybound) — The city sim you deserve
 * [schulke-214/connect-four](https://github.com/schulke-214/connect-four) — A simple connect four implementation.
