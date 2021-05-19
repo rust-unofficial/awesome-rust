@@ -220,7 +220,7 @@ See also [crates matching keyword 'emulator'](https://crates.io/keywords/emulato
 * Playstation
   * [rustation-ng](https://gitlab.com/flio/rustation-ng/) — Playstation emulator using Rust
 * ZX Spectrum
-  * [pacmancoder/rustzx](https://github.com/pacmancoder/rustzx) — [![build badge](https://api.travis-ci.org/pacmancoder/rustzx.svg?branch=master)](https://travis-ci.org/pacmancoder/rustzx)
+  * [pacmancoder/rustzx](https://github.com/pacmancoder/rustzx) — [![build badge](https://github.com/pacmancoder/rustzx/actions/workflows/ci.yml/badge.svg)](https://github.com/pacmancoder/rustzx/actions/workflows/ci.yml)
   * [rodrigorc/raze](https://github.com/rodrigorc/raze) — For WebAssembly, [live version here](https://rodrigorc.github.io/raze/)
 * Virtual Boy
   * [emu-rs/rustual-boy](https://github.com/emu-rs/rustual-boy) — [![build badge](https://api.travis-ci.org/emu-rs/rustual-boy.svg?branch=master)](https://travis-ci.org/emu-rs/rustual-boy)
