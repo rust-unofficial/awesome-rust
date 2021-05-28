@@ -845,7 +845,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
   * [vitiral/termstyle](https://github.com/vitiral/termstyle) [[termstyle](https://docs.rs/termstyle/0.1.2/termstyle/)] — build (and test) formatted and styled command line applications
   * [SergioBenitez/yansi](https://github.com/SergioBenitez/yansi) [[yansi](https://crates.io/crates/yansi)] — A dead simple ANSI terminal color painting library
   * [mackwic/colored](https://github.com/mackwic/colored) [[colored](https://crates.io/crates/colored)] — Coloring terminal so simple, you already know how to do it!
-  * [navierr/coloriz](https://github.com/navierr/coloriz) [[coloriz](https://github.com/navierr/coloriz)] - library to support true color and gradients for colorful terminals
+  * [navierr/coloriz](https://github.com/navierr/coloriz) [[coloriz](https://crates.io/crates/coloriz)] - library to support true color and gradients for colorful terminals
 * TUI
   * [TimonPost/crossterm](https://github.com/crossterm-rs/crossterm) [[crossterm](https://crates.io/crates/crossterm)] — crossplatform terminal library
   * [gyscos/Cursive](https://github.com/gyscos/Cursive) [[cursive](https://crates.io/crates/cursive)] — build rich TUI applications [![build badge](https://api.travis-ci.org/gyscos/Cursive.svg?branch=master)](https://travis-ci.org/gyscos/Cursive)
