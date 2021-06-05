@@ -137,6 +137,7 @@ See also [Rust — Production](https://www.rust-lang.org/production) organizatio
 * [updns](https://github.com/wyhaya/updns) — DNS proxy tool
 * [Weld](https://github.com/serayuzgur/weld) — Full fake REST API generator [![build badge](https://api.travis-ci.org/serayuzgur/weld.svg?branch=master)](https://travis-ci.org/serayuzgur/weld)
 * [wezterm](https://github.com/wez/wezterm) — A GPU-accelerated cross-platform terminal emulator and multiplexer
+* [kalker](https://github.com/PaddiM8/kalker) - A scientific calculator that supports math-like syntax with user-defined variables, functions, derivation, integration, and complex numbers. Cross platform + WASM support
 
 ### Audio and Music
 
