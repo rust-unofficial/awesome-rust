@@ -191,6 +191,7 @@ See also [Rust — Production](https://www.rust-lang.org/production) organizatio
 * [Lucid](https://github.com/lucid-kv/lucid) — High performance and distributed KV store accessible through a HTTP API. [![Build Status](https://github.com/lucid-kv/lucid/workflows/Lucid/badge.svg?branch=master)](https://github.com/lucid-kv/lucid/actions?workflow=Lucid)
 * [ParityDB](https://github.com/paritytech/parity-db) — Fast and reliable database, optimised for read operation
 * [PumpkinDB](https://github.com/PumpkinDB/PumpkinDB) — an event sourcing database engine [![build badge](https://api.travis-ci.org/PumpkinDB/PumpkinDB.svg?branch=master)](https://travis-ci.org/PumpkinDB/PumpkinDB)
+* [Qdrant](https://github.com/qdrant/qdrant) - Semantic vector database and similarity search engine ![build badge](https://github.com/qdrant/qdrant/actions/workflows/docker-image.yml/badge.svg)
 * [seppo0010/rsedis](https://github.com/seppo0010/rsedis) — A Redis reimplementation in Rust [![build badge](https://api.travis-ci.org/seppo0010/rsedis.svg?branch=master)](https://travis-ci.org/seppo0010/rsedis)
 * [TerrabaseDB](https://github.com/terrabasedb/terrabasedb) — A multi-model NoSQL database ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/terrabasedb/terrabasedb/Tests?style=flat-square)
 * [tikv](https://github.com/tikv/tikv) — A distributed KV database in Rust [![build badge](https://circleci.com/gh/tikv/tikv.svg?style=shield&circle-token=36bab0a8e43edb0941b31c38557d2d9d0d58f708)](https://app.circleci.com/pipelines/github/tikv/tikv)
