@@ -5,6 +5,8 @@ on:
     branches: [ master ]
   pull_request:
     branches: [ master ]
+  schedule:
+    - cron: '0 0 * * *'    
 
 env:
   CARGO_TERM_COLOR: always
