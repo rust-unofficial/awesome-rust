@@ -1,4 +1,4 @@
-# Awesome Rust [![build badge](https://api.travis-ci.org/rust-unofficial/awesome-rust.svg?branch=master)](https://travis-ci.org/rust-unofficial/awesome-rust)
+# Awesome Rust [![build badge](https://github.com/rust-unofficial/awesome-rust/actions/workflows/rust.yml/badge.svg?branch=master)](https://github.com/rust-unofficial/awesome-rust/actions/workflows/rust.yml)
 
 A curated list of Rust code and resources.
 
