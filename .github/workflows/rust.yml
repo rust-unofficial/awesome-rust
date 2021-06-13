@@ -24,7 +24,7 @@ jobs:
     - name: Get random cache id
       run: echo "CACHE_ID=$((RANDOM))" >> $GITHUB_ENV
       shell: bash    
-    - uses: pat-s/always-upload-cache@v2.1.3
+    - uses: pat-s/always-upload-cache@v2.1.5
       with:
         path: results/results.yaml
         key: results-${{ hashFiles('Cargo.lock') }}-${{ hashFiles('README.md') }}-${{ env.CACHE_ID }}
@@ -34,8 +34,8 @@ jobs:
           results-
     - name: Build
       run: cargo build
-    # - name: Run
-    #   run: cargo run
-    #   env:
-    #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    #     RUST_LOG: warn
+    - name: Run
+      run: cargo run
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        RUST_LOG: warn
