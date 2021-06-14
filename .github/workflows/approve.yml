@@ -12,5 +12,5 @@ jobs:
         uses: mheap/automatic-approve-action@v1.0.5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          workflows: "ci.yml"
+          workflows: "rust.yml"
           dangerous_files: "src/main.rs,Cargo.toml,Cargo.lock"
