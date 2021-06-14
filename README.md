@@ -785,6 +785,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 ### Bioinformatics
 
 * [Rust-Bio](https://github.com/rust-bio) — bioinformatics libraries in Rust.
+* [PDBTBX](https://github.com/nonnominandus/pdbtbx) - PDB/mmCIF libary in Rust.
 
 ### Caching
 
