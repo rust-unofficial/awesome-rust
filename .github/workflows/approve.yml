@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Automatic Approve
-        uses: mheap/automatic-approve-action@v1.0.5
+        uses: mheap/automatic-approve-action@v1.1.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           workflows: "rust.yml"
