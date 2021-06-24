@@ -26,6 +26,9 @@ enum CheckerError {
         location: Option<String>,
     },
 
+    #[fail(display = "too many requests")]
+    TooManyRequests,    
+
     #[fail(display = "reqwest error: {}", error)]
     ReqwestError {
         error: String,
@@ -189,6 +192,12 @@ fn get_url_core(url: String) -> BoxFuture<'static, (String, Result<(), CheckerEr
                             info!("Got 302 from Azure devops, so replacing {} with {}", url, merged_url);
                             let (_new_url, res) = get_url_core(merged_url.into_string()).await;
                             return (url, res);
+                        }
+
+                        if status == StatusCode::TOO_MANY_REQUESTS {
+                            // We get a lot of these, and we should not retry as they'll just fail again
+                            warn!("Error while getting {}: {}", url, status);
+                            return (url, Err(CheckerError::TooManyRequests));
                         }
 
                         warn!("Error while getting {}, retrying: {}", url, status);
@@ -364,6 +373,13 @@ async fn main() -> Result<(), Error> {
                     println!("{} {:?}", url, link);
                     failed +=1;
                     continue;
+                }
+                CheckerError::TooManyRequests => {
+                    // too many tries
+                    if link.last_working.is_some() {
+                        info!("Ignoring 429 failure on {} as we've seen success before", url);
+                        continue;
+                    }
                 }
                 _ => {}
             };
