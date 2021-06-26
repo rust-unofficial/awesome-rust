@@ -26,6 +26,9 @@ enum CheckerError {
         location: Option<String>,
     },
 
+    #[fail(display = "too many requests")]
+    TooManyRequests,    
+
     #[fail(display = "reqwest error: {}", error)]
     ReqwestError {
         error: String,
@@ -82,7 +85,7 @@ impl MaxHandles {
     }
 
     async fn get<'a>(&'a self) -> Handle<'a> {
-        let permit = self.remaining.acquire().await;
+        let permit = self.remaining.acquire().await.unwrap();
         return Handle { _permit: permit };
     }
 }
@@ -98,7 +101,7 @@ lazy_static! {
         .danger_accept_invalid_certs(true) // because some certs are out of date
         .user_agent("Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:68.0) Gecko/20100101 Firefox/68.0") // so some sites (e.g. sciter.com) don't reject us
         .redirect(Policy::none())
-        .max_idle_per_host(0)
+        .pool_max_idle_per_host(0)
         .timeout(time::Duration::from_secs(20))
         .build().unwrap();
 
@@ -155,7 +158,9 @@ fn get_url_core(url: String) -> BoxFuture<'static, (String, Result<(), CheckerEr
                     if status != StatusCode::OK {
                         lazy_static! {
                             static ref ACTIONS_REGEX: Regex = Regex::new(r"https://github.com/(?P<org>[^/]+)/(?P<repo>[^/]+)/actions(?:\?workflow=.+)?").unwrap();
-                            static ref YOUTUBE_REGEX: Regex = Regex::new(r"https://www.youtube.com/watch\?v=(?P<video_id>.+)").unwrap();
+                            static ref YOUTUBE_VIDEO_REGEX: Regex = Regex::new(r"https://www.youtube.com/watch\?v=(?P<video_id>.+)").unwrap();
+                            static ref YOUTUBE_PLAYLIST_REGEX: Regex = Regex::new(r"https://www.youtube.com/playlist\?list=(?P<playlist_id>.+)").unwrap();
+                            static ref YOUTUBE_CONSENT_REGEX: Regex = Regex::new(r"https://consent.youtube.com/m\?continue=.+").unwrap();
                             static ref AZURE_BUILD_REGEX: Regex = Regex::new(r"https://dev.azure.com/[^/]+/[^/]+/_build").unwrap();
                         }
                         if status == StatusCode::NOT_FOUND && ACTIONS_REGEX.is_match(&url) {
@@ -164,14 +169,21 @@ fn get_url_core(url: String) -> BoxFuture<'static, (String, Result<(), CheckerEr
                             let (_new_url, res) = get_url_core(rewritten.to_string()).await;
                             return (url, res);
                         }
-                        if status == StatusCode::FOUND && YOUTUBE_REGEX.is_match(&url) {
+                        if status == StatusCode::FOUND && YOUTUBE_VIDEO_REGEX.is_match(&url) {
                             // Based off of https://gist.github.com/tonY1883/a3b85925081688de569b779b4657439b
                             // Guesswork is that the img feed will cause less 302's than the main url
                             // See https://github.com/rust-unofficial/awesome-rust/issues/814 for original issue
-                            let rewritten = YOUTUBE_REGEX.replace_all(&url, "http://img.youtube.com/vi/$video_id/mqdefault.jpg");
+                            let rewritten = YOUTUBE_VIDEO_REGEX.replace_all(&url, "http://img.youtube.com/vi/$video_id/mqdefault.jpg");
                             warn!("Got 302 with Youtube, so replacing {} with {}", url, rewritten);
                             let (_new_url, res) = get_url_core(rewritten.to_string()).await;
                             return (url, res);
+                        };
+                        if status == StatusCode::FOUND && YOUTUBE_PLAYLIST_REGEX.is_match(&url) {
+                            let location = ok.headers().get("LOCATION").map(|h| h.to_str().unwrap()).unwrap_or_default();
+                            if YOUTUBE_CONSENT_REGEX.is_match(location) {
+                                warn!("Got Youtube consent link for {}, so assuming playlist is ok", url);
+                                return (url, Ok(()));
+                            }
                         };
                         if status == StatusCode::FOUND && AZURE_BUILD_REGEX.is_match(&url) {
                             // Azure build urls always redirect to a particular build id, so no stable url guarantees
@@ -180,6 +192,12 @@ fn get_url_core(url: String) -> BoxFuture<'static, (String, Result<(), CheckerEr
                             info!("Got 302 from Azure devops, so replacing {} with {}", url, merged_url);
                             let (_new_url, res) = get_url_core(merged_url.into_string()).await;
                             return (url, res);
+                        }
+
+                        if status == StatusCode::TOO_MANY_REQUESTS {
+                            // We get a lot of these, and we should not retry as they'll just fail again
+                            warn!("Error while getting {}: {}", url, status);
+                            return (url, Err(CheckerError::TooManyRequests));
                         }
 
                         warn!("Error while getting {}, retrying: {}", url, status);
@@ -355,6 +373,13 @@ async fn main() -> Result<(), Error> {
                     println!("{} {:?}", url, link);
                     failed +=1;
                     continue;
+                }
+                CheckerError::TooManyRequests => {
+                    // too many tries
+                    if link.last_working.is_some() {
+                        info!("Ignoring 429 failure on {} as we've seen success before", url);
+                        continue;
+                    }
                 }
                 _ => {}
             };
