@@ -1,0 +1,16 @@
+name: Automatic Approve
+on:
+  schedule: 
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+jobs:
+  automatic-approve:
+    name: Automatic Approve
+    runs-on: ubuntu-latest
+    steps:
+      - name: Automatic Approve
+        uses: mheap/automatic-approve-action@v1.1.0
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          workflows: "rust.yml"
+          dangerous_files: "src/main.rs,Cargo.toml,Cargo.lock"
