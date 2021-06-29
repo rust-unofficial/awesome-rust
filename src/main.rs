@@ -1,5 +1,5 @@
 use pulldown_cmark::{Parser, Event, Tag};
-use std::fs;
+use std::{cmp::Ordering, fs};
 use futures::future::{select_all, BoxFuture, FutureExt};
 use std::collections::{BTreeSet, BTreeMap};
 use serde::{Serialize, Deserialize};
@@ -10,7 +10,7 @@ use std::io::Write;
 use reqwest::{Client, redirect::Policy, StatusCode, header, Url};
 use regex::Regex;
 use failure::{Fail, Error, format_err};
-use chrono::{Local, DateTime, Duration};
+use chrono::{DateTime, Duration, Local};
 use std::env;
 use tokio::sync::Semaphore;
 use tokio::sync::SemaphorePermit;
@@ -121,7 +121,7 @@ fn get_url_core(url: String) -> BoxFuture<'static, (String, Result<(), CheckerEr
     async move {
         let mut res = Err(CheckerError::NotTried);
         for _ in 0..5u8 {
-            debug!("Running {}", url);
+            info!("Running {}", url);
             lazy_static! {
                 static ref GITHUB_REPO_REGEX: Regex = Regex::new(r"^https://github.com/(?P<org>[^/]+)/(?P<repo>[^/]+)$").unwrap();
                 static ref GITHUB_API_REGEX: Regex = Regex::new(r"https://api.github.com/").unwrap();
@@ -293,12 +293,14 @@ async fn main() -> Result<(), Error> {
         url_checks.push(check);
     };
 
+    let mut to_check: Vec<String> = vec![];
+
     for (event, _range) in parser.into_offset_iter() {
         match event {
             Event::Start(tag) => {
                 match tag {
                     Tag::Link(_link_type, url, _title) | Tag::Image(_link_type, url, _title) => {
-                        do_check(url.to_string());
+                        to_check.push(url.to_string());
                     }
                     _ => {}
                 }
@@ -308,6 +310,38 @@ async fn main() -> Result<(), Error> {
             }
             _ => {}
         }
+    }
+
+    to_check.sort_by(|a,b| {
+        let get_time = |k| {
+            let res = results.get(k);
+            if let Some(link) = res {
+                if let Some(last_working) = link.last_working {
+                    Some(last_working)
+                } else {
+                    None
+                }
+            } else {
+                None
+            }
+        };
+        let res_a = get_time(a);
+        let res_b = get_time(b);
+        if res_a.is_none() {
+            if res_b.is_none() {
+                return a.cmp(b);
+            } else {
+                Ordering::Greater
+            }
+        } else if res_b.is_none() {
+            Ordering::Less
+        } else {
+            res_a.unwrap().cmp(&res_b.unwrap())
+        }
+    });
+
+    for url in to_check {
+        do_check(url)
     }
 
     let results_keys = results.keys().cloned().collect::<BTreeSet<String>>();
