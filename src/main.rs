@@ -331,10 +331,10 @@ async fn main() -> Result<(), Error> {
             if res_b.is_none() {
                 return a.cmp(b);
             } else {
-                Ordering::Greater
+                Ordering::Less
             }
         } else if res_b.is_none() {
-            Ordering::Less
+            Ordering::Greater
         } else {
             res_a.unwrap().cmp(&res_b.unwrap())
         }
