@@ -1,5 +1,5 @@
 use pulldown_cmark::{Parser, Event, Tag};
-use std::fs;
+use std::{cmp::Ordering, fs};
 use futures::future::{select_all, BoxFuture, FutureExt};
 use std::collections::{BTreeSet, BTreeMap};
 use serde::{Serialize, Deserialize};
@@ -25,6 +25,9 @@ enum CheckerError {
         status: u16,
         location: Option<String>,
     },
+
+    #[fail(display = "too many requests")]
+    TooManyRequests,    
 
     #[fail(display = "reqwest error: {}", error)]
     ReqwestError {
@@ -191,6 +194,12 @@ fn get_url_core(url: String) -> BoxFuture<'static, (String, Result<(), CheckerEr
                             return (url, res);
                         }
 
+                        if status == StatusCode::TOO_MANY_REQUESTS {
+                            // We get a lot of these, and we should not retry as they'll just fail again
+                            warn!("Error while getting {}: {}", url, status);
+                            return (url, Err(CheckerError::TooManyRequests));
+                        }
+
                         warn!("Error while getting {}, retrying: {}", url, status);
                         if status.is_redirection() {
                             res = Err(CheckerError::HttpError {status: status.as_u16(), location: ok.headers().get(header::LOCATION).and_then(|h| h.to_str().ok()).map(|x| x.to_string())});
@@ -284,12 +293,14 @@ async fn main() -> Result<(), Error> {
         url_checks.push(check);
     };
 
+    let mut to_check: Vec<String> = vec![];
+
     for (event, _range) in parser.into_offset_iter() {
         match event {
             Event::Start(tag) => {
                 match tag {
                     Tag::Link(_link_type, url, _title) | Tag::Image(_link_type, url, _title) => {
-                        do_check(url.to_string());
+                        to_check.push(url.to_string());
                     }
                     _ => {}
                 }
@@ -299,6 +310,38 @@ async fn main() -> Result<(), Error> {
             }
             _ => {}
         }
+    }
+
+    to_check.sort_by(|a,b| {
+        let get_time = |k| {
+            let res = results.get(k);
+            if let Some(link) = res {
+                if let Some(last_working) = link.last_working {
+                    Some(last_working)
+                } else {
+                    None
+                }
+            } else {
+                None
+            }
+        };
+        let res_a = get_time(a);
+        let res_b = get_time(b);
+        if res_a.is_none() {
+            if res_b.is_none() {
+                return a.cmp(b);
+            } else {
+                Ordering::Less
+            }
+        } else if res_b.is_none() {
+            Ordering::Greater
+        } else {
+            res_a.unwrap().cmp(&res_b.unwrap())
+        }
+    });
+
+    for url in to_check {
+        do_check(url)
     }
 
     let results_keys = results.keys().cloned().collect::<BTreeSet<String>>();
@@ -364,6 +407,13 @@ async fn main() -> Result<(), Error> {
                     println!("{} {:?}", url, link);
                     failed +=1;
                     continue;
+                }
+                CheckerError::TooManyRequests => {
+                    // too many tries
+                    if link.last_working.is_some() {
+                        info!("Ignoring 429 failure on {} as we've seen success before", url);
+                        continue;
+                    }
                 }
                 _ => {}
             };

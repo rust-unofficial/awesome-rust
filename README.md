@@ -784,7 +784,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 
 ### Bioinformatics
 
-* [nonnominandus/pdbtbx](https://github.com/nonnominandus/pdbtbx) [PDBTBX](https://crates.io/crates/pdbtbx) ![Compile & Test](https://github.com/nonnominandus/rust-pdb/workflows/Compile%20&%20Test/badge.svg) - PDB/mmCIF libary in Rust.
+* [nonnominandus/pdbtbx](https://github.com/nonnominandus/pdbtbx) [PDBTBX](https://crates.io/crates/pdbtbx) ![Compile & Test](https://github.com/nonnominandus/pdbtbx/workflows/Compile%20&%20Test/badge.svg?branch=master) - PDB/mmCIF libary in Rust.
 * [Rust-Bio](https://github.com/rust-bio) — bioinformatics libraries in Rust.
 
 ### Caching
@@ -1137,7 +1137,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * Postman Collection
   * [mandrean/postman-collection-rs](https://github.com/mandrean/postman-collection-rs) — A Postman Collection v1, v2 & v2.1 serialization & deserialization library [![Build Status](https://api.travis-ci.org/mandrean/postman-collection-rs.svg?branch=master)](https://travis-ci.org/mandrean/postman-collection-rs)
 * ProtocolBuffers
-  * [danburkert/prost](https://github.com/danburkert/prost) — [![build badge](https://api.travis-ci.org/danburkert/prost.svg?branch=master)](https://travis-ci.org/danburkert/prost)
+  * [tokio-rs/prost](https://github.com/tokio-rs/prost) — [![continuous integration](https://github.com/tokio-rs/prost/workflows/continuous%20integration/badge.svg?branch=master)](https://github.com/tokio-rs/prost/actions)
   * [stepancheg/rust-protobuf](https://github.com/stepancheg/rust-protobuf) — [![build badge](https://api.travis-ci.org/stepancheg/rust-protobuf.svg?branch=master)](https://travis-ci.org/stepancheg/rust-protobuf)
 * RON (Rusty Object Notation)
   * [https://github.com/ron-rs/ron](https://github.com/ron-rs/ron) — [![build badge](https://api.travis-ci.org/ron-rs/ron.svg?branch=master)](https://travis-ci.org/https://github.com/ron-rs/ron)
