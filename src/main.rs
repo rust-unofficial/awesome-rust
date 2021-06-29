@@ -10,7 +10,7 @@ use std::io::Write;
 use reqwest::{Client, redirect::Policy, StatusCode, header, Url};
 use regex::Regex;
 use failure::{Fail, Error, format_err};
-use chrono::{DateTime, Duration, Local};
+use chrono::{Local, DateTime, Duration};
 use std::env;
 use tokio::sync::Semaphore;
 use tokio::sync::SemaphorePermit;
@@ -121,7 +121,7 @@ fn get_url_core(url: String) -> BoxFuture<'static, (String, Result<(), CheckerEr
     async move {
         let mut res = Err(CheckerError::NotTried);
         for _ in 0..5u8 {
-            info!("Running {}", url);
+            debug!("Running {}", url);
             lazy_static! {
                 static ref GITHUB_REPO_REGEX: Regex = Regex::new(r"^https://github.com/(?P<org>[^/]+)/(?P<repo>[^/]+)$").unwrap();
                 static ref GITHUB_API_REGEX: Regex = Regex::new(r"https://api.github.com/").unwrap();
