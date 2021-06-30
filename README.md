@@ -1471,7 +1471,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
 ### Task scheduling
 
 * [delay-timer](https://github.com/BinChengZhao/delay-timer) — Time-manager of delayed tasks. Like crontab, but asynchronous tasks are possible. 
-[![Build](https://github.com/BinChengZhao/delay-timer/workflows/Build%20and%20test/badge.svg)](
+[![Build](https://github.com/BinChengZhao/delay-timer/actions/workflows/rust.yml/badge.svg)](
 https://github.com/BinChengZhao/delay-timer/actions)
 
 ### Template engine
