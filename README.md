@@ -356,7 +356,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [ilai-deutel/kibi](https://github.com/ilai-deutel/kibi) — A tiny (≤1024 LOC) text editor with syntax highlighting, incremental search and more. [![build badge](https://api.travis-ci.com/ilai-deutel/kibi.svg?branch=master)](https://travis-ci.com/ilai-deutel/kibi)
 * [vamolessa/pepper](https://github.com/vamolessa/pepper) [[pepper](https://crates.io/crates/pepper)] — An opinionated modal editor to simplify code editing from the terminal [![build badge](https://github.com/vamolessa/pepper/workflows/rust/badge.svg?branch=master)](https://github.com/vamolessa/pepper)
 * [mathall/rim](https://github.com/mathall/rim) — Vim-like text editor written in Rust
-* [ox](https://github.com/curlpipe/ox) — An independent Rust text editor that runs in your terminal! 
+* [ox](https://github.com/curlpipe/ox) — An independent Rust text editor that runs in your terminal!
 * [Remacs](https://github.com/remacs/remacs) — A community-driven port of Emacs to Rust. [![build badge](https://api.travis-ci.org/remacs/remacs.svg?branch=master)](https://travis-ci.org/remacs/remacs)
 * [xi-editor](https://github.com/xi-editor/xi-editor) — A modern editor with a backend written in Rust.
 * [xray](https://github.com/atom-archive/xray) — An experimental next-generation Electron-based text editor. [![build badge](https://api.travis-ci.org/atom/xray.svg?branch=master)](https://travis-ci.org/atom/xray)
@@ -1040,7 +1040,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [RoaringBitmap/roaring-rs](https://github.com/RoaringBitmap/roaring-rs) – Roaring Bitmaps in Rust
 * [orium/rpds](https://github.com/orium/rpds) [[rpds](https://crates.io/crates/rpds)] — Persistent data structures in Rust. [![build badge](https://api.travis-ci.org/orium/rpds.svg?branch=master)](https://travis-ci.org/orium/rpds)
 * [pop-os/progress-streams](https://github.com/pop-os/progress-streams) — Progress callbacks for types which implement `dyn io::Read` or `dyn io::Write`.
-* [ritedb/ritelinked](https://github.com/ritedb/ritelinked) [[ritelinked](https://crates.io/crates/ritelinked)] - `LinkedHashMap` & `LinkedHashSet` in Rust. [![build badge](https://github.com/ritedb/ritelinked/actions/workflows/checkcode.yml/badge.svg)](https://github.com/ritedb/ritelinked/actions/workflows/checkcode.yml)
+* [ritelabs/ritelinked](https://github.com/ritelabs/ritelinked) [[ritelinked](https://crates.io/crates/ritelinked)] - `LinkedHashMap` & `LinkedHashSet` in Rust. [![build badge](https://github.com/ritelabs/ritelinked/actions/workflows/checkcode.yml/badge.svg)](https://github.com/ritelabs/ritelinked/actions/workflows/checkcode.yml)
 * [whitfin/usher](https://github.com/whitfin/usher) [[usher](https://crates.io/crates/usher)] — Parameterized routing for generic resources in Rust.
 * [xfix/enum-map](https://github.com/xfix/enum-map) [[enum-map](https://crates.io/crates/enum-map)] — An optimized map implementation for enums using an array to store values. [![build badge](https://api.travis-ci.org/xfix/enum-map.svg?branch=master)](https://travis-ci.org/xfix/enum-map)
 
@@ -1621,7 +1621,7 @@ A registry allows you to publish your Rust libraries as crate packages, to share
   * [University of Pennsylvania's Comp Sci Rust Programming Course](http://cis198-2016s.github.io/schedule/)
   * [Build a language VM](https://blog.subnetzero.io/post/building-language-vm-part-00/)
   * [Code Playground](https://www.codeplayground.app/) - Interactively edit & play rust snippets on your iPhone and iPad devices.
-  * [Refactoring to Rust](https://www.manning.com/books/refactoring-to-rust) - A book that introduces to Rust language.  
+  * [Refactoring to Rust](https://www.manning.com/books/refactoring-to-rust) - A book that introduces to Rust language.
 * Podcasts
   * [New Rustacean](https://newrustacean.com) — A podcast about learning Rust
   * [Rustacean Station](https://rustacean-station.org/) — A community project for creating podcast content for Rust
