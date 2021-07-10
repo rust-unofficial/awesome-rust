@@ -1031,7 +1031,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 
 ### Data streaming
 
-* [infinyon/fluvio](_https://github.com/infinyon/fluvio_) - Programmable data streaming platform [![CI](https://github.com/infinyon/fluvio/workflows/CI/badge.svg)](_https://github.com/infinyon/fluvio/actions_)
+* [infinyon/fluvio](_https://github.com/infinyon/fluvio_) - Programmable data streaming platform [![CI](https://github.com/infinyon/fluvio/workflows/CI/badge.svg)](https://github.com/infinyon/fluvio/actions)
 
 ### Data structures
 
