@@ -1461,6 +1461,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
 * [mun](https://github.com/mun-lang/mun) — A compiled, statically-typed scripting language with first class hot reloading support [![build badge](https://api.travis-ci.org/mun-lang/mun.svg?branch=master)](https://travis-ci.org/mun-lang/mun)
 * [rhaiscript/rhai](https://github.com/rhaiscript/rhai) — A tiny and fast embedded scripting language resembling a combination of JS and Rust
 * [ippan/clover](https://github.com/ippan/clover) [[clover](https://crates.io/crates/clover)] - A scripting language created in Rust [![CI](https://github.com/ippan/clover/actions/workflows/build_and_test.yml/badge.svg?branch=master)](https://github.com/ippan/clover/actions/workflows/build_and_test.yml)
+* [metacall/core](https://github.com/metacall/core) [[metacall](https://crates.io/crates/metacall)] — Cross-platform Polyglot Runtime which supports NodeJS, JavaScript, TypeScript, Python, Ruby, C#, Wasm, Java, Cobol and more. [![build badge](https://gitlab.com/metacall/core/badges/master/pipeline.svg)](https://gitlab.com/metacall/core)
 
 ### Simulation
 
