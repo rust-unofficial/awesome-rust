@@ -1405,6 +1405,10 @@ See also [Are we game yet?](https://arewegameyet.rs)
 * ZeroMQ
   * [erickt/rust-zmq](https://github.com/erickt/rust-zmq) — [ZeroMQ](https://zeromq.org/) bindings [![build badge](https://api.travis-ci.org/erickt/rust-zmq.svg?branch=master)](https://travis-ci.org/erickt/rust-zmq)
 
+### Packaging formats
+
+- [pop-os/debarchive](https://github.com/pop-os/debarchive) Library for reading and extracting debian archives
+
 ### Parsing
 
   * [aleshaleksey/libazdice](https://github.com/aleshaleksey/libazdice) — A parser for parsing dice strings for TTRPGs and TTRPG development [![build badge](https://api.travis-ci.org/aleshaleksey/libazdice.svg?branch=master)](https://travis-ci.org/aleshaleksey/libazdice)
@@ -1421,10 +1425,6 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [ptal/oak](https://github.com/ptal/oak) — A typed PEG parser generator (compiler plugin)
   * [replicadse/wavefront_rs](https://github.com/replicadse/wavefront_rs) — A parser for the Wavefront OBJ format. [![crates.io](https://img.shields.io/crates/v/wavefront_rs.svg)](https://crates.io/crates/wavefront_rs) [![crates.io](https://img.shields.io/crates/d/wavefront_rs?label=crates.io%20downloads)](https://crates.io/crates/wavefront_rs) [![build badge](https://github.com/replicadse/wavefront_rs/workflows/pipeline/badge.svg?branch=master)](https://github.com/replicadse/wavefront_rs/actions)
   * [s-panferov/queryst](https://github.com/s-panferov/queryst) — A query string parsing library for Rust inspired by https://github.com/ljharb/qs
-
-### Packaging formats
-
-- [pop-os/debarchive](https://github.com/pop-os/debarchive) Library for reading and extracting debian archives
 
 ### Peripherals
 
