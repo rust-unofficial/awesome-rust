@@ -43,7 +43,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   - [Libraries](#libraries)
     - [Artificial Intelligence](#artificial-intelligence)
       - [Genetic algorithms](#genetic-algorithms)
-      - [Machin learning](#machine-learning)
+      - [Machine learning](#machine-learning)
     - [Astronomy](#astronomy)
     - [Asynchronous](#asynchronous)
     - [Audio and Music](#audio-and-music-1)
