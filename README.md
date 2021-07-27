@@ -60,6 +60,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
     - [Cryptography](#cryptography)
     - [Database](#database-1)
     - [Data processing](#data-processing)
+    - [Data streaming](#data-streaming)
     - [Data structures](#data-structures)
     - [Data visualization](#data-visualization)
     - [Date and time](#date-and-time)
@@ -1028,6 +1029,10 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [kernelmachine/utah](https://github.com/kernelmachine/utah) — Dataframe structure and operations in Rust
 * [pola-rs/polars](https://github.com/pola-rs/polars) - Fast feature complete DataFrame library ![Build and test](https://github.com/pola-rs/polars/workflows/Build%20and%20test/badge.svg?branch=master)
 * [weld-project/weld](https://github.com/weld-project/weld) — High-performance runtime for data analytics applications
+
+### Data streaming
+
+* [infinyon/fluvio](https://github.com/infinyon/fluvio) - Programmable data streaming platform [![CI](https://github.com/infinyon/fluvio/workflows/CI/badge.svg?branch=stable)](https://github.com/infinyon/fluvio/actions)
 
 ### Data structures
 
