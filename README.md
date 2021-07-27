@@ -412,6 +412,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 
 ### Video
 
+* [dertuxmalwieder/yaydl](https://github.com/dertuxmalwieder/yaydl) [[yaydl](https://crates.io/crates/yaydl)] - A simple video downloader
 * [Phate6660/rsmpv](https://github.com/Phate6660/rsmpv) — A controller for MPV, requires IPC to be enabled in MPV.
 * [tgotwig/vidmerger](https://github.com/tgotwig/vidmerger) —  A wrapper around ffmpeg which simplifies merging multiple videos 🎞
 * [xiph/rav1e](https://github.com/xiph/rav1e) — The fastest and safest AV1 encoder. [![build badge](https://api.travis-ci.org/xiph/rav1e.svg?branch=master)](https://travis-ci.org/xiph/rav1e)
