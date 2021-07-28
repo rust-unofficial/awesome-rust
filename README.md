@@ -199,7 +199,7 @@ See also [Rust — Production](https://www.rust-lang.org/production) organizatio
 * [tikv](https://github.com/tikv/tikv) — A distributed KV database in Rust [![Build Status](https://ci.pingcap.net/job/tikv_ghpr_test/badge/icon)](https://ci.pingcap.net/job/tikv_ghpr_test/)
 * [sled](https://crates.io/crates/sled) — A (beta) modern embedded database [![Build Status](https://github.com/spacejam/sled/workflows/Rust/badge.svg?branch=master)](https://github.com/spacejam/sled/actions?workflow=Rust)
 * [TerminusDB](https://github.com/terminusdb/terminusdb-store) - open source graph database and document store [![Build Status](https://github.com/terminusdb/terminusdb-store/workflows/Build/badge.svg?branch=master)](https://github.com/terminusdb/terminusdb-store/actions)
-
+* [datafuse](https://github.com/datafuselabs/datafuse) - Modern Real-Time Data Processing & Analytics DBMS with Cloud-Native Architecture [![Build Status](https://github.com/datafuselabs/datafuse/actions/workflows/unit-tests.yml/badge.svg)](https://github.com/datafuselabs/datafuse/actions)
 ### Emulators
 
 See also [crates matching keyword 'emulator'](https://crates.io/keywords/emulator).
