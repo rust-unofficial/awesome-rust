@@ -39,9 +39,6 @@ enum CheckerError {
 
     #[fail(display = "travis build image with no branch")]
     TravisBuildNoBranch,
-
-    #[fail(display = "github actions image with no branch")]
-    GithubActionNoBranch,
 }
 
 fn formatter(err: &CheckerError, url: &String) -> String {
@@ -61,9 +58,6 @@ fn formatter(err: &CheckerError, url: &String) -> String {
         }
         CheckerError::TravisBuildNoBranch => {
             format!("[Travis build image with no branch specified] {}", url)
-        }
-        CheckerError::GithubActionNoBranch => {
-            format!("[Github action image with no branch specified] {}", url)
         }
         _ => {
             format!("{:?}", err)
@@ -224,14 +218,6 @@ fn get_url_core(url: String) -> BoxFuture<'static, (String, Result<(), CheckerEr
                         let query = matches.get(1).map(|x| x.as_str()).unwrap_or("");
                         if !query.starts_with("?") || query.find("branch=").is_none() {
                             res = Err(CheckerError::TravisBuildNoBranch);
-                            break;
-                        }
-                    }
-                    if let Some(matches) = GITHUB_ACTIONS_REGEX.captures(&url) {
-                        debug!("Github actions match {:?}", matches);
-                        let query = matches.get(1).map(|x| x.as_str()).unwrap_or("");
-                        if !query.starts_with("?") || query.find("branch=").is_none() {
-                            res = Err(CheckerError::GithubActionNoBranch);
                             break;
                         }
                     }
