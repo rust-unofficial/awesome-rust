@@ -14,6 +14,7 @@ use chrono::{Local, DateTime, Duration};
 use std::env;
 use tokio::sync::Semaphore;
 use tokio::sync::SemaphorePermit;
+use diffy::create_patch;
 
 #[derive(Debug, Fail, Serialize, Deserialize)]
 enum CheckerError {
@@ -27,7 +28,7 @@ enum CheckerError {
     },
 
     #[fail(display = "too many requests")]
-    TooManyRequests,    
+    TooManyRequests,
 
     #[fail(display = "reqwest error: {}", error)]
     ReqwestError {
@@ -281,12 +282,75 @@ async fn main() -> Result<(), Error> {
 
     let mut to_check: Vec<String> = vec![];
 
-    for (event, _range) in parser.into_offset_iter() {
+    #[derive(Debug)]
+    struct ListInfo {
+        location: usize,
+        data: Vec<String>
+    }
+
+    let mut list_items: Vec<ListInfo> = Vec::new();
+    let mut in_list_item = false;
+    let mut list_item: String = String::new();
+
+    for (event, range) in parser.into_offset_iter() {
         match event {
             Event::Start(tag) => {
                 match tag {
                     Tag::Link(_link_type, url, _title) | Tag::Image(_link_type, url, _title) => {
                         to_check.push(url.to_string());
+                    }
+                    Tag::List(_) => {
+                        if in_list_item && list_item.len() > 0 {
+                            list_items.last_mut().unwrap().data.push(list_item.clone());
+                            in_list_item = false;
+                        }
+                        list_items.push(ListInfo {location: range.start, data: Vec::new()});
+                    }
+                    Tag::Item => {
+                        if in_list_item && list_item.len() > 0 {
+                            list_items.last_mut().unwrap().data.push(list_item.clone());
+                        }
+                        in_list_item = true;
+                        list_item = String::new();
+                    }
+                    Tag::Heading(_) => {}
+                    Tag::Paragraph => {}
+                    _ => {
+                        if in_list_item {
+                            in_list_item = false;
+                        }
+                    }
+                }
+            }
+            Event::Text(text) => {
+                if in_list_item {
+                    list_item.push_str(&text);
+                }
+            }
+            Event::End(tag) => {
+                match tag {
+                    Tag::Item => {
+                        if list_item.len() > 0 {
+                            list_items.last_mut().unwrap().data.push(list_item.clone());
+                            list_item = String::new();
+                        }
+                        in_list_item = false
+                    }
+                    Tag::List(_) => {
+                        let list_info = list_items.pop().unwrap();
+                        if list_info.data.iter().find(|s| *s == "License").is_some() && list_info.data.iter().find(|s| *s == "Resources").is_some() {
+                            // Ignore wrong ordering in top-level list
+                            continue
+                        }
+                        let mut sorted_recent_list = list_info.data.to_vec();
+                        sorted_recent_list.sort_by(|a, b| a.to_lowercase().cmp(&b.to_lowercase()));
+                        let joined_recent = list_info.data.join("\n");
+                        let joined_sorted = sorted_recent_list.join("\n");
+                        let patch = create_patch(&joined_recent, &joined_sorted);
+                        if patch.hunks().len() > 0 {
+                            println!("{}", patch);
+                            return Err(format_err!("Sorting error"));
+                        }
                     }
                     _ => {}
                 }
