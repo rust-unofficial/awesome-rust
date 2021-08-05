@@ -558,7 +558,8 @@ raftario/licensor/actions?workflowID=Build)
 [Rust Embedded](https://rust-embedded.org/)
 
 * Arduino
-  * [avr-rust/ruduino](https://github.com/avr-rust/ruduino) ^`^t Reusable components for the Arduino Uno.
+  * [JakWai01/avr-rs](https://github.com/JakWai01/avr-rs) — Guide and toolchain to run Rust on the Arduino Uno.
+  * [avr-rust/ruduino](https://github.com/avr-rust/ruduino) — Reusable components for the Arduino Uno.
 * Cross compiling
   * [japaric/rust-cross](https://github.com/japaric/rust-cross) — everything you need to know about cross compiling Rust programs [![build badge](https://api.travis-ci.org/japaric/rust-cross.svg?branch=master)](https://travis-ci.org/japaric/rust-cross)
   * [japaric/xargo](https://github.com/japaric/xargo) — effortless cross compilation of Rust programs to custom bare-metal targets like ARM Cortex-M [![build badge](https://api.travis-ci.org/japaric/xargo.svg?branch=master)](https://travis-ci.org/japaric/xargo)
