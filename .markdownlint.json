@@ -1,0 +1,10 @@
+{
+    "default": true,
+    "MD004": false,
+    "MD007": false,
+    "MD013": {
+        "line_length": 1000
+    },
+    "MD024": false,
+    "MD032": false
+}
