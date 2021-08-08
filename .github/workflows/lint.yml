@@ -9,8 +9,9 @@ on:
       - master
 
 jobs:
-  lint:
+  lint-md:
     runs-on: ubuntu-latest
+    name: Lint Markdown content
     steps:
       - name: Checkout the repository
         uses: actions/checkout@v2
@@ -19,3 +20,11 @@ jobs:
         with:
           config: ./.markdownlint.json
           args: ./README.md
+  lint-editorconfig:
+    runs-on: ubuntu-latest
+    name: Lint for editorconfig violations
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v2
+      - name: Check for editorconfig violations
+        uses: editorconfig-checker/action-editorconfig-checker@v1
