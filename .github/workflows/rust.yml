@@ -27,7 +27,7 @@ jobs:
       - uses: pat-s/always-upload-cache@v2.1.5
         with:
           path: results/results.yaml
-          key: results-${{ hashFiles(''Cargo.lock'') }}-${{ hashFiles(''README.md'') }}-${{ env.CACHE_ID }}
+          key: results-${{ hashFiles('Cargo.lock') }}-${{ hashFiles('README.md') }}-${{ env.CACHE_ID }}
           restore-keys: |
             results-${{ hashFiles('Cargo.lock') }}-${{ hashFiles('README.md') }}-
             results-${{ hashFiles('Cargo.lock') }}-
