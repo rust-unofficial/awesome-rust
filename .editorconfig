@@ -17,3 +17,6 @@ indent_size = unset
 
 [README.md]
 indent_size = 2
+
+[.github/workflows/*.yml]
+indent_size = 2
