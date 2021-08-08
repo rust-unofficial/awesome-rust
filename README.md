@@ -419,6 +419,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 raftario/licensor/actions?workflowID=Build)
 * [replydev/cotp](https://github.com/replydev/cotp) - Trustworthy encrypted one time password authenticator app compatible with external backups. [![Actions Status](https://github.com/replydev/cotp/workflows/Rust/badge.svg?branch=master)](https://github.com/replydev/cotp/actions)
 * [repoch](https://github.com/lucawen/repoch) — Convert epoch to datetime and datetime to epoch [![build badge](https://api.travis-ci.com/lucawen/repoch.svg?branch=master)](https://travis-ci.com/lucawen/repoch/)
+* [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) — A remote desktop software, great alternative to TeamViewer and AnyDesk.
 * [tversteeg/emplace](https://github.com/tversteeg/emplace) — Synchronize installed packages on multiple machines
 * [unrelentingtech/freepass](https://github.com/unrelentingtech/freepass) — The free password manager for power users.
 * [vamolessa/copycat](https://github.com/vamolessa/copycat) [[copycat](https://crates.io/crates/copycat)] — A simple clipboard cli interface for windows with text and bmp support
