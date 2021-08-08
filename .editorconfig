@@ -6,3 +6,14 @@ indent_size = 4
 charset = utf-8
 trim_trailing_whitespace = true
 insert_final_newline = true
+
+[Cargo.lock]
+# Just ignore that
+indent_size = unset
+
+[LICENSE.txt]
+# Ignore that too
+indent_size = unset
+
+[README.md]
+indent_size = 2
