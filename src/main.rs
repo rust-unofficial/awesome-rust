@@ -14,6 +14,7 @@ use chrono::{Local, DateTime, Duration};
 use std::env;
 use tokio::sync::Semaphore;
 use tokio::sync::SemaphorePermit;
+use diffy::create_patch;
 
 #[derive(Debug, Fail, Serialize, Deserialize)]
 enum CheckerError {
@@ -27,7 +28,7 @@ enum CheckerError {
     },
 
     #[fail(display = "too many requests")]
-    TooManyRequests,    
+    TooManyRequests,
 
     #[fail(display = "reqwest error: {}", error)]
     ReqwestError {
@@ -39,9 +40,6 @@ enum CheckerError {
 
     #[fail(display = "travis build image with no branch")]
     TravisBuildNoBranch,
-
-    #[fail(display = "github actions image with no branch")]
-    GithubActionNoBranch,
 }
 
 fn formatter(err: &CheckerError, url: &String) -> String {
@@ -61,9 +59,6 @@ fn formatter(err: &CheckerError, url: &String) -> String {
         }
         CheckerError::TravisBuildNoBranch => {
             format!("[Travis build image with no branch specified] {}", url)
-        }
-        CheckerError::GithubActionNoBranch => {
-            format!("[Github action image with no branch specified] {}", url)
         }
         _ => {
             format!("{:?}", err)
@@ -227,14 +222,6 @@ fn get_url_core(url: String) -> BoxFuture<'static, (String, Result<(), CheckerEr
                             break;
                         }
                     }
-                    if let Some(matches) = GITHUB_ACTIONS_REGEX.captures(&url) {
-                        debug!("Github actions match {:?}", matches);
-                        let query = matches.get(1).map(|x| x.as_str()).unwrap_or("");
-                        if !query.starts_with("?") || query.find("branch=").is_none() {
-                            res = Err(CheckerError::GithubActionNoBranch);
-                            break;
-                        }
-                    }
                     debug!("Finished {}", url);
                     res = Ok(());
                     break;
@@ -295,12 +282,75 @@ async fn main() -> Result<(), Error> {
 
     let mut to_check: Vec<String> = vec![];
 
-    for (event, _range) in parser.into_offset_iter() {
+    #[derive(Debug)]
+    struct ListInfo {
+        location: usize,
+        data: Vec<String>
+    }
+
+    let mut list_items: Vec<ListInfo> = Vec::new();
+    let mut in_list_item = false;
+    let mut list_item: String = String::new();
+
+    for (event, range) in parser.into_offset_iter() {
         match event {
             Event::Start(tag) => {
                 match tag {
                     Tag::Link(_link_type, url, _title) | Tag::Image(_link_type, url, _title) => {
                         to_check.push(url.to_string());
+                    }
+                    Tag::List(_) => {
+                        if in_list_item && list_item.len() > 0 {
+                            list_items.last_mut().unwrap().data.push(list_item.clone());
+                            in_list_item = false;
+                        }
+                        list_items.push(ListInfo {location: range.start, data: Vec::new()});
+                    }
+                    Tag::Item => {
+                        if in_list_item && list_item.len() > 0 {
+                            list_items.last_mut().unwrap().data.push(list_item.clone());
+                        }
+                        in_list_item = true;
+                        list_item = String::new();
+                    }
+                    Tag::Heading(_) => {}
+                    Tag::Paragraph => {}
+                    _ => {
+                        if in_list_item {
+                            in_list_item = false;
+                        }
+                    }
+                }
+            }
+            Event::Text(text) => {
+                if in_list_item {
+                    list_item.push_str(&text);
+                }
+            }
+            Event::End(tag) => {
+                match tag {
+                    Tag::Item => {
+                        if list_item.len() > 0 {
+                            list_items.last_mut().unwrap().data.push(list_item.clone());
+                            list_item = String::new();
+                        }
+                        in_list_item = false
+                    }
+                    Tag::List(_) => {
+                        let list_info = list_items.pop().unwrap();
+                        if list_info.data.iter().find(|s| *s == "License").is_some() && list_info.data.iter().find(|s| *s == "Resources").is_some() {
+                            // Ignore wrong ordering in top-level list
+                            continue
+                        }
+                        let mut sorted_recent_list = list_info.data.to_vec();
+                        sorted_recent_list.sort_by(|a, b| a.to_lowercase().cmp(&b.to_lowercase()));
+                        let joined_recent = list_info.data.join("\n");
+                        let joined_sorted = sorted_recent_list.join("\n");
+                        let patch = create_patch(&joined_recent, &joined_sorted);
+                        if patch.hunks().len() > 0 {
+                            println!("{}", patch);
+                            return Err(format_err!("Sorting error"));
+                        }
                     }
                     _ => {}
                 }
