@@ -1,0 +1,21 @@
+name: Lint
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v2
+      - name: Markdown lint for README
+        uses: docker://avtodev/markdown-lint:v1
+        with:
+          config: ./.markdownlint.json
+          args: ./README.md
