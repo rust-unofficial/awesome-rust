@@ -1,4 +1,5 @@
 use pulldown_cmark::{Parser, Event, Tag};
+use std::u8;
 use std::{cmp::Ordering, fs};
 use futures::future::{select_all, BoxFuture, FutureExt};
 use std::collections::{BTreeSet, BTreeMap};
@@ -247,6 +248,12 @@ struct Link {
 
 type Results = BTreeMap<String, Link>;
 
+#[derive(Debug, Serialize, Deserialize)]
+struct PopularityData {
+    pub github_stars: BTreeMap<String, u32>,
+    pub cargo_downloads: BTreeMap<String, u32>
+}
+
 #[tokio::main]
 async fn main() -> Result<(), Error> {
     env_logger::init();
@@ -259,7 +266,20 @@ async fn main() -> Result<(), Error> {
         .and_then(|x| serde_yaml::from_str(&x).map_err(|e| format_err!("{}", e)))
         .unwrap_or(Results::new());
 
+    let mut popularity_data: PopularityData = fs::read_to_string("results/popularity.yaml")
+        .map_err(|e| format_err!("{}", e))
+        .and_then(|x| serde_yaml::from_str(&x).map_err(|e| format_err!("{}", e)))
+        .unwrap_or(PopularityData { github_stars: BTreeMap::new(), cargo_downloads: BTreeMap::new()});
+
     let mut url_checks = vec![];
+
+    let get_github_stars = |url: &str| -> u32 {
+        let existing = popularity_data.github_stars.get(url);
+        if let Some(stars) = existing {
+            return *stars
+        }
+        return 0
+    };
 
     let min_between_checks: Duration = Duration::days(3);
     let max_allowed_failed: Duration = Duration::days(7);
@@ -292,12 +312,19 @@ async fn main() -> Result<(), Error> {
     let mut in_list_item = false;
     let mut list_item: String = String::new();
 
+    let mut link_count: u8 = 0;
+    let mut github_stars: u8 = 0;
+    let mut cargo_downloads: u8 = 0;
+
     for (event, range) in parser.into_offset_iter() {
         match event {
             Event::Start(tag) => {
                 match tag {
                     Tag::Link(_link_type, url, _title) | Tag::Image(_link_type, url, _title) => {
-                        to_check.push(url.to_string());
+                        if !url.starts_with("#") {
+                            to_check.push(url.to_string());
+                            link_count += 1;
+                        }
                     }
                     Tag::List(_) => {
                         if in_list_item && list_item.len() > 0 {
@@ -312,6 +339,9 @@ async fn main() -> Result<(), Error> {
                         }
                         in_list_item = true;
                         list_item = String::new();
+                        link_count = 0;
+                        github_stars = 0;
+                        cargo_downloads = 0;
                     }
                     Tag::Heading(_) => {}
                     Tag::Paragraph => {}
@@ -331,6 +361,9 @@ async fn main() -> Result<(), Error> {
                 match tag {
                     Tag::Item => {
                         if list_item.len() > 0 {
+                            if link_count > 0 {
+                                return Err(format_err!("No good enough: {}", list_item));
+                            }
                             list_items.last_mut().unwrap().data.push(list_item.clone());
                             list_item = String::new();
                         }
