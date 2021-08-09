@@ -143,6 +143,7 @@ See also [Rust — Production](https://www.rust-lang.org/production) organizatio
 ### Audio and Music
 
 * [enginesound](https://github.com/DasEtwas/enginesound) — A GUI and command line application used to procedurally generate semi-realistic engine sounds. Featuring in-depth configuration, variable sample rate and a frequency analysis window.
+* [figsoda/mmtc](https://github.com/figsoda/mmtc) [[mmtc](https://crates.io/crates/mmtc)] - A minimal mpd terminal client that aims to be simple yet highly configurable. [![ci](https://github.com/figsoda/mmtc/workflows/ci/badge.svg?branch=main)](https://github.com/figsoda/mmtc/actions?query=workflow%3Aci)
 * [indiscipline/zrtstr](https://github.com/indiscipline/zrtstr) — A command line utility for checking if stereo wav files are faux-stereo (i.e. have identical channels) and converting such files to mono. [![build badge](https://api.travis-ci.org/indiscipline/zrtstr.svg?branch=master)](https://travis-ci.org/indiscipline/zrtstr)
 * [Lyriek](https://github.com/bartwillems/lyriek) — A multi-threaded GTK 3 application for fetching the lyrics of the current playing song. [![build badge](https://github.com/bartwillems/lyriek/workflows/Rust/badge.svg?branch=master)](https://github.com/BartWillems/lyriek/actions)
 * [ncspot](https://github.com/hrkfdn/ncspot) - Cross-platform ncurses Spotify client, inspired by ncmpc and the likes. [![build badge](https://github.com/hrkfdn/ncspot/workflows/Build/badge.svg)](https://github.com/hrkfdn/ncspot/actions?query=workflow%3ABuild)
