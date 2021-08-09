@@ -10,6 +10,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
     - [Audio and Music](#audio-and-music)
     - [Cryptocurrencies](#cryptocurrencies)
     - [Database](#database)
+    - [Distributed Platform](#distributed-platform)
     - [Emulators](#emulators)
     - [Games](#games)
     - [Graphics](#graphics)
@@ -203,6 +204,9 @@ See also [Rust — Production](https://www.rust-lang.org/production) organizatio
 * [TerminusDB](https://github.com/terminusdb/terminusdb-store) - open source graph database and document store [![Build Status](https://github.com/terminusdb/terminusdb-store/workflows/Build/badge.svg?branch=master)](https://github.com/terminusdb/terminusdb-store/actions)
 * [tikv](https://github.com/tikv/tikv) — A distributed KV database in Rust [![Build Status](https://ci.pingcap.net/job/tikv_ghpr_test/badge/icon)](https://ci.pingcap.net/job/tikv_ghpr_test/)
 * [WooriDB](https://github.com/naomijub/wooridb) - General purpose time serial database inspired by Crux and Datomic.
+
+### Distributed Platform
+* [delicate](https://github.com/BinChengZhao/delicate) — A lightweight and distributed task scheduling platform written in rust. [![Build Status](https://github.com/BinChengZhao/delicate/workflows/CI/badge.svg)](https://github.com/BinChengZhao/delicate/actions)
 
 ### Emulators
 
