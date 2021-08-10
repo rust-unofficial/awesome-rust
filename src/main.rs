@@ -172,7 +172,13 @@ async fn get_stars(github_url: &str) -> u32 {
             return 0;
         }
         Ok(ok) => {
-            let data = ok.json::<GithubStars>().await.unwrap();
+            let raw = ok.text().await.unwrap();
+            let data = match serde_json::from_str::<GithubStars>(&raw) {
+                Ok(val) => val,
+                Err(_) => {
+                    panic!("{:?}", raw);
+                }
+            };
             return data.stargazers_count;
         }
     }

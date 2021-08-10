@@ -74,6 +74,7 @@ dependencies = [
  "reqwest",
  "scraper",
  "serde",
+ "serde_json",
  "serde_yaml",
  "tokio",
 ]

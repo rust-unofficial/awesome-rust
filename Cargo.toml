@@ -24,3 +24,4 @@ scraper = "0.11"
 chrono = { version = "0.4", features = ["serde"] }
 chrono-humanize = "0.2"
 diffy = "0.2"
+serde_json = "*"
