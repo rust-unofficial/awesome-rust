@@ -154,7 +154,7 @@ struct GithubStars {
 }
 
 async fn get_stars(github_url: &str) -> u32 {
-    info!("Downloading Github stars for {}", github_url);
+    warn!("Downloading Github stars for {}", github_url);
     let rewritten = GITHUB_REPO_REGEX.replace_all(&github_url, "https://api.github.com/repos/$org/$repo").to_string();
     let mut req = CLIENT
         .get(&rewritten);
@@ -190,7 +190,7 @@ struct Crate {
 }
 
 async fn get_downloads(github_url: &str) -> u64 {
-    info!("Downloading Crates downloads for {}", github_url);
+    warn!("Downloading Crates downloads for {}", github_url);
     let rewritten = CRATE_REGEX.replace_all(&github_url, "https://crates.io/api/v1/crates/$crate").to_string();
     let req = CLIENT
         .get(&rewritten);
