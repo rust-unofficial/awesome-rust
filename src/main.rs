@@ -421,7 +421,7 @@ async fn main() -> Result<(), Error> {
                             else if GITHUB_REPO_REGEX.is_match(&url) && existing.is_none() {
                                 github_stars = get_stars(&url).await;
                                 popularity_data.github_stars.insert(new_url, github_stars);
-                                if github_stars >= MINIMUM_GITHUB_STARS {                                    
+                                if github_stars >= MINIMUM_GITHUB_STARS {
                                     fs::write("results/popularity.yaml", serde_yaml::to_string(&popularity_data)?)?;
                                 }
                                 link_count += 1;
@@ -435,14 +435,14 @@ async fn main() -> Result<(), Error> {
                                     let raw_downloads = get_downloads(&url).await;
                                     cargo_downloads = raw_downloads.clamp(0, u32::MAX as u64) as u32;
                                     popularity_data.cargo_downloads.insert(new_url, cargo_downloads);
-                                    if cargo_downloads >= MINIMUM_CARGO_DOWNLOADS {                                        
+                                    if cargo_downloads >= MINIMUM_CARGO_DOWNLOADS {
                                         fs::write("results/popularity.yaml", serde_yaml::to_string(&popularity_data)?)?;
                                     }
                                     link_count += 1;
                                     continue;
                                 }
                             }
-                            
+
                             to_check.push(url.to_string());
                             link_count += 1;
                         }
