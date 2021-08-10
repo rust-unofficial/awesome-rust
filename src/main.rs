@@ -158,9 +158,12 @@ async fn get_stars(github_url: &str) -> u32 {
     let rewritten = GITHUB_REPO_REGEX.replace_all(&github_url, "https://api.github.com/repos/$org/$repo").to_string();
     let mut req = CLIENT
         .get(&rewritten);
-    let username = env::var("GITHUB_USERNAME").expect("Missing GITHUB_USERNAME");
-    let password = env::var("GITHUB_TOKEN").expect("Missing GITHUB_TOKEN");
-    req = req.basic_auth(username, Some(password));
+    if let Ok(username) = env::var("GITHUB_USERNAME") {
+        if let Ok(password) = env::var("GITHUB_TOKEN") {
+            // needs a token with at least public_repo scope
+            req = req.basic_auth(username, Some(password));
+        }
+    }
 
     let resp = req.send().await;
     match resp {
