@@ -1,43 +1,41 @@
 name: Rust
-
 on:
   push:
-    branches: [ master ]
+    branches:
+      - master
   pull_request:
-    branches: [ master ]
+    branches:
+      - master
   schedule:
-    - cron: '0 0 * * *'    
-
+    - cron: 0 0 * * *
 env:
   CARGO_TERM_COLOR: always
-
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v2
-    - uses: actions-rs/toolchain@v1
-      with:
-        profile: minimal
-        toolchain: stable
-        override: true
-    - uses: Swatinem/rust-cache@v1    
-    - name: Get random cache id
-      run: echo "CACHE_ID=$((RANDOM))" >> $GITHUB_ENV
-      shell: bash    
-    - uses: pat-s/always-upload-cache@v2.1.5
-      with:
-        path: results/results.yaml
-        key: results-${{ hashFiles('Cargo.lock') }}-${{ hashFiles('README.md') }}-${{ env.CACHE_ID }}
-        restore-keys: |
-          results-${{ hashFiles('Cargo.lock') }}-${{ hashFiles('README.md') }}-
-          results-${{ hashFiles('Cargo.lock') }}-
-          results-
-    - name: Build
-      run: cargo build
-    - name: Run
-      run: cargo run
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        RUST_LOG: warn
+      - uses: actions/checkout@v2
+      - uses: actions-rs/toolchain@v1
+        with:
+          profile: minimal
+          toolchain: stable
+          override: true
+      - uses: Swatinem/rust-cache@v1
+      - name: Get random cache id
+        run: echo "CACHE_ID=$((RANDOM))" >> $GITHUB_ENV
+        shell: bash
+      - uses: pat-s/always-upload-cache@v2.1.5
+        with:
+          path: results/results.yaml
+          key: results-${{ hashFiles('Cargo.lock') }}-${{ hashFiles('README.md') }}-${{ env.CACHE_ID }}
+          restore-keys: |
+            results-${{ hashFiles('Cargo.lock') }}-${{ hashFiles('README.md') }}-
+            results-${{ hashFiles('Cargo.lock') }}-
+            results-
+      - name: Build
+        run: cargo build
+      - name: Run
+        run: cargo run
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RUST_LOG: warn

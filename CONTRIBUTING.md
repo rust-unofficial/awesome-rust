@@ -14,10 +14,9 @@ If you want to add an entry to the `README.md` please consider this:
 - if you want to add something, please use the template `[ACCOUNT/REPO](https://github.com/ACCOUNT/REPO) [[CRATE](https://crates.io/crates/CRATE)] — DESCRIPTION`
     * if you've not published your crate to `crates.io` remove the `[[CRATE](...)]` part.
     * if you have a CI build, please add the build badge. Put the image after the description, separated by a space. Please make sure to add the branch information to the image:
-       * example for Travis: ` [<img src="https://api.travis-ci.org/XXX/CRATE.svg?branch=master">](https://travis-ci.org/XXX/CRATE)`
-       * for Github actions please see https://docs.github.com/en/actions/managing-workflow-runs/adding-a-workflow-status-badge
+        * example for Travis: `[<img src="https://api.travis-ci.org/XXX/CRATE.svg?branch=master">](https://travis-ci.org/XXX/CRATE)`
+        * for Github actions please see [adding-a-workflow-status-badge](https://docs.github.com/en/actions/managing-workflow-runs/adding-a-workflow-status-badge)
 - please pay attention to the alphabetical ordering.
-
 
 ## Removing projects
 
