@@ -446,7 +446,7 @@ async fn main() -> Result<(), Error> {
                             else if GITHUB_REPO_REGEX.is_match(&url) && existing.is_none() {
                                 github_stars = get_stars(&url).await;
                                 popularity_data.github_stars.insert(new_url, github_stars);
-                                if github_stars >= MINIMUM_GITHUB_STARS {
+                                if github_stars >= required_stars {
                                     fs::write("results/popularity.yaml", serde_yaml::to_string(&popularity_data)?)?;
                                 }
                                 link_count += 1;
@@ -523,7 +523,7 @@ async fn main() -> Result<(), Error> {
                         if list_item.len() > 0 {
                             if link_count > 0 {
                                 if github_stars < required_stars && cargo_downloads < MINIMUM_CARGO_DOWNLOADS {
-                                    return Err(format_err!("Not good enough ({} stars < {}, and {} cargo downloads < {}): {}", github_stars, MINIMUM_GITHUB_STARS, cargo_downloads, MINIMUM_CARGO_DOWNLOADS, list_item));
+                                    return Err(format_err!("Not good enough ({} stars < {}, and {} cargo downloads < {}): {}", github_stars, required_stars, cargo_downloads, MINIMUM_CARGO_DOWNLOADS, list_item));
                                 }
                             }
                             list_items.last_mut().unwrap().data.push(list_item.clone());
