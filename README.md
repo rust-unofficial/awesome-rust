@@ -223,7 +223,9 @@ See also [Games Made With Piston](https://github.com/PistonDevelopers/piston/wik
 * [ozkriff/zemeroth](https://github.com/ozkriff/zemeroth) — A small 2D turn-based hexagonal strategy game [![build badge](https://api.travis-ci.org/ozkriff/zemeroth.svg?branch=master)](https://travis-ci.org/ozkriff/zemeroth)
 * [rhex](https://github.com/dpc/rhex) — hexagonal ascii roguelike
 * [rsaarelm/magog](https://github.com/rsaarelm/magog) — A roguelike game in Rust
+* [schulke-214/rsnake](https://github.com/schulke-214/rsnake) — Snake written in Rust.
 * [swatteau/sokoban-rs](https://github.com/swatteau/sokoban-rs) — A Sokoban implementation
+* [Thinkofname/rust-quake](https://github.com/Thinkofname/rust-quake) — Quake map renderer in Rust
 * [Veloren](https://gitlab.com/veloren/veloren) — An open world, open source multiplayer voxel RPG game currently in alpha development [![build badge](https://gitlab.com/veloren/veloren/badges/master/pipeline.svg)](https://gitlab.com/veloren/veloren/-/pipelines)
 * [Zone of Control](https://github.com/ozkriff/zoc) — A turn-based hexagonal strategy game [![build badge](https://api.travis-ci.org/ozkriff/zoc.svg?branch=master)](https://travis-ci.org/ozkriff/zoc)
 

@@ -20,6 +20,17 @@ use diffy::create_patch;
 const MINIMUM_GITHUB_STARS: u32 = 50;
 const MINIMUM_CARGO_DOWNLOADS: u32 = 2000;
 
+// Allow overriding the needed stars for a section. "level" is the header level in the markdown, default is MINIMUM_GITHUB_STARS
+fn override_stars(level: u32, text: &str) -> Option<u32> {
+    if level == 2 && text.contains("Resources") {
+        Some(0)
+    } else if level == 3 && text.contains("Games") {
+        Some(40)
+    } else {
+        None
+    }
+}
+
 lazy_static! {
     // Overrides for popularity count, each needs a good reason (i.e. downloads/stars we don't support automatic counting of)
     // Each is a URL that's "enough" for an item to pass the popularity checks
@@ -408,11 +419,14 @@ async fn main() -> Result<(), Error> {
     let mut list_items: Vec<ListInfo> = Vec::new();
     let mut in_list_item = false;
     let mut list_item: String = String::new();
-    let mut in_resources = false;
 
     let mut link_count: u8 = 0;
     let mut github_stars: u32 = 0;
     let mut cargo_downloads: u32 = 0;
+
+    let mut required_stars: u32 = MINIMUM_GITHUB_STARS;
+    let mut last_level: u32 = 0;
+    let mut star_override_level: Option<u32> = None;
 
     for (event, range) in parser.into_offset_iter() {
         match event {
@@ -474,9 +488,12 @@ async fn main() -> Result<(), Error> {
                         cargo_downloads = 0;
                     }
                     Tag::Heading(level) => {
-                        if level == 2 && in_resources {
-                            // Got to the next item
-                            in_resources = false;
+                        last_level = level;
+                        if let Some(override_level) = star_override_level {
+                            if level == override_level {
+                                star_override_level = None;
+                                required_stars = MINIMUM_GITHUB_STARS;
+                            }
                         }
                     }
                     Tag::Paragraph => {}
@@ -488,9 +505,12 @@ async fn main() -> Result<(), Error> {
                 }
             }
             Event::Text(text) => {
-                if text.contains("Resources") {
-                    in_resources = true;
+                let possible_override = override_stars(last_level, &text);
+                if let Some(override_value) = possible_override {
+                    star_override_level = Some(last_level);
+                    required_stars = override_value;
                 }
+
                 if in_list_item {
                     list_item.push_str(&text);
                 }
@@ -498,9 +518,9 @@ async fn main() -> Result<(), Error> {
             Event::End(tag) => {
                 match tag {
                     Tag::Item => {
-                        if list_item.len() > 0 && !in_resources {
+                        if list_item.len() > 0 {
                             if link_count > 0 {
-                                if github_stars < MINIMUM_GITHUB_STARS && cargo_downloads < MINIMUM_CARGO_DOWNLOADS {
+                                if github_stars < required_stars && cargo_downloads < MINIMUM_CARGO_DOWNLOADS {
                                     return Err(format_err!("Not good enough ({} stars < {}, and {} cargo downloads < {}): {}", github_stars, MINIMUM_GITHUB_STARS, cargo_downloads, MINIMUM_CARGO_DOWNLOADS, list_item));
                                 }
                             }
