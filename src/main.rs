@@ -21,15 +21,19 @@ const MINIMUM_GITHUB_STARS: u32 = 50;
 const MINIMUM_CARGO_DOWNLOADS: u32 = 2000;
 
 // Allow overriding the needed stars for a section. "level" is the header level in the markdown, default is MINIMUM_GITHUB_STARS
+// In general, we should just use the defaults. However, for some areas where there's not a lot of well-starred projects, but a
+// a few that are say just below the thresholds, then it's worth reducing the thresholds so we can get a few more projects.
 fn override_stars(level: u32, text: &str) -> Option<u32> {
     if level == 2 && text.contains("Resources") {
+        // This is zero because a lot of the resources are non-github/non-cargo links and overriding for all would be annoying
+        // These should be evaluated with more primitive means
         Some(0)
     } else if level == 3 && text.contains("Games") {
         Some(40)
     } else if level == 3 && text.contains("Emulators") {
         Some(40)
     } else {
-        None
+        None // i.e. use defaults
     }
 }
 
