@@ -27,7 +27,7 @@ fn override_stars(level: u32, text: &str) -> Option<u32> {
     } else if level == 3 && text.contains("Games") {
         Some(40)
     } else if level == 3 && text.contains("Emulators") {
-        Some(40)        
+        Some(40)
     } else {
         None
     }
