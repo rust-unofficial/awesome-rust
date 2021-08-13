@@ -949,8 +949,6 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [RoaringBitmap/roaring-rs](https://github.com/RoaringBitmap/roaring-rs) – Roaring Bitmaps in Rust
 * [rust-itertools/itertools](https://github.com/rust-itertools/itertools) — [![build badge](https://api.travis-ci.org/rust-itertools/itertools.svg?branch=master)](https://travis-ci.org/rust-itertools/itertools)
 * [xfix/enum-map](https://github.com/xfix/enum-map) [[enum-map](https://crates.io/crates/enum-map)] — An optimized map implementation for enums using an array to store values. [![build badge](https://api.travis-ci.org/xfix/enum-map.svg?branch=master)](https://travis-ci.org/xfix/enum-map)
-* [vityafx/diesel-chrono-duration](https://github.com/vityafx/diesel-chrono-duration) - A `chrono::Duration` adapter for using with the `diesel` ORM.
-* [vityafx/unique-type-id](https://github.com/vityafx/unique-type-id) - Fully controllable type IDs.
 
 ### Data visualization
 
