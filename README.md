@@ -20,6 +20,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
     - [Productivity](#productivity)
     - [Security tools](#security-tools)
     - [System tools](#system-tools)
+    - [Task scheduling](#task-scheduling)
     - [Text editors](#text-editors)
     - [Text processing](#text-processing)
     - [Utilities](#utilities)
@@ -87,7 +88,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
     - [Platform specific](#platform-specific)
     - [Scripting](#scripting)
     - [Simulation](#simulation)
-    - [Task scheduling](#task-scheduling)
+    - [Task scheduling](#task-scheduling-1)
     - [Template engine](#template-engine)
     - [Text processing](#text-processing-1)
     - [Text search](#text-search)
@@ -365,6 +366,10 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [XAMPPRocky/tokei](https://github.com/XAMPPRocky/tokei) — counts the lines of code [![build badge](https://api.travis-ci.org/XAMPPRocky/tokei.svg?branch=master)](https://travis-ci.org/XAMPPRocky/tokei)
 * [yake](https://crates.io/crates/yake) — Yake is a task runner based on yaml files [![build badge](https://gitlab.com/elbartus/yake/badges/master/pipeline.svg)](https://gitlab.com/elbartus/yake)
 * [ytop](https://github.com/cjbassi/ytop) - A TUI system monitor written in Rust [![Build status](https://github.com/cjbassi/ytop/workflows/Rust%20CI/badge.svg?branch=master)](https://github.com/cjbassi/ytop/actions?query=workflow%3A%22Rust+CI%22)
+
+### Task scheduling
+
+* [delicate](https://github.com/BinChengZhao/delicate) — A lightweight and distributed task scheduling platform written in rust. [![Build Status](https://github.com/BinChengZhao/delicate/workflows/CI/badge.svg)](https://github.com/BinChengZhao/delicate/actions)
 
 ### Text editors
 
