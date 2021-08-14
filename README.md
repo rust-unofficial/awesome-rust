@@ -205,7 +205,6 @@ See also [Rust — Production](https://www.rust-lang.org/production) organizatio
 * [tikv](https://github.com/tikv/tikv) — A distributed KV database in Rust [![Build Status](https://ci.pingcap.net/job/tikv_ghpr_test/badge/icon)](https://ci.pingcap.net/job/tikv_ghpr_test/)
 * [WooriDB](https://github.com/naomijub/wooridb) - General purpose time serial database inspired by Crux and Datomic.
 
-
 ### Emulators
 
 See also [crates matching keyword 'emulator'](https://crates.io/keywords/emulator).
