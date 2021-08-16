@@ -1226,6 +1226,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 See also [Are we game yet?](https://arewegameyet.rs)
 * Allegro
   * [SiegeLord/RustAllegro](https://github.com/SiegeLord/RustAllegro) — [Allegro 5](https://liballeg.org/) bindings [![build badge](https://api.travis-ci.org/SiegeLord/RustAllegro.svg?branch=master)](https://travis-ci.org/SiegeLord/RustAllegro)
+* [Awesome Quads](https://github.com/ozkriff/awesome-quads) — A curated list of links to miniquad/macroquad-related code & resources
 * [Awesome wgpu](https://github.com/rofrol/awesome-wgpu) — A curated list of wgpu code and resources
 * Challonge
   * [vityafx/challonge-rs](https://github.com/vityafx/challonge-rs) [[challonge](https://crates.io/crates/challonge)] — Client library for the Challonge REST API. Helps to organize tournaments. [![build badge](https://api.travis-ci.org/vityafx/challonge-rs.svg?branch=master)](https://travis-ci.org/vityafx/challonge-rs)
