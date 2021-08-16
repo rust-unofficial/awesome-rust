@@ -34,8 +34,8 @@ jobs:
             results-
       - name: Build
         run: cargo build
-      # - name: Run
-      #   run: cargo run
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      #     RUST_LOG: warn
+      - name: Run
+        run: cargo run
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RUST_LOG: warn
