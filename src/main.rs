@@ -171,7 +171,7 @@ struct GithubStars {
     stargazers_count: u32
 }
 
-async fn get_stars(github_url: &str) -> u32 {
+async fn get_stars(github_url: &str) -> Option<u32> {
     warn!("Downloading Github stars for {}", github_url);
     let rewritten = GITHUB_REPO_REGEX.replace_all(&github_url, "https://api.github.com/repos/$org/$repo").to_string();
     let mut req = CLIENT
@@ -187,7 +187,7 @@ async fn get_stars(github_url: &str) -> u32 {
     match resp {
         Err(err) => {
             warn!("Error while getting {}: {}", github_url, err);
-            return 0;
+            return None;
         }
         Ok(ok) => {
             let raw = ok.text().await.unwrap();
@@ -197,7 +197,7 @@ async fn get_stars(github_url: &str) -> u32 {
                     panic!("{:?}", raw);
                 }
             };
-            return data.stargazers_count;
+            return Some(data.stargazers_count);
         }
     }
 }
@@ -213,7 +213,7 @@ struct Crate {
     info: CrateInfo
 }
 
-async fn get_downloads(github_url: &str) -> u64 {
+async fn get_downloads(github_url: &str) -> Option<u64> {
     warn!("Downloading Crates downloads for {}", github_url);
     let rewritten = CRATE_REGEX.replace_all(&github_url, "https://crates.io/api/v1/crates/$crate").to_string();
     let req = CLIENT
@@ -223,11 +223,11 @@ async fn get_downloads(github_url: &str) -> u64 {
     match resp {
         Err(err) => {
             warn!("Error while getting {}: {}", github_url, err);
-            return 0;
+            return None;
         }
         Ok(ok) => {
             let data = ok.json::<Crate>().await.unwrap();
-            return data.info.downloads;
+            return Some(data.info.downloads);
         }
     }
 }
@@ -428,8 +428,8 @@ async fn main() -> Result<(), Error> {
     let mut list_item: String = String::new();
 
     let mut link_count: u8 = 0;
-    let mut github_stars: u32 = 0;
-    let mut cargo_downloads: u32 = 0;
+    let mut github_stars: Option<u32> = None;
+    let mut cargo_downloads: Option<u32> = None;
 
     let mut required_stars: u32 = MINIMUM_GITHUB_STARS;
     let mut last_level: u32 = 0;
@@ -446,13 +446,15 @@ async fn main() -> Result<(), Error> {
                             if let Some(stars) = existing {
                                 // Use existing star data, but re-retrieve url to check aliveness
                                 // Some will have overrides, so don't check the regex yet
-                                github_stars = *stars
+                                github_stars = Some(*stars)
                             }
                             else if GITHUB_REPO_REGEX.is_match(&url) && existing.is_none() {
                                 github_stars = get_stars(&url).await;
-                                popularity_data.github_stars.insert(new_url, github_stars);
-                                if github_stars >= required_stars {
-                                    fs::write("results/popularity.yaml", serde_yaml::to_string(&popularity_data)?)?;
+                                if let Some(raw_stars) = github_stars {
+                                    popularity_data.github_stars.insert(new_url, raw_stars);
+                                    if raw_stars >= required_stars {
+                                        fs::write("results/popularity.yaml", serde_yaml::to_string(&popularity_data)?)?;
+                                    }
                                 }
                                 link_count += 1;
                                 continue;
@@ -460,13 +462,15 @@ async fn main() -> Result<(), Error> {
                             else if CRATE_REGEX.is_match(&url) {
                                 let existing = popularity_data.cargo_downloads.get(&new_url);
                                 if let Some(downloads) = existing {
-                                    cargo_downloads = *downloads;
+                                    cargo_downloads = Some(*downloads);
                                 } else {
                                     let raw_downloads = get_downloads(&url).await;
-                                    cargo_downloads = raw_downloads.clamp(0, u32::MAX as u64) as u32;
-                                    popularity_data.cargo_downloads.insert(new_url, cargo_downloads);
-                                    if cargo_downloads >= MINIMUM_CARGO_DOWNLOADS {
-                                        fs::write("results/popularity.yaml", serde_yaml::to_string(&popularity_data)?)?;
+                                    if let Some(positive_downloads) = raw_downloads {
+                                        cargo_downloads = Some(positive_downloads.clamp(0, u32::MAX as u64) as u32);
+                                        popularity_data.cargo_downloads.insert(new_url, cargo_downloads.unwrap());
+                                        if cargo_downloads.unwrap_or(0) >= MINIMUM_CARGO_DOWNLOADS {
+                                            fs::write("results/popularity.yaml", serde_yaml::to_string(&popularity_data)?)?;
+                                        }
                                     }
                                     link_count += 1;
                                     continue;
@@ -491,8 +495,8 @@ async fn main() -> Result<(), Error> {
                         in_list_item = true;
                         list_item = String::new();
                         link_count = 0;
-                        github_stars = 0;
-                        cargo_downloads = 0;
+                        github_stars = None;
+                        cargo_downloads = None;
                     }
                     Tag::Heading(level) => {
                         last_level = level;
@@ -527,8 +531,14 @@ async fn main() -> Result<(), Error> {
                     Tag::Item => {
                         if list_item.len() > 0 {
                             if link_count > 0 {
-                                if github_stars < required_stars && cargo_downloads < MINIMUM_CARGO_DOWNLOADS {
-                                    return Err(format_err!("Not good enough ({} stars < {}, and {} cargo downloads < {}): {}", github_stars, required_stars, cargo_downloads, MINIMUM_CARGO_DOWNLOADS, list_item));
+                                if github_stars.unwrap_or(0) < required_stars && cargo_downloads.unwrap_or(0) < MINIMUM_CARGO_DOWNLOADS {
+                                    if github_stars.is_none() {
+                                        warn!("No valid github link");
+                                    }
+                                    if cargo_downloads.is_none() {
+                                        warn!("No valid crates link");
+                                    }
+                                    return Err(format_err!("Not high enough metrics ({:?} stars < {}, and {:?} cargo downloads < {}): {}", github_stars, required_stars, cargo_downloads, MINIMUM_CARGO_DOWNLOADS, list_item));
                                 }
                             }
                             list_items.last_mut().unwrap().data.push(list_item.clone());
