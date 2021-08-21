@@ -571,6 +571,7 @@ async fn main() -> Result<(), Error> {
             _ => {}
         }
     }
+    fs::write("results/popularity.yaml", serde_yaml::to_string(&popularity_data)?)?;
 
     to_check.sort_by(|a,b| {
         let get_time = |k| {
