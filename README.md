@@ -382,6 +382,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 
 * [dertuxmalwieder/yaydl](https://github.com/dertuxmalwieder/yaydl) [[yaydl](https://crates.io/crates/yaydl)] - A simple video downloader
 * [xiph/rav1e](https://github.com/xiph/rav1e) — The fastest and safest AV1 encoder. [![build badge](https://api.travis-ci.org/xiph/rav1e.svg?branch=master)](https://travis-ci.org/xiph/rav1e)
+* [harlanc/xiu](https://github.com/harlanc/xiu) — A powerful and secure live server by pure rust (rtmp/httpflv/hls/relay). [![Build Status](https://app.travis-ci.com/harlanc/xiu.svg?branch=master)](https://app.travis-ci.com/harlanc/xiu)
 
 ### Virtualization
 
