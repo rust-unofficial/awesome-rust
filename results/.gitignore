@@ -1,2 +1,2 @@
 # Note that this is in a directory so we can cache it with Travis
-results.yaml
+*.yaml
