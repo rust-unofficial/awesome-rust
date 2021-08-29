@@ -7,20 +7,21 @@ repository = "https://github.com/rust-unofficial/awesome-rust"
 edition = "2018"
 default-run = "awesome-rust"
 
-# FIXME: locked down versions are a workaround for https://github.com/hyperium/hyper/issues/2191
 [dependencies]
-pulldown-cmark = "0.6"
-futures = "=0.3.5"
-reqwest = { version="=0.10.4", default_features=false, features=["rustls-tls", "trust-dns"] }
-tokio =  {version = "=0.2.21", features = ["macros", "rt-core", "rt-threaded", "time"] }
+pulldown-cmark = "0.8"
+futures = "0.3"
+reqwest = { version="0.11", default_features=false, features=["rustls-tls", "json"] }
+tokio = {version = "1", features = ["macros", "rt", "rt-multi-thread", "time"] }
 serde = { version = "1.0", features = ["derive"] }
 serde_yaml = "0.8"
-hyper = "=0.13.5"
+hyper = "0.14"
 failure = "0.1"
 lazy_static = "1"
-env_logger = "0.7"
+env_logger = "0.8"
 log = "0.4"
 regex = "1"
 scraper = "0.11"
 chrono = { version = "0.4", features = ["serde"] }
-chrono-humanize = "0.0.11"
+chrono-humanize = "0.2"
+diffy = "0.2"
+serde_json = "*"
