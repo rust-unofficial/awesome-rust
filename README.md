@@ -266,6 +266,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [redox-os/redox](https://gitlab.redox-os.org/redox-os/redox) — [![build badge](https://api.travis-ci.org/redox-os/redox.svg?branch=master)](https://travis-ci.org/redox-os/redox)
 * [thepowersgang/rust_os](https://github.com/thepowersgang/rust_os) — [![build badge](https://api.travis-ci.org/thepowersgang/rust_os.svg?branch=master)](https://travis-ci.org/thepowersgang/rust_os)
 * [tock/tock](https://github.com/tock/tock) — A secure embedded operating system for Cortex-M based microcontrollers
+* [0x59616e/SteinsOS](https://github.com/0x59616e/SteinsOS) — A preemptive multi-tasking operating system targeting armv8-a architecture
 
 ### Productivity
 
