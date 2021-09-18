@@ -176,7 +176,7 @@ See also [Rust — Production](https://www.rust-lang.org/production) organizatio
 
 ### Database
 
-* [Datafuse](https://github.com/datafuselabs/datafuse) - A Modern Real-Time Data Processing & Analytics DBMS with Cloud-Native Architecture [![Build](https://github.com/datafuselabs/datafuse/actions/workflows/datafuse-build.yml/badge.svg)](https://github.com/datafuselabs/datafuse/actions/workflows/datafuse-build.yml)
+* [Databend](https://github.com/datafuselabs/databend) - A Modern Real-Time Data Processing & Analytics DBMS with Cloud-Native Architecture [![Build](https://github.com/datafuselabs/databend/actions/workflows/databend-build.yml/badge.svg)](https://github.com/datafuselabs/databend/actions/workflows/databend-build.yml)
 * [indradb](https://crates.io/crates/indradb) — Rust based graph database [![build badge](https://api.travis-ci.org/indradb/indradb.svg?branch=master)](https://travis-ci.org/indradb/indradb)
 * [Lucid](https://github.com/lucid-kv/lucid) — High performance and distributed KV store accessible through a HTTP API. [![Build Status](https://github.com/lucid-kv/lucid/workflows/Lucid/badge.svg?branch=master)](https://github.com/lucid-kv/lucid/actions?workflow=Lucid)
 * [Materialize](https://github.com/MaterializeInc/materialize) - Streaming SQL database powered by Timely Dataflow :heavy_dollar_sign: [![Build status](https://badge.buildkite.com/97d6604e015bf633d1c2a12d166bb46f3b43a927d3952c999a.svg?branch=main)](https://buildkite.com/materialize/tests)
@@ -218,7 +218,6 @@ See also [crates matching keyword 'emulator'](https://crates.io/keywords/emulato
 
 See also [Games Made With Piston](https://github.com/PistonDevelopers/piston/wiki/Games-Made-With-Piston).
 
-* [amethyst/theta-wave](https://github.com/amethyst/theta-wave) - A space shooter game that strives to be an entry point for new game developers to make their first contributions. ![build badge](https://github.com/amethyst/theta-wave/actions/workflows/ci.yml/badge.svg?branch=master)
 * [citybound](https://github.com/citybound/citybound) — The city sim you deserve
 * [cristicbz/rust-doom](https://github.com/cristicbz/rust-doom) — A renderer for Doom, may progress to being a playable game [![build badge](https://api.travis-ci.org/cristicbz/rust-doom.svg?branch=master)](https://travis-ci.org/cristicbz/rust-doom)
 * [doukutsu-rs](https://github.com/doukutsu-rs/doukutsu-rs) — A Rust reimplementation of Cave Story engine with some enhancements.
@@ -229,6 +228,7 @@ See also [Games Made With Piston](https://github.com/PistonDevelopers/piston/wik
 * [rsaarelm/magog](https://github.com/rsaarelm/magog) — A roguelike game in Rust
 * [schulke-214/rsnake](https://github.com/schulke-214/rsnake) — Snake written in Rust.
 * [swatteau/sokoban-rs](https://github.com/swatteau/sokoban-rs) — A Sokoban implementation
+* [thetawavegame/thetawave-legacy](https://github.com/thetawavegame/thetawave-legacy) - A space shooter game that strives to be an entry point for new game developers to make their first contributions. ![build badge](https://github.com/thetawavegame/thetawave-legacy/actions/workflows/ci.yml/badge.svg?branch=master)
 * [Thinkofname/rust-quake](https://github.com/Thinkofname/rust-quake) — Quake map renderer in Rust
 * [Veloren](https://gitlab.com/veloren/veloren) — An open world, open source multiplayer voxel RPG game currently in alpha development [![build badge](https://gitlab.com/veloren/veloren/badges/master/pipeline.svg)](https://gitlab.com/veloren/veloren/-/pipelines)
 * [Zone of Control](https://github.com/ozkriff/zoc) — A turn-based hexagonal strategy game [![build badge](https://api.travis-ci.org/ozkriff/zoc.svg?branch=master)](https://travis-ci.org/ozkriff/zoc)
@@ -256,12 +256,12 @@ See also [Games Made With Piston](https://github.com/PistonDevelopers/piston/wik
 * [avito-tech/bioyino](https://github.com/avito-tech/bioyino) — A high-performance scalable StatsD compatible server.
 * [OpenTelemetry](https://crates.io/crates/opentelemetry) — OpenTelemetry provides a single set of APIs, libraries, agents, and collector services to capture distributed traces and metrics from your application. You can analyze them using Prometheus, Jaeger, and other observability tools. [![GitHub Actions CI](https://github.com/open-telemetry/opentelemetry-rust/workflows/CI/badge.svg?branch=master)](https://github.com/open-telemetry/opentelemetry-rust/actions?query=workflow%3ACI+branch%3Amaster)
 * [Scaphandre](https://github.com/hubblo-org/scaphandre) - A power consumption monitoring agent, to track host and each service power consumption and enable designing systems and applications for more sustainability. Designed to fit any monitoring toolchain (already supports prometheus, warp10, riemann...).
-* [timberio/vector](https://github.com/timberio/vector) — A High-Performance, Logs, Metrics, & Events Router.
+* [vectordotdev/vector](https://github.com/vectordotdev/vector) — A High-Performance, Logs, Metrics, & Events Router.
 
 ### Operating systems
 
 See also [A comparison of operating systems written in Rust](https://github.com/flosse/rust-os-comparison).
-
+* [0x59616e/SteinsOS](https://github.com/0x59616e/SteinsOS)  — An OS for armv8-a architecture.
 * [nebulet/nebulet](https://github.com/nebulet/nebulet) — A microkernel that implements a WebAssembly "usermode" that runs in Ring 0.
 * [redox-os/redox](https://gitlab.redox-os.org/redox-os/redox) — [![build badge](https://api.travis-ci.org/redox-os/redox.svg?branch=master)](https://travis-ci.org/redox-os/redox)
 * [thepowersgang/rust_os](https://github.com/thepowersgang/rust_os) — [![build badge](https://api.travis-ci.org/thepowersgang/rust_os.svg?branch=master)](https://travis-ci.org/thepowersgang/rust_os)
@@ -897,7 +897,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
   * LevelDB
     * [skade/leveldb](https://github.com/skade/leveldb) — [LevelDB](https://github.com/google/leveldb) bindings [![build badge](https://api.travis-ci.org/skade/leveldb.svg?branch=master)](https://travis-ci.org/skade/leveldb)
   * LMDB [[lmdb](https://crates.io/keywords/lmdb)]
-    * [vhbit/lmdb-rs](https://github.com/vhbit/lmdb-rs) [[lmdb-rs](https://crates.io/crates/lmdb-rs)] — [LMDB](https://symas.com/lmdb/) bindings [![build badge](https://api.travis-ci.org/vhbit/lmdb-rs.svg?branch=master)](https://travis-ci.org/vhbit/lmdb-rs)
+    * [vhbit/lmdb-rs](https://github.com/vhbit/lmdb-rs) [[lmdb-rs](https://crates.io/crates/lmdb-rs)] — [LMDB](https://www.symas.com/symas-embedded-database-lmdb) bindings [![build badge](https://api.travis-ci.org/vhbit/lmdb-rs.svg?branch=master)](https://travis-ci.org/vhbit/lmdb-rs)
   * MongoDB [[mongodb](https://crates.io/keywords/mongodb)]
     * [mongodb/mongo-rust-driver](https://github.com/mongodb/mongo-rust-driver) [[mongodb](https://crates.io/crates/mongodb)] — [MongoDB](https://www.mongodb.com/) bindings
   * [PickleDB](https://pythonhosted.org/pickleDB/)
@@ -1056,7 +1056,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
   * [tafia/quick-xml](https://github.com/tafia/quick-xml) — High performance XML pull reader/writer [![build badge](https://api.travis-ci.org/tafia/quick-xml.svg?branch=master)](https://travis-ci.org/tafia/quick-xml)
 * YAML
   * [chyh1990/yaml-rust](https://github.com/chyh1990/yaml-rust) — The missing YAML 1.2 implementation for Rust. [![build badge](https://api.travis-ci.org/chyh1990/yaml-rust.svg?branch=master)](https://travis-ci.org/chyh1990/yaml-rust)
-  * [dtolnay/serde-yaml](https://github.com/dtolnay/serde-yaml) [[serde\_yaml](https://crates.io/crates/serde_yaml)] — YAML support for [Serde](https://github.com/serde-rs/serde) framework [![build badge](https://api.travis-ci.org/dtolnay/serde-yaml.svg?branch=master)](https://travis-ci.org/dtolnay/serde-yaml)
+  * [dtolnay/serde-yaml](https://github.com/dtolnay/serde-yaml) [[serde\_yaml](https://crates.io/crates/serde_yaml)] — YAML support for [Serde](https://github.com/serde-rs/serde) framework [![build](https://img.shields.io/github/workflow/status/dtolnay/serde-yaml/CI/master)](https://github.com/dtolnay/serde-yaml/actions?query=branch%3Amaster)
   * [vitiral/stfu8](https://github.com/vitiral/stfu8) [[stfu8](https://crates.io/crates/stfu8)] — Sorta Text Format in UTF-8 [![build badge](https://api.travis-ci.org/vitiral/stfu8.svg?branch=master)](https://travis-ci.org/vitiral/stfu8)
 
 ### Filesystem
@@ -1168,7 +1168,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
 * [GTK+](https://www.gtk.org/) [[gtk](https://crates.io/keywords/gtk)]
   * [gtk-rs/gtk3-rs](https://github.com/gtk-rs/gtk3-rs) - GTK3 binding for rust ![CI](https://github.com/gtk-rs/gtk3-rs/workflows/CI/badge.svg)
   * [relm](https://github.com/antoyo/relm) — Asynchronous, GTK+-based, GUI library, inspired by Elm [![build badge](https://api.travis-ci.org/antoyo/relm.svg?branch=master)](https://travis-ci.org/antoyo/relm)
-* [hecrj/iced](https://github.com/hecrj/iced) — A cross-platform GUI library for Rust focused on simplicity and type-safety. Inspired by Elm.
+* [iced-rs/iced](https://github.com/iced-rs/iced) — A cross-platform GUI library for Rust focused on simplicity and type-safety. Inspired by Elm.
 * [ImGui](https://github.com/ocornut/imgui)
   * [imgui-rs](https://github.com/imgui-rs/imgui-rs) — Rust bindings for ImGui [![Build Status](https://github.com/imgui-rs/imgui-rs/workflows/ci/badge.svg?branch=master)](https://github.com/imgui-rs/imgui-rs/actions)
 * [IUP](http://webserver2.tecgraf.puc-rio.br/iup/)
@@ -1497,7 +1497,7 @@ A registry allows you to publish your Rust libraries as crate packages, to share
   * [Rust Gym](https://github.com/warycat/rustgym) - A big collection of coding interview problems solved in Rust.
   * [Rust in Action](https://www.manning.com/books/rust-in-action) — A hands-on guide to systems programming with Rust by [Tim McNamara](https://github.com/timClicks) (paid)
   * [Rust in Motion](https://www.manning.com/livevideo/rust-in-motion?a_aid=cnichols&a_bid=6a993c2e) — A video series by [Carol Nichols](https://github.com/carols10cents) and [Jake Goulding](https://github.com/shepmaster) (paid)
-  * [Rust Online Courses at Classpert](https://classpert.com/topics/rust) — A list of Rust online courses (paid) from Classpert Online Course Search
+  * [Rust Online Courses at Classpert](https://classpert.com/search/rust) — A list of Rust online courses (paid) from Classpert Online Course Search
   * [rust-learning](https://github.com/ctjhoa/rust-learning) — A collection of useful resources to learn Rust
   * [Rustlings](https://github.com/rust-lang/rustlings) — small exercises to get you used to reading and writing Rust code
   * [stdx](https://github.com/brson/stdx) — Learn these crates first as an extension to std
