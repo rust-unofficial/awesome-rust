@@ -1494,6 +1494,7 @@ A registry allows you to publish your Rust libraries as crate packages, to share
   * [Rust in Action](https://www.manning.com/books/rust-in-action) — A hands-on guide to systems programming with Rust by [Tim McNamara](https://github.com/timClicks) (paid)
   * [Rust in Motion](https://www.manning.com/livevideo/rust-in-motion?a_aid=cnichols&a_bid=6a993c2e) — A video series by [Carol Nichols](https://github.com/carols10cents) and [Jake Goulding](https://github.com/shepmaster) (paid)
   * [Rust Online Courses at Classpert](https://classpert.com/topics/rust) — A list of Rust online courses (paid) from Classpert Online Course Search
+  * [Rust Servers, Services and Apps](https://www.manning.com/books/rust-servers-services-and-apps) — Build backend servers, services, and front-ends in Rust to get fast, reliable, and maintainable applications. [Prabhu Eshwarla] (paid)
   * [rust-learning](https://github.com/ctjhoa/rust-learning) — A collection of useful resources to learn Rust
   * [Rustlings](https://github.com/rust-lang/rustlings) — small exercises to get you used to reading and writing Rust code
   * [stdx](https://github.com/brson/stdx) — Learn these crates first as an extension to std
