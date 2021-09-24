@@ -284,6 +284,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 ### Security tools
 
 * [kpcyrd/badtouch](https://github.com/kpcyrd/badtouch) — A scriptable network authentication cracker [![build badge](https://api.travis-ci.org/kpcyrd/badtouch.svg?branch=master)](https://travis-ci.org/kpcyrd/badtouch)
+* [replydev/cotp](https://github.com/replydev/cotp) - Trustworthy encrypted command line TOTP authenticator app compatible with multiple backups. [![Actions Status](https://github.com/replydev/cotp/workflows/Build/badge.svg)](https://github.com/replydev/cotp/actions) [![AUR package](https://img.shields.io/aur/version/cotp)](https://aur.archlinux.org/packages/cotp/) [![crates.io](https://img.shields.io/crates/v/cotp)](https://crates.io/crates/cotp) [![Downloads](https://img.shields.io/crates/d/cotp)](https://crates.io/crates/cotp)
 * [lethe](https://github.com/kostassoid/lethe) — A secure cross-platform drive wiping utility [![Version info](https://img.shields.io/crates/v/lethe.svg)](https://crates.io/crates/lethe) [![Build Status](https://api.travis-ci.org/kostassoid/lethe.svg?branch=master)](https://travis-ci.org/kostassoid/lethe)
 * [arvancloud/libinjection-rs](https://github.com/arvancloud/libinjection-rs) — Rust bindings for [libinjection](https://github.com/client9/libinjection) [![build badge](https://api.travis-ci.org/arvancloud/libinjection-rs.svg?branch=master)](https://travis-ci.org/arvancloud/libinjection-rs)
 * [ripasso](https://github.com/cortex/ripasso/) — A password manager, filesystem compatible with pass
