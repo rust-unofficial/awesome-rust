@@ -66,6 +66,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
     - [Database](#database-1)
     - [Date and time](#date-and-time)
     - [Distributed systems](#distributed-systems)
+    - [Domain driven design](#domain-driven-design)
     - [Email](#email)
     - [Encoding](#encoding)
     - [Filesystem](#filesystem)
@@ -986,6 +987,10 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
   * [schickling/rust-beanstalkd](https://github.com/schickling/rust-beanstalkd) — [Beanstalkd](https://github.com/beanstalkd/beanstalkd) bindings [![build badge](https://api.travis-ci.org/schickling/rust-beanstalkd.svg?branch=master)](https://travis-ci.org/schickling/rust-beanstalkd)
 * HDFS
   * [hyunsik/hdfs-rs](https://github.com/hyunsik/hdfs-rs) [[hdfs](https://crates.io/crates/hdfs)] — libhdfs bindings
+
+### Domain driven design
+
+  * [serverlesstechnology/cqrs](https://github.com/serverlesstechnology/cqrs) [[cqrs-es](https://crates.io/crates/cqrs-es)] — A framework for CQRS and event sourcing with [user guide](https://doc.rust-cqrs.org/)
 
 ### Email
 
