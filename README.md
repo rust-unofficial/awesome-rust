@@ -1480,7 +1480,7 @@ A registry allows you to publish your Rust libraries as crate packages, to share
   * [Awesome Rust Streaming](https://github.com/jamesmunns/awesome-rust-streaming) - A community curated list of livestreams about Rust.
   * [awesome-rust-mentors](https://rustbeginners.github.io/awesome-rust-mentors/) — A list of helpful Rust mentors willing to take mentees and eductate them about Rust and programming.
   * [Build a language VM](https://blog.subnetzero.io/post/building-language-vm-part-00/)
-  * [Code Like a Pro in Rust](https://www.manning.com/books/code-like-a-pro-in-rust) - A book that shows you how to quickly create and ship Rust programs without wasting time on language quirks, compiler problems, and unexpected complexities..
+  * [Code Like a Pro in Rust](https://www.manning.com/books/code-like-a-pro-in-rust) - A book that shows you how to quickly create and ship Rust programs without wasting time on language quirks, compiler problems, and unexpected complexities
   * [Code Playground](https://www.codeplayground.app/) - Interactively edit & play rust snippets on your iPhone and iPad devices.
   * [Easy Rust](https://github.com/Dhghomon/easy_rust) - Learn Rust in easy English.
   * [exercism.io](https://exercism.io/tracks/rust) — programming exercises that help you learn new concepts in Rust.
