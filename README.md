@@ -385,6 +385,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [unrelentingtech/freepass](https://github.com/unrelentingtech/freepass) — The free password manager for power users.
 * [vamolessa/verco](https://github.com/vamolessa/verco) [[verco](https://crates.io/crates/verco)] — A simple Git/Hg tui client focused on keyboard shortcuts
 * [vaultwarden](https://github.com/dani-garcia/vaultwarden#readme) [![Build](https://github.com/dani-garcia/vaultwarden/actions/workflows/build.yml/badge.svg)](https://github.com/dani-garcia/vaultwarden/actions/workflows/build.yml) — Alternative implementation of the Bitwarden server API written in Rust
+* [wethr](https://github.com/risoflora/wethr) — Command line weather tool. [![CI/CD](https://img.shields.io/github/workflow/status/risoflora/wethr/CI?style=flat-square)](https://github.com/risoflora/wethr/actions/workflows/CI.yml)
 * [yaa110/cb](https://github.com/yaa110/cb) — Command line interface to manage clipboard [![Build Status](https://api.travis-ci.org/yaa110/cb.svg?branch=master)](https://travis-ci.org/yaa110/cb)
 
 ### Video
