@@ -40,5 +40,6 @@ fn main() {
     let fixed_contents = fix_dashes(lines);
 
     // Write the awesome file.
-    fs::write("README.md", fixed_contents.join("\n").as_bytes()).expect("Failed to write to the file");
+    fs::write("README.md", fixed_contents.join("\n").as_bytes())
+        .expect("Failed to write to the file");
 }
