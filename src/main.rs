@@ -161,7 +161,7 @@ fn get_url(url: String) -> BoxFuture<'static, (String, Result<(), CheckerError>)
 
 lazy_static! {
     static ref GITHUB_REPO_REGEX: Regex =
-        Regex::new(r"^https://github.com/(?P<org>[^/]+)/(?P<repo>[^/]+)/?$").unwrap();
+        Regex::new(r"^https://github.com/(?P<org>[^/]+)/(?P<repo>[^/]+)(.*)").unwrap();
     static ref GITHUB_API_REGEX: Regex = Regex::new(r"https://api.github.com/").unwrap();
     static ref CRATE_REGEX: Regex =
         Regex::new(r"https://crates.io/crates/(?P<crate>[^/]+)/?$").unwrap();
@@ -392,13 +392,6 @@ async fn main() -> Result<(), Error> {
             cargo_downloads: BTreeMap::new(),
         });
 
-    // Overrides for popularity count, reasons at the top of the file
-    for url in POPULARITY_OVERRIDES.iter() {
-        popularity_data
-            .github_stars
-            .insert(url.clone(), MINIMUM_GITHUB_STARS);
-    }
-
     let mut url_checks = vec![];
 
     let min_between_checks: Duration = Duration::days(3);
@@ -450,25 +443,35 @@ async fn main() -> Result<(), Error> {
                     Tag::Link(_link_type, url, _title) | Tag::Image(_link_type, url, _title) => {
                         if !url.starts_with("#") {
                             let new_url = url.to_string();
-                            let existing = popularity_data.github_stars.get(&new_url);
-                            if let Some(stars) = existing {
-                                // Use existing star data, but re-retrieve url to check aliveness
-                                // Some will have overrides, so don't check the regex yet
-                                github_stars = Some(*stars)
-                            } else if GITHUB_REPO_REGEX.is_match(&url) && existing.is_none() {
-                                github_stars = get_stars(&url).await;
-                                if let Some(raw_stars) = github_stars {
-                                    popularity_data.github_stars.insert(new_url, raw_stars);
-                                    if raw_stars >= required_stars {
-                                        fs::write(
-                                            "results/popularity.yaml",
-                                            serde_yaml::to_string(&popularity_data)?,
-                                        )?;
+                            if POPULARITY_OVERRIDES.contains(&new_url) {
+                                github_stars = Some(MINIMUM_GITHUB_STARS);
+                            } else if GITHUB_REPO_REGEX.is_match(&url) {
+                                let github_url = GITHUB_REPO_REGEX
+                                    .replace_all(&url, "https://github.com/$org/$repo")
+                                    .to_string();
+                                let existing = popularity_data.github_stars.get(&github_url);
+                                if let Some(stars) = existing {
+                                    // Use existing star data, but re-retrieve url to check aliveness
+                                    // Some will have overrides, so don't check the regex yet
+                                    github_stars = Some(*stars)
+                                } else {
+                                    github_stars = get_stars(&github_url).await;
+                                    if let Some(raw_stars) = github_stars {
+                                        popularity_data
+                                            .github_stars
+                                            .insert(github_url.to_string(), raw_stars);
+                                        if raw_stars >= required_stars {
+                                            fs::write(
+                                                "results/popularity.yaml",
+                                                serde_yaml::to_string(&popularity_data)?,
+                                            )?;
+                                        }
+                                        link_count += 1;
+                                        continue;
                                     }
                                 }
-                                link_count += 1;
-                                continue;
-                            } else if CRATE_REGEX.is_match(&url) {
+                            }
+                            if CRATE_REGEX.is_match(&url) {
                                 let existing = popularity_data.cargo_downloads.get(&new_url);
                                 if let Some(downloads) = existing {
                                     cargo_downloads = Some(*downloads);
