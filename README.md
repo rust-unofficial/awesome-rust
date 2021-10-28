@@ -1262,6 +1262,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [fussybeaver/bollard](https://github.com/fussybeaver/bollard) — Docker daemon API in Rust
 * FTP
   * [mattnenterprise/rust-ftp](https://github.com/mattnenterprise/rust-ftp) — an [FTP](https://en.wikipedia.org/wiki/File_Transfer_Protocol) client for Rust [![build badge](https://api.travis-ci.org/mattnenterprise/rust-ftp.svg?branch=master)](https://travis-ci.org/mattnenterprise/rust-ftp)
+  * [bolcom/unFTP](https://github.com/bolcom/unFTP) — an FTP server built in Rust
 * gRPC
   * [tikv/grpc-rs](https://github.com/tikv/grpc-rs) — The gRPC library for Rust built on C Core library and futures [![Build Status](https://api.travis-ci.org/tikv/grpc-rs.svg?branch=master)](https://travis-ci.org/tikv/grpc-rs)
 * IPNetwork
