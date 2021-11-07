@@ -288,6 +288,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [phra/rustbuster](https://github.com/phra/rustbuster) — A Comprehensive Web Fuzzer and Content Discovery Tool
 * [ripasso](https://github.com/cortex/ripasso/) — A password manager, filesystem compatible with pass
 * [rustscan/rustscan](https://github.com/RustScan/RustScan) — Make Nmap faster with this port scanning tool [![build badge](https://github.com/RustScan/RustScan/workflows/Continuous%20integration/badge.svg?branch=master)](https://github.com/RustScan/RustScan/actions?query=workflow%3A%22Continuous+integration%22)
+* [b23r0/Cliws](https://github.com/b23r0/Cliws) — A bind/reverse PTY shell with Windows&Linux support. [![Build Status](https://app.travis-ci.com/b23r0/Cliws.svg?branch=main)](https://app.travis-ci.com/b23r0/Cliws)
 
 ### System tools
 
