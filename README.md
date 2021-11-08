@@ -498,6 +498,8 @@ See also [A comparison of operating systems written in Rust](https://github.com/
   * [wasm-template-rust](https://github.com/sn99/wasm-template-rust) — A wasm template for Rust to publish to gh-pages without npm-deploy [![Build Status](https://api.travis-ci.com/sn99/wasm-template-rust.svg?branch=master)](https://app.travis-ci.com/github/sn99/wasm-template-rust)
 * Heroku
   * [emk/heroku-buildpack-rust](https://github.com/emk/heroku-buildpack-rust) — A buildpack for Rust applications on Heroku
+* Simple Web Deploy
+  * [shelcodesniper/SimpleDeployer](https://github.com/shellcodesniper/SimpleDeployer) — A Simple Continuous Deploy Method for Web Application [![Build Status](https://app.travis-ci.com/shellcodesniper/SimpleDeployer.svg?branch=main)](https://app.travis-ci.com/shellcodesniper/SimpleDeployer)
 
 ### Embedded
 
