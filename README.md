@@ -750,6 +750,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 ### Cloud
 
 * AWS [[aws](https://crates.io/keywords/aws)]
+  * [awslabs/aws-lambda-rust-runtime](https://github.com/awslabs/aws-lambda-rust-runtime) [[lambda_runtime](https://crates.io/crates/lambda_runtime)] — A Rust runtime for AWS Lambda  [![build badge](https://github.com/awslabs/aws-lambda-rust-runtime/workflows/Rust/badge.svg)](https://github.com/awslabs/aws-lambda-rust-runtime/actions)
   * [rusoto/rusoto](https://github.com/rusoto/rusoto) — [![build badge](https://api.travis-ci.org/rusoto/rusoto.svg?branch=master)](https://travis-ci.org/rusoto/rusoto)
 * Load Balancer
   * [Convey](https://github.com/bparli/convey) - Layer 4 Load Balancer with dynamic configuration loading.
