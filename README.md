@@ -1330,7 +1330,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
 ### Peripherals
 
 * Serial Port
-  * [Susurrus/serialport-rs](https://github.com/Susurrus/serialport-rs) [[serialport](https://docs.rs/serialport/3.0.0/serialport/)] — A cross-platform library that provides access to a serial port
+  * [Susurrus/serialport-rs](https://gitlab.com/susurrus/serialport-rs) [[serialport](https://crates.io/crates/serialport)] — A cross-platform library that provides access to a serial port
 
 ### Platform specific
 
