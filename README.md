@@ -1103,8 +1103,6 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
   * [JasonShin/fp-core.rs](https://github.com/JasonShin/fp-core.rs) — A library for functional programming in Rust
   * [myrrlyn/tap](https://github.com/myrrlyn/tap) - Suffix-Position Pipeline Behavior
 
-
-
 ### Game development
 
 See also [Are we game yet?](https://arewegameyet.rs)
