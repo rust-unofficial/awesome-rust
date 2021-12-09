@@ -504,9 +504,7 @@ async fn main() -> Result<(), Error> {
                             list_items.last_mut().unwrap().data.push(list_item.clone());
                             in_list_item = false;
                         }
-                        list_items.push(ListInfo {
-                            data: Vec::new(),
-                        });
+                        list_items.push(ListInfo { data: Vec::new() });
                     }
                     Tag::Item => {
                         if in_list_item && list_item.len() > 0 {
