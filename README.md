@@ -883,6 +883,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [sodiumoxide/sodiumoxide](https://github.com/sodiumoxide/sodiumoxide) — [libsodium](https://github.com/jedisct1/libsodium) bindings [![build badge](https://api.travis-ci.org/sodiumoxide/sodiumoxide.svg?branch=master)](https://travis-ci.org/sodiumoxide/sodiumoxide)
 * [vityafx/randomorg](https://github.com/vityafx/randomorg) - A <https://www.random.org/> client library. [![Crates badge](https://img.shields.io/crates/v/randomorg.svg)](https://crates.io/crates/randomorg)
 * [w3f/schnorrkel](https://github.com/w3f/schnorrkel) - Schnorr VRFs and signatures on the Ristretto group
+* [zolagonano/cienli](https://github.com/zolagonano/cienli) - A library of historical ciphers implemented in rust
 
 ### Database
 
