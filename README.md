@@ -291,7 +291,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [ripasso](https://github.com/cortex/ripasso/) — A password manager, filesystem compatible with pass
 * [rustscan/rustscan](https://github.com/RustScan/RustScan) — Make Nmap faster with this port scanning tool [![build badge](https://github.com/RustScan/RustScan/workflows/Continuous%20integration/badge.svg?branch=master)](https://github.com/RustScan/RustScan/actions?query=workflow%3A%22Continuous+integration%22)
 * [zolagonao/rasswd](https://github.com/zolagonano/rasswd) - A simple and minimal password generator implemented in rust
- and minimal
+ 
 ### System tools
 
 * [ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide/) — A fast alternative to `cd` that learns your habits [![release](https://github.com/ajeetdsouza/zoxide/workflows/.github/workflows/release.yml/badge.svg)](https://github.com/ajeetdsouza/zoxide/actions)
