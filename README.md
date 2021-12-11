@@ -290,7 +290,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [phra/rustbuster](https://github.com/phra/rustbuster) — A Comprehensive Web Fuzzer and Content Discovery Tool
 * [ripasso](https://github.com/cortex/ripasso/) — A password manager, filesystem compatible with pass
 * [rustscan/rustscan](https://github.com/RustScan/RustScan) — Make Nmap faster with this port scanning tool [![build badge](https://github.com/RustScan/RustScan/workflows/Continuous%20integration/badge.svg?branch=master)](https://github.com/RustScan/RustScan/actions?query=workflow%3A%22Continuous+integration%22)
-* [zolagonao/rasswd](https://github.com/zolagonano/rasswd) - A simple and minimal password generator implemented in rust
+* [zolagonao/rasswd](https://github.com/zolagonano/rasswd) [[rasswd](https://crates.io/crates/rasswd)] - A simple and minimal password generator implemented in rust
  
 ### System tools
 
@@ -884,7 +884,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [sodiumoxide/sodiumoxide](https://github.com/sodiumoxide/sodiumoxide) — [libsodium](https://github.com/jedisct1/libsodium) bindings [![build badge](https://api.travis-ci.org/sodiumoxide/sodiumoxide.svg?branch=master)](https://travis-ci.org/sodiumoxide/sodiumoxide)
 * [vityafx/randomorg](https://github.com/vityafx/randomorg) - A <https://www.random.org/> client library. [![Crates badge](https://img.shields.io/crates/v/randomorg.svg)](https://crates.io/crates/randomorg)
 * [w3f/schnorrkel](https://github.com/w3f/schnorrkel) - Schnorr VRFs and signatures on the Ristretto group
-* [zolagonano/cienli](https://github.com/zolagonano/cienli) - A library of historical ciphers implemented in rust
+* [zolagonano/cienli](https://github.com/zolagonano/cienli) [[cienli](https://crates.io/crates/cienli)] - A library of historical ciphers implemented in rust
 
 ### Database
 
@@ -1486,7 +1486,7 @@ See also [Are we web yet?](https://www.arewewebyet.org) and [Rust web framework 
   * [FuGangqiang/mdblog.rs](https://github.com/FuGangqiang/mdblog.rs) [[mdblog](https://crates.io/crates/mdblog)] — Static site generator from markdown files.
   * [getzola/zola](https://github.com/getzola/zola) [[zola](https://www.getzola.org/)] — An opinionated static site generator with everything built-in. [![Build Status](https://dev.azure.com/getzola/zola/_apis/build/status/getzola.zola?branchName=master)](https://dev.azure.com/getzola/zola/_build)
   * [leven-the-blog/leven](https://github.com/leven-the-blog/leven) [[leven](https://crates.io/crates/leven)] — A simple, parallelized blog generator. [![build badge](https://api.travis-ci.org/quadrupleslap/leven.svg?branch=master)](https://travis-ci.org/quadrupleslap/leven)
-  * [zolagonano/stog](https://github.com/zolagonano/stog) - A static blog generator from markdown files
+  * [zolagonano/stog](https://github.com/zolagonano/stog) [[stog](https://crates.io/crates/stog)] - A static blog generator from markdown files
 * [WebSocket](https://datatracker.ietf.org/doc/rfc6455/)
   * [actix/sockjs](https://github.com/actix/sockjs) — A [SockJS](https://github.com/sockjs) server for Rust [![build badge](https://api.travis-ci.org/actix/sockjs.svg?branch=master)](https://travis-ci.org/actix/sockjs)
   * [housleyjk/ws-rs](https://github.com/housleyjk/ws-rs) — lightweight, event-driven WebSockets for Rust [![build badge](https://api.travis-ci.org/housleyjk/ws-rs.svg?branch=stable)](https://travis-ci.org/housleyjk/ws-rs)
