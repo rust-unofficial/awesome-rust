@@ -420,7 +420,6 @@ async fn main() -> Result<(), Error> {
 
     #[derive(Debug)]
     struct ListInfo {
-        location: usize,
         data: Vec<String>,
     }
 
@@ -436,7 +435,7 @@ async fn main() -> Result<(), Error> {
     let mut last_level: u32 = 0;
     let mut star_override_level: Option<u32> = None;
 
-    for (event, range) in parser.into_offset_iter() {
+    for (event, _range) in parser.into_offset_iter() {
         match event {
             Event::Start(tag) => {
                 match tag {
@@ -505,10 +504,7 @@ async fn main() -> Result<(), Error> {
                             list_items.last_mut().unwrap().data.push(list_item.clone());
                             in_list_item = false;
                         }
-                        list_items.push(ListInfo {
-                            location: range.start,
-                            data: Vec::new(),
-                        });
+                        list_items.push(ListInfo { data: Vec::new() });
                     }
                     Tag::Item => {
                         if in_list_item && list_item.len() > 0 {
