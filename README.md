@@ -681,6 +681,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [maciejkula/rustlearn](https://github.com/maciejkula/rustlearn) — Machine learning crate for Rust. [![Circle CI](https://circleci.com/gh/maciejkula/rustlearn.svg?style=svg)](https://app.circleci.com/pipelines/github/maciejkula/rustlearn)
 * [rust-ml/linfa](https://github.com/rust-ml/linfa) — Machine learning framework.
 * [tensorflow/rust](https://github.com/tensorflow/rust) — Rust language bindings for TensorFlow. [![Build Status](https://api.travis-ci.org/tensorflow/rust.svg?branch=master)](https://travis-ci.org/tensorflow/rust)
+* [pav.rs](https://github.com/sanity/pav.rs) - Rust implementation of the Pair Adjacent Violators algorithm for Isotonic Regression. [![Rust](https://github.com/sanity/pav.rs/actions/workflows/rust.yml/badge.svg)](https://github.com/sanity/pav.rs/actions/workflows/rust.yml)
 
 ### Astronomy
 
