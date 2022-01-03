@@ -277,6 +277,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [espanso](https://github.com/federico-terzi/espanso) — A cross-platform Text Expander written in Rust [![Build Status](https://dev.azure.com/freddy6896/espanso/_apis/build/status/federico-terzi.espanso?branchName=master)](https://dev.azure.com/freddy6896/espanso/_build)
 * [eureka](https://crates.io/crates/eureka) — A CLI tool to input and store your ideas without leaving the terminal
 * [pier-cli/pier](https://github.com/pier-cli/pier) — A central repository to manage (add, search metadata, etc.) all your one-liners, scripts, tools, and CLIs
+* [r-zenine/sam](https://github.com/r-zenine/sam) — sam stands for small aliases manager. It is a command line tool that helps you manage/execute your aliases and other common command.
 
 ### Security tools
 
