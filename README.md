@@ -626,7 +626,7 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust Tools](https://
 
 ### Testing
 
-[[testing](https://crates.io/keywords/testing)]
+[[test](https://crates.io/keywords/test), [testing](https://crates.io/keywords/testing)]
 
 * Code Coverage
   * [tarpaulin](https://crates.io/crates/cargo-tarpaulin) — A code coverage tool designed for Rust [![build badge](https://api.travis-ci.org/repositories/xd009642/tarpaulin.svg?branch=master)](https://travis-ci.org/xd009642/tarpaulin)
