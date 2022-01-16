@@ -281,6 +281,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 
 ### Security tools
 
+* [abcdict](https://github.com/b23r0/abcdict) - A better customization password dictionary generator. [![Build Status](https://img.shields.io/github/workflow/status/b23r0/abcdict/Rust)](https://github.com/b23r0/abcdict/actions/workflows/rust.yml)
 * [arvancloud/libinjection-rs](https://github.com/arvancloud/libinjection-rs) — Rust bindings for [libinjection](https://github.com/client9/libinjection) [![build badge](https://api.travis-ci.org/arvancloud/libinjection-rs.svg?branch=master)](https://travis-ci.org/arvancloud/libinjection-rs)
 * [b23r0/Cliws](https://github.com/b23r0/Cliws) — A bind/reverse PTY shell with Windows&Linux support. [![Build Status](https://api.travis-ci.com/b23r0/cliws.svg?branch=main)](https://app.travis-ci.com/b23r0/cliws)
 * [epi052/feroxbuster](https://github.com/epi052/feroxbuster) - A simple, fast, recursive content discovery tool written in Rust (
