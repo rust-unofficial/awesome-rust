@@ -199,6 +199,9 @@ See also [Rust — Production](https://www.rust-lang.org/production) organizatio
 
 See also [crates matching keyword 'emulator'](https://crates.io/keywords/emulator).
 
+* CHIP-8
+  * [ColinEberhardt/wasm-rust-chip8](https://github.com/ColinEberhardt/wasm-rust-chip8) — A WebAssembly CHIP-8 emulator written with Rust
+  * [starrhorne/chip8-rust](https://github.com/starrhorne/chip8-rust) — Yet another rust chip8 emulator
 * Commodore 64
   * [kondrak/rust64](https://github.com/kondrak/rust64) — [![build badge](https://api.travis-ci.org/kondrak/rust64.svg?branch=master)](https://travis-ci.org/kondrak/rust64)
 * Flash Player
