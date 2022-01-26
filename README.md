@@ -1476,6 +1476,12 @@ A registry allows you to publish your Rust libraries as crate packages, to share
   * [Learning systems programming with Rust](https://speakerdeck.com/jvns/learning-systems-programming-with-rust) — Presented by [Julia Evans](https://twitter.com/@b0rk) @ Rustconf 2016.
   * [Rust: Hack Without Fear!](https://www.youtube.com/watch?v=lO1z-7cuRYI) — Presented by [Nicholas Matsakis](https://github.com/nikomatsakis) @ C++Now 2018
   * [Shipping a Solid Rust Crate](https://www.youtube.com/watch?v=t4CyEKb-ywA) — Presented by [Michael Gattozzi](https://github.com/mgattozzi) @ RustConf 2017
+  * [live@Manning Rust Conference](https://www.youtube.com/watch?v=9nINNurVqz8) — Presented by [Carol Nichols](https://github.com/mgattozzi) [Maciej Hirsz](https://github.com/maciejhirsz) [Olivia Ifrim](https://github.com/iolivia) [Tim McNamara](https://github.com/timClicks) [Nell Shamrell-Harrington](https://github.com/nellshamrell) [Pierre Krieger](https://github.com/tomaka) [Richard Walters](https://github.com/rhymu8354) [Chris Griffing](https://github.com/cmgriffing) [Lachezar Lechev](https://github.com/elpiel) [Michael Hausenblas](https://github.com/mhausenblas) @ live@Manning Rust Conference 2020
+  * [Creating a Chat Server with async Rust and Tokio](https://www.youtube.com/watch?v=4DqP57BHaXI) — Presented by [Lilly Mara](https://github.com/lily-mara) @ Manning on Twitch 2021
+  * [The Rust Memory Safety Model explained](https://www.youtube.com/watch?v=54HgkOr6Pkk) — Presented by [Prabhu Eshwarla](https://twitter.com/peshwarla) @ Manning on Twitch 2021
+  * [Three strategies for resolving ownership issues in Rust](https://www.youtube.com/watch?v=V8TUVZ0LNhU) — Presented by [Tim McNamara](https://github.com/timClicks) @ Manning on Twitch 2021
+  * [Is the Rust Borrow Checker overexplained?]([https://www.youtube.com/watch?v=SJjMnw9ZBmM) — Presented by [Tim McNamara](https://github.com/timClicks) @ Manning on Twitch 2021
+  * [Why Python? Why Rust? When to use one over the other?]([https://www.youtube.com/watch?v=POFK_yLg1U4) — Presented by [Tim McNamara] & (https://github.com/timClicks) & [Naomi Ceder](https://github.com/nceder) @ Manning on Twitch 2021
 * Learning
   * [Awesome Rust Streaming](https://github.com/jamesmunns/awesome-rust-streaming) - A community curated list of livestreams about Rust.
   * [awesome-rust-mentors](https://rustbeginners.github.io/awesome-rust-mentors/) — A list of helpful Rust mentors willing to take mentees and eductate them about Rust and programming.
