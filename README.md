@@ -1535,8 +1535,8 @@ A registry allows you to publish your Rust libraries as crate packages, to share
   * [Creating a Chat Server with async Rust and Tokio](https://www.youtube.com/watch?v=4DqP57BHaXI) — Presented by [Lilly Mara](https://github.com/lily-mara) @ Manning on Twitch 2021
   * [The Rust Memory Safety Model explained](https://www.youtube.com/watch?v=54HgkOr6Pkk) — Presented by [Prabhu Eshwarla](https://twitter.com/peshwarla) @ Manning on Twitch 2021
   * [Three strategies for resolving ownership issues in Rust](https://www.youtube.com/watch?v=V8TUVZ0LNhU) — Presented by [Tim McNamara](https://github.com/timClicks) @ Manning on Twitch 2021
-  * [Is the Rust Borrow Checker overexplained?]([https://www.youtube.com/watch?v=SJjMnw9ZBmM) — Presented by [Tim McNamara](https://github.com/timClicks) @ Manning on Twitch 2021
-  * [Why Python? Why Rust? When to use one over the other?]([https://www.youtube.com/watch?v=POFK_yLg1U4) — Presented by [Tim McNamara] & (https://github.com/timClicks) & [Naomi Ceder](https://github.com/nceder) @ Manning on Twitch 2021
+  * [Is the Rust Borrow Checker overexplained?](https://www.youtube.com/watch?v=SJjMnw9ZBmM) — Presented by [Tim McNamara](https://github.com/timClicks) @ Manning on Twitch 2021
+  * [Why Python? Why Rust? When to use one over the other?](https://www.youtube.com/watch?v=POFK_yLg1U4) — Presented by [Tim McNamara] & (https://github.com/timClicks) & [Naomi Ceder](https://github.com/nceder) @ Manning on Twitch 2021
 * Learning
   * [Awesome Rust Streaming](https://github.com/jamesmunns/awesome-rust-streaming) - A community curated list of livestreams about Rust.
   * [awesome-rust-mentors](https://rustbeginners.github.io/awesome-rust-mentors/) — A list of helpful Rust mentors willing to take mentees and eductate them about Rust and programming.
