@@ -251,6 +251,7 @@ See also [Games Made With Piston](https://github.com/PistonDevelopers/piston/wik
 * [RazrFalcon/svgcleaner](https://github.com/RazrFalcon/svgcleaner) — tidies SVG graphics
 * [turnage/valora](https://crates.io/crates/valora) — A library for generative fine art ![Rust](https://github.com/turnage/valora/workflows/Rust/badge.svg?branch=master)
 * [Twinklebear/tray_rust](https://github.com/Twinklebear/tray_rust) — A ray tracer [![build badge](https://api.travis-ci.org/Twinklebear/tray_rust.svg?branch=master)](https://travis-ci.org/Twinklebear/tray_rust)
+* [flxzt/rnote](https://github.com/flxzt/rnote) — A note taking app with handwriting support
 
 ### Image processing
 
