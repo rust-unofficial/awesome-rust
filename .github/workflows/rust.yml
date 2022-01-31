@@ -20,6 +20,7 @@ jobs:
           profile: minimal
           toolchain: stable
           override: true
+          components: rustfmt
       - uses: Swatinem/rust-cache@v1
       - name: Get random cache id
         run: echo "CACHE_ID=$((RANDOM))" >> $GITHUB_ENV
@@ -32,6 +33,8 @@ jobs:
             results-${{ hashFiles('Cargo.lock') }}-${{ hashFiles('README.md') }}-
             results-${{ hashFiles('Cargo.lock') }}-
             results-
+      - name: Check Format
+        run: cargo fmt -- --check
       - name: Build
         run: cargo build
       - name: Run
