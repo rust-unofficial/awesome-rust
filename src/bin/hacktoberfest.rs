@@ -180,7 +180,6 @@ async fn main() -> Result<(), Error> {
 
     let mut to_check: Vec<String> = vec![];
 
-
     for (event, _) in parser.into_offset_iter() {
         match event {
             Event::Start(tag) => match tag {
