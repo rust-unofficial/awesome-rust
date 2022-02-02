@@ -180,11 +180,6 @@ async fn main() -> Result<(), Error> {
 
     let mut to_check: Vec<String> = vec![];
 
-    #[derive(Debug)]
-    struct ListInfo {
-        location: usize,
-        data: Vec<String>,
-    }
 
     for (event, _) in parser.into_offset_iter() {
         match event {
