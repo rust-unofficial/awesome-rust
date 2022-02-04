@@ -49,6 +49,7 @@ lazy_static! {
         "https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb".to_string(), // > 350k downloads
         "https://gitpod.io".to_string(), // https://github.com/gitpod-io/gitpod has 4.7k stars
         "https://wiki.gnome.org/Apps/Builder".to_string(), // https://gitlab.gnome.org/GNOME/gnome-builder has 133 stars
+        "https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml".to_string(), // > 860k downloads
         "https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer".to_string(), // > 260k downloads
         "https://marketplace.visualstudio.com/items?itemName=rust-lang.rust".to_string(), // > 1M downloads
         "https://docs.rs".to_string(), // https://github.com/rust-lang/docs.rs has >600 stars
@@ -420,7 +421,6 @@ async fn main() -> Result<(), Error> {
 
     #[derive(Debug)]
     struct ListInfo {
-        location: usize,
         data: Vec<String>,
     }
 
@@ -436,7 +436,7 @@ async fn main() -> Result<(), Error> {
     let mut last_level: u32 = 0;
     let mut star_override_level: Option<u32> = None;
 
-    for (event, range) in parser.into_offset_iter() {
+    for (event, _range) in parser.into_offset_iter() {
         match event {
             Event::Start(tag) => {
                 match tag {
@@ -505,10 +505,7 @@ async fn main() -> Result<(), Error> {
                             list_items.last_mut().unwrap().data.push(list_item.clone());
                             in_list_item = false;
                         }
-                        list_items.push(ListInfo {
-                            location: range.start,
-                            data: Vec::new(),
-                        });
+                        list_items.push(ListInfo { data: Vec::new() });
                     }
                     Tag::Item => {
                         if in_list_item && list_item.len() > 0 {
