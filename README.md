@@ -1291,6 +1291,8 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [bluez/bluer](https://github.com/bluez/bluer) [[bluer](https://crates.io/crates/bluer)] — Official BlueZ bindings for Rust. [![build badge](https://github.com/bluez/bluer/actions/workflows/rust.yml/badge.svg?branch=master)](https://github.com/bluez/bluer/actions/workflows/rust.yml)
 * CoAP
   * [Covertness/coap-rs](https://github.com/Covertness/coap-rs) — A [Constrained Application Protocol(CoAP)](https://datatracker.ietf.org/doc/html/rfc7252) library for Rust. [![build badge](https://api.travis-ci.org/Covertness/coap-rs.svg?branch=master)](https://travis-ci.org/Covertness/coap-rs)
+* Consensus
+  * [facebookresearch/narwhal](https://github.com/facebookresearch/narwhal) — an implementation of [Narwhal and Tusk](https://arxiv.org/pdf/2105.11827.pdf) consensus
 * Docker
   * [fussybeaver/bollard](https://github.com/fussybeaver/bollard) — Docker daemon API in Rust
 * FTP
