@@ -1238,6 +1238,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [sciter-sdk/rust-sciter](https://github.com/sciter-sdk/rust-sciter) — Sciter bindings [![build badge](https://ci.appveyor.com/api/projects/status/github/sciter-sdk/rust-sciter?svg=true)](https://ci.appveyor.com/project/sciter-sdk/rust-sciter)
 * [tauri-apps/tauri](https://github.com/tauri-apps/tauri) — Build smaller, faster, and more secure desktop applications with a web frontend, powered by [WRY](https://github.com/tauri-apps/wry). [![test library](https://img.shields.io/github/workflow/status/tauri-apps/tauri/test%20library?label=test%20library)](https://github.com/tauri-apps/tauri/actions?query=workflow%3A%22test+library%22)
 * [tauri-apps/wry](https://github.com/tauri-apps/wry) - Webview Rendering librarY.
+* [slint-ui/slint](https://github.com/slint-ui/slint) [[slint](https://crates.io/crates/slint)] — Slint is a toolkit to efficiently develop fluid graphical user interfaces for any display: embedded devices and desktop applications. [![Build Status](https://github.com/slint-ui/slint/workflows/CI/badge.svg?branch=master)](https://github.com/slint-ui/slint/actions?query=workflow%3ACI)
 
 ### Image processing
 
