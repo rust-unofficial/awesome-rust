@@ -20,7 +20,7 @@ lazy_static = "1"
 env_logger = "0.8"
 log = "0.4"
 regex = "1"
-scraper = "0.11"
+scraper = "0.12"
 chrono = { version = "0.4", features = ["serde"] }
 chrono-humanize = "0.2"
 diffy = "0.2"
