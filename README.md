@@ -113,7 +113,7 @@ See also [Rust — Production](https://www.rust-lang.org/production) organizatio
 * [Factotum](https://github.com/snowplow/factotum) — [A system to programmatically run data pipelines](https://snowplowanalytics.com/blog/2016/04/09/introducing-factotum-data-pipeline-runner/) [![build badge](https://api.travis-ci.org/snowplow/factotum.svg?branch=master)](https://travis-ci.org/snowplow/factotum)
 * [fcsonline/drill](https://github.com/fcsonline/drill) — A HTTP load testing application inspired by Ansible syntax [![build badge](https://api.travis-ci.org/fcsonline/drill.svg?branch=master)](https://travis-ci.org/fcsonline/drill)
 * [Fractalide](https://github.com/fractalide/fractalide) — Simple Rust Microservices
-* [habitat](https://github.com/habitat-sh/habitat) — An tool created by [Chef](https://www.chef.io/) to build, deploy, and manage applications.
+* [habitat](https://github.com/habitat-sh/habitat) — A tool created by [Chef](https://www.chef.io/) to build, deploy, and manage applications.
 * [Herd](https://github.com/imjacobclark/Herd) — an experimental HTTP load testing application
 * [ivanceras/diwata](https://github.com/ivanceras/diwata) — A database administration tool for postgresql [![build badge](https://api.travis-ci.org/ivanceras/diwata.svg?branch=master)](https://travis-ci.org/ivanceras/diwata)
 * [jedisct1/flowgger](https://github.com/awslabs/flowgger) — A fast, simple and lightweight data collector
