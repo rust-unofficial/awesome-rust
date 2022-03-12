@@ -1,0 +1,36 @@
+name: Links
+
+on:
+  schedule:
+    # Run at 00:00 UTC every Sunday
+    - cron: '0 0 * * */7'
+
+env:
+  FORCE_COLOR: 1
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Find markdown files
+        shell: bash
+        run: |
+          echo 'FILES_TO_CHECK<<EOF' >> $GITHUB_ENV
+
+          # $GITHUB_WORKSPACE is where our files live
+          # Ignore dirs and only include markdown files
+
+          files_to_check=$(find $GITHUB_WORKSPACE -type f \
+          -not -path '*/\.git/*' -not -path '*/\.github/*' \
+          -name "*.md")
+
+          echo $files_to_check >> $GITHUB_ENV
+          echo 'EOF' >> $GITHUB_ENV
+
+      - name: Validate that links are up
+        uses: simeg/urlsup-action@v1.0.0
+        with:
+          args: ${{ env.FILES_TO_CHECK }} --threads 10
