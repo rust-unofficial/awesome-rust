@@ -1141,7 +1141,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [amethyst/specs](https://github.com/amethyst/specs) — Specs Parallel ECS [![build badge](https://api.travis-ci.org/amethyst/specs.svg?branch=master)](https://travis-ci.org/amethyst/specs)
   * [legion](https://github.com/amethyst/legion) — A feature rich high performance ECS library with minimal boilerplate [![build badge](https://github.com/amethyst/legion/workflows/CI/badge.svg?branch=master)](https://github.com/amethyst/legion/actions)
 * Game Engines
-  * [Amethyst](https://amethyst.rs) — Data-oriented game engine - [![Crates.io](https://img.shields.io/crates/v/amethyst)](https://crates.io/crates/amethyst) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/amethyst/amethyst/blob/main/COPYING) [![Crates.io](https://img.shields.io/crates/d/amethyst.svg)](https://crates.io/crates/amethyst)
+  * [Amethyst](https://github.com/amethyst/amethyst) — Data-oriented game engine - [![Crates.io](https://img.shields.io/crates/v/amethyst)](https://crates.io/crates/amethyst) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/amethyst/amethyst/blob/main/COPYING) [![Crates.io](https://img.shields.io/crates/d/amethyst.svg)](https://crates.io/crates/amethyst)
   * [Bevy](https://github.com/bevyengine/bevy) is a refreshingly simple data-driven game engine built in Rust. - [![Crates.io](https://img.shields.io/crates/v/bevy.svg)](https://crates.io/crates/bevy)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/bevyengine/bevy/blob/main/LICENSE)
 [![Crates.io](https://img.shields.io/crates/d/bevy.svg)](https://crates.io/crates/bevy)
