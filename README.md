@@ -19,6 +19,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
     - [Operating systems](#operating-systems)
     - [Productivity](#productivity)
     - [Security tools](#security-tools)
+    - [Simulation](#simulation)
     - [System tools](#system-tools)
     - [Task scheduling](#task-scheduling)
     - [Text editors](#text-editors)
@@ -88,7 +89,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
     - [Peripherals](#peripherals)
     - [Platform specific](#platform-specific)
     - [Scripting](#scripting)
-    - [Simulation](#simulation)
+    - [Simulation](#simulation-1)
     - [Task scheduling](#task-scheduling-1)
     - [Template engine](#template-engine)
     - [Text processing](#text-processing-1)
@@ -298,6 +299,9 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [phra/rustbuster](https://github.com/phra/rustbuster) — A Comprehensive Web Fuzzer and Content Discovery Tool
 * [ripasso](https://github.com/cortex/ripasso/) — A password manager, filesystem compatible with pass
 * [rustscan/rustscan](https://github.com/RustScan/RustScan) — Make Nmap faster with this port scanning tool [![build badge](https://github.com/RustScan/RustScan/workflows/Continuous%20integration/badge.svg?branch=master)](https://github.com/RustScan/RustScan/actions?query=workflow%3A%22Continuous+integration%22)
+
+### Simulation
+* [hEngine](https://github.com/hashintel/hash) - A Rust-implemented computational simulation engine, supporting large-scale agent-based modelling, with simulation logic written in JavaScript and Python.
 
 ### System tools
 
