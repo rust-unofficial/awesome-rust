@@ -301,6 +301,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [rustscan/rustscan](https://github.com/RustScan/RustScan) — Make Nmap faster with this port scanning tool [![build badge](https://github.com/RustScan/RustScan/workflows/Continuous%20integration/badge.svg?branch=master)](https://github.com/RustScan/RustScan/actions?query=workflow%3A%22Continuous+integration%22)
 
 ### Simulation
+
 * [hEngine](https://github.com/hashintel/hash) - A Rust-implemented computational simulation engine, supporting large-scale agent-based modelling, with simulation logic written in JavaScript and Python.
 
 ### System tools
