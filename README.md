@@ -302,7 +302,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 
 ### Simulation
 
-* [hEngine](https://github.com/hashintel/hash) - A Rust-implemented computational simulation engine, supporting large-scale agent-based modelling, with simulation logic written in JavaScript and Python.
+* [hEngine](https://github.com/hashintel/hash/tree/main/packages/engine) - A Rust-implemented computational simulation engine, supporting large-scale agent-based modelling, with simulation logic written in JavaScript and Python.
 
 ### System tools
 
