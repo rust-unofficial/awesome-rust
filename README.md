@@ -53,6 +53,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
     - [Automotive](#automotive)
     - [Bioinformatics](#bioinformatics)
     - [Caching](#caching)
+    - [Chemistry](#chemistry)
     - [Cloud](#cloud)
     - [Command-line](#command-line)
     - [Compression](#compression)
@@ -87,6 +88,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
     - [Packaging formats](#packaging-formats)
     - [Parsing](#parsing)
     - [Peripherals](#peripherals)
+    - [Physics](#physics)
     - [Platform specific](#platform-specific)
     - [Scripting](#scripting)
     - [Simulation](#simulation-1)
@@ -785,6 +787,10 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [jaysonsantos/bmemcached-rs](https://github.com/jaysonsantos/bmemcached-rs) [[bmemcached](https://crates.io/crates/bmemcached)] — Memcached library written in pure rust [![build badge](https://api.travis-ci.org/jaysonsantos/bmemcached-rs.svg?branch=master)](https://travis-ci.org/jaysonsantos/bmemcached-rs)
 * [mozilla/sccache](https://github.com/mozilla/sccache/) - Shared Compilation Cache, great for Rust compilation [![build badge](https://api.travis-ci.org/mozilla/sccache.svg?branch=master)](https://travis-ci.org/mozilla/sccache)
 
+### Chemistry
+* [chemcore](https://github.com/rapodaca/chemcore) - Chemical modeling toolkit
+* [lumol](https://github.com/lumol-org/lumol) - Extensible molecular simulation engine
+
 ### Concurrency
 
 * [crossbeam-rs/crossbeam](https://github.com/crossbeam-rs/crossbeam) – Support for parallelism and low-level concurrency in Rust [![build badge](https://api.travis-ci.org/crossbeam-rs/crossbeam.svg?branch=master)](https://travis-ci.org/crossbeam-rs/crossbeam)
@@ -1393,6 +1399,11 @@ See also [Are we game yet?](https://arewegameyet.rs)
 
 * Serial Port
   * [Susurrus/serialport-rs](https://gitlab.com/susurrus/serialport-rs) [[serialport](https://crates.io/crates/serialport)] — A cross-platform library that provides access to a serial port
+ 
+### Physics
+ [atomecs](https://github.com/TeamAtomECS/AtomECS)- Cold atom modelling
+ [RustBCA](https://github.com/lcpp-org/RustBCA)- Ion interaction modelling (for plasma physics)
+ [Nuclide](https://github.com/JASory/Iridium)- Dataset and modeling library for all known nuclides/isotopes
 
 ### Platform specific
 
