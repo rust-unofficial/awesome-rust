@@ -50,7 +50,7 @@ lazy_static! {
         "https://gitpod.io".to_string(), // https://github.com/gitpod-io/gitpod has 4.7k stars
         "https://wiki.gnome.org/Apps/Builder".to_string(), // https://gitlab.gnome.org/GNOME/gnome-builder has 133 stars
         "https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml".to_string(), // > 860k downloads
-        "https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer".to_string(), // > 260k downloads
+        "https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer".to_string(), // > 260k downloads
         "https://marketplace.visualstudio.com/items?itemName=rust-lang.rust".to_string(), // > 1M downloads
         "https://docs.rs".to_string(), // https://github.com/rust-lang/docs.rs has >600 stars
         "https://github.com/rust-bio".to_string(), // https://github.com/rust-bio/rust-bio on it's own has >900 stars
