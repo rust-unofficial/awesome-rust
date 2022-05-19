@@ -1598,6 +1598,7 @@ A registry allows you to publish your Rust libraries as crate packages, to share
   * [Rustlings](https://github.com/rust-lang/rustlings) — small exercises to get you used to reading and writing Rust code
   * [Rusty CS](https://github.com/AbdesamedBendjeddou/Rusty-CS) - A Computer Science Curriculum that helps practice the acquired academic knowledge in Rust
   * [stdx](https://github.com/brson/stdx) — Learn these crates first as an extension to std
+  * [Take your first steps with Rust](https://docs.microsoft.com/en-us/learn/paths/rust-first-steps/) - Lay the foundation of knowledge you need to build fast and effective programs in Rust.
   * [University of Pennsylvania's Comp Sci Rust Programming Course](http://cis198-2016s.github.io/schedule/)
 * Podcasts
   * [New Rustacean](https://newrustacean.com) — A podcast about learning Rust
