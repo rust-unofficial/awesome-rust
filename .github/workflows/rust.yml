@@ -40,5 +40,6 @@ jobs:
       - name: Run
         run: cargo run
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME_FOR_GITHUB: ${{ secrets.USERNAME_FOR_GITHUB }}
+          TOKEN_FOR_GITHUB: ${{ secrets.TOKEN_FOR_GITHUB }}
           RUST_LOG: warn

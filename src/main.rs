@@ -181,8 +181,8 @@ async fn get_stars(github_url: &str) -> Option<u32> {
         .replace_all(&github_url, "https://api.github.com/repos/$org/$repo")
         .to_string();
     let mut req = CLIENT.get(&rewritten);
-    if let Ok(username) = env::var("GITHUB_USERNAME") {
-        if let Ok(password) = env::var("GITHUB_TOKEN") {
+    if let Ok(username) = env::var("USERNAME_FOR_GITHUB") {
+        if let Ok(password) = env::var("TOKEN_FOR_GITHUB") {
             // needs a token with at least public_repo scope
             req = req.basic_auth(username, Some(password));
         }
@@ -243,7 +243,7 @@ fn get_url_core(url: String) -> BoxFuture<'static, (String, Result<(), CheckerEr
         let mut res = Err(CheckerError::NotTried);
         for _ in 0..5u8 {
             debug!("Running {}", url);
-            if env::var("GITHUB_USERNAME").is_ok() && env::var("GITHUB_TOKEN").is_ok() && GITHUB_REPO_REGEX.is_match(&url) {
+            if env::var("USERNAME_FOR_GITHUB").is_ok() && env::var("TOKEN_FOR_GITHUB").is_ok() && GITHUB_REPO_REGEX.is_match(&url) {
                 let rewritten = GITHUB_REPO_REGEX.replace_all(&url, "https://api.github.com/repos/$org/$repo");
                 info!("Replacing {} with {} to workaround rate limits on Github", url, rewritten);
                 let (_new_url, res) = get_url_core(rewritten.to_string()).await;
@@ -254,8 +254,8 @@ fn get_url_core(url: String) -> BoxFuture<'static, (String, Result<(), CheckerEr
                 .header(header::ACCEPT, "image/svg+xml, text/html, */*;q=0.8");
 
             if GITHUB_API_REGEX.is_match(&url) {
-                if let Ok(username) = env::var("GITHUB_USERNAME") {
-                    if let Ok(password) = env::var("GITHUB_TOKEN") {
+                if let Ok(username) = env::var("USERNAME_FOR_GITHUB") {
+                    if let Ok(password) = env::var("TOKEN_FOR_GITHUB") {
                         // needs a token with at least public_repo scope
                         info!("Using basic auth for {}", url);
                         req = req.basic_auth(username, Some(password));
