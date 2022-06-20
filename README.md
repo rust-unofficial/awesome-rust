@@ -1206,7 +1206,6 @@ See also [Are we game yet?](https://arewegameyet.rs)
 * Victorem
   * [VictoremWinbringer/Victorem](https://github.com/VictoremWinbringer/Victorem) [[Victorem](https://crates.io/crates/Victorem)] — Easy UDP Game Server and UDP Client framework for creating simple 2D and 3D online game prototype [![build badge](https://api.travis-ci.org/VictoremWinbringer/Victorem.svg?branch=master)](https://travis-ci.org/VictoremWinbringer/Victorem)
 
-
 ### Geospatial
 
 [[geo](https://crates.io/keywords/geo), [gis](https://crates.io/keywords/gis)]
