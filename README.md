@@ -1306,7 +1306,6 @@ See also [Are we game yet?](https://arewegameyet.rs)
 * [tokio-rs/tracing](https://github.com/tokio-rs/tracing) — An application level tracing framework for async-aware structured logging, error handling, metrics, and more [![Build Status](https://github.com/tokio-rs/tracing/workflows/CI/badge.svg?branch=master)](https://github.com/tokio-rs/tracing/actions?query=workflow%3ACI)
 * [rbatis/fast_log](https://github.com/rbatis/fast_log) — Rust async log High-performance asynchronous logging. [![Build Status](https://api.travis-ci.com/rbatis/fast_log.svg?branch=master)](https://travis-ci.org/rbatis/fast_log)
 
-
 ### Macro
 
 * cute
