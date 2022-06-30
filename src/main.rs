@@ -65,6 +65,7 @@ lazy_static! {
         "https://gitlab.com/ttyperacer/terminal-typeracer".to_string(), // GitLab repo with >40 stars.
         "https://github.com/esp-rs".to_string(), // Espressif Rust Organization (Organizations have no stars).
         "https://github.com/arkworks-rs".to_string(), // Rust ecosystem for zkSNARK programming (Organizations have no stars)
+        "https://github.com/paritytech".to_string(), // Blockchain Infrastructure
     ];
 }
 
