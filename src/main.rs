@@ -64,6 +64,7 @@ lazy_static! {
         "https://cloudsmith.com/cargo-registry/".to_string(), // First private cargo registry (https://cloudsmith.com/blog/worlds-first-private-cargo-registry-w-cloudsmith-rust/) and not much in the way of other options yet. See also https://github.com/rust-unofficial/awesome-rust/pull/1141#discussion_r688711555
         "https://gitlab.com/ttyperacer/terminal-typeracer".to_string(), // GitLab repo with >40 stars.
         "https://github.com/esp-rs".to_string(), // Espressif Rust Organization (Organizations have no stars).
+        "https://github.com/arkworks-rs".to_string(), // Rust ecosystem for zkSNARK programming (Organizations have no stars)
     ];
 }
 
