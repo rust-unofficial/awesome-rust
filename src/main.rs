@@ -174,7 +174,7 @@ lazy_static! {
 #[derive(Deserialize, Debug)]
 struct GithubStars {
     stargazers_count: u32,
-    archived: bool
+    archived: bool,
 }
 
 async fn get_stars(github_url: &str) -> Option<u32> {
