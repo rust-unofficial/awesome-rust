@@ -786,6 +786,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [mbr/socketcan](https://github.com/mbr/socketcan-rs) [[socketcan](https://crates.io/crates/socketcan)] — Linux SocketCAN library [![build badge](https://api.travis-ci.org/mbr/socketcan-rs.svg?branch=master)](https://travis-ci.org/mbr/socketcan-rs)
 * [oefd/tokio-socketcan](https://github.com/oefd/tokio-socketcan) [[tokio-socketcan]](https://crates.io/crates/tokio-socketcan)] — Linux SocketCAN support for tokio based on the socketcan crate
 * [Sensirion/lin-bus](https://github.com/Sensirion/lin-bus-rs) [[lin-bus](https://crates.io/crates/lin-bus)] — LIN bus driver traits and protocol implementation [![build badge](https://circleci.com/gh/Sensirion/lin-bus-rs.svg?style=svg)](https://app.circleci.com/pipelines/github/Sensirion/lin-bus-rs)
+* [eclipse-iceoryx/iceoryx-rs](https://github.com/eclipse-iceoryx/iceoryx-rs) [[iceoryx-rs](https://crates.io/crates/iceoryx-rs)] — Safe Rust bindings for true zero-copy inter process middleware Eclipse iceoryx. [![Build & Test](https://img.shields.io/github/workflow/status/eclipse-iceoryx/iceoryx-rs/Build%20&%20Test/master?label=Build%20%26%20Test)](https://github.com/eclipse-iceoryx/iceoryx-rs/actions)
 
 ### Bioinformatics
 
