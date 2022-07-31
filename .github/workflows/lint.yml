@@ -38,7 +38,6 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-          cache: 'npm'
       - run: npm install markdown-toc
       - run: ./node_modules/.bin/markdown-toc -i README.md
       - run: git diff --exit-code
