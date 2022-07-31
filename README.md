@@ -6,6 +6,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 
 ## Table of contents
 
+<!-- toc -->
   - [Applications](#applications)
     - [Audio and Music](#audio-and-music)
     - [Cryptocurrencies](#cryptocurrencies)
@@ -100,6 +101,8 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   - [Registries](#registries)
   - [Resources](#resources)
   - [License](#license)
+
+<!-- tocstop -->
 
 ## Applications
 
