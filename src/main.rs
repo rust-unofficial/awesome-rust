@@ -597,10 +597,13 @@ async fn main() -> Result<(), Error> {
                 }
             }
             Event::Html(content) => {
-                return Err(format_err!(
-                    "Contains HTML content, not markdown: {}",
-                    content
-                ));
+                // Allow ToC markers, nothing else
+                if !content.contains("<!-- toc") {
+                    return Err(format_err!(
+                        "Contains HTML content, not markdown: {}",
+                        content
+                    ));
+                }
             }
             _ => {}
         }
