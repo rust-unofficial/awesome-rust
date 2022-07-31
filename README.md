@@ -75,7 +75,6 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
     - [Functional Programming](#functional-programming)
     - [Game development](#game-development)
     - [Geospatial](#geospatial)
-    - [Graph processing](#graph-processing)
     - [Graphics](#graphics-1)
     - [GUI](#gui)
     - [Image processing](#image-processing)
