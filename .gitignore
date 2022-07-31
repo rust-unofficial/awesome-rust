@@ -1,3 +1,4 @@
 .idea/
 .vscode/
 target/
+node_modules/
