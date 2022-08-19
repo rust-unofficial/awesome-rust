@@ -50,7 +50,7 @@ lazy_static! {
         "https://gitpod.io".to_string(), // https://github.com/gitpod-io/gitpod has 4.7k stars
         "https://wiki.gnome.org/Apps/Builder".to_string(), // https://gitlab.gnome.org/GNOME/gnome-builder has 133 stars
         "https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml".to_string(), // > 860k downloads
-        "https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer".to_string(), // > 260k downloads
+        "https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer".to_string(), // > 260k downloads
         "https://marketplace.visualstudio.com/items?itemName=rust-lang.rust".to_string(), // > 1M downloads
         "https://docs.rs".to_string(), // https://github.com/rust-lang/docs.rs has >600 stars
         "https://github.com/rust-bio".to_string(), // https://github.com/rust-bio/rust-bio on it's own has >900 stars
@@ -61,7 +61,10 @@ lazy_static! {
         "https://chromium.googlesource.com/chromiumos/platform/crosvm/".to_string(), // Can't tell count directly, but various mirrors of it (e.g. https://github.com/dgreid/crosvm) have enough stars that it's got enough interest
         "https://seed-rs.org/".to_string(), // https://github.com/seed-rs/seed has 2.1k stars
         "https://crates.io".to_string(), // This one gets a free pass :)
-        "https://cloudsmith.com/cargo-registry/".to_string() // First private cargo registry (https://cloudsmith.com/blog/worlds-first-private-cargo-registry-w-cloudsmith-rust/) and not much in the way of other options yet. See also https://github.com/rust-unofficial/awesome-rust/pull/1141#discussion_r688711555
+        "https://cloudsmith.com/cargo-registry/".to_string(), // First private cargo registry (https://cloudsmith.com/blog/worlds-first-private-cargo-registry-w-cloudsmith-rust/) and not much in the way of other options yet. See also https://github.com/rust-unofficial/awesome-rust/pull/1141#discussion_r688711555
+        "https://gitlab.com/ttyperacer/terminal-typeracer".to_string(), // GitLab repo with >40 stars.
+        "https://github.com/esp-rs".to_string(), // Espressif Rust Organization (Organizations have no stars).
+        "https://github.com/arkworks-rs".to_string(), // Rust ecosystem for zkSNARK programming (Organizations have no stars)
     ];
 }
 
@@ -171,6 +174,7 @@ lazy_static! {
 #[derive(Deserialize, Debug)]
 struct GithubStars {
     stargazers_count: u32,
+    archived: bool,
 }
 
 async fn get_stars(github_url: &str) -> Option<u32> {
@@ -179,8 +183,8 @@ async fn get_stars(github_url: &str) -> Option<u32> {
         .replace_all(&github_url, "https://api.github.com/repos/$org/$repo")
         .to_string();
     let mut req = CLIENT.get(&rewritten);
-    if let Ok(username) = env::var("GITHUB_USERNAME") {
-        if let Ok(password) = env::var("GITHUB_TOKEN") {
+    if let Ok(username) = env::var("USERNAME_FOR_GITHUB") {
+        if let Ok(password) = env::var("TOKEN_FOR_GITHUB") {
             // needs a token with at least public_repo scope
             req = req.basic_auth(username, Some(password));
         }
@@ -200,6 +204,10 @@ async fn get_stars(github_url: &str) -> Option<u32> {
                     panic!("{:?}", raw);
                 }
             };
+            if data.archived {
+                warn!("{} is archived, so ignoring stars", github_url);
+                return None;
+            }
             return Some(data.stargazers_count);
         }
     }
@@ -241,7 +249,7 @@ fn get_url_core(url: String) -> BoxFuture<'static, (String, Result<(), CheckerEr
         let mut res = Err(CheckerError::NotTried);
         for _ in 0..5u8 {
             debug!("Running {}", url);
-            if env::var("GITHUB_USERNAME").is_ok() && env::var("GITHUB_TOKEN").is_ok() && GITHUB_REPO_REGEX.is_match(&url) {
+            if env::var("USERNAME_FOR_GITHUB").is_ok() && env::var("TOKEN_FOR_GITHUB").is_ok() && GITHUB_REPO_REGEX.is_match(&url) {
                 let rewritten = GITHUB_REPO_REGEX.replace_all(&url, "https://api.github.com/repos/$org/$repo");
                 info!("Replacing {} with {} to workaround rate limits on Github", url, rewritten);
                 let (_new_url, res) = get_url_core(rewritten.to_string()).await;
@@ -252,8 +260,8 @@ fn get_url_core(url: String) -> BoxFuture<'static, (String, Result<(), CheckerEr
                 .header(header::ACCEPT, "image/svg+xml, text/html, */*;q=0.8");
 
             if GITHUB_API_REGEX.is_match(&url) {
-                if let Ok(username) = env::var("GITHUB_USERNAME") {
-                    if let Ok(password) = env::var("GITHUB_TOKEN") {
+                if let Ok(username) = env::var("USERNAME_FOR_GITHUB") {
+                    if let Ok(password) = env::var("TOKEN_FOR_GITHUB") {
                         // needs a token with at least public_repo scope
                         info!("Using basic auth for {}", url);
                         req = req.basic_auth(username, Some(password));
@@ -589,10 +597,13 @@ async fn main() -> Result<(), Error> {
                 }
             }
             Event::Html(content) => {
-                return Err(format_err!(
-                    "Contains HTML content, not markdown: {}",
-                    content
-                ));
+                // Allow ToC markers, nothing else
+                if !content.contains("<!-- toc") {
+                    return Err(format_err!(
+                        "Contains HTML content, not markdown: {}",
+                        content
+                    ));
+                }
             }
             _ => {}
         }
