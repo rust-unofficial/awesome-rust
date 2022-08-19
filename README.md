@@ -1573,6 +1573,7 @@ A registry allows you to publish your Rust libraries as crate packages, to share
 * [RustBooks](https://github.com/sger/RustBooks) — list of RustBooks
 * [RustCamp 2015 Talks](https://www.youtube.com/playlist?list=PLE7tQUdRKcybdIw61JpCoo89i4pWU5f_t)
 * [RustViz](https://github.com/rustviz/rustviz) — generates visualizations from simple Rust programs to assist users in better understanding the Rust Lifetime and Borrowing mechanism.
+* [Multiplayer Game Development with Rust](https://www.manning.com/books/multiplayer-game-development-in-rust) - Use Rust to create a high performance and easy-to-scale multiplayer game that can handle hundreds of players.
 
 ## License
 
