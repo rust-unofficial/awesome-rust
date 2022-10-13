@@ -1386,6 +1386,9 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [zslayton/stomp-rs](https://github.com/zslayton/stomp-rs) — A [STOMP 1.2](http://stomp.github.io/stomp-specification-1.2.html) client implementation in Rust [![build badge](https://api.travis-ci.org/zslayton/stomp-rs.svg?branch=master)](https://travis-ci.org/zslayton/stomp-rs)
 * ZeroMQ
   * [erickt/rust-zmq](https://github.com/erickt/rust-zmq) — [ZeroMQ](https://zeromq.org/) bindings [![build badge](https://api.travis-ci.org/erickt/rust-zmq.svg?branch=master)](https://travis-ci.org/erickt/rust-zmq)
+ 
+* Zenoh
+  * [eclipse-zenoh](https://github.com/eclipse-zenoh/zenoh) - [Zenoh](https://zenoh.io) is an incredibly high performance Pub/Sub/Query protocol entirely implemented in Rust.
 
 ### Parsing
 
