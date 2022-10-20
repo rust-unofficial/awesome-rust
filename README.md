@@ -26,6 +26,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   * [Task scheduling](#task-scheduling)
   * [Text editors](#text-editors)
   * [Text processing](#text-processing)
+  * [Tool-assisted speedrun](#tool-assisted-speedrun)
   * [Utilities](#utilities)
   * [Video](#video)
   * [Virtualization](#virtualization)
@@ -398,6 +399,13 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [whitfin/bytelines](https://github.com/whitfin/bytelines) [[bytelines](https://crates.io/crates/bytelines)] — Read input lines as byte slices for high efficiency.
 * [whitfin/runiq](https://github.com/whitfin/runiq) — an efficient way to filter duplicate lines from unsorted input.
 * [xsv](https://crates.io/crates/xsv) — A fast CSV command line tool (slicing, indexing, selecting, searching, sampling, etc.) [![build badge](https://api.travis-ci.org/BurntSushi/xsv.svg?branch=master)](https://travis-ci.org/BurntSushi/xsv)
+
+### Tool-assisted speedrun
+
+See also [How to create the perfect speedrun - Tool-assisted speedrunning explained](https://www.youtube.com/watch?v=Ietk1-Wb7oY)
+
+* [bxt-rs](https://github.com/YaLTeR/bxt-rs) — A few speedrunning and TAS-related tools for Half-Life and mods.
+* [refunct-tas](https://github.com/oberien/refunct-tas) — a tool enabling Tool assisted Speedruns in the game [Refunct](http://refunctgame.com/).
 
 ### Utilities
 
