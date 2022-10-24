@@ -364,6 +364,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [uutils/coreutils](https://github.com/uutils/coreutils) — A cross-platform Rust rewrite of the GNU coreutils [[![CICD](https://github.com/uutils/coreutils/actions/workflows/CICD.yml/badge.svg)](https://github.com/uutils/coreutils/actions/workflows/CICD.yml)
 * [watchexec](https://github.com/watchexec/watchexec) — Executes commands in response to file modifications [![build badge](https://api.travis-ci.org/watchexec/watchexec.svg?branch=master)](https://travis-ci.org/watchexec/watchexec)
 * [XAMPPRocky/tokei](https://github.com/XAMPPRocky/tokei) — counts the lines of code [![build badge](https://api.travis-ci.org/XAMPPRocky/tokei.svg?branch=master)](https://travis-ci.org/XAMPPRocky/tokei)
+* [TheAwiteb/rsre](https://github.com/TheAwiteb/rsre) — tool to rename file/directory without typing the full path [![build badge](https://github.com/TheAwiteb/rsre/actions/workflows/release.yml/badge.svg)](https://github.com/TheAwiteb/rsre/actions/workflows/release.yml)
 
 ### Task scheduling
 
