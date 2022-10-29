@@ -130,6 +130,7 @@ See also [Rust — Production](https://www.rust-lang.org/production) organizatio
 * [rx](https://github.com/cloudhead/rx) — Vi inspired Modern Pixel Art Editor
 * [Servo](https://github.com/servo/servo) — A prototype web browser engine
 * [shuttle](https://github.com/shuttle-hq/shuttle) — A serverless platform built for Rust
+* [SWC](https://github.com/swc-project/swc) — super-fast TypeScript / JavaScript compiler
 * [tiny](https://github.com/osa1/tiny) — A terminal IRC client
 * [trust-dns](https://crates.io/crates/trust-dns) — A DNS-server [![Build Status](https://github.com/bluejekyll/trust-dns/workflows/test/badge.svg?branch=main)](https://github.com/bluejekyll/trust-dns/actions?query=workflow%3Atest)
 * [wasmer](https://github.com/wasmerio/wasmer) — A safe and fast WebAssembly runtime supporting WASI and Emscripten [![Build Status](https://github.com/wasmerio/wasmer/workflows/build/badge.svg?style=flat-square)](https://github.com/wasmerio/wasmer/actions)
