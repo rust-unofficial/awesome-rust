@@ -22,7 +22,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   * [Productivity](#productivity)
   * [Security tools](#security-tools)
   * [Simulation](#simulation)
-  * [Social Network](#social-network)
+  * [Social network](#social-network)
   * [System tools](#system-tools)
   * [Task scheduling](#task-scheduling)
   * [Text editors](#text-editors)
