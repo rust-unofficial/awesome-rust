@@ -323,7 +323,6 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 
 ### Social network
 
-
 * Mastodon
   * [Rustodon](https://github.com/rustodon/rustodon) - A Mastodon-compatible, ActivityPub-speaking server in Rust [![Build Status](https://travis-ci.org/rustodon/rustodon.svg?branch=master)](https://travis-ci.org/rustodon/rustodon)
 
