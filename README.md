@@ -76,6 +76,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   * [Functional Programming](#functional-programming)
   * [Game development](#game-development)
   * [Geospatial](#geospatial)
+  * [Graph algorithms](#graph-algorithms)
   * [Graphics](#graphics-1)
   * [GUI](#gui)
   * [Image processing](#image-processing-1)
@@ -1218,6 +1219,10 @@ See also [Are we game yet?](https://arewegameyet.rs)
 * [Georust](https://github.com/georust) — geospatial tools and libraries written in Rust
 * [rust-reverse-geocoder](https://github.com/gx0r/rrgeo) — A fast, offline reverse geocoder in Rust, inspired by [thampiman/reverse-geocoder](https://github.com/thampiman/reverse-geocoder)
 * [vlopes11/geomorph](https://github.com/vlopes11/geomorph) [[geomorph](https://crates.io/crates/geomorph)] — conversion between UTM, LatLon and MGRS coordinates [![build badge](https://api.travis-ci.org/vlopes11/geomorph.svg?branch=master)](https://travis-ci.org/vlopes11/geomorph)
+
+### Graph algorithms
+
+* [s1ck/graph](https://github.com/s1ck/graph) - A library for high-performant graph algorithms [![graph CI status](https://img.shields.io/github/workflow/status/s1ck/graph/CI/main?label=CI)](https://github.com/s1ck/graph/actions/workflows/rust.yml)
 
 ### Graphics
 
