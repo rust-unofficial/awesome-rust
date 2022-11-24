@@ -160,8 +160,6 @@ See also [Rust — Production](https://www.rust-lang.org/production) organizatio
 * [Diem](https://github.com/diem/diem) — Diem’s mission is to enable a simple global currency and financial infrastructure that empowers billions of people.
 * [electrumrs](https://github.com/romanz/electrs) — An efficient re-implementation of Electrum Server in Rust.
 * [ergo-headless-dapp-framework](https://github.com/ergoplatform/ergo-headless-dapp-framework) — An easy to use framework for building Ergo headless dApps. Developed by EMURGO and Ergo Platform.
-* [ergo-node-interface-rust](https://github.com/ergoplatform/ergo-node-interface-rust) — A Rust library which makes interacting with and using an Ergo Node simple. Developed by EMURGO and Ergo Platform.
-* [ergo-utilities-rust](https://github.com/ergoplatform/ergo-utilities-rust) — General utilities to make writing off-chain Ergo code in Rust simpler.
 * [ethabi](https://github.com/rust-ethereum/ethabi) - Encode and decode smart contract invocations.
 * [ethaddrgen](https://github.com/Limeth/ethaddrgen) — Custom Ethereum vanity address generator made in Rust [![build badge](https://api.travis-ci.org/Limeth/ethaddrgen.svg?branch=master)](https://travis-ci.org/Limeth/ethaddrgen)
 * [ethers-rs](https://github.com/gakonst/ethers-rs) - Complete Ethereum & Celo library and wallet implementation in Rust. ![Build Status](https://github.com/gakonst/ethers-rs/workflows/Tests/badge.svg)
