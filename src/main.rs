@@ -207,7 +207,7 @@ async fn get_stars(github_url: &str) -> Option<u32> {
             };
             if data.archived {
                 warn!("{} is archived, so ignoring stars", github_url);
-                return None;
+                return Some(0);
             }
             return Some(data.stargazers_count);
         }
