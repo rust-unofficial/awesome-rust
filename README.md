@@ -615,7 +615,7 @@ See also [Foreign Function Interface](https://doc.rust-lang.org/book/first-editi
 
 See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust Tools](https://www.rust-lang.org/tools).
 
-  * [Atom](https://github.blog/2022-06-08-sunsetting-atom//)
+  * [Atom](https://github.blog/2022-06-08-sunsetting-atom/)
     * [rust-lang/atom-ide-rust](https://github.com/rust-lang/atom-ide-rust) — Rust IDE support for Atom, powered by the Rust Language Server (RLS) [![Build Status](https://api.travis-ci.com/rust-lang/atom-ide-rust.svg?branch=master)](https://app.travis-ci.com/grust-lang/atom-ide-rust)
   * [Eclipse](https://www.eclipse.org/)
     * [Eclipse Corrosion](https://github.com/eclipse/corrosion)
