@@ -133,6 +133,7 @@ See also [Rust — Production](https://www.rust-lang.org/production) organizatio
 * [rx](https://github.com/cloudhead/rx) — Vi inspired Modern Pixel Art Editor
 * [Servo](https://github.com/servo/servo) — A prototype web browser engine
 * [shuttle](https://github.com/shuttle-hq/shuttle) — A serverless platform built for Rust
+* [Sniffnet](https://github.com/GyulyVGC/sniffnet) — Cross-platform application to monitor your network traffic with ease [![build badge](https://img.shields.io/github/actions/workflow/status/gyulyvgc/sniffnet/rust.yml)](https://github.com/GyulyVGC/sniffnet/blob/main/.github/workflows/rust.yml) [![crate](https://img.shields.io/crates/v/sniffnet?color=orange&logo=rust)](https://crates.io/crates/sniffnet)
 * [SWC](https://github.com/swc-project/swc) — super-fast TypeScript / JavaScript compiler
 * [tiny](https://github.com/osa1/tiny) — A terminal IRC client
 * [trust-dns](https://crates.io/crates/trust-dns) — A DNS-server [![Build Status](https://github.com/bluejekyll/trust-dns/workflows/test/badge.svg?branch=main)](https://github.com/bluejekyll/trust-dns/actions?query=workflow%3Atest)
