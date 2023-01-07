@@ -523,6 +523,8 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * Github actions
   * [icepuma/rust-action](https://github.com/icepuma/rust-action) — rust github action
   * [peaceiris/actions-mdbook](https://github.com/peaceiris/actions-mdbook) — GitHub Actions for mdBook
+* [Nix](https://nixos.org/)
+  * [nix-community/fenix](https://github.com/nix-community/fenix) — Rust toolchains and rust analyzer nightly for nix [![build-badge](https://github.com/nix-community/fenix/actions/workflows/ci.yml/badge.svg)](https://github.com/nix-community/fenix/actions/workflows/ci.yml)
 
 ### Debugging
 
