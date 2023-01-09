@@ -743,7 +743,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [rust-ml/linfa](https://github.com/rust-ml/linfa) — Machine learning framework.
 * [smartcorelib/smartcore](https://github.com/smartcorelib/smartcore) — Machine Learning Library In Rust [![Build Status](https://img.shields.io/circleci/build/github/smartcorelib/smartcore)](https://smartcorelib.org/)
 * [tensorflow/rust](https://github.com/tensorflow/rust) — Rust language bindings for TensorFlow. [![Build Status](https://api.travis-ci.org/tensorflow/rust.svg?branch=master)](https://travis-ci.org/tensorflow/rust)
-* [Machine Learning in Rust with Smart Core, By ]Vlad Orlov](https://medium.com/swlh/machine-learning-in-rust-smartcore-2f472d1ce83)
+* [Machine Learning in Rust with Smart Core, By Vlad Orlov](https://medium.com/swlh/machine-learning-in-rust-smartcore-2f472d1ce83)
 
 
 ### Astronomy
