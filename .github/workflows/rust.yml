@@ -2,10 +2,10 @@ name: Rust
 on:
   push:
     branches:
-      - master
+      - main
   pull_request:
     branches:
-      - master
+      - main
   schedule:
     - cron: 0 0 * * *
 env:
@@ -14,17 +14,16 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions-rs/toolchain@v1
+      - uses: actions/checkout@v3
+      - uses: dtolnay/rust-toolchain@master
         with:
-          profile: minimal
           toolchain: stable
-          override: true
-      - uses: Swatinem/rust-cache@v1
+          components: rustfmt
+      - uses: Swatinem/rust-cache@v2
       - name: Get random cache id
         run: echo "CACHE_ID=$((RANDOM))" >> $GITHUB_ENV
         shell: bash
-      - uses: pat-s/always-upload-cache@v2.1.5
+      - uses: pat-s/always-upload-cache@v3.0.1
         with:
           path: results/*.yaml
           key: results-${{ hashFiles('Cargo.lock') }}-${{ hashFiles('README.md') }}-${{ env.CACHE_ID }}
@@ -32,10 +31,13 @@ jobs:
             results-${{ hashFiles('Cargo.lock') }}-${{ hashFiles('README.md') }}-
             results-${{ hashFiles('Cargo.lock') }}-
             results-
+      - name: Check Format
+        run: cargo fmt -- --check
       - name: Build
         run: cargo build
       - name: Run
         run: cargo run
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME_FOR_GITHUB: ${{ secrets.USERNAME_FOR_GITHUB }}
+          TOKEN_FOR_GITHUB: ${{ secrets.TOKEN_FOR_GITHUB }}
           RUST_LOG: warn

@@ -87,8 +87,8 @@ async fn get_hacktoberfest_core(github_url: String) -> Result<Info, CheckerError
         .replace_all(&github_url, "https://api.github.com/repos/$org/$repo")
         .to_string();
     let mut req = CLIENT.get(&rewritten);
-    if let Ok(username) = env::var("GITHUB_USERNAME") {
-        if let Ok(password) = env::var("GITHUB_TOKEN") {
+    if let Ok(username) = env::var("USERNAME_FOR_GITHUB") {
+        if let Ok(password) = env::var("TOKEN_FOR_GITHUB") {
             // needs a token with at least public_repo scope
             req = req.basic_auth(username, Some(password));
         }
@@ -179,12 +179,6 @@ async fn main() -> Result<(), Error> {
     };
 
     let mut to_check: Vec<String> = vec![];
-
-    #[derive(Debug)]
-    struct ListInfo {
-        location: usize,
-        data: Vec<String>,
-    }
 
     for (event, _) in parser.into_offset_iter() {
         match event {

@@ -3,10 +3,10 @@ name: Lint
 on:
   push:
     branches:
-      - master
+      - main
   pull_request:
     branches:
-      - master
+      - main
 
 jobs:
   lint-md:
@@ -14,7 +14,7 @@ jobs:
     name: Lint Markdown content
     steps:
       - name: Checkout the repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Markdown lint for README
         uses: docker://avtodev/markdown-lint:v1
         with:
@@ -25,6 +25,19 @@ jobs:
     name: Lint for editorconfig violations
     steps:
       - name: Checkout the repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Check for editorconfig violations
         uses: editorconfig-checker/action-editorconfig-checker@v1
+
+  lint-markdown-toc:
+    runs-on: ubuntu-latest
+    name: Lint for Table of Contents
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - run: npm install markdown-toc
+      - run: ./node_modules/.bin/markdown-toc -i README.md
+      - run: git diff --exit-code
