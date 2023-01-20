@@ -1611,6 +1611,7 @@ A registry allows you to publish your Rust libraries as crate packages, to share
   * [stdx](https://github.com/brson/stdx) — Learn these crates first as an extension to std
   * [Take your first steps with Rust](https://docs.microsoft.com/en-us/learn/paths/rust-first-steps/) - Lay the foundation of knowledge you need to build fast and effective programs in Rust.
   * [University of Pennsylvania's Comp Sci Rust Programming Course](http://cis198-2016s.github.io/schedule/)
+  * [Learn Rust in a Month of Lunches](https://www.manning.com/books/learn-rust-in-a-month-of-lunches) — a fast and friendly guide to Rust proficiency by [David Macleod](https://github.com/Dhghomon) (paid)
 * Podcasts
   * [New Rustacean](https://newrustacean.com) — A podcast about learning Rust
   * [Rustacean Station](https://rustacean-station.org/) — A community project for creating podcast content for Rust
