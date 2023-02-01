@@ -92,6 +92,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   * [Platform specific](#platform-specific)
   * [Scripting](#scripting)
   * [Simulation](#simulation-1)
+  * [System](#system)
   * [Task scheduling](#task-scheduling-1)
   * [Template engine](#template-engine)
   * [Text processing](#text-processing-1)
@@ -728,7 +729,6 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust Tools](https://
 ## Libraries
 
 * [perf-monitor-rs](https://github.com/larksuite/perf-monitor-rs) — A toolkit designed to be a foundation for applications to monitor their performance. [![crates.io](https://img.shields.io/crates/v/perf_monitor.svg)](https://crates.io/crates/perf_monitor)
-* [Phate6660/nixinfo](https://github.com/Phate6660/nixinfo) [[crate](https://crates.io/crates/nixinfo)] — A lib crate for gathering system info such as cpu, distro, environment, kernel, etc.
 
 ### Artificial Intelligence
 
@@ -1490,6 +1490,10 @@ See also [Are we game yet?](https://arewegameyet.rs)
 [[simulation](https://crates.io/keywords/simulation)]
 
 * [nyx-space](https://crates.io/crates/nyx-space) - High fidelity, fast, reliable and validated astrodynamical toolkit library, used for spacecraft mission design and orbit determination [![Build Status](https://gitlab.com/nyx-space/nyx/badges/master/pipeline.svg)](https://gitlab.com/nyx-space/nyx/-/pipelines)
+
+### System
+
+* [Phate6660/nixinfo](https://github.com/Phate6660/nixinfo) [[nixinfo](https://crates.io/crates/nixinfo)] — A lib crate for gathering system info such as cpu, distro, environment, kernel, etc.
 
 ### Task scheduling
 
