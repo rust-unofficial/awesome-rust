@@ -242,6 +242,8 @@ See also [crates matching keyword 'emulator'](https://crates.io/keywords/emulato
   * [OpenGMK](https://github.com/OpenGMK/OpenGMK) — OpenGMK is a modern rewrite of the proprietary GameMaker Classic engines, providing a full sourceport of the runner, a decompiler, a TASing framework, and libraries for working with gamedata yourself.
 * Intel 8080 CPU
   * [mohanson/i8080](https://github.com/mohanson/i8080) — Intel 8080 cpu emulator by Rust
+* iOS
+  * [touchHLE](https://github.com/hikari-no-yume/touchHLE) — High-level emulator for iPhone OS apps
 * NES
   * [koute/pinky](https://github.com/koute/pinky) — [![build badge](https://api.travis-ci.org/koute/pinky.svg?branch=master)](https://travis-ci.org/koute/pinky)
   * [pcwalton/sprocketnes](https://github.com/pcwalton/sprocketnes)
