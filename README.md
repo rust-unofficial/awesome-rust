@@ -1453,8 +1453,9 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [rust-bakery/nom](https://github.com/rust-bakery/nom) — parser combinator library [![build badge](https://api.travis-ci.org/rust-bakery/nom.svg?branch=master)](https://travis-ci.org/rust-bakery/nom)
   * [s-panferov/queryst](https://github.com/s-panferov/queryst) — A query string parsing library for Rust inspired by [gs](https://github.com/ljharb/qs#readme)
   * [softdevteam/grmtools](https://github.com/softdevteam/grmtools/) - A LR parser with better error correction
-  * [tafia/calamine](https://github.com/tafia/calamine) - An Excel/OpenDocument Spreadsheets file reader/deserializer, in pure Rust. [!build badge](https://api.travis-ci.org/freestrings/jsonpath.svg?branch=master)
-  
+  * [tafia/calamine](https://github.com/tafia/calamine) - An Excel/OpenDocument Spreadsheets file reader/deserializer, in pure Rust. [![build badge](https://api.travis-ci.org/freestrings/jsonpath.svg?branch=master)
+ 
+ 
 ### Peripherals
 
 * Serial Port
