@@ -1439,7 +1439,6 @@ See also [Are we game yet?](https://arewegameyet.rs)
 ### Parsing
 
   * [comex/rust-shlex](https://github.com/comex/rust-shlex) [[shlex](https://crates.io/crates/shlex)] — Split a string into shell words, like Python's shlex. [![build badge](https://github.com/comex/rust-shlex/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/comex/rust-shlex/actions/workflows/test.yml)
-  * [tafia/calamine](https://github.com/tafia/calamine) - An Excel/OpenDocument Spreadsheets file reader/deserializer, in pure Rust.
   * [Folyd/robotstxt](https://github.com/Folyd/robotstxt) - A native Rust port of Google's robots.txt parser and matcher C++ library
   * [freestrings/jsonpath](https://github.com/freestrings/jsonpath) — [JsonPath](https://goessner.net/articles/JsonPath/) engine written in Rust. Webassembly and Javascript support too [![Build Status](https://api.travis-ci.org/freestrings/jsonpath.svg?branch=master)](https://travis-ci.org/freestrings/jsonpath)
   * [hmeyer/stl_io](https://crates.io/crates/stl_io) - A parser for STL (STereoLithography) files
@@ -1454,7 +1453,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [rust-bakery/nom](https://github.com/rust-bakery/nom) — parser combinator library [![build badge](https://api.travis-ci.org/rust-bakery/nom.svg?branch=master)](https://travis-ci.org/rust-bakery/nom)
   * [s-panferov/queryst](https://github.com/s-panferov/queryst) — A query string parsing library for Rust inspired by [gs](https://github.com/ljharb/qs#readme)
   * [softdevteam/grmtools](https://github.com/softdevteam/grmtools/) - A LR parser with better error correction
-
+  * [tafia/calamine](https://github.com/tafia/calamine) - An Excel/OpenDocument Spreadsheets file reader/deserializer, in pure Rust. [![build badge](https://api.travis-ci.org/rust-bakery/nom.svg?
 ### Peripherals
 
 * Serial Port
