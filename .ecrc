@@ -1,0 +1,3 @@
+{
+    "Exclude": ["target", ".git", "node_modules", "results"]
+}
