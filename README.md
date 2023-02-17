@@ -49,6 +49,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   * [Artificial Intelligence](#artificial-intelligence)
     + [Genetic algorithms](#genetic-algorithms)
     + [Machine learning](#machine-learning)
+    + [OpenAI](#openai)
   * [Astronomy](#astronomy)
   * [Asynchronous](#asynchronous)
   * [Audio and Music](#audio-and-music-1)
@@ -760,6 +761,10 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [rust-ml/linfa](https://github.com/rust-ml/linfa) — Machine learning framework.
 * [smartcorelib/smartcore](https://github.com/smartcorelib/smartcore) — Machine Learning Library In Rust [![Build Status](https://img.shields.io/circleci/build/github/smartcorelib/smartcore)](https://smartcorelib.org/)
 * [tensorflow/rust](https://github.com/tensorflow/rust) — Rust language bindings for TensorFlow. [![Build Status](https://api.travis-ci.org/tensorflow/rust.svg?branch=master)](https://travis-ci.org/tensorflow/rust)
+
+#### OpenAI
+
+* [64bit/async-openai](https://github.com/64bit/async-openai) [[async-openai](https://crates.io/crates/async-openai)] — Ergonomic Rust bindings for OpenAI API based on OpenAPI spec.
 
 ### Astronomy
 
