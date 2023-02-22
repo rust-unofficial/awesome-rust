@@ -1270,6 +1270,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
 
 ### Graph algorithms
 
+* [petgraph/petgraph](https://github.com/petgraph/petgraph) - Graph data structure library for Rust. [![graph CI status](https://github.com/petgraph/petgraph/workflows/Continuous%20integration/badge.svg?branch=master)](https://github.com/petgraph/petgraph/actions/workflows/ci.yml)
 * [s1ck/graph](https://github.com/s1ck/graph) - A library for high-performant graph algorithms [![graph CI status](https://img.shields.io/github/workflow/status/s1ck/graph/CI/main?label=CI)](https://github.com/s1ck/graph/actions/workflows/rust.yml)
 
 ### Graphics
