@@ -1371,6 +1371,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
 * cute
   * [mattgathu/cute](https://github.com/mattgathu/cute) — Macro for Python-esque list comprehensions in Rust. [![Build Status](https://api.travis-ci.org/mattgathu/cute.svg?branch=master)](https://travis-ci.org/tensorflow/rust)
 * [Linq-in-Rust](https://github.com/StardustDL/Linq-in-Rust) - Macro and methods for C#-LINQ-like expressions. [![CI](https://github.com/StardustDL/Linq-in-Rust/workflows/CI/badge.svg?branch=master)](https://github.com/StardustDL/Linq-in-Rust/actions?query=workflow%3ACI)
+* [public](https://github.com/yuchunzhou/public) - A Rust attribute macro used to mark struct/union and its fields as public.
 
 ### Markup language
 
