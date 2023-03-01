@@ -324,11 +324,14 @@ fn get_url_core(url: String) -> BoxFuture<'static, (String, Result<(), CheckerEr
                             return (url, Err(CheckerError::TooManyRequests));
                         }
 
-                        warn!("Error while getting {}, retrying: {}", url, status);
                         if status.is_redirection() {
-                            res = Err(CheckerError::HttpError {status: status.as_u16(), location: ok.headers().get(header::LOCATION).and_then(|h| h.to_str().ok()).map(|x| x.to_string())});
-                            break;
+                            if status != StatusCode::TEMPORARY_REDIRECT && status != StatusCode::FOUND { // ignore temporary redirects
+                                res = Err(CheckerError::HttpError {status: status.as_u16(), location: ok.headers().get(header::LOCATION).and_then(|h| h.to_str().ok()).map(|x| x.to_string())});
+                                warn!("Redirect while getting {} - {}", url, status);
+                                break;
+                            }
                         } else {
+                            warn!("Error while getting {}, retrying: {}", url, status);
                             res = Err(CheckerError::HttpError {status: status.as_u16(), location: None});
                             continue;
                         }
@@ -711,9 +714,7 @@ async fn main() -> Result<(), Error> {
     for (url, link) in results.iter() {
         if let Working::No(ref err) = link.working {
             match err {
-                CheckerError::HttpError { status, .. }
-                    if *status == 301 || *status == 302 || *status == 404 =>
-                {
+                CheckerError::HttpError { status, .. } if *status == 301 || *status == 404 => {
                     println!("{} {:?}", url, link);
                     failed += 1;
                     continue;
