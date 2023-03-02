@@ -1667,7 +1667,7 @@ A registry allows you to publish your Rust libraries as crate packages, to share
 * [Discover Rust Libraries & Code Snippets](https://kandi.openweaver.com/explore/rust) - A curated list of Rust libraries, authors, kits, tutorials & learning resources on kandi
 * Learning
   * [Awesome Rust Streaming](https://github.com/jamesmunns/awesome-rust-streaming) - A community curated list of livestreams about Rust.
-  * [awesome-rust-mentors](https://rustbeginners.github.io/awesome-rust-mentors/) — A list of helpful Rust mentors willing to take mentees and eductate them about Rust and programming.
+  * [awesome-rust-mentors](https://rustbeginners.github.io/awesome-rust-mentors/) — A list of helpful Rust mentors willing to take mentees and educate them about Rust and programming.
   * [Build a language VM](https://blog.subnetzero.io/post/building-language-vm-part-00/)
   * [CodeCrafters.io](https://app.codecrafters.io/tracks/rust) — Build your own Redis, Git, Docker, or SQLite in Rust
   * [Easy Rust](https://github.com/Dhghomon/easy_rust) - Learn Rust in easy English.
