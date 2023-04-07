@@ -310,6 +310,7 @@ See also [Games Made With Piston](https://github.com/PistonDevelopers/piston/wik
 
 See also [A comparison of operating systems written in Rust](https://github.com/flosse/rust-os-comparison).
 * [0x59616e/SteinsOS](https://github.com/0x59616e/SteinsOS)  — An OS for armv8-a architecture.
+* [Andy-Python-Programmer/aero](https://github.com/Andy-Python-Programmer/aero) — A modern, unix-like operating system following the monolithic kernel design.
 * [redox-os/redox](https://gitlab.redox-os.org/redox-os/redox) —
 * [thepowersgang/rust_os](https://github.com/thepowersgang/rust_os) —
 * [theseus-os/Theseus](https://github.com/theseus-os/Theseus) — A safe-language, single address space and single privilege level OS written from scratch in pure Rust - [![build badge](https://img.shields.io/github/workflow/status/theseus-os/Theseus/Documentation?label=docs%20build)](https://www.theseus-os.com/Theseus/book/index.html)
