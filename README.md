@@ -19,6 +19,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   * [Industrial automation](#industrial-automation)
   * [Observability](#observability)
   * [Operating systems](#operating-systems)
+  * [Payments](#payments)
   * [Productivity](#productivity)
   * [Security tools](#security-tools)
   * [Simulation](#simulation)
@@ -315,6 +316,10 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [thepowersgang/rust_os](https://github.com/thepowersgang/rust_os) —
 * [theseus-os/Theseus](https://github.com/theseus-os/Theseus) — A safe-language, single address space and single privilege level OS written from scratch in pure Rust - [![build badge](https://img.shields.io/github/workflow/status/theseus-os/Theseus/Documentation?label=docs%20build)](https://www.theseus-os.com/Theseus/book/index.html)
 * [tock/tock](https://github.com/tock/tock) — A secure embedded operating system for Cortex-M based microcontrollers
+
+### Payments
+
+* [hyperswitch](https://github.com/juspay/hyperswitch) — An open source payments orchestrator that lets you connect with multiple payment processors and route payment traffic effortlessly, all with a single API integration ![GitHub last commit](https://img.shields.io/github/last-commit/juspay/hyperswitch?style=flat-square)
 
 ### Productivity
 
