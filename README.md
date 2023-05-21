@@ -459,6 +459,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [tversteeg/emplace](https://github.com/tversteeg/emplace) — Synchronize installed packages on multiple machines
 * [vamolessa/verco](https://github.com/vamolessa/verco) [[verco](https://crates.io/crates/verco)] — A simple Git/Hg tui client focused on keyboard shortcuts
 * [vaultwarden](https://github.com/dani-garcia/vaultwarden#readme) [![Build](https://github.com/dani-garcia/vaultwarden/actions/workflows/build.yml/badge.svg)](https://github.com/dani-garcia/vaultwarden/actions/workflows/build.yml) — Alternative implementation of the Bitwarden server API written in Rust
+* [warpdotdev/Warp](https://github.com/warpdotdev/Warp) — Warp is a blazingly-fast modern Rust based GPU-accelerated terminal built to make you and your team more productive.
 * [yaa110/cb](https://github.com/yaa110/cb) — Command line interface to manage clipboard
 
 ### Video
