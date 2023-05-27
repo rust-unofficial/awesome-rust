@@ -788,6 +788,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 
 [[astronomy](https://crates.io/keywords/astronomy)]
 
+* [cds-astro/aladin-lite](https://github.com/cds-astro/aladin-lite) - Web application for visualizing spatial and planetary image surveys in different projections
 * [fitsio](https://crates.io/crates/fitsio) — fits interface library wrapping cfitsio
 * [flosse/rust-sun](https://github.com/flosse/rust-sun) [[sun](https://crates.io/crates/sun)] — A rust port of the JS library suncalc
 * [saurvs/astro-rust](https://github.com/saurvs/astro-rust) — astronomy for Rust
