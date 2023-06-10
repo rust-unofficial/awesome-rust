@@ -586,7 +586,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
   * [rust-lang-nursery/docker-rust](https://github.com/rust-lang/docker-rust) — the official Rust Docker image
 * Heroku
   * [emk/heroku-buildpack-rust](https://github.com/emk/heroku-buildpack-rust) — A buildpack for Rust applications on Heroku
-* [MarcoIeni/release-plz](https://github.com/MarcoIeni/release-plz) - Release Rust crates from CI, with changelog generation and semver check.
+* [MarcoIeni/release-plz](https://github.com/MarcoIeni/release-plz) [[release-plz](https://crates.io/crates/release-plz)] — Release Rust crates from CI, with changelog generation and semver check. [![build badge](https://github.com/MarcoIeni/release-plz/workflows/CI/badge.svg)](https://github.com/MarcoIeni/release-plz/actions)
 
 ### Embedded
 
