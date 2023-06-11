@@ -21,6 +21,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   * [Operating systems](#operating-systems)
   * [Payments](#payments)
   * [Productivity](#productivity)
+  * [Routing protocols](#routing-protocols)
   * [Security tools](#security-tools)
   * [Simulation](#simulation)
   * [Social networks](#social-networks)
@@ -332,6 +333,11 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [eureka](https://crates.io/crates/eureka) — A CLI tool to input and store your ideas without leaving the terminal
 * [illacloud/illa](https://github.com/illacloud/illa) [[ILLA Cloud](https://www.illacloud.com/)] - Low-code internal tool builder written with Rust.
 * [pier-cli/pier](https://github.com/pier-cli/pier) — A central repository to manage (add, search metadata, etc.) all your one-liners, scripts, tools, and CLIs
+
+### Routing protocols
+
+* [Holo](https://github.com/rwestphal/holo) - Holo is a suite of routing protocols designed to support high-scale and automation-driven networks
+* [RustyBGP](https://github.com/osrg/rustybgp) - BGP implemented in the Rust Programming Language
 
 ### Security tools
 
