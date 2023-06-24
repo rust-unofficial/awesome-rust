@@ -385,6 +385,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [ddh](https://github.com/darakian/ddh) — Fast duplicate file finder
 * [diskonaut](https://github.com/imsnif/diskonaut) — Terminal visual disk space navigator
 * [dust](https://github.com/bootandy/dust) — A more intuitive version of du
+* [ellie/atuin](https://github.com/ellie/atuin) [[atuin](https://crates.io/crates/atuin)] — Atuin replaces your existing shell history with a SQLite database, and records additional context for your commands. Additionally, it provides optional and fully encrypted synchronisation of your history between machines, via an Atuin server.
 * [fselect](https://crates.io/crates/fselect) — Find files with SQL-like queries
 * [gitui](https://github.com/extrawurst/gitui) - Blazing fast terminal client for git written in Rust. [![build](https://github.com/extrawurst/gitui/workflows/CI/badge.svg?branch=master)](https://github.com/extrawurst/gitui/actions)
 * [j0ru/kickoff](https://github.com/j0ru/kickoff) - Fast and snappy wayland program launcher [![build](https://github.com/j0ru/kickoff/actions/workflows/ci.yml/badge.svg)](https://github.com/j0ru/kickoff/actions)
