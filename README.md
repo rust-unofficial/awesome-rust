@@ -77,6 +77,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   * [Email](#email)
   * [Encoding](#encoding)
   * [Filesystem](#filesystem)
+  * [Finance](#finance)
   * [Functional Programming](#functional-programming)
   * [Game development](#game-development)
   * [Geospatial](#geospatial)
@@ -1265,6 +1266,10 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
   * [Stebalien/tempfile](https://github.com/Stebalien/tempfile) — temporary file library
   * [Stebalien/xattr](https://github.com/Stebalien/xattr) [[xattr](https://crates.io/crates/xattr)] — list and manipulate unix extended file attributes
   * [zboxfs/zbox](https://github.com/zboxfs/zbox) [[zbox](https://crates.io/crates/zbox)] — Zero-details, privacy-focused embeddable file system.
+
+### Finance
+
+* [avhz/RustQuant](https://github.com/avhz/RustQuant) [[RustQuant](https://crates.io/crates/RustQuant)] — A quantitative finance library. ![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/avhz/RustQuant/build.yml)
 
 ### Functional Programming
 
