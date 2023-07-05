@@ -1061,6 +1061,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [milliams/plotlib](https://github.com/milliams/plotlib) —
 * [plotters](https://github.com/plotters-rs/plotters) — [![build badge](https://github.com/plotters-rs/plotters/workflows/CI/badge.svg)](https://github.com/plotters-rs/plotters/actions)
 * [rerun](https://github.com/rerun-io/rerun) — [[rerun](https://crates.io/crates/rerun)] — An SDK for logging computer vision and robotics data (tensors, point clouds, etc) paired with a visualizer for exploring that data over time.
+* [blitzarx1/egui_graphs](https://github.com/blitzarx1/egui_graphs) - Interactive graph visualization widget for rust powered by egui and petgraph.
 * [saresend/gust](https://github.com/saresend/Gust) —
 
 ### Database
