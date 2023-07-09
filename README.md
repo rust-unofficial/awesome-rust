@@ -247,6 +247,7 @@ See also [crates matching keyword 'emulator'](https://crates.io/keywords/emulato
   * [Gekkio/mooneye-gb](https://github.com/Gekkio/mooneye-gb) —
   * [mohanson/gameboy](https://github.com/mohanson/gameboy) — Full featured Cross-platform GameBoy emulator. Forever boys!.
   * [mvdnes/rboy](https://github.com/mvdnes/rboy) —
+  * [joamag/boytacean](https://github.com/joamag/boytacean) — GameBoy Color emulator writen in Rust and running in the Web using WASM.
 * Gameboy Advance
   * [michelhe/rustboyadvance-ng](https://github.com/michelhe/rustboyadvance-ng) - RustboyAdvance-ng is a Gameboy Advance emulator with desktop, android and [WebAssembly](https://michelhe.github.io/rustboyadvance-ng/) support. [![build badge](https://github.com/michelhe/rustboyadvance-ng/workflows/Deploy/badge.svg?branch=master)](https://github.com/michelhe/rustboyadvance-ng/actions?query=workflow%3ADeploy)
 * GameMaker
