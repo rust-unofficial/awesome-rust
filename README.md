@@ -245,6 +245,7 @@ See also [crates matching keyword 'emulator'](https://crates.io/keywords/emulato
   * [Ruffle](https://github.com/ruffle-rs/ruffle) — Ruffle is an Adobe Flash Player emulator written in the Rust programming language. Ruffle targets both the desktop and the web using WebAssembly. [![CI](https://github.com/ruffle-rs/ruffle/actions/workflows/test_rust.yml/badge.svg)](https://github.com/ruffle-rs/ruffle/actions/workflows/test_rust.yml)[![CI](https://github.com/ruffle-rs/ruffle/actions/workflows/test_web.yml/badge.svg)](https://github.com/ruffle-rs/ruffle/actions/workflows/test_web.yml)
 * Gameboy
   * [Gekkio/mooneye-gb](https://github.com/Gekkio/mooneye-gb) —
+  * [joamag/boytacean](https://github.com/joamag/boytacean) — GameBoy Color emulator written in Rust that runs on the Web using WebAssembly.
   * [mohanson/gameboy](https://github.com/mohanson/gameboy) — Full featured Cross-platform GameBoy emulator. Forever boys!.
   * [mvdnes/rboy](https://github.com/mvdnes/rboy) —
 * Gameboy Advance
