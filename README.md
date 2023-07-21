@@ -151,6 +151,7 @@ See also [Rust — Production](https://www.rust-lang.org/production) organizatio
 * [Weld](https://github.com/serayuzgur/weld) — Full fake REST API generator
 * [wezterm](https://github.com/wez/wezterm) — A GPU-accelerated cross-platform terminal emulator and multiplexer
 * [zellij](https://github.com/zellij-org/zellij) — A terminal multiplexer (workspace) with batteries included
+* [chat-room](https://github.com/fanlv/chat-room) — A online chat room based on QUIC protocol
 
 ### Audio and Music
 
