@@ -139,6 +139,7 @@ See also [Rust — Production](https://www.rust-lang.org/production) organizatio
 * [notty](https://github.com/withoutboats/notty) — A new kind of terminal
 * [Pijul](https://pijul.org) — A patch-based distributed version control system
 * [Rio](https://github.com/raphamorim/rio) - A hardware-accelerated GPU terminal emulator powered by WebGPU, focusing to run in desktops and browsers.
+* [rust-parallel](https://github.com/aaronriekenberg/rust-parallel) Fast command line app using Tokio to execute commands in parallel.  Similar interface to GNU parallel or xargs. [![Crate](https://img.shields.io/crates/v/rust-parallel.svg?logo=rust)](https://crates.io/crates/rust-parallel) [![Build Status](https://github.com/aaronriekenberg/rust-parallel/actions/workflows/CI.yml/badge.svg)](https://github.com/aaronriekenberg/rust-parallel/actions/workflows/CI.yml)
 * [rx](https://github.com/cloudhead/rx) — Vi inspired Modern Pixel Art Editor
 * [Servo](https://github.com/servo/servo) — A prototype web browser engine
 * [shoes](https://github.com/cfal/shoes) - A multi-protocol proxy server
