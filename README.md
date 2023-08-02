@@ -506,6 +506,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [MASQ-Project/Node](https://github.com/MASQ-Project/Node) — MASQ Node software provides a decentralized mesh-network of nodes for global users to access normal internet content - next evolution of tech beyond Tor & VPN [![build badge](https://github.com/MASQ-Project/Node/actions/workflows/ci-matrix.yml/badge.svg)](https://github.com/MASQ-Project/Node/actions)
 * [Plume-org/Plume](https://github.com/Plume-org/Plume) — ActivityPub federating blogging application
 * [Revolt/backend](https://github.com/revoltchat/backend) - User-first chat platform built with modern web technologies.
+* [OxiTraffic](https://codeberg.org/mo8it/oxitraffic) - Self-hosted, simple and privacy respecting website traffic tracker
 
 ### Web Servers
 
