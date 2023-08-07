@@ -951,6 +951,8 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 
 ### Compression
 
+* [7z](https://7-zip.org/7z.html)
+  * [dyz1990/sevenz-rust](https://github.com/dyz1990/sevenz-rust) [[sevenz-rust](https://crates.io/crates/sevenz-rust)] — A 7z decompressor/compressor written in pure rust. [![Rust](https://github.com/dyz1990/sevenz-rust/workflows/Rust/badge.svg?branch=main)](https://github.com/dyz1990/sevenz-rust/actions)
 * [Brotli](https://opensource.googleblog.com/2015/09/introducing-brotli-new-compression.html)
   * [dropbox/rust-brotli](https://github.com/dropbox/rust-brotli) — Brotli decompressor in Rust that optionally avoids the stdlib
   * [ende76/brotli-rs](https://github.com/ende76/brotli-rs) — implementation of Brotli compression
