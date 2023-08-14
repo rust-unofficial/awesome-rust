@@ -1194,8 +1194,8 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 
 ### EBPF
 
-* [libbpf/libbpf-rs](https://github.com/libbpf/libbpf-rs) — A minimal and opinionated eBPF tooling for the Rust ecosystem.
 * [aya/aya-rs](https://github.com/aya-rs/aya) — A Rust library for the Rust programming language, built with a focus on developer experience and operability.
+* [libbpf/libbpf-rs](https://github.com/libbpf/libbpf-rs) — A minimal and opinionated eBPF tooling for the Rust ecosystem.
 
 ### Email
 
