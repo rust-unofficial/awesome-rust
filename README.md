@@ -1188,11 +1188,10 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 
   * [serverlesstechnology/cqrs](https://github.com/serverlesstechnology/cqrs) [[cqrs-es](https://crates.io/crates/cqrs-es)] — A framework for CQRS and event sourcing with [user guide](https://doc.rust-cqrs.org/)
 
-### eBPF
+### EBPF
 
 * [libbpf/libbpf-rs](https://github.com/libbpf/libbpf-rs) — A minimal and opinionated eBPF tooling for the Rust ecosystem.
 * [aya/aya-rs](https://github.com/aya-rs/aya) — A Rust library for the Rust programming language, built with a focus on developer experience and operability.
-* [foniod/redbpf](https://github.com/foniod/redbpf) — A Rust library for building and running BPF/eBPF modules.
 
 ### Email
 
