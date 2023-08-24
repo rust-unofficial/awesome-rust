@@ -74,6 +74,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   * [Date and time](#date-and-time)
   * [Distributed systems](#distributed-systems)
   * [Domain driven design](#domain-driven-design)
+  * [eBPF](#ebpf)
   * [Email](#email)
   * [Encoding](#encoding)
   * [Filesystem](#filesystem)
@@ -1190,6 +1191,11 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 ### Domain driven design
 
   * [serverlesstechnology/cqrs](https://github.com/serverlesstechnology/cqrs) [[cqrs-es](https://crates.io/crates/cqrs-es)] — A framework for CQRS and event sourcing with [user guide](https://doc.rust-cqrs.org/)
+
+### eBPF
+
+* [aya/aya-rs](https://github.com/aya-rs/aya) — A Rust library for the Rust programming language, built with a focus on developer experience and operability.
+* [libbpf/libbpf-rs](https://github.com/libbpf/libbpf-rs) — A minimal and opinionated eBPF tooling for the Rust ecosystem.
 
 ### Email
 
