@@ -265,6 +265,8 @@ See also [crates matching keyword 'emulator'](https://crates.io/keywords/emulato
 * NES
   * [koute/pinky](https://github.com/koute/pinky) —
   * [pcwalton/sprocketnes](https://github.com/pcwalton/sprocketnes)
+* Nintendo DS
+  * [dust](https://github.com/kelpsyberry/dust) — A Nintendo DS emulator written in Rust
 * PlayStation 4
   * [Obliteration](https://github.com/obhq/obliteration) — Experimental PS4 emulator written in Rust for Windows, macOS and Linux [![CI](https://github.com/obhq/obliteration/actions/workflows/main.yml/badge.svg)](https://github.com/obhq/obliteration/actions/workflows/main.yml)
 * ZX Spectrum
