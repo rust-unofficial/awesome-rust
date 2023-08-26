@@ -74,6 +74,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   * [Date and time](#date-and-time)
   * [Distributed systems](#distributed-systems)
   * [Domain driven design](#domain-driven-design)
+  * [eBPF](#ebpf)
   * [Email](#email)
   * [Encoding](#encoding)
   * [Filesystem](#filesystem)
@@ -264,6 +265,8 @@ See also [crates matching keyword 'emulator'](https://crates.io/keywords/emulato
 * NES
   * [koute/pinky](https://github.com/koute/pinky) —
   * [pcwalton/sprocketnes](https://github.com/pcwalton/sprocketnes)
+* Nintendo DS
+  * [dust](https://github.com/kelpsyberry/dust) — A Nintendo DS emulator written in Rust
 * PlayStation 4
   * [Obliteration](https://github.com/obhq/obliteration) — Experimental PS4 emulator written in Rust for Windows, macOS and Linux [![CI](https://github.com/obhq/obliteration/actions/workflows/main.yml/badge.svg)](https://github.com/obhq/obliteration/actions/workflows/main.yml)
 * ZX Spectrum
@@ -1191,6 +1194,11 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 ### Domain driven design
 
   * [serverlesstechnology/cqrs](https://github.com/serverlesstechnology/cqrs) [[cqrs-es](https://crates.io/crates/cqrs-es)] — A framework for CQRS and event sourcing with [user guide](https://doc.rust-cqrs.org/)
+
+### eBPF
+
+* [aya/aya-rs](https://github.com/aya-rs/aya) — A Rust library for the Rust programming language, built with a focus on developer experience and operability.
+* [libbpf/libbpf-rs](https://github.com/libbpf/libbpf-rs) — A minimal and opinionated eBPF tooling for the Rust ecosystem.
 
 ### Email
 
