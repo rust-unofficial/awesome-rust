@@ -1599,6 +1599,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
 * [mun](https://github.com/mun-lang/mun) — A compiled, statically-typed scripting language with first class hot reloading support
 * [murarth/ketos](https://github.com/murarth/ketos) — A Lisp dialect functional programming language serving as a scripting and extension language for rust
 * [PistonDevelopers/dyon](https://github.com/PistonDevelopers/dyon) — A rusty dynamically typed scripting language
+* [PotterScript](https://github.com/fmiras/potterscript) - The Wizarding World Programming Language written in Rust
 * [rhaiscript/rhai](https://github.com/rhaiscript/rhai) — A tiny and fast embedded scripting language resembling a combination of JavaScript and Rust [![build badge](https://github.com/rhaiscript/rhai/workflows/Build/badge.svg)](https://github.com/rhaiscript/rhai/actions)
 * [rune-rs/rune](https://github.com/rune-rs/rune) — An embeddable dynamic programming language for Rust
 
