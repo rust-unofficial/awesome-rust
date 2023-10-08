@@ -298,6 +298,7 @@ See also [Games Made With Piston](https://github.com/PistonDevelopers/piston/wik
 
 ### Graphics
 
+* [dps/rust-raytracer](https://github.com/dps/rust-raytracer) - An implementation of a very simple raytracer based on Ray Tracing in One Weekend by Peter Shirley in Rust.
 * [ivanceras/svgbob](https://github.com/ivanceras/svgbob) — converts ASCII diagrams into SVG graphics
 * [Limeth/euclider](https://github.com/Limeth/euclider) — A real-time 4D CPU ray tracer
 * [RazrFalcon/resvg](https://github.com/RazrFalcon/resvg) — An SVG rendering library.
