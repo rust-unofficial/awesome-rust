@@ -315,6 +315,7 @@ See also [Games Made With Piston](https://github.com/PistonDevelopers/piston/wik
 
 * [locka99/opcua](https://github.com/locka99/opcua) — A pure rust [OPC UA](https://opcfoundation.org/about/opc-technologies/opc-ua/) library.
 * [slowtec/tokio-modbus](https://github.com/slowtec/tokio-modbus) — A [tokio](https://tokio.rs)-based [modbus](https://modbus.org) library.
+* [petar-dambovaliev/s7](https://github.com/petar-dambovaliev/s7) — A simple library that can be used to communicate with Siemens S7 family PLC devices. 
 
 ### Observability
 
