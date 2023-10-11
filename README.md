@@ -300,13 +300,13 @@ See also [Games Made With Piston](https://github.com/PistonDevelopers/piston/wik
 
 * [dps/rust-raytracer](https://github.com/dps/rust-raytracer) - An implementation of a very simple raytracer based on Ray Tracing in One Weekend by Peter Shirley in Rust.
 * [ivanceras/svgbob](https://github.com/ivanceras/svgbob) — converts ASCII diagrams into SVG graphics
+* [KaminariOS/rustracer](https://github.com/KaminariOS/rustracer) — A PBR glTF 2.0 renderer based on Vulkan ray-tracing, written in Rust.
 * [Limeth/euclider](https://github.com/Limeth/euclider) — A real-time 4D CPU ray tracer
 * [RazrFalcon/resvg](https://github.com/RazrFalcon/resvg) — An SVG rendering library.
 * [rodrigorc/papercraft](https://github.com/rodrigorc/papercraft) - A tool to unwrap 3D models and create them in paper with scissors and glue.
 * [rustq/vue-skia](https://github.com/rustq/vue-skia) — Skia based 2d graphics vue rendering library. It is based on Rust to implement software rasterization to perform rendering.
 * [turnage/valora](https://crates.io/crates/valora) — A library for generative fine art ![Rust](https://github.com/turnage/valora/workflows/Rust/badge.svg?branch=master)
 * [Twinklebear/tray_rust](https://github.com/Twinklebear/tray_rust) — A ray tracer
-* [KaminariOS/rustracer](https://github.com/KaminariOS/rustracer) — A PBR glTF 2.0 renderer based on Vulkan ray-tracing, written in Rust.
 
 ### Image processing
 
