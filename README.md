@@ -375,8 +375,9 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [ObserverWard](https://github.com/0x727/ObserverWard) — Community based web technologies analysis tool.
 * [ripasso](https://github.com/cortex/ripasso/) — A password manager, filesystem compatible with pass
 * [rustscan/rustscan](https://github.com/RustScan/RustScan) — Make Nmap faster with this port scanning tool [![build badge](https://github.com/RustScan/RustScan/workflows/Continuous%20integration/badge.svg?branch=master)](https://github.com/RustScan/RustScan/actions?query=workflow%3A%22Continuous+integration%22)
+* [devolutions/sspi-rs](https://github.com/Devolutions/sspi-rs) - A rust implementation of Windows SSPI, one to one mapping to Windows SSPI interface. support security providers including CredSSP, Negotiate,Kerberos and NTLM.
 
-### Simulation
+ ### Simulation
 
 * [hEngine](https://github.com/hashintel/hash/tree/main/apps/engine) - A Rust-implemented computational simulation engine, supporting large-scale agent-based modelling, with simulation logic written in JavaScript and Python.
 
