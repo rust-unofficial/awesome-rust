@@ -1610,6 +1610,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
 
 [[scripting](https://crates.io/keywords/scripting)]
 
+* [3body-lang](https://github.com/rustq/3body-lang) - The Three Body Language written in Rust
 * [duckscript](https://crates.io/crates/duckscript) — [Simple, extendable and embeddable scripting language.](https://github.com/sagiegurari/duckscript) [![build badge](https://github.com/sagiegurari/duckscript/workflows/CI/badge.svg?branch=master)](https://github.com/sagiegurari/duckscript/actions)
 * [fleabitdev/gamelisp](https://github.com/fleabitdev/glsp) — A Lisp-like scripting language for Rust game development
 * [gluon-lang/gluon](https://github.com/gluon-lang/gluon) —  A small, statically-typed, functional programming language
