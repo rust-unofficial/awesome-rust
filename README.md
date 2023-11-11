@@ -19,6 +19,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   * [Industrial automation](#industrial-automation)
   * [Observability](#observability)
   * [Operating systems](#operating-systems)
+  * [Package Managers](#package-managers)
   * [Payments](#payments)
   * [Productivity](#productivity)
   * [Routing protocols](#routing-protocols)
@@ -124,7 +125,7 @@ See also [Rust — Production](https://www.rust-lang.org/production) organizatio
 * [datafusion](https://github.com/apache/arrow-datafusion) — Apache Arrow DataFusion and Ballista query engines
 * [denoland/deno](https://github.com/denoland/deno) — A secure JavaScript/TypeScript runtime built with V8, Rust, and Tokio [![Build Status](https://github.com/denoland/deno/workflows/ci/badge.svg?branch=master&event=push)](https://github.com/denoland/deno/actions)
 * [doprz/dipc](https://github.com/doprz/dipc) — Convert your favorite images and wallpapers with your favorite color palettes/themes [![crates.io](https://img.shields.io/crates/v/dipc)](https://crates.io/crates/dipc)
-* [Factotum](https://github.com/snowplow/factotum) — [A system to programmatically run data pipelines](https://snowplow.io/blog/introducing-factotum-data-pipeline-runner/)
+* [Factotum](https://github.com/snowplow/factotum) — A system to programmatically run data pipelines
 * [fcsonline/drill](https://github.com/fcsonline/drill) — A HTTP load testing application inspired by Ansible syntax
 * [fend](https://github.com/printfn/fend) - Arbitrary-precision unit-aware calculator [![build](https://github.com/printfn/fend/workflows/build/badge.svg)](https://github.com/printfn/fend)
 * [Fractalide](https://github.com/fractalide/fractalide) — Simple Rust Microservices
@@ -339,6 +340,10 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [theseus-os/Theseus](https://github.com/theseus-os/Theseus) — A safe-language, single address space and single privilege level OS written from scratch in pure Rust - [![build badge](https://img.shields.io/github/workflow/status/theseus-os/Theseus/Documentation?label=docs%20build)](https://www.theseus-os.com/Theseus/book/index.html)
 * [tock/tock](https://github.com/tock/tock) — A secure embedded operating system for Cortex-M based microcontrollers
 
+### Package Managers
+
+* [helsing-ai/buffrs](https://github.com/helsing-ai/buffrs) [[buffrs](https://crates.io/crates/buffrs)] — A modern package manager for protocol buffers and gRPC architectures.
+
 ### Payments
 
 * [hyperswitch](https://github.com/juspay/hyperswitch) — An open source payments orchestrator that lets you connect with multiple payment processors and route payment traffic effortlessly, all with a single API integration ![GitHub last commit](https://img.shields.io/github/last-commit/juspay/hyperswitch?style=flat-square)
@@ -355,7 +360,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 
 ### Routing protocols
 
-* [Holo](https://github.com/rwestphal/holo) - Holo is a suite of routing protocols designed to support high-scale and automation-driven networks
+* [Holo](https://github.com/holo-routing/holo) - Holo is a suite of routing protocols designed to support high-scale and automation-driven networks
 * [RustyBGP](https://github.com/osrg/rustybgp) - BGP implemented in the Rust Programming Language
 
 ### Security tools
@@ -1644,8 +1649,8 @@ https://github.com/BinChengZhao/delay-timer/actions)
 ### Template engine
 
 * Handlebars
-  * [botika/yarte](https://github.com/botika/yarte) — Yarte stands for **Y**et **A**nother **R**ust **T**emplate **E**ngine, is the fastest template engine.
   * [sunng87/handlebars-rust](https://github.com/sunng87/handlebars-rust) — Handlebars template engine with inheritance, custom helper support.
+  * [zzau13/yarte](https://github.com/zzau13/yarte) — Yarte stands for **Y**et **A**nother **R**ust **T**emplate **E**ngine, is the fastest template engine.
 * HTML
   * [djc/askama](https://github.com/djc/askama) — template rendering engine based on Jinja
   * [kaj/ructe](https://github.com/kaj/ructe) — HTML template system for Rust
