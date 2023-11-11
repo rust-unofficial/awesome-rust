@@ -19,6 +19,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   * [Industrial automation](#industrial-automation)
   * [Observability](#observability)
   * [Operating systems](#operating-systems)
+  * [Package Managers](#package-managers)
   * [Payments](#payments)
   * [Productivity](#productivity)
   * [Routing protocols](#routing-protocols)
@@ -337,6 +338,10 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [thepowersgang/rust_os](https://github.com/thepowersgang/rust_os) —
 * [theseus-os/Theseus](https://github.com/theseus-os/Theseus) — A safe-language, single address space and single privilege level OS written from scratch in pure Rust - [![build badge](https://img.shields.io/github/workflow/status/theseus-os/Theseus/Documentation?label=docs%20build)](https://www.theseus-os.com/Theseus/book/index.html)
 * [tock/tock](https://github.com/tock/tock) — A secure embedded operating system for Cortex-M based microcontrollers
+
+### Package Managers
+
+* [helsing-ai/buffrs](https://github.com/helsing-ai/buffrs) [[buffrs](https://crates.io/crates/buffrs)] — A modern package manager for protocol buffers and gRPC architectures.
 
 ### Payments
 
