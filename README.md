@@ -24,7 +24,6 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   * [Productivity](#productivity)
   * [Routing protocols](#routing-protocols)
   * [Security tools](#security-tools)
-  * [Simulation](#simulation)
   * [Social networks](#social-networks)
   * [System tools](#system-tools)
   * [Task scheduling](#task-scheduling)
@@ -97,7 +96,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   * [Peripherals](#peripherals)
   * [Platform specific](#platform-specific)
   * [Scripting](#scripting)
-  * [Simulation](#simulation-1)
+  * [Simulation](#simulation)
   * [System](#system)
   * [Task scheduling](#task-scheduling-1)
   * [Template engine](#template-engine)
@@ -381,10 +380,6 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [ObserverWard](https://github.com/0x727/ObserverWard) — Community based web technologies analysis tool.
 * [ripasso](https://github.com/cortex/ripasso/) — A password manager, filesystem compatible with pass
 * [rustscan/rustscan](https://github.com/RustScan/RustScan) — Make Nmap faster with this port scanning tool [![build badge](https://github.com/RustScan/RustScan/workflows/Continuous%20integration/badge.svg?branch=master)](https://github.com/RustScan/RustScan/actions?query=workflow%3A%22Continuous+integration%22)
-
-### Simulation
-
-* [hEngine](https://github.com/hashintel/hash/tree/main/apps/engine) - A Rust-implemented computational simulation engine, supporting large-scale agent-based modelling, with simulation logic written in JavaScript and Python.
 
 ### Social networks
 
