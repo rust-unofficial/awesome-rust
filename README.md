@@ -410,6 +410,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [GQL](https://github.com/amrdeveloper/gql) — A SQL like query language to run on .git files.
 * [j0ru/kickoff](https://github.com/j0ru/kickoff) - Fast and snappy wayland program launcher [![build](https://github.com/j0ru/kickoff/actions/workflows/ci.yml/badge.svg)](https://github.com/j0ru/kickoff/actions)
 * [Kondo](https://github.com/tbillington/kondo) - CLI & GUI tool for deleting software project artifacts and reclaiming disk space
+* [lodosgroup/lpm](https://github.com/lodosgroup/lpm) — An experimental system package manager
 * [lotabout/rargs](https://github.com/lotabout/rargs) [[rargs](https://crates.io/crates/rargs)] — xargs + awk with pattern matching support
 * [lotabout/skim](https://github.com/lotabout/skim) — A fuzzy finder in pure rust
 * [lsd](https://github.com/lsd-rs/lsd) — An ls with a lot of pretty colors and awesome icons [![build](https://github.com/lsd-rs/lsd/workflows/CICD/badge.svg?branch=master)](https://github.com/lsd-rs/lsd/actions)
