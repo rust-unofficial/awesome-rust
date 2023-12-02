@@ -723,7 +723,7 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust Tools](https://
     * [kak-lsp/kak-lsp](https://github.com/kak-lsp/kak-lsp/) — [LSP](https://microsoft.github.io/language-server-protocol/) client. Implemented in Rust and supports rls out of the box.
   * [lapce](https://github.com/lapce/lapce) — Lightning-fast and Powerful Code Editor written in Rust. [![build badge](https://github.com/lapce/lapce/actions/workflows/release.yml/badge.svg)](https://github.com/lapce/lapce/actions/workflows/release.yml)
   * [Ride](https://github.com/madeso/ride) —
-  * [RustRover](https://www.jetbrains.com/rust)
+  * [RustRover](https://www.jetbrains.com/rust) — A brand new JetBrains IDE for Rust Developers
   * [Sublime Text](https://www.sublimetext.com/)
     * [rust-lang/rust-enhanced](https://github.com/rust-lang/rust-enhanced) — official Rust package
   * [Vim](https://vim.sourceforge.io/) — the ubiquitous text editor
