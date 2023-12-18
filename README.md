@@ -1792,7 +1792,6 @@ A registry allows you to publish your Rust libraries as crate packages, to share
   * [Shipping a Solid Rust Crate](https://www.youtube.com/watch?v=t4CyEKb-ywA) — Presented by [Michael Gattozzi](https://github.com/mgattozzi) @ RustConf 2017
 * [Discover Rust Libraries & Code Snippets](https://kandi.openweaver.com/explore/rust) - A curated list of Rust libraries, authors, kits, tutorials & learning resources on kandi
 * Employment
-  * [Rust.careers](https://rust.careers)
   * [RustJob.xyz](https://www.rustjob.xyz)
   * [RustJobs.com](https://www.rustjobs.com)
   * [RustJobs.dev](https://rustjobs.dev)
