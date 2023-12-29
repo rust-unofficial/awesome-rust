@@ -38,6 +38,10 @@ fn override_stars(level: u32, text: &str) -> Option<u32> {
 }
 
 lazy_static! {
+    // We don't explicitly check these, because they just bug out in Github. We're _hoping_ they don't go away!
+    static ref ASSUME_WORKS: Vec<String> = vec![
+        "https://www.reddit.com/r/rust/".to_string()
+    ];
     // Overrides for popularity count, each needs a good reason (i.e. downloads/stars we don't support automatic counting of)
     // Each is a URL that's "enough" for an item to pass the popularity checks
     static ref POPULARITY_OVERRIDES: Vec<String> = vec![
@@ -247,15 +251,19 @@ async fn get_downloads(github_url: &str) -> Option<u64> {
 
 fn get_url_core(url: String) -> BoxFuture<'static, (String, Result<(), CheckerError>)> {
     async move {
-        let mut res = Err(CheckerError::NotTried);
+        if ASSUME_WORKS.contains(&url) {
+            info!("We assume {} just works...", url);
+            return (url, Ok(()));
+        }
+        if env::var("USERNAME_FOR_GITHUB").is_ok() && env::var("TOKEN_FOR_GITHUB").is_ok() && GITHUB_REPO_REGEX.is_match(&url) {
+            let rewritten = GITHUB_REPO_REGEX.replace_all(&url, "https://api.github.com/repos/$org/$repo");
+            info!("Replacing {} with {} to workaround rate limits on Github", url, rewritten);
+            let (_new_url, res) = get_url_core(rewritten.to_string()).await;
+            return (url, res);
+        }
+        let mut res: Result<(), CheckerError> = Err(CheckerError::NotTried);
         for _ in 0..5u8 {
             debug!("Running {}", url);
-            if env::var("USERNAME_FOR_GITHUB").is_ok() && env::var("TOKEN_FOR_GITHUB").is_ok() && GITHUB_REPO_REGEX.is_match(&url) {
-                let rewritten = GITHUB_REPO_REGEX.replace_all(&url, "https://api.github.com/repos/$org/$repo");
-                info!("Replacing {} with {} to workaround rate limits on Github", url, rewritten);
-                let (_new_url, res) = get_url_core(rewritten.to_string()).await;
-                return (url, res);
-            }
             let mut req = CLIENT
                 .get(&url)
                 .header(header::ACCEPT, "image/svg+xml, text/html, */*;q=0.8");
