@@ -13,6 +13,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   * [Cryptocurrencies](#cryptocurrencies)
   * [Database](#database)
   * [Emulators](#emulators)
+  * [File manager](#file-manager)
   * [Games](#games)
   * [Graphics](#graphics)
   * [Image processing](#image-processing)
@@ -280,8 +281,6 @@ See also [crates matching keyword 'emulator'](https://crates.io/keywords/emulato
   * [rustzx/rustzx](https://github.com/rustzx/rustzx) — [![RustZX CI](https://github.com/rustzx/rustzx/actions/workflows/ci.yml/badge.svg)](https://github.com/rustzx/rustzx/actions/workflows/ci.yml)
 
 ### File manager
-
-#### Terminal
 
 * [broot](https://github.com/Canop/broot) - A new way to see and navigate directory trees (get an overview of a directory, even a big one; find a directory then `cd` to it; never lose track of file hierarchy while you search; manipulate your files, ...), further reading [dystroy.org/broot](https://dystroy.org/broot/) [![Latest Version](https://img.shields.io/crates/v/broot.svg)](https://crates.io/crates/broot)
 * [joshuto](https://github.com/kamiyaa/joshuto) - ranger-like terminal file manager written in Rust
