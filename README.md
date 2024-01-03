@@ -1521,6 +1521,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [ivanschuetz/rust_android_ios](https://github.com/ivanschuetz/rust_android_ios) — An example of using a shared Rust lib for Android and iOS using rust-swig and cbindgen respectively.
 * Generic
   * [Geal/rust_on_mobile](https://github.com/Geal/rust_on_mobile)
+  * [redbadger/crux](https://github.com/redbadger/crux) [[crux_core](https://crates.io/crates/crux_core)] — Cross-platform app development in Rust. Crux helps you share your app's business logic and behavior across mobile (iOS/Android) and web — as a single reusable core built with Rust. [![Build status](https://img.shields.io/github/actions/workflow/status/redbadger/crux/build.yaml)](https://github.com/redbadger/crux/actions)
 * iOS
   * [TimNN/cargo-lipo](https://github.com/TimNN/cargo-lipo) — A cargo lipo subcommand which automatically creates a universal library for use with your iOS application.
 
