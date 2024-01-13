@@ -695,8 +695,7 @@ See also [Foreign Function Interface](https://doc.rust-lang.org/book/first-editi
 * Node.js
   * [infinyon/node-bindgen](https://github.com/infinyon/node-bindgen) - Easy way to generate nodejs module using Rust
   * [neon-bindings/neon](https://github.com/neon-bindings/neon) — Rust bindings for writing safe and fast native Node.js modules
-  * [zhangyuang/node-ffi-rs](https://github.com/zhangyuang/node-ffi-rs) — A module written by Rust and N-API provides interface (FFI) features for Node.js
-
+  * [zhangyuang/node-ffi-rs](https://github.com/zhangyuang/node-ffi-rs) — A module written in Rust and N-API provides interface (FFI) features for Node.js
 * Objective-C
   * [SSheldon/rust-objc](https://github.com/SSheldon/rust-objc) — Objective-C Runtime bindings and wrapper for Rust
 * PHP
