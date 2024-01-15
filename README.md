@@ -1257,6 +1257,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [stalwartlabs/mail-parser](https://github.com/stalwartlabs/mail-parser) [[mail-parser](https://crates.io/crates/mail-parser)] - A fast and robust e-mail parsing library with full MIME support [![build badge](https://github.com/stalwartlabs/mail-parser/actions/workflows/rust.yml/badge.svg)](https://github.com/stalwartlabs/mail-parser/actions/workflows/rust.yml)
 * [stalwartlabs/mail-send](https://github.com/stalwartlabs/mail-send) [[mail-send](https://crates.io/crates/mail-send)] - E-mail builder and SMTP client library with DKIM support [![build badge](https://github.com/stalwartlabs/mail-send/actions/workflows/rust.yml/badge.svg)](https://github.com/stalwartlabs/mail-send/actions/workflows/rust.yml)
 * [tweedegolf/mailcrab](https://github.com/tweedegolf/mailcrab) — Email test server for development.
+* [meli/meli.org](https://git.meli-email.org/meli/meli.git) - Terminal e-mail client and e-mail client library.
 
 ### Encoding
 
