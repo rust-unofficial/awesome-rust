@@ -323,6 +323,7 @@ See also [Games Made With Piston](https://github.com/PistonDevelopers/piston/wik
 * [rustq/vue-skia](https://github.com/rustq/vue-skia) — Skia based 2d graphics vue rendering library. It is based on Rust to implement software rasterization to perform rendering.
 * [turnage/valora](https://crates.io/crates/valora) — A library for generative fine art ![Rust](https://github.com/turnage/valora/workflows/Rust/badge.svg?branch=master)
 * [Twinklebear/tray_rust](https://github.com/Twinklebear/tray_rust) — A ray tracer
+* [wahn/rs_pbrt](https://github.com/wahn/rs_pbrt) — Rust crate to implement a counterpart to the PBRT book's (3rd edition) C++ code.
 
 ### Image processing
 
