@@ -770,6 +770,7 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust Tools](https://
 * [Bencher](https://github.com/bencherdev/bencher) - A suite of continuous benchmarking tools designed to catch performance regressions in CI
 * [bheisler/criterion.rs](https://github.com/bheisler/criterion.rs) — Statistics-driven benchmarking library for Rust
 * [Bytehound](https://github.com/koute/bytehound) — A memory profiler for Linux
+* [Divan](https://github.com/nvzqz/divan) — Simple yet powerful benchmarking library with allocation profiling
 * [ellisonch/rust-stopwatch](https://github.com/ellisonch/rust-stopwatch) — A stopwatch library
 * FlameGraphs
   * [llogiq/flame](https://github.com/llogiq/flame) —
