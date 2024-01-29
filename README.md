@@ -1857,6 +1857,9 @@ A registry allows you to publish your Rust libraries as crate packages, to share
 * Podcasts
   * [New Rustacean](https://newrustacean.com) — A podcast about learning Rust
   * [Rustacean Station](https://rustacean-station.org/) — A community project for creating podcast content for Rust
+  * [Rust in Production](https://corrode.dev/podcast/) — A podcast featuring real-world stories of companies using Rust in production
+  * [Building with Rust](https://podcasters.spotify.com/pod/show/building-with-rust) — Chats with folks who work with and within the Rust programming language
+  * [RustShip](https://ieni.dev/) — Interviews with Rust developers
 * [Rust Design Patterns](https://github.com/rust-unofficial/patterns)
 * [Rust Guidelines](http://aturon.github.io/)
 * [Rust Servers, Services and Apps - MEAP](https://www.manning.com/books/rust-servers-services-and-apps) - Build backend servers, services, and front-ends in Rust to get fast, reliable, and maintainable applications.
