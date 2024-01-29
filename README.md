@@ -1856,10 +1856,10 @@ A registry allows you to publish your Rust libraries as crate packages, to share
   * [Tour of Rust](https://tourofrust.com) - This is meant to be an interactive step by step guide through the features of the Rust programming language.
   * [University of Pennsylvania's Comp Sci Rust Programming Course](http://cis198-2016s.github.io/schedule/)
 * Podcasts
-  * [New Rustacean](https://newrustacean.com) — A podcast about learning Rust
-  * [Rustacean Station](https://rustacean-station.org/) — A community project for creating podcast content for Rust
-  * [Rust in Production](https://corrode.dev/podcast/) — A podcast featuring real-world stories of companies using Rust in production
   * [Building with Rust](https://podcasters.spotify.com/pod/show/building-with-rust) — Chats with folks who work with and within the Rust programming language
+  * [New Rustacean](https://newrustacean.com) — A podcast about learning Rust
+  * [Rust in Production](https://corrode.dev/podcast/) — A podcast featuring real-world stories of companies using Rust in production
+  * [Rustacean Station](https://rustacean-station.org/) — A community project for creating podcast content for Rust
   * [RustShip](https://ieni.dev/) — Interviews with Rust developers
 * [Rust Design Patterns](https://github.com/rust-unofficial/patterns)
 * [Rust Guidelines](http://aturon.github.io/)
