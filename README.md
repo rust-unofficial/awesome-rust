@@ -100,6 +100,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   * [Simulation](#simulation)
   * [System](#system)
   * [Task scheduling](#task-scheduling-1)
+  * [Telecommunication](#telecommunication)
   * [Template engine](#template-engine)
   * [Text processing](#text-processing-1)
   * [Text search](#text-search)
@@ -1678,6 +1679,10 @@ See also [Are we game yet?](https://arewegameyet.rs)
 * [delay-timer](https://github.com/BinChengZhao/delay-timer) — Time-manager of delayed tasks. Like crontab, but asynchronous tasks are possible.
 [![Build](https://github.com/BinChengZhao/delay-timer/actions/workflows/rust.yml/badge.svg)](
 https://github.com/BinChengZhao/delay-timer/actions)
+
+### Telecommunication
+* [diameter-rs](https://github.com/lwlee2608/diameter-rs) — High performance Diameter protocol library.
+![Build](https://github.com/lwlee2608/diameter-rs/actions/workflows/build.yml/badge.svg)
 
 ### Template engine
 
