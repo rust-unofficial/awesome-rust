@@ -10,7 +10,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 
 - [Applications](#applications)
   * [Audio and Music](#audio-and-music)
-  * [Cryptocurrencies](#cryptocurrencies)
+  * [Blockchain](#blockchain)
   * [Database](#database)
   * [Emulators](#emulators)
   * [File manager](#file-manager)
@@ -171,7 +171,7 @@ See also [Rust — Production](https://www.rust-lang.org/production) organizatio
 * [termusic](https://github.com/tramhao/termusic) - Music Player TUI written in Rust
 * [WhatBPM](https://github.com/sergree/whatbpm) — A daily statically generated information resource for electronic dance music producers. Provides daily analytics on the most frequently used values for each EDM genre: tempos, keys, root notes, and so on, using publicly available data such as Beatport and Spotify. ![Continuous Integration](https://github.com/sergree/whatbpm/actions/workflows/website_build_deploy.yml/badge.svg?branch=main)
 
-### Cryptocurrencies
+### Blockchain
 
 * [artemis](https://github.com/paradigmxyz/artemis) - A simple, modular, and fast framework for writing MEV bots in Rust.
 * [beerus](https://github.com/eigerco/beerus) - Beerus is a trustless StarkNet Light Client, ⚡blazing fast ⚡ and powered by Rust 🦀 [![GitHub Workflow Status](https://github.com/eigerco/beerus/actions/workflows/test.yml/badge.svg)](https://github.com/eigerco/beerus/actions/workflows/test.yml)
