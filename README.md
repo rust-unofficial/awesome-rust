@@ -1450,6 +1450,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [fschutt/printpdf](https://github.com/fschutt/printpdf) — PDF writing library
   * [J-F-Liu/lopdf](https://github.com/J-F-Liu/lopdf) — PDF document manipulation
   * [kaj/rust-pdf](https://github.com/kaj/rust-pdf) —
+  * [bastibense/libharu_ng](https://crates.io/crates/libharu_ng) - Easily generate PDFs from your Rust app!
   * [WASM-PDF](https://github.com/jussiniinikoski/wasm-pdf) – Generates PDF files with JavaScript and WASM (WebAssembly)
 * [Vulkan](https://www.vulkan.org/) [[vulkan](https://crates.io/keywords/vulkan)]
   * [erupt](https://gitlab.com/Friz64/erupt) [[erupt](https://crates.io/crates/erupt)] — [![build badge](https://gitlab.com/Friz64/erupt/badges/main/pipeline.svg)](https://gitlab.com/Friz64/erupt/-/pipelines)
