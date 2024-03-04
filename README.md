@@ -618,7 +618,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
   * [cargo-graph](https://crates.io/crates/cargo-graph) — updated fork of `cargo-dot` with additional features. Unmaintained, see `cargo-deps`
   * [cargo-info](https://crates.io/crates/cargo-info) — queries crates.io for crates details from command line
   * [cargo-license](https://crates.io/crates/cargo-license) — A cargo subcommand to quickly view the licenses of all dependencies.
-  * [cargo-limit](https://crates.io/crates/cargo-limit) — Cargo with less noise: warnings are skipped until errors are fixed, Neovim integration, etc. [![build badge](https://github.com/alopatindev/cargo-limit/actions/workflows/rust.yml/badge.svg)](https://github.com/alopatindev/cargo-limit/actions)
+  * [cargo-limit](https://crates.io/crates/cargo-limit) — Cargo with less noise: warnings are skipped until errors are fixed, Neovim integration, etc. [![build badge](https://github.com/cargo-limit//cargo-limit/actions/workflows/rust.yml/badge.svg)](https://github.com/cargo-limit//cargo-limit/actions)
   * [cargo-make](https://crates.io/crates/cargo-make) — Task runner and build tool. [![build badge](https://github.com/sagiegurari/cargo-make/workflows/CI/badge.svg?branch=master)](https://github.com/sagiegurari/cargo-make/actions)
   * [cargo-modules](https://crates.io/crates/cargo-modules) — A cargo plugin for showing a tree-like overview of a crate's modules.
   * [cargo-multi](https://crates.io/crates/cargo-multi) — runs specified cargo command on multiple crates
@@ -1754,7 +1754,7 @@ See also [Are we web yet?](https://www.arewewebyet.org) and [Rust web framework 
   * [cargo-web](https://crates.io/crates/cargo-web) — A Cargo subcommand for the client-side Web
   * [leptos](https://github.com/leptos-rs/leptos) — Leptos is a full-stack, isomorphic web framework leveraging fine-grained reactivity to build declarative user interfaces.[![crate](https://img.shields.io/crates/v/create-rust-app.svg)](https://crates.io/crates/leptos)
   * [sauron](https://github.com/ivanceras/sauron) - Client side web framework which closely adheres to The Elm Architecture.
-  * [seed](https://seed-rs.org/) — A framework for creating web apps
+  * [seed](https://github.com/seed-rs/seed) — A framework for creating web apps
   * [stdweb](https://crates.io/crates/stdweb) — A standard library for the client-side Web
   * [yew](https://crates.io/crates/yew) — A framework for making client web apps
 * HTTP Client

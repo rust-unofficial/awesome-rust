@@ -63,7 +63,6 @@ lazy_static! {
         "http://kiss3d.org".to_string(), // https://github.com/sebcrozet/kiss3d has >900 stars
         "https://github.com/rust-qt".to_string(), // Various high-stars repositories
         "https://chromium.googlesource.com/chromiumos/platform/crosvm/".to_string(), // Can't tell count directly, but various mirrors of it (e.g. https://github.com/dgreid/crosvm) have enough stars that it's got enough interest
-        "https://seed-rs.org/".to_string(), // https://github.com/seed-rs/seed has 2.1k stars
         "https://crates.io".to_string(), // This one gets a free pass :)
         "https://cloudsmith.com/product/formats/cargo-registry".to_string(), // First private cargo registry (https://cloudsmith.com/blog/worlds-first-private-cargo-registry-w-cloudsmith-rust/) and not much in the way of other options yet. See also https://github.com/rust-unofficial/awesome-rust/pull/1141#discussion_r688711555
         "https://gitlab.com/ttyperacer/terminal-typeracer".to_string(), // GitLab repo with >40 stars.
