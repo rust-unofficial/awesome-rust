@@ -1447,6 +1447,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [Kiss3d](http://kiss3d.org) — draw simple geometric figures and play with them with one-liners
   * [PistonDevelopers/glfw-rs](https://github.com/PistonDevelopers/glfw-rs) —
 * PDF
+  * [bastibense/libharu_ng](https://github.com/bastibense/libharu_ng) [[libharu_ng](https://crates.io/crates/libharu_ng)] - Easily generate PDFs from your Rust app.
   * [fschutt/printpdf](https://github.com/fschutt/printpdf) — PDF writing library
   * [J-F-Liu/lopdf](https://github.com/J-F-Liu/lopdf) — PDF document manipulation
   * [kaj/rust-pdf](https://github.com/kaj/rust-pdf) —
