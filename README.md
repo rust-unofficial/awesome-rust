@@ -808,6 +808,8 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust Tools](https://
   * [tarpaulin](https://crates.io/crates/cargo-tarpaulin) — A code coverage tool
 * Continuous Integration
   * [trust](https://github.com/japaric/trust) — A Travis CI and AppVeyor template to test your Rust crate on 5 architectures and publish binary releases of it for Linux, macOS and Windows
+* Documentation Testing
+  * [DocAssert] (https://github.com/DocAssert/doc-assert) - A library that will help your documentation to never get outdated.
 * Frameworks and Runners
   * [AlKass/polish](https://github.com/AlKass/polish) — Mini Testing/Test-Driven Framework [![Crates Package Status](https://img.shields.io/crates/v/polish.svg)](https://crates.io/crates/polish)
   * [cargo-dinghy](https://crates.io/crates/cargo-dinghy/) - A cargo extension to simplify running library tests and benches on smartphones and other small processor devices.
