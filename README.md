@@ -274,7 +274,7 @@ See also [crates matching keyword 'emulator'](https://crates.io/keywords/emulato
 * Intel 8080 CPU
   * [mohanson/i8080](https://github.com/mohanson/i8080) — Intel 8080 CPU emulator
 * iOS
-  * [touchHLE](https://github.com/hikari-no-yume/touchHLE) — High-level emulator for iPhone OS apps
+  * [touchHLE](https://github.com/touchHLE/touchHLE) — High-level emulator for iPhone OS apps
 * iPod
   * [clicky](https://github.com/daniel5151/clicky) — A clickwheel iPod emulator (WIP)
 * NES
