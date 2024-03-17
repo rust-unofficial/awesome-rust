@@ -1199,7 +1199,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
     * [rust-rocksdb/rust-rocksdb](https://github.com/rust-rocksdb/rust-rocksdb) — RocksDB bindings [![RocksDB CI](https://github.com/rust-rocksdb/rust-rocksdb/actions/workflows/rust.yml/badge.svg?branch=master)](https://github.com/rust-rocksdb/rust-rocksdb/actions/workflows/rust.yml)
   * [SurrealDB](https://surrealdb.com/)
     * [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) — SurrealDB embedded document-graph database
-  * [UnQLite](https://unqlite.org/)
+  * [UnQLite](https://github.com/symisc/unqlite)
     * [zitsen/unqlite.rs](https://github.com/zitsen/unqlite.rs) — UnQLite bindings
   * [ZooKeeper](https://zookeeper.apache.org/)
     * [bonifaido/rust-zookeeper](https://github.com/bonifaido/rust-zookeeper) [[zookeeper](https://crates.io/crates/zookeeper)] — A client library for Apache ZooKeeper.
