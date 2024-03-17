@@ -20,15 +20,12 @@ jobs:
           toolchain: stable
           components: rustfmt
       - uses: Swatinem/rust-cache@v2
-      - name: Get random cache id
-        run: echo "CACHE_ID=$((RANDOM))" >> $GITHUB_ENV
-        shell: bash
       - name: Load rust cache
         uses: actions/cache@v4
         with:
           save-always: true
           path: results/*.yaml
-          key: results-${{ hashFiles('Cargo.lock') }}-${{ hashFiles('README.md') }}-${{ env.CACHE_ID }}
+          key: results-${{ hashFiles('Cargo.lock') }}-${{ hashFiles('README.md') }}-${{ github.run_id }}
           restore-keys: |
             results-${{ hashFiles('Cargo.lock') }}-${{ hashFiles('README.md') }}-
             results-${{ hashFiles('Cargo.lock') }}-
