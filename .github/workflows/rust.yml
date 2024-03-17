@@ -20,7 +20,7 @@ jobs:
           toolchain: stable
           components: rustfmt
       - uses: Swatinem/rust-cache@v2
-      - name: Load rust cache
+      - name: Load results cache
         uses: actions/cache@v4
         with:
           save-always: true
