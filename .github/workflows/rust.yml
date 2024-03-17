@@ -21,9 +21,8 @@ jobs:
           components: rustfmt
       - uses: Swatinem/rust-cache@v2
       - name: Load results cache
-        uses: actions/cache@v4
+        uses: pat-s/always-upload-cache@v3.0.11
         with:
-          save-always: true
           path: results/*.yaml
           key: results-${{ hashFiles('Cargo.lock') }}-${{ hashFiles('README.md') }}-${{ github.run_id }}
           restore-keys: |
