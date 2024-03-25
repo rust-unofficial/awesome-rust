@@ -193,6 +193,8 @@ See also [Rust — Production](https://www.rust-lang.org/production) organizatio
 * [Grin](https://github.com/mimblewimble/grin/) — Evolution of the MimbleWimble protocol
 * [hdwallet](https://github.com/jjyr/hdwallet) [[hdwallet](https://crates.io/crates/hdwallet)] — BIP-32 HD wallet related key derivation utilities.
 * [Holochain](https://github.com/holochain/holochain) — Scalable P2P alternative to blockchain for all those distributed apps you always wanted to build. [![detect critical check failures](https://github.com/holochain/holochain/actions/workflows/check_run_detect_release_pr_failure.yml/badge.svg)](https://github.com/holochain/holochain/actions/workflows/check_run_detect_release_pr_failure.yml)
+* [Hyperlane](https://github.com/hyperlane-xyz/hyperlane-monorepo).
+  Framework for permissionless, modular interoperability. The offchain clients are written in Rust, as well as the smart contracts for Solana VM and CosmWasm.
 * [ibc-rs](https://github.com/informalsystems/hermes) - Implementation of the [Interblockchain Communication](https://ibc.cosmos.network/) protocol
 * [infincia/bip39-rs](https://github.com/infincia/bip39-rs) [[bip39](https://crates.io/crates/bip39)] — Implementation of BIP39.
 * [interBTC](https://github.com/interlay/interbtc) — Trustless and fully decentralized Bitcoin bridge to Polkadot and Kusama.
@@ -604,6 +606,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [Rust Search Extension](https://github.com/huhu/rust-search-extension) — A handy browser extension to search crates and docs in address bar (omnibox). [![Build Status](https://github.com/huhu/rust-search-extension/workflows/build/badge.svg?branch=master)](https://github.com/huhu/rust-search-extension/actions)
 * [Rustup](https://github.com/rust-lang/rustup) — the Rust toolchain installer [![build badge](https://github.com/rust-lang/rustup/workflows/Linux%20(master)/badge.svg?branch=master)](https://github.com/rust-lang/rustup/actions)
 * [scriptisto](https://github.com/igor-petruk/scriptisto) A language-agnostic "shebang interpreter" that enables you to write one file scripts in compiled languages. [![Build Status](https://cloud.drone.io/api/badges/igor-petruk/scriptisto/status.svg)](https://cloud.drone.io/igor-petruk/scriptisto)
+* [typos](https://github.com/crate-ci/typos) [[typos-cli](https://crates.io/crates/typos-cli)] — Source code spell checker
 
 ### Build system
 
@@ -1574,7 +1577,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
 * IPNetwork
   * [achanda/ipnetwork](https://github.com/achanda/ipnetwork) — A library to work with IP networks
   * [candrew/netsim](https://github.com/canndrew/netsim) — A library for network simulation and testing
-  * [jesusprubio/up](https://github.com/jesusprubio/up) — Library to check your Internet connectivity [![CI](https://github.com/jesusprubio/up/actions/workflows/ci.yml/badge.svg)](https://github.com/jesusprubio/up/actions/workflows/ci.yml)
+  * [jesusprubio/online](https://github.com/jesusprubio/online) — Library to check your Internet connectivity [![CI](https://github.com/jesusprubio/online/actions/workflows/ci.yml/badge.svg)](https://github.com/jesusprubio/online/actions/workflows/ci.yml)
 * Low level
   * [actix/actix](https://github.com/actix/actix) — Actor library
   * [dylanmckay/protocol](https://github.com/dylanmckay/protocol) — Custom TCP/UDP protocol definitions
