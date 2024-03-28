@@ -285,7 +285,7 @@ See also [crates matching keyword 'emulator'](https://crates.io/keywords/emulato
   * [koute/pinky](https://github.com/koute/pinky) —
   * [pcwalton/sprocketnes](https://github.com/pcwalton/sprocketnes)
 * Nintendo 64
-  * [dust](https://github.com/gopher64/gopher64) — N64 emulator written in Rust
+  * [gopher64](https://github.com/gopher64/gopher64) — N64 emulator written in Rust
 * Nintendo DS
   * [dust](https://github.com/kelpsyberry/dust) — A Nintendo DS emulator
 * PlayStation 4
