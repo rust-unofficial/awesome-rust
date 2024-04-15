@@ -1635,6 +1635,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [Folyd/robotstxt](https://github.com/Folyd/robotstxt) - Port of Google's robots.txt parser and matcher C++ library
   * [freestrings/jsonpath](https://github.com/freestrings/jsonpath) — [JsonPath](https://goessner.net/articles/JsonPath/) engine. Webassembly and Javascript support too
   * [hmeyer/stl_io](https://crates.io/crates/stl_io) - A parser for STL (STereoLithography) files
+  * [igumnoff/shiva](https://crates.io/igumnoff/shiva) - Shiva library: Implementation in Rust of a parser and generator for documents of any type (Plain text, Markdown, HTML, PDF and etc)
   * [kevinmehall/rust-peg](https://github.com/kevinmehall/rust-peg) — Parsing Expression Grammar (PEG) parser generator
   * [lalrpop/lalrpop](https://github.com/lalrpop/lalrpop) — LR(1) parser generator
   * [m4rw3r/chomp](https://github.com/m4rw3r/chomp) – A fast monadic-style parser combinator
