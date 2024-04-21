@@ -1587,7 +1587,6 @@ See also [Are we game yet?](https://arewegameyet.rs)
 * IPNetwork
   * [achanda/ipnetwork](https://github.com/achanda/ipnetwork) — A library to work with IP networks
   * [candrew/netsim](https://github.com/canndrew/netsim) — A library for network simulation and testing
-  * [jesusprubio/online](https://github.com/jesusprubio/online) — Library to check your Internet connectivity [![CI](https://github.com/jesusprubio/online/actions/workflows/ci.yml/badge.svg)](https://github.com/jesusprubio/online/actions/workflows/ci.yml)
 * Low level
   * [actix/actix](https://github.com/actix/actix) — Actor library
   * [dylanmckay/protocol](https://github.com/dylanmckay/protocol) — Custom TCP/UDP protocol definitions
