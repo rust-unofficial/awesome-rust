@@ -121,7 +121,7 @@ See also [Rust — Production](https://www.rust-lang.org/production) organizatio
 * [Arti](https://gitlab.torproject.org/tpo/core/arti) — An implementation of Tor. (So far, it's a not-very-complete client. But watch this space!) [![Crates.io](https://img.shields.io/crates/v/arti.svg)](https://crates.io/crates/arti)
 * [asm-cli-rust](https://github.com/cch123/asm-cli-rust) — An interactive assembly shell.
 * [cloudflare/boringtun](https://github.com/cloudflare/boringtun) — A Userspace WireGuard VPN Implementation [![build badge](https://img.shields.io/badge/crates.io-v0.2.0-orange.svg)](https://crates.io/crates/boringtun)
-* [datafusion](https://github.com/apache/arrow-datafusion) — Apache Arrow DataFusion and Ballista query engines
+* [datafusion](https://github.com/apache/datafusion) — Apache Arrow DataFusion and Ballista query engines
 * [defguard](https://github.com/defguard/defguard) — Enterprise Open Source SSO & WireGuard VPN with real 2FA/MFA
 * [denoland/deno](https://github.com/denoland/deno) — A secure JavaScript/TypeScript runtime built with V8 and Tokio [![Build Status](https://github.com/denoland/deno/workflows/ci/badge.svg?branch=master&event=push)](https://github.com/denoland/deno/actions)
 * [doprz/dipc](https://github.com/doprz/dipc) — Convert your favorite images and wallpapers with your favorite color palettes/themes [![crates.io](https://img.shields.io/crates/v/dipc)](https://crates.io/crates/dipc)
@@ -1558,6 +1558,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
 
 * CommonMark
   * [pulldown-cmark/pulldown-cmark](https://github.com/pulldown-cmark/pulldown-cmark) — [CommonMark](https://commonmark.org/) parser
+* [insomnimus/tidier](https://github.com/insomnimus/tidier) [[tidier](https://crates.io/crates/tidier)] - A library to format HTML, XHTML and XML documents. [![build badge](https://github.com/insomnimus/tidier/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/insomnimus/tidier/actions)
 
 ### Mobile
 
@@ -1587,7 +1588,6 @@ See also [Are we game yet?](https://arewegameyet.rs)
 * IPNetwork
   * [achanda/ipnetwork](https://github.com/achanda/ipnetwork) — A library to work with IP networks
   * [candrew/netsim](https://github.com/canndrew/netsim) — A library for network simulation and testing
-  * [jesusprubio/online](https://github.com/jesusprubio/online) — Library to check your Internet connectivity [![CI](https://github.com/jesusprubio/online/actions/workflows/ci.yml/badge.svg)](https://github.com/jesusprubio/online/actions/workflows/ci.yml)
 * Low level
   * [actix/actix](https://github.com/actix/actix) — Actor library
   * [dylanmckay/protocol](https://github.com/dylanmckay/protocol) — Custom TCP/UDP protocol definitions
