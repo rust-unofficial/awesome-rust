@@ -1557,6 +1557,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
 
 * CommonMark
   * [pulldown-cmark/pulldown-cmark](https://github.com/pulldown-cmark/pulldown-cmark) — [CommonMark](https://commonmark.org/) parser
+* [insomnimus/tidier](https://github.com/insomnimus/tidier) [[tidier](https://crates.io/crates/tidier)] - A library to format HTML, XHTML and XML documents. [![build badge](https://github.com/insomnimus/tidier/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/insomnimus/tidier/actions)
 
 ### Mobile
 
