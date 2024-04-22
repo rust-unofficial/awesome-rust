@@ -1652,6 +1652,11 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [s-panferov/queryst](https://github.com/s-panferov/queryst) — A query string parsing library inspired by [gs](https://github.com/ljharb/qs#readme)
   * [softdevteam/grmtools](https://github.com/softdevteam/grmtools/) - A LR parser with better error correction
 
+### Reporting
+
+  * [igumnoff/metatron](https://github.com/igumnoff/metatron) - Metatron library: Implementation in Rust of a report generation based on [Shiva library](https://github.com/igumnoff/shiva)
+
+
 ### Peripherals
 
 * Fingerprint reader
