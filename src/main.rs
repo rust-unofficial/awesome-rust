@@ -462,7 +462,7 @@ async fn main() -> Result<(), Error> {
                             let new_url = url.to_string();
                             if POPULARITY_OVERRIDES.contains(&new_url) {
                                 github_stars = Some(MINIMUM_GITHUB_STARS);
-                            } else if GITHUB_REPO_REGEX.is_match(&url) {
+                            } else if GITHUB_REPO_REGEX.is_match(&url) && github_stars.is_none() {
                                 let github_url = GITHUB_REPO_REGEX
                                     .replace_all(&url, "https://github.com/$org/$repo")
                                     .to_string();
