@@ -67,6 +67,7 @@ lazy_static! {
         "https://github.com/esp-rs".to_string(), // Espressif Rust Organization (Organizations have no stars).
         "https://github.com/arkworks-rs".to_string(), // Rust ecosystem for zkSNARK programming (Organizations have no stars)
         "https://marketplace.visualstudio.com/items?itemName=jinxdash.prettier-rust".to_string(), // https://github.com/jinxdash/prettier-plugin-rust has >50 stars
+        "https://github.com/andoriyu/uclicious".to_string() // FIXME: CI hack. the crate has a higher count, but we don't refresh.
     ];
 }
 
@@ -462,7 +463,7 @@ async fn main() -> Result<(), Error> {
                             let new_url = url.to_string();
                             if POPULARITY_OVERRIDES.contains(&new_url) {
                                 github_stars = Some(MINIMUM_GITHUB_STARS);
-                            } else if GITHUB_REPO_REGEX.is_match(&url) {
+                            } else if GITHUB_REPO_REGEX.is_match(&url) && github_stars.is_none() {
                                 let github_url = GITHUB_REPO_REGEX
                                     .replace_all(&url, "https://github.com/$org/$repo")
                                     .to_string();
