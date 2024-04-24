@@ -21,7 +21,7 @@ jobs:
           components: rustfmt
       - uses: Swatinem/rust-cache@v2
       - name: Load results cache
-        uses: pat-s/always-upload-cache/restore@v3.0.11
+        uses: actions/cache/restore@v4
         with:
           path: results/*.yaml
           key: results-${{ hashFiles('Cargo.lock') }}-${{ hashFiles('README.md') }}-${{ github.run_id }}
@@ -40,8 +40,8 @@ jobs:
           TOKEN_FOR_GITHUB: ${{ secrets.TOKEN_FOR_GITHUB }}
           RUST_LOG: warn
       - name: Save results cache
-        uses: pat-s/always-upload-cache/save@v3.0.11
-        if: github.ref == 'refs/heads/main'
+        uses: actions/cache/save@v4
+        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/only-cache-results-on-main'
         with:
           path: results/*.yaml
           key: results-${{ hashFiles('Cargo.lock') }}-${{ hashFiles('README.md') }}-${{ github.run_id }}
