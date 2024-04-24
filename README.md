@@ -1061,8 +1061,9 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
   * [arrayfire/arrayfire-rust](https://github.com/arrayfire/arrayfire-rust) — [Arrayfire](https://github.com/arrayfire) bindings
   * [autumnai/collenchyma](https://github.com/autumnai/collenchyma) — An extensible, pluggable, backend-agnostic framework for parallel, high-performance computations on CUDA, OpenCL and common host CPU.
   * [luqmana/rust-opencl](https://github.com/luqmana/rust-opencl) — [OpenCL](https://www.khronos.org/opencl/) bindings
-* Scirust
-  * [indigits/scirust](https://github.com/indigits/scirust) — scientific computing library
+* Science
+  * [cpmech/russell](https://github.com/cpmech/russell) — Rust Scientific Library (Russell) for numerical mathematics, differential equations, special math functions, high-performance linear algebra (sparse), and more
+  * [indigits/scirust](https://github.com/indigits/scirust) — Scientific computing library
 * Statrs
   * [statrs-dev/statrs](https://github.com/statrs-dev/statrs) — Robust statistical computation library
 
