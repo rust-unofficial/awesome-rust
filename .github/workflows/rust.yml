@@ -41,7 +41,7 @@ jobs:
           RUST_LOG: warn
       - name: Save results cache
         uses: actions/cache/save@v4
-        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/only-cache-results-on-main'
+        if: github.ref == 'refs/heads/main' || github.ref == 'refs/pull/1716/merge'
         with:
           path: results/*.yaml
           key: results-${{ hashFiles('Cargo.lock') }}-${{ hashFiles('README.md') }}-${{ github.run_id }}
