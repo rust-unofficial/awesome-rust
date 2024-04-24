@@ -1548,7 +1548,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
 ### Mobile
 
 * Android / iOS
-  * [owlmafia/rust_android_ios](https://github.com/owlmafia/rust_android_ios) — An example of using a shared lib for Android and iOS using rust-swig and cbindgen respectively.
+  * [ivnsch/rust_android_ios](https://github.com/ivnsch/rust_android_ios) — An example of using a shared lib for Android and iOS using rust-swig and cbindgen respectively.
 * Generic
   * [Geal/rust_on_mobile](https://github.com/Geal/rust_on_mobile)
   * [redbadger/crux](https://github.com/redbadger/crux) [[crux_core](https://crates.io/crates/crux_core)] — Cross-platform app development. Crux helps you share your app's business logic and behavior across mobile (iOS/Android) and web — as a single reusable core. [![Build status](https://img.shields.io/github/actions/workflow/status/redbadger/crux/build.yaml)](https://github.com/redbadger/crux/actions)
