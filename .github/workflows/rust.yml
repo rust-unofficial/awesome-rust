@@ -24,8 +24,9 @@ jobs:
         uses: actions/cache/restore@v4
         with:
           path: results/*.yaml
-          key: results-${{ hashFiles('Cargo.lock') }}-${{ hashFiles('README.md') }}-${{ github.run_id }}
+          key: results-${{ hashFiles('Cargo.lock') }}-${{ hashFiles('README.md') }}-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: |
+            results-${{ hashFiles('Cargo.lock') }}-${{ hashFiles('README.md') }}-${{ github.run_id }}-
             results-${{ hashFiles('Cargo.lock') }}-${{ hashFiles('README.md') }}-
             results-${{ hashFiles('Cargo.lock') }}-
             results-
@@ -44,6 +45,6 @@ jobs:
         if: always() && (github.ref == 'refs/heads/main' || github.ref == 'refs/pull/1716/merge')
         with:
           path: results/*.yaml
-          key: results-${{ hashFiles('Cargo.lock') }}-${{ hashFiles('README.md') }}-${{ github.run_id }}
+          key: results-${{ hashFiles('Cargo.lock') }}-${{ hashFiles('README.md') }}-${{ github.run_id }}-${{ github.run_attempt }}
 
 
