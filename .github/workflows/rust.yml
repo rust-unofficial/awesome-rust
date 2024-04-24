@@ -46,5 +46,3 @@ jobs:
         with:
           path: results/*.yaml
           key: results-${{ hashFiles('Cargo.lock') }}-${{ hashFiles('README.md') }}-${{ github.run_id }}-${{ github.run_attempt }}
-
-
