@@ -21,11 +21,12 @@ jobs:
           components: rustfmt
       - uses: Swatinem/rust-cache@v2
       - name: Load results cache
-        uses: pat-s/always-upload-cache@v3.0.11
+        uses: actions/cache/restore@v4
         with:
           path: results/*.yaml
-          key: results-${{ hashFiles('Cargo.lock') }}-${{ hashFiles('README.md') }}-${{ github.run_id }}
+          key: results-${{ hashFiles('Cargo.lock') }}-${{ hashFiles('README.md') }}-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: |
+            results-${{ hashFiles('Cargo.lock') }}-${{ hashFiles('README.md') }}-${{ github.run_id }}-
             results-${{ hashFiles('Cargo.lock') }}-${{ hashFiles('README.md') }}-
             results-${{ hashFiles('Cargo.lock') }}-
             results-
@@ -39,3 +40,9 @@ jobs:
           USERNAME_FOR_GITHUB: ${{ secrets.USERNAME_FOR_GITHUB }}
           TOKEN_FOR_GITHUB: ${{ secrets.TOKEN_FOR_GITHUB }}
           RUST_LOG: warn
+      - name: Save results cache
+        uses: actions/cache/save@v4
+        if: always() && (github.ref == 'refs/heads/main' || github.ref == 'refs/pull/1716/merge')
+        with:
+          path: results/*.yaml
+          key: results-${{ hashFiles('Cargo.lock') }}-${{ hashFiles('README.md') }}-${{ github.run_id }}-${{ github.run_attempt }}
