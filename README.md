@@ -589,6 +589,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 
 ## Development tools
 
+* [ATAC](https://github.com/Julien-cpsn/ATAC) — A feature-full TUI API client made in Rust. ATAC is free, open-source, offline and account-less.
 * [bacon](https://github.com/Canop/bacon) — background rust code checker, similar to cargo-watch
 * [clippy](https://crates.io/crates/clippy) — Rust lints
 * [clog-tool/clog-cli](https://github.com/clog-tool/clog-cli) — generates a changelog from git metadata ([conventional changelog](https://blog.thoughtram.io/announcements/tools/2014/09/18/announcing-clog-a-conventional-changelog-generator-for-the-rest-of-us.html))
