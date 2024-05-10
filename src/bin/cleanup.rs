@@ -22,7 +22,7 @@ fn fix_dashes(lines: Vec<String>) -> Vec<String> {
         }
     }
 
-    return fixed_lines;
+    fixed_lines
 }
 
 fn main() {

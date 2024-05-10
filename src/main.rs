@@ -28,9 +28,7 @@ fn override_stars(level: u32, text: &str) -> Option<u32> {
         // This is zero because a lot of the resources are non-github/non-cargo links and overriding for all would be annoying
         // These should be evaluated with more primitive means
         Some(0)
-    } else if level == 3 && text.contains("Games") {
-        Some(40)
-    } else if level == 3 && text.contains("Emulators") {
+    } else if level == 3 && (text.contains("Games") || text.contains("Emulators")) {
         Some(40)
     } else {
         None // i.e. use defaults
@@ -38,7 +36,7 @@ fn override_stars(level: u32, text: &str) -> Option<u32> {
 }
 
 lazy_static! {
-    // We don't explicitly check these, because they just bug out in Github. We're _hoping_ they don't go away!
+    // We don't explicitly check these, because they just bug out in GitHub. We're _hoping_ they don't go away!
     static ref ASSUME_WORKS: Vec<String> = vec![
         "https://www.reddit.com/r/rust/".to_string()
     ];
@@ -69,6 +67,7 @@ lazy_static! {
         "https://github.com/esp-rs".to_string(), // Espressif Rust Organization (Organizations have no stars).
         "https://github.com/arkworks-rs".to_string(), // Rust ecosystem for zkSNARK programming (Organizations have no stars)
         "https://marketplace.visualstudio.com/items?itemName=jinxdash.prettier-rust".to_string(), // https://github.com/jinxdash/prettier-plugin-rust has >50 stars
+        "https://github.com/andoriyu/uclicious".to_string() // FIXME: CI hack. the crate has a higher count, but we don't refresh.
     ];
 }
 
@@ -133,9 +132,9 @@ impl MaxHandles {
         }
     }
 
-    async fn get<'a>(&'a self) -> Handle<'a> {
+    async fn get(&self) -> Handle {
         let permit = self.remaining.acquire().await.unwrap();
-        return Handle { _permit: permit };
+        Handle { _permit: permit }
     }
 }
 
@@ -162,7 +161,7 @@ fn get_url(url: String) -> BoxFuture<'static, (String, Result<(), CheckerError>)
     debug!("Need handle for {}", url);
     async move {
         let _handle = HANDLES.get().await;
-        return get_url_core(url).await;
+        get_url_core(url).await
     }
     .boxed()
 }
@@ -178,15 +177,15 @@ lazy_static! {
 }
 
 #[derive(Deserialize, Debug)]
-struct GithubStars {
+struct GitHubStars {
     stargazers_count: u32,
     archived: bool,
 }
 
 async fn get_stars(github_url: &str) -> Option<u32> {
-    warn!("Downloading Github stars for {}", github_url);
+    warn!("Downloading GitHub stars for {}", github_url);
     let rewritten = GITHUB_REPO_REGEX
-        .replace_all(&github_url, "https://api.github.com/repos/$org/$repo")
+        .replace_all(github_url, "https://api.github.com/repos/$org/$repo")
         .to_string();
     let mut req = CLIENT.get(&rewritten);
     if let Ok(username) = env::var("USERNAME_FOR_GITHUB") {
@@ -200,11 +199,11 @@ async fn get_stars(github_url: &str) -> Option<u32> {
     match resp {
         Err(err) => {
             warn!("Error while getting {}: {}", github_url, err);
-            return None;
+            None
         }
         Ok(ok) => {
             let raw = ok.text().await.unwrap();
-            let data = match serde_json::from_str::<GithubStars>(&raw) {
+            let data = match serde_json::from_str::<GitHubStars>(&raw) {
                 Ok(val) => val,
                 Err(_) => {
                     panic!("{:?}", raw);
@@ -214,7 +213,7 @@ async fn get_stars(github_url: &str) -> Option<u32> {
                 warn!("{} is archived, so ignoring stars", github_url);
                 return Some(0);
             }
-            return Some(data.stargazers_count);
+            Some(data.stargazers_count)
         }
     }
 }
@@ -233,7 +232,7 @@ struct Crate {
 async fn get_downloads(github_url: &str) -> Option<u64> {
     warn!("Downloading Crates downloads for {}", github_url);
     let rewritten = CRATE_REGEX
-        .replace_all(&github_url, "https://crates.io/api/v1/crates/$crate")
+        .replace_all(github_url, "https://crates.io/api/v1/crates/$crate")
         .to_string();
     let req = CLIENT.get(&rewritten);
 
@@ -241,11 +240,11 @@ async fn get_downloads(github_url: &str) -> Option<u64> {
     match resp {
         Err(err) => {
             warn!("Error while getting {}: {}", github_url, err);
-            return None;
+            None
         }
         Ok(ok) => {
             let data = ok.json::<Crate>().await.unwrap();
-            return Some(data.info.downloads);
+            Some(data.info.downloads)
         }
     }
 }
@@ -258,7 +257,7 @@ fn get_url_core(url: String) -> BoxFuture<'static, (String, Result<(), CheckerEr
         }
         if env::var("USERNAME_FOR_GITHUB").is_ok() && env::var("TOKEN_FOR_GITHUB").is_ok() && GITHUB_REPO_REGEX.is_match(&url) {
             let rewritten = GITHUB_REPO_REGEX.replace_all(&url, "https://api.github.com/repos/$org/$repo");
-            info!("Replacing {} with {} to workaround rate limits on Github", url, rewritten);
+            info!("Replacing {} with {} to workaround rate limits on GitHub", url, rewritten);
             let (_new_url, res) = get_url_core(rewritten.to_string()).await;
             return (url, res);
         }
@@ -298,7 +297,7 @@ fn get_url_core(url: String) -> BoxFuture<'static, (String, Result<(), CheckerEr
                         }
                         if status == StatusCode::NOT_FOUND && ACTIONS_REGEX.is_match(&url) {
                             let rewritten = ACTIONS_REGEX.replace_all(&url, "https://github.com/$org/$repo");
-                            warn!("Got 404 with Github actions, so replacing {} with {}", url, rewritten);
+                            warn!("Got 404 with GitHub actions, so replacing {} with {}", url, rewritten);
                             let (_new_url, res) = get_url_core(rewritten.to_string()).await;
                             return (url, res);
                         }
@@ -358,7 +357,7 @@ fn get_url_core(url: String) -> BoxFuture<'static, (String, Result<(), CheckerEr
                             break;
                         }
                         let query = matches.get(1).map(|x| x.as_str()).unwrap_or("");
-                        if !query.starts_with("?") || query.find("branch=").is_none() {
+                        if !query.starts_with('?') || !query.contains("branch=") {
                             res = Err(CheckerError::TravisBuildNoBranch);
                             break;
                         }
@@ -404,7 +403,7 @@ async fn main() -> Result<(), Error> {
     let mut results: Results = fs::read_to_string("results/results.yaml")
         .map_err(|e| format_err!("{}", e))
         .and_then(|x| serde_yaml::from_str(&x).map_err(|e| format_err!("{}", e)))
-        .unwrap_or(Results::new());
+        .unwrap_or_default();
 
     let mut popularity_data: PopularityData = fs::read_to_string("results/popularity.yaml")
         .map_err(|e| format_err!("{}", e))
@@ -462,11 +461,11 @@ async fn main() -> Result<(), Error> {
             Event::Start(tag) => {
                 match tag {
                     Tag::Link(_link_type, url, _title) | Tag::Image(_link_type, url, _title) => {
-                        if !url.starts_with("#") {
+                        if !url.starts_with('#') {
                             let new_url = url.to_string();
                             if POPULARITY_OVERRIDES.contains(&new_url) {
                                 github_stars = Some(MINIMUM_GITHUB_STARS);
-                            } else if GITHUB_REPO_REGEX.is_match(&url) {
+                            } else if GITHUB_REPO_REGEX.is_match(&url) && github_stars.is_none() {
                                 let github_url = GITHUB_REPO_REGEX
                                     .replace_all(&url, "https://github.com/$org/$repo")
                                     .to_string();
@@ -522,14 +521,14 @@ async fn main() -> Result<(), Error> {
                         }
                     }
                     Tag::List(_) => {
-                        if in_list_item && list_item.len() > 0 {
+                        if in_list_item && !list_item.is_empty() {
                             list_items.last_mut().unwrap().data.push(list_item.clone());
                             in_list_item = false;
                         }
                         list_items.push(ListInfo { data: Vec::new() });
                     }
                     Tag::Item => {
-                        if in_list_item && list_item.len() > 0 {
+                        if in_list_item && !list_item.is_empty() {
                             list_items.last_mut().unwrap().data.push(list_item.clone());
                         }
                         in_list_item = true;
@@ -569,19 +568,18 @@ async fn main() -> Result<(), Error> {
             Event::End(tag) => {
                 match tag {
                     Tag::Item => {
-                        if list_item.len() > 0 {
-                            if link_count > 0 {
-                                if github_stars.unwrap_or(0) < required_stars
-                                    && cargo_downloads.unwrap_or(0) < MINIMUM_CARGO_DOWNLOADS
-                                {
-                                    if github_stars.is_none() {
-                                        warn!("No valid github link");
-                                    }
-                                    if cargo_downloads.is_none() {
-                                        warn!("No valid crates link");
-                                    }
-                                    return Err(format_err!("Not high enough metrics ({:?} stars < {}, and {:?} cargo downloads < {}): {}", github_stars, required_stars, cargo_downloads, MINIMUM_CARGO_DOWNLOADS, list_item));
+                        if !list_item.is_empty() {
+                            if link_count > 0
+                                && github_stars.unwrap_or(0) < required_stars
+                                && cargo_downloads.unwrap_or(0) < MINIMUM_CARGO_DOWNLOADS
+                            {
+                                if github_stars.is_none() {
+                                    warn!("No valid github link");
                                 }
+                                if cargo_downloads.is_none() {
+                                    warn!("No valid crates link");
+                                }
+                                return Err(format_err!("Not high enough metrics ({:?} stars < {}, and {:?} cargo downloads < {}): {}", github_stars, required_stars, cargo_downloads, MINIMUM_CARGO_DOWNLOADS, list_item));
                                 if !ITEM_REGEX.is_match(&list_item) {
                                     return Err(format_err!("Item does not match the template: {}. See https://github.com/rust-unofficial/awesome-rust/blob/main/CONTRIBUTING.md#tldr", list_item));
                                 }
@@ -593,18 +591,18 @@ async fn main() -> Result<(), Error> {
                     }
                     Tag::List(_) => {
                         let list_info = list_items.pop().unwrap();
-                        if list_info.data.iter().find(|s| *s == "License").is_some()
-                            && list_info.data.iter().find(|s| *s == "Resources").is_some()
+                        if list_info.data.iter().any(|s| *s == "License")
+                            && list_info.data.iter().any(|s| *s == "Resources")
                         {
                             // Ignore wrong ordering in top-level list
                             continue;
                         }
                         let mut sorted_recent_list = list_info.data.to_vec();
-                        sorted_recent_list.sort_by(|a, b| a.to_lowercase().cmp(&b.to_lowercase()));
+                        sorted_recent_list.sort_by_key(|a| a.to_lowercase());
                         let joined_recent = list_info.data.join("\n");
                         let joined_sorted = sorted_recent_list.join("\n");
                         let patch = create_patch(&joined_recent, &joined_sorted);
-                        if patch.hunks().len() > 0 {
+                        if !patch.hunks().is_empty() {
                             println!("{}", patch);
                             return Err(format_err!("Sorting error"));
                         }
@@ -630,30 +628,14 @@ async fn main() -> Result<(), Error> {
     )?;
 
     to_check.sort_by(|a, b| {
-        let get_time = |k| {
-            let res = results.get(k);
-            if let Some(link) = res {
-                if let Some(last_working) = link.last_working {
-                    Some(last_working)
-                } else {
-                    None
-                }
-            } else {
-                None
-            }
-        };
+        let get_time = |k| results.get(k).map(|link| link.last_working);
         let res_a = get_time(a);
         let res_b = get_time(b);
-        if res_a.is_none() {
-            if res_b.is_none() {
-                return a.cmp(b);
-            } else {
-                Ordering::Less
-            }
-        } else if res_b.is_none() {
-            Ordering::Greater
-        } else {
-            res_a.unwrap().cmp(&res_b.unwrap())
+        match (res_a, res_b) {
+            (Some(a), Some(b)) => a.cmp(&b),
+            (Some(_), None) => Ordering::Less,
+            (None, Some(_)) => Ordering::Greater,
+            (None, None) => a.cmp(b),
         }
     });
 
@@ -670,7 +652,7 @@ async fn main() -> Result<(), Error> {
 
     let mut not_written = 0;
     let mut last_written = Local::now();
-    while url_checks.len() > 0 {
+    while !url_checks.is_empty() {
         debug!("Waiting for {}", url_checks.len());
         let ((url, res), _index, remaining) = select_all(url_checks).await;
         url_checks = remaining;
@@ -720,7 +702,7 @@ async fn main() -> Result<(), Error> {
         }
     }
     fs::write("results/results.yaml", serde_yaml::to_string(&results)?)?;
-    println!("");
+    println!();
     let mut failed: u32 = 0;
 
     for (url, link) in results.iter() {

@@ -43,9 +43,9 @@ impl MaxHandles {
         }
     }
 
-    async fn get<'a>(&'a self) -> Handle<'a> {
+    async fn get(&self) -> Handle {
         let permit = self.remaining.acquire().await.unwrap();
-        return Handle { _permit: permit };
+        Handle { _permit: permit }
     }
 }
 
@@ -98,10 +98,10 @@ async fn get_hacktoberfest_core(github_url: String) -> Result<Info, CheckerError
     match resp {
         Err(err) => {
             warn!("Error while getting {}: {}", github_url, err);
-            return Err(CheckerError::HttpError {
+            Err(CheckerError::HttpError {
                 status: err.status().unwrap().as_u16(),
                 location: Some(github_url.to_string()),
-            });
+            })
         }
         Ok(ok) => {
             if !ok.status().is_success() {
@@ -115,7 +115,7 @@ async fn get_hacktoberfest_core(github_url: String) -> Result<Info, CheckerError
                 Ok(val) => Ok(Info {
                     name: val.full_name,
                     description: val.description.unwrap_or_default(),
-                    hacktoberfest: val.topics.iter().find(|t| *t == "hacktoberfest").is_some(),
+                    hacktoberfest: val.topics.iter().any(|t| *t == "hacktoberfest"),
                 }),
                 Err(_) => {
                     panic!("{}", raw);
@@ -129,7 +129,7 @@ fn get_hacktoberfest(url: String) -> BoxFuture<'static, (String, Result<Info, Ch
     debug!("Need handle for {}", url);
     async move {
         let _handle = HANDLES.get().await;
-        return (url.clone(), get_hacktoberfest_core(url).await);
+        (url.clone(), get_hacktoberfest_core(url).await)
     }
     .boxed()
 }
@@ -159,7 +159,7 @@ async fn main() -> Result<(), Error> {
     let mut results: Results = fs::read_to_string("results/hacktoberfest.yaml")
         .map_err(|e| format_err!("{}", e))
         .and_then(|x| serde_yaml::from_str(&x).map_err(|e| format_err!("{}", e)))
-        .unwrap_or(Results::new());
+        .unwrap_or_default();
 
     let mut url_checks = vec![];
 
@@ -171,7 +171,7 @@ async fn main() -> Result<(), Error> {
             return;
         }
         used.insert(url.clone());
-        if let Some(_) = results.get(&url) {
+        if results.get(&url).is_some() {
             return;
         }
         let check = get_hacktoberfest(url).boxed();
@@ -181,16 +181,12 @@ async fn main() -> Result<(), Error> {
     let mut to_check: Vec<String> = vec![];
 
     for (event, _) in parser.into_offset_iter() {
-        match event {
-            Event::Start(tag) => match tag {
-                Tag::Link(_link_type, url, _title) | Tag::Image(_link_type, url, _title) => {
-                    if GITHUB_REPO_REGEX.is_match(&url) {
-                        to_check.push(url.to_string());
-                    }
+        if let Event::Start(tag) = event {
+            if let Tag::Link(_link_type, url, _title) | Tag::Image(_link_type, url, _title) = tag {
+                if GITHUB_REPO_REGEX.is_match(&url) {
+                    to_check.push(url.to_string());
                 }
-                _ => {}
-            },
-            _ => {}
+            }
         }
     }
 
@@ -209,7 +205,7 @@ async fn main() -> Result<(), Error> {
     let mut last_written = Local::now();
 
     let mut failed: u32 = 0;
-    while url_checks.len() > 0 {
+    while !url_checks.is_empty() {
         debug!("Waiting for {}", url_checks.len());
         let ((url, res), _index, remaining) = select_all(url_checks).await;
         url_checks = remaining;
@@ -224,7 +220,7 @@ async fn main() -> Result<(), Error> {
                         url.clone(),
                         Link {
                             updated_at: Local::now(),
-                            info: info,
+                            info,
                         },
                     );
                 }
@@ -252,7 +248,7 @@ async fn main() -> Result<(), Error> {
         "results/hacktoberfest.yaml",
         serde_yaml::to_string(&results)?,
     )?;
-    println!("");
+    println!();
 
     if failed == 0 {
         println!("All awesome-rust repos tagged with 'hacktoberfest'");
