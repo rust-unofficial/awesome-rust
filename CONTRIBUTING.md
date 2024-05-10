@@ -4,9 +4,15 @@ Do you want to contribute? We'd love that.
 
 Our goal is to have mostly projects that are stable and useful to many users.
 
+## TL;DR
+
+- Accepted: `(stars > 50 | downloads > 2000)`
+- Template: `[ACCOUNT/REPO](https://github.com/ACCOUNT/REPO) [[CRATE](https://crates.io/crates/CRATE)] — DESCRIPTION`
+- Sort: alphabetical
+
 ## How?
 
-The easiest way is to go to https://github.com/rust-unofficial/awesome-rust/blob/main/README.md and click on the "pen" icon in the upper right corner. Make the changes to the file and follow the instructions to create a pull request.
+The easiest way is to go to <https://github.com/rust-unofficial/awesome-rust/blob/main/README.md> and click on the "pen" icon in the upper right corner. Make the changes to the file and follow the instructions to create a pull request.
 
 If you want to add an entry to the `README.md` please consider this:
 

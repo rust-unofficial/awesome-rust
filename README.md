@@ -259,14 +259,14 @@ See also [crates matching keyword 'emulator'](https://crates.io/keywords/emulato
   * [ColinEberhardt/wasm-rust-chip8](https://github.com/ColinEberhardt/wasm-rust-chip8) — A WebAssembly CHIP-8 emulator.
   * [starrhorne/chip8-rust](https://github.com/starrhorne/chip8-rust) — chip8 emulator
 * Commodore 64
-  * [kondrak/rust64](https://github.com/kondrak/rust64) —
+  * [kondrak/rust64](https://github.com/kondrak/rust64) —  Commodore 64 emulator
 * Flash Player
   * [Ruffle](https://github.com/ruffle-rs/ruffle) — Ruffle is an Adobe Flash Player emulator. Ruffle targets both the desktop and the web using WebAssembly. [![CI](https://github.com/ruffle-rs/ruffle/actions/workflows/test_rust.yml/badge.svg)](https://github.com/ruffle-rs/ruffle/actions/workflows/test_rust.yml)[![CI](https://github.com/ruffle-rs/ruffle/actions/workflows/test_web.yml/badge.svg)](https://github.com/ruffle-rs/ruffle/actions/workflows/test_web.yml)
 * Gameboy
-  * [Gekkio/mooneye-gb](https://github.com/Gekkio/mooneye-gb) —
+  * [Gekkio/mooneye-gb](https://github.com/Gekkio/mooneye-gb) — A Game Boy research project and emulator
   * [joamag/boytacean](https://github.com/joamag/boytacean) — GameBoy Color emulator that runs on the Web using WebAssembly.
   * [mohanson/gameboy](https://github.com/mohanson/gameboy) — Full featured Cross-platform GameBoy emulator. Forever boys!.
-  * [mvdnes/rboy](https://github.com/mvdnes/rboy) —
+  * [mvdnes/rboy](https://github.com/mvdnes/rboy) — A Gameboy Emulator
 * Gameboy Advance
   * [michelhe/rustboyadvance-ng](https://github.com/michelhe/rustboyadvance-ng) — RustboyAdvance-ng is a Gameboy Advance emulator with desktop, android and [WebAssembly](https://michelhe.github.io/rustboyadvance-ng/) support. [![build badge](https://github.com/michelhe/rustboyadvance-ng/workflows/Deploy/badge.svg?branch=master)](https://github.com/michelhe/rustboyadvance-ng/actions?query=workflow%3ADeploy)
 * GameMaker
@@ -278,8 +278,8 @@ See also [crates matching keyword 'emulator'](https://crates.io/keywords/emulato
 * iPod
   * [clicky](https://github.com/daniel5151/clicky) — A clickwheel iPod emulator (WIP)
 * NES
-  * [koute/pinky](https://github.com/koute/pinky) —
-  * [pcwalton/sprocketnes](https://github.com/pcwalton/sprocketnes) —
+  * [koute/pinky](https://github.com/koute/pinky) — A NES emulator
+  * [pcwalton/sprocketnes](https://github.com/pcwalton/sprocketnes) — A NES emulator
 * Nintendo DS
   * [dust](https://github.com/kelpsyberry/dust) — A Nintendo DS emulator
 * PlayStation 4
@@ -358,8 +358,8 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [0x59616e/SteinsOS](https://github.com/0x59616e/SteinsOS) — An OS for armv8-a architecture.
 * [Andy-Python-Programmer/aero](https://github.com/Andy-Python-Programmer/aero) — A modern, unix-like operating system following the monolithic kernel design.
 * [DragonOS-Community/DragonOS](https://github.com/DragonOS-Community/DragonOS) — An operating system with a self-developed kernel from scratch and Linux compatibility.
-* [redox-os/redox](https://gitlab.redox-os.org/redox-os/redox) —
-* [thepowersgang/rust_os](https://github.com/thepowersgang/rust_os) —
+* [redox-os/redox](https://gitlab.redox-os.org/redox-os/redox) — A rust operating system
+* [thepowersgang/rust_os](https://github.com/thepowersgang/rust_os) — An OS kernel written in rust. Non POSIX
 * [theseus-os/Theseus](https://github.com/theseus-os/Theseus) — A safe-language, single address space and single privilege level OS written from scratch - [![build badge](https://img.shields.io/github/workflow/status/theseus-os/Theseus/Documentation?label=docs%20build)](https://www.theseus-os.com/Theseus/book/index.html)
 * [tock/tock](https://github.com/tock/tock) — A secure embedded operating system for Cortex-M based microcontrollers
 
@@ -741,7 +741,7 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust Tools](https://
   * [Atom](https://github.blog/2022-06-08-sunsetting-atom/)
     * [rust-lang/atom-ide-rust](https://github.com/rust-lang/atom-ide-rust) — Rust IDE support for Atom, powered by the Rust Language Server (RLS)
   * [Eclipse](https://www.eclipse.org/)
-    * [Eclipse Corrosion](https://github.com/eclipse-corrosion/corrosion) —
+    * [Eclipse Corrosion](https://github.com/eclipse-corrosion/corrosion) — a Rust development plugin for the Eclipse IDE, providing a rich edition experience through integration with the Rust Analyzer language server, Cargo runner and gdb debugger
   * [Emacs](https://www.gnu.org/software/emacs/)
     * [emacs-racer](https://github.com/racer-rust/emacs-racer) — Autocompletion (see also [company](https://company-mode.github.io) and [auto-complete](https://github.com/auto-complete/auto-complete))
     * [flycheck-rust](https://github.com/flycheck/flycheck-rust) — Rust support for [Flycheck](https://github.com/flycheck/flycheck)
@@ -750,11 +750,11 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust Tools](https://
   * [gitpod.io](https://gitpod.io) — Online IDE with full Rust support based on Rust Language Server
   * [gnome-builder](https://wiki.gnome.org/Apps/Builder) — native support for rust and cargo since Version 3.22.2
   * [IntelliJ](https://www.jetbrains.com/idea/)
-    * [intellij-rust/intellij-rust](https://github.com/intellij-rust/intellij-rust) —
+    * [intellij-rust/intellij-rust](https://github.com/intellij-rust/intellij-rust) —  Rust plugin for the IntelliJ Platform
   * [Kakoune](http://kakoune.org/)
     * [kakoune-lsp](https://github.com/kakoune-lsp/kakoune-lsp/) — [LSP](https://microsoft.github.io/language-server-protocol/) client. Implemented in Rust and supports rls out of the box.
   * [lapce](https://github.com/lapce/lapce) — Lightning-fast and Powerful Code Editor written in Rust. [![build badge](https://github.com/lapce/lapce/actions/workflows/release.yml/badge.svg)](https://github.com/lapce/lapce/actions/workflows/release.yml)
-  * [Ride](https://github.com/madeso/ride) —
+  * [Ride](https://github.com/madeso/ride) —  A Rust IDE
   * [Sublime Text](https://www.sublimetext.com/)
     * [rust-lang/rust-enhanced](https://github.com/rust-lang/rust-enhanced) — official Rust package
   * [Vim](https://vim.sourceforge.io/) — the ubiquitous text editor
@@ -782,7 +782,7 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust Tools](https://
 * [Divan](https://github.com/nvzqz/divan) — Simple yet powerful benchmarking library with allocation profiling
 * [ellisonch/rust-stopwatch](https://github.com/ellisonch/rust-stopwatch) — A stopwatch library
 * FlameGraphs
-  * [llogiq/flame](https://github.com/llogiq/flame) —
+  * [llogiq/flame](https://github.com/llogiq/flame) — An intrusive flamegraph profiling tool for rust
   * [mrhooray/torch](https://github.com/mrhooray/torch) — generates FlameGraphs based on DWARF Debug Info
 * [sharkdp/hyperfine](https://github.com/sharkdp/hyperfine) — A command-line benchmarking tool
 
@@ -861,7 +861,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [autumnai/leaf](https://github.com/autumnai/leaf) — Open Machine Intelligence framework.. Abandoned project. The most updated fork is [spearow/juice]( https://github.com/spearow/juice).
 * [burn](https://github.com/tracel-ai/burn) — A Flexible and Comprehensive Deep Learning Framework.
 * [coreylowman/dfdx](https://github.com/coreylowman/dfdx) — CUDA accelerated machine learning framework that leverages many of Rust's unique features. ![Crates.io](https://img.shields.io/crates/v/dfdx)
-* [huggingface/candle](https://github.com/huggingface/candle) [[candle-core](https://crates.io/crates/candle-core)]- a minimalist ML framework with a focus on easiness of use and on performance (including GPU support)
+* [huggingface/candle](https://github.com/huggingface/candle) [[candle-core](https://crates.io/crates/candle-core)] — a minimalist ML framework with a focus on easiness of use and on performance (including GPU support)
 * [huggingface/tokenizers](https://github.com/huggingface/tokenizers) — Hugging Face's tokenizers for modern NLP pipelines (original implementation) with bindings for Python. [![Build Status](https://github.com/huggingface/tokenizers/workflows/Rust/badge.svg?branch=master)](https://github.com/huggingface/tokenizers/actions)
 * [LaurentMazare/tch-rs](https://github.com/LaurentMazare/tch-rs) — Bindings for PyTorch.
 * [maciejkula/rustlearn](https://github.com/maciejkula/rustlearn) — Machine learning library. [![Circle CI](https://circleci.com/gh/maciejkula/rustlearn.svg?style=svg)](https://app.circleci.com/pipelines/github/maciejkula/rustlearn)
@@ -946,7 +946,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * AWS [[aws](https://crates.io/keywords/aws)]
   * [awslabs/aws-lambda-rust-runtime](https://github.com/awslabs/aws-lambda-rust-runtime) [[lambda_runtime](https://crates.io/crates/lambda_runtime)] — Runtime for AWS Lambda [![build badge](https://github.com/awslabs/aws-lambda-rust-runtime/workflows/Rust/badge.svg)](https://github.com/awslabs/aws-lambda-rust-runtime/actions)
   * [awslabs/aws-sdk-rust](https://github.com/awslabs/aws-sdk-rust) — The new AWS SDK
-  * [rusoto/rusoto](https://github.com/rusoto/rusoto) —
+  * [rusoto/rusoto](https://github.com/rusoto/rusoto) — An AWS SDK for Rust
 * Load Balancer
   * [Convey](https://github.com/bparli/convey) — Layer 4 Load Balancer with dynamic configuration loading.
 * Multi Cloud
@@ -1138,10 +1138,10 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [djduque/pgfplots](https://github.com/djduque/pgfplots) [[pgfplots](https://crates.io/crates/pgfplots)] — Library to generate publication-quality figures. [![build](https://github.com/DJDuque/pgfplots/actions/workflows/rust.yml/badge.svg)](https://github.com/DJDuque/pgfplots/actions/workflows/rust.yml)
 * [igiagkiozis/plotly](https://github.com/igiagkiozis/plotly) — Plotly for Rust.
 * [mazznoer/colorgrad-rs](https://github.com/mazznoer/colorgrad-rs) [[colorgrad](https://crates.io/crates/colorgrad)] — Color scales library for data visualization, charts, games, maps, generative art and others.
-* [milliams/plotlib](https://github.com/milliams/plotlib) —
+* [milliams/plotlib](https://github.com/milliams/plotlib) — a generic data visualisation and plotting library
 * [plotters](https://github.com/plotters-rs/plotters) — [![build badge](https://github.com/plotters-rs/plotters/workflows/CI/badge.svg)](https://github.com/plotters-rs/plotters/actions)
 * [rerun](https://github.com/rerun-io/rerun) — [[rerun](https://crates.io/crates/rerun)] — An SDK for logging computer vision and robotics data (tensors, point clouds, etc) paired with a visualizer for exploring that data over time.
-* [saresend/gust](https://github.com/saresend/Gust) —
+* [saresend/gust](https://github.com/saresend/Gust) — A small charting/visualization tool and partial vega implementation
 
 ### Database
 
@@ -1154,9 +1154,9 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
     * [Arangors](https://github.com/fMeow/arangors) [[arangors](https://crates.io/crates/arangors)] — An ArangoDB driver
   * [Cassandra](https://cassandra.apache.org/_/index.html) [[cassandra](https://crates.io/keywords/cassandra), [cql](https://crates.io/keywords/cql)]
     * [AlexPikalov/cdrs](https://github.com/AlexPikalov/cdrs) [[cdrs](https://crates.io/crates/cdrs)] — native client
-    * [krojew/cdrs-tokio](https://github.com/krojew/cdrs-tokio) [![build badge](https://github.com/krojew/cdrs-tokio/actions/workflows/rust.yml/badge.svg)](https://github.com/krojew/cdrs-tokio/actions)
-    * [[cassandra-protocol](https://crates.io/crates/cassandra-protocol)] — Cassandra protocol implementation.
-    * [[cdrs-tokio](https://crates.io/crates/cdrs-tokio)] — production-ready async Apache Cassandra driver
+    * [krojew/cdrs-tokio](https://github.com/krojew/cdrs-tokio) — High-level async Cassandra client written in 100% Rust. [![build badge](https://github.com/krojew/cdrs-tokio/actions/workflows/rust.yml/badge.svg)](https://github.com/krojew/cdrs-tokio/actions)
+      * [[cassandra-protocol](https://crates.io/crates/cassandra-protocol)] — Cassandra protocol implementation.
+      * [[cdrs-tokio](https://crates.io/crates/cdrs-tokio)] — production-ready async Apache Cassandra driver
     * [Metaswitch/cassandra-rs](https://github.com/Metaswitch/cassandra-rs) — bindings to the DataStax C/C++ client
   * CouchDB [[couchdb](https://crates.io/keywords/couchdb)]
     * [chill-rs/chill](https://github.com/chill-rs/chill) [[couchdb](https://crates.io/crates/chill)] — Client for the CouchDB REST API
@@ -1228,7 +1228,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 
 [[date](https://crates.io/keywords/date), [time](https://crates.io/keywords/time)]
 
-* [chronotope/chrono](https://github.com/chronotope/chrono) —
+* [chronotope/chrono](https://github.com/chronotope/chrono) —  Date and time library
 * [Mnwa/ms](https://github.com/Mnwa/ms) [[ms-converter](https://crates.io/crates/ms-converter)] — it's a library for converting human-like times to milliseconds [![build badge](https://github.com/Mnwa/ms/workflows/build/badge.svg?branch=master)](https://github.com/Mnwa/ms/actions?query=workflow%3Abuild)
 * [sorairolake/nt-time](https://github.com/sorairolake/nt-time) [[nt-time](https://crates.io/crates/nt-time)] — A Windows file time library. [![CI](https://github.com/sorairolake/nt-time/workflows/CI/badge.svg?branch=develop)](https://github.com/sorairolake/nt-time/actions?query=workflow%3ACI)
 * [time-rs/time](https://github.com/time-rs/time) — [![build badge](https://github.com/time-rs/time/workflows/Build/badge.svg)](https://github.com/time-rs/time/actions)
@@ -1240,7 +1240,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * Apache Kafka
   * [fede1024/rust-rdkafka](https://github.com/fede1024/rust-rdkafka) [[rdkafka](https://crates.io/crates/rdkafka)] — [librdkafka](https://github.com/confluentinc/librdkafka) bindings
   * [gklijs/schema_registry_converter](https://github.com/gklijs/schema_registry_converter) [[schema_registry_converter](https://crates.io/crates/schema_registry_converter)] — to integrate with [confluent schema registry](https://www.confluent.io/product/confluent-platform/data-compatibility/)
-  * [kafka-rust/kafka-rust](https://github.com/kafka-rust/kafka-rust) —
+  * [kafka-rust/kafka-rust](https://github.com/kafka-rust/kafka-rust) — Rust client for Apache Kafka
 * Beanstalkd
   * [schickling/rust-beanstalkd](https://github.com/schickling/rust-beanstalkd) — [Beanstalkd](https://github.com/beanstalkd/beanstalkd) bindings
 * HDFS
@@ -1290,14 +1290,14 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * Byte swapping
   * [BurntSushi/byteorder](https://github.com/BurntSushi/byteorder) — Supports big-endian, little-endian and native byte orders
 * Cap'n Proto
-  * [capnproto/capnproto-rust](https://github.com/capnproto/capnproto-rust) —
+  * [capnproto/capnproto-rust](https://github.com/capnproto/capnproto-rust) — Cap'n Proto is a type system for distributed systems
 * CBOR
   * [serde_cbor](https://crates.io/crates/serde_cbor) — CBOR support for serde
 * Character Encoding
   * [hsivonen/encoding_rs](https://github.com/hsivonen/encoding_rs) [[encoding_rs](https://crates.io/crates/encoding_rs)] — A Gecko-oriented implementation of the Encoding Standard
-  * [lifthrasiir/rust-encoding](https://github.com/lifthrasiir/rust-encoding) —
+  * [lifthrasiir/rust-encoding](https://github.com/lifthrasiir/rust-encoding) — Character encoding support for Rust. (also known as rust-encoding) It is based on WHATWG Encoding Standard, and also provides an advanced interface for error detection and recovery.
 * CRC
-  * [mrhooray/crc-rs](https://github.com/mrhooray/crc-rs) —
+  * [mrhooray/crc-rs](https://github.com/mrhooray/crc-rs) — Rust implementation of CRC(16, 32, 64) with support of various standards
 * CSV
   * [BurntSushi/rust-csv](https://github.com/BurntSushi/rust-csv) — A fast and flexible CSV reader and writer, with support for Serde
 * EDN
@@ -1321,12 +1321,12 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * PEM
   * [jcreekmore/pem-rs](https://github.com/jcreekmore/pem-rs) [[pem](https://crates.io/crates/pem)] — Parse and encode PEM-encoded data
 * ProtocolBuffers
-  * [stepancheg/rust-protobuf](https://github.com/stepancheg/rust-protobuf) —
+  * [stepancheg/rust-protobuf](https://github.com/stepancheg/rust-protobuf) — Rust implementation of Google protocol buffers
   * [tokio-rs/prost](https://github.com/tokio-rs/prost) — [![continuous integration](https://github.com/tokio-rs/prost/workflows/continuous%20integration/badge.svg?branch=master)](https://github.com/tokio-rs/prost/actions)
 * rkyv
   * [rkyv/rkyv](https://github.com/rkyv/rkyv) [[rkyv](https://crates.io/crates/rkyv)] — rkyv (archive) is a zero-copy deserialization framework
 * RON (Rusty Object Notation)
-  * [https://github.com/ron-rs/ron](https://github.com/ron-rs/ron) —
+  * [https://github.com/ron-rs/ron](https://github.com/ron-rs/ron) — Rusty Object Notation
 * Serde
   * [iddm/serde-aux](https://github.com/iddm/serde-aux/) — additional tools for using with the serde library. [![CI](https://github.com/iddm/serde-aux/actions/workflows/ci.yml/badge.svg)](https://github.com/iddm/serde-aux/actions/workflows/ci.yml) [![Crates badge](https://img.shields.io/crates/v/serde-aux.svg)](https://crates.io/crates/serde-aux)
 * TOML
@@ -1439,20 +1439,20 @@ See also [Are we game yet?](https://arewegameyet.rs)
 * [gfx-rs/gfx](https://github.com/gfx-rs/gfx) — A high-performance, bindless graphics API.
 * [gfx-rs/wgpu](https://github.com/gfx-rs/wgpu) — Native WebGPU implementation based on gfx-hal. [![build badge](https://github.com/gfx-rs/wgpu/workflows/CI/badge.svg?branch=master)](https://github.com/gfx-rs/wgpu/actions)
 * OpenGL [[opengl](https://crates.io/keywords/opengl)]
-  * [brendanzab/gl-rs](https://github.com/brendanzab/gl-rs) —
+  * [brendanzab/gl-rs](https://github.com/brendanzab/gl-rs) — An OpenGL function pointer loader
   * [glium/glium](https://github.com/glium/glium) — safe OpenGL wrapper.
   * [glutin](https://crates.io/crates/glutin) — Alternative to [GLFW](https://www.glfw.org/)
   * [Kiss3d](http://kiss3d.org) — draw simple geometric figures and play with them with one-liners
-  * [PistonDevelopers/glfw-rs](https://github.com/PistonDevelopers/glfw-rs) —
+  * [PistonDevelopers/glfw-rs](https://github.com/PistonDevelopers/glfw-rs) — GLFW3 bindings and idiomatic wrapper
 * PDF
   * [bastibense/libharu_ng](https://github.com/bastibense/libharu_ng) [[libharu_ng](https://crates.io/crates/libharu_ng)] — Easily generate PDFs from your Rust app.
   * [fschutt/printpdf](https://github.com/fschutt/printpdf) — PDF writing library
   * [J-F-Liu/lopdf](https://github.com/J-F-Liu/lopdf) — PDF document manipulation
-  * [kaj/rust-pdf](https://github.com/kaj/rust-pdf) —
+  * [kaj/rust-pdf](https://github.com/kaj/rust-pdf) — Generating PDF files in pure Rust
   * [WASM-PDF](https://github.com/jussiniinikoski/wasm-pdf) — Generates PDF files with JavaScript and WASM (WebAssembly)
 * [Vulkan](https://www.vulkan.org/) [[vulkan](https://crates.io/keywords/vulkan)]
   * [erupt](https://gitlab.com/Friz64/erupt) [[erupt](https://crates.io/crates/erupt)] — [![build badge](https://gitlab.com/Friz64/erupt/badges/main/pipeline.svg)](https://gitlab.com/Friz64/erupt/-/pipelines)
-  * [vulkano](https://github.com/vulkano-rs/vulkano) [[vulkano](https://crates.io/crates/vulkano)] —
+  * [vulkano](https://github.com/vulkano-rs/vulkano) [[vulkano](https://crates.io/crates/vulkano)] — Safe and rich Rust wrapper around the Vulkan API
 
 ### GUI
 
@@ -1460,7 +1460,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
 
 * [autopilot-rs/autopilot-rs](https://github.com/autopilot-rs/autopilot-rs) — A simple, cross-platform GUI automation library.
 * Cocoa
-  * [servo/core-foundation-rs](https://github.com/servo/core-foundation-rs) —
+  * [servo/core-foundation-rs](https://github.com/servo/core-foundation-rs) — Rust bindings to Core Foundation and other low level libraries on Mac OS X and iOS
 * [DioxusLabs/dioxus](https://github.com/dioxuslabs/dioxus) — a portable, performant, and ergonomic framework for building cross-platform user interfaces in Rust. ![rust ci](https://github.com/dioxuslabs/dioxus/actions/workflows/main.yml/badge.svg)
 * [emilk/egui](https://github.com/emilk/egui) — Simple, fast, and highly portable immediate mode GUI library. egui runs on the web, natively, and in your favorite game engine. [![Build Status](https://github.com/emilk/egui/workflows/CI/badge.svg)](https://github.com/emilk/egui/actions?workflow=CI)
 * [emoon/rust_minifb](https://github.com/emoon/rust_minifb) — minifb is a cross-platform window setup with optional bitmap rendering. It also comes with easy mouse and keyboard input. Primarily designed for prototyping
@@ -1489,7 +1489,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
 * [PistonDevelopers/conrod](https://github.com/PistonDevelopers/conrod/) — An easy-to-use, immediate-mode, 2D GUI library
 * [Qt](https://doc.qt.io)
   * [cyndis/qmlrs](https://github.com/cyndis/qmlrs) — QtQuick bindings
-  * [rust-qt](https://github.com/rust-qt) —
+  * [rust-qt](https://github.com/rust-qt) — Qt bindings for Rust
   * [woboq/qmetaobject-rs](https://github.com/woboq/qmetaobject-rs) — Integrate Qml and Rust by building the QMetaObject at compile time.
 * [rise-ui](https://github.com/rise-ui/rise) — Simple component-based cross-Platform GUI Toolkit for developing beautiful and user-friendly interfaces.
 * [saurvs/nfd-rs](https://github.com/saurvs/nfd-rs) — [nativefiledialog](https://github.com/mlabbe/nativefiledialog) bindings
@@ -1542,7 +1542,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
 * Android / iOS
   * [owlmafia/rust_android_ios](https://github.com/owlmafia/rust_android_ios) — An example of using a shared lib for Android and iOS using rust-swig and cbindgen respectively.
 * Generic
-  * [Geal/rust_on_mobile](https://github.com/Geal/rust_on_mobile)
+  * [Geal/rust_on_mobile](https://github.com/Geal/rust_on_mobile) — iOS CocoaPods / Android JNI
   * [redbadger/crux](https://github.com/redbadger/crux) [[crux_core](https://crates.io/crates/crux_core)] — Cross-platform app development. Crux helps you share your app's business logic and behavior across mobile (iOS/Android) and web — as a single reusable core. [![Build status](https://img.shields.io/github/actions/workflow/status/redbadger/crux/build.yaml)](https://github.com/redbadger/crux/actions)
 * iOS
   * [TimNN/cargo-lipo](https://github.com/TimNN/cargo-lipo) — A cargo lipo subcommand which automatically creates a universal library for use with your iOS application.
@@ -1696,7 +1696,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [lambda-fairy/maud](https://github.com/lambda-fairy/maud) — compile-time HTML templates
   * [Stebalien/horrorshow-rs](https://github.com/Stebalien/horrorshow-rs) — compile-time HTML templates
 * Mustache
-  * [rustache/rustache](https://github.com/rustache/rustache) —
+  * [rustache/rustache](https://github.com/rustache/rustache) — a Rust implementation of the Mustache spec
 
 ### Text processing
 
@@ -1719,8 +1719,8 @@ See also [Are we game yet?](https://arewegameyet.rs)
 ### Text search
 
 * [andylokandy/simsearch-rs](https://github.com/andylokandy/simsearch-rs) [[simsearch](https://crates.io/crates/simsearch)] — A simple and lightweight fuzzy search engine that works in memory, searching for similar strings
-* [BurntSushi/fst](https://github.com/BurntSushi/fst) [[fst](https://crates.io/crates/fst)] —
-* [CurrySoftware/perlin](https://github.com/CurrySoftware/perlin) [[perlin](https://crates.io/crates/perlin)] —
+* [BurntSushi/fst](https://github.com/BurntSushi/fst) [[fst](https://crates.io/crates/fst)] — a fast implementation of ordered sets and maps using finite state machines
+* [CurrySoftware/perlin](https://github.com/CurrySoftware/perlin) [[perlin](https://crates.io/crates/perlin)] — A lazy, zero-allocation and data-agnostic Information Retrieval library
 * [meilisearch/MeiliSearch](https://github.com/meilisearch/MeiliSearch) — Ultra relevant, instant and typo-tolerant full-text search API. [![Build Status](https://github.com/meilisearch/MeiliSearch/workflows/Cargo%20test/badge.svg?branch=master)](https://github.com/meilisearch/MeiliSearch/actions)
 * [pg_bm25](https://github.com/paradedb/paradedb/tree/dev/pg_bm25) — PostgreSQL extension that enables full text search over SQL tables using the BM25 algorithm, the state-of-the-art ranking function for full-text search.
 * [tantivy](https://github.com/quickwit-oss/tantivy) [[tantivy](https://crates.io/crates/tantivy)] — A horse-speed full-text search engine library written in Rust. [![Build Status](https://github.com/quickwit-oss/tantivy/actions/workflows/test.yml/badge.svg)](https://github.com/quickwit-oss/tantivy/actions/workflows/test.yml)
@@ -1836,7 +1836,8 @@ A registry allows you to publish your Rust libraries as crate packages, to share
   * [Aquascope](https://github.com/cognitive-engineering-lab/aquascope) — Interactive visualizations of Rust at compile-time and run-time
   * [Awesome Rust Streaming](https://github.com/jamesmunns/awesome-rust-streaming) — A community curated list of livestreams.
   * [awesome-rust-mentors](https://rustbeginners.github.io/awesome-rust-mentors/) — A list of helpful mentors willing to take mentees and educate them about Rust and programming.
-  * [Build a language VM](https://blog.subnetzero.io/post/building-language-vm-part-00/) —
+  * [Build a language VM](https://blog.subnetzero.io/post/building-language-vm-part-00/) — a series of posts to detailing how to build a language VM.
+  * [CIS 198: Rust Programming](http://cis198-2016s.github.io/schedule/) — University of Pennsylvania's Comp Sci Rust Programming Course
   * [CodeCrafters.io](https://app.codecrafters.io/tracks/rust) — Build your own Redis, Git, Docker, or SQLite
   * [Comprehensive Rust 🦀](https://google.github.io/comprehensive-rust/) — A 3-day course on Rust Fundamentals plus 1-day courses on Android, Bare-metal Rust, and Concurrency. Available in English, [Brazilian Portuguese](https://google.github.io/comprehensive-rust/pt-BR/), and [Korean](https://google.github.io/comprehensive-rust/ko/).
   * [Easy Rust](https://github.com/Dhghomon/easy_rust) — Learn Rust in easy English.
@@ -1848,13 +1849,13 @@ A registry allows you to publish your Rust libraries as crate packages, to share
   * [Little Book of Rust Books](https://lborb.github.io/book/) — Curated list of rust books and how-tos.
   * [Programming Community Curated Resources for Learning Rust](https://hackr.io/tutorials/learn-rust) — A list of recommended resources voted by the programming community.
   * [Refactoring to Rust](https://www.manning.com/books/refactoring-to-rust) — A book that introduces to Rust language.
-  * [Rust by Example](https://doc.rust-lang.org/rust-by-example/) —
+  * [Rust by Example](https://doc.rust-lang.org/rust-by-example/) — a collection of runnable examples that illustrate various Rust concepts and standard libraries.
   * [Rust Cookbook](https://rust-lang-nursery.github.io/rust-cookbook/) — A collection of simple examples that demonstrate good practices to accomplish common programming tasks, using the crates of the Rust ecosystem.
   * [Rust for professionals](https://overexact.com/rust-for-professionals/) — A quick introduction to Rust for experienced software developers.
   * [Rust Gym](https://github.com/warycat/rustgym) — A big collection of coding interview problems solved in Rust.
   * [Rust in Action](https://www.manning.com/books/rust-in-action) — A hands-on guide to systems programming with Rust by [Tim McNamara](https://github.com/timClicks) (paid)
   * [Rust in Motion](https://www.manning.com/livevideo/rust-in-motion?a_aid=cnichols&a_bid=6a993c2e) — A video series by [Carol Nichols](https://github.com/carols10cents) and [Jake Goulding](https://github.com/shepmaster) (paid)
-  * [Rust Language Cheat Sheet](https://cheats.rs/) —
+  * [Rust Language Cheat Sheet](https://cheats.rs/) — Rust Language Cheat Sheet
   * [Rust Tiếng Việt](https://rust-tieng-viet.github.io/) — Learn Rust in Vietnamese.
   * [rust-how-do-i-start](https://github.com/jondot/rust-how-do-i-start) — A repo dedicated to answering the question: "So, Rust. How do I _start_?". A beginner only hand-picked resources and learning track.
   * [rust-learning](https://github.com/ctjhoa/rust-learning) — A collection of useful resources to learn Rust
@@ -1863,18 +1864,17 @@ A registry allows you to publish your Rust libraries as crate packages, to share
   * [stdx](https://github.com/brson/stdx) — Learn these crates first as an extension to std
   * [Take your first steps with Rust](https://learn.microsoft.com/en-us/training/paths/rust-first-steps/) — Lay the foundation of knowledge you need to build fast and effective programs in Rust.
   * [Tour of Rust](https://tourofrust.com) — This is meant to be an interactive step by step guide through the features of the Rust programming language.
-  * [University of Pennsylvania's Comp Sci Rust Programming Course](http://cis198-2016s.github.io/schedule/) —
 * Podcasts
   * [New Rustacean](https://newrustacean.com) — A podcast about learning Rust
   * [Rustacean Station](https://rustacean-station.org/) — A community project for creating podcast content for Rust
-* [Rust Design Patterns](https://github.com/rust-unofficial/patterns) —
-* [Rust Guidelines](http://aturon.github.io/) —
+* [Rust Design Patterns](https://github.com/rust-unofficial/patterns) — A catalogue of Rust design patterns, anti-patterns and idioms
+* [Rust Guidelines](http://aturon.github.io/) — Aaron Turon's blog posts on rust
 * [Rust Servers, Services and Apps - MEAP](https://www.manning.com/books/rust-servers-services-and-apps) — Build backend servers, services, and front-ends in Rust to get fast, reliable, and maintainable applications.
 * [Rust Subreddit](https://www.reddit.com/r/rust/) — A subreddit(forum) where rust related questions, articles and resources are posted and discussed
 * [RustBooks](https://github.com/sger/RustBooks) — list of RustBooks
-* [RustCamp 2015 Talks](https://www.youtube.com/playlist?list=PLE7tQUdRKcybdIw61JpCoo89i4pWU5f_t) —
+* [RustCamp 2015 Talks](https://www.youtube.com/playlist?list=PLE7tQUdRKcybdIw61JpCoo89i4pWU5f_t) — Recorded talks from RustCamp 2015
 * [RustViz](https://github.com/rustviz/rustviz) — generates visualizations from simple Rust programs to assist users in better understanding the Rust Lifetime and Borrowing mechanism.
-* [Watch Jon Gjengset Implement BitTorrent in Rust](https://www.youtube.com/watch?v=jf_ddGnum_4) —
+* [Watch Jon Gjengset Implement BitTorrent in Rust](https://www.youtube.com/watch?v=jf_ddGnum_4) — Implementing (part of) a BitTorrent client in Rust
 
 ## License
 

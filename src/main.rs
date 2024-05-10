@@ -173,6 +173,8 @@ lazy_static! {
     static ref GITHUB_API_REGEX: Regex = Regex::new(r"https://api.github.com/").unwrap();
     static ref CRATE_REGEX: Regex =
         Regex::new(r"https://crates.io/crates/(?P<crate>[^/]+)/?$").unwrap();
+    static ref ITEM_REGEX: Regex =
+        Regex::new(r"(?P<repo>(\S+)(/\S+)?)(?P<crate> \[\S*\])? — (?P<desc>.+)").unwrap();
 }
 
 #[derive(Deserialize, Debug)]
@@ -579,6 +581,9 @@ async fn main() -> Result<(), Error> {
                                         warn!("No valid crates link");
                                     }
                                     return Err(format_err!("Not high enough metrics ({:?} stars < {}, and {:?} cargo downloads < {}): {}", github_stars, required_stars, cargo_downloads, MINIMUM_CARGO_DOWNLOADS, list_item));
+                                }
+                                if !ITEM_REGEX.is_match(&list_item) {
+                                    return Err(format_err!("Item does not match the template: {}. See https://github.com/rust-unofficial/awesome-rust/blob/main/CONTRIBUTING.md#tldr", list_item));
                                 }
                             }
                             list_items.last_mut().unwrap().data.push(list_item.clone());
