@@ -176,7 +176,6 @@ See also [Rust — Production](https://www.rust-lang.org/production) organizatio
 * [termusic](https://github.com/tramhao/termusic) - Music Player TUI written
 * [WhatBPM](https://github.com/sergree/whatbpm) — A daily statically generated information resource for electronic dance music producers. Provides daily analytics on the most frequently used values for each EDM genre: tempos, keys, root notes, and so on, using publicly available data such as Beatport and Spotify. ![Continuous Integration](https://github.com/sergree/whatbpm/actions/workflows/website_build_deploy.yml/badge.svg?branch=main)
 
-
 ### Blockchain
 
 * [artemis](https://github.com/paradigmxyz/artemis) - A simple, modular, and fast framework for writing MEV bots.
