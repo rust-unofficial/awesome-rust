@@ -1032,6 +1032,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
   * [ogham/rust-term-grid](https://github.com/ogham/rust-term-grid) [[term_grid](https://crates.io/crates/term_grid)] — Library for putting things in a grid
   * [ratatui-org/ratatui](https://github.com/ratatui-org/ratatui) [[ratatui](https://crates.io/crates/ratatui)] — Library that's all about cooking up terminal user interfaces (TUIs)
   * [redox-os/termion](https://github.com/redox-os/termion) [[termion](https://crates.io/crates/termion)] — bindless library for controlling terminals/TTY
+  * [ruterm](https://crates.io/crates/ruterm) - tiny & simple library for working with TTY
   * Termbox
     * [gchp/rustbox](https://github.com/gchp/rustbox) [[rustbox](https://crates.io/crates/rustbox)] — bindings to [Termbox](https://github.com/nsf/termbox)
   * [TimonPost/crossterm](https://github.com/crossterm-rs/crossterm) [[crossterm](https://crates.io/crates/crossterm)] — crossplatform terminal library
