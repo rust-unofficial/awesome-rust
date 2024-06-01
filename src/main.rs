@@ -1,3 +1,5 @@
+#![deny(warnings)]
+
 use chrono::{DateTime, Duration, Local};
 use diffy::create_patch;
 use failure::{format_err, Error, Fail};
