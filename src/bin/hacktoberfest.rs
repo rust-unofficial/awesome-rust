@@ -171,7 +171,7 @@ async fn main() -> Result<(), Error> {
             return;
         }
         used.insert(url.clone());
-        if results.get(&url).is_some() {
+        if results.contains_key(&url) {
             return;
         }
         let check = get_hacktoberfest(url).boxed();
