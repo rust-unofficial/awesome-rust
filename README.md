@@ -915,9 +915,9 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [rust-lang/futures-rs](https://github.com/rust-lang/futures-rs) — Zero-cost futures
 * [t3hmrman/async-dropper](https://github.com/t3hmrman/async-dropper) [[async-dropper](https://crates.io/crates/async-dropper)] — Implementation of `AsyncDrop`
 * [TeaEntityLab/fpRust](https://github.com/TeaEntityLab/fpRust) — Monad/MonadIO, Handler, Coroutine/doNotation, Functional Programming features for Rust
+* [tokio-rs/tokio](https://github.com/tokio-rs/tokio) — A runtime for writing reliable, asynchronous, and slim applications with the Rust programming language.
 * [Xudong-Huang/may](https://github.com/Xudong-Huang/may) — Stackful coroutine library
 * [zonyitoo/coio-rs](https://github.com/zonyitoo/coio-rs) — A coroutine I/O library with a working-stealing scheduler
-* [tokio-rs/tokio](https://github.com/tokio-rs/tokio) — A runtime for writing reliable, asynchronous, and slim applications with the Rust programming language.
 
 ### Audio and Music
 
