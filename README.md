@@ -917,6 +917,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [TeaEntityLab/fpRust](https://github.com/TeaEntityLab/fpRust) — Monad/MonadIO, Handler, Coroutine/doNotation, Functional Programming features for Rust
 * [Xudong-Huang/may](https://github.com/Xudong-Huang/may) — Stackful coroutine library
 * [zonyitoo/coio-rs](https://github.com/zonyitoo/coio-rs) — A coroutine I/O library with a working-stealing scheduler
+* [tokio-rs/tokio](https://github.com/tokio-rs/tokio) — A runtime for writing reliable, asynchronous, and slim applications with the Rust programming language.
 
 ### Audio and Music
 
@@ -1593,7 +1594,6 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [dylanmckay/protocol](https://github.com/dylanmckay/protocol) — Custom TCP/UDP protocol definitions
   * [libpnet/libpnet](https://github.com/libpnet/libpnet) — A cross-platform, low level networking
   * [smoltcp-rs/smoltcp](https://github.com/smoltcp-rs/smoltcp) — A standalone, event-driven TCP/IP stack that is designed for bare-metal, real-time systems
-  * [tokio-rs/tokio](https://github.com/tokio-rs/tokio) — A network application framework for rapid development and highly scalable production deployments of clients and servers.
 * message-io
   * [lemunozm/message-io](https://github.com/lemunozm/message-io) — Event-driven message library to build network applications easy and fast. Supports TCP, UDP and WebSockets. [![build badge](https://img.shields.io/github/workflow/status/lemunozm/message-io/message-io%20ci)](https://github.com/lemunozm/message-io/actions?query=workflow%3A%22message-io+ci%22)
 * MQTT
