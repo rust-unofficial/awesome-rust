@@ -160,6 +160,7 @@ See also [Rust — Production](https://www.rust-lang.org/production) organizatio
 * [wezterm](https://github.com/wez/wezterm) — A GPU-accelerated cross-platform terminal emulator and multiplexer
 * [WinterJS](https://github.com/wasmerio/winterjs) — A secure JavaScript runtime built with SpiderMonkey and Axum
 * [zellij](https://github.com/zellij-org/zellij) — A terminal multiplexer (workspace) with batteries included
+* [chat-room](https://github.com/fanlv/chat-room) — A online chat room based on QUIC protocol
 
 ### Audio and Music
 
