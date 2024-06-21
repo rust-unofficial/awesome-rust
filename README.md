@@ -1757,7 +1757,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
 
 ### Unsafe
 
-* [zerocopy](https://crates.io/crates/zerocopy) — Utilities for safely reinterpreting arbitrary byte sequences as native Rust types
+* [zerocopy](https://crates.io/crates/zerocopy) — "Zerocopy makes zero-cost memory manipulation effortless. We write `unsafe` so you don’t have to."
 
 ### Video
 
