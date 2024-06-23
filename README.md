@@ -1639,6 +1639,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
 ### Parsing
 
   * [comex/rust-shlex](https://github.com/comex/rust-shlex) [[shlex](https://crates.io/crates/shlex)] — Split a string into shell words, like Python's shlex. [![build badge](https://github.com/comex/rust-shlex/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/comex/rust-shlex/actions/workflows/test.yml)
+  * [Eliah-Lakhin/lady-deirdre](https://github.com/Eliah-Lakhin/lady-deirdre) — A framework for new programming languages and LSP servers.
   * [Folyd/robotstxt](https://github.com/Folyd/robotstxt) — Port of Google's robots.txt parser and matcher C++ library
   * [freestrings/jsonpath](https://github.com/freestrings/jsonpath) — [JsonPath](https://goessner.net/articles/JsonPath/) engine. Webassembly and Javascript support too
   * [hmeyer/stl_io](https://crates.io/crates/stl_io) — A parser for STL (STereoLithography) files
