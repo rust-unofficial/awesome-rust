@@ -1331,7 +1331,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * CSV
   * [BurntSushi/rust-csv](https://github.com/BurntSushi/rust-csv) — A fast and flexible CSV reader and writer, with support for Serde
 * EDN
-  * [edn-rs](https://github.com/edn-rs/edn-rs) [[edn-rs](https://crates.io/crates/edn-rs)] — crate to parse and emit EDN format into Rust types.
+  * [edn-rs](https://github.com/naomijub/edn-rs) [[edn-rs](https://crates.io/crates/edn-rs)] — crate to parse and emit EDN format into Rust types.
 * [FlatBuffers](https://flatbuffers.dev/)
   * [frol/flatc-rust](https://github.com/frol/flatc-rust) — FlatBuffers compiler (flatc) integration for Cargo build scripts
 * HAR
