@@ -160,7 +160,7 @@ See also [Rust - Production](https://www.rust-lang.org/production) organizations
 * [Weld](https://github.com/serayuzgur/weld) - Full fake REST API generator
 * [wezterm](https://github.com/wez/wezterm) - A GPU-accelerated cross-platform terminal emulator and multiplexer
 * [WinterJS](https://github.com/wasmerio/winterjs) - A secure JavaScript runtime built with SpiderMonkey and Axum
-* [zellij](https://github.com/zellij-org/zellij) - A terminal multiplexer (workspace) with batteries included* 
+* [zellij](https://github.com/zellij-org/zellij) - A terminal multiplexer (workspace) with batteries included
 
 ### Audio and Music
 
