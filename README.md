@@ -162,7 +162,6 @@ See also [Rust - Production](https://www.rust-lang.org/production) organizations
 * [WinterJS](https://github.com/wasmerio/winterjs) - A secure JavaScript runtime built with SpiderMonkey and Axum
 * [zellij](https://github.com/zellij-org/zellij) - A terminal multiplexer (workspace) with batteries included* 
 
-
 ### Audio and Music
 
 * [dano](https://github.com/kimono-koans/dano) - A hashdeep/md5tree (but much more) for media files
