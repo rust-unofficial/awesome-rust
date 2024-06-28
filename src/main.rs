@@ -175,7 +175,7 @@ lazy_static! {
     static ref CRATE_REGEX: Regex =
         Regex::new(r"https://crates.io/crates/(?P<crate>[^/]+)/?$").unwrap();
     static ref ITEM_REGEX: Regex =
-        Regex::new(r"(?P<repo>(\S+)(/\S+)?)(?P<crate> \[\S*\])? — (?P<desc>\S.+)").unwrap();
+        Regex::new(r"(?P<repo>(\S+)(/\S+)?)(?P<crate> \[\S*\])? - (?P<desc>\S.+)").unwrap();
 }
 
 #[derive(Deserialize, Debug)]
