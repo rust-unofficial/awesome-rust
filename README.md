@@ -148,6 +148,7 @@ See also [Rust - Production](https://www.rust-lang.org/production) organizations
 * [Rauthy](https://github.com/sebadob/rauthy) - OpenID Connect Single Sign-On Identity & Access Management
 * [Rio](https://github.com/raphamorim/rio) - A hardware-accelerated GPU terminal emulator powered by WebGPU, focusing to run in desktops and browsers.
 * [rx](https://github.com/cloudhead/rx) - Vi inspired Modern Pixel Art Editor
+* [Ryot](https://github.com/ignisda/ryot) - A self hosted application to track media consumption, fitness, etc.
 * [Servo](https://github.com/servo/servo) - A prototype web browser engine
 * [shoes](https://github.com/cfal/shoes) - A multi-protocol proxy server
 * [shuttle](https://github.com/shuttle-hq/shuttle) - A serverless platform.
