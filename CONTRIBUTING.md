@@ -7,7 +7,7 @@ Our goal is to have mostly projects that are stable and useful to many users.
 ## TL;DR
 
 - Accepted: `(stars > 50 | downloads > 2000)`
-- Template: `[ACCOUNT/REPO](https://github.com/ACCOUNT/REPO) [[CRATE](https://crates.io/crates/CRATE)] — DESCRIPTION`
+- Template: `[ACCOUNT/REPO](https://github.com/ACCOUNT/REPO) [[CRATE](https://crates.io/crates/CRATE)] - DESCRIPTION`
 - Sort: alphabetical
 
 ## How?
