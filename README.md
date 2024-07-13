@@ -640,12 +640,13 @@ See also [A comparison of operating systems written in Rust](https://github.com/
   * [cargo-commander](https://crates.io/crates/cargo-commander) - A subcommand for `cargo` to run CLI commands similar to how the scripts section in `package.json` works [![Build and test](https://github.com/simonhyll/cargo-commander/actions/workflows/build.yml/badge.svg)](https://github.com/simonhyll/cargo-commander/actions/workflows/build.yml)
   * [cargo-count](https://crates.io/crates/cargo-count) - lists source code counts and details about cargo projects, including unsafe statistics
   * [cargo-deb](https://crates.io/crates/cargo-deb) - Generates binary Debian packages
-  * [cargo-deps](https://crates.io/crates/cargo-deps) - build dependency graphs
+  * [cargo-depgraph](https://crates.io/crates/cargo-depgraph) - Creates dependency graphs for cargo projects using cargo metadata and graphviz
+  * [cargo-deps](https://crates.io/crates/cargo-deps) - build dependency graphs. Unmaintained, see `cargo-depgraph`
   * [cargo-do](https://crates.io/crates/cargo-do) - run multiple cargo commands in a row
   * [cargo-ebuild](https://crates.io/crates/cargo-ebuild) - cargo extension that can generate ebuilds using the in-tree eclasses
   * [cargo-edit](https://crates.io/crates/cargo-edit) - allows you to add and list dependencies by reading/writing to your Cargo.toml file from the command line
   * [cargo-generate](https://github.com/cargo-generate/cargo-generate) - A generator of a rust project by leveraging a pre-existing git repository as a template.
-  * [cargo-graph](https://crates.io/crates/cargo-graph) - updated fork of `cargo-dot` with additional features. Unmaintained, see `cargo-deps`
+  * [cargo-graph](https://crates.io/crates/cargo-graph) - updated fork of `cargo-dot` with additional features. Unmaintained, see `cargo-depgraph`
   * [cargo-info](https://crates.io/crates/cargo-info) - queries crates.io for crates details from command line
   * [cargo-license](https://crates.io/crates/cargo-license) - A cargo subcommand to quickly view the licenses of all dependencies.
   * [cargo-limit](https://crates.io/crates/cargo-limit) - Cargo with less noise: warnings are skipped until errors are fixed, Neovim integration, etc. [![build badge](https://github.com/cargo-limit//cargo-limit/actions/workflows/rust.yml/badge.svg)](https://github.com/cargo-limit//cargo-limit/actions)
