@@ -490,7 +490,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [XAMPPRocky/tokei](https://github.com/XAMPPRocky/tokei) - counts the lines of code
 * [ynqa/jnv](https://github.com/ynqa/jnv) - Interactive JSON filter using jq [![ci](https://github.com/ynqa/jnv/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/ynqa/jnv/actions/workflows/ci.yml)
 * [ynqa/sig](https://github.com/ynqa/sig) - Interactive grep (for streaming) [![ci](https://github.com/ynqa/sig/actions/workflows/ci.yml/badge.svg)](https://github.com/ynqa/sig/actions/workflows/ci.yml)
-* [ChurchTao/clipboard-rs](https://github.com/ChurchTao/clipboard-rs) - Cross-platform library written in Rust for getting and setting and monitoring changes the system-level clipboard content.[![Crates.io](https://img.shields.io/crates/v/clipboard-rs?color=mediumvioletred)](https://crates.io/crates/clipboard-rs) ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/ChurchTao/clipboard-rs/test.yml)
+* [ChurchTao/clipboard-rs](https://github.com/ChurchTao/clipboard-rs) - Cross-platform library written in Rust for getting and setting and monitoring changes the system-level clipboard content.[![Crates.io](https://img.shields.io/crates/v/clipboard-rs?color=mediumvioletred)](https://crates.io/crates/clipboard-rs)
 
 ### Task scheduling
 
