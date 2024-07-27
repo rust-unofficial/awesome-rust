@@ -161,7 +161,7 @@ See also [Rust - Production](https://www.rust-lang.org/production) organizations
 * [wezterm](https://github.com/wez/wezterm) - A GPU-accelerated cross-platform terminal emulator and multiplexer
 * [WinterJS](https://github.com/wasmerio/winterjs) - A secure JavaScript runtime built with SpiderMonkey and Axum
 * [zellij](https://github.com/zellij-org/zellij) - A terminal multiplexer (workspace) with batteries included
-* [SwitchShuttlej](https://github.com/s00d/switchshuttlej) - A simple and effective way to manage commands shortcuts in macOS
+* [SwitchShuttle](https://github.com/s00d/switchshuttle) - A simple and effective way to manage commands shortcuts in macOS
   
 ### Audio and Music
 
