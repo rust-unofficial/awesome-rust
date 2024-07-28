@@ -1344,6 +1344,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * HTML
   * [servo/html5ever](https://github.com/servo/html5ever) - High-performance browser-grade HTML5 parser
 * JSON
+  * [cloudwego/sonic-rs](https://github.com/cloudwego/sonic-rs) [[sonic-rs](https://crates.io/crates/sonic-rs)] - A fast Rust JSON library based on SIMD.
   * [importcjj/rust-ajson](https://github.com/importcjj/rust-ajson) [[ajson](https://crates.io/crates/ajson)] - Get JSON values quickly
   * [maciejhirsz/json-rust](https://github.com/maciejhirsz/json-rust) [[json](https://crates.io/crates/json)] - JSON implementation
   * [pikkr/pikkr](https://github.com/pikkr/pikkr) [[pikkr](https://crates.io/crates/pikkr)] - JSON parser which picks up values directly without performing tokenization
