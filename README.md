@@ -901,6 +901,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [rust-ml/linfa](https://github.com/rust-ml/linfa) - Machine learning framework.
 * [smartcorelib/smartcore](https://github.com/smartcorelib/smartcore) - Machine Learning Library [![Build Status](https://img.shields.io/circleci/build/github/smartcorelib/smartcore)](https://smartcorelib.org/)
 * [tensorflow/rust](https://github.com/tensorflow/rust) - Bindings for TensorFlow.
+* [perpetual-ml/perpetual](https://github.com/perpetual-ml/perpetual) — A self-generalizing gradient boosting machine which doesn't need hyperparameter optimization.
 
 #### OpenAI
 
