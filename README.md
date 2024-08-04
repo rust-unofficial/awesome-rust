@@ -121,7 +121,6 @@ See also [Rust - Production](https://www.rust-lang.org/production) organizations
 * [Arti](https://gitlab.torproject.org/tpo/core/arti) - An implementation of Tor. (So far, it's a not-very-complete client. But watch this space!) [![Crates.io](https://img.shields.io/crates/v/arti.svg)](https://crates.io/crates/arti)
 * [asm-cli-rust](https://github.com/cch123/asm-cli-rust) - An interactive assembly shell.
 * [cloudflare/boringtun](https://github.com/cloudflare/boringtun) - A Userspace WireGuard VPN Implementation [![build badge](https://img.shields.io/badge/crates.io-v0.2.0-orange.svg)](https://crates.io/crates/boringtun)
-* [datafusion](https://github.com/apache/datafusion) - Apache Arrow DataFusion and Ballista query engines
 * [defguard](https://github.com/defguard/defguard) - Enterprise Open Source SSO & WireGuard VPN with real 2FA/MFA
 * [denoland/deno](https://github.com/denoland/deno) - A secure JavaScript/TypeScript runtime built with V8 and Tokio [![Build Status](https://github.com/denoland/deno/workflows/ci/badge.svg?branch=master&event=push)](https://github.com/denoland/deno/actions)
 * [doprz/dipc](https://github.com/doprz/dipc) - Convert your favorite images and wallpapers with your favorite color palettes/themes [![crates.io](https://img.shields.io/crates/v/dipc)](https://crates.io/crates/dipc)
@@ -217,7 +216,7 @@ See also [Rust - Production](https://www.rust-lang.org/production) organizations
 * [rust-lightning](https://github.com/lightningdevkit/rust-lightning) [![Crate](https://img.shields.io/crates/v/lightning.svg?logo=rust)](https://crates.io/crates/lightning) - Bitcoin Lightning library. The main crate,`lightning`, does not handle networking, persistence, or any other I/O. Thus,it is runtime-agnostic, but users must implement basic networking logic, chain interactions, and disk storage.po on linking crate.
 * [sigma-rust](https://github.com/ergoplatform/sigma-rust) - ErgoTree interpreter and wallet-related features.
 * [Solana](https://github.com/solana-labs/solana) - Incredibly fast, highly scalable blockchain using Proof-of-History.
-* [Subspace](https://github.com/subspace/subspace) - The first layer-one blockchain that can fully resolve the blockchain trilemma by simultaneously achieving scalability, security, and decentralization.
+* [Subspace](https://github.com/autonomys/subspace) - The first layer-one blockchain that can fully resolve the blockchain trilemma by simultaneously achieving scalability, security, and decentralization.
 * [Sui](https://github.com/MystenLabs/sui) - A next-generation smart contract platform with high throughput, low latency, and an asset-oriented programming model powered by the Move programming language.
 * [svm-rs](https://github.com/alloy-rs/svm-rs) - Solidity-Compiler Version Manager.
 * [tendermint-rs](https://github.com/informalsystems/tendermint-rs) - Tendermint blockchain data structures and clients
@@ -537,6 +536,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [evansmurithi/cloak](https://github.com/evansmurithi/cloak) - A Command Line OTP (One Time Password) Authenticator application. ![CI](https://github.com/evansmurithi/cloak/workflows/CI/badge.svg) [![build badge](https://ci.appveyor.com/api/projects/status/9mlfpfru3ng4c689/branch/master?svg=true)](https://ci.appveyor.com/project/evansmurithi/cloak)
 * [fcsonline/tmux-thumbs](https://github.com/fcsonline/tmux-thumbs) - A lightning fast version of tmux-fingers, copy/pasting tmux like vimium/vimperator.
 * [guoxbin/dtool](https://github.com/guoxbin/dtool) - A useful command-line tool collection to assist development including conversion, codec, hashing, encryption, etc.
+* [Linus-Mussmaecher/rucola](https://github.com/Linus-Mussmaecher/rucola) - Terminal-based markdown note manager. [![Crate](https://img.shields.io/crates/v/rucola-notes.svg?logo=rust)](https://crates.io/crates/rucola-notes) [![Build Status](https://github.com/Linus-Mussmaecher/rucola/actions/workflows/continuous-testing.yml/badge.svg)](https://github.com/Linus-Mussmaecher/rucola/actions/workflows/continuous-testing.yml)
 * [Mobslide](https://github.com/thewh1teagle/mobslide) - Desktop application that turns your smartphone into presentation remote controller.
 * [mprocs](https://github.com/pvolok/mprocs) - TUI for running multiple processes
 * [mrjackwills/oxker](https://github.com/mrjackwills/oxker) [[oxker](https://crates.io/crates/oxker)] - A simple tui to view & control docker containers.
@@ -663,12 +663,15 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * CMake
   * [Devolutions/CMakeRust](https://github.com/Devolutions/CMakeRust) - useful for integrating a Rust library into a CMake project
   * [SiegeLord/RustCMake](https://github.com/SiegeLord/RustCMake) - an example project showing usage of CMake with Rust
+* [facebook/buck2](https://github.com/facebook/buck2) - [Buck2](https://buck2.build/) is a large-scale build tool built in Rust
 * [Fleet](https://github.com/dimensionhq/fleet) [[fleet-rs](https://crates.io/crates/fleet-rs)] - The blazing fast build tool for Rust.
 * GitHub actions
   * [icepuma/rust-action](https://github.com/icepuma/rust-action) - rust github action
   * [peaceiris/actions-mdbook](https://github.com/peaceiris/actions-mdbook) - GitHub Actions for mdBook
 * [Nix](https://nixos.org/)
   * [nix-community/fenix](https://github.com/nix-community/fenix) - Rust toolchains and rust analyzer nightly for nix [![build-badge](https://github.com/nix-community/fenix/actions/workflows/ci.yml/badge.svg)](https://github.com/nix-community/fenix/actions/workflows/ci.yml)
+* [pantsbuild/pants](https://github.com/pantsbuild/pants) - [Pants](https://www.pantsbuild.org/) is a fast, scalable, user-friendly build system for codebases of all sizes built in Rust.
+* [tracemachina/nativelink](https://github.com/tracemachina/nativelink) - [NativeLink](https://www.nativelink.com) is a Backend Remote Execution platform written in rust for client build systems such as [Buck2](https://buck2.build/), [Bazel](https://bazel.build/), [Pants](https://www.pantsbuild.org/), etc.. [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/TraceMachina/nativelink/badge)](https://securityscorecards.dev/viewer/?uri=github.com/TraceMachina/nativelink) [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/8050/badge)](https://www.bestpractices.dev/projects/8050) [![Slack](https://img.shields.io/badge/slack--channel-blue?logo=slack)](https://nativelink.slack.com/join/shared_invite/zt-281qk1ho0-krT7HfTUIYfQMdwflRuq7A#/shared-invite/email)
 
 ### Debugging
 
@@ -897,6 +900,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [huggingface/tokenizers](https://github.com/huggingface/tokenizers) - Hugging Face's tokenizers for modern NLP pipelines (original implementation) with bindings for Python. [![Build Status](https://github.com/huggingface/tokenizers/workflows/Rust/badge.svg?branch=master)](https://github.com/huggingface/tokenizers/actions)
 * [LaurentMazare/tch-rs](https://github.com/LaurentMazare/tch-rs) - Bindings for PyTorch.
 * [maciejkula/rustlearn](https://github.com/maciejkula/rustlearn) - Machine learning library. [![Circle CI](https://circleci.com/gh/maciejkula/rustlearn.svg?style=svg)](https://app.circleci.com/pipelines/github/maciejkula/rustlearn)
+* [perpetual-ml/perpetual](https://github.com/perpetual-ml/perpetual) [[perpetual](https://crates.io/crates/perpetual)] - A self-generalizing gradient boosting machine which doesn't need hyperparameter optimization.
 * [rust-ml/linfa](https://github.com/rust-ml/linfa) - Machine learning framework.
 * [smartcorelib/smartcore](https://github.com/smartcorelib/smartcore) - Machine Learning Library [![Build Status](https://img.shields.io/circleci/build/github/smartcorelib/smartcore)](https://smartcorelib.org/)
 * [tensorflow/rust](https://github.com/tensorflow/rust) - Bindings for TensorFlow.
@@ -1141,6 +1145,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 
 * [amv-dev/yata](https://github.com/amv-dev/yata) - high performance technical analysis library [![Build Status](https://img.shields.io/github/workflow/status/amv-dev/yata/Rust?branch=master)](https://github.com/amv-dev/yata/actions?query=workflow%3ARust)
 * [bluss/ndarray](https://github.com/rust-ndarray/ndarray) - N-dimensional array with array views, multidimensional slicing, and efficient operations
+* [datafusion](https://github.com/apache/datafusion) - DataFusion is a very fast, extensible query engine for building high-quality data-centric systems in Rust, using the Apache Arrow in-memory format.
 * [kernelmachine/utah](https://github.com/kernelmachine/utah) - Dataframe structure and operations
 * [pg_analytics](https://github.com/paradedb/paradedb/tree/dev/pg_analytics) - PostgreSQL extension that accelerates analytical query processing inside Postgres to a performance level comparable to dedicated OLAP databases.
 * [pg_lakehouse](https://github.com/paradedb/paradedb/tree/dev/pg_lakehouse) - PostgreSQL extension that transforms Postgres into an analytical query engine over object stores like AWS S3/GCS and table formats like Delta Lake/Iceberg.
@@ -1152,6 +1157,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [ArroyoSystems/arroyo](https://github.com/ArroyoSystems/arroyo) - High-performance real-time analytics in Rust and SQL [![CI](https://github.com/ArroyoSystems/arroyo/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/ArroyoSystems/arroyo/actions)
 * [iggy-rs/iggy](https://github.com/iggy-rs/iggy) [[iggy](https://crates.io/crates/iggy)] - Persistent message streaming platform, supporting QUIC, TCP and HTTP transport protocols [![CI](https://github.com/iggy-rs/iggy/actions/workflows/test.yml/badge.svg)](https://github.com/iggy-rs/iggy/actions/workflows/test.yml)
 * [infinyon/fluvio](https://github.com/infinyon/fluvio) - Programmable data streaming platform [![CI](https://github.com/infinyon/fluvio/workflows/CI/badge.svg?branch=stable)](https://github.com/infinyon/fluvio/actions)
+* [swimos/swim-rust](https://github.com/swimos/swim-rust) [[swim-rust](https://crates.io/crates/swimos)] - Self-contained distributed software platform for building stateful, massively real-time streaming applications.
 
 ### Data structures
 
@@ -1345,9 +1351,9 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * HTML
   * [servo/html5ever](https://github.com/servo/html5ever) - High-performance browser-grade HTML5 parser
 * JSON
+  * [cloudwego/sonic-rs](https://github.com/cloudwego/sonic-rs) [[sonic-rs](https://crates.io/crates/sonic-rs)] - A fast Rust JSON library based on SIMD.
   * [importcjj/rust-ajson](https://github.com/importcjj/rust-ajson) [[ajson](https://crates.io/crates/ajson)] - Get JSON values quickly
-  * [maciejhirsz/json-rust](https://github.com/maciejhirsz/json-rust) [[json](https://crates.io/crates/json)] - JSON implementation
-  * [pikkr/pikkr](https://github.com/pikkr/pikkr) [[pikkr](https://crates.io/crates/pikkr)] - JSON parser which picks up values directly without performing tokenization
+  * [rustadopt/jzon-rs](https://github.com/rustadopt/jzon-rs/) [[jzon](https://crates.io/crates/jzon)] - JSON implementation
   * [serde-rs/json](https://github.com/serde-rs/json) [[serde\_json](https://crates.io/crates/serde_json)] - JSON support for [Serde](https://github.com/serde-rs/serde) framework
   * [simd-lite/simd-json](https://github.com/simd-lite/simd-json) [[simd-json](https://crates.io/crates/simd-json)] - High performance JSON parser based on a port of simdjson
 * MsgPack
