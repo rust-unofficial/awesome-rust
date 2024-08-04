@@ -70,6 +70,7 @@ lazy_static! {
         "https://github.com/arkworks-rs".to_string(), // Rust ecosystem for zkSNARK programming (Organizations have no stars)
         "https://marketplace.visualstudio.com/items?itemName=jinxdash.prettier-rust".to_string(), // https://github.com/jinxdash/prettier-plugin-rust has >50 stars
         "https://github.com/andoriyu/uclicious".to_string() // FIXME: CI hack. the crate has a higher count, but we don't refresh.
+        "https://marketplace.visualstudio.com/items?itemName=fill-labs.dependi".to_string(), // marketplace link , but also has enough stars
     ];
 }
 
