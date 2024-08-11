@@ -14,7 +14,6 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
     - [Audio and Music](#audio-and-music)
     - [Blockchain](#blockchain)
     - [Database](#database)
-    - [MessageQueue](#messagequeue)
     - [Emulators](#emulators)
     - [File manager](#file-manager)
     - [Games](#games)
@@ -260,9 +259,6 @@ See also [Rust - Production](https://www.rust-lang.org/production) organizations
 * [USearch](https://github.com/unum-cloud/usearch) - Similarity Search Engine for Vectors and Strings [![crates.io](https://img.shields.io/crates/v/usearch.svg)](https://crates.io/crates/usearch)
 * [vorot93/libmdbx-rs](https://github.com/vorot93/libmdbx-rs) [[mdbx-sys](https://crates.io/crates/mdbx-sys)] - Bindings for MDBX, a "fast, compact, powerful, embedded, transactional key-value database, with permissive license". This is a fork of mozilla/lmdb-rs with patches to make it work with libmdbx.
 * [WooriDB](https://github.com/naomijub/wooridb) - General purpose time serial database inspired by Crux and Datomic.
-
-### MessageQueue
-* [RobustMQ](https://github.com/robustmq/robustmq) - Next generation cloud-native converged message queue.
 
 ### Emulators
 
