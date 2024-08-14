@@ -1096,6 +1096,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * Science
   * [cpmech/russell](https://github.com/cpmech/russell) - Rust Scientific Library for numerical mathematics, ordinary differential equations, special math functions, high-performance (sparse) linear algebra
   * [indigits/scirust](https://github.com/indigits/scirust) - Scientific computing library
+  * [Axect/Peroxide](https://github.com/Axect/Peroxide) - Rust numeric library containing linear algebra, numerical analysis, statistics and machine learning tools in pure rust
 * Statrs
   * [statrs-dev/statrs](https://github.com/statrs-dev/statrs) - Robust statistical computation library
 
