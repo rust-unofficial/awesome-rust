@@ -53,6 +53,7 @@ lazy_static! {
         "https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb".to_string(), // > 350k downloads
         "https://gitpod.io".to_string(), // https://github.com/gitpod-io/gitpod has 4.7k stars
         "https://wiki.gnome.org/Apps/Builder".to_string(), // https://gitlab.gnome.org/GNOME/gnome-builder has 133 stars
+        "https://www.jetbrains.com/rust/".to_string(), // popular closed-source IDE, free for non-commercial use
         "https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml".to_string(), // > 1M downloads
         "https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer".to_string(), // > 260k downloads
         "https://marketplace.visualstudio.com/items?itemName=rust-lang.rust".to_string(), // > 1M downloads
