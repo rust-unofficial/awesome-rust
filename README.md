@@ -303,6 +303,7 @@ See also [crates matching keyword 'emulator'](https://crates.io/keywords/emulato
 
 * [broot](https://github.com/Canop/broot) - A new way to see and navigate directory trees (get an overview of a directory, even a big one; find a directory then `cd` to it; never lose track of file hierarchy while you search; manipulate your files, ...), further reading [dystroy.org/broot](https://dystroy.org/broot/) [![Latest Version](https://img.shields.io/crates/v/broot.svg)](https://crates.io/crates/broot)
 * [joshuto](https://github.com/kamiyaa/joshuto) - ranger-like terminal file manager
+* [metafolder](https://github.com/pierods/metafolder) - A small desktop icon manager for gnome 42+
 * [xplr](https://github.com/sayanarijit/xplr) - A hackable, minimal, fast TUI file explorer
 * [yazi](https://github.com/sxyazi/yazi) - Blazing fast terminal file manager, based on async I/O.
 
