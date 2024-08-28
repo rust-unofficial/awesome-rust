@@ -1570,14 +1570,13 @@ See also [Are we game yet?](https://arewegameyet.rs)
 
 [[log](https://crates.io/keywords/log)]
 
-* [estk/log4rs](https://github.com/estk/log4rs) - highly configurable logging framework modeled after Java's Logback and log4j libraries [![CircleCI](https://circleci.com/gh/estk/log4rs.svg?style=shield)](https://app.circleci.com/pipelines/github/estk/log4rs)
 * [donnie4w/tklog](https://github.com/donnie4w/tklog "donnie4w/tklog") - lightweight and efficient rust structured log library with support for log levels, file segmentation, compressed archiving.
+* [estk/log4rs](https://github.com/estk/log4rs) - highly configurable logging framework modeled after Java's Logback and log4j libraries [![CircleCI](https://circleci.com/gh/estk/log4rs.svg?style=shield)](https://app.circleci.com/pipelines/github/estk/log4rs)
 * [rbatis/fast_log](https://github.com/rbatis/fast_log) - Async log High-performance asynchronous logging
 * [rust-lang/log](https://github.com/rust-lang/log) - Logging implementation
 * [seanmonstar/pretty-env-logger](https://github.com/seanmonstar/pretty-env-logger) - A pretty, easy-to-use logger.
 * [slog-rs/slog](https://github.com/slog-rs/slog) - Structured, composable logging
 * [tokio-rs/tracing](https://github.com/tokio-rs/tracing) - An application level tracing framework for async-aware structured logging, error handling, metrics, and more [![Build Status](https://github.com/tokio-rs/tracing/workflows/CI/badge.svg?branch=master)](https://github.com/tokio-rs/tracing/actions?query=workflow%3ACI)
-
 
 ### Macro
 
