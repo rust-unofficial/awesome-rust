@@ -427,7 +427,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [Raspirus](https://github.com/Raspirus/Raspirus) - User- and resources-friendly signatures-based malware scanner [![status](https://github.com/Raspirus/Raspirus/actions/workflows/testproject.yml/badge.svg)](https://github.com/Raspirus/Raspirus/actions/workflows/testproject.yml)
 * [ripasso](https://github.com/cortex/ripasso/) - A password manager, filesystem compatible with pass
 * [rustscan/rustscan](https://github.com/RustScan/RustScan) - Make Nmap faster with this port scanning tool [![build badge](https://github.com/RustScan/RustScan/workflows/Build/badge.svg?branch=master)](https://github.com/RustScan/RustScan/actions?query=workflow%3A%22Build%22)
-* [caido](https://github.com/caido/caido) - A security proxy like Burpsuite but in Rust. Caido aims to help security professionals and enthusiasts audit web applications with efficiency and ease. 
+* [caido](https://github.com/caido/caido) - A security proxy like Burpsuite but in Rust. Caido aims to help security professionals and enthusiasts audit web applications with efficiency and ease.
 
 ### Social networks
 
@@ -1934,7 +1934,7 @@ A registry allows you to publish your Rust libraries as crate packages, to share
   * [Rust in Motion](https://www.manning.com/livevideo/rust-in-motion?a_aid=cnichols&a_bid=6a993c2e) - A video series by [Carol Nichols](https://github.com/carols10cents) and [Jake Goulding](https://github.com/shepmaster) (paid)
   * [Rust Language Cheat Sheet](https://cheats.rs/) - Rust Language Cheat Sheet
   * [Rust Tiếng Việt](https://rust-tieng-viet.github.io/) - Learn Rust in Vietnamese.
-  * [rust-how-do-i-start](https://github.com/jondot/rust-how-do-i-start) - A repo dedicated to answering the question: "So, Rust. How do I _start_?". A beginner only hand-picked resources and learning track.
+  * [rust-how-do-i-start](https://github.com/jondot/rust-how-do-i-start) - A repo dedicated to answering the question: "So, Rust. How do I *start*?". A beginner only hand-picked resources and learning track.
   * [rust-learning](https://github.com/ctjhoa/rust-learning) - A collection of useful resources to learn Rust
   * [Rustlings](https://github.com/rust-lang/rustlings) - small exercises to get you used to reading and writing Rust code
   * [Rusty CS](https://github.com/AbdesamedBendjeddou/Rusty-CS) - A Computer Science Curriculum that helps practice the acquired academic knowledge in Rust
