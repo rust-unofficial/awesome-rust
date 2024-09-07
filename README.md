@@ -1851,6 +1851,7 @@ See also [Are we web yet?](https://www.arewewebyet.org) and [Rust web framework 
   * [Salvo](https://github.com/salvo-rs/salvo) - an easy to use webframework base on hyper and tokio. [![build build](https://github.com/salvo-rs/salvo/workflows/CI%20(Linux)/badge.svg?branch=master&event=push)](https://github.com/salvo-rs/salvo/actions)
   * [Saphir](https://github.com/richerarc/saphir) - A progressive web framework with low-level control, without the pain.
   * [seanmonstar/warp](https://github.com/seanmonstar/warp) - A super-easy, composable, web server framework for warp speeds. [![crate](https://img.shields.io/crates/v/create-rust-app.svg)](https://crates.io/crates/warp)
+  * [spring-rs](https://github.com/spring-rs/spring-rs) - spring-rs is a application framework written in rust inspired by java's spring-boot.
   * [tiny-http](https://github.com/tiny-http/tiny-http) - Low level HTTP server library
   * [tokio/axum](https://github.com/tokio-rs/axum) - Ergonomic and modular web framework built with Tokio, Tower, and Hyper [![Build badge](https://github.com/tokio-rs/axum/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/tokio-rs/axum/actions/workflows/CI.yml)
   * [tomaka/rouille](https://github.com/tomaka/rouille) - Web framework
