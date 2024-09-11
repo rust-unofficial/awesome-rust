@@ -263,9 +263,7 @@ See also [Rust - Production](https://www.rust-lang.org/production) organizations
 
 ### Message Queue
 
-
 * [RobustMQ](https://github.com/robustmq/robustmq) - Next generation cloud-native converged message queue.
-
 
 ### Emulators
 
