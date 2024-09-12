@@ -260,7 +260,6 @@ See also [Rust - Production](https://www.rust-lang.org/production) organizations
 * [vorot93/libmdbx-rs](https://github.com/vorot93/libmdbx-rs) [[mdbx-sys](https://crates.io/crates/mdbx-sys)] - Bindings for MDBX, a "fast, compact, powerful, embedded, transactional key-value database, with permissive license". This is a fork of mozilla/lmdb-rs with patches to make it work with libmdbx.
 * [WooriDB](https://github.com/naomijub/wooridb) - General purpose time serial database inspired by Crux and Datomic.
 
-
 ### Message Queue
 
 * [RobustMQ](https://github.com/robustmq/robustmq) - Next generation cloud-native converged message queue.
