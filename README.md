@@ -410,6 +410,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 
 * [AFLplusplus/LibAFL](https://github.com/AFLplusplus/LibAFL) - Advanced Fuzzing Library - Slot your Fuzzer together in Rust! Scales across cores and machines. For Windows, Android, MacOS, Linux, no_std, etc. [![build and test](https://github.com/AFLplusplus/LibAFL/actions/workflows/build_and_test.yml/badge.svg)](https://github.com/AFLplusplus/LibAFL/actions/workflows/build_and_test.yml)
 * [arp-scan-rs](https://github.com/kongbytes/arp-scan-rs) - A minimalistic ARP scan tool for fast local network scans
+* [caido](https://github.com/caido/caido) - A security proxy like Burpsuite but in Rust. Caido aims to help security professionals and enthusiasts audit web applications with efficiency and ease.
 * [cargo-audit](https://crates.io/crates/cargo-audit) - Audit Cargo.lock for crates with security vulnerabilities
 * [cargo-auditable](https://crates.io/crates/cargo-auditable) - Make production Rust binaries auditable
 * [cargo-crev](https://crates.io/crates/cargo-crev) - A cryptographically verifiable code review system for the cargo package manager.
@@ -427,7 +428,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [Raspirus](https://github.com/Raspirus/Raspirus) - User- and resources-friendly signatures-based malware scanner [![status](https://github.com/Raspirus/Raspirus/actions/workflows/testproject.yml/badge.svg)](https://github.com/Raspirus/Raspirus/actions/workflows/testproject.yml)
 * [ripasso](https://github.com/cortex/ripasso/) - A password manager, filesystem compatible with pass
 * [rustscan/rustscan](https://github.com/RustScan/RustScan) - Make Nmap faster with this port scanning tool [![build badge](https://github.com/RustScan/RustScan/workflows/Build/badge.svg?branch=master)](https://github.com/RustScan/RustScan/actions?query=workflow%3A%22Build%22)
-* [caido](https://github.com/caido/caido) - A security proxy like Burpsuite but in Rust. Caido aims to help security professionals and enthusiasts audit web applications with efficiency and ease.
+
 
 ### Social networks
 
