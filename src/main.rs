@@ -461,6 +461,7 @@ async fn main() -> Result<(), Error> {
     let mut star_override_level: Option<u32> = None;
 
     for (event, _range) in parser.into_offset_iter() {
+        debug!("Event {:?}", event);
         match event {
             Event::Start(tag) => {
                 match tag {
@@ -578,10 +579,10 @@ async fn main() -> Result<(), Error> {
                                 && cargo_downloads.unwrap_or(0) < MINIMUM_CARGO_DOWNLOADS
                             {
                                 if github_stars.is_none() {
-                                    warn!("No valid github link");
+                                    warn!("No valid github link for {list_item}");
                                 }
                                 if cargo_downloads.is_none() {
-                                    warn!("No valid crates link");
+                                    warn!("No valid crates link for {list_item}");
                                 }
                                 return Err(format_err!("Not high enough metrics ({:?} stars < {}, and {:?} cargo downloads < {}): {}", github_stars, required_stars, cargo_downloads, MINIMUM_CARGO_DOWNLOADS, list_item));
                             }
