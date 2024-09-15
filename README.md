@@ -18,6 +18,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   * [Graphics](#graphics)
   * [Image processing](#image-processing)
   * [Industrial automation](#industrial-automation)
+  * [Message Queue](#message-queue)
   * [Observability](#observability)
   * [Operating systems](#operating-systems)
   * [Package Managers](#package-managers)
@@ -356,6 +357,10 @@ See also [Games Made With Piston](https://github.com/PistonDevelopers/piston/wik
 
 * [locka99/opcua](https://github.com/locka99/opcua) - A [OPC UA](https://opcfoundation.org/about/opc-technologies/opc-ua/) library.
 * [slowtec/tokio-modbus](https://github.com/slowtec/tokio-modbus) - A [tokio](https://tokio.rs)-based [modbus](https://modbus.org) library.
+
+### Message Queue
+
+* [RobustMQ](https://github.com/robustmq/robustmq) - Next generation cloud-native converged message queue.
 
 ### Observability
 
