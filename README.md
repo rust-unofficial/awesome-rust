@@ -19,6 +19,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   * [Image processing](#image-processing)
   * [Industrial automation](#industrial-automation)
   * [Message Queue](#message-queue)
+  * [MLOps](#mlops)
   * [Observability](#observability)
   * [Operating systems](#operating-systems)
   * [Package Managers](#package-managers)
@@ -361,6 +362,10 @@ See also [Games Made With Piston](https://github.com/PistonDevelopers/piston/wik
 ### Message Queue
 
 * [RobustMQ](https://github.com/robustmq/robustmq) - Next generation cloud-native converged message queue.
+
+### MLOps
+
+* [TensorZero](https://github.com/tensorzero/tensorzero) - data & learning flywheel for LLMs that unifies inference, observability, optimization, and experimentation ![TensorZero Build Status](https://img.shields.io/github/check-runs/tensorzero/tensorzero/main)
 
 ### Observability
 
