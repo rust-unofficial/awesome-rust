@@ -1677,6 +1677,9 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [eclipse-zenoh/zenoh](https://github.com/eclipse-zenoh/zenoh) - Zero Overhead Network Protocol
 * ZeroMQ
   * [erickt/rust-zmq](https://github.com/erickt/rust-zmq) - [ZeroMQ](https://zeromq.org/) bindings
+* Halloy
+  * [squidowl/halloy](https://github.com/squidowl/halloy) - is an open-source IRC client written in Rust, with the Iced GUI library. It aims to provide a simple and fast client for Mac, Windows, and Linux platforms.
+
 
 ### Parsing
 
