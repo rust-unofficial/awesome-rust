@@ -1921,6 +1921,7 @@ A registry allows you to publish your Rust libraries as crate packages, to share
   * [Rust: Hack Without Fear!](https://www.youtube.com/watch?v=lO1z-7cuRYI) - Presented by [Nicholas Matsakis](https://github.com/nikomatsakis) @ C++Now 2018
   * [Shipping a Solid Rust Crate](https://www.youtube.com/watch?v=t4CyEKb-ywA) - Presented by [Michael Gattozzi](https://github.com/mgattozzi) @ RustConf 2017
 * Learning
+  * [100 Exercises To Learn Rust](https://rust-exercises.com) - Learn Rust through 100 hands-on exercises, covering syntax, types, and more
   * [Aquascope](https://github.com/cognitive-engineering-lab/aquascope) - Interactive visualizations of Rust at compile-time and run-time
   * [Awesome Rust Streaming](https://github.com/jamesmunns/awesome-rust-streaming) - A community curated list of livestreams.
   * [awesome-rust-mentors](https://rustbeginners.github.io/awesome-rust-mentors/) - A list of helpful mentors willing to take mentees and educate them about Rust and programming.
