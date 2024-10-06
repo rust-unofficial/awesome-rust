@@ -313,6 +313,7 @@ See also [crates matching keyword 'emulator'](https://crates.io/keywords/emulato
 
 See also [Games Made With Piston](https://github.com/PistonDevelopers/piston/wiki/Games-Made-With-Piston).
 
+* [zipxing/rust_pixel](https://github.com/zipxing/rust_pixel) - A 2D pixel art game engine & rapid prototyping tools, supporting both text and graphical rendering modes.
 * [buxx/OpenCombat](https://github.com/buxx/OpenCombat) - A realtime 2nd world war tactical game
 * [chess-tui](https://github.com/thomas-mauran/chess-tui) - A Chess TUI implementation ♟️
 * [citybound](https://github.com/citybound/citybound) - The city sim you deserve
