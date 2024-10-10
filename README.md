@@ -1104,7 +1104,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
   * [mikkyang/rust-blas](https://github.com/mikkyang/rust-blas) - BLAS bindings
 * [calebwin/emu](https://github.com/calebwin/emu) - A language for GPGPU numerical computing
 * [dimforge/nalgebra](https://github.com/dimforge/nalgebra) - low-dimensional linear algebra library
-* [faer-rs](https://github.com/sarah-ek/faer-rs) [[faer](https://crates.io/crates/faer)] - Linear algebra foundation for Rust
+* [faer-rs](https://github.com/sarah-quinones/faer-rs) [[faer](https://crates.io/crates/faer)] - Linear algebra foundation for Rust
 * [GSL](http://www.gnu.org/software/gsl/)
   * [GuillaumeGomez/rust-GSL](https://github.com/GuillaumeGomez/rust-GSL) - GSL bindings
 * [LAPACK](https://en.wikipedia.org/wiki/LAPACK)
