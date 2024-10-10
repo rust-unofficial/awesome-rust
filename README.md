@@ -150,6 +150,7 @@ See also [Rust - Production](https://www.rust-lang.org/production) organizations
 * [Rio](https://github.com/raphamorim/rio) - A hardware-accelerated GPU terminal emulator powered by WebGPU, focusing to run in desktops and browsers.
 * [rx](https://github.com/cloudhead/rx) - Vi inspired Modern Pixel Art Editor
 * [Ryot](https://github.com/ignisda/ryot) - A self hosted application to track media consumption, fitness, etc.
+* [samba](https://gitlab.com/ballroom-dancing/samba) - A smart and mechanic ballroom assistant.
 * [Servo](https://github.com/servo/servo) - A prototype web browser engine
 * [shoes](https://github.com/cfal/shoes) - A multi-protocol proxy server
 * [shuttle](https://github.com/shuttle-hq/shuttle) - A serverless platform.
