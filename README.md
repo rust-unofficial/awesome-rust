@@ -1848,6 +1848,7 @@ See also [Are we web yet?](https://www.arewewebyet.org) and [Rust web framework 
   * [graphql-client](https://github.com/graphql-rust/graphql-client) - Typed, correct GraphQL requests and responses. [![GitHub actions Status](https://github.com/graphql-rust/graphql-client/workflows/CI/badge.svg?branch=master)](https://github.com/graphql-rust/graphql-client/actions)
   * [hyperium/hyper](https://github.com/hyperium/hyper) - an HTTP implementation [![CI](https://github.com/hyperium/hyper/workflows/CI/badge.svg?branch=master)](https://github.com/hyperium/hyper/actions?query=workflow%3ACI)
   * [seanmonstar/reqwest](https://github.com/seanmonstar/reqwest) - an ergonomic HTTP Client.
+  * [penumbra-x/rquest](https://github.com/penumbra-x/rquest) [[rquest](https://crates.io/crates/rquest)] - an Rust HTTP Client with TLS, JA3/JA4, and HTTP2 fingerprints.
 * HTTP Server
   * [actix/actix-web](https://github.com/actix/actix-web) - A lightweight async web framework with websocket support
   * [Anansi](https://github.com/saru-tora/anansi) - A simple full-stack web framework
