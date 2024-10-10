@@ -514,7 +514,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 
 * [delicate](https://github.com/BinChengZhao/delicate) - A lightweight and distributed task scheduling platform. [![Build Status](https://github.com/BinChengZhao/delicate/workflows/CI/badge.svg)](https://github.com/BinChengZhao/delicate/actions)
 * [tasklet](https://github.com/stav121/tasklet) [[tasklet](https://crates.io/crates/tasklet)] - A task scheduling library written in Rust ![Build Status](https://img.shields.io/github/actions/workflow/status/stav121/tasklet/rust.yml)
-
+* [polly-scheduler](https://github.com/dongbin86/polly-scheduler) - A robust task scheduling system leveraging Tokio, with built-in fault tolerance, persistence, and recovery capabilities to ensure seamless task management and execution..
 ### Text editors
 
 * [amp](https://amp.rs) - Inspired by Vi/Vim.
