@@ -98,6 +98,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   * [Parsing](#parsing)
   * [Peripherals](#peripherals)
   * [Platform specific](#platform-specific)
+  * [Reverse engineering](#reverse-engineering)
   * [Scripting](#scripting)
   * [Simulation](#simulation)
   * [Social networks](#social-networks-1)
@@ -1741,7 +1742,8 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [retep998/winapi-rs](https://github.com/retep998/winapi-rs) - Windows API bindings [![Rust](https://github.com/retep998/winapi-rs/actions/workflows/rust.yml/badge.svg?branch=dev)](https://github.com/retep998/winapi-rs/actions/workflows/rust.yml)
 
 ### Reverse engineering
-* [binarly-io/idalib](https://github.com/binarly-io/idalib) [[idalib](https://crates.io/crates/idalib)] — Rust bindings for the IDA SDK, enabling the development of standalone analysis tools using IDA v9.0’s idalib
+
+* [binarly-io/idalib](https://github.com/binarly-io/idalib) [[idalib](https://crates.io/crates/idalib)] - Rust bindings for the IDA SDK, enabling the development of standalone analysis tools using IDA v9.0’s idalib
 
 ### Scripting
 
