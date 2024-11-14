@@ -1740,6 +1740,9 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [microsoft/windows-rs](https://github.com/microsoft/windows-rs) - Rust for Windows [![Actions Status](https://github.com/microsoft/windows-rs/workflows/CI/badge.svg)](https://github.com/microsoft/windows-rs/actions)
   * [retep998/winapi-rs](https://github.com/retep998/winapi-rs) - Windows API bindings [![Rust](https://github.com/retep998/winapi-rs/actions/workflows/rust.yml/badge.svg?branch=dev)](https://github.com/retep998/winapi-rs/actions/workflows/rust.yml)
 
+### Reverse engineering
+* [binarly-io/idalib](https://github.com/binarly-io/idalib) [[idalib](https://crates.io/crates/idalib)] — Rust bindings for the IDA SDK, enabling the development of standalone analysis tools using IDA v9.0’s idalib
+
 ### Scripting
 
 [[scripting](https://crates.io/keywords/scripting)]
