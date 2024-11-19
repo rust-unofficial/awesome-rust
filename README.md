@@ -1761,6 +1761,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
 * [PistonDevelopers/dyon](https://github.com/PistonDevelopers/dyon) - A rusty dynamically typed scripting language
 * [rhaiscript/rhai](https://github.com/rhaiscript/rhai) - A tiny and fast embedded scripting language resembling a combination of JavaScript and Rust [![build badge](https://github.com/rhaiscript/rhai/workflows/Build/badge.svg)](https://github.com/rhaiscript/rhai/actions)
 * [rune-rs/rune](https://github.com/rune-rs/rune) - An embeddable dynamic programming language
+* [trynova/nova](https://github.com/trynova/nova) - JavaScript engine written entirely in Rust
 
 ### Simulation
 
