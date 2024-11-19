@@ -1975,6 +1975,7 @@ A registry allows you to publish your Rust libraries as crate packages, to share
   * [Rust Tiếng Việt](https://rust-tieng-viet.github.io/) - Learn Rust in Vietnamese.
   * [rust-how-do-i-start](https://github.com/jondot/rust-how-do-i-start) - A repo dedicated to answering the question: "So, Rust. How do I _start_?". A beginner only hand-picked resources and learning track.
   * [rust-learning](https://github.com/ctjhoa/rust-learning) - A collection of useful resources to learn Rust
+  * [Rustfinity](https://www.rustfinity.com) - Interactive platform for practicing Rust through hands-on exercises and challenges
   * [Rustlings](https://github.com/rust-lang/rustlings) - small exercises to get you used to reading and writing Rust code
   * [Rusty CS](https://github.com/AbdesamedBendjeddou/Rusty-CS) - A Computer Science Curriculum that helps practice the acquired academic knowledge in Rust
   * [stdx](https://github.com/brson/stdx) - Learn these crates first as an extension to std
