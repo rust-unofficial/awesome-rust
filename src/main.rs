@@ -1,8 +1,8 @@
 #![deny(warnings)]
 
+use anyhow::{format_err, Result};
 use chrono::{DateTime, Duration, Local};
 use diffy::create_patch;
-use failure::{format_err, Error, Fail};
 use futures::future::{select_all, BoxFuture, FutureExt};
 use lazy_static::lazy_static;
 use log::{debug, info, warn};
@@ -16,6 +16,7 @@ use std::io::Write;
 use std::time;
 use std::u8;
 use std::{cmp::Ordering, fs};
+use thiserror::Error;
 use tokio::sync::Semaphore;
 use tokio::sync::SemaphorePermit;
 
@@ -75,27 +76,27 @@ lazy_static! {
     ];
 }
 
-#[derive(Debug, Fail, Serialize, Deserialize)]
+#[derive(Debug, Error, Serialize, Deserialize)]
 enum CheckerError {
-    #[fail(display = "failed to try url")]
+    #[error("failed to try url")]
     NotTried, // Generally shouldn't happen, but useful to have
 
-    #[fail(display = "http error: {}", status)]
+    #[error("http error: {status}")]
     HttpError {
         status: u16,
         location: Option<String>,
     },
 
-    #[fail(display = "too many requests")]
+    #[error("too many requests")]
     TooManyRequests,
 
-    #[fail(display = "reqwest error: {}", error)]
+    #[error("reqwest error: {error}")]
     ReqwestError { error: String },
 
-    #[fail(display = "travis build is unknown")]
+    #[error("travis build is unknown")]
     TravisBuildUnknown,
 
-    #[fail(display = "travis build image with no branch")]
+    #[error("travis build image with no branch")]
     TravisBuildNoBranch,
 }
 
@@ -398,7 +399,7 @@ struct PopularityData {
 }
 
 #[tokio::main]
-async fn main() -> Result<(), Error> {
+async fn main() -> Result<()> {
     env_logger::init();
     let markdown_input = fs::read_to_string("README.md").expect("Can't read README.md");
     let parser = Parser::new(&markdown_input);
