@@ -15,7 +15,8 @@ tokio = {version = "1", features = ["macros", "rt", "rt-multi-thread", "time"] }
 serde = { version = "1.0", features = ["derive"] }
 serde_yaml = "0.8"
 hyper = "0.14"
-failure = "0.1"
+anyhow = "1"
+thiserror = "2"
 lazy_static = "1"
 env_logger = "0.8"
 log = "0.4"
