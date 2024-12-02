@@ -1,7 +1,7 @@
 // Helper tool to dump all repos in awesome-rust that are tagged with "hacktoberfest"
 
+use anyhow::{format_err, Result};
 use chrono::{DateTime, Duration, Local};
-use failure::{format_err, Error, Fail};
 use futures::future::{select_all, BoxFuture, FutureExt};
 use lazy_static::lazy_static;
 use log::{debug, warn};
@@ -16,12 +16,13 @@ use std::fs;
 use std::io::Write;
 use std::time;
 use std::u8;
+use thiserror::Error;
 use tokio::sync::Semaphore;
 use tokio::sync::SemaphorePermit;
 
-#[derive(Debug, Fail, Serialize, Deserialize)]
+#[derive(Debug, Error, Serialize, Deserialize)]
 enum CheckerError {
-    #[fail(display = "http error: {}", status)]
+    #[error("http error: {}", status)]
     HttpError {
         status: u16,
         location: Option<String>,
@@ -150,7 +151,7 @@ struct Link {
 type Results = BTreeMap<String, Link>;
 
 #[tokio::main]
-async fn main() -> Result<(), Error> {
+async fn main() -> Result<()> {
     env_logger::init();
     let markdown_input = fs::read_to_string("README.md").expect("Can't read README.md");
     let parser = Parser::new(&markdown_input);
