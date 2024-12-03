@@ -1716,6 +1716,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [s-panferov/queryst](https://github.com/s-panferov/queryst) - A query string parsing library inspired by [gs](https://github.com/ljharb/qs#readme)
   * [softdevteam/grmtools](https://github.com/softdevteam/grmtools/) - A LR parser with better error correction
   * [tree-sitter/tree-sitter](https://github.com/tree-sitter/tree-sitter) - A parser generator tool and an incremental parsing library geared towards programming tools
+  * [0xlane/pe-sign](https://github.com/0xlane/pe-sign) [[pe-sign]](https://crates.io/crates/pe-sign) - A cross-platform rust no-std library for verifying and extracting signature information from PE files. [![crates.io](https://img.shields.io/crates/v/pe-sign)](https://crates.io/crates/pe-sign) [![build](https://github.com/0xlane/pe-sign/actions/workflows/rust.yml/badge.svg)](https://github.com/0xlane/pe-sign/actions/workflows/rust.yml)
 
 ### Peripherals
 
