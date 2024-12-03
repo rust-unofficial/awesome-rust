@@ -1920,7 +1920,7 @@ See also [Are we web yet?](https://www.arewewebyet.org) and [Rust web framework 
   * [getzola/zola](https://github.com/getzola/zola) [[zola](https://www.getzola.org/)] - An opinionated static site generator with everything built-in. [![Build Status](https://dev.azure.com/getzola/zola/_apis/build/status/getzola.zola?branchName=master)](https://dev.azure.com/getzola/zola/_build)
   * [grego/blades](https://github.com/grego/blades) [[blades](https://www.getblades.org/)] - Blazing fast dead simple static site generator.
   * [leven-the-blog/leven](https://github.com/leven-the-blog/leven) [[leven](https://crates.io/crates/leven)] - A simple, parallelized blog generator.
-  * [rochacbruno/marmite](https://github.com/rochacbruno/marmite) [[Marmite](https://rochacbruno.github.io/marmite)] - Zero config blog generator
+  * [rochacbruno/marmite](https://github.com/rochacbruno/marmite/) [[Marmite](https://rochacbruno.github.io/marmite/)] - Zero config blog generator
 * [WebSocket](https://datatracker.ietf.org/doc/rfc6455/)
   * [c410-f3r/wtx](https://github.com/c410-f3r/wtx) - Client and server with encryption support.
   * [housleyjk/ws-rs](https://github.com/housleyjk/ws-rs) - lightweight, event-driven WebSockets
