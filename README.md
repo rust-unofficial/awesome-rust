@@ -304,6 +304,8 @@ See also [crates matching keyword 'emulator'](https://crates.io/keywords/emulato
   * [dust](https://github.com/kelpsyberry/dust) - A Nintendo DS emulator
 * PlayStation 4
   * [Obliteration](https://github.com/obhq/obliteration) - Experimental PS4 emulator for Windows, macOS and Linux [![CI](https://github.com/obhq/obliteration/actions/workflows/main.yml/badge.svg)](https://github.com/obhq/obliteration/actions/workflows/main.yml)
+* Shockwave Player
+  * [DirPlayer](https://github.com/igorlira/dirplayer-rs) - A web-compatible Shockwave Player emulator written in Rust
 * ZX Spectrum
   * [rustzx/rustzx](https://github.com/rustzx/rustzx) - [![RustZX CI](https://github.com/rustzx/rustzx/actions/workflows/ci.yml/badge.svg)](https://github.com/rustzx/rustzx/actions/workflows/ci.yml)
 
