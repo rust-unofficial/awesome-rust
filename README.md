@@ -1584,6 +1584,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
 * [tauri-apps/tauri](https://github.com/tauri-apps/tauri) - Build smaller, faster, and more secure desktop applications with a web frontend, powered by [WRY](https://github.com/tauri-apps/wry). [![test library](https://img.shields.io/github/workflow/status/tauri-apps/tauri/test%20library?label=test%20library)](https://github.com/tauri-apps/tauri/actions?query=workflow%3A%22test+library%22)
 * [tauri-apps/wry](https://github.com/tauri-apps/wry) - Webview Rendering librarY.
 * [xilem](https://github.com/linebender/xilem) - Successor of the data-first UI design toolkit [druid](https://github.com/linebender/druid).
+* [auto-ui](https://github.com/auto-stack/auto-ui) - A UI framework based on [GPUI](https://www.gpui.rs/) from [Zed editor](https://zed.dev), using [auto-lang](https://github.com/auto-stack/auto-lang) as the UI description language.
 
 ### Image processing
 
@@ -1771,6 +1772,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
 * [rhaiscript/rhai](https://github.com/rhaiscript/rhai) - A tiny and fast embedded scripting language resembling a combination of JavaScript and Rust [![build badge](https://github.com/rhaiscript/rhai/workflows/Build/badge.svg)](https://github.com/rhaiscript/rhai/actions)
 * [rune-rs/rune](https://github.com/rune-rs/rune) - An embeddable dynamic programming language
 * [trynova/nova](https://github.com/trynova/nova) - JavaScript engine written entirely in Rust
+* [auto-lang](https://github.com/auto-stack/auto-lang) - A scenario oriented language that adapts to multiple use cases with different syntaxes, features and libraries. Can be used as a scripting language for Rust, also transpiles to C and Rust.
 
 ### Simulation
 
