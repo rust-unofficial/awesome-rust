@@ -327,7 +327,7 @@ fn get_url_core(url: String) -> BoxFuture<'static, (String, Result<(), CheckerEr
                             let redirect = ok.headers().get(header::LOCATION).unwrap().to_str().unwrap();
                             let merged_url = Url::parse(&url).unwrap().join(redirect).unwrap();
                             info!("Got 302 from Azure devops, so replacing {} with {}", url, merged_url);
-                            let (_new_url, res) = get_url_core(merged_url.into_string()).await;
+                            let (_new_url, res) = get_url_core(merged_url.into()).await;
                             return (url, res);
                         }
 
