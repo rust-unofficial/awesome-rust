@@ -1617,6 +1617,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
 
 * cute
   * [mattgathu/cute](https://github.com/mattgathu/cute) - Macro for Python-esque list comprehensions.
+* [elastio/bon](https://github.com/elastio/bon) [[bon](https://crates.io/crates/bon)] - generate compile-time-checked builders for structs and functions, provides partial application, optional and named parameters for functions and methods. [![build status](https://github.com/elastio/bon/actions/workflows/ci.yml/badge.svg)](https://github.com/elastio/bon/actions)
 * [Linq-in-Rust](https://github.com/StardustDL/Linq-in-Rust) - Macro and methods for C#-LINQ-like expressions. [![CI](https://github.com/StardustDL/Linq-in-Rust/workflows/CI/badge.svg?branch=master)](https://github.com/StardustDL/Linq-in-Rust/actions?query=workflow%3ACI)
 
 ### Markup language
