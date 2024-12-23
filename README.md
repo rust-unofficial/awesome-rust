@@ -13,6 +13,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   * [Blockchain](#blockchain)
   * [Database](#database)
   * [Emulators](#emulators)
+  * [Embedded](#embedded)
   * [File manager](#file-manager)
   * [Games](#games)
   * [Graphics](#graphics)
@@ -41,7 +42,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   * [Build system](#build-system)
   * [Debugging](#debugging)
   * [Deployment](#deployment)
-  * [Embedded](#embedded)
+  * [Embedded](#embedded-1)
   * [FFI](#ffi)
   * [Formatters](#formatters)
   * [IDEs](#ides)
@@ -267,6 +268,10 @@ See also [Rust - Production](https://www.rust-lang.org/production) organizations
 * [valentinus](https://github.com/kn0sys/valentinus) - Next generation vector database built with LMDB bindings [![Crates.io Version](https://img.shields.io/crates/v/valentinus)](https://crates.io/crates/valentinus)
 * [vorot93/libmdbx-rs](https://github.com/vorot93/libmdbx-rs) [[mdbx-sys](https://crates.io/crates/mdbx-sys)] - Bindings for MDBX, a "fast, compact, powerful, embedded, transactional key-value database, with permissive license". This is a fork of mozilla/lmdb-rs with patches to make it work with libmdbx.
 * [WooriDB](https://github.com/naomijub/wooridb) - General purpose time serial database inspired by Crux and Datomic.
+
+### Embedded
+
+* [rmk](https://github.com/haobogu/rmk) - A feature-rich keyboard firmware.
 
 ### Emulators
 
@@ -1118,6 +1123,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [calebwin/emu](https://github.com/calebwin/emu) - A language for GPGPU numerical computing
 * [dimforge/nalgebra](https://github.com/dimforge/nalgebra) - low-dimensional linear algebra library
 * [faer-rs](https://github.com/sarah-quinones/faer-rs) [[faer](https://crates.io/crates/faer)] - Linear algebra foundation for Rust
+* [fastnum](https://github.com/neogenie/fastnum) [fastnum](https://crates.io/crates/fastnum) - Fast exact precision decimal numbers implemented in pure Rust. Suitable for financial, crypto and any other fixed-precision calculations.
 * [GSL](http://www.gnu.org/software/gsl/)
   * [GuillaumeGomez/rust-GSL](https://github.com/GuillaumeGomez/rust-GSL) - GSL bindings
 * [LAPACK](https://en.wikipedia.org/wiki/LAPACK)
