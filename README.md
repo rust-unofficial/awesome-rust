@@ -12,6 +12,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   * [Audio and Music](#audio-and-music)
   * [Blockchain](#blockchain)
   * [Database](#database)
+  * [Embedded](#embedded)
   * [Emulators](#emulators)
   * [File manager](#file-manager)
   * [Games](#games)
@@ -41,7 +42,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   * [Build system](#build-system)
   * [Debugging](#debugging)
   * [Deployment](#deployment)
-  * [Embedded](#embedded)
+  * [Embedded](#embedded-1)
   * [FFI](#ffi)
   * [Formatters](#formatters)
   * [IDEs](#ides)
@@ -267,6 +268,10 @@ See also [Rust - Production](https://www.rust-lang.org/production) organizations
 * [valentinus](https://github.com/kn0sys/valentinus) - Next generation vector database built with LMDB bindings [![Crates.io Version](https://img.shields.io/crates/v/valentinus)](https://crates.io/crates/valentinus)
 * [vorot93/libmdbx-rs](https://github.com/vorot93/libmdbx-rs) [[mdbx-sys](https://crates.io/crates/mdbx-sys)] - Bindings for MDBX, a "fast, compact, powerful, embedded, transactional key-value database, with permissive license". This is a fork of mozilla/lmdb-rs with patches to make it work with libmdbx.
 * [WooriDB](https://github.com/naomijub/wooridb) - General purpose time serial database inspired by Crux and Datomic.
+
+### Embedded
+
+* [rmk](https://github.com/haobogu/rmk) - A feature-rich keyboard firmware.
 
 ### Emulators
 
