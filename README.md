@@ -672,6 +672,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 
 ### Build system
 
+* [adamperkowski/nvrs](https://github.com/adamperkowski/nvrs) - Fast new version checker for software releases.
 * [Cargo](https://crates.io/) - the Rust package manager
   * [cargo-all-features](https://github.com/frewsxcv/cargo-all-features) - A configurable subcommand to simplify testing, building and much more for all combinations of features [![CI](https://github.com/frewsxcv/cargo-all-features/actions/workflows/ci.yml/badge.svg)](https://github.com/frewsxcv/cargo-all-features/actions/workflows/ci.yml)
   * [cargo-benchcmp](https://crates.io/crates/cargo-benchcmp) - A utility to compare micro-benchmarks
