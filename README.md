@@ -15,6 +15,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   * [Embedded](#embedded)
   * [Emulators](#emulators)
   * [File manager](#file-manager)
+  * [Finance](#finance)
   * [Games](#games)
   * [Graphics](#graphics)
   * [Image processing](#image-processing)
@@ -82,7 +83,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   * [Email](#email)
   * [Encoding](#encoding)
   * [Filesystem](#filesystem)
-  * [Finance](#finance)
+  * [Finance](#finance-1)
   * [Functional Programming](#functional-programming)
   * [Game development](#game-development)
   * [Geospatial](#geospatial)
@@ -321,6 +322,12 @@ See also [crates matching keyword 'emulator'](https://crates.io/keywords/emulato
 * [joshuto](https://github.com/kamiyaa/joshuto) - ranger-like terminal file manager
 * [xplr](https://github.com/sayanarijit/xplr) - A hackable, minimal, fast TUI file explorer
 * [yazi](https://github.com/sxyazi/yazi) - Blazing fast terminal file manager, based on async I/O.
+
+### Finance
+
+See also [Payments](#payments) applications.
+
+* [e257-fi/tackler-ng](https://github.com/e257-fi/tackler-ng) [[tackler](https://crates.io/crates/tackler)] - Fast, reliable bookkeeping engine with native GIT SCM support for plain text accounting [![CI Badge](https://github.com/e257-fi/tackler-ng/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/e257-fi/tackler-ng/blob/main/.github/workflows/ci.yml)
 
 ### Games
 
