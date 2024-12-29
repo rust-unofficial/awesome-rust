@@ -323,7 +323,6 @@ See also [crates matching keyword 'emulator'](https://crates.io/keywords/emulato
 * [xplr](https://github.com/sayanarijit/xplr) - A hackable, minimal, fast TUI file explorer
 * [yazi](https://github.com/sxyazi/yazi) - Blazing fast terminal file manager, based on async I/O.
 
-
 ### Finance
 
 See also [Payments](#payments) applications.
