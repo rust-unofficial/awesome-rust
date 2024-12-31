@@ -37,6 +37,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   * [Utilities](#utilities)
   * [Video](#video)
   * [Virtualization](#virtualization)
+  * [Vulnerability Research](#vulnerability-research)
   * [Web](#web)
   * [Web Servers](#web-servers)
 - [Development tools](#development-tools)
@@ -620,6 +621,10 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [kata-containers/kata-containers](https://github.com/kata-containers/kata-containers) - A implementation of lightweight Virtual Machines (VMs) that feel and perform like containers, but provide the workload isolation and security advantages of VMs.
 * [tailhook/vagga](https://github.com/tailhook/vagga) - A containerization tool without daemons
 * [youki-dev/youki](https://github.com/youki-dev/youki) - A container runtime [![build badge](https://github.com/youki-dev/youki/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/youki-dev/youki/actions)
+
+### Vulnerability Research
+
+* [0xdea/rhabdomancer](https://github.com/0xdea/rhabdomancer) [[rhabdomancer](https://crates.io/crates/rhabdomancer)] - Vulnerability research assistant that locates all calls to potentially insecure API functions in a binary file [![build](https://github.com/0xdea/rhabdomancer/actions/workflows/build.yml/badge.svg)](https://github.com/0xdea/rhabdomancer/actions/workflows/build.yml)
 
 ### Web
 
