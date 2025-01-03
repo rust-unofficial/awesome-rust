@@ -1330,7 +1330,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
     * [sfackler/rust-postgres](https://github.com/sfackler/rust-postgres) [[postgres](https://crates.io/crates/postgres)] - A native [PostgreSQL](https://www.postgresql.org/) client
   * Sqlite [[sqlite](https://crates.io/keywords/sqlite)]
     * [rusqlite](https://github.com/rusqlite/rusqlite) - [Sqlite3](https://www.sqlite.org/index.html) bindings
-* [VennDB](https://venndb.rs/) — An append-only in-memory database in Rust for rows queried using bit (flag) columns.
+* [VennDB](https://venndb.rs/) [[venndb](https://github.com/plabayo/venndb)]— An append-only in-memory database in Rust for rows queried using bit (flag) columns.
 
 ### Date and time
 
