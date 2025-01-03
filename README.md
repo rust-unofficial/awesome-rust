@@ -1918,6 +1918,7 @@ See also [Are we web yet?](https://www.arewewebyet.org) and [Rust web framework 
   * [Juniper](https://github.com/graphql-rust/juniper) - GraphQL server library
   * [miketang84/sapper](https://github.com/miketang84/sapper) - A lightweight web framework built on async hyper.
   * [Nickel](https://github.com/nickel-org/nickel.rs/) - inspired by [Express](http://expressjs.com/)
+  * [plabayo/rama](https://github.com/plabayo/rama) - A modular service framework to move and transform your network packets, can also be used to fingerprint incoming clients
   * [poem-web/poem](https://github.com/poem-web/poem) - A full-featured and easy-to-use web framework. [![CI](https://github.com/poem-web/poem/actions/workflows/ci.yml/badge.svg)](https://github.com/poem-web/poem/actions/workflows/ci.yml)
   * [Rocket](https://github.com/rwf2/Rocket) - Rocket is a web framework with a focus on ease-of-use, expressability, and speed
   * [Rustless](https://github.com/rustless/rustless) - A REST-like API micro-framework inspired by [Grape](https://github.com/ruby-grape/grape) and [Hyper](https://github.com/hyperium/hyper)
