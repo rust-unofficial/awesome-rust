@@ -635,6 +635,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [Plume-org/Plume](https://github.com/Plume-org/Plume) - ActivityPub federating blogging application
 * [Redlib](https://github.com/redlib-org/redlib) - An alternative private front-end to Reddit, with its origins in [Libreddit](https://github.com/libreddit/libreddit)
 * [Revolt/backend](https://github.com/revoltchat/backend) - User-first chat platform built with modern web technologies.
+* [Nineties](https://github.com/lotharthesavior/nineties) - A traditional web app starter on top of Actix.
 
 ### Web Servers
 
