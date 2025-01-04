@@ -1485,8 +1485,8 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [SiegeLord/RustAllegro](https://github.com/SiegeLord/RustAllegro) - [Allegro 5](https://liballeg.org/) bindings
 * [Awesome Quads](https://github.com/ozkriff/awesome-quads) - A curated list of links to miniquad/macroquad-related code & resources
 * [Awesome wgpu](https://github.com/rofrol/awesome-wgpu) - A curated list of wgpu code and resources
-* bedrock-rs
-  * [bedrock-crustaceans/bedrockrs](https://github.com/bedrock-crustaceans/bedrockrs) - Universal toolkit for Minecraft Bedrock Edition development in Rust. [![GitHub stars](https://img.shields.io/github/stars/bedrock-crustaceans/bedrockrs)](https://github.com/bedrock-crustaceans/bedrockrs) [![CI](https://github.com/bedrock-crustaceans/bedrockrs/actions/workflows/ci.yml/badge.svg)](https://github.com/bedrock-crustaceans/bedrockrs/actions/workflows/ci.yml)
+* Minecraft
+  * [bedrock-crustaceans/bedrock-rs](https://github.com/bedrock-crustaceans/bedrockrs) - Universal toolkit for Minecraft Bedrock Edition development in Rust. [![GitHub stars](https://img.shields.io/github/stars/bedrock-crustaceans/bedrockrs)](https://github.com/bedrock-crustaceans/bedrockrs) [![CI](https://github.com/bedrock-crustaceans/bedrockrs/actions/workflows/ci.yml/badge.svg)](https://github.com/bedrock-crustaceans/bedrockrs/actions/workflows/ci.yml)
 * bracket-lib (previously RLTK)
   * [bracket-lib](https://github.com/amethyst/bracket-lib) [[bracket-lib](https://crates.io/crates/bracket-lib)] - The Roguelike Toolkit (RLTK). [![Rust](https://github.com/amethyst/bracket-lib/actions/workflows/rust.yml/badge.svg)](https://github.com/amethyst/bracket-lib/actions/workflows/rust.yml)
 * Challonge
