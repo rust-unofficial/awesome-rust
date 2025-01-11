@@ -1611,6 +1611,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [cyndis/qmlrs](https://github.com/cyndis/qmlrs) - QtQuick bindings
   * [rust-qt](https://github.com/rust-qt) - Qt bindings for Rust
   * [woboq/qmetaobject-rs](https://github.com/woboq/qmetaobject-rs) - Integrate Qml and Rust by building the QMetaObject at compile time.
+* [Ribir](https://github.com/RibirX/Ribir) - Ribir is a Rust GUI framework that helps you build beautiful and native multi-platform applications from a single codebase.
 * [rise-ui](https://github.com/rise-ui/rise) - Simple component-based cross-Platform GUI Toolkit for developing beautiful and user-friendly interfaces.
 * [saurvs/nfd-rs](https://github.com/saurvs/nfd-rs) - [nativefiledialog](https://github.com/mlabbe/nativefiledialog) bindings
 * [Sciter](https://sciter.com/)
