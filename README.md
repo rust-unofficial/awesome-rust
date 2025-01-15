@@ -1903,6 +1903,7 @@ See also [Are we web yet?](https://www.arewewebyet.org) and [Rust web framework 
   * [seed](https://github.com/seed-rs/seed) - A framework for creating web apps
   * [stdweb](https://crates.io/crates/stdweb) - A standard library for the client-side Web
   * [yew](https://crates.io/crates/yew) - A framework for making client web apps
+  * [tinyweb](https://github.com/LiveDuo/tinyweb) — A minimal Rust web framework for wasm in 800 lines of code
 * HTTP Client
   * [alexcrichton/curl-rust](https://github.com/alexcrichton/curl-rust) - [libcurl](https://curl.se/libcurl/) bindings
   * [async-graphql](https://github.com/async-graphql/async-graphql) - A GraphQL server library [![Build Status](https://dev.azure.com/graphql-rust/GraphQL%20Rust/_apis/build/status/graphql-rust.juniper)](https://dev.azure.com/graphql-rust/GraphQL%20Rust/_build/latest?definitionId=1)
