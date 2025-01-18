@@ -10,7 +10,7 @@ on:
 
 jobs:
   lint-md:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     name: Lint Markdown content
     steps:
       - name: Checkout the repository
@@ -21,7 +21,7 @@ jobs:
           config: ./.markdownlint.json
           args: ./README.md
   lint-editorconfig:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     name: Lint for editorconfig violations
     steps:
       - name: Checkout the repository
@@ -30,7 +30,7 @@ jobs:
         uses: editorconfig-checker/action-editorconfig-checker@v2
 
   lint-markdown-toc:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     name: Lint for Table of Contents
     steps:
       - name: Checkout the repository
