@@ -240,11 +240,11 @@ See also [Rust - Production](https://www.rust-lang.org/production) organizations
 * [Databend](https://github.com/databendlabs/databend) - A Modern Real-Time Data Processing & Analytics DBMS with Cloud-Native Architecture [![Release](https://github.com/databendlabs/databend/actions/workflows/databend-release.yml/badge.svg)](https://github.com/databendlabs/databend/actions/workflows/databend-release.yml)
 * [DB3 Network](https://github.com/dbpunk-labs/db3) - DB3 is a community-driven blockchain layer2 decentralized database network ![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/dbpunk-labs/db3/ci.yml?branch=main&style=flat-square)
 * [erikgrinaker/toydb](https://github.com/erikgrinaker/toydb) - Distributed SQL database, written as a learning project.
-* [FnckSQL](https://github.com/KipData/FnckSQL) - SQL as a Function for Rust
 * [Garage](https://github.com/deuxfleurs-org/garage) [[garage](https://crates.io/crates/garage)] - S3-compatible distributed object storage service designed for self-hosting at a small-to-medium scale. [![status-badge](https://woodpecker.deuxfleurs.fr/api/badges/1/status.svg)](https://woodpecker.deuxfleurs.fr/repos/1)
 * [GreptimeDB](https://github.com/grepTimeTeam/greptimedb/) - An open-source, cloud-native, distributed time-series database with PromQL/SQL/Python supported.[![CI](https://github.com/greptimeTeam/greptimedb/actions/workflows/develop.yml/badge.svg)](https://github.com/greptimeTeam/greptimedb/actions/workflows/develop.yml)
 * [Hiqlite](https://github.com/sebadob/hiqlite) - highly-available, embeddable, raft-based SQLite + cache
 * [indradb](https://crates.io/crates/indradb) - Graph database
+* [KiteSQL](https://github.com/KipData/KiteSQL) - SQL as a Function for Rust
 * [lancedb](https://github.com/lancedb/lancedb) [[vectordb](https://crates.io/crates/vectordb)] - A serverless, low-latency vector database for AI applications
 * [Limbo](https://github.com/tursodatabase/limbo) - Limbo is a work-in-progress, in-process OLTP database management system, compatible with SQLite.
 * [Lucid](https://github.com/lucid-kv/lucid) - High performance and distributed KV store accessible through a HTTP API. [![Build Status](https://github.com/lucid-kv/lucid/workflows/Lucid/badge.svg?branch=master)](https://github.com/lucid-kv/lucid/actions?workflow=Lucid)
@@ -1904,6 +1904,7 @@ See also [Are we web yet?](https://www.arewewebyet.org) and [Rust web framework 
   * [sauron](https://github.com/ivanceras/sauron) - Client side web framework which closely adheres to The Elm Architecture.
   * [seed](https://github.com/seed-rs/seed) - A framework for creating web apps
   * [stdweb](https://crates.io/crates/stdweb) - A standard library for the client-side Web
+  * [tinyweb](https://github.com/LiveDuo/tinyweb) - A minimal Rust web framework for wasm in 800 lines of code
   * [yew](https://crates.io/crates/yew) - A framework for making client web apps
 * HTTP Client
   * [alexcrichton/curl-rust](https://github.com/alexcrichton/curl-rust) - [libcurl](https://curl.se/libcurl/) bindings
@@ -1913,8 +1914,8 @@ See also [Are we web yet?](https://www.arewewebyet.org) and [Rust web framework 
   * [ducaale/xh](https://github.com/ducaale/xh) - Friendly and fast tool for sending HTTP requests [![crate](https://img.shields.io/crates/v/create-rust-app.svg)](https://crates.io/crates/xh) [![GitHub actions Status](https://github.com/ducaale/xh/workflows/CI/badge.svg?branch=master)](https://github.com/ducaale/xh/actions)
   * [graphql-client](https://github.com/graphql-rust/graphql-client) - Typed, correct GraphQL requests and responses. [![GitHub actions Status](https://github.com/graphql-rust/graphql-client/workflows/CI/badge.svg?branch=master)](https://github.com/graphql-rust/graphql-client/actions)
   * [hyperium/hyper](https://github.com/hyperium/hyper) - an HTTP implementation [![CI](https://github.com/hyperium/hyper/workflows/CI/badge.svg?branch=master)](https://github.com/hyperium/hyper/actions?query=workflow%3ACI)
-  * [penumbra-x/rquest](https://github.com/penumbra-x/rquest) [[rquest](https://crates.io/crates/rquest)] - a fast Rust HTTP client with TLS, JA3/JA4, and HTTP2 fingerprint impersonation.
   * [plabayo/rama](https://github.com/plabayo/rama) - A modular service framework to move and transform your network packets, can be used among other things, to build clients with TLS, JA3/JA4, H2 and QUIC/H3 fingerprint impersonation
+  * [rquest](https://github.com/0x676e67/rquest) [[rquest](https://crates.io/crates/rquest)] - a fast Rust HTTP client with TLS, JA3/JA4, and HTTP2 fingerprint impersonation.
   * [seanmonstar/reqwest](https://github.com/seanmonstar/reqwest) - an ergonomic HTTP Client.
 * HTTP Server
   * [actix/actix-web](https://github.com/actix/actix-web) - A lightweight async web framework with websocket support
