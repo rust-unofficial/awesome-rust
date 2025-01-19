@@ -146,6 +146,7 @@ See also [Rust - Production](https://www.rust-lang.org/production) organizations
 * [linkerd/linkerd2-proxy](https://github.com/linkerd/linkerd2-proxy) - Ultralight service mesh for Kubernetes.
 * [MaidSafe](https://github.com/maidsafe) - A decentralized platform.
 * [mdBook](https://github.com/rust-lang/mdBook) - A command line utility to create books from markdown files [![Build Status](https://github.com/rust-lang/mdBook/workflows/CI/badge.svg?branch=master)](https://github.com/rust-lang/mdBook/actions)
+* [Mega](https://github.com/web3infra-foundation/mega) - A monorepo & monolithic codebase management system that supports Git, also is an unofficial open source implementation of Google Piper.
 * [mirrord](https://github.com/metalbear-co/mirrord) - Connect your local process and your cloud environment, and run local code in cloud conditions
 * [nicohman/eidolon](https://github.com/nicohman/eidolon) - A steam and drm-free game registry and launcher for linux and macosx
 * [Pijul](https://pijul.org) - A patch-based distributed version control system
@@ -166,7 +167,6 @@ See also [Rust - Production](https://www.rust-lang.org/production) organizations
 * [wezterm](https://github.com/wez/wezterm) - A GPU-accelerated cross-platform terminal emulator and multiplexer
 * [WinterJS](https://github.com/wasmerio/winterjs) - A secure JavaScript runtime built with SpiderMonkey and Axum
 * [zellij](https://github.com/zellij-org/zellij) - A terminal multiplexer (workspace) with batteries included
-* [Mega](https://github.com/web3infra-foundation/mega) - A monorepo & monolithic codebase management system that supports Git, also is an unofficial open source implementation of Google Piper.
 
 ### Audio and Music
 
@@ -979,6 +979,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 ### Asynchronous
 
 * [async-std](https://async.rs/) [[async-std](https://crates.io/crates/async-std)] - Async version of the Rust standard library [![CI](https://github.com/async-rs/async-std/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/async-rs/async-std/actions/workflows/ci.yml)
+* [dagrs](https://github.com/dagrs-dev/dagrs) - A high-performance asynchronous task programming framework, which follows the concept of Flow based Programming.
 * [dpc/mioco](https://github.com/dpc/mioco) - Scalable, coroutine-based, asynchronous IO handling library
 * [igumnoff/gabriel2](https://github.com/igumnoff/gabriel2) [[gabriel2](https://crates.io/crates/gabriel2)] - Gabriel2: An actor-model library based on Tokio
 * [mio](https://github.com/tokio-rs/mio) - MIO is a lightweight IO library, with a focus on adding as little overhead as possible over the OS abstractions
@@ -989,7 +990,6 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [tqwewe/kameo](https://github.com/tqwewe/kameo) - Fault-tolerant Async Actors Built on Tokio
 * [Xudong-Huang/may](https://github.com/Xudong-Huang/may) - Stackful coroutine library
 * [zonyitoo/coio-rs](https://github.com/zonyitoo/coio-rs) - A coroutine I/O library with a working-stealing scheduler
-* [dagrs](https://github.com/dagrs-dev/dagrs) - A high-performance asynchronous task programming framework, which follows the concept of Flow based Programming.
 
 ### Audio and Music
 
