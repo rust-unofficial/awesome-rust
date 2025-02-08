@@ -164,7 +164,7 @@ See also [Rust - Production](https://www.rust-lang.org/production) organizations
 * [UpVPN](https://github.com/upvpn/upvpn-app) - WireGuard VPN client for macOS, Linux, and Windows built on Tauri.
 * [wasmer](https://github.com/wasmerio/wasmer) - A safe and fast WebAssembly runtime supporting WASI and Emscripten [![Build Status](https://github.com/wasmerio/wasmer/workflows/build/badge.svg?style=flat-square)](https://github.com/wasmerio/wasmer/actions)
 * [Weld](https://github.com/serayuzgur/weld) - Full fake REST API generator
-* [wezterm](https://github.com/wez/wezterm) - A GPU-accelerated cross-platform terminal emulator and multiplexer
+* [wezterm](https://github.com/wezterm/wezterm) - A GPU-accelerated cross-platform terminal emulator and multiplexer
 * [WinterJS](https://github.com/wasmerio/winterjs) - A secure JavaScript runtime built with SpiderMonkey and Axum
 * [zellij](https://github.com/zellij-org/zellij) - A terminal multiplexer (workspace) with batteries included
 
@@ -1936,7 +1936,7 @@ See also [Are we web yet?](https://www.arewewebyet.org) and [Rust web framework 
   * [Iron](https://github.com/iron/iron) - A middleware-based server framework
   * [Juniper](https://github.com/graphql-rust/juniper) - GraphQL server library
   * [miketang84/sapper](https://github.com/miketang84/sapper) - A lightweight web framework built on async hyper.
-  * [Nickel](https://github.com/nickel-org/nickel.rs/) - inspired by [Express](http://expressjs.com/)
+  * [Nickel](https://github.com/nickel-org/nickel.rs/) - inspired by [Express](https://expressjs.com/)
   * [plabayo/rama](https://github.com/plabayo/rama) - A modular service framework to move and transform your network packets, can also be used to fingerprint incoming clients
   * [poem-web/poem](https://github.com/poem-web/poem) - A full-featured and easy-to-use web framework. [![CI](https://github.com/poem-web/poem/actions/workflows/ci.yml/badge.svg)](https://github.com/poem-web/poem/actions/workflows/ci.yml)
   * [Rocket](https://github.com/rwf2/Rocket) - Rocket is a web framework with a focus on ease-of-use, expressability, and speed
