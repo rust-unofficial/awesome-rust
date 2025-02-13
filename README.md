@@ -858,6 +858,7 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust Tools](https://
     * [rust-lang/rust-enhanced](https://github.com/rust-lang/rust-enhanced) - official Rust package
   * [Vim](https://vim.sourceforge.io/) - the ubiquitous text editor
     * [autozimu/LanguageClient-neovim](https://github.com/autozimu/LanguageClient-neovim) - [LSP](https://microsoft.github.io/language-server-protocol/) client. Implemented in Rust and supports rls out of the box.
+    * [cargo.nvim](https://github.com/nwiizo/cargo.nvim) - A Neovim plugin for seamless integration with Cargo commands.
     * [crates.nvim](https://github.com/Saecki/crates.nvim) - plugin that helps to managing crates.io dependencies.
     * [rust.vim](https://github.com/rust-lang/rust.vim) - provides file detection, syntax highlighting, formatting, Syntastic integration, and more.
     * [vim-racer](https://github.com/racer-rust/vim-racer) - allows vim to use [Racer](https://github.com/racer-rust/racer) for Rust code completion and navigation.
