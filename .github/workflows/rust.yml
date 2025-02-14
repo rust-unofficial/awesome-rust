@@ -39,7 +39,7 @@ jobs:
         env:
           USERNAME_FOR_GITHUB: ${{ secrets.USERNAME_FOR_GITHUB }}
           TOKEN_FOR_GITHUB: ${{ secrets.TOKEN_FOR_GITHUB }}
-          RUST_LOG: info
+          RUST_LOG: warn
       - name: Save results cache
         uses: actions/cache/save@v4
         if: always() && (github.ref == 'refs/heads/main' || github.ref == 'refs/pull/1716/merge')
