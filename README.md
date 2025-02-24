@@ -329,6 +329,7 @@ See also [Payments](#payments) applications.
 
 * [e257-fi/tackler-ng](https://github.com/e257-fi/tackler-ng) [[tackler](https://crates.io/crates/tackler)] - Fast, reliable bookkeeping engine with native GIT SCM support for plain text accounting [![CI Badge](https://github.com/e257-fi/tackler-ng/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/e257-fi/tackler-ng/blob/main/.github/workflows/ci.yml)
 * [tarkah/tickrs](https://github.com/tarkah/tickrs) - Realtime ticker data in your terminal
+* [rust-ta/kand](https://github.com/rust-ta/kand) - Pure Rust reimplementation of TA-Lib for fast financial analysis[![image](https://img.shields.io/crates/v/kand.svg)](https://crates.io/crates/kand)
 
 ### Games
 
