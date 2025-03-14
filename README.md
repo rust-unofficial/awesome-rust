@@ -518,6 +518,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [nickgerace/gfold](https://github.com/nickgerace/gfold) [[gfold](https://crates.io/crates/gfold)] - CLI tool to help keep track of multiple Git repositories [![build](https://img.shields.io/github/workflow/status/nickgerace/gfold/merge/main)](https://github.com/nickgerace/gfold/actions?query=workflow%3Amerge+branch%3Amain)
 * [nivekuil/rip](https://github.com/nivekuil/rip) - A safe and ergonomic alternative to `rm`
 * [nushell/nushell](https://github.com/nushell/nushell) - A new type of shell
+* [nwiizo/tfmcp](https://github.com/nwiizo/tfmcp) - Terraform MCP Tool - CLI for AI assistants to manage Terraform environments via Model Context Protocol.
 * [nwiizo/tfocus](https://github.com/nwiizo/tfocus) - Interactive tool for selecting and executing Terraform plan/apply operations
 * [orhun/kmon](https://github.com/orhun/kmon) - Linux Kernel Manager and Activity Monitor ![https://github.com/orhun/kmon/actions](https://img.shields.io/github/actions/workflow/status/orhun/kmon/ci.yml?branch=master&label=build)
 * [orhun/systeroid](https://github.com/orhun/systeroid) - A more powerful alternative to sysctl(8) with a terminal user interface ![https://github.com/orhun/systeroid/actions](https://img.shields.io/github/actions/workflow/status/orhun/systeroid/ci.yml?branch=main&label=build)
@@ -1840,10 +1841,10 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [sunng87/handlebars-rust](https://github.com/sunng87/handlebars-rust) - Handlebars template engine with inheritance, custom helper support.
   * [zzau13/yarte](https://github.com/zzau13/yarte) - Yarte stands for **Y**et **A**nother **R**ust **T**emplate **E**ngine, is the fastest template engine.
 * HTML
+  * [askama](https://github.com/askama-rs/askama) - template rendering engine based on Jinja
   * [kaj/ructe](https://github.com/kaj/ructe) - HTML template system
   * [Keats/tera](https://github.com/Keats/tera) - template engine based on Jinja2 and the Django template language. [![Actions Status](https://github.com/Keats/tera/workflows/ci/badge.svg?branch=master)](https://github.com/Keats/tera/actions)
   * [lambda-fairy/maud](https://github.com/lambda-fairy/maud) - compile-time HTML templates
-  * [rinja-rs/askama](https://github.com/rinja-rs/askama) - template rendering engine based on Jinja
   * [Stebalien/horrorshow-rs](https://github.com/Stebalien/horrorshow-rs) - compile-time HTML templates
 * Mustache
   * [rustache/rustache](https://github.com/rustache/rustache) - a Rust implementation of the Mustache spec
