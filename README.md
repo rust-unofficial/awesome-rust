@@ -496,7 +496,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [eza-community/eza](https://github.com/eza-community/eza) - A replacement for 'ls'
 * [fish-shell/fish-shell](https://github.com/fish-shell/fish-shell) - The user-friendly command line shell
 * [fselect](https://crates.io/crates/fselect) - Find files with SQL-like queries
-* [gitui](https://github.com/gitui-org/gitui) - Blazing fast terminal client for git. [![build](https://github.com/gitui-org/gitui/workflows/CI/badge.svg?branch=master)](https://github.com/gitui-org/gitui/actions)
+* [gitui](https://github.com/gitui-org/gitui) - Blazing fast terminal client for git. [![build](https://github.com/gitui-org/gitui/actions/workflows/ci.yml/badge.svg)](https://github.com/gitui-org/gitui/actions)
 * [GQL](https://github.com/amrdeveloper/gql) - A SQL like query language to run on .git files.
 * [httm](https://github.com/kimono-koans/httm) - Interactive, file-level Time Machine-like tool for ZFS/btrfs/nilfs2 (and even actual Time Machine backups!)
 * [j0ru/kickoff](https://github.com/j0ru/kickoff) - Fast and snappy wayland program launcher [![build](https://github.com/j0ru/kickoff/actions/workflows/ci.yml/badge.svg)](https://github.com/j0ru/kickoff/actions)
