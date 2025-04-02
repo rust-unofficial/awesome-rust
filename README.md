@@ -1920,7 +1920,7 @@ See also [Are we web yet?](https://www.arewewebyet.org) and [Rust web framework 
   * [graphql-client](https://github.com/graphql-rust/graphql-client) - Typed, correct GraphQL requests and responses. [![GitHub actions Status](https://github.com/graphql-rust/graphql-client/workflows/CI/badge.svg?branch=master)](https://github.com/graphql-rust/graphql-client/actions)
   * [hyperium/hyper](https://github.com/hyperium/hyper) - an HTTP implementation [![CI](https://github.com/hyperium/hyper/workflows/CI/badge.svg?branch=master)](https://github.com/hyperium/hyper/actions?query=workflow%3ACI)
   * [plabayo/rama](https://github.com/plabayo/rama) - A modular service framework to move and transform your network packets, can be used among other things, to build clients with TLS, JA3/JA4, H2 and QUIC/H3 fingerprint impersonation
-  * [0x676e67/rquest](https://github.com/0x676e67/rquest) - An ergonomic Rust HTTP Client with TLS fingerprint. [![CI](https://github.com/0x676e67/rquest/actions/workflows/ci.yml/badge.svg)](https://github.com/0x676e67/rquest/actions/workflows/ci.yml)[![crates.io](https://img.shields.io/crates/v/rquest.svg?logo=rust)](https://crates.io/crates/rquest)
+  * [0x676e67/rquest](https://github.com/0x676e67/rquest) - An ergonomic Rust HTTP Client with TLS fingerprint. [![CI](https://github.com/0x676e67/rquest/actions/workflows/ci.yml/badge.svg)](https://github.com/0x676e67/rquest/actions/workflows/ci.yml) [![crates.io](https://img.shields.io/crates/v/rquest.svg?logo=rust)](https://crates.io/crates/rquest)
   * [seanmonstar/reqwest](https://github.com/seanmonstar/reqwest) - an ergonomic HTTP Client.
 * HTTP Server
   * [actix/actix-web](https://github.com/actix/actix-web) - A lightweight async web framework with websocket support
