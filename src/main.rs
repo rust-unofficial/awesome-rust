@@ -41,7 +41,10 @@ fn override_stars(level: u32, text: &str) -> Option<u32> {
 lazy_static! {
     // We don't explicitly check these, because they just bug out in GitHub. We're _hoping_ they don't go away!
     static ref ASSUME_WORKS: Vec<String> = vec![
-        "https://www.reddit.com/r/rust/".to_string()
+        "https://www.reddit.com/r/rust/".to_string(),
+        "https://opcfoundation.org/about/opc-technologies/opc-ua/".to_string(),
+        "https://arangodb.com".to_string(),
+        "https://git.sr.ht/~lessa/pepper".to_string()
     ];
     // Overrides for popularity count, each needs a good reason (i.e. downloads/stars we don't support automatic counting of)
     // Each is a URL that's "enough" for an item to pass the popularity checks
