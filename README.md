@@ -121,8 +121,6 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 
 ## Applications
 
-See also [Rust - Production](https://www.rust-lang.org/production) organizations running Rust in production.
-
 * [alacritty](https://github.com/alacritty/alacritty) - A cross-platform, GPU enhanced terminal emulator
 * [Arti](https://gitlab.torproject.org/tpo/core/arti) - An implementation of Tor. (So far, it's a not-very-complete client. But watch this space!) [![Crates.io](https://img.shields.io/crates/v/arti.svg)](https://crates.io/crates/arti)
 * [asm-cli-rust](https://github.com/cch123/asm-cli-rust) - An interactive assembly shell.
