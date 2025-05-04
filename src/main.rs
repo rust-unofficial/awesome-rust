@@ -41,42 +41,44 @@ fn override_stars(level: u32, text: &str) -> Option<u32> {
 lazy_static! {
     // We don't explicitly check these, because they just bug out in GitHub. We're _hoping_ they don't go away!
     static ref ASSUME_WORKS: Vec<String> = vec![
-        "https://www.reddit.com/r/rust/".to_string(),
-        "https://opcfoundation.org/about/opc-technologies/opc-ua/".to_string(),
-        "https://arangodb.com".to_string(),
-        "https://git.sr.ht/~lessa/pepper".to_string()
-    ];
+        "https://www.reddit.com/r/rust/",
+        "https://opcfoundation.org/about/opc-technologies/opc-ua/",
+        "https://arangodb.com",
+        "https://git.sr.ht/~lessa/pepper",
+        "https://www.gnu.org/software/emacs/",
+        "http://www.gnu.org/software/gsl/"
+    ].iter().map(|s| s.to_string()).collect();
     // Overrides for popularity count, each needs a good reason (i.e. downloads/stars we don't support automatic counting of)
     // Each is a URL that's "enough" for an item to pass the popularity checks
     static ref POPULARITY_OVERRIDES: Vec<String> = vec![
-        "https://github.com/maidsafe".to_string(), // Many repos of Rust code, collectively > 50 stars
-        "https://pijul.org".to_string(), // Uses it's own VCS at https://nest.pijul.com/pijul/pijul with 190 stars at last check
-        "https://gitlab.com/veloren/veloren".to_string(), // No direct gitlab support, but >1000 stars there
-        "https://gitlab.redox-os.org/redox-os/redox".to_string(), // 394 stars
-        "https://amp.rs".to_string(), // https://github.com/jmacdonald/amp has 2.9k stars
-        "https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb".to_string(), // > 350k downloads
-        "https://gitpod.io".to_string(), // https://github.com/gitpod-io/gitpod has 4.7k stars
-        "https://wiki.gnome.org/Apps/Builder".to_string(), // https://gitlab.gnome.org/GNOME/gnome-builder has 133 stars
-        "https://www.jetbrains.com/rust/".to_string(), // popular closed-source IDE, free for non-commercial use
-        "https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml".to_string(), // > 1M downloads
-        "https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer".to_string(), // > 260k downloads
-        "https://marketplace.visualstudio.com/items?itemName=rust-lang.rust".to_string(), // > 1M downloads
-        "https://docs.rs".to_string(), // https://github.com/rust-lang/docs.rs has >600 stars
-        "https://github.com/rust-bio".to_string(), // https://github.com/rust-bio/rust-bio on it's own has >900 stars
-        "https://github.com/contain-rs".to_string(), // Lots of repos with good star counts
-        "https://github.com/georust".to_string(), // Lots of repos with good star counts
-        "http://kiss3d.org".to_string(), // https://github.com/sebcrozet/kiss3d has >900 stars
-        "https://github.com/rust-qt".to_string(), // Various high-stars repositories
-        "https://chromium.googlesource.com/chromiumos/platform/crosvm/".to_string(), // Can't tell count directly, but various mirrors of it (e.g. https://github.com/dgreid/crosvm) have enough stars that it's got enough interest
-        "https://crates.io".to_string(), // This one gets a free pass :)
-        "https://cloudsmith.com/product/formats/cargo-registry".to_string(), // First private cargo registry (https://cloudsmith.com/blog/worlds-first-private-cargo-registry-w-cloudsmith-rust/) and not much in the way of other options yet. See also https://github.com/rust-unofficial/awesome-rust/pull/1141#discussion_r688711555
-        "https://gitlab.com/ttyperacer/terminal-typeracer".to_string(), // GitLab repo with >40 stars.
-        "https://github.com/esp-rs".to_string(), // Espressif Rust Organization (Organizations have no stars).
-        "https://github.com/arkworks-rs".to_string(), // Rust ecosystem for zkSNARK programming (Organizations have no stars)
-        "https://marketplace.visualstudio.com/items?itemName=jinxdash.prettier-rust".to_string(), // https://github.com/jinxdash/prettier-plugin-rust has >50 stars
-        "https://github.com/andoriyu/uclicious".to_string(), // FIXME: CI hack. the crate has a higher count, but we don't refresh.
-        "https://marketplace.visualstudio.com/items?itemName=fill-labs.dependi".to_string(), // marketplace link , but also has enough stars
-    ];
+        "https://github.com/maidsafe", // Many repos of Rust code, collectively > 50 stars
+        "https://pijul.org", // Uses it's own VCS at https://nest.pijul.com/pijul/pijul with 190 stars at last check
+        "https://gitlab.com/veloren/veloren", // No direct gitlab support, but >1000 stars there
+        "https://gitlab.redox-os.org/redox-os/redox", // 394 stars
+        "https://amp.rs", // https://github.com/jmacdonald/amp has 2.9k stars
+        "https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb", // > 350k downloads
+        "https://gitpod.io", // https://github.com/gitpod-io/gitpod has 4.7k stars
+        "https://wiki.gnome.org/Apps/Builder", // https://gitlab.gnome.org/GNOME/gnome-builder has 133 stars
+        "https://www.jetbrains.com/rust/", // popular closed-source IDE, free for non-commercial use
+        "https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml", // > 1M downloads
+        "https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer", // > 260k downloads
+        "https://marketplace.visualstudio.com/items?itemName=rust-lang.rust", // > 1M downloads
+        "https://docs.rs", // https://github.com/rust-lang/docs.rs has >600 stars
+        "https://github.com/rust-bio", // https://github.com/rust-bio/rust-bio on it's own has >900 stars
+        "https://github.com/contain-rs", // Lots of repos with good star counts
+        "https://github.com/georust", // Lots of repos with good star counts
+        "http://kiss3d.org", // https://github.com/sebcrozet/kiss3d has >900 stars
+        "https://github.com/rust-qt", // Various high-stars repositories
+        "https://chromium.googlesource.com/chromiumos/platform/crosvm/", // Can't tell count directly, but various mirrors of it (e.g. https://github.com/dgreid/crosvm) have enough stars that it's got enough interest
+        "https://crates.io", // This one gets a free pass :)
+        "https://cloudsmith.com/product/formats/cargo-registry", // First private cargo registry (https://cloudsmith.com/blog/worlds-first-private-cargo-registry-w-cloudsmith-rust/) and not much in the way of other options yet. See also https://github.com/rust-unofficial/awesome-rust/pull/1141#discussion_r688711555
+        "https://gitlab.com/ttyperacer/terminal-typeracer", // GitLab repo with >40 stars.
+        "https://github.com/esp-rs", // Espressif Rust Organization (Organizations have no stars).
+        "https://github.com/arkworks-rs", // Rust ecosystem for zkSNARK programming (Organizations have no stars)
+        "https://marketplace.visualstudio.com/items?itemName=jinxdash.prettier-rust", // https://github.com/jinxdash/prettier-plugin-rust has >50 stars
+        "https://github.com/andoriyu/uclicious", // FIXME: CI hack. the crate has a higher count, but we don't refresh.
+        "https://marketplace.visualstudio.com/items?itemName=fill-labs.dependi", // marketplace link , but also has enough stars
+    ].iter().map(|s| s.to_string()).collect();
 }
 
 #[derive(Debug, Error, Serialize, Deserialize)]
@@ -486,9 +488,7 @@ async fn main() -> Result<()> {
                                 } else {
                                     github_stars = get_stars(&github_url).await;
                                     if let Some(raw_stars) = github_stars {
-                                        popularity_data
-                                            .github_stars
-                                            .insert(github_url.to_string(), raw_stars);
+                                        popularity_data.github_stars.insert(github_url, raw_stars);
                                         if raw_stars >= required_stars {
                                             fs::write(
                                                 "results/popularity.yaml",
