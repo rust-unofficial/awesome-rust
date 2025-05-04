@@ -45,6 +45,8 @@ lazy_static! {
         "https://opcfoundation.org/about/opc-technologies/opc-ua/",
         "https://arangodb.com",
         "https://git.sr.ht/~lessa/pepper",
+        "https://www.gnu.org/software/emacs/",
+        "http://www.gnu.org/software/gsl/"
     ].iter().map(|s| s.to_string()).collect();
     // Overrides for popularity count, each needs a good reason (i.e. downloads/stars we don't support automatic counting of)
     // Each is a URL that's "enough" for an item to pass the popularity checks
