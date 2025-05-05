@@ -1178,6 +1178,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [crossbeam-rs/crossbeam](https://github.com/crossbeam-rs/crossbeam) - Support for parallelism and low-level concurrency
 * [orium/archery](https://github.com/orium/archery) [[archery](https://crates.io/crates/archery)] - Library to abstract from `Rc`/`Arc` pointer types. [![build badge](https://github.com/orium/archery/workflows/CI/badge.svg)](https://github.com/orium/archery/actions?query=workflow%3ACI)
 * [Rayon](https://github.com/rayon-rs/rayon) - A data parallelism library
+* [orx-parallel](https://crates.io/crates/orx-parallel) - High performance, configurable and expressive parallel computation library.
 * [rustcc/coroutine-rs](https://github.com/rustcc/coroutine-rs) - Coroutine Library
 * [zonyitoo/coio-rs](https://github.com/zonyitoo/coio-rs) - Coroutine I/O
 
