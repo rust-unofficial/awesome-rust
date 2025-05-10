@@ -45,6 +45,7 @@ lazy_static! {
         "https://opcfoundation.org/about/opc-technologies/opc-ua/",
         "https://arangodb.com",
         "https://git.sr.ht/~lessa/pepper",
+        "https://git.sr.ht/~pyrossh/rust-embed",
         "https://www.gnu.org/software/emacs/",
         "http://www.gnu.org/software/gsl/"
     ].iter().map(|s| s.to_string()).collect();
