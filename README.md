@@ -92,6 +92,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   * [GUI](#gui)
   * [Image processing](#image-processing-1)
   * [Language specification](#language-specification)
+  * [Licensing](#licensing)
   * [Logging](#logging)
   * [Macro](#macro)
   * [Markup language](#markup-language)
