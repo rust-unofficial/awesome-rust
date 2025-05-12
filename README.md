@@ -92,6 +92,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   * [GUI](#gui)
   * [Image processing](#image-processing-1)
   * [Language specification](#language-specification)
+  * [Licensing](#licensing)
   * [Logging](#logging)
   * [Macro](#macro)
   * [Markup language](#markup-language)
@@ -1651,6 +1652,10 @@ See also [Are we game yet?](https://arewegameyet.rs)
 ### Language specification
 
 * [shnewto/bnf](https://github.com/shnewto/bnf) - A library for parsing Backus–Naur form context-free grammars.
+
+### Licensing
+
+* [WyvernIXTL/license-fetcher](https://github.com/WyvernIXTL/license-fetcher) [[license-fetcher](https://crates.io/crates/license-fetcher)] - Fetch licenses of dependencies at build time and embed them into your program.
 
 ### Logging
 
