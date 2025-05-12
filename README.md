@@ -1652,6 +1652,10 @@ See also [Are we game yet?](https://arewegameyet.rs)
 
 * [shnewto/bnf](https://github.com/shnewto/bnf) - A library for parsing Backus–Naur form context-free grammars.
 
+### Licensing
+
+* [WyvernIXTL/license-fetcher](https://github.com/WyvernIXTL/license-fetcher) [[license-fetcher](https://crates.io/crates/license-fetcher)] - Fetch licenses of dependencies at build time and embed them into your program.
+
 ### Logging
 
 [[log](https://crates.io/keywords/log)]
