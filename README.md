@@ -434,7 +434,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [espanso](https://github.com/espanso/espanso) - A cross-platform Text Expander. [![CI](https://github.com/espanso/espanso/actions/workflows/ci.yml/badge.svg?branch=dev&event=push)](https://github.com/espanso/espanso/actions/workflows/ci.yml)
 * [eureka](https://crates.io/crates/eureka) - A CLI tool to input and store your ideas without leaving the terminal
 * [Furtherance](https://github.com/unobserved-io/Furtherance) - Time tracking app built with GTK4
-* [illacloud/illa](https://github.com/illacloud/illa) [[ILLA Cloud](https://illacloud.com/)] - Low-code internal tool builder.
+* [illacloud/illa](https://github.com/illacloud/illa) - Low-code internal tool builder.
 * [kruserr/hygg](https://github.com/kruserr/hygg) [[hygg](https://crates.io/crates/hygg)] - A minimalistic cli document reader, supports PDF, ePub and more.
 * [LLDAP](https://github.com/lldap/lldap) - Simplified LDAP interface for authentication.
 * [pier-cli/pier](https://github.com/pier-cli/pier) - A central repository to manage (add, search metadata, etc.) all your one-liners, scripts, tools, and CLIs
