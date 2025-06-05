@@ -1828,6 +1828,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
 * [fleabitdev/gamelisp](https://github.com/fleabitdev/glsp) - A Lisp-like scripting language for game development
 * [gluon-lang/gluon](https://github.com/gluon-lang/gluon) - A small, statically-typed, functional programming language
 * [kcl](https://github.com/kcl-lang/kcl) - A constraint-based record & functional language mainly used in configuration and policy scenarios.
+* [kel](https://github.com/sagering/kel) - An embeddable, statically typed configuration and templating language for Rust
 * [metacall/core](https://github.com/metacall/core) [[metacall](https://crates.io/crates/metacall)] - Cross-platform Polyglot Runtime which supports NodeJS, JavaScript, TypeScript, Python, Ruby, C#, Wasm, Java, Cobol and more. [![build badge](https://gitlab.com/metacall/core/badges/master/pipeline.svg)](https://gitlab.com/metacall/core)
 * [mun](https://github.com/mun-lang/mun) - A compiled, statically-typed scripting language with first class hot reloading support
 * [murarth/ketos](https://github.com/murarth/ketos) - A Lisp dialect functional programming language serving as a scripting and extension language for rust
