@@ -47,7 +47,9 @@ lazy_static! {
         "https://git.sr.ht/~lessa/pepper",
         "https://git.sr.ht/~pyrossh/rust-embed",
         "https://www.gnu.org/software/emacs/",
-        "http://www.gnu.org/software/gsl/"
+        "http://www.gnu.org/software/gsl/",
+        "https://labex.io/skilltrees/rust",
+        "https://github.com/TraceMachina/nativelink", // probably broken because @palfrey now works for them...
     ].iter().map(|s| s.to_string()).collect();
     // Overrides for popularity count, each needs a good reason (i.e. downloads/stars we don't support automatic counting of)
     // Each is a URL that's "enough" for an item to pass the popularity checks
@@ -68,7 +70,6 @@ lazy_static! {
         "https://github.com/rust-bio", // https://github.com/rust-bio/rust-bio on it's own has >900 stars
         "https://github.com/contain-rs", // Lots of repos with good star counts
         "https://github.com/georust", // Lots of repos with good star counts
-        "http://kiss3d.org", // https://github.com/sebcrozet/kiss3d has >900 stars
         "https://github.com/rust-qt", // Various high-stars repositories
         "https://chromium.googlesource.com/chromiumos/platform/crosvm/", // Can't tell count directly, but various mirrors of it (e.g. https://github.com/dgreid/crosvm) have enough stars that it's got enough interest
         "https://crates.io", // This one gets a free pass :)
@@ -79,6 +80,7 @@ lazy_static! {
         "https://marketplace.visualstudio.com/items?itemName=jinxdash.prettier-rust", // https://github.com/jinxdash/prettier-plugin-rust has >50 stars
         "https://github.com/andoriyu/uclicious", // FIXME: CI hack. the crate has a higher count, but we don't refresh.
         "https://marketplace.visualstudio.com/items?itemName=fill-labs.dependi", // marketplace link , but also has enough stars
+        "https://github.com/TraceMachina/nativelink", // 1.4k stars, probably broken because @palfrey now works for them...
     ].iter().map(|s| s.to_string()).collect();
 }
 
