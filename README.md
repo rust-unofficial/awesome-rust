@@ -2054,6 +2054,7 @@ A registry allows you to publish your Rust libraries as crate packages, to share
   * [Refactoring to Rust](https://www.manning.com/books/refactoring-to-rust) - A book that introduces to Rust language.
   * [Rust by Example](https://doc.rust-lang.org/rust-by-example/) - a collection of runnable examples that illustrate various Rust concepts and standard libraries.
   * [Rust Cookbook](https://rust-lang-nursery.github.io/rust-cookbook/) - A collection of simple examples that demonstrate good practices to accomplish common programming tasks, using the crates of the Rust ecosystem.
+  * [Rust eBooks](https://artur-sulej.github.io/rust-ebooks/) - Daily built Rust books in EPUB, AZW3 and MOBI formats from the latest sources.
   * [Rust Flashcards](https://github.com/ad-si/Rust-Flashcards) - Over 550 flashcards to learn Rust from first principles.
   * [Rust for professionals](https://overexact.com/rust-for-professionals/) - A quick introduction to Rust for experienced software developers.
   * [Rust Gym](https://github.com/warycat/rustgym) - A big collection of coding interview problems solved in Rust.
