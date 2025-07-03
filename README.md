@@ -415,6 +415,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [0x59616e/SteinsOS](https://github.com/0x59616e/SteinsOS) - An OS for armv8-a architecture.
 * [adamperkowski/highlightos](https://github.com/adamperkowski/highlightos) - x86_64 OS kernel written in Rust & Assembly.
 * [Andy-Python-Programmer/aero](https://github.com/Andy-Python-Programmer/aero) - A modern, unix-like operating system following the monolithic kernel design.
+* [asterinas/asterinas](https://github.com/asterinas/asterinas) - A secure, fast, and general-purpose OS kernel that provides Linux-compatible ABI.
 * [DragonOS-Community/DragonOS](https://github.com/DragonOS-Community/DragonOS) - An operating system with a self-developed kernel from scratch and Linux compatibility.
 * [redox-os/redox](https://gitlab.redox-os.org/redox-os/redox) - A Unix-like general-purpose microkernel-based operating system with a focus on security, stability, performance, correctness, simplicity and pragmatism that aims to be a complete alternative for Linux and BSD.
 * [thepowersgang/rust_os](https://github.com/thepowersgang/rust_os) - An OS kernel written in rust. Non POSIX
@@ -906,6 +907,7 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust Tools](https://
 [[assert](https://crates.io/keywords/assert), [static](https://crates.io/keywords/static)]
 
 * [MIRAI](https://github.com/endorlabs/mirai) - an abstract interpreter operating on Rust's mid-level intermediate representation (MIR) [![Continuous Integration](https://github.com/endorlabs/mirai/actions/workflows/rust.yml/badge.svg)](https://github.com/endorlabs/mirai/actions/workflows/rust.yml)
+* [RAPx](https://github.com/Artisan-Lab/RAPx) - A platform that helps Rust programmers develop and use advanced static analysis tools beyond those provided by the rustc compiler.
 * [static_assertions](https://crates.io/crates/static_assertions) - Compile-time assertions to ensure that invariants are met
 * [verus-lang/verus](https://github.com/verus-lang/verus) - Verified Rust for low-level systems code
 
