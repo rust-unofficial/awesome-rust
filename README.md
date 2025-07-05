@@ -1483,6 +1483,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * TOML
   * [tamasfe/taplo](https://github.com/tamasfe/taplo) [[taplo](https://crates.io/crates/taplo)] - A TOML toolkit [![CI](https://github.com/tamasfe/taplo/workflows/Continuous%20integration/badge.svg)](https://github.com/tamasfe/taplo/actions?query=workflow%3A%22Continuous+integration%22)
   * [toml-rs/toml](https://github.com/toml-rs/toml) - [![CI](https://github.com/toml-rs/toml/actions/workflows/ci.yml/badge.svg)](https://github.com/toml-rs/toml/actions/workflows/ci.yml)
+* [vitiral/stfu8](https://github.com/vitiral/stfu8) [[stfu8](https://crates.io/crates/stfu8)] - Sorta Text Format in UTF-8
 * XML
   * [Florob/RustyXML](https://github.com/Florob/RustyXML) - an XML parser
   * [netvl/xml-rs](https://github.com/netvl/xml-rs) - A streaming XML library
@@ -1492,8 +1493,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
   * [yaserde](https://github.com/luminvent/yaserde) - Yet Another Serializer/Deserializer specialized for XML
 * YAML
   * [chyh1990/yaml-rust](https://github.com/chyh1990/yaml-rust) - The missing YAML 1.2 implementation.
-  * [dtolnay/serde-yaml](https://github.com/dtolnay/serde-yaml) [[serde\_yaml](https://crates.io/crates/serde_yaml)] - YAML support for [Serde](https://github.com/serde-rs/serde) framework [![build](https://img.shields.io/github/workflow/status/dtolnay/serde-yaml/CI/master)](https://github.com/dtolnay/serde-yaml/actions?query=branch%3Amaster)
-  * [vitiral/stfu8](https://github.com/vitiral/stfu8) [[stfu8](https://crates.io/crates/stfu8)] - Sorta Text Format in UTF-8
+  * [saphyr](https://github.com/saphyr-rs/saphyr) - A set of crates dedicated to parsing YAML.
 
 ### Filesystem
 
