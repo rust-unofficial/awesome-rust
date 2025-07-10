@@ -134,7 +134,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 * [Edit](https://github.com/microsoft/edit) - A simple editor for simple needs. [![CI](https://github.com/microsoft/edit/actions/workflows/ci.yml/badge.svg)](https://github.com/microsoft/edit/actions/workflows/ci.yml)
 * [fcsonline/drill](https://github.com/fcsonline/drill) - A HTTP load testing application inspired by Ansible syntax
 * [fend](https://github.com/printfn/fend) - Arbitrary-precision unit-aware calculator [![build](https://github.com/printfn/fend/workflows/build/badge.svg)](https://github.com/printfn/fend/actions/workflows/actions.yml)
-*<S-F10> [Fluster](https://github.com/flusterIO/fluster) - Academic note taking with everything a modern academic or STEM profressional needs.
+* [Fluster](https://github.com/flusterIO/fluster) - Academic note taking with everything a modern academic or STEM profressional needs.
 * [Fractalide](https://github.com/fractalide/fractalide) - Simple microservices
 * [habitat](https://github.com/habitat-sh/habitat) - A tool created by Chef to build, deploy, and manage applications.
 * [Herd](https://github.com/imjacobclark/Herd) - an experimental HTTP load testing application
