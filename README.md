@@ -57,6 +57,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
     + [Genetic algorithms](#genetic-algorithms)
     + [Machine learning](#machine-learning)
     + [OpenAI](#openai)
+    + [Tooling](#tooling)
   * [Astronomy](#astronomy)
   * [Asynchronous](#asynchronous)
   * [Audio and Music](#audio-and-music-1)
