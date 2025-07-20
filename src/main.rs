@@ -49,7 +49,7 @@ lazy_static! {
         "https://www.gnu.org/software/emacs/",
         "http://www.gnu.org/software/gsl/",
         "https://labex.io/skilltrees/rust",
-        "https://github.com/TraceMachina/nativelink", // probably broken because @palfrey now works for them...
+        "https://www.vulkan.org/",
     ].iter().map(|s| s.to_string()).collect();
     // Overrides for popularity count, each needs a good reason (i.e. downloads/stars we don't support automatic counting of)
     // Each is a URL that's "enough" for an item to pass the popularity checks
