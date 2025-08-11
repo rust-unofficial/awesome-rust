@@ -743,7 +743,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
   * [Devolutions/CMakeRust](https://github.com/Devolutions/CMakeRust) - useful for integrating a Rust library into a CMake project
   * [SiegeLord/RustCMake](https://github.com/SiegeLord/RustCMake) - an example project showing usage of CMake with Rust
 * [facebook/buck2](https://github.com/facebook/buck2) - [Buck2](https://buck2.build/) is a large-scale build tool built in Rust
-* [Fleet](https://github.com/dimensionhq/fleet) [[fleet-rs](https://crates.io/crates/fleet-rs)] - The blazing fast build tool for Rust.
+* [Fleet](https://github.com/suptejas/fleet) [[fleet-rs](https://crates.io/crates/fleet-rs)] - The blazing fast build tool for Rust.
 * GitHub actions
   * [icepuma/rust-action](https://github.com/icepuma/rust-action) - rust github action
   * [peaceiris/actions-mdbook](https://github.com/peaceiris/actions-mdbook) - GitHub Actions for mdBook
@@ -841,8 +841,8 @@ See also [Foreign Function Interface](https://doc.rust-lang.org/book/first-editi
   * [danielpclark/rutie](https://github.com/danielpclark/rutie) - native Ruby extensions written in Rust and vice versa
 * Web Assembly
   * [rhysd/wain](https://github.com/rhysd/wain) - wain: WebAssembly INterpreter from scratch in Safe Rust with zero dependency [![build badge](https://github.com/rhysd/wain/workflows/CI/badge.svg?branch=master&event=push)](https://github.com/rhysd/wain/actions?query=workflow%3ACI+branch%3Amaster+event%3Apush)
-  * [rustwasm/wasm-bindgen](https://github.com/rustwasm/wasm-bindgen) - A project for facilitating high-level interactions between wasm modules and JS.
-  * [rustwasm/wasm-pack](https://github.com/rustwasm/wasm-pack) - :package: :sparkles: pack up the wasm and publish it to npm!
+  * [wasm-bindgen](https://github.com/wasm-bindgen/wasm-bindgen) - A project for facilitating high-level interactions between wasm modules and JS.
+  * [wasm-pack](https://github.com/drager/wasm-pack) - :package: :sparkles: pack up the wasm and publish it to npm!
 
 ### Formatters
 
@@ -2020,7 +2020,7 @@ See also [Are we web yet?](https://www.arewewebyet.org) and [Rust web framework 
   * [getzola/zola](https://github.com/getzola/zola) [[zola](https://www.getzola.org/)] - An opinionated static site generator with everything built-in. [![Build Status](https://dev.azure.com/getzola/zola/_apis/build/status/getzola.zola?branchName=master)](https://dev.azure.com/getzola/zola/_build)
   * [grego/blades](https://github.com/grego/blades) [[blades](https://www.getblades.org/)] - Blazing fast dead simple static site generator.
   * [leven-the-blog/leven](https://github.com/leven-the-blog/leven) [[leven](https://crates.io/crates/leven)] - A simple, parallelized blog generator.
-  * [rochacbruno/marmite](https://github.com/rochacbruno/marmite/) [[Marmite](https://rochacbruno.github.io/marmite/)] - Zero config blog generator
+  * [rochacbruno/marmite](https://github.com/rochacbruno/marmite/) [[Marmite](https://marmite.blog/)] - Zero config blog generator
 * [WebSocket](https://datatracker.ietf.org/doc/rfc6455/)
   * [c410-f3r/wtx](https://github.com/c410-f3r/wtx) - Client and server with encryption support.
   * [housleyjk/ws-rs](https://github.com/housleyjk/ws-rs) - lightweight, event-driven WebSockets
