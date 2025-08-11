@@ -146,7 +146,7 @@ impl MaxHandles {
         }
     }
 
-    async fn get(&self) -> Handle {
+    async fn get(&'_ self) -> Handle<'_> {
         let permit = self.remaining.acquire().await.unwrap();
         Handle { _permit: permit }
     }
