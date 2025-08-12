@@ -911,6 +911,7 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust Tools](https://
 [[assert](https://crates.io/keywords/assert), [static](https://crates.io/keywords/static)]
 
 * [MIRAI](https://github.com/endorlabs/mirai) - an abstract interpreter operating on Rust's mid-level intermediate representation (MIR) [![Continuous Integration](https://github.com/endorlabs/mirai/actions/workflows/rust.yml/badge.svg)](https://github.com/endorlabs/mirai/actions/workflows/rust.yml)
+* [nekocode-rust](https://github.com/moe-charm/nekocode-rust) - Multi-language code analysis tool with Tree-sitter integration, 16x faster than C++ version, supports 8 languages and Claude Code MCP integration
 * [RAPx](https://github.com/Artisan-Lab/RAPx) - A platform that helps Rust programmers develop and use advanced static analysis tools beyond those provided by the rustc compiler.
 * [static_assertions](https://crates.io/crates/static_assertions) - Compile-time assertions to ensure that invariants are met
 * [verus-lang/verus](https://github.com/verus-lang/verus) - Verified Rust for low-level systems code
