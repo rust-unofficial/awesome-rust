@@ -437,6 +437,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 
 ### Productivity
 
+* [Splitrail](https://github.com/Piebald-AI/splitrail) - Blazing fast, single-executable, cross-platform, agentic development monitor. Supports Gemini CLI, Claude Code, and Codex.
 * [0xdea/jiggy](https://github.com/0xdea/jiggy) [[jiggy](https://crates.io/crates/jiggy)] - Minimalistic cross-platform mouse jiggler written in Rust [![build](https://github.com/0xdea/jiggy/actions/workflows/build.yml/badge.svg)](https://github.com/0xdea/oneiromancer/jiggy/workflows/build.yml)
 * [aichat](https://github.com/sigoden/aichat) - All-in-one LLM CLI tool featuring Shell Assistant, Chat-REPL, RAG, AI Tools & Agents, with access to OpenAI, Claude, Gemini, Ollama, Groq, and more.
 * [ast-grep](https://github.com/ast-grep/ast-grep) - A CLI tool for code structural search, lint and rewriting.
