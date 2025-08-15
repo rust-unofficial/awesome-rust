@@ -1260,13 +1260,12 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [bluss/ndarray](https://github.com/rust-ndarray/ndarray) - N-dimensional array with array views, multidimensional slicing, and efficient operations
 * [cocoindex](https://github.com/cocoindex-io/cocoindex) - ETL framework to build fresh index
 * [datafusion](https://github.com/apache/datafusion) - DataFusion is a very fast, extensible query engine for building high-quality data-centric systems in Rust, using the Apache Arrow in-memory format.
+* [datalogic-rs](https://github.com/GoPlasmatic/datalogic-rs) — High-performance, type-safe JSONLogic evaluation engine in Rust, ideal for business rules and dynamic filtering.
 * [kernelmachine/utah](https://github.com/kernelmachine/utah) - Dataframe structure and operations
 * [pg_analytics](https://github.com/paradedb/paradedb/tree/dev/pg_analytics) - PostgreSQL extension that accelerates analytical query processing inside Postgres to a performance level comparable to dedicated OLAP databases.
 * [pg_lakehouse](https://github.com/paradedb/paradedb/tree/dev/pg_lakehouse) - PostgreSQL extension that transforms Postgres into an analytical query engine over object stores like AWS S3/GCS and table formats like Delta Lake/Iceberg.
 * [pola-rs/polars](https://github.com/pola-rs/polars) - Fast feature complete DataFrame library [![Lint Rust](https://github.com/pola-rs/polars/actions/workflows/lint-rust.yml/badge.svg)](https://github.com/pola-rs/polars/actions)
 * [weld-project/weld](https://github.com/weld-project/weld) - High-performance runtime for data analytics applications
-* [datalogic-rs](https://github.com/GoPlasmatic/datalogic-rs) — High-performance, type-safe JSONLogic evaluation engine in Rust, ideal for business rules and dynamic filtering.
-* [datafake-rs](https://github.com/GoPlasmatic/datafake-rs) — High-performance JSON mock-data generator in Rust for fast and flexible test-data generation.
 
 ### Data streaming
 
@@ -1275,7 +1274,6 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [iggy](https://github.com/apache/iggy) [[iggy](https://crates.io/crates/iggy)] - Persistent message streaming platform, supporting QUIC, TCP and HTTP transport protocols [![CI](https://github.com/apache/iggy/actions/workflows/test.yml/badge.svg)](https://github.com/apache/iggy/actions/workflows/test.yml)
 * [infinyon/fluvio](https://github.com/infinyon/fluvio) - Programmable data streaming platform [![CI](https://github.com/infinyon/fluvio/actions/workflows/ci.yml/badge.svg)](https://github.com/infinyon/fluvio/actions)
 * [swim-rust](https://github.com/graphform/swim-rust) [[swim-rust](https://crates.io/crates/swimos)] - Self-contained distributed software platform for building stateful, massively real-time streaming applications.
-* [dataflow-rs](https://github.com/GoPlasmatic/dataflow-rs) — Event-driven, code-defined workflow orchestration engine in Rust for building high-performance data pipelines.
 
 ### Data structures
 
