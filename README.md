@@ -1572,7 +1572,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [Pumpkin](https://github.com/pumpkin-mc/pumpkin) - A high-performance Minecraft server Software fully written in Rust
 * [Raylib](https://www.raylib.com/)
   * [deltaphc/raylib-rs](https://github.com/deltaphc/raylib-rs) [[raylib](https://crates.io/crates/raylib)] - Bindings for raylib
-* [SDL](http://www.libsdl.org/) [[sdl](https://crates.io/keywords/sdl)]
+* [SDL](https://www.libsdl.org/) [[sdl](https://crates.io/keywords/sdl)]
   * [brson/rust-sdl](https://github.com/brson/rust-sdl) - SDL1 bindings
   * [Rust-SDL2/rust-sdl2](https://github.com/Rust-SDL2/rust-sdl2) - SDL2 bindings
 * SFML
