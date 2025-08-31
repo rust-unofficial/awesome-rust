@@ -185,7 +185,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 * [Spotify Player](https://github.com/aome510/spotify-player) - A Spotify player in the terminal with full feature parity.
 * [Spotifyd](https://github.com/Spotifyd/spotifyd) - An open source Spotify client running as a UNIX daemon. [![Continuous Integration](https://github.com/Spotifyd/spotifyd/actions/workflows/ci.yml/badge.svg)](https://github.com/Spotifyd/spotifyd/actions/workflows/ci.yml)
 * [termusic](https://github.com/tramhao/termusic) - Music Player TUI written
-* [tunein-cli](https://github.com/tsirysndr/tunein-cli) - Browse and listen to thousands of radio stations across the globe right from your terminal
+* [tunein-cli](https://github.com/tsirysndr/tunein-cli) - Browse and listen to thousands of radio stations across the globe right from your terminal ![CI](https://github.com/tsirysndr/tunein-cli/actions/workflows/ci.yml/badge.svg)
 * [WhatBPM](https://github.com/sergree/whatbpm) - A daily statically generated information resource for electronic dance music producers. Provides daily analytics on the most frequently used values for each EDM genre: tempos, keys, root notes, and so on, using publicly available data such as Beatport and Spotify.
 
 ### Blockchain
