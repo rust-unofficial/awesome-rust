@@ -1005,6 +1005,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [Mottl/lightgb3-rs](https://github.com/Mottl/lightgbm3-rs) - Bindings for LightGBM [![Crates.io](https://img.shields.io/crates/v/lightgbm3.svg)](https://crates.io/crates/lightgbm3) [![build](https://github.com/Mottl/lightgbm3-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/Mottl/lightgbm3-rs/actions)
 * [perpetual-ml/perpetual](https://github.com/perpetual-ml/perpetual) [[perpetual](https://crates.io/crates/perpetual)] - A self-generalizing gradient boosting machine which doesn't need hyperparameter optimization.
 * [ramsyana/RustTensor](https://github.com/ramsyana/RustTensor) - A learning-focused, high-performance tensor computation library built from scratch in Rust with automatic differentiation and CPU/CUDA backends.
+* [Michael-A-Kuykendall/rustchain-community] (https://github.com/Michael-A-Kuykendall/rustchain-community) [[rustchain-community](https://crates.io/crates/rustchain-community)] - Rust-native agentic workflow and LLM orchestration framework (LangChain alternative).
 * [rust-ml/linfa](https://github.com/rust-ml/linfa) - Machine learning framework.
 * [smartcorelib/smartcore](https://github.com/smartcorelib/smartcore) - Machine Learning Library [![Build Status](https://img.shields.io/circleci/build/github/smartcorelib/smartcore)]
 * [tensorflow/rust](https://github.com/tensorflow/rust) - Bindings for TensorFlow.
