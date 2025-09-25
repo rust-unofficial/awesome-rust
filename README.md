@@ -1601,7 +1601,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
 
 [[geo](https://crates.io/keywords/geo), [gis](https://crates.io/keywords/gis)]
 
-* [apache/sedona-db](https://github.com/apache/sedona-db/) - SedonaDB is a geospatial DataFrame library written in Rust.
+* [apache/sedona-db](https://github.com/apache/sedona-db) - SedonaDB is a geospatial DataFrame library written in Rust.
 * [DaveKram/coord_transforms](https://github.com/DaveKram/coord_transforms) [[coord_transforms](https://crates.io/crates/coord_transforms)] - coordinate transformations (2-d, 3-d, and geospatial)
 * [Georust](https://github.com/georust) - geospatial tools and libraries written
 * [MapLibre/Martin](https://github.com/maplibre/martin) - Map tile server with PostGIS, MBTiles, PMTiles, and sprites support. [![CI build](https://github.com/maplibre/martin/actions/workflows/ci.yml/badge.svg)](https://github.com/maplibre/martin/actions)[![crates.io version](https://img.shields.io/crates/v/martin.svg)](https://crates.io/crates/martin)[![Book](https://img.shields.io/badge/docs-Book-informational)](https://maplibre.org/martin/)
