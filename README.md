@@ -401,7 +401,7 @@ See also [Games Made With Piston](https://github.com/PistonDevelopers/piston/wik
 
 * [RobustMQ](https://github.com/robustmq/robustmq) - Next generation cloud-native converged message queue.
 * [Rocketmq-Rust](https://github.com/mxsm/rocketmq-rust) - 🚀Apache RocketMQ build in Rust🦀. Faster, safer, and with lower memory usage.
-* [Rmqtt](https://github.com/rmqtt/rmqttt) - MQTT Server/MQTT Broker - Scalable Distributed MQTT Message Broker for IoT in the 5G Era
+* [Rmqtt](https://github.com/rmqtt/rmqtt) - MQTT Server/MQTT Broker - Scalable Distributed MQTT Message Broker for IoT in the 5G Era
 
 ### MLOps
 
