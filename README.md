@@ -317,6 +317,10 @@ See also [crates matching keyword 'emulator'](https://crates.io/keywords/emulato
 * NES
   * [koute/pinky](https://github.com/koute/pinky) - A NES emulator
   * [pcwalton/sprocketnes](https://github.com/pcwalton/sprocketnes) - A NES emulator
+  * [tetanes/lukexor](https://github.com/0x5a17ed/tetanes) - A cross-platform NES emulator written in Rust using wgpu. 
+  [![CI](https://github.com/0x5a17ed/tetanes/actions/workflows/ci.yml/badge.svg)](https://github.com/0x5a17ed/tetanes/actions)
+  [![License](https://img.shields.io/github/license/0x5a17ed/tetanes)](https://github.com/0x5a17ed/tetanes/blob/main/LICENSE)
+
 * Nintendo 64
   * [gopher64](https://github.com/gopher64/gopher64) - N64 emulator written in Rust
 * Nintendo DS
