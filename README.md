@@ -316,7 +316,8 @@ See also [crates matching keyword 'emulator'](https://crates.io/keywords/emulato
   * [clicky](https://github.com/daniel5151/clicky) - A clickwheel iPod emulator (WIP)
 * NES
   * [koute/pinky](https://github.com/koute/pinky) - A NES emulator
-  * [pcwalton/sprocketnes](https://github.com/pcwalton/sprocketnes) - A NES emulator
+  * [lukexor/tetanes](https://github.com/lukexor/tetanes) — A cross-platform NES emulator written in Rust using wgpu . [![Crates.io](https://img.shields.io/crates/v/tetanes.svg)](https://crates.io/crates/tetanes) [![CI](https://github.com/lukexor/tetanes/actions/workflows/ci.yml/badge.svg)](https://github.com/lukexor/tetanes/actions/workflows/ci.yml)
+  * [pcwalton/sprocketnes](https://github.com/pcwalton/sprocketnes) - A NES emulator  
 * Nintendo 64
   * [gopher64](https://github.com/gopher64/gopher64) - N64 emulator written in Rust
 * Nintendo DS
