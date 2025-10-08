@@ -83,6 +83,7 @@ lazy_static! {
         "https://marketplace.visualstudio.com/items?itemName=fill-labs.dependi", // marketplace link , but also has enough stars
         "https://github.com/TraceMachina/nativelink", // 1.4k stars, probably broken because @palfrey now works for them...
         "https://www.repoflow.io", // added per discussion in the RepoFlow pull request: https://github.com/rust-unofficial/awesome-rust/pull/2054 (see package downloads: https://app.repoflow.io/repoflow-public/package/f429fabf-6289-49c2-acd9-791b39eac746)
+        "https://framagit.org/ppom/reaction", // has 56 stars at time of writing
     ].iter().map(|s| s.to_string()).collect();
 }
 
