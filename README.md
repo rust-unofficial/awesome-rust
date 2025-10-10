@@ -1228,6 +1228,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [orx-parallel](https://crates.io/crates/orx-parallel) - High performance, configurable and expressive parallel computation library.
 * [Rayon](https://github.com/rayon-rs/rayon) - A data parallelism library
 * [rustcc/coroutine-rs](https://github.com/rustcc/coroutine-rs) - Coroutine Library
+* [NikitaSmithTheOne/rate-limiters-rs](https://github.com/NikitaSmithTheOne/rate-limiters-rs) [[rate-limiters](https://crates.io/crates/rate_limiters)] - Rust library for rate limiting (Leaky Bucket, Token Bucket, Fixed/Sliding Window)
 * [zonyitoo/coio-rs](https://github.com/zonyitoo/coio-rs) - Coroutine I/O
 
 ### Configuration
