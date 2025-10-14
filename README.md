@@ -1828,6 +1828,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [ptal/oak](https://github.com/ptal/oak) - A typed PEG parser generator (compiler plugin)
   * [rust-bakery/nom](https://github.com/rust-bakery/nom) - parser combinator library
   * [s-panferov/queryst](https://github.com/s-panferov/queryst) - A query string parsing library inspired by [gs](https://github.com/ljharb/qs#readme)
+  * [slimreaper35/dockerfile-parser-rs](https://github.com/slimreaper35/dockerfile-parser-rs) [[dockerfile-parser-rs](https://crates.io/crates/dockerfile-parser-rs)] - Dockerfile parsing library and CLI tool
   * [softdevteam/grmtools](https://github.com/softdevteam/grmtools/) - A LR parser with better error correction
   * [tree-sitter/tree-sitter](https://github.com/tree-sitter/tree-sitter) - A parser generator tool and an incremental parsing library geared towards programming tools
 
