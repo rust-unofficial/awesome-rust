@@ -1543,6 +1543,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
   * [Stebalien/tempfile](https://github.com/Stebalien/tempfile) - temporary file library
   * [Stebalien/xattr](https://github.com/Stebalien/xattr) [[xattr](https://crates.io/crates/xattr)] - list and manipulate unix extended file attributes
   * [zboxfs/zbox](https://github.com/zboxfs/zbox) [[zbox](https://crates.io/crates/zbox)] - Zero-details, privacy-focused embeddable file system.
+* [dir-structure](https://github.com/dnbln/dir-structure) [[dir-structure](https://crates.io/crates/dir-structure)] - Model file system trees with plain Rust structures. [![Tests](https://github.com/dnbln/dir-structure/actions/workflows/test-dir-structure.yml/badge.svg?branch=trunk)](https://github.com/dnbln/dir-structure/actions/workflows/test-dir-structure.yml)
 
 ### Finance
 
