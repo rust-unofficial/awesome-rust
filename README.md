@@ -981,6 +981,8 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust Tools](https://
 
 ### Artificial Intelligence
 
+* [rust-rule-engine](https://github.com/KSD-CO/rust-rule-engine) — A high-performance rule engine with AI integration, supporting GRL syntax, ML model integration, and real-time decision making.
+
 #### Genetic algorithms
 
 * [innoave/genevo](https://github.com/innoave/genevo) - Execute genetic algorithm (GA) simulations in a customizable and extensible way.
