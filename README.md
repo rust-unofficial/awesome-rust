@@ -146,6 +146,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 * [kftray](https://github.com/hcavarsan/kftray) - A cross-platform system tray app for managing and sharing multiple kubectl port-forward configurations. [![Build Status](https://github.com/hcavarsan/kftray/workflows/Release/badge.svg)](https://github.com/hcavarsan/kftray/actions)
 * [kytan](https://github.com/changlan/kytan) - High Performance Peer-to-Peer VPN
 * [linkerd/linkerd2-proxy](https://github.com/linkerd/linkerd2-proxy) - Ultralight service mesh for Kubernetes.
+* [litho-book](https://github.com/sopaco/litho-book) - A lightweight markdown reader specifically designed for viewing markdown files.[![crates.io](https://img.shields.io/crates/v/litho-book?logo=rust)](https://crates.io/crates/litho-book)
 * [MaidSafe](https://github.com/maidsafe) - A decentralized platform.
 * [mdBook](https://github.com/rust-lang/mdBook) - A command line utility to create books from markdown files [![Build Status](https://github.com/rust-lang/mdBook/actions/workflows/main.yml/badge.svg)](https://github.com/rust-lang/mdBook/actions)
 * [Mega](https://github.com/web3infra-foundation/mega) - A monorepo & monolithic codebase management system that supports Git, also is an unofficial open source implementation of Google Piper.
@@ -922,6 +923,7 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust Tools](https://
 
 ### Services
 
+* [deepwiki-rs](https://github.com/sopaco/deepwiki-rs) - Transform your codebase into professional architecture documentation
 * [deps.rs](https://github.com/deps-rs/deps.rs) - Detect outdated or insecure dependencies
 * [docs.rs](https://docs.rs) - Automatic documentation generation of crates
 
