@@ -1764,7 +1764,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [tikv/grpc-rs](https://github.com/tikv/grpc-rs) - The gRPC library built on C Core library and futures
 * HTTP
   * [Hurl](https://github.com/Orange-OpenSource/hurl) - Run and test HTTP requests with plain text and libcurl [![CI](https://github.com/Orange-OpenSource/hurl/workflows/CI/badge.svg)](https://github.com/Orange-OpenSource/hurl/actions)
-  * [deboa](https://crates.io/crates/deboa#:~:text=github.com/ararog/deboa) - A friendly http client on top of hyper with several addoons, serialization formats and macros. [![Crates.io](https://img.shields.io/crates/v/deboa)] 
+  * [deboa](https://crates.io/crates/deboa) - A friendly http client on top of hyper with several addoons, serialization formats and macros. [![Crates.io](https://img.shields.io/crates/v/deboa)] 
 * IPNetwork
   * [achanda/ipnetwork](https://github.com/achanda/ipnetwork) - A library to work with IP networks
   * [candrew/netsim](https://github.com/canndrew/netsim) - A library for network simulation and testing
