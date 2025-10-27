@@ -1305,6 +1305,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 
 * [ashvardanian/simsimd](https://github.com/ashvardanian/SimSIMD) - SIMD-accelerated vector distances and similarity functions for x86 AVX2 & AVX-512, and Arm NEON [![crates.io](https://img.shields.io/crates/v/simsimd.svg)](https://crates.io/crates/simsimd)
 * [becheran/grid](https://github.com/becheran/grid) [[grid](https://crates.io/crates/grid)] - Provide a two dimensional data structure that is easy to use and fast. [![build status](https://github.com/becheran/grid/actions/workflows/rust.yml/badge.svg)](https://github.com/becheran/grid/actions)
+* [bilinearlabs/rs-merkle-tree](https://github.com/bilinearlabs/rs-merkle-tree/) - Merkle tree implementation in Rust with configurable storage backends and hash functions. Fixed depth and incremental only. Optimized for fast proof generation. 
 * [billyevans/tst](https://github.com/billyevans/tst) [[tst](https://crates.io/crates/tst)] - Ternary search tree collection
 * [contain-rs](https://github.com/contain-rs) - Extension of Rust's std::collections
 * [danielpclark/array_tool](https://github.com/danielpclark/array_tool) - Array helpers. Some of the most common methods you would use on Arrays made available on Vectors. Polymorphic implementations for handling most of your use cases.
@@ -1318,7 +1319,6 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [tnballo/scapegoat](https://github.com/tnballo/scapegoat) [[scapegoat](https://crates.io/crates/scapegoat)] - Safe, fallible, stack-only alternative to `BTreeSet` and `BTreeMap`. [![GitHub Actions](https://github.com/tnballo/scapegoat/workflows/test/badge.svg?branch=master)](https://github.com/tnballo/scapegoat/actions)
 * [xfix/enum-map](https://codeberg.org/xfix/enum-map) [[enum-map](https://crates.io/crates/enum-map)] - An optimized map implementation for enums using an array to store values.
 * [yamafaktory/hypergraph](https://github.com/yamafaktory/hypergraph) [[hypergraph](https://crates.io/crates/hypergraph)] - Hypergraph is a data structure library to generate directed hypergraphs. [![ci](https://github.com/yamafaktory/hypergraph/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/yamafaktory/hypergraph/actions/workflows/ci.yml)
-* [bilinearlabs/rs-merkle-tree](https://github.com/bilinearlabs/rs-merkle-tree/) - Merkle tree implementation in Rust with configurable storage backends and hash functions. Fixed depth and incremental only. Optimized for fast proof generation. 
 
 ### Data visualization
 
