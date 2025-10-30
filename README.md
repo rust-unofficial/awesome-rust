@@ -39,6 +39,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   * [Virtualization](#virtualization)
   * [Web](#web)
   * [Web Servers](#web-servers)
+  * [Workflow Automation](#workflow-automation)
 - [Development tools](#development-tools)
   * [Build system](#build-system)
   * [Debugging](#debugging)
@@ -691,6 +692,10 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [thecoshman/http](https://github.com/thecoshman/http) - Host These Things Please - A basic http server for hosting a folder fast and simply
 * [TheWaWaR/simple-http-server](https://github.com/TheWaWaR/simple-http-server) - simple static http server
 * [vproxy/0x676e67](https://github.com/0x676e67/vproxy) - An fast asynchronous Rust HTTP/Socks5 Proxy
+
+### Workflow Automation
+
+* [dali-benothmen/cronflow](https://github.com/dali-benothmen/cronflow) - Cronflow is a high-performance, developer-focused workflow automation library that lets you build and orchestrate complex, scalable automation workflows fully in code. [![release](https://github.com/dali-benothmen/cronflow/actions/workflows/release.yml/badge.svg)](https://github.com/dali-benothmen/cronflow/actions/workflows/release.yml)
 
 ## Development tools
 
