@@ -15,7 +15,7 @@ use std::env;
 use std::fs;
 use std::io::Write;
 use std::time;
-use std::u8;
+
 use thiserror::Error;
 use tokio::sync::Semaphore;
 use tokio::sync::SemaphorePermit;
@@ -182,11 +182,12 @@ async fn main() -> Result<()> {
     let mut to_check: Vec<String> = vec![];
 
     for (event, _) in parser.into_offset_iter() {
-        if let Event::Start(tag) = event {
-            if let Tag::Link(_link_type, url, _title) | Tag::Image(_link_type, url, _title) = tag {
-                if GITHUB_REPO_REGEX.is_match(&url) {
-                    to_check.push(url.to_string());
-                }
+        if let Event::Start(
+            Tag::Link(_link_type, url, _title) | Tag::Image(_link_type, url, _title),
+        ) = event
+        {
+            if GITHUB_REPO_REGEX.is_match(&url) {
+                to_check.push(url.to_string());
             }
         }
     }

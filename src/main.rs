@@ -14,7 +14,7 @@ use std::collections::{BTreeMap, BTreeSet};
 use std::env;
 use std::io::Write;
 use std::time;
-use std::u8;
+
 use std::{cmp::Ordering, fs};
 use thiserror::Error;
 use tokio::sync::Semaphore;
@@ -40,8 +40,7 @@ fn override_stars(level: u32, text: &str) -> Option<u32> {
 
 lazy_static! {
     // We don't explicitly check these, because they just bug out in GitHub. We're _hoping_ they don't go away!
-    static ref ASSUME_WORKS: Vec<String> = vec![
-        "https://www.reddit.com/r/rust/",
+    static ref ASSUME_WORKS: Vec<String> = ["https://www.reddit.com/r/rust/",
         "https://opcfoundation.org/about/opc-technologies/opc-ua/",
         "https://arangodb.com",
         "https://git.sr.ht/~lessa/pepper",
@@ -50,8 +49,7 @@ lazy_static! {
         "http://www.gnu.org/software/gsl/",
         "https://labex.io/skilltrees/rust",
         "https://github.com/TraceMachina/nativelink", // probably broken because @palfrey now works for them...
-        "https://www.vulkan.org/",
-    ].iter().map(|s| s.to_string()).collect();
+        "https://www.vulkan.org/"].iter().map(|s| s.to_string()).collect();
     // Overrides for popularity count, each needs a good reason (i.e. downloads/stars we don't support automatic counting of)
     // Each is a URL that's "enough" for an item to pass the popularity checks
     static ref POPULARITY_OVERRIDES: Vec<String> = vec![
@@ -303,7 +301,7 @@ fn get_url_core(url: String) -> BoxFuture<'static, (String, Result<(), CheckerEr
                 }
                 Ok(ok) => {
                     let status = ok.status();
-                    if !vec![StatusCode::OK, StatusCode::ACCEPTED].contains(&status) {
+                    if ![StatusCode::OK, StatusCode::ACCEPTED].contains(&status) {
                         lazy_static! {
                             static ref ACTIONS_REGEX: Regex = Regex::new(r"https://github.com/(?P<org>[^/]+)/(?P<repo>[^/]+)/actions(?:\?workflow=.+)?").unwrap();
                             static ref YOUTUBE_VIDEO_REGEX: Regex = Regex::new(r"https://www.youtube.com/watch\?v=(?P<video_id>.+)").unwrap();
