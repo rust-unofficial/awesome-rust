@@ -1035,6 +1035,17 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 
 * [BAML](https://github.com/BoundaryML/baml) - A simple prompting language for building reliable AI workflows and agents. BAML's compiler is written in Rust!
 
+#### LLMs and Agents
+
+* [helios-engine](https://crates.io/crates/helios-engine) - powerful and flexible Rust framework for building LLM-powered agents with tool support, streaming chat capabilities, and easy configuration management.
+* [rig-core](https://crates.io/crates/rig-core) - Rig is a Rust library for building scalable, modular, and ergonomic LLM-powered applications.
+* [kalosm](https://crates.io/crates/kalosm) - Kalosm is a simple interface for pre-trained models in rust. It makes it easy to interact with pre-trained, language, audio, and image models.
+* [langchain-rust](https://crates.io/crates/langchain-rust) - LangChain for Rust, the easiest way to write LLM-based programs in Rust
+* [transformers](https://crates.io/crates/transformers) - Transformers provides a simple, intuitive interface for Rust developers who want to work with Large Language Models locally, powered by the Candle crate. It offers an API inspired by Python's Transformers, tailored for Rust developers.
+* [mistral.rs](https://github.com/EricLBuehler/mistral.rs) - Mistral.rs is a cross-platform, highly-multimodal inference engine and   Blazingly fast LLM inference.
+* [candle-vllm](https://github.com/EricLBuehler/candle-vllm) - Efficient, easy-to-use platform for inference and serving local LLMs including an OpenAI compatible API server.
+* [llama-cpp-2](https://crates.io/crates/llama-cpp-2) - A wrapper around the llama-cpp library for rust.
+
 ### Astronomy
 
 [[astronomy](https://crates.io/keywords/astronomy)]
