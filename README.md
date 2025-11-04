@@ -520,6 +520,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [cristianoliveira/funzzy](https://github.com/cristianoliveira/funzzy) - A configurable filesystem watcher inspired by [entr](http://eradman.com/entrproject/)
 * [dalance/procs](https://github.com/dalance/procs) - A modern replacement for 'ps' [![Regression](https://github.com/dalance/procs/actions/workflows/regression.yml/badge.svg)](https://github.com/dalance/procs/actions/workflows/regression.yml)
 * [ddh](https://github.com/darakian/ddh) - Fast duplicate file finder
+* [deshaw/procfd](https://github.com/deshaw/procfd) [[procfd](https://crates.io/crates/procfd)] - Linux lsof replacement to list open file descriptors for processes
 * [diskonaut](https://github.com/imsnif/diskonaut) - Terminal visual disk space navigator
 * [dust](https://github.com/bootandy/dust) - A more intuitive version of du
 * [eza-community/eza](https://github.com/eza-community/eza) - A replacement for 'ls'
