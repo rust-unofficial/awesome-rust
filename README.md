@@ -174,6 +174,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 * [wezterm](https://github.com/wezterm/wezterm) - A GPU-accelerated cross-platform terminal emulator and multiplexer
 * [WinterJS](https://github.com/wasmerio/winterjs) - A secure JavaScript runtime built with SpiderMonkey and Axum
 * [zellij](https://github.com/zellij-org/zellij) - A terminal multiplexer (workspace) with batteries included
+* [qiluo-admin](https://github.com/chelunfu/qiluo_admin) | Axum + SeaORM + JWT + Scheduled + Tasks + SnowId + Redis + Memory + VUE3 | DB: MySQL, Postgres, SQLite
 
 ### Audio and Music
 
