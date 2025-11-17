@@ -380,6 +380,7 @@ See also [Games Made With Piston](https://github.com/PistonDevelopers/piston/wik
 * [Veloren](https://gitlab.com/veloren/veloren) - An open world, open source multiplayer voxel RPG game currently in alpha development [![build badge](https://gitlab.com/veloren/veloren/badges/master/pipeline.svg)](https://gitlab.com/veloren/veloren/-/pipelines)
 * [zipxing/rust_pixel](https://github.com/zipxing/rust_pixel) [[rust_pixel](https://crates.io/crates/rust_pixel)] - A 2D pixel art game engine & rapid prototyping tools, supporting both text and graphical rendering modes.
 * [Zone of Control](https://github.com/ozkriff/zoc) - A turn-based hexagonal strategy game
+* [Brickbyte](https://gitlab.com/Stoniye/brickbyte) - A 3D Voxel Game with OpenGL
 
 ### Graphics
 
