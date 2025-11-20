@@ -540,6 +540,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [Kondo](https://github.com/tbillington/kondo) - CLI & GUI tool for deleting software project artifacts and reclaiming disk space
 * [LACT](https://github.com/ilya-zlobintsev/LACT) - Linux AMDGPU Controller
 * [lodosgroup/lpm](https://github.com/lodosgroup/lpm) - An experimental system package manager
+* [LogLens](https://github.com/Caelrith/loglens-core) - A structured log viewer and query engine for the terminal.
 * [lotabout/rargs](https://github.com/lotabout/rargs) [[rargs](https://crates.io/crates/rargs)] - xargs + awk with pattern matching support
 * [lsd](https://github.com/lsd-rs/lsd) - An ls with a lot of pretty colors and awesome icons [![build](https://github.com/lsd-rs/lsd/actions/workflows/CICD.yml/badge.svg)](https://github.com/lsd-rs/lsd/actions)
 * [Luminarys/synapse](https://github.com/Luminarys/synapse) - Flexible and fast BitTorrent daemon.
