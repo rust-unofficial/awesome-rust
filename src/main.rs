@@ -51,6 +51,7 @@ lazy_static! {
         "https://labex.io/skilltrees/rust",
         "https://github.com/TraceMachina/nativelink", // probably broken because @palfrey now works for them...
         "https://www.vulkan.org/",
+        "https://gitlab.redox-os.org/redox-os/redox", // Cloudflare
     ].iter().map(|s| s.to_string()).collect();
     // Overrides for popularity count, each needs a good reason (i.e. downloads/stars we don't support automatic counting of)
     // Each is a URL that's "enough" for an item to pass the popularity checks
@@ -83,6 +84,7 @@ lazy_static! {
         "https://marketplace.visualstudio.com/items?itemName=fill-labs.dependi", // marketplace link , but also has enough stars
         "https://github.com/TraceMachina/nativelink", // 1.4k stars, probably broken because @palfrey now works for them...
         "https://www.repoflow.io", // added per discussion in the RepoFlow pull request: https://github.com/rust-unofficial/awesome-rust/pull/2054 (see package downloads: https://app.repoflow.io/repoflow-public/package/f429fabf-6289-49c2-acd9-791b39eac746)
+        "https://framagit.org/ppom/reaction", // has 56 stars at time of writing
     ].iter().map(|s| s.to_string()).collect();
 }
 
@@ -266,7 +268,8 @@ async fn get_downloads(github_url: &str) -> Option<u64> {
 
 fn get_url_core(url: String) -> BoxFuture<'static, (String, Result<(), CheckerError>)> {
     async move {
-        if ASSUME_WORKS.contains(&url) {
+        if ASSUME_WORKS.contains(&url) || url.starts_with("https://medium.com") // cloudflare
+        {
             info!("We assume {} just works...", url);
             return (url, Ok(()));
         }
@@ -302,7 +305,7 @@ fn get_url_core(url: String) -> BoxFuture<'static, (String, Result<(), CheckerEr
                 }
                 Ok(ok) => {
                     let status = ok.status();
-                    if status != StatusCode::OK {
+                    if !vec![StatusCode::OK, StatusCode::ACCEPTED].contains(&status) {
                         lazy_static! {
                             static ref ACTIONS_REGEX: Regex = Regex::new(r"https://github.com/(?P<org>[^/]+)/(?P<repo>[^/]+)/actions(?:\?workflow=.+)?").unwrap();
                             static ref YOUTUBE_VIDEO_REGEX: Regex = Regex::new(r"https://www.youtube.com/watch\?v=(?P<video_id>.+)").unwrap();
