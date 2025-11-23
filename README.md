@@ -932,7 +932,7 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust Tools](https://
   * [llogiq/flame](https://github.com/llogiq/flame) - An intrusive flamegraph profiling tool for rust
   * [mrhooray/torch](https://github.com/mrhooray/torch) - generates FlameGraphs based on DWARF Debug Info
 * [g3bench](https://github.com/bytedance/g3) - A benchmark tool that supports HTTP 1.x, HTTP 2, HTTP 3, TLS Handshake, DNS and Cloudflare Keyless
-* [pawurb/hotpath](https://github.com/pawurb/hotpath) - A simple profiler that shows exactly where your code spends time and allocates [![GH Actions](https://github.com/pawurb/hotpath/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/pawurb/hotpath/actions)
+* [pawurb/hotpath](https://github.com/pawurb/hotpath-rs) - A simple profiler that shows exactly where your code spends time and allocates [![GH Actions](https://github.com/pawurb/hotpath-rs/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/pawurb/hotpath-rs/actions)
 * [sharkdp/hyperfine](https://github.com/sharkdp/hyperfine) - A command-line benchmarking tool
 
 ### Services
@@ -1426,7 +1426,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
     * [rust-postgres](https://github.com/rust-postgres/rust-postgres) [[postgres](https://crates.io/crates/postgres)] - A native [PostgreSQL](https://www.postgresql.org/) client
   * Sqlite [[sqlite](https://crates.io/keywords/sqlite)]
     * [rusqlite](https://github.com/rusqlite/rusqlite) - [Sqlite3](https://sqlite.org/index.html) bindings
-* [VennDB](https://venndb.rs/) [[venndb](https://github.com/plabayo/venndb)] - An append-only in-memory database in Rust for rows queried using bit (flag) columns.
+* [VennDB](https://venndb.plabayo.tech/) [[venndb](https://github.com/plabayo/venndb)] - An append-only in-memory database in Rust for rows queried using bit (flag) columns.
 
 ### Date and time
 
