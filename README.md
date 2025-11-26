@@ -1316,7 +1316,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [ArroyoSystems/arroyo](https://github.com/ArroyoSystems/arroyo) - High-performance real-time analytics in Rust and SQL [![CI](https://github.com/ArroyoSystems/arroyo/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/ArroyoSystems/arroyo/actions)
 * [iggy](https://github.com/apache/iggy) [[iggy](https://crates.io/crates/iggy)] - Persistent message streaming platform, supporting QUIC, TCP and HTTP transport protocols [![CI](https://github.com/apache/iggy/actions/workflows/test.yml/badge.svg)](https://github.com/apache/iggy/actions/workflows/test.yml)
 * [infinyon/fluvio](https://github.com/infinyon/fluvio) - Programmable data streaming platform [![CI](https://github.com/infinyon/fluvio/actions/workflows/ci.yml/badge.svg)](https://github.com/infinyon/fluvio/actions)
-* [wingfoil](https://github.com/wingfoil-io/wingfoil) [[wingfoil] (https://crates.io/users/0-jake-0)] - ultra-low latency data streaming platform with Python and other integrations
+* [wingfoil](https://github.com/wingfoil-io/wingfoil) [[wingfoil](https://crates.io/users/0-jake-0)] - ultra-low latency data streaming platform with Python and other integrations
   
 ### Data structures
 
