@@ -1046,6 +1046,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 #### Tooling
 
 * [BAML](https://github.com/BoundaryML/baml) - A simple prompting language for building reliable AI workflows and agents. BAML's compiler is written in Rust!
+* [SaynaAI/sayna](https://github.com/SaynaAI/sayna) - A unified voice layer for AI agents with real-time STT/TTS streaming via WebSocket and REST APIs.
 
 ### Astronomy
 
