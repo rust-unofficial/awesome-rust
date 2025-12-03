@@ -1863,6 +1863,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [slimreaper35/dockerfile-parser-rs](https://github.com/slimreaper35/dockerfile-parser-rs) [[dockerfile-parser-rs](https://crates.io/crates/dockerfile-parser-rs)] - Dockerfile parsing library and CLI tool
   * [softdevteam/grmtools](https://github.com/softdevteam/grmtools/) - A LR parser with better error correction
   * [tree-sitter/tree-sitter](https://github.com/tree-sitter/tree-sitter) - A parser generator tool and an incremental parsing library geared towards programming tools
+  * [wudi/php-parser](https://github.com/wudi/php-parser) - A fast PHP parser written in Rust
 
 ### Peripherals
 
