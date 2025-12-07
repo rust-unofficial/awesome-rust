@@ -2147,13 +2147,13 @@ A registry allows you to publish your Rust libraries as crate packages, to share
   * [Rustacean Station](https://rustacean-station.org/) - A community project for creating podcast content for Rust
 * [Rust Design Patterns](https://github.com/rust-unofficial/patterns) - A catalogue of Rust design patterns, anti-patterns and idioms
 * [Rust Guidelines](http://aturon.github.io/) - Aaron Turon's blog posts on rust
+* [Rust Security Handbook](https://github.com/yevh/rust-security-handbook) - A 10-chapter handbook for writing actually secure Rust: type-safety, panic-proofing & more.
 * [Rust Servers, Services and Apps - MEAP](https://www.manning.com/books/rust-servers-services-and-apps) - Build backend servers, services, and front-ends in Rust to get fast, reliable, and maintainable applications.
 * [Rust Subreddit](https://www.reddit.com/r/rust/) - A subreddit(forum) where rust related questions, articles and resources are posted and discussed
 * [RustBooks](https://github.com/sger/RustBooks) - list of RustBooks
 * [RustCamp 2015 Talks](https://www.youtube.com/playlist?list=PLE7tQUdRKcybdIw61JpCoo89i4pWU5f_t) - Recorded talks from RustCamp 2015
 * [RustViz](https://github.com/rustviz/rustviz) - generates visualizations from simple Rust programs to assist users in better understanding the Rust Lifetime and Borrowing mechanism.
 * [Watch Jon Gjengset Implement BitTorrent in Rust](https://www.youtube.com/watch?v=jf_ddGnum_4) - Implementing (part of) a BitTorrent client in Rust
-* [Rust Security Handbook](https://github.com/yevh/rust-security-handbook) - A 10-chapter handbook for writing actually secure Rust: type-safety, panic-proofing & more.
 
 ## License
 
