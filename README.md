@@ -957,7 +957,8 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust Tools](https://
 ### Testing
 
 [[test](https://crates.io/keywords/test), [testing](https://crates.io/keywords/testing)]
-
+* Assertions and Matchers
+  * [googletest-json-serde](https://crates.io/crates/googletest-json-serde) [![Latest Version](https://img.shields.io/crates/v/googletest-json-serde.svg)](https://crates.io/crates/googletest-json-serde) - A collection of JSON matchers for googletest-rust, supporting paths, arrays, and objects. [![Build Status](https://github.com/chege/googletest-json-serde/actions/workflows/ci.yaml/badge.svg)](https://github.com/chege/googletest-json-serde/actions)
 * Code Coverage
   * [tarpaulin](https://crates.io/crates/cargo-tarpaulin) - A code coverage tool
 * Continuous Integration
