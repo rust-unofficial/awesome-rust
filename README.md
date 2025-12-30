@@ -709,6 +709,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [thecoshman/http](https://github.com/thecoshman/http) - Host These Things Please - A basic http server for hosting a folder fast and simply
 * [TheWaWaR/simple-http-server](https://github.com/TheWaWaR/simple-http-server) - simple static http server
 * [vproxy/0x676e67](https://github.com/0x676e67/vproxy) - An fast asynchronous Rust HTTP/Socks5 Proxy
+* [RustAPI](https://github.com/Tuntii/RustAPI) - A DX-first, FastAPI-like web framework for Rust that provides automatic Swagger UI documentation and declarative validation out of the box
 
 ### Workflow Automation
 
