@@ -378,6 +378,7 @@ See also [Games Made With Piston](https://github.com/PistonDevelopers/piston/wik
 * [rsaarelm/magog](https://github.com/rsaarelm/magog) - A roguelike game.
 * [SoftbearStudios/mk48](https://github.com/SoftbearStudios/mk48) - Mk48.io is an online multiplayer naval combat game
 * [swatteau/sokoban-rs](https://github.com/swatteau/sokoban-rs) - A Sokoban implementation
+* [Th0rgal/shard](https://github.com/Th0rgal/shard) - Open-source Minecraft launcher with declarative profiles, content-addressed storage, and Modrinth/CurseForge integration. Built with Tauri.
 * [thetawavegame/thetawave-legacy](https://github.com/thetawavegame/thetawave-legacy) - A space shooter game that strives to be an entry point for new game developers to make their first contributions. ![build badge](https://github.com/thetawavegame/thetawave-legacy/actions/workflows/ci.yml/badge.svg?branch=master)
 * [Thinkofname/rust-quake](https://github.com/Thinkofname/rust-quake) - Quake map renderer.
 * [topheman/snake-pipe-rust](https://github.com/topheman/snake-pipe-rust) - A snake game in the terminal based on stdin/stdout (+tcp and unix domain sockets) [![crates.io](https://img.shields.io/crates/v/snakepipe.svg)](https://crates.io/crates/snakepipe)
