@@ -1053,6 +1053,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 #### Tooling
 
 * [BAML](https://github.com/BoundaryML/baml) - A simple prompting language for building reliable AI workflows and agents. BAML's compiler is written in Rust!
+* [Cortex Memory](https://github.com/sopaco/cortex-mem) - A complete solution for agent memory, from extraction and vector search to automated optimization, and insights dashboard out-of-the-box.
 
 ### Astronomy
 
