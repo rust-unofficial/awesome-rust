@@ -1820,6 +1820,8 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [thehydroimpulse/nanomsg.rs](https://github.com/thehydroimpulse/nanomsg.rs) - [nanomsg](https://nanomsg.org/) bindings
 * NATS
   * [nats-io/nats.rs](https://github.com/nats-io/nats.rs) - Client for NATS, the cloud native messaging system. [![Build Status](https://github.com/nats-io/nats.rs/workflows/Rust/badge.svg?branch=master)](https://github.com/nats-io/nats.rs/actions)
+* NAT traversal
+  * [vjyanand/quic-frp](https://github.com/vjyanand/quic-frp) - A fast, lightweight reverse proxy built on QUIC protocol for exposing local services behind NAT or firewall to the internet. [![Rust](https://github.com/vjyanand/quic-frp/actions/workflows/rust.yml/badge.svg)](https://github.com/vjyanand/quic-frp/actions/workflows/rust.yml) 
 * Nng
   * [neachdainn/nng-rs](https://gitlab.com/neachdainn/nng-rs) [[Nng](https://crates.io/crates/nng)] - [Nng (nanomsg v2)](https://nng.nanomsg.org/index.html) bindings [![build badge](https://gitlab.com/neachdainn/nng-rs/badges/master/pipeline.svg)](https://gitlab.com/neachdainn/nng-rs/-/pipelines)
 * NNTP
