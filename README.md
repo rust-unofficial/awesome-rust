@@ -535,6 +535,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [buster/rrun](https://github.com/buster/rrun) - A command launcher for Linux, similar to gmrun
 * [cantino/mcfly](https://github.com/cantino/mcfly) - Fly through your shell history. Great Scott!
 * [ChurchTao/clipboard-rs](https://github.com/ChurchTao/clipboard-rs) [[clipboard-rs](https://crates.io/crates/clipboard-rs)] - Cross-platform library written in Rust for getting and setting and monitoring changes the system-level clipboard content.
+* [Cocoa-Way](https://github.com/J-x-Z/cocoa-way) [[homebrew](https://github.com/J-x-Z/homebrew-tap)] - Native macOS Wayland compositor for running Linux GUI apps without VM overhead. Built with Smithay. [![build badge](https://github.com/J-x-Z/cocoa-way/actions/workflows/release.yml/badge.svg)](https://github.com/J-x-Z/cocoa-way/actions)
 * [crabz](https://github.com/sstadick/crabz) - Multi-threaded compression and decompression CLI tool [![Build Status](https://github.com/sstadick/crabz/workflows/Check/badge.svg)](https://github.com/sstadick/crabz/actions?query=workflow%3ACheck)
 * [cristianoliveira/funzzy](https://github.com/cristianoliveira/funzzy) - A configurable filesystem watcher inspired by [entr](http://eradman.com/entrproject/)
 * [dalance/procs](https://github.com/dalance/procs) - A modern replacement for 'ps' [![Regression](https://github.com/dalance/procs/actions/workflows/regression.yml/badge.svg)](https://github.com/dalance/procs/actions/workflows/regression.yml)
@@ -635,7 +636,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 
 ### Utilities
 
-* [1History](https://github.com/1History/1History) - Command line interface to backup Firefox/Chrome/Safari history to one SQLite file [![Build Status](https://github.com/1History/1History/actions/workflows/CI.yml/badge.svg)](https://github.com/1History/1History/actions/workflows/CI.yml)
+* [1History](https://github.com/localfirstapp/1History) - Command line interface to backup Firefox/Chrome/Safari history to one SQLite file [![Build Status](https://github.com/localfirstapp/1History/actions/workflows/CI.yml/badge.svg)](https://github.com/localfirstapp/1History/actions/workflows/CI.yml)
 * [bloznelis/kbt](https://github.com/bloznelis/kbt) [[kbt](https://crates.io/crates/kbt)] - A simple TUI tool for keyboard testing.
 * [brycx/checkpwn](https://github.com/brycx/checkpwn) - A Have I Been Pwned (HIBP) command-line utility tool that lets you easily check for compromised accounts and passwords.
 * [cartesiancs/vessel](https://github.com/cartesiancs/vessel) - C2 (Command & Control) software for orchestrating physical devices.
@@ -1053,6 +1054,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 
 #### OpenAI
 
+* [0xplaygrounds/rig](https://github.com/0xplaygrounds/rig) - Library for creating agents and modular, scalable LLM-powered applications
 * [64bit/async-openai](https://github.com/64bit/async-openai) [[async-openai](https://crates.io/crates/async-openai)] - Ergonomic Rust bindings for OpenAI API based on OpenAPI spec.
 * [openai/harmony](https://github.com/openai/harmony) [[openai-harmony](https://crates.io/crates/openai-harmony/0.0.3)] - Renderer for the harmony response format to be used with gpt-oss.
 * [zurawiki/tiktoken-rs](https://github.com/zurawiki/tiktoken-rs) [[tiktoken-rs](https://crates.io/crates/tiktoken-rs)] - Library for tokenizing text with OpenAI models using tiktoken. [![CI](https://github.com/zurawiki/tiktoken-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/zurawiki/tiktoken-rs/actions/workflows/ci.yml)
