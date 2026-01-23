@@ -1912,7 +1912,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
 
 ### Reverse engineering
 
-* [binarly-io/idalib](https://github.com/binarly-io/idalib) [[idalib](https://crates.io/crates/idalib)] - Rust bindings for the IDA SDK, enabling the development of standalone analysis tools using IDA v9.0’s idalib
+* [idalib](https://github.com/idalib-rs/idalib) [[idalib](https://crates.io/crates/idalib)] - Rust bindings for the IDA SDK, enabling the development of standalone analysis tools using IDA v9.0’s idalib
 * [objdiff](https://github.com/encounter/objdiff) - A local diffing tool for decompilation projects
 
 ### Scripting
