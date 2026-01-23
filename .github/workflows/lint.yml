@@ -14,7 +14,7 @@ jobs:
     name: Lint Markdown content
     steps:
       - name: Checkout the repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: Markdown lint for README
         uses: docker://avtodev/markdown-lint:v1
         with:
@@ -25,7 +25,7 @@ jobs:
     name: Lint for editorconfig violations
     steps:
       - name: Checkout the repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: Check for editorconfig violations
         uses: editorconfig-checker/action-editorconfig-checker@v2
 
@@ -34,8 +34,8 @@ jobs:
     name: Lint for Table of Contents
     steps:
       - name: Checkout the repository
-        uses: actions/checkout@v4
-      - uses: actions/setup-node@v3
+        uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
         with:
           node-version: 16
       - run: npm install markdown-toc
