@@ -55,6 +55,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   * [Transpiling](#transpiling)
 - [Libraries](#libraries)
   * [Artificial Intelligence](#artificial-intelligence)
+    * [Agent Frameworks](#agent-frameworks)
     + [Genetic algorithms](#genetic-algorithms)
     + [Machine learning](#machine-learning)
     + [OpenAI](#openai)
@@ -1020,6 +1021,11 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust Tools](https://
 
 ### Artificial Intelligence
 
+#### Agent Frameworks
+
+* [0xplaygrounds/rig](https://github.com/0xplaygrounds/rig) - Library for creating agents and modular, scalable LLM-powered applications
+* [adk-rust](https://github.com/zavora-ai/adk-rust) - A modular framework for architecting distributed LLM agent systems with support for OpenAI, Gemini, and local models; integrates adk-ui for agent-driven interactive web components and adk-studio for visual orchestration of real-time bidirectional streaming for live voice and text discussions ![Crates.io](https://img.shields.io/crates/v/adk-rust)
+
 #### Genetic algorithms
 
 * [innoave/genevo](https://github.com/innoave/genevo) - Execute genetic algorithm (GA) simulations in a customizable and extensible way.
@@ -1055,7 +1061,6 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 
 #### OpenAI
 
-* [0xplaygrounds/rig](https://github.com/0xplaygrounds/rig) - Library for creating agents and modular, scalable LLM-powered applications
 * [64bit/async-openai](https://github.com/64bit/async-openai) [[async-openai](https://crates.io/crates/async-openai)] - Ergonomic Rust bindings for OpenAI API based on OpenAPI spec.
 * [openai/harmony](https://github.com/openai/harmony) [[openai-harmony](https://crates.io/crates/openai-harmony/0.0.3)] - Renderer for the harmony response format to be used with gpt-oss.
 * [zurawiki/tiktoken-rs](https://github.com/zurawiki/tiktoken-rs) [[tiktoken-rs](https://crates.io/crates/tiktoken-rs)] - Library for tokenizing text with OpenAI models using tiktoken. [![CI](https://github.com/zurawiki/tiktoken-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/zurawiki/tiktoken-rs/actions/workflows/ci.yml)
