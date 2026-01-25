@@ -605,6 +605,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [amp](https://amp.rs) - Inspired by Vi/Vim.
 * [emacs-ng](https://github.com/emacs-ng/emacs-ng) - Complementing the C codebase with rust code to introduce new features.
 * [Ferrite](https://github.com/OlaProeis/Ferrite) - A cross-platform markdown editor built with egui, featuring live preview, syntax highlighting, and mermaid diagrams.
+* [Fresh](https://github.com/sinelaw/fresh) - An easy-to-use, powerful and fast terminal text editor & IDE, with TypeScript plugin support.
 * [gchp/iota](https://github.com/gchp/iota) - A simple text editor
 * [helix](https://github.com/helix-editor/helix) - A post-modern modal text editor inspired by Neovim/Kakoune. [![build badge](https://github.com/helix-editor/helix/actions/workflows/build.yml/badge.svg)](https://github.com/helix-editor/helix/actions)
 * [ilai-deutel/kibi](https://github.com/ilai-deutel/kibi) - A tiny (≤1024 LOC) text editor with syntax highlighting, incremental search and more. [![build badge](https://github.com/ilai-deutel/kibi/actions/workflows/ci.yml/badge.svg)](https://github.com/ilai-deutel/kibi/actions?query=branch%3Amaster)
