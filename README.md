@@ -163,6 +163,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 * [Ryot](https://github.com/ignisda/ryot) - A self hosted application to track media consumption, fitness, etc.
 * [Saga Reader](https://github.com/sopaco/saga-reader) - A Blazing-Fast and Extremely-Lightweight Internet Reader driven by AI.Supports fetching of search engine information and RSS.
 * [Servo](https://github.com/servo/servo) - A prototype web browser engine
+* [Marshall](https://github.com/bad-antics/marshall) - A privacy-focused GTK4/WebKit2GTK browser with built-in ad blocking, no telemetry, and minimal fingerprinting.
 * [shoes](https://github.com/cfal/shoes) - A multi-protocol proxy server
 * [shuttle](https://github.com/shuttle-hq/shuttle) - A serverless platform.
 * [Sniffnet](https://github.com/GyulyVGC/sniffnet) - Cross-platform application to monitor your network traffic with ease [![build badge](https://img.shields.io/github/actions/workflow/status/gyulyvgc/sniffnet/rust.yml?logo=github)](https://github.com/GyulyVGC/sniffnet/blob/main/.github/workflows/rust.yml) [![crate](https://img.shields.io/crates/v/sniffnet?logo=rust)](https://crates.io/crates/sniffnet)
