@@ -514,6 +514,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [rustscan](https://github.com/bee-san/RustScan) - Make Nmap faster with this port scanning tool [![build badge](https://github.com/bee-san/RustScan/actions/workflows/test.yml/badge.svg)](https://github.com/bee-san/RustScan/actions)
 * [ssh-vault](https://github.com/ssh-vault/ssh-vault) - A simple tool to manage secrets using ssh keys for encryption and decryption.
 * [SystemVll/TAuth](https://github.com/SystemVll/TAuth) - An easy and user friendly 2FA & Credentials manager, for your PC.
+* [bad-antics/glowbarn-rs](https://github.com/bad-antics/glowbarn-rs) - High-performance multi-sensor anomaly detection suite with 50+ sensor types, entropy analysis, Bayesian fusion, and AES-256-GCM encryption
 
 ### Social networks
 
