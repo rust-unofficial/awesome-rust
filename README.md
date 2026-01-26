@@ -56,6 +56,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 - [Libraries](#libraries)
   * [Artificial Intelligence](#artificial-intelligence)
     + [Genetic algorithms](#genetic-algorithms)
+    + [Google Gemini](#google-gemini)
     + [Machine learning](#machine-learning)
     + [OpenAI](#openai)
     + [Tooling](#tooling)
@@ -1030,6 +1031,10 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust Tools](https://
 * [Martin1887/oxigen](https://github.com/Martin1887/oxigen) - Fast, parallel, extensible and adaptable genetic algorithm library. A example using this library solves the N Queens problem for N = 255 in only few seconds and using less than 1 MB of RAM.
 * [pkalivas/radiate](https://github.com/pkalivas/radiate) - A customizable parallel genetic programming engine capable of evolving solutions for supervised, unsupervised, and reinforcement learning problems. Comes with complete and customizable implementation of NEAT and Evtree.![Crates.io](https://img.shields.io/crates/v/radiate)
 * [willi-kappler/darwin-rs](https://github.com/willi-kappler/darwin-rs) - Evolutionary algorithms
+
+#### Google Gemini
+
+* [gemini-client-api](https://crates.io/crates/gemini-client-api) - Library to use Google Gemini API. Automatic context management, schema generation, function calling and more.
 
 #### Machine learning
 
