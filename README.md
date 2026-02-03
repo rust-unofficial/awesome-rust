@@ -476,7 +476,6 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [LLDAP](https://github.com/lldap/lldap) - Simplified LDAP interface for authentication.
 * [mediar-ai/screenpipe](https://github.com/mediar-ai/screenpipe) - 24/7 local AI screen & mic recording. Build AI apps that have the full context. Works with Ollama.
 * [pier-cli/pier](https://github.com/pier-cli/pier) - A central repository to manage (add, search metadata, etc.) all your one-liners, scripts, tools, and CLIs
-* [RustFrame](https://github.com/salihcantekin/rustframe) - Privacy-focused cross-platform screen region sharing tool for video calls
 * [ShadoySV/work-break](https://github.com/ShadoySV/work-break) [[work-break](https://crates.io/crates/work-break)] - Work and rest time balancer taking into account your current and today strain [![Build](https://github.com/ShadoySV/work-break/actions/workflows/release.yml/badge.svg)](https://github.com/ShadoySV/work-break/actions/workflows/release.yml)
 * [tassiovirginio/try-rs](https://github.com/tassiovirginio/try-rs) [[try-rs](https://crates.io/crates/try-rs)] - Workspace manager CLI with a TUI to organize and navigate temporary experiments.
 * [yashs662/rust_kanban](https://github.com/yashs662/rust_kanban) [[rust-kanban](https://crates.io/crates/rust-kanban)] [![Build](https://github.com/yashs662/rust_kanban/actions/workflows/build.yml/badge.svg)](https://github.com/yashs662/rust_kanban/releases) - A Kanban App for the terminal
@@ -685,6 +684,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [dertuxmalwieder/yaydl](https://github.com/dertuxmalwieder/yaydl) [[yaydl](https://crates.io/crates/yaydl)] - A simple video downloader
 * [gyroflow/gyroflow](https://github.com/gyroflow/gyroflow) - Video stabilization application using gyroscope data
 * [harlanc/xiu](https://github.com/harlanc/xiu) - A powerful and secure live server (rtmp/httpflv/hls/relay). [![crates.io](https://img.shields.io/crates/v/xiu.svg)](https://crates.io/crates/xiu)
+* [RustFrame](https://github.com/salihcantekin/rustframe) - Privacy-focused cross-platform screen region sharing tool for video calls
 * [vidmerger](https://github.com/TGotwig/vidmerger) - Merge video & audio files via CLI
 * [xiph/rav1e](https://github.com/xiph/rav1e) - The fastest and safest AV1 encoder.
 
