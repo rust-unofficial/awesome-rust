@@ -1722,8 +1722,8 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [gtk-rs/gtk4-rs](https://github.com/gtk-rs/gtk4-rs) - GTK4 binding ![CI](https://github.com/gtk-rs/gtk4-rs/workflows/CI/badge.svg)
   * [relm](https://github.com/antoyo/relm) - Asynchronous, GTK+-based, GUI library, inspired by Elm
 * [GPUI](https://www.gpui.rs/) [[gpui](https://crates.io/crates/gpui)]
-  * [longbridge/gpui-component] [[gpui-component](https://crates.io/crates/gpui-component)]
-  * [augani/adabraka-ui] [[adabraka-ui](https://crates.io/crates/adabraka-ui)]
+  * [augani/adabraka-ui](https://github.com/Augani/adabraka-ui) [[adabraka-ui](https://crates.io/crates/adabraka-ui)] -  A ui component library for building desktop applications in rust 
+  * [longbridge/gpui-component](https://github.com/longbridge/gpui-component) [[gpui-component](https://crates.io/crates/gpui-component)] - Rust GUI components for building fantastic cross-platform desktop application by using GPUI. 
 * [iced-rs/iced](https://github.com/iced-rs/iced) [[iced](https://crates.io/crates/iced)] - A cross-platform GUI library, focused on simplicity and type-safety. Inspired by Elm.
 * [ImGui](https://github.com/ocornut/imgui)
   * [imgui-rs](https://github.com/imgui-rs/imgui-rs) - Bindings for ImGui [![Build Status](https://github.com/imgui-rs/imgui-rs/workflows/ci/badge.svg?branch=master)](https://github.com/imgui-rs/imgui-rs/actions)
