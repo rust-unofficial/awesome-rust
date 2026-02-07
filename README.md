@@ -1734,6 +1734,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [nuklear-rust](https://github.com/snuk182/nuklear-rust) - Bindings for Nuklear
 * [OrbTk](https://github.com/redox-os/orbtk) - The Orbital Widget Toolkit is a multi platform (G)UI toolkit using SDL2 [![Build and test](https://github.com/redox-os/orbtk/workflows/build/badge.svg?branch=develop)](https://github.com/redox-os/orbtk/actions)
 * [PistonDevelopers/conrod](https://github.com/PistonDevelopers/conrod/) - An easy-to-use, immediate-mode, 2D GUI library
+* [project-blinc/Blinc](https://github.com/project-blinc/Blinc) [[blinc_app](https://crates.io/crates/blinc_app)] - A GPU-accelerated, cross-platform UI framework with a GPUI-inspired builder API, glassmorphism effects, spring physics animations, and native rendering on Desktop, Android, and iOS.
 * [Qt](https://doc.qt.io)
   * [cyndis/qmlrs](https://github.com/cyndis/qmlrs) - QtQuick bindings
   * [rust-qt](https://github.com/rust-qt) - Qt bindings for Rust
