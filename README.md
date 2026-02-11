@@ -480,6 +480,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 
 * [tassiovirginio/try-rs](https://github.com/tassiovirginio/try-rs) [[try-rs](https://crates.io/crates/try-rs)] - Workspace manager CLI with a TUI to organize and navigate temporary experiments.
 * [yashs662/rust_kanban](https://github.com/yashs662/rust_kanban) [[rust-kanban](https://crates.io/crates/rust-kanban)] [![Build](https://github.com/yashs662/rust_kanban/actions/workflows/build.yml/badge.svg)](https://github.com/yashs662/rust_kanban/releases) - A Kanban App for the terminal
+* [kstonekuan/tambourine-voice](https://github.com/kstonekuan/tambourine-voice) - Your personal AI voice interface for any app - customizable dictation that lets you choose your own models and prompts built using Rust.
 
 ### Routing protocols
 
