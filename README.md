@@ -1062,6 +1062,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [rust-ml/linfa](https://github.com/rust-ml/linfa) - Machine learning framework.
 * [sipemu/anofox-regression](https://github.com/sipemu/anofox-regression) [[anofox-regression](https://crates.io/crates/anofox-regression)] - Statistical regression models (OLS, Elastic Net, GLM, Quantile & Isotonic) with R-like inference (p-values, confidence & prediction intervals) and Wasm support.
 * [smartcorelib/smartcore](https://github.com/smartcorelib/smartcore) - Machine Learning Library [![Build Status](https://img.shields.io/circleci/build/github/smartcorelib/smartcore)]
+* [tag1consulting/feste](https://github.com/tag1consulting/feste) - A GPT-2 style transformer language model implemented from scratch in Rust for educational purposes.
 * [tensorflow/rust](https://github.com/tensorflow/rust) - Bindings for TensorFlow.
 
 #### OpenAI
