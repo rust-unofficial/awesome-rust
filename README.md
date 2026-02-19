@@ -1336,7 +1336,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [schnorrkel](https://github.com/paritytech/schnorrkel) - Schnorr VRFs and signatures on the Ristretto group
 * [sorairolake/abcrypt](https://github.com/sorairolake/abcrypt) [[abcrypt](https://crates.io/crates/abcrypt)] - A simple, modern and secure file encryption library. [![CI](https://github.com/sorairolake/abcrypt/workflows/CI/badge.svg?branch=develop)](https://github.com/sorairolake/abcrypt/actions?query=workflow%3ACI)
 * [sorairolake/scryptenc-rs](https://github.com/sorairolake/scryptenc-rs) [[scryptenc](https://crates.io/crates/scryptenc)] - An implementation of the scrypt encrypted data format. [![CI](https://github.com/sorairolake/scryptenc-rs/workflows/CI/badge.svg?branch=develop)](https://github.com/sorairolake/scryptenc-rs/actions?query=workflow%3ACI)
-* [mosscomputing/moss-rust](https://github.com/mosscomputing/moss-rust) [[moss-sdk](https://crates.io/crates/moss-sdk)] - Cryptographic signing for AI agents using ML-DSA-44 post-quantum signatures. Creates tamper-proof audit trails for attribution, compliance, and policy enforcement.
+* [mosscomputing/moss-rust](https://crates.io/crates/moss-sdk) [[moss-sdk](https://crates.io/crates/moss-sdk)] - Cryptographic signing for AI agents using ML-DSA-44 post-quantum signatures. Creates tamper-proof audit trails for attribution, compliance, and policy enforcement.
 
 ### Data processing
 
