@@ -354,6 +354,7 @@ See also [crates matching keyword 'emulator'](https://crates.io/keywords/emulato
 * [joshuto](https://github.com/kamiyaa/joshuto) - ranger-like terminal file manager
 * [MangoDesk](https://github.com/moyangzhan/mango-desk) - Search your files using nature language
 * [pikeru](https://github.com/dvhar/pikeru) - File picker for linux with good thumbnails and search
+* [spacedriveapp/spacedrive](https://github.com/spacedriveapp/spacedrive) - A file manager built on a virtual distributed filesystem.
 * [xplr](https://github.com/sayanarijit/xplr) - A hackable, minimal, fast TUI file explorer
 * [yazi](https://github.com/sxyazi/yazi) - Blazing fast terminal file manager, based on async I/O.
 
@@ -421,6 +422,7 @@ See also [Games Made With Piston](https://github.com/PistonDevelopers/piston/wik
 
 ### Message Queue
 
+* [Narwhal](https://github.com/narwhal-io/narwhal) - An extensible pub/sub messaging server for edge applications.
 * [Rmqtt](https://github.com/rmqtt/rmqtt) - MQTT Server/MQTT Broker — Scalable distributed MQTT message broker for IoT in the 5G era.
 * [RobustMQ](https://github.com/robustmq/robustmq) - Next generation cloud-native converged message queue.
 * [Rocketmq-Rust](https://github.com/mxsm/rocketmq-rust) - 🚀Apache RocketMQ build in Rust🦀. Faster, safer, and with lower memory usage.
@@ -1066,6 +1068,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [guillaume-be/rust-bert](https://github.com/guillaume-be/rust-bert) [[rust_bert](https://crates.io/crates/rust_bert)] - Ready-to-use NLP pipelines and language models
 * [huggingface/candle](https://github.com/huggingface/candle) [[candle-core](https://crates.io/crates/candle-core)] - a minimalist ML framework with a focus on easiness of use and on performance (including GPU support)
 * [huggingface/tokenizers](https://github.com/huggingface/tokenizers) - Hugging Face's tokenizers for modern NLP pipelines (original implementation) with bindings for Python. [![Build Status](https://github.com/huggingface/tokenizers/workflows/Rust/badge.svg?branch=master)](https://github.com/huggingface/tokenizers/actions)
+* [katanemo/plano](https://github.com/katanemo/plano) - The AI-native proxy server and data plane for agentic apps.
 * [LaurentMazare/tch-rs](https://github.com/LaurentMazare/tch-rs) - Bindings for PyTorch.
 * [maciejkula/rustlearn](https://github.com/maciejkula/rustlearn) - Machine learning library. [![Circle CI](https://circleci.com/gh/maciejkula/rustlearn.svg?style=svg)](https://app.circleci.com/pipelines/github/maciejkula/rustlearn)
 * [Mottl/lightgb3-rs](https://github.com/Mottl/lightgbm3-rs) - Bindings for LightGBM [![Crates.io](https://img.shields.io/crates/v/lightgbm3.svg)](https://crates.io/crates/lightgbm3) [![build](https://github.com/Mottl/lightgbm3-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/Mottl/lightgbm3-rs/actions)
