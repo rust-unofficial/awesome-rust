@@ -476,6 +476,8 @@ async fn main() -> Result<()> {
     let mut last_level: u32 = 0;
     let mut star_override_level: Option<u32> = None;
 
+    let mut has_errors = false;
+
     for (event, _range) in parser.into_offset_iter() {
         debug!("Event {:?}", event);
         match event {
@@ -598,13 +600,15 @@ async fn main() -> Result<()> {
                                 if cargo_downloads.is_none() {
                                     warn!("No valid crates link for {list_item}");
                                 }
-                                return Err(format_err!("Not high enough metrics ({:?} stars < {}, and {:?} cargo downloads < {}): {}", github_stars, required_stars, cargo_downloads, MINIMUM_CARGO_DOWNLOADS, list_item));
+                                has_errors = true;
+                                eprintln!("Not high enough metrics ({:?} stars < {}, and {:?} cargo downloads < {}): {}", github_stars, required_stars, cargo_downloads, MINIMUM_CARGO_DOWNLOADS, list_item);
                             }
                             if link_count > 0 && !ITEM_REGEX.is_match(&list_item) {
                                 if list_item.contains("—") {
                                     warn!("\"{list_item}\" uses a '—' hyphen, not the '-' hyphen and we enforce the use of the latter one");
                                 }
-                                return Err(format_err!("Item does not match the template: \"{list_item}\". See https://github.com/rust-unofficial/awesome-rust/blob/main/CONTRIBUTING.md#tldr"));
+                                has_errors = true;
+                                eprintln!("Item does not match the template: \"{list_item}\". See https://github.com/rust-unofficial/awesome-rust/blob/main/CONTRIBUTING.md#tldr");
                             }
                             list_items.last_mut().unwrap().data.push(list_item.clone());
                             list_item = String::new();
@@ -626,7 +630,8 @@ async fn main() -> Result<()> {
                         let patch = create_patch(&joined_recent, &joined_sorted);
                         if !patch.hunks().is_empty() {
                             println!("{}", patch);
-                            return Err(format_err!("Sorting error"));
+                            has_errors = true;
+                            eprintln!("Sorting error");
                         }
                     }
                     _ => {}
@@ -635,14 +640,15 @@ async fn main() -> Result<()> {
             Event::Html(content) => {
                 // Allow ToC markers, nothing else
                 if !content.contains("<!-- toc") {
-                    return Err(format_err!(
-                        "Contains HTML content, not markdown: {}",
-                        content
-                    ));
+                    has_errors = true;
+                    eprintln!("Contains HTML content, not markdown: {}", content);
                 }
             }
             _ => {}
         }
+    }
+    if has_errors {
+        return Err(format_err!("Problems, see above"));
     }
     fs::write(
         "results/popularity.yaml",
