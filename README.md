@@ -462,6 +462,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 
 * [helsing-ai/buffrs](https://github.com/helsing-ai/buffrs) [[buffrs](https://crates.io/crates/buffrs)] - A modern package manager for protocol buffers and gRPC architectures.
 * [rebos](https://crates.io/crates/rebos) - A declarative way to automate package management on any linux distro [![crate](https://img.shields.io/crates/v/rebos?logo=rust)](https://crates.io/crates/rebos)
+* [imnotnoahhh/zex](https://github.com/imnotnoahhh/zex) - A sandboxed package manager for curl|sh install scripts on macOS, with three-layer isolation (env spoofing, command whitelist, sandbox-exec kernel fence) [![CI](https://github.com/imnotnoahhh/zex/workflows/CI/badge.svg)](https://github.com/imnotnoahhh/zex/actions)
 
 ### Payments
 
