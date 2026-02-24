@@ -1721,6 +1721,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [bastibense/libharu_ng](https://github.com/bastibense/libharu_ng) [[libharu_ng](https://crates.io/crates/libharu_ng)] - Easily generate PDFs from your Rust app.
   * [fschutt/printpdf](https://github.com/fschutt/printpdf) - PDF writing library
   * [J-F-Liu/lopdf](https://github.com/J-F-Liu/lopdf) - PDF document manipulation
+  * [yfedoseev/pdf_oxide](https://github.com/yfedoseev/pdf_oxide) [[pdf_oxide](https://crates.io/crates/pdf_oxide)] - Fast PDF text extraction, creation, and editing with Python bindings
   * [kaj/rust-pdf](https://github.com/kaj/rust-pdf) - Generating PDF files in pure Rust
 * [Vulkan](https://www.vulkan.org/) [[vulkan](https://crates.io/keywords/vulkan)]
   * [erupt](https://gitlab.com/Friz64/erupt) [[erupt](https://crates.io/crates/erupt)] - [![build badge](https://gitlab.com/Friz64/erupt/badges/main/pipeline.svg)](https://gitlab.com/Friz64/erupt/-/pipelines)
