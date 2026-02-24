@@ -596,6 +596,9 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [pkolaczk/fclones](https://github.com/pkolaczk/fclones) - Efficient duplicate file finder and remover
 * [pop-os/popsicle](https://github.com/pop-os/popsicle) - GTK3 & CLI utility for flashing multiple USB devices in parallel
 * [pop-os/system76-power](https://github.com/pop-os/system76-power/) - Linux power management daemon (DBus-interface) with CLI tool.
+* [psmux](https://github.com/marlocarlo/psmux) - A tmux-compatible terminal multiplexer for Windows with session management, pane splitting, and .tmux.conf support [![crates.io](https://img.shields.io/crates/v/psmux.svg)](https://crates.io/crates/psmux)
+* [psnet](https://github.com/marlocarlo/psnet) - A real-time TUI network monitor for Windows with live speed graphs and DNS-resolved connections [![crates.io](https://img.shields.io/crates/v/psnet.svg)](https://crates.io/crates/psnet)
+* [pstop](https://github.com/marlocarlo/pstop) - An htop-style system monitor for Windows with per-core CPU bars, process tree, and 7 color schemes [![crates.io](https://img.shields.io/crates/v/pstop.svg)](https://crates.io/crates/pstop)
 * [pueue](https://github.com/nukesor/pueue) - Manage your long running shell commands. [![GitHub Actions Workflow](https://github.com/Nukesor/pueue/actions/workflows/test.yml/badge.svg)](https://github.com/nukesor/pueue/actions)
 * [qarmin/czkawka](https://github.com/qarmin/czkawka) - Multi-functional app to find duplicates, empty folders, similar images, etc. [![GitHub Actions Workflow](https://github.com/qarmin/czkawka/actions/workflows/pages/pages-build-deployment/badge.svg?branch=master)](https://github.com/qarmin/czkawka/actions)
 * [redox-os/ion](https://github.com/redox-os/ion) - Next-generation system shell
