@@ -723,6 +723,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [MASQ-Project/Node](https://github.com/MASQ-Project/Node) - MASQ Node software provides a decentralized mesh-network of nodes for global users to access normal internet content - next evolution of tech beyond Tor & VPN [![build badge](https://github.com/MASQ-Project/Node/actions/workflows/ci-matrix.yml/badge.svg)](https://github.com/MASQ-Project/Node/actions)
 * [Plume-org/Plume](https://github.com/Plume-org/Plume) - ActivityPub federating blogging application
 * [Redlib](https://github.com/redlib-org/redlib) - An alternative private front-end to Reddit, with its origins in [Libreddit](https://github.com/libreddit/libreddit)
+* [shouya/rss-funnel](https://github.com/shouya/rss-funnel) - A modular RSS processing pipeline system.
 * [SinTan1729/Chhoto URL](https://github.com/SinTan1729/chhoto-url) - A simple, blazingly fast, selfhosted URL shortener with no unnecessary features.[![release](https://github.com/SinTan1729/chhoto-url/actions/workflows/docker-release.yml/badge.svg)](https://github.com/SinTan1729/chhoto-url/actions/workflows/docker-release.yml)
 * [Stoatchat](https://github.com/stoatchat/stoatchat) - User-first chat platform built with modern web technologies.
 
