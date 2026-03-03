@@ -1095,6 +1095,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [smartcorelib/smartcore](https://github.com/smartcorelib/smartcore) - Machine Learning Library [![Build Status](https://img.shields.io/circleci/build/github/smartcorelib/smartcore)]
 * [tag1consulting/feste](https://github.com/tag1consulting/feste) - A GPT-2 style transformer language model implemented from scratch in Rust for educational purposes.
 * [tensorflow/rust](https://github.com/tensorflow/rust) - Bindings for TensorFlow.
+* [AuraSDK](https://github.com/teolex2020/AuraSDK) — Cognitive memory engine for AI agents with sub-ms recall using SDR, hierarchical memory with decay, and ChaCha20 encryption. [![build badge](https://github.com/teolex2020/AuraSDK/actions/workflows/test.yml/badge.svg)](https://github.com/teolex2020/AuraSDK/actions/workflows/test.yml)
 
 #### OpenAI
 
