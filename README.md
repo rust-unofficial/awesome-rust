@@ -1,4 +1,4 @@
-# Awesome Rust [![lint badge](https://github.com/rust-unofficial/awesome-rust/actions/workflows/lint.yml/badge.svg)](https://github.com/rust-unofficial/awesome-rust/actions/workflows/lint.yml) [![build badge](https://github.com/rust-unofficial/awesome-rust/actions/workflows/rust.yml/badge.svg?branch=main)](https://github.com/rust-unofficial/awesome-rust/actions/workflows/rust.yml) [![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/rust-unofficial/awesome-rust/)
+﻿# Awesome Rust [![lint badge](https://github.com/rust-unofficial/awesome-rust/actions/workflows/lint.yml/badge.svg)](https://github.com/rust-unofficial/awesome-rust/actions/workflows/lint.yml) [![build badge](https://github.com/rust-unofficial/awesome-rust/actions/workflows/rust.yml/badge.svg?branch=main)](https://github.com/rust-unofficial/awesome-rust/actions/workflows/rust.yml) [![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/rust-unofficial/awesome-rust/)
 
 A curated list of Rust code and resources.
 
@@ -1121,6 +1121,12 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 
 * [BAML](https://github.com/BoundaryML/baml) - A simple prompting language for building reliable AI workflows and agents. BAML's compiler is written in Rust!
 * [Cortex Memory](https://github.com/sopaco/cortex-mem) - A complete solution for agent memory, from extraction and vector search to automated optimization, and insights dashboard out-of-the-box.
+* [llm-budget](https://github.com/Mattbusel/llm-budget) - Autonomous LLM cost governance with hard budget enforcement per-model and fleet-wide.
+* [llm-wasm](https://github.com/Mattbusel/llm-wasm) - LLM inference primitives for WebAssembly: FNV-1a cache, retry, model router, cost ledger, JSON/Markdown formatters.
+* [tokio-agent-memory](https://github.com/Mattbusel/tokio-agent-memory) - Tokio-native agent memory: episodic, semantic, and working memory with decay scheduling and multi-agent bus.
+* [tokio-memory](https://github.com/Mattbusel/tokio-memory) - Agent memory with the Ebbinghaus forgetting curve, consolidation pipelines, and pluggable async persistence.
+* [tokio-prompt-orchestrator](https://github.com/Mattbusel/tokio-prompt-orchestrator) - Multi-core Tokio LLM pipeline with circuit breaker, deduplication, retry, rate limiting, and backpressure.
+* [wasm-agent](https://github.com/Mattbusel/wasm-agent) - ReAct agent loop for WASM: Thought-Action-Observation, tool dispatch, reasoning traces, resumable state.
 
 ### Astronomy
 
@@ -1525,6 +1531,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 
 ### Distributed systems
 
+* [llm-sync](https://github.com/Mattbusel/llm-sync) - CRDT and vector clock primitives for distributed LLM agent state: GCounter, PNCounter, LWWRegister, ORSet.
 * Antimony
   * [antimonyproject/antimony](https://github.com/antimonyproject/antimony) [[antimony](https://crates.io/crates/antimony)] - stream processing / distributed computation platform
 * Apache Kafka
@@ -1654,6 +1661,8 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [avhz/RustQuant](https://github.com/avhz/RustQuant) [[RustQuant](https://crates.io/crates/RustQuant)] - A quantitative finance library. ![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/avhz/RustQuant/build.yml)
 * [d-e-s-o/apca](https://github.com/d-e-s-o/apca) [[apca](https://crates.io/crates/apca)] - Opinionated and comprehensive bindings to the [Alpaca API](https://alpaca.markets/) for stock trading and more. ![GitHub Workflow Status](https://github.com/d-e-s-o/apca/actions/workflows/test.yml/badge.svg?branch=main)
 * [kand-ta/kand](https://github.com/kand-ta/kand) [[kand](https://crates.io/crates/kand)] - A Modern, High-Performance Technical Analysis Library in Rust, Python, and JS/TS(WASM). [![image](https://img.shields.io/crates/v/kand.svg)](https://crates.io/crates/kand)
+* [fin-primitives](https://github.com/Mattbusel/fin-primitives) - Financial market primitives: Price/Quantity/Symbol newtypes, order book, OHLCV, SMA/EMA/RSI, position ledger.
+* [fin-stream](https://github.com/Mattbusel/fin-stream) - Real-time market data pipeline: lock-free SPSC ring buffer, 100K+ ticks/s, multi-timeframe OHLCV, Lorentz transforms.
 * [stochastic-rs](https://github.com/rust-dd/stochastic-rs) [[stochastic-rs](https://crates.io/crates/stochastic-rs)] - High-performance data generation library for stochastic process with quant finance tools. ![GitHub Workflow Status](https://github.com/rust-dd/stochastic-rs/actions/workflows/rust.yml/badge.svg)
 
 ### Functional Programming
@@ -1725,6 +1734,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
 
 ### Graph algorithms
 
+* [mem-graph](https://github.com/Mattbusel/mem-graph) - Knowledge graph primitives: typed nodes, directed relationships, property maps, BFS/DFS, and property-value queries.
 * [neo4j-labs/graph](https://github.com/neo4j-labs/graph) - A library for high-performant graph algorithms [![graph CI status](https://img.shields.io/github/workflow/status/neo4j-labs/graph/CI/main?label=CI)](https://github.com/neo4j-labs/graph/actions/workflows/rust.yml)
 * [petgraph/petgraph](https://github.com/petgraph/petgraph) - Graph data structure library. [![graph CI status](https://github.com/petgraph/petgraph/workflows/Continuous%20integration/badge.svg?branch=master)](https://github.com/petgraph/petgraph/actions/workflows/ci.yml)
 
