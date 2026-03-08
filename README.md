@@ -252,6 +252,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 * [tendermint-rs](https://github.com/cometbft/tendermint-rs) - Tendermint blockchain data structures and clients
 * [wagyu](https://github.com/howardwu/wagyu) [[wagyu](https://crates.io/crates/wagyu)] - Library for generating cryptocurrency wallets
 * [zcash](https://github.com/zcash/zcash) - Zcash is an implementation of the "Zerocash" protocol.
+* [tokamak-network/Argus](https://github.com/tokamak-network/Argus) — Open-source Ethereum attack detection with real-time transaction scanning and opcode-level replay [![Build Status](https://github.com/tokamak-network/Argus/actions/workflows/ci.yml/badge.svg)](https://github.com/tokamak-network/Argus/actions)
 
 ### Database
 
