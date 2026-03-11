@@ -250,6 +250,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 * [Subspace](https://github.com/autonomys/subspace) - The first layer-one blockchain that can fully resolve the blockchain trilemma by simultaneously achieving scalability, security, and decentralization.
 * [Sui](https://github.com/MystenLabs/sui) - A next-generation smart contract platform with high throughput, low latency, and an asset-oriented programming model powered by the Move programming language.
 * [svm-rs](https://github.com/alloy-rs/svm-rs) - Solidity-Compiler Version Manager.
+* [tempoxyz/tempo](https://github.com/tempoxyz/tempo) - A blockchain built for stablecoin payments at scale, with EVM compatibility, sub-second finality, and native smart account features, built on the Reth SDK
 * [tendermint-rs](https://github.com/cometbft/tendermint-rs) - Tendermint blockchain data structures and clients
 * [wagyu](https://github.com/howardwu/wagyu) [[wagyu](https://crates.io/crates/wagyu)] - Library for generating cryptocurrency wallets
 * [zcash](https://github.com/zcash/zcash) - Zcash is an implementation of the "Zerocash" protocol.
