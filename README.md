@@ -1167,9 +1167,9 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 
 ### Bioinformatics
 
-* [zaeleus/noodles](https://github.com/zaeleus/noodles) [[noodles](https://crates.io/crates/noodles)] - Bioinformatics I/O libraries in Rust [![build badge](https://github.com/zaeleus/noodles/workflows/CI/badge.svg)](https://github.com/zaeleus/noodles/actions)
 * [polars-bio](https://github.com/biodatageeks/polars-bio) - Blazing-Fast Bioinformatic Operations on Python DataFrames ![PyPI - Version](https://img.shields.io/pypi/v/polars-bio)
 * [Rust-Bio](https://github.com/rust-bio) - bioinformatics libraries.
+* [zaeleus/noodles](https://github.com/zaeleus/noodles) [[noodles](https://crates.io/crates/noodles)] - Bioinformatics I/O libraries in Rust [![build badge](https://github.com/zaeleus/noodles/workflows/CI/badge.svg)](https://github.com/zaeleus/noodles/actions)
 
 ### Caching
 
