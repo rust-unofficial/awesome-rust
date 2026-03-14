@@ -28,6 +28,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   * [Payments](#payments)
   * [Productivity](#productivity)
   * [Routing protocols](#routing-protocols)
+  * [Rule engines](#rule-engines)
   * [Security tools](#security-tools)
   * [Social networks](#social-networks)
   * [System tools](#system-tools)
@@ -511,6 +512,10 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 
 * [Holo](https://github.com/holo-routing/holo) - Holo is a suite of routing protocols designed to support high-scale and automation-driven networks
 * [RustyBGP](https://github.com/osrg/rustybgp) - BGP
+
+### Rule engines
+
+* [Pama-Lee/Ordo](https://github.com/Pama-Lee/Ordo) [[ordo-core](https://crates.io/crates/ordo-core)] - High-performance rule engine with Cranelift JIT, visual flow editor, and database filter push-down (SQL/JSON/MongoDB). [![CI](https://github.com/Pama-Lee/Ordo/actions/workflows/ci.yml/badge.svg)](https://github.com/Pama-Lee/Ordo/actions)
 
 ### Security tools
 
