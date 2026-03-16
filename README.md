@@ -1943,6 +1943,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
 ### Parsing
 
   * [0xlane/pe-sign](https://github.com/0xlane/pe-sign) [[pe-sign]](https://crates.io/crates/pe-sign) - A cross-platform rust no-std library for verifying and extracting signature information from PE files. [![crates.io](https://img.shields.io/crates/v/pe-sign)](https://crates.io/crates/pe-sign) [![build](https://github.com/0xlane/pe-sign/actions/workflows/rust.yml/badge.svg)](https://github.com/0xlane/pe-sign/actions/workflows/rust.yml)
+  * [hyperpolymath/a2ml-rs](https://github.com/hyperpolymath/a2ml-rs) - Parser and renderer for A2ML (Attested Markup Language), an AI agent identity and attestation format
   * [cchexcode/wavefront_rs](https://github.com/cchexcode/wavefront_rs) - A parser for the Wavefront OBJ format. [![crates.io](https://img.shields.io/crates/v/wavefront_rs.svg)](https://crates.io/crates/wavefront_rs) [![crates.io](https://img.shields.io/crates/d/wavefront_rs?label=crates.io%20downloads)](https://crates.io/crates/wavefront_rs) [![build badge](https://github.com/cchexcode/wavefront_rs/workflows/pipeline/badge.svg?branch=master)](https://github.com/cchexcode/wavefront_rs/actions)
   * [comex/rust-shlex](https://github.com/comex/rust-shlex) [[shlex](https://crates.io/crates/shlex)] - Split a string into shell words, like Python's shlex. [![build badge](https://github.com/comex/rust-shlex/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/comex/rust-shlex/actions/workflows/test.yml)
   * [Eliah-Lakhin/lady-deirdre](https://github.com/Eliah-Lakhin/lady-deirdre) - A framework for new programming languages and LSP servers.
@@ -1950,6 +1951,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [freestrings/jsonpath](https://github.com/freestrings/jsonpath) - [JsonPath](https://goessner.net/articles/JsonPath/) engine. Webassembly and Javascript support too
   * [hmeyer/stl_io](https://crates.io/crates/stl_io) - A parser for STL (STereoLithography) files
   * [igumnoff/shiva](https://github.com/igumnoff/shiva) - Shiva library: Implementation in Rust of a parser and generator for documents of any type (Plain text, Markdown, HTML, PDF and etc)
+  * [hyperpolymath/k9-rs](https://github.com/hyperpolymath/k9-rs) - Parser and renderer for K9 (Self-Validating Components), configuration with trust levels and Nickel contracts
   * [kevinmehall/rust-peg](https://github.com/kevinmehall/rust-peg) - Parsing Expression Grammar (PEG) parser generator
   * [lalrpop/lalrpop](https://github.com/lalrpop/lalrpop) - LR(1) parser generator
   * [m4rw3r/chomp](https://github.com/m4rw3r/chomp) - A fast monadic-style parser combinator
@@ -2264,3 +2266,4 @@ A registry allows you to publish your Rust libraries as crate packages, to share
 ## License
 
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+
