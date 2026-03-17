@@ -516,6 +516,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 
 ### Security tools
 
+* [assay](https://github.com/Rul1an/assay) [[assay-cli](https://crates.io/crates/assay-cli)] - MCP tool-call firewall with deterministic policy enforcement and replayable evidence bundles [![CI](https://github.com/Rul1an/assay/actions/workflows/ci.yml/badge.svg)](https://github.com/Rul1an/assay/actions/workflows/ci.yml)
 * [0xdea/augur](https://github.com/0xdea/augur) [[augur](https://crates.io/crates/augur)] - Reverse engineering assistant that extracts strings and related pseudo-code from a binary file [![build](https://github.com/0xdea/augur/actions/workflows/build.yml/badge.svg)](https://github.com/0xdea/augur/actions/workflows/build.yml)
 * [0xdea/haruspex](https://github.com/0xdea/haruspex) [[haruspex](https://crates.io/crates/haruspex)] - Vulnerability research assistant that extracts pseudo-code from the IDA Hex-Rays decompiler [![build](https://github.com/0xdea/haruspex/actions/workflows/build.yml/badge.svg)](https://github.com/0xdea/haruspex/actions/workflows/build.yml)
 * [0xdea/oneiromancer](https://github.com/0xdea/oneiromancer) [[oneiromancer](https://crates.io/crates/oneiromancer)] - Reverse engineering assistant that uses a locally running LLM to aid with source code analysis [![build](https://github.com/0xdea/oneiromancer/actions/workflows/build.yml/badge.svg)](https://github.com/0xdea/oneiromancer/actions/workflows/build.yml)
