@@ -1328,6 +1328,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
   * [GuillaumeGomez/rust-GSL](https://github.com/GuillaumeGomez/rust-GSL) - GSL bindings
 * [LAPACK](https://en.wikipedia.org/wiki/LAPACK)
   * [stainless-steel/lapack](https://github.com/blas-lapack-rs/lapack) - LAPACK bindings
+* [alphaville/optimization-engine](https://github.com/alphaville/optimization-engine) [[optimization-engine](https://crates.io/crates/optimization_engine)] - Optimization Engine (OpEn) is a solver for constrained nonconvex optimization problems <a href="https://github.com/alphaville/optimization-engine/actions?query=branch%3Amaster"><img alt="GHA continuous integration" src="https://github.com/alphaville/optimization-engine/workflows/Continuous%20integration/badge.svg"></a>
 * Parallel
   * [arrayfire/arrayfire-rust](https://github.com/arrayfire/arrayfire-rust) - [Arrayfire](https://github.com/arrayfire) bindings
   * [autumnai/collenchyma](https://github.com/autumnai/collenchyma) - An extensible, pluggable, backend-agnostic framework for parallel, high-performance computations on CUDA, OpenCL and common host CPU.
