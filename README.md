@@ -1317,6 +1317,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 
 ### Computation
 
+* [alphaville/optimization-engine](https://github.com/alphaville/optimization-engine) [[optimization-engine](https://crates.io/crates/optimization_engine)] - Optimization Engine (OpEn) is a solver for constrained nonconvex optimization problems [![Continuous integration](https://github.com/alphaville/optimization-engine/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/alphaville/optimization-engine/actions/workflows/ci.yml)
 * [argmin-rs/argmin](https://github.com/argmin-rs/argmin) [[argmin](https://crates.io/crates/argmin)] - Optimization library
 * [BLAS](https://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms) [[blas](https://crates.io/keywords/blas)]
   * [mikkyang/rust-blas](https://github.com/mikkyang/rust-blas) - BLAS bindings
@@ -1328,7 +1329,6 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
   * [GuillaumeGomez/rust-GSL](https://github.com/GuillaumeGomez/rust-GSL) - GSL bindings
 * [LAPACK](https://en.wikipedia.org/wiki/LAPACK)
   * [stainless-steel/lapack](https://github.com/blas-lapack-rs/lapack) - LAPACK bindings
-* [alphaville/optimization-engine](https://github.com/alphaville/optimization-engine) [[optimization-engine](https://crates.io/crates/optimization_engine)] - Optimization Engine (OpEn) is a solver for constrained nonconvex optimization problems [![Continuous integration](https://github.com/alphaville/optimization-engine/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/alphaville/optimization-engine/actions/workflows/ci.yml)
 * Parallel
   * [arrayfire/arrayfire-rust](https://github.com/arrayfire/arrayfire-rust) - [Arrayfire](https://github.com/arrayfire) bindings
   * [autumnai/collenchyma](https://github.com/autumnai/collenchyma) - An extensible, pluggable, backend-agnostic framework for parallel, high-performance computations on CUDA, OpenCL and common host CPU.
