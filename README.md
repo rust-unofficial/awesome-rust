@@ -1078,6 +1078,7 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust Tools](https://
 ### Tunnel
 
 * [ngrok/ngrok-rust](https://github.com/ngrok/ngrok-rust) [[ngrok-rust](https://crates.io/crates/ngrok)] - ngrok is a developer tool that exposes your local app to the internet securely.
+* [jiweiyuan/tunelo](https://github.com/jiweiyuan/tunelo) - Single binary tunnel tool. QUIC transport, zero-copy relay, built-in file server with web explorer. Self-hostable.
 
 ## Libraries
 
