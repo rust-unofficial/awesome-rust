@@ -744,6 +744,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
   [![CI](https://github.com/janreges/siteone-crawler/workflows/CI/badge.svg)](https://github.com/janreges/siteone-crawler/actions)
 * [LemmyNet/lemmy](https://github.com/LemmyNet/lemmy) - A link aggregator / reddit clone for the fediverse [![Build Status](https://cloud.drone.io/api/badges/LemmyNet/lemmy/status.svg)](https://cloud.drone.io/LemmyNet/lemmy)
 * [MASQ-Project/Node](https://github.com/MASQ-Project/Node) - MASQ Node software provides a decentralized mesh-network of nodes for global users to access normal internet content - next evolution of tech beyond Tor & VPN [![build badge](https://github.com/MASQ-Project/Node/actions/workflows/ci-matrix.yml/badge.svg)](https://github.com/MASQ-Project/Node/actions)
+* [0xMassi/webclaw](https://github.com/0xMassi/webclaw) - Web content extraction toolkit for LLMs. CLI + MCP server with TLS fingerprinting, 10 extraction tools, and token-optimized output. Zero unsafe blocks.
 * [Plume-org/Plume](https://github.com/Plume-org/Plume) - ActivityPub federating blogging application
 * [Redlib](https://github.com/redlib-org/redlib) - An alternative private front-end to Reddit, with its origins in [Libreddit](https://github.com/libreddit/libreddit)
 * [shouya/rss-funnel](https://github.com/shouya/rss-funnel) - A modular RSS processing pipeline system.
