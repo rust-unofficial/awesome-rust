@@ -774,6 +774,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 
 ## Development tools
 
+* [antinomyhq/forgecode](https://github.com/antinomyhq/forgecode) - A terminal-based AI pair programmer for code generation and editing. [![Website](https://img.shields.io/badge/website-forgecode.dev-blue)](https://forgecode.dev/)
 * [armgabrielyan/deadbranch](https://github.com/armgabrielyan/deadbranch) [[deadbranch](https://crates.io/crates/deadbranch)] - Clean up stale git branches safely [![CI](https://github.com/armgabrielyan/deadbranch/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/armgabrielyan/deadbranch/actions/workflows/ci.yml)
 * [ATAC](https://github.com/Julien-cpsn/ATAC) - A feature-full TUI API client made in Rust. ATAC is free, open-source, offline and account-less.
 * [bacon](https://github.com/Canop/bacon) - background rust code checker, similar to cargo-watch
@@ -790,8 +791,8 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [delta](https://crates.io/crates/git-delta) - A syntax-highlighter for git and diff output[![build badge](https://github.com/dandavison/delta/actions/workflows/ci.yml/badge.svg)](https://github.com/dandavison/delta//actions)
 * [dotenv-linter](https://github.com/dotenv-linter/dotenv-linter) - Linter for `.env` files [![build badge](https://github.com/dotenv-linter/dotenv-linter/actions/workflows/ci.yml/badge.svg)](https://github.com/dotenv-linter/dotenv-linter/actions?query=workflow%3ACI+branch%3Amaster)
 * [envio](https://github.com/humblepenguinn/envio) - A Modern And Secure CLI Tool For Managing Environment Variables [![build badge](https://github.com/humblepenguinn/envio/actions/workflows/CICD.yml/badge.svg?branch=main)](https://github.com/humblepenguinn/envio/actions/workflows/CICD.yml)
+* [Feel-ix-343/markdown-oxide](https://github.com/Feel-ix-343/markdown-oxide) - A PKM Markdown Language Server supporting Obsidian-style wikilinks, backlinks, and daily notes for Neovim, VSCode, Zed, Helix, and Kakoune
 * [Flox](https://github.com/flox/flox) - Flox is a virtual environment and package manager all in one.
-* [Forge](https://github.com/antinomyhq/forge) - A terminal-based AI pair programmer for code generation and editing. [![Website](https://img.shields.io/badge/website-forgecode.dev-blue)](https://forgecode.dev/)
 * [frolic](https://github.com/frolicflow/Frolic) - An API layer to build customer facing dashboards 10x faster
 * [fw](https://github.com/brocode/fw) - workspace productivity booster [![Rust](https://github.com/brocode/fw/actions/workflows/rust.yml/badge.svg)](https://github.com/brocode/fw/actions/workflows/rust.yml)
 * [fzf-make](https://github.com/kyu08/fzf-make) [[fzf-make](https://crates.io/crates/fzf-make)] - A command line tool that executes make target using fuzzy finder with preview window. [![crates.io](https://img.shields.io/crates/v/fzf-make?style=flatflat-square)](https://crates.io/crates/fzf-make)
