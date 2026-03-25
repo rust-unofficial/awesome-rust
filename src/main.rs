@@ -255,16 +255,19 @@ async fn get_downloads(github_url: &str) -> Option<u64> {
         .to_string();
     let req = CLIENT.get(&rewritten);
 
-    let resp = req.send().await;
+    let resp = req.send().await.and_then(|r| r.error_for_status());
     match resp {
         Err(err) => {
             warn!("Error while getting {}: {}", github_url, err);
             None
         }
-        Ok(ok) => {
-            let data = ok.json::<Crate>().await.unwrap();
-            Some(data.info.downloads)
-        }
+        Ok(ok) => match ok.json::<Crate>().await {
+            Ok(d) => Some(d.info.downloads),
+            Err(err) => {
+                warn!("Error getting crate data from {rewritten}: {err}");
+                None
+            }
+        },
     }
 }
 
