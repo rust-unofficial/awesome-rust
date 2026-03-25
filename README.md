@@ -1144,6 +1144,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [Cortex Memory](https://github.com/sopaco/cortex-mem) - A complete solution for agent memory, from extraction and vector search to automated optimization, and insights dashboard out-of-the-box.
 * [memvid/memvid](https://github.com/memvid/memvid) [[memvid-core](https://crates.io/crates/memvid-core)] - A single-file portable memory layer for AI agents with vector search, full-text search, and long-term recall packed into one `.mv2` file
 * [pydantic/monty](https://github.com/pydantic/monty) - A minimal, secure Python interpreter for running LLM-generated code in AI agents, with microsecond startup, strict sandboxing, and snapshotting support [![CI](https://github.com/pydantic/monty/actions/workflows/ci.yml/badge.svg)](https://github.com/pydantic/monty/actions/workflows/ci.yml)
+* [juyterman1000/entroly](https://github.com/juyterman1000/entroly) [[entroly](https://crates.io/crates/entroly-core)] - Context engineering engine for AI coding agents. Compresses entire codebases into LLM context windows at variable resolution with knapsack-optimal selection, SimHash dedup, and reinforcement learning. 21 modules, 249 tests, <10ms overhead
 
 ### Astronomy
 
