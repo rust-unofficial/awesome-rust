@@ -582,6 +582,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [deshaw/procfd](https://github.com/deshaw/procfd) [[procfd](https://crates.io/crates/procfd)] - Linux lsof replacement to list open file descriptors for processes
 * [diskonaut](https://github.com/imsnif/diskonaut) - Terminal visual disk space navigator
 * [dust](https://github.com/bootandy/dust) - A more intuitive version of du
+* [erickochen/purple](https://github.com/erickochen/purple) [[purple-ssh](https://crates.io/crates/purple-ssh)] - Ratatui-powered SSH client with cloud sync, container management, file transfer, tunnels, snippets and password management [![CI](https://github.com/erickochen/purple/actions/workflows/ci.yml/badge.svg)](https://github.com/erickochen/purple/actions/workflows/ci.yml)
 * [eza-community/eza](https://github.com/eza-community/eza) - A replacement for 'ls'
 * [fish-shell/fish-shell](https://github.com/fish-shell/fish-shell) - The user-friendly command line shell
 * [fork](https://github.com/immortal/fork) - Library for creating a new process detached from the controlling terminal (daemon)
