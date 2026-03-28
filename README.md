@@ -176,6 +176,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 * [shuttle](https://github.com/shuttle-hq/shuttle) - A serverless platform.
 * [Sniffnet](https://github.com/GyulyVGC/sniffnet) - Cross-platform application to monitor your network traffic with ease [![build badge](https://img.shields.io/github/actions/workflow/status/gyulyvgc/sniffnet/rust.yml?logo=github)](https://github.com/GyulyVGC/sniffnet/blob/main/.github/workflows/rust.yml) [![crate](https://img.shields.io/crates/v/sniffnet?logo=rust)](https://crates.io/crates/sniffnet)
 * [SWC](https://github.com/swc-project/swc) - super-fast TypeScript / JavaScript compiler
+* [TabbyML/tabby](https://github.com/TabbyML/tabby) - Self-hosted AI coding assistant, an open-source alternative to GitHub Copilot with GPU support and OpenAPI interface [![latest release](https://shields.io/github/v/release/TabbyML/tabby)](https://github.com/TabbyML/tabby/releases/latest)
 * [temps](https://github.com/gotempsh/temps) - A self-hosted PaaS that replaces Vercel, analytics, error tracking, and uptime monitoring with a single Rust binary
 * [tiny](https://github.com/osa1/tiny) - A terminal IRC client
 * [topjohnwu/Magisk](https://github.com/topjohnwu/Magisk) - A suite of open source tools for customizing Android, providing root access, boot image manipulation, and systemless modifications
