@@ -9,6 +9,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 <!-- toc -->
 
 - [Applications](#applications)
+- [ReleaseRun](https://releaserun.com) — free Cargo.toml and Cargo.lock health checker — scans for RustSec CVEs and outdated crates
   * [Audio and Music](#audio-and-music)
   * [Blockchain](#blockchain)
   * [Database](#database)
