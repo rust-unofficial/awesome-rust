@@ -378,6 +378,7 @@ See also [Payments](#payments) applications.
 
 * [klirr](https://github.com/Sajjon/klirr) [[klirr](https://crates.io/crates/klirr)] - Zero-maintenance and smart FOSS generating beautiful invoices for services and expenses.
 * [nautechsystems/nautilus_trader](https://github.com/nautechsystems/nautilus_trader) - A high-performance, production-grade algorithmic trading platform written in Rust and Python.
+* [aledger](https://github.com/TMaddox/aledger) [[aledger](https://crates.io/crates/aledger)] - Plain-text personal finance with built-in MCP server, household journals, and format converters (ledger/hledger/beancount) [![CI](https://github.com/TMaddox/aledger/actions/workflows/ci.yml/badge.svg)](https://github.com/TMaddox/aledger/actions/workflows/ci.yml)
 * [tackler](https://github.com/tackler-ng/tackler) [[tackler](https://crates.io/crates/tackler)] - Fast, reliable bookkeeping engine with native GIT SCM support for plain text accounting [![CI Badge](https://github.com/tackler-ng/tackler/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/tackler-ng/tackler/blob/main/.github/workflows/ci.yml)
 * [tarkah/tickrs](https://github.com/tarkah/tickrs) - Realtime ticker data in your terminal
 
