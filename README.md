@@ -1046,6 +1046,7 @@ See also [Are we (I)DE yet?](https://areweideyet.com/) and [Rust Tools](https://
 * Continuous Integration
   * [trust](https://github.com/japaric/trust) - A Travis CI and AppVeyor template to test your Rust crate on 5 architectures and publish binary releases of it for Linux, macOS and Windows
 * Frameworks and Runners
+  * [affected](https://github.com/Rani367/affected) [[affected-cli](https://crates.io/crates/affected-cli)] - Language-agnostic affected test detection for monorepos. Detects changed packages via git and runs only their tests. Supports Cargo, npm, Go, Python, Maven, Gradle. [![CI](https://github.com/Rani367/affected/actions/workflows/ci.yml/badge.svg)](https://github.com/Rani367/affected/actions/workflows/ci.yml)
   * [AlKass/polish](https://github.com/AlKass/polish) - Mini Testing/Test-Driven Framework [![Crates Package Status](https://img.shields.io/crates/v/polish.svg)](https://crates.io/crates/polish)
   * [bitfield/cargo-testdox](https://github.com/bitfield/cargo-testdox) [[cargo-testdox](https://crates.io/crates/cargo-testdox)] - Turns your Rust tests into docs [![CI](https://github.com/bitfield/cargo-testdox/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/bitfield/cargo-testdox/actions/workflows/ci.yml)
   * [cargo-dinghy](https://crates.io/crates/cargo-dinghy/) - A cargo extension to simplify running library tests and benches on smartphones and other small processor devices.
