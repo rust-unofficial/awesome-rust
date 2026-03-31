@@ -519,6 +519,8 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 
 ### Security tools
 
+* [ashlrai/phantom-secrets](https://github.com/ashlrai/phantom-secrets) [[phantom-secrets](https://crates.io/crates/phantom)] — Prevents AI coding agents from leaking API keys. Replaces secrets with phantom tokens and injects real credentials via a local HTTP proxy. [![CI](https://github.com/ashlrai/phantom-secrets/actions/workflows/ci.yml/badge.svg)](https://github.com/ashlrai/phantom-secrets/actions/workflows/ci.yml)
+
 * [0xdea/augur](https://github.com/0xdea/augur) [[augur](https://crates.io/crates/augur)] - Reverse engineering assistant that extracts strings and related pseudo-code from a binary file [![build](https://github.com/0xdea/augur/actions/workflows/build.yml/badge.svg)](https://github.com/0xdea/augur/actions/workflows/build.yml)
 * [0xdea/haruspex](https://github.com/0xdea/haruspex) [[haruspex](https://crates.io/crates/haruspex)] - Vulnerability research assistant that extracts pseudo-code from the IDA Hex-Rays decompiler [![build](https://github.com/0xdea/haruspex/actions/workflows/build.yml/badge.svg)](https://github.com/0xdea/haruspex/actions/workflows/build.yml)
 * [0xdea/oneiromancer](https://github.com/0xdea/oneiromancer) [[oneiromancer](https://crates.io/crates/oneiromancer)] - Reverse engineering assistant that uses a locally running LLM to aid with source code analysis [![build](https://github.com/0xdea/oneiromancer/actions/workflows/build.yml/badge.svg)](https://github.com/0xdea/oneiromancer/actions/workflows/build.yml)
