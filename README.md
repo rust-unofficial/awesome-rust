@@ -189,6 +189,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 * [wezterm](https://github.com/wezterm/wezterm) - A GPU-accelerated cross-platform terminal emulator and multiplexer
 * [WinterJS](https://github.com/wasmerio/winterjs) - A secure JavaScript runtime built with SpiderMonkey and Axum
 * [zellij](https://github.com/zellij-org/zellij) - A terminal multiplexer (workspace) with batteries included
+* [Zenii](https://github.com/sprklai/zenii) - A 20 MB local AI backend with persistent memory, 114 API routes, 18 tools, and MCP server support. Every tool on your machine shares one AI brain. [![CI](https://github.com/sprklai/zenii/actions/workflows/ci.yml/badge.svg)](https://github.com/sprklai/zenii/actions/workflows/ci.yml) 
 
 ### Audio and Music
 
