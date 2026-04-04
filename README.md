@@ -210,6 +210,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 * [WhatBPM](https://github.com/sergree/whatbpm) - A daily statically generated information resource for electronic dance music producers. Provides daily analytics on the most frequently used values for each EDM genre: tempos, keys, root notes, and so on, using publicly available data such as Beatport and Spotify.
 
 ### Blockchain
+* [RustChain](https://github.com/Scottcjn/Rustchain) - A decentralized blockchain network and distributed ledger technology built with Rust.
 
 * [Anchor](https://github.com/solana-foundation/anchor) - Anchor is the leading development framework for building secure Solana programs (smart contracts).
 * [artemis](https://github.com/paradigmxyz/artemis) - A simple, modular, and fast framework for writing MEV bots.
