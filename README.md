@@ -161,6 +161,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 * [Michael-F-Bryan/mdbook-linkcheck](https://github.com/Michael-F-Bryan/mdbook-linkcheck) [[mdbook-linkcheck](https://crates.io/crates/mdbook-linkcheck)] - A backend for mdbook which will check your links for you.
 * [mirrord](https://github.com/metalbear-co/mirrord) - Connect your local process and your cloud environment, and run local code in cloud conditions
 * [nicohman/eidolon](https://github.com/nicohman/eidolon) - A steam and drm-free game registry and launcher for linux and macosx
+* [OxideTerm](https://github.com/AnalyseDeCircuit/oxideterm) - A cross-platform SSH terminal client and local terminal emulator built with Tauri 2.0 and pure-Rust SSH (russh). Features multiplexed connections, SFTP file manager, built-in IDE (CodeMirror 6), port forwarding (-L/-R/-D), Grace Period auto-reconnect, plugin system, AI assistant, encrypted export (.oxide), and 11 languages. [![CI](https://github.com/AnalyseDeCircuit/oxideterm/actions/workflows/ci.yml/badge.svg)](https://github.com/AnalyseDeCircuit/oxideterm/actions/workflows/ci.yml)
 * [Pijul](https://pijul.org) - A patch-based distributed version control system
 * [qiluo-admin](https://github.com/chelunfu/qiluo_admin) - An enterprise-grade rapid development platform (Axum + SeaORM + JWT + VUE3, supports MySQL/Postgres/SQLite)
 * [Rauthy](https://github.com/sebadob/rauthy) - OpenID Connect Single Sign-On Identity & Access Management
