@@ -4,6 +4,7 @@ A curated list of Rust code and resources.
 
 If you want to contribute, please read [this](CONTRIBUTING.md).
 
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent system prompts for Rust development workflow orchestration, automated code review, security auditing, and multi-agent coordination. MIT licensed.
 ## Table of contents
 
 <!-- toc -->
