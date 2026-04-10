@@ -1208,6 +1208,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [Keats/jsonwebtoken](https://github.com/Keats/jsonwebtoken) - [JSON Web Token](https://en.wikipedia.org/wiki/JSON_Web_Token) library
 * [oauth2](https://github.com/ramosbugs/oauth2-rs) - Extensible, strongly-typed OAuth2 client library
 * [oxide-auth](https://github.com/197g/oxide-auth) - A OAuth2 server library, for use in combination with actix or other frontends, featuring a set of configurable and pluggable backends [![Build Status](https://api.cirrus-ci.com/github/197g/oxide-auth.svg?branch=master)](https://cirrus-ci.com/github/HeroicKatora/oxide-auth)
+* [rs-auth/rs-auth](https://github.com/rs-auth/rs-auth) [[rs-auth](https://crates.io/crates/rs-auth)] - Composable authentication for Rust with Axum and Postgres: email/password, sessions, OAuth, and email verification [![CI](https://github.com/rs-auth/rs-auth/actions/workflows/ci.yml/badge.svg)](https://github.com/rs-auth/rs-auth/actions)
 * [sgrust01/jwtvault](https://github.com/sgrust01/jwtvault) - Async library to manage and orchestrate JWT workflow
 * [yup-oauth2](https://github.com/dermesser/yup-oauth2) - An oauth2 client implementation providing the Device, Installed and Service Account flows
 
