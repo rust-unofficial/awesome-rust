@@ -786,12 +786,12 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 
 ## Development tools
 
+* [aaif-goose/goose](https://github.com/aaif-goose/goose) - An open-source, local AI agent that automates engineering tasks.
 * [antinomyhq/forgecode](https://github.com/antinomyhq/forgecode) - A terminal-based AI pair programmer for code generation and editing. [![Website](https://img.shields.io/badge/website-forgecode.dev-blue)](https://forgecode.dev/)
 * [armgabrielyan/deadbranch](https://github.com/armgabrielyan/deadbranch) [[deadbranch](https://crates.io/crates/deadbranch)] - Clean up stale git branches safely [![CI](https://github.com/armgabrielyan/deadbranch/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/armgabrielyan/deadbranch/actions/workflows/ci.yml)
 * [ATAC](https://github.com/Julien-cpsn/ATAC) - A feature-full TUI API client made in Rust. ATAC is free, open-source, offline and account-less.
 * [bacon](https://github.com/Canop/bacon) - background rust code checker, similar to cargo-watch
 * [biome](https://github.com/biomejs/biome) - A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP
-* [block/goose](https://github.com/block/goose) - An open-source, local AI agent that automates engineering tasks.
 * [cachix/devenv](https://github.com/cachix/devenv) - Fast, declarative, reproducible, and composable developer environments using Nix [![CI](https://github.com/cachix/devenv/actions/workflows/release.yml/badge.svg)](https://github.com/cachix/devenv/actions/workflows/release.yml)
 * [clippy](https://crates.io/crates/clippy) - Rust lints
 * [clog-tool/clog-cli](https://github.com/clog-tool/clog-cli) - generates a changelog from git metadata ([conventional changelog](https://blog.thoughtram.io/announcements/tools/2014/09/18/announcing-clog-a-conventional-changelog-generator-for-the-rest-of-us.html))
