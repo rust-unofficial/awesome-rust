@@ -260,6 +260,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 * [tendermint-rs](https://github.com/cometbft/tendermint-rs) - Tendermint blockchain data structures and clients
 * [wagyu](https://github.com/howardwu/wagyu) [[wagyu](https://crates.io/crates/wagyu)] - Library for generating cryptocurrency wallets
 * [zcash](https://github.com/zcash/zcash) - Zcash is an implementation of the "Zerocash" protocol.
+* [RustChain](https://github.com/Scottcjn/Rustchain) - Proof-of-Antiquity blockchain. Old hardware earns MORE than new via hardware antiquity scoring. AI agents earn RTC through autonomous bounty hunting. Includes Rust MCP server components.
 
 ### Database
 
