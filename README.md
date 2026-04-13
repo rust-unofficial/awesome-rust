@@ -724,6 +724,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [tversteeg/emplace](https://github.com/tversteeg/emplace) - Synchronize installed packages on multiple machines
 * [vamolessa/verco](https://github.com/vamolessa/verco) [[verco](https://crates.io/crates/verco)] - A simple Git/Hg tui client focused on keyboard shortcuts
 * [vaultwarden](https://github.com/dani-garcia/vaultwarden#readme) [![Build](https://github.com/dani-garcia/vaultwarden/actions/workflows/build.yml/badge.svg)](https://github.com/dani-garcia/vaultwarden/actions/workflows/build.yml) - Alternative implementation of the Bitwarden server API written in Rust
+* [veirt/weathr](https://github.com/Veirt/weathr) [[weathr](https://crates.io/crates/weathr)] - A terminal weather app with ASCII animation. [![Release](https://github.com/Veirt/weathr/actions/workflows/release.yml/badge.svg)](https://github.com/Veirt/weathr/actions/workflows/release.yml)
 * [Vibe](https://github.com/thewh1teagle/vibe) - Transcribe audio or video in every language on every platform.
 * [warpdotdev/Warp](https://github.com/warpdotdev/Warp) - :heavy_dollar_sign: Warp is a blazingly-fast modern GPU-accelerated terminal built to make you and your team more productive.
 * [Water-Run/treepp](https://github.com/Water-Run/treepp) - A Rust-based native Windows `tree` replacement with diff-level input/output compatibility on successful runs, many more features including essential exclusions and `.gitignore` support, and several-times faster performance.
