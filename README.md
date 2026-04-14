@@ -1152,6 +1152,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [smartcorelib/smartcore](https://github.com/smartcorelib/smartcore) - Machine Learning Library [![Build Status](https://img.shields.io/circleci/build/github/smartcorelib/smartcore)]
 * [tag1consulting/feste](https://github.com/tag1consulting/feste) - A GPT-2 style transformer language model implemented from scratch in Rust for educational purposes.
 * [tensorflow/rust](https://github.com/tensorflow/rust) - Bindings for TensorFlow.
+* [yantrikos/yantrikdb-server](https://github.com/yantrikos/yantrikdb-server) [[yantrikdb-server](https://crates.io/crates/yantrikdb-server)] - Cognitive memory database for AI agents. Actively manages stored memories: consolidation, contradiction detection, temporal decay. Embeddable as a Rust/Python library or run as a clustered HTTP server with CRDT replication and parking_lot runtime deadlock detection.
 
 #### OpenAI
 
