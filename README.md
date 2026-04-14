@@ -171,6 +171,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 * [Rust Iot Platform](https://github.com/iot-ecology/rust-iot-platform) - A high-performance IoT development platform built with Rust, designed for multi-protocol support and real-time data processing. This platform supports MQTT, WebSockets (WS), TCP, and CoAP protocols, making it highly flexible for diverse IoT applications.
 * [rx](https://github.com/cloudhead/rx) - Vi inspired Modern Pixel Art Editor
 * [Ryot](https://github.com/ignisda/ryot) - A self hosted application to track media consumption, fitness, etc.
+* [s00d/switchshuttle](https://github.com/s00d/switchshuttle) - Cross-platform system tray app for organizing and running predefined terminal commands with global hotkeys, nested menus, and JSON-backed configuration (Tauri + Vue).
 * [Saga Reader](https://github.com/sopaco/saga-reader) - A Blazing-Fast and Extremely-Lightweight Internet Reader driven by AI.Supports fetching of search engine information and RSS.
 * [Servo](https://github.com/servo/servo) - A prototype web browser engine
 * [shoes](https://github.com/cfal/shoes) - A multi-protocol proxy server
