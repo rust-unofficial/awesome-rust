@@ -559,6 +559,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [rustscan](https://github.com/bee-san/RustScan) - Make Nmap faster with this port scanning tool [![build badge](https://github.com/bee-san/RustScan/actions/workflows/test.yml/badge.svg)](https://github.com/bee-san/RustScan/actions)
 * [sherlock](https://github.com/jonaylor89/sherlock-rs) [[sherlock](https://crates.io/crates/sherlock)] - Hunt down social media accounts by username across social networks [![status](https://github.com/jonaylor89/sherlock-rs/actions/workflows/rust.yml/badge.svg)](https://github.com/jonaylor89/sherlock-rs/actions/workflows/rust.yml)
 * [ssh-vault](https://github.com/ssh-vault/ssh-vault) - A simple tool to manage secrets using ssh keys for encryption and decryption.
+* [sslx](https://github.com/glincker/sslx) [[sslx](https://crates.io/crates/sslx)] - A CLI tool for inspecting, grading, and managing TLS certificates, built with rustls [![CI](https://github.com/glincker/sslx/actions/workflows/ci.yml/badge.svg)](https://github.com/glincker/sslx/actions/workflows/ci.yml)
 * [SystemVll/TAuth](https://github.com/SystemVll/TAuth) - An easy and user friendly 2FA & Credentials manager, for your PC.
 
 ### Social networks
