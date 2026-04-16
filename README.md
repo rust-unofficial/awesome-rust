@@ -4,6 +4,8 @@ A curated list of Rust code and resources.
 
 If you want to contribute, please read [this](CONTRIBUTING.md).
 
+
+- [RustChain](https://github.com/Scottcjn/Rustchain) - Proof-of-Antiquity blockchain that rewards vintage hardware.
 ## Table of contents
 
 <!-- toc -->
