@@ -1,0 +1,48 @@
+name: Rust
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  schedule:
+    - cron: 0 0 * * *
+env:
+  CARGO_TERM_COLOR: always
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v6
+      - uses: dtolnay/rust-toolchain@master
+        with:
+          toolchain: stable
+          components: rustfmt
+      - uses: Swatinem/rust-cache@v2
+      - name: Load results cache
+        uses: actions/cache/restore@v5
+        with:
+          path: results/*.yaml
+          key: results-${{ hashFiles('Cargo.lock') }}-${{ hashFiles('README.md') }}-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            results-${{ hashFiles('Cargo.lock') }}-${{ hashFiles('README.md') }}-${{ github.run_id }}-
+            results-${{ hashFiles('Cargo.lock') }}-${{ hashFiles('README.md') }}-
+            results-${{ hashFiles('Cargo.lock') }}-
+            results-
+      - name: Check Format
+        run: cargo fmt -- --check
+      - name: Build
+        run: cargo build
+      - name: Run
+        run: cargo run
+        env:
+          USERNAME_FOR_GITHUB: ${{ secrets.USERNAME_FOR_GITHUB }}
+          TOKEN_FOR_GITHUB: ${{ secrets.TOKEN_FOR_GITHUB }}
+          RUST_LOG: warn
+      - name: Save results cache
+        uses: actions/cache/save@v5
+        if: always() && (github.ref == 'refs/heads/main' || github.ref == 'refs/pull/1716/merge')
+        with:
+          path: results/*.yaml
+          key: results-${{ hashFiles('Cargo.lock') }}-${{ hashFiles('README.md') }}-${{ github.run_id }}-${{ github.run_attempt }}

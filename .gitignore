@@ -1,6 +1,4 @@
 .idea/
-Cargo.lock
+.vscode/
 target/
-cleanup
-cleanup.exe
-ab-results*.json
+node_modules/

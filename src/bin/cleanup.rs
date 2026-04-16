@@ -1,5 +1,5 @@
 // Cleans up `README.md`
-// Usage: rustc cleanup.rs && ./cleanup
+// Usage: cargo run --bin cleanup
 
 use std::fs;
 use std::fs::File;
@@ -12,7 +12,7 @@ fn fix_dashes(lines: Vec<String>) -> Vec<String> {
 
     for line in lines {
         if within_content {
-            fixed_lines.push(line.replace(" - ", " — "));
+            fixed_lines.push(line.replace(" — ", " - "));
         } else {
             if line.starts_with("## Applications") {
                 within_content = true;
@@ -22,7 +22,7 @@ fn fix_dashes(lines: Vec<String>) -> Vec<String> {
         }
     }
 
-    return fixed_lines;
+    fixed_lines
 }
 
 fn main() {
@@ -40,5 +40,6 @@ fn main() {
     let fixed_contents = fix_dashes(lines);
 
     // Write the awesome file.
-    fs::write("README.md", fixed_contents.join("\n").as_bytes()).expect("Failed to write to the file");
+    fs::write("README.md", fixed_contents.join("\n").as_bytes())
+        .expect("Failed to write to the file");
 }
