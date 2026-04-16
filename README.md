@@ -596,6 +596,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [fork](https://github.com/immortal/fork) - Library for creating a new process detached from the controlling terminal (daemon)
 * [fselect](https://crates.io/crates/fselect) - Find files with SQL-like queries
 * [git-ai-project/git-ai](https://github.com/git-ai-project/git-ai) - A git extension that tracks AI-generated code in your repositories, linking lines to the agent, model, and transcripts.
+* [git-parsec](https://github.com/erishforG/git-parsec) [[git-parsec](https://crates.io/crates/git-parsec)] - Git worktree lifecycle manager that ties worktrees to issue tickets (Jira, GitHub Issues, GitLab) for parallel development. [![build](https://github.com/erishforG/git-parsec/actions/workflows/ci.yml/badge.svg)](https://github.com/erishforG/git-parsec/actions)
 * [gitbutlerapp/gitbutler](https://github.com/gitbutlerapp/gitbutler) - A modern Git-based version control interface with both a GUI and CLI built from the ground up for AI-powered workflows.
 * [gitui](https://github.com/gitui-org/gitui) - Blazing fast terminal client for git. [![build](https://github.com/gitui-org/gitui/actions/workflows/ci.yml/badge.svg)](https://github.com/gitui-org/gitui/actions)
 * [GQL](https://github.com/amrdeveloper/gql) - A SQL like query language to run on .git files.
