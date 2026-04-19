@@ -445,7 +445,7 @@ See also [Games Made With Piston](https://github.com/PistonDevelopers/piston/wik
 
 ### Message Queue
 
-* [Narwhal](https://github.com/narwhal-io/narwhal) - An extensible pub/sub messaging server for edge applications.
+* [lonewolf-io/Narwhal](https://github.com/lonewolf-io/narwhal) - An extensible pub/sub messaging server for edge applications.
 * [Rmqtt](https://github.com/rmqtt/rmqtt) - MQTT Server/MQTT Broker — Scalable distributed MQTT message broker for IoT in the 5G era.
 * [RobustMQ](https://github.com/robustmq/robustmq) - Next generation cloud-native converged message queue.
 * [Rocketmq-Rust](https://github.com/mxsm/rocketmq-rust) - 🚀Apache RocketMQ build in Rust🦀. Faster, safer, and with lower memory usage.
@@ -789,7 +789,6 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 ### Workflow Automation
 
 * [dali-benothmen/cronflow](https://github.com/dali-benothmen/cronflow) - Cronflow is a high-performance, developer-focused workflow automation library that lets you build and orchestrate complex, scalable automation workflows fully in code. [![release](https://github.com/dali-benothmen/cronflow/actions/workflows/release.yml/badge.svg)](https://github.com/dali-benothmen/cronflow/actions/workflows/release.yml)
-- [CCHub](https://github.com/Moresl/cchub) - A desktop control panel for the Claude Code / Codex / Gemini CLI ecosystem. Manage MCP servers, config profiles, agent skills, CLAUDE.md, hooks, and workflow templates from a single Tauri app (Windows / macOS / Linux).
 
 ## Development tools
 
