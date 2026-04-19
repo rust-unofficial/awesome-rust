@@ -619,6 +619,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [mmstick/tv-renamer](https://github.com/mmstick/tv-renamer) - A tv series renaming application with an optional GTK3 frontend.
 * [mxseev/logram](https://github.com/mxseev/logram) - Push log files' updates to Telegram
 * [netscanner](https://github.com/Chleba/netscanner) - TUI Network Scanner
+* [nuri-yoo/branch-watch](https://github.com/nuri-yoo/branch-watch) [[branch-watch](https://crates.io/crates/branch-watch)] - CLI tool to track branch and fork sync status across GitHub repositories [![Release](https://img.shields.io/github/v/release/nuri-yoo/branch-watch)](https://github.com/nuri-yoo/branch-watch/releases)
 * [nickgerace/gfold](https://github.com/nickgerace/gfold) [[gfold](https://crates.io/crates/gfold)] - CLI tool to help keep track of multiple Git repositories [![build](https://img.shields.io/github/workflow/status/nickgerace/gfold/merge/main)](https://github.com/nickgerace/gfold/actions?query=workflow%3Amerge+branch%3Amain)
 * [nivekuil/rip](https://github.com/nivekuil/rip) - A safe and ergonomic alternative to `rm`
 * [nushell/nushell](https://github.com/nushell/nushell) - A new type of shell
