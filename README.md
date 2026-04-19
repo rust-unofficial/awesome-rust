@@ -747,6 +747,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 
 * [firecracker-microvm/firecracker](https://github.com/firecracker-microvm/firecracker) - A lightweight virtual machine for container workload [Firecracker Microvm](https://firecracker-microvm.github.io/)
 * [kata-containers/kata-containers](https://github.com/kata-containers/kata-containers) - A implementation of lightweight Virtual Machines (VMs) that feel and perform like containers, but provide the workload isolation and security advantages of VMs.
+* [superradcompany/microsandbox](https://github.com/superradcompany/microsandbox) - Lightweight microVM sandboxing library for running isolated code execution in milliseconds. Supports Rust, Python, and TypeScript SDKs with OCI-compatible container images. [![GitHub release](https://img.shields.io/github/v/release/superradcompany/microsandbox?include_prereleases)](https://github.com/superradcompany/microsandbox/releases)
 * [tailhook/vagga](https://github.com/tailhook/vagga) - A containerization tool without daemons
 * [youki-dev/youki](https://github.com/youki-dev/youki) - A container runtime [![build badge](https://github.com/youki-dev/youki/actions/workflows/basic.yml/badge.svg)](https://github.com/youki-dev/youki/actions)
 
