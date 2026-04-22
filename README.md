@@ -242,6 +242,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 * [Lighthouse](https://github.com/sigp/lighthouse) - Ethereum Consensus Layer (CL) Client [![Build Status](https://github.com/sigp/lighthouse/actions/workflows/test-suite.yml/badge.svg)](https://github.com/sigp/lighthouse/actions)
 * [linera-io/linera-protocol](https://github.com/linera-io/linera-protocol) - A decentralized blockchain infrastructure designed for highly scalable, low-latency Web3 applications [![Build Status](https://github.com/linera-io/linera-protocol/actions/workflows/rust.yml/badge.svg)](https://github.com/linera-io/linera-protocol/actions/workflows/rust.yml)
 * [near/nearcore](https://github.com/near/nearcore) - decentralized smart-contract platform for low-end mobile devices.
+* [RustChain](https://github.com/Scottcjn/Rustchain) - Proof-of-Antiquity blockchain rewarding vintage hardware with Python + Rust hybrid architecture.
 * [Nervos CKB](https://github.com/nervosnetwork/ckb) - Nervos CKB is a public permissionless blockchain, the common knowledge layer of Nervos network.
 * [opensea-rs](https://github.com/gakonst/opensea-rs) - Bindings & CLI to the Opensea API and Contracts.
 * [Parity-Bitcoin](https://github.com/paritytech/parity-bitcoin) - The Parity Bitcoin client
