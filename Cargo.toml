@@ -8,6 +8,7 @@ edition = "2018"
 default-run = "awesome-rust"
 
 [dependencies]
+dotenv = "0.15"
 pulldown-cmark = "0.8"
 futures = "0.3"
 reqwest = { version="0.12", default-features=false, features=["rustls-tls", "json"] }

@@ -8,11 +8,15 @@ use lazy_static::lazy_static;
 use log::{debug, info, warn};
 use pulldown_cmark::{Event, Parser, Tag};
 use regex::Regex;
+use reqwest::Response;
 use reqwest::{header, redirect::Policy, Client, StatusCode, Url};
 use serde::{Deserialize, Serialize};
-use std::collections::{BTreeMap, BTreeSet};
+use std::collections::{BTreeMap, BTreeSet, HashMap};
 use std::env;
+use std::future::Future;
 use std::io::Write;
+use std::ops::Div;
+use std::pin::Pin;
 use std::time;
 use std::u8;
 use std::{cmp::Ordering, fs};
@@ -22,17 +26,29 @@ use tokio::sync::SemaphorePermit;
 
 const MINIMUM_GITHUB_STARS: u32 = 50;
 const MINIMUM_CARGO_DOWNLOADS: u32 = 2000;
+const MINIMUM_RUST_PERCENTAGE: f64 = 0.01; // FIXME: this should probably be higher
 
 // Allow overriding the needed stars for a section. "level" is the header level in the markdown, default is MINIMUM_GITHUB_STARS
 // In general, we should just use the defaults. However, for some areas where there's not a lot of well-starred projects, but a
-// a few that are say just below the thresholds, then it's worth reducing the thresholds so we can get a few more projects.
+// few that are say just below the thresholds, then it's worth reducing the thresholds so we can get a few more projects.
 fn override_stars(level: u32, text: &str) -> Option<u32> {
     if level == 2 && text.contains("Resources") {
         // This is zero because a lot of the resources are non-github/non-cargo links and overriding for all would be annoying
         // These should be evaluated with more primitive means
         Some(0)
-    } else if level == 3 && (text.contains("Games") || text.contains("Emulators")) {
-        Some(40)
+    } else {
+        None // i.e. use defaults
+    }
+}
+
+// Allow overriding the needed percentage for a section. "level" is the header level in the markdown, default is MINIMUM_RUST_PERCENTAGE
+// In general, we should just use the defaults. However, some projects includes a lot a other file types, like GAMES and resource files,
+// then it's worth reducing the thresholds so we can get a few more projects.
+fn override_rust_percentage(level: u32, text: &str) -> Option<f64> {
+    if level == 2 && text.contains("Resources") {
+        // This is zero because a lot of the resources are non-github/non-cargo links and overriding for all would be annoying
+        // These should be evaluated with more primitive means
+        Some(0.0)
     } else {
         None // i.e. use defaults
     }
@@ -55,6 +71,7 @@ lazy_static! {
         "https://www.modbus.org/",
         "https://portmedia.sourceforge.net/portmidi/",
     ].iter().map(|s| s.to_string()).collect();
+
     // Overrides for popularity count, each needs a good reason (i.e. downloads/stars we don't support automatic counting of)
     // Each is a URL that's "enough" for an item to pass the popularity checks
     static ref POPULARITY_OVERRIDES: Vec<String> = vec![
@@ -87,6 +104,33 @@ lazy_static! {
         "https://github.com/TraceMachina/nativelink", // 1.4k stars, probably broken because @palfrey now works for them...
         "https://www.repoflow.io", // added per discussion in the RepoFlow pull request: https://github.com/rust-unofficial/awesome-rust/pull/2054 (see package downloads: https://app.repoflow.io/repoflow-public/package/f429fabf-6289-49c2-acd9-791b39eac746)
         "https://framagit.org/ppom/reaction", // has 56 stars at time of writing
+    ].iter().map(|s| s.to_string()).collect();
+
+    // Overrides for rust percentage. Most of these are "this is a tool for rust, but not written in rust", or closed source
+    static ref RUST_PERCENTAGE_OVERRIDE: Vec<String> = vec![
+        "https://github.com/4worlds4w-svg/inkwell", // 1.3.0 checked with strings, built with rust 1.94.0
+        "https://github.com/nix-community/fenix", // nix for rust
+        "https://github.com/SiegeLord/RustCMake",
+        "https://github.com/cs01/gdbgui",
+        "https://github.com/racer-rust/emacs-racer",
+        "https://github.com/warpdotdev/Warp",
+        "https://github.com/Marve10s/Better-Fullstack",
+        "https://github.com/emk/rust-musl-builder",
+        "https://github.com/liuchong/docker-rustup",
+        "https://github.com/rust-lang/docker-rust",
+        "https://github.com/emk/heroku-buildpack-rust",
+        "https://github.com/japaric/rust-cross",
+        "https://github.com/eclipse-corrosion/corrosion",
+        "https://github.com/fiatjaf/module-linker",
+        "https://github.com/emacs-rustic/rustic",
+        "https://github.com/rust-lang/rust-mode",
+        "https://github.com/madeso/ride",
+        "https://github.com/Saecki/crates.nvim",
+        "https://github.com/rust-lang/rust.vim",
+        "https://github.com/racer-rust/vim-racer",
+        "https://github.com/jameysharp/corrode",
+        "https://github.com/ozkriff/awesome-quads",
+        "https://github.com/rofrol/awesome-wgpu",
     ].iter().map(|s| s.to_string()).collect();
 }
 
@@ -187,7 +231,7 @@ fn get_url(url: String) -> BoxFuture<'static, (String, Result<(), CheckerError>)
 
 lazy_static! {
     static ref GITHUB_REPO_REGEX: Regex =
-        Regex::new(r"^https://github.com/(?P<org>[^/]+)/(?P<repo>[^/]+)(.*)").unwrap();
+        Regex::new(r"^https://github.com/(?P<org>[^/]+)/(?P<repo>[^/^#]+)(.*)").unwrap();
     static ref GITHUB_API_REGEX: Regex = Regex::new(r"https://api.github.com/").unwrap();
     static ref CRATE_REGEX: Regex =
         Regex::new(r"https://crates.io/crates/(?P<crate>[^/]+)/?$").unwrap();
@@ -195,11 +239,36 @@ lazy_static! {
         Regex::new(r"(?P<repo>(\S+)(/\S+)?)(?P<crate> \[\S*\])? - (?P<desc>\S.+)").unwrap();
 }
 
+// TODO: Create a better request flow
+fn github_follow_redirect(
+    res: Response,
+) -> Pin<Box<dyn Future<Output = Result<Response, reqwest::Error>>>> {
+    if res.status().is_redirection() {
+        let location = res.headers().get("location").unwrap().to_str().unwrap();
+        let mut req = CLIENT.get(location);
+        if let Ok(username) = env::var("USERNAME_FOR_GITHUB") {
+            if let Ok(password) = env::var("TOKEN_FOR_GITHUB") {
+                // needs a token with at least public_repo scope
+                req = req.basic_auth(username, Some(password));
+            }
+        }
+        Box::pin(async move {
+            match req.send().await {
+                Ok(res) => github_follow_redirect(res).await,
+                Err(e) => Err(e),
+            }
+        })
+    } else {
+        Box::pin(async { Ok(res) })
+    }
+}
+
 #[derive(Deserialize, Debug)]
 struct GitHubStars {
     stargazers_count: u32,
-    archived: bool,
 }
+
+type GitHubLanguageInfo = HashMap<String, usize>;
 
 async fn get_stars(github_url: &str) -> Option<u32> {
     warn!("Downloading GitHub stars for {}", github_url);
@@ -221,18 +290,87 @@ async fn get_stars(github_url: &str) -> Option<u32> {
             None
         }
         Ok(ok) => {
-            let raw = ok.text().await.unwrap();
+            let followed = github_follow_redirect(ok).await;
+            if let Err(err) = followed {
+                warn!("Error while following redirect for {}: {}", github_url, err);
+                return None;
+            }
+            let raw = followed.unwrap().text().await.unwrap();
             let data = match serde_json::from_str::<GitHubStars>(&raw) {
                 Ok(val) => val,
                 Err(_) => {
-                    panic!("{:?}", raw);
+                    panic!("{} {:?}", github_url, raw);
                 }
             };
-            if data.archived {
-                warn!("{} is archived, so ignoring stars", github_url);
-                return Some(0);
-            }
             Some(data.stargazers_count)
+        }
+    }
+}
+
+async fn get_rust_percentage(github_url: &str) -> Option<f64> {
+    warn!("Downloading GitHub language information for {}", github_url);
+    let rewritten = GITHUB_REPO_REGEX
+        .replace_all(
+            github_url,
+            "https://api.github.com/repos/$org/$repo/languages",
+        )
+        .to_string();
+    let mut req = CLIENT.get(&rewritten);
+    if let Ok(username) = env::var("USERNAME_FOR_GITHUB") {
+        if let Ok(password) = env::var("TOKEN_FOR_GITHUB") {
+            // needs a token with at least public_repo scope
+            req = req.basic_auth(username, Some(password));
+        }
+    }
+
+    let resp = req.send().await;
+    match resp {
+        Err(err) => {
+            warn!("Error while getting {}: {}", github_url, err);
+            None
+        }
+        Ok(ok) => {
+            let followed = github_follow_redirect(ok).await;
+            if let Err(err) = followed {
+                warn!("Error while following redirect for {}: {}", github_url, err);
+                return None;
+            }
+            let raw = followed.unwrap().text().await.unwrap();
+            // Example of response:
+            // {
+            //     "Rust": 1000,
+            //     "Python": 500,
+            //     "Shell": 100
+            // }
+            let data = match serde_json::from_str::<GitHubLanguageInfo>(&raw) {
+                Ok(val) => val,
+                Err(_) => {
+                    panic!("{} {:?} {}", github_url, raw, rewritten);
+                }
+            };
+            if data.is_empty() {
+                warn!(
+                    "{} has no language information, so ignoring Rust lines percentage",
+                    github_url
+                );
+                return Some(0.0);
+            }
+            if !data.contains_key("Rust") {
+                warn!(
+                    "{} has no Rust code, so ignoring Rust lines percentage",
+                    github_url
+                );
+                return Some(0.0);
+            }
+            let total_lines: f64 = data.values().sum::<usize>() as f64;
+            let rust_lines: f64 = data.get("Rust").cloned().unwrap() as f64;
+
+            // Checking for division by zero, but this should never happen
+            if total_lines > 0.0 {
+                Some(rust_lines.div(total_lines))
+            } else {
+                Some(0.0)
+            }
         }
     }
 }
@@ -413,11 +551,13 @@ type Results = BTreeMap<String, Link>;
 #[derive(Debug, Serialize, Deserialize)]
 struct PopularityData {
     pub github_stars: BTreeMap<String, u32>,
+    pub github_rust_percentage: BTreeMap<String, f64>,
     pub cargo_downloads: BTreeMap<String, u32>,
 }
 
 #[tokio::main]
 async fn main() -> Result<()> {
+    dotenv::dotenv().ok();
     env_logger::init();
     let markdown_input = fs::read_to_string("README.md").expect("Can't read README.md");
     let parser = Parser::new(&markdown_input);
@@ -433,6 +573,7 @@ async fn main() -> Result<()> {
         .and_then(|x| serde_yaml::from_str(&x).map_err(|e| format_err!("{}", e)))
         .unwrap_or(PopularityData {
             github_stars: BTreeMap::new(),
+            github_rust_percentage: BTreeMap::new(),
             cargo_downloads: BTreeMap::new(),
         });
 
@@ -473,11 +614,14 @@ async fn main() -> Result<()> {
 
     let mut link_count: u8 = 0;
     let mut github_stars: Option<u32> = None;
+    let mut github_rust_percentage: Option<f64> = None;
     let mut cargo_downloads: Option<u32> = None;
 
     let mut required_stars: u32 = MINIMUM_GITHUB_STARS;
+    let mut required_rust_percentage: f64 = MINIMUM_RUST_PERCENTAGE;
     let mut last_level: u32 = 0;
     let mut star_override_level: Option<u32> = None;
+    let mut rust_percentage_override_level: Option<u32> = None;
 
     let mut has_errors = false;
 
@@ -489,33 +633,64 @@ async fn main() -> Result<()> {
                     Tag::Link(_link_type, url, _title) | Tag::Image(_link_type, url, _title) => {
                         if !url.starts_with('#') {
                             let new_url = url.to_string();
+                            link_count += 1;
+                            // Check if all metrics should be overridden
                             if POPULARITY_OVERRIDES.contains(&new_url) {
                                 github_stars = Some(MINIMUM_GITHUB_STARS);
-                            } else if GITHUB_REPO_REGEX.is_match(&url) && github_stars.is_none() {
+                                github_rust_percentage = Some(MINIMUM_RUST_PERCENTAGE);
+                            } else if GITHUB_REPO_REGEX.is_match(&url) {
                                 let github_url = GITHUB_REPO_REGEX
                                     .replace_all(&url, "https://github.com/$org/$repo")
                                     .to_string();
-                                let existing = popularity_data.github_stars.get(&github_url);
-                                if let Some(stars) = existing {
-                                    // Use existing star data, but re-retrieve url to check aliveness
-                                    // Some will have overrides, so don't check the regex yet
-                                    github_stars = Some(*stars)
-                                } else {
-                                    github_stars = get_stars(&github_url).await;
-                                    if let Some(raw_stars) = github_stars {
-                                        popularity_data.github_stars.insert(github_url, raw_stars);
-                                        if raw_stars >= required_stars {
-                                            fs::write(
-                                                "results/popularity.yaml",
-                                                serde_yaml::to_string(&popularity_data)?,
-                                            )?;
+                                if github_stars.is_none() {
+                                    let existing = popularity_data.github_stars.get(&github_url);
+                                    if let Some(stars) = existing {
+                                        // Use existing star data, but re-retrieve url to check aliveness
+                                        // Some will have overrides, so don't check the regex yet
+                                        github_stars = Some(*stars)
+                                    } else {
+                                        github_stars = get_stars(&github_url).await;
+                                        if let Some(raw_stars) = github_stars {
+                                            popularity_data
+                                                .github_stars
+                                                .insert(github_url.clone(), raw_stars);
+                                            if raw_stars >= required_stars {
+                                                fs::write(
+                                                    "results/popularity.yaml",
+                                                    serde_yaml::to_string(&popularity_data)?,
+                                                )?;
+                                            }
                                         }
-                                        link_count += 1;
-                                        continue;
                                     }
                                 }
-                            }
-                            if CRATE_REGEX.is_match(&url) {
+                                if RUST_PERCENTAGE_OVERRIDE.contains(&new_url) {
+                                    // if github rust percentage is not none, maybe max(github_rust_percentage, MINIMUM_RUST_PERCENTAGE)
+                                    github_rust_percentage = Some(MINIMUM_RUST_PERCENTAGE);
+                                } else if github_rust_percentage.is_none() {
+                                    let existing_github_rust_percentage =
+                                        popularity_data.github_rust_percentage.get(&github_url);
+                                    if let Some(rust_percentage) = existing_github_rust_percentage {
+                                        github_rust_percentage = Some(*rust_percentage);
+                                    } else {
+                                        let rust_percentage =
+                                            get_rust_percentage(&github_url).await;
+                                        if let Some(raw_rust_percentage) = rust_percentage {
+                                            github_rust_percentage = Some(raw_rust_percentage);
+                                            popularity_data.github_rust_percentage.insert(
+                                                github_url.to_string(),
+                                                raw_rust_percentage,
+                                            );
+                                            if raw_rust_percentage >= required_rust_percentage {
+                                                fs::write(
+                                                    "results/popularity.yaml",
+                                                    serde_yaml::to_string(&popularity_data)?,
+                                                )?;
+                                            }
+                                        }
+                                    }
+                                }
+                                continue;
+                            } else if CRATE_REGEX.is_match(&url) {
                                 let existing = popularity_data.cargo_downloads.get(&new_url);
                                 if let Some(downloads) = existing {
                                     cargo_downloads = Some(*downloads);
@@ -559,6 +734,7 @@ async fn main() -> Result<()> {
                         list_item = String::new();
                         link_count = 0;
                         github_stars = None;
+                        github_rust_percentage = None;
                         cargo_downloads = None;
                     }
                     Tag::Heading(level) => {
@@ -567,6 +743,12 @@ async fn main() -> Result<()> {
                             if level == override_level {
                                 star_override_level = None;
                                 required_stars = MINIMUM_GITHUB_STARS;
+                            }
+                        }
+                        if let Some(override_level) = rust_percentage_override_level {
+                            if level == override_level {
+                                rust_percentage_override_level = None;
+                                required_rust_percentage = MINIMUM_RUST_PERCENTAGE;
                             }
                         }
                     }
@@ -579,10 +761,16 @@ async fn main() -> Result<()> {
                 }
             }
             Event::Text(text) => {
-                let possible_override = override_stars(last_level, &text);
-                if let Some(override_value) = possible_override {
+                let possible_stars_override = override_stars(last_level, &text);
+                if let Some(override_value) = possible_stars_override {
                     star_override_level = Some(last_level);
                     required_stars = override_value;
+                }
+
+                let possible_rust_percentage_override = override_rust_percentage(last_level, &text);
+                if let Some(override_value) = possible_rust_percentage_override {
+                    rust_percentage_override_level = Some(last_level);
+                    required_rust_percentage = override_value;
                 }
 
                 if in_list_item {
@@ -594,17 +782,19 @@ async fn main() -> Result<()> {
                     Tag::Item => {
                         if !list_item.is_empty() {
                             if link_count > 0
-                                && github_stars.unwrap_or(0) < required_stars
+                                && (github_stars.unwrap_or(0) < required_stars
+                                    || github_rust_percentage.unwrap_or(0.0)
+                                        < required_rust_percentage)
                                 && cargo_downloads.unwrap_or(0) < MINIMUM_CARGO_DOWNLOADS
                             {
-                                if github_stars.is_none() {
+                                if github_stars.is_none() || github_rust_percentage.is_none() {
                                     warn!("No valid github link for {list_item}");
                                 }
                                 if cargo_downloads.is_none() {
                                     warn!("No valid crates link for {list_item}");
                                 }
                                 has_errors = true;
-                                eprintln!("Not high enough metrics ({:?} stars < {}, and {:?} cargo downloads < {}): {}", github_stars, required_stars, cargo_downloads, MINIMUM_CARGO_DOWNLOADS, list_item);
+                                eprintln!("Not high enough metrics ({:?} stars < {}, {:?} Rust percentage < {} and {:?} cargo downloads < {}): {}", github_stars, required_stars, github_rust_percentage.map(|f|f*100.0), required_rust_percentage*100.0, cargo_downloads, MINIMUM_CARGO_DOWNLOADS, list_item);
                             }
                             if link_count > 0 && !ITEM_REGEX.is_match(&list_item) {
                                 if list_item.contains("—") {
