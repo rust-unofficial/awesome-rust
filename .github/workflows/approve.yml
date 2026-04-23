@@ -6,7 +6,7 @@ on:
 jobs:
   automatic-approve:
     name: Automatic Approve
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Automatic Approve
         uses: mheap/automatic-approve-action@v1.1.0

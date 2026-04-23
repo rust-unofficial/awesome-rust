@@ -1,8 +1,8 @@
 #![deny(warnings)]
 
+use anyhow::{format_err, Result};
 use chrono::{DateTime, Duration, Local};
 use diffy::create_patch;
-use failure::{format_err, Error, Fail};
 use futures::future::{select_all, BoxFuture, FutureExt};
 use lazy_static::lazy_static;
 use log::{debug, info, warn};
@@ -20,6 +20,7 @@ use std::pin::Pin;
 use std::time;
 use std::u8;
 use std::{cmp::Ordering, fs};
+use thiserror::Error;
 use tokio::sync::Semaphore;
 use tokio::sync::SemaphorePermit;
 
@@ -58,227 +59,82 @@ fn override_rust_percentage(level: u32, text: &str) -> Option<f64> {
 lazy_static! {
     // We don't explicitly check these, because they just bug out in GitHub. We're _hoping_ they don't go away!
     static ref ASSUME_WORKS: Vec<String> = vec![
-        "https://www.reddit.com/r/rust/".to_string()
-    ];
+        "https://www.reddit.com/r/rust/",
+        "https://opcfoundation.org/about/opc-technologies/opc-ua/",
+        "https://arangodb.com",
+        "https://git.sr.ht/~lessa/pepper",
+        "https://git.sr.ht/~pyrossh/rust-embed",
+        "https://www.gnu.org/software/emacs/",
+        "http://www.gnu.org/software/gsl/",
+        "https://labex.io/skilltrees/rust",
+        "https://github.com/TraceMachina/nativelink", // probably broken because @palfrey now works for them...
+        "https://www.vulkan.org/",
+        "https://gitlab.redox-os.org/redox-os/redox", // Cloudflare
+        "https://www.modbus.org/",
+        "https://portmedia.sourceforge.net/portmidi/",
+    ].iter().map(|s| s.to_string()).collect();
+
     // Overrides for popularity count, each needs a good reason (i.e. downloads/stars we don't support automatic counting of)
     // Each is a URL that's "enough" for an item to pass the popularity checks
     static ref POPULARITY_OVERRIDES: Vec<String> = vec![
-        "https://github.com/maidsafe".to_string(), // Many repos of Rust code, collectively > 50 stars
-        "https://pijul.org".to_string(), // Uses it's own VCS at https://nest.pijul.com/pijul/pijul with 190 stars at last check
-        "https://gitlab.com/veloren/veloren".to_string(), // No direct gitlab support, but >1000 stars there
-        "https://gitlab.redox-os.org/redox-os/redox".to_string(), // 394 stars
-        "https://amp.rs".to_string(), // https://github.com/jmacdonald/amp has 2.9k stars
-        "https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb".to_string(), // > 350k downloads
-        "https://gitpod.io".to_string(), // https://github.com/gitpod-io/gitpod has 4.7k stars
-        "https://wiki.gnome.org/Apps/Builder".to_string(), // https://gitlab.gnome.org/GNOME/gnome-builder has 133 stars
-        "https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml".to_string(), // > 860k downloads
-        "https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer".to_string(), // > 260k downloads
-        "https://marketplace.visualstudio.com/items?itemName=rust-lang.rust".to_string(), // > 1M downloads
-        "https://docs.rs".to_string(), // https://github.com/rust-lang/docs.rs has >600 stars
-        "https://github.com/rust-bio".to_string(), // https://github.com/rust-bio/rust-bio on it's own has >900 stars
-        "https://github.com/contain-rs".to_string(), // Lots of repos with good star counts
-        "https://github.com/georust".to_string(), // Lots of repos with good star counts
-        "http://kiss3d.org".to_string(), // https://github.com/sebcrozet/kiss3d has >900 stars
-        "https://github.com/rust-qt".to_string(), // Various high-stars repositories
-        "https://chromium.googlesource.com/chromiumos/platform/crosvm/".to_string(), // Can't tell count directly, but various mirrors of it (e.g. https://github.com/dgreid/crosvm) have enough stars that it's got enough interest
-        "https://crates.io".to_string(), // This one gets a free pass :)
-        "https://cloudsmith.com/product/formats/cargo-registry".to_string(), // First private cargo registry (https://cloudsmith.com/blog/worlds-first-private-cargo-registry-w-cloudsmith-rust/) and not much in the way of other options yet. See also https://github.com/rust-unofficial/awesome-rust/pull/1141#discussion_r688711555
-        "https://gitlab.com/ttyperacer/terminal-typeracer".to_string(), // GitLab repo with >40 stars.
-        "https://github.com/esp-rs".to_string(), // Espressif Rust Organization (Organizations have no stars).
-        "https://github.com/arkworks-rs".to_string(), // Rust ecosystem for zkSNARK programming (Organizations have no stars)
-        "https://marketplace.visualstudio.com/items?itemName=jinxdash.prettier-rust".to_string(), // https://github.com/jinxdash/prettier-plugin-rust has >50 stars
+        "https://github.com/maidsafe", // Many repos of Rust code, collectively > 50 stars
+        "https://pijul.org", // Uses it's own VCS at https://nest.pijul.com/pijul/pijul with 190 stars at last check
+        "https://gitlab.com/veloren/veloren", // No direct gitlab support, but >1000 stars there
+        "https://gitlab.redox-os.org/redox-os/redox", // 394 stars
+        "https://amp.rs", // https://github.com/jmacdonald/amp has 2.9k stars
+        "https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb", // > 350k downloads
+        "https://gitpod.io", // https://github.com/gitpod-io/gitpod has 4.7k stars
+        "https://wiki.gnome.org/Apps/Builder", // https://gitlab.gnome.org/GNOME/gnome-builder has 133 stars
+        "https://www.jetbrains.com/rust/", // popular closed-source IDE, free for non-commercial use
+        "https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml", // > 1M downloads
+        "https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer", // > 260k downloads
+        "https://marketplace.visualstudio.com/items?itemName=rust-lang.rust", // > 1M downloads
+        "https://docs.rs", // https://github.com/rust-lang/docs.rs has >600 stars
+        "https://github.com/rust-bio", // https://github.com/rust-bio/rust-bio on it's own has >900 stars
+        "https://github.com/contain-rs", // Lots of repos with good star counts
+        "https://github.com/georust", // Lots of repos with good star counts
+        "https://github.com/rust-qt", // Various high-stars repositories
+        "https://chromium.googlesource.com/chromiumos/platform/crosvm/", // Can't tell count directly, but various mirrors of it (e.g. https://github.com/dgreid/crosvm) have enough stars that it's got enough interest
+        "https://crates.io", // This one gets a free pass :)
+        "https://cloudsmith.com/product/formats/cargo-registry", // First private cargo registry (https://cloudsmith.com/blog/worlds-first-private-cargo-registry-w-cloudsmith-rust/) and not much in the way of other options yet. See also https://github.com/rust-unofficial/awesome-rust/pull/1141#discussion_r688711555
+        "https://gitlab.com/ttyperacer/terminal-typeracer", // GitLab repo with >40 stars.
+        "https://github.com/esp-rs", // Espressif Rust Organization (Organizations have no stars).
+        "https://github.com/arkworks-rs", // Rust ecosystem for zkSNARK programming (Organizations have no stars)
+        "https://marketplace.visualstudio.com/items?itemName=jinxdash.prettier-rust", // https://github.com/jinxdash/prettier-plugin-rust has >50 stars
+        "https://github.com/andoriyu/uclicious", // FIXME: CI hack. the crate has a higher count, but we don't refresh.
+        "https://marketplace.visualstudio.com/items?itemName=fill-labs.dependi", // marketplace link , but also has enough stars
+        "https://github.com/TraceMachina/nativelink", // 1.4k stars, probably broken because @palfrey now works for them...
+        "https://www.repoflow.io", // added per discussion in the RepoFlow pull request: https://github.com/rust-unofficial/awesome-rust/pull/2054 (see package downloads: https://app.repoflow.io/repoflow-public/package/f429fabf-6289-49c2-acd9-791b39eac746)
+        "https://framagit.org/ppom/reaction", // has 56 stars at time of writing
+    ].iter().map(|s| s.to_string()).collect();
 
-
-        "https://speakerdeck.com/jvns/learning-systems-programming-with-rust".to_string(), // FIXME: Check this
-        "https://www.youtube.com/watch?v=lO1z-7cuRYI".to_string(), // FIXME: Check this
-        "https://www.youtube.com/watch?v=t4CyEKb-ywA".to_string(), // FIXME: Check this
-        "https://kandi.openweaver.com/explorelibrary/rust".to_string(), // FIXME: Check this
-        "https://rustbeginners.github.io/awesome-rust-mentors/".to_string(), // FIXME: Check this
-        "http://cis198-2016s.github.io/schedule/".to_string(), // FIXME: Check this
-        "https://github.com/jamesmunns/awesome-rust-streaming".to_string(), // FIX: Check this
-        "https://rustbeginners.github.io/awesome-rust-mentors/".to_string(), // FIX: Check this
-        "https://blog.subnetzero.io/post/building-language-vm-part-00/".to_string(), // FIX: Check this
-        "https://app.codecrafters.io/tracks/rust".to_string(), // FIX: Check this
-        "https://google.github.io/comprehensive-rust/".to_string(), // FIX: Check this
-        "https://github.com/Dhghomon/easy_rust".to_string(), // FIX: Check this
-        "https://exercism.org/tracks/rust".to_string(), // FIX: Check this
-        "https://pragprog.com/titles/hwrust/hands-on-rust/".to_string(), // FIX: Check this
-        "https://github.com/mre/idiomatic-rust".to_string(), // FIX: Check this
-        "https://github.com/cuppar/rtd".to_string(), // FIX: Check this
-        "https://rust-unofficial.github.io/too-many-lists/".to_string(), // FIX: Check this
-        "https://lborb.github.io/book/".to_string(), // FIX: Check this
-        "https://hackr.io/tutorials/learn-rust".to_string(), // FIX: Check this
-        "https://www.manning.com/books/refactoring-to-rust".to_string(), // FIX: Check this
-        "https://doc.rust-lang.org/rust-by-example/".to_string(), // FIX: Check this
-        "https://rust-lang-nursery.github.io/rust-cookbook/".to_string(), // FIX: Check this
-        "https://github.com/ad-si/Rust-Flashcards".to_string(), // FIX: Check this
-        "https://overexact.com/rust-for-professionals/".to_string(), // FIX: Check this
-        "https://github.com/warycat/rustgym".to_string(), // FIX: Check this
-        "https://www.manning.com/books/rust-in-action".to_string(), // FIX: Check this
-        "https://www.manning.com/livevideo/rust-in-motion?a_aid=cnichols&a_bid=6a993c2e".to_string(), // FIX: Check this
-        "https://cheats.rs/".to_string(), // FIX: Check this
-        "https://rust-tieng-viet.github.io/".to_string(), // FIX: Check this
-        "https://github.com/jondot/rust-how-do-i-start".to_string(), // FIX: Check this
-        "https://github.com/ctjhoa/rust-learning".to_string(), // FIX: Check this
-        "https://github.com/rust-lang/rustlings".to_string(), // FIX: Check this
-        "https://github.com/AbdesamedBendjeddou/Rusty-CS".to_string(), // FIX: Check this
-        "https://github.com/brson/stdx".to_string(), // FIX: Check this
-        "https://learn.microsoft.com/en-us/training/paths/rust-first-steps/".to_string(), // FIX: Check this
-        "https://tourofrust.com".to_string(), // FIX: Check this
-
-        "https://newrustacean.com".to_string(), // FIX: Check this
-        "https://rustacean-station.org/".to_string(), // FIX: Check this
-
-        "http://aturon.github.io/".to_string(), // FIX: Check this
-        "https://www.manning.com/books/rust-servers-services-and-apps".to_string(), // FIX: Check this
-        "https://www.reddit.com/r/rust/".to_string(), // FIX: Check this
-        "https://github.com/sger/RustBooks".to_string(), // FIX: Check this
-        "https://www.youtube.com/playlist?list=PLE7tQUdRKcybdIw61JpCoo89i4pWU5f_t".to_string(), // FIX: Check this
-        "https://github.com/rustviz/rustviz".to_string(), // FIX: Check this
-        "https://www.youtube.com/watch?v=jf_ddGnum_4".to_string(), // FIX: Check this
-    ];
-
-    static ref STAR_COUNT_OVERRIDE: Vec<String> = vec![
-        "https://github.com/andoriyu/uclicious".to_string(), // FIXME: CI hack. the crate has a higher count, but we don't refresh.
-    ];
-
-    // All repos that dont have a explanation for why they are overriden, is becuase they were added before this feature
+    // Overrides for rust percentage
     static ref RUST_PERCENTAGE_OVERRIDE: Vec<String> = vec![
-        "https://github.com/servo/servo".to_string(), // Servo is a Rust-written Web Browser, but doesn't expose language information
-        "https://github.com/AbdesamedBendjeddou/Rusty-CS".to_string(),
-        "https://github.com/Dhghomon/easy_rust".to_string(),
-        "https://github.com/FiloSottile/age".to_string(),
-        "https://github.com/Immediate-Mode-UI/Nuklear".to_string(),
-        "https://github.com/Saecki/crates.nvim".to_string(),
-        "https://github.com/ZoeyR/rls-vs2017".to_string(),
-        "https://github.com/andlabs/libui".to_string(),
-        "https://github.com/auto-complete/auto-complete".to_string(),
-        "https://github.com/awslabs/aws-sdk-rust".to_string(),
-        "https://github.com/brotzeit/rustic".to_string(),
-        "https://github.com/confluentinc/librdkafka".to_string(),
-        "https://github.com/cs01/gdbgui".to_string(),
-        "https://github.com/ctjhoa/rust-learning".to_string(),
-        "https://github.com/emk/heroku-buildpack-rust".to_string(),
-        "https://github.com/emk/rust-musl-builder".to_string(),
-        "https://github.com/fiatjaf/module-linker".to_string(),
-        "https://github.com/flosse/rust-os-comparison".to_string(),
-        "https://github.com/google/leveldb".to_string(),
-        "https://github.com/jamesmunns/awesome-rust-streaming".to_string(),
-        "https://github.com/jameysharp/corrode".to_string(),
-        "https://github.com/japaric/rust-cross".to_string(),
-        "https://github.com/jondot/rust-how-do-i-start".to_string(),
-        "https://github.com/libfuse/libfuse".to_string(),
-        "https://github.com/liuchong/docker-rustup".to_string(),
-        "https://github.com/ljharb/qs".to_string(),
-        "https://github.com/mlabbe/nativefiledialog".to_string(),
-        "https://github.com/mrhooray/torch".to_string(),
-        "https://github.com/nix-community/fenix".to_string(),
-        "https://github.com/nsf/termbox".to_string(),
-        "https://github.com/ocornut/imgui".to_string(),
-        "https://github.com/ozkriff/awesome-quads".to_string(),
-        "https://github.com/peaceiris/actions-mdbook".to_string(),
-        "https://github.com/racer-rust/emacs-racer".to_string(),
-        "https://github.com/racer-rust/vim-racer".to_string(),
-        "https://github.com/rofrol/awesome-wgpu".to_string(),
-        "https://github.com/ruby-grape/grape".to_string(),
-        "https://github.com/rust-lang/docker-rust".to_string(),
-        "https://github.com/rust-lang/rust.vim".to_string(),
-        "https://github.com/rust-unofficial/patterns".to_string(),
-        "https://github.com/serayuzgur/crates".to_string(),
-        "https://github.com/sger/RustBooks".to_string(),
-        "https://github.com/symisc/unqlite".to_string(),
-        "https://github.com/thampiman/reverse-geocoder".to_string(),
-        "https://github.com/tommyettinger/BearLibTerminal".to_string(),
-        "https://github.com/vamolessa/verco".to_string(),
-        "https://github.com/vstakhov/libucl".to_string(),
-        "https://github.com/warpdotdev/Warp".to_string(),
-        "https://github.com/eclipse-corrosion/corrosion".to_string(),
-        "https://github.com/flycheck/flycheck".to_string(),
-        "https://github.com/madeso/ride".to_string(),
-        "https://github.com/rust-lang/rust-mode".to_string(),
-        "https://github.com/emacs-ng/emacs-ng".to_string(),
-        "https://github.com/SiegeLord/RustCMake".to_string(),
-        "https://github.com/Devolutions/CMakeRust".to_string(),
-        "https://github.com/intellij-rust/intellij-rust".to_string(),
-        "https://github.com/flycheck/flycheck-rust".to_string(),
-        "https://github.com/BayesWitnesses/m2cgen".to_string(),
-        "https://github.com/zcash/zcash".to_string(),
-        "https://github.com/ashvardanian/StringZilla".to_string(),
-        "https://github.com/vorot93/libmdbx-rs".to_string(),
-        "https://github.com/kpcyrd/mini-docker-rust".to_string(),
-        "https://github.com/unum-cloud/usearch".to_string(),
-        "https://github.com/PistonDevelopers/VisualRust".to_string(),
-        "https://github.com/tickbh/td_rlua".to_string(),
-        "https://github.com/tomassedovic/tcod-rs".to_string(),
-        "https://github.com/getsentry/milksnake".to_string(),
-        "https://github.com/wasmerio/winterjs".to_string(),
-        "https://github.com/jcmoyer/rust-lua53".to_string(),
-        "https://github.com/cossacklabs/themis".to_string(),
-        "https://github.com/metacall/core".to_string(),
-        "https://github.com/ashvardanian/SimSIMD".to_string(),
-        "https://github.com/cunarist/rinf".to_string(),
-        "https://github.com/alexcrichton/bzip2-rs".to_string(),
-        "https://github.com/icepuma/rust-action".to_string(),
-        "https://github.com/huhu/rust-search-extension".to_string(),
-        "https://github.com/bastibense/libharu_ng".to_string(),
-        "https://github.com/thewh1teagle/mobslide".to_string(),
-        "https://github.com/drrb/java-rust-example".to_string(),
-        "https://github.com/Geal/rust_on_mobile".to_string(),
-        "https://github.com/fractalide/fractalide".to_string(),
-        "https://github.com/xiph/rav1e".to_string(),
-        "https://github.com/tomaka/hlua".to_string(),
-        "https://github.com/rustviz/rustviz".to_string(),
-        "https://github.com/deltaphc/raylib-rs".to_string(),
-        "https://github.com/koute/bytehound".to_string(),
-        "https://github.com/alexcrichton/rust-ffi-examples".to_string(),
-        "https://github.com/rust-cross/rust-musl-cross".to_string(),
-        "https://github.com/japaric/trust".to_string(),
-        "https://github.com/1History/1History".to_string(),
-        "https://github.com/atomicdata-dev/atomic-server".to_string(),
-        "https://github.com/thewh1teagle/vibe".to_string(),
-        "https://github.com/bencherdev/bencher".to_string(),
-        "https://github.com/briansmith/ring".to_string(),
-        "https://github.com/fzyzcjy/flutter_rust_bridge".to_string(),
-        "https://github.com/lancedb/lancedb".to_string(),
-        "https://github.com/rust-lang/rust-enhanced".to_string(),
-        "https://github.com/defguard/defguard".to_string(),
-        "https://github.com/jdrouet/jolimail".to_string(),
-        "https://github.com/upvpn/upvpn-app".to_string(),
-        "https://github.com/cds-astro/aladin-lite".to_string(),
-        "https://github.com/llogiq/flame".to_string(),
-        "https://github.com/openobserve/openobserve".to_string(),
-        "https://github.com/mozilla/cbindgen".to_string(),
-        "https://github.com/jdrouet/mrml".to_string(),
-        "https://github.com/mcthesw/game-save-manager".to_string(),
-        "https://github.com/deps-rs/deps.rs".to_string(),
-        "https://github.com/denoland/deno".to_string(),
-        "https://github.com/makepad/makepad".to_string(),
-        "https://github.com/osohq/oso".to_string(),
-        "https://github.com/inspektor-dev/inspektor".to_string(),
-    ];
+        ""
+    ].iter().map(|s| s.to_string()).collect();
 }
 
-#[derive(Debug, Fail, Serialize, Deserialize)]
+#[derive(Debug, Error, Serialize, Deserialize)]
 enum CheckerError {
-    #[fail(display = "failed to try url")]
+    #[error("failed to try url")]
     NotTried, // Generally shouldn't happen, but useful to have
 
-    #[fail(display = "http error: {}", status)]
+    #[error("http error: {status}")]
     HttpError {
         status: u16,
         location: Option<String>,
     },
 
-    #[fail(display = "too many requests")]
+    #[error("too many requests")]
     TooManyRequests,
 
-    #[fail(display = "reqwest error: {}", error)]
+    #[error("reqwest error: {error}")]
     ReqwestError { error: String },
 
-    #[fail(display = "travis build is unknown")]
+    #[error("travis build is unknown")]
     TravisBuildUnknown,
 
-    #[fail(display = "travis build image with no branch")]
+    #[error("travis build image with no branch")]
     TravisBuildNoBranch,
 }
 
@@ -319,7 +175,7 @@ impl MaxHandles {
         }
     }
 
-    async fn get(&self) -> Handle {
+    async fn get(&'_ self) -> Handle<'_> {
         let permit = self.remaining.acquire().await.unwrap();
         Handle { _permit: permit }
     }
@@ -360,7 +216,7 @@ lazy_static! {
     static ref CRATE_REGEX: Regex =
         Regex::new(r"https://crates.io/crates/(?P<crate>[^/]+)/?$").unwrap();
     static ref ITEM_REGEX: Regex =
-        Regex::new(r"(?P<repo>(\S+)(/\S+)?)(?P<crate> \[\S*\])? — (?P<desc>\S.+)").unwrap();
+        Regex::new(r"(?P<repo>(\S+)(/\S+)?)(?P<crate> \[\S*\])? - (?P<desc>\S.+)").unwrap();
 }
 
 // TODO: Create a better request flow
@@ -390,7 +246,6 @@ fn github_follow_redirect(
 #[derive(Deserialize, Debug)]
 struct GitHubStars {
     stargazers_count: u32,
-    archived: bool,
 }
 
 type GitHubLanguageInfo = HashMap<String, usize>;
@@ -427,10 +282,6 @@ async fn get_stars(github_url: &str) -> Option<u32> {
                     panic!("{} {:?}", github_url, raw);
                 }
             };
-            if data.archived {
-                warn!("{} is archived, so ignoring stars", github_url);
-                return Some(0);
-            }
             Some(data.stargazers_count)
         }
     }
@@ -522,22 +373,26 @@ async fn get_downloads(github_url: &str) -> Option<u64> {
         .to_string();
     let req = CLIENT.get(&rewritten);
 
-    let resp = req.send().await;
+    let resp = req.send().await.and_then(|r| r.error_for_status());
     match resp {
         Err(err) => {
             warn!("Error while getting {}: {}", github_url, err);
             None
         }
-        Ok(ok) => {
-            let data = ok.json::<Crate>().await.unwrap();
-            Some(data.info.downloads)
-        }
+        Ok(ok) => match ok.json::<Crate>().await {
+            Ok(d) => Some(d.info.downloads),
+            Err(err) => {
+                warn!("Error getting crate data from {rewritten}: {err}");
+                None
+            }
+        },
     }
 }
 
 fn get_url_core(url: String) -> BoxFuture<'static, (String, Result<(), CheckerError>)> {
     async move {
-        if ASSUME_WORKS.contains(&url) {
+        if ASSUME_WORKS.contains(&url) || url.starts_with("https://medium.com") // cloudflare
+        {
             info!("We assume {} just works...", url);
             return (url, Ok(()));
         }
@@ -573,7 +428,7 @@ fn get_url_core(url: String) -> BoxFuture<'static, (String, Result<(), CheckerEr
                 }
                 Ok(ok) => {
                     let status = ok.status();
-                    if status != StatusCode::OK {
+                    if !vec![StatusCode::OK, StatusCode::ACCEPTED].contains(&status) {
                         lazy_static! {
                             static ref ACTIONS_REGEX: Regex = Regex::new(r"https://github.com/(?P<org>[^/]+)/(?P<repo>[^/]+)/actions(?:\?workflow=.+)?").unwrap();
                             static ref YOUTUBE_VIDEO_REGEX: Regex = Regex::new(r"https://www.youtube.com/watch\?v=(?P<video_id>.+)").unwrap();
@@ -608,7 +463,7 @@ fn get_url_core(url: String) -> BoxFuture<'static, (String, Result<(), CheckerEr
                             let redirect = ok.headers().get(header::LOCATION).unwrap().to_str().unwrap();
                             let merged_url = Url::parse(&url).unwrap().join(redirect).unwrap();
                             info!("Got 302 from Azure devops, so replacing {} with {}", url, merged_url);
-                            let (_new_url, res) = get_url_core(merged_url.into_string()).await;
+                            let (_new_url, res) = get_url_core(merged_url.into()).await;
                             return (url, res);
                         }
 
@@ -681,7 +536,7 @@ struct PopularityData {
 }
 
 #[tokio::main]
-async fn main() -> Result<(), Error> {
+async fn main() -> Result<()> {
     dotenv::dotenv().ok();
     env_logger::init();
     let markdown_input = fs::read_to_string("README.md").expect("Can't read README.md");
@@ -748,7 +603,10 @@ async fn main() -> Result<(), Error> {
     let mut star_override_level: Option<u32> = None;
     let mut rust_percentage_override_level: Option<u32> = None;
 
+    let mut has_errors = false;
+
     for (event, _range) in parser.into_offset_iter() {
+        debug!("Event {:?}", event);
         match event {
             Event::Start(tag) => {
                 match tag {
@@ -764,30 +622,20 @@ async fn main() -> Result<(), Error> {
                                 let github_url = GITHUB_REPO_REGEX
                                     .replace_all(&url, "https://github.com/$org/$repo")
                                     .to_string();
-                                // Check if stars should be overridden
-                                if STAR_COUNT_OVERRIDE.contains(&new_url) {
-                                    // if github stars is not none, maybe max(github_start, MINIMUM_GITHUB_STARS)
-                                    github_stars = Some(MINIMUM_GITHUB_STARS);
-                                } else if github_stars.is_none() {
-                                    let existing_github_stars =
-                                        popularity_data.github_stars.get(&github_url);
-                                    if let Some(stars) = existing_github_stars {
-                                        // Use existing star data, but re-retrieve url to check aliveness
-                                        // Some will have overrides, so don't check the regex yet
-                                        github_stars = Some(*stars)
-                                    } else {
-                                        github_stars = get_stars(&github_url).await;
-                                        if let Some(raw_stars) = github_stars {
-                                            popularity_data
-                                                .github_stars
-                                                .insert(github_url.to_string(), raw_stars);
-                                            if raw_stars >= required_stars {
-                                                fs::write(
-                                                    "results/popularity.yaml",
-                                                    serde_yaml::to_string(&popularity_data)?,
-                                                )?;
-                                            }
-                                            link_count += 1;
+                                let existing = popularity_data.github_stars.get(&github_url);
+                                if let Some(stars) = existing {
+                                    // Use existing star data, but re-retrieve url to check aliveness
+                                    // Some will have overrides, so don't check the regex yet
+                                    github_stars = Some(*stars)
+                                } else {
+                                    github_stars = get_stars(&github_url).await;
+                                    if let Some(raw_stars) = github_stars {
+                                        popularity_data.github_stars.insert(github_url.clone(), raw_stars);
+                                        if raw_stars >= required_stars {
+                                            fs::write(
+                                                "results/popularity.yaml",
+                                                serde_yaml::to_string(&popularity_data)?,
+                                            )?;
                                         }
                                     }
                                 }
@@ -917,15 +765,20 @@ async fn main() -> Result<(), Error> {
                                 && cargo_downloads.unwrap_or(0) < MINIMUM_CARGO_DOWNLOADS
                             {
                                 if github_stars.is_none() || github_rust_percentage.is_none() {
-                                    warn!("No valid github link");
+                                    warn!("No valid github link for {list_item}");
                                 }
                                 if cargo_downloads.is_none() {
-                                    warn!("No valid crates link");
+                                    warn!("No valid crates link for {list_item}");
                                 }
-                                return Err(format_err!("Not high enough metrics ({:?} stars < {}, {:?} Rust percentage < {}, and {:?} cargo downloads < {}): {}", github_stars, required_stars, github_rust_percentage, required_rust_percentage, cargo_downloads, MINIMUM_CARGO_DOWNLOADS, list_item));
+                                has_errors = true;
+                                eprintln!("Not high enough metrics ({:?} stars < {}, {:?} Rust percentage < {} and {:?} cargo downloads < {}): {}", github_stars, required_stars, github_rust_percentage.map(|f|f*100.0), required_rust_percentage*100.0, cargo_downloads, MINIMUM_CARGO_DOWNLOADS, list_item);
                             }
                             if link_count > 0 && !ITEM_REGEX.is_match(&list_item) {
-                                return Err(format_err!("Item does not match the template: \"{list_item}\". See https://github.com/rust-unofficial/awesome-rust/blob/main/CONTRIBUTING.md#tldr"));
+                                if list_item.contains("—") {
+                                    warn!("\"{list_item}\" uses a '—' hyphen, not the '-' hyphen and we enforce the use of the latter one");
+                                }
+                                has_errors = true;
+                                eprintln!("Item does not match the template: \"{list_item}\". See https://github.com/rust-unofficial/awesome-rust/blob/main/CONTRIBUTING.md#tldr");
                             }
                             list_items.last_mut().unwrap().data.push(list_item.clone());
                             list_item = String::new();
@@ -947,7 +800,8 @@ async fn main() -> Result<(), Error> {
                         let patch = create_patch(&joined_recent, &joined_sorted);
                         if !patch.hunks().is_empty() {
                             println!("{}", patch);
-                            return Err(format_err!("Sorting error"));
+                            has_errors = true;
+                            eprintln!("Sorting error");
                         }
                     }
                     _ => {}
@@ -955,16 +809,16 @@ async fn main() -> Result<(), Error> {
             }
             Event::Html(content) => {
                 // Allow ToC markers, nothing else
-                // Fix: Remove line break check
-                if !content.contains("<!-- toc") && content != '\n'.into() {
-                    return Err(format_err!(
-                        "Contains HTML content, not markdown: {}",
-                        content
-                    ));
+                if !content.contains("<!-- toc") {
+                    has_errors = true;
+                    eprintln!("Contains HTML content, not markdown: {}", content);
                 }
             }
             _ => {}
         }
+    }
+    if has_errors {
+        return Err(format_err!("Problems, see above"));
     }
     fs::write(
         "results/popularity.yaml",

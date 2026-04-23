@@ -12,7 +12,7 @@ fn fix_dashes(lines: Vec<String>) -> Vec<String> {
 
     for line in lines {
         if within_content {
-            fixed_lines.push(line.replace(" - ", " — "));
+            fixed_lines.push(line.replace(" — ", " - "));
         } else {
             if line.starts_with("## Applications") {
                 within_content = true;
