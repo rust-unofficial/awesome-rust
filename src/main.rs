@@ -26,7 +26,7 @@ use tokio::sync::SemaphorePermit;
 
 const MINIMUM_GITHUB_STARS: u32 = 50;
 const MINIMUM_CARGO_DOWNLOADS: u32 = 2000;
-const MINIMUM_RUST_PERCENTAGE: f64 = 0.5;
+const MINIMUM_RUST_PERCENTAGE: f64 = 0.01; // FIXME: this should probably be higher
 
 // Allow overriding the needed stars for a section. "level" is the header level in the markdown, default is MINIMUM_GITHUB_STARS
 // In general, we should just use the defaults. However, for some areas where there's not a lot of well-starred projects, but a
@@ -36,8 +36,6 @@ fn override_stars(level: u32, text: &str) -> Option<u32> {
         // This is zero because a lot of the resources are non-github/non-cargo links and overriding for all would be annoying
         // These should be evaluated with more primitive means
         Some(0)
-    } else if level == 3 && (text.contains("Games") || text.contains("Emulators")) {
-        Some(40)
     } else {
         None // i.e. use defaults
     }
@@ -47,7 +45,7 @@ fn override_stars(level: u32, text: &str) -> Option<u32> {
 // In general, we should just use the defaults. However, some projects includes a lot a other file types, like GAMES and resource files,
 // then it's worth reducing the thresholds so we can get a few more projects.
 fn override_rust_percentage(level: u32, text: &str) -> Option<f64> {
-    if level == 3 && text.contains("Games") {
+    if level == 2 && text.contains("Resources") {
         // This is zero because a lot of the resources are non-github/non-cargo links and overriding for all would be annoying
         // These should be evaluated with more primitive means
         Some(0.0)
@@ -108,9 +106,31 @@ lazy_static! {
         "https://framagit.org/ppom/reaction", // has 56 stars at time of writing
     ].iter().map(|s| s.to_string()).collect();
 
-    // Overrides for rust percentage
+    // Overrides for rust percentage. Most of these are "this is a tool for rust, but not written in rust", or closed source
     static ref RUST_PERCENTAGE_OVERRIDE: Vec<String> = vec![
-        ""
+        "https://github.com/4worlds4w-svg/inkwell", // 1.3.0 checked with strings, built with rust 1.94.0
+        "https://github.com/nix-community/fenix", // nix for rust
+        "https://github.com/SiegeLord/RustCMake",
+        "https://github.com/cs01/gdbgui",
+        "https://github.com/racer-rust/emacs-racer",
+        "https://github.com/warpdotdev/Warp",
+        "https://github.com/Marve10s/Better-Fullstack",
+        "https://github.com/emk/rust-musl-builder",
+        "https://github.com/liuchong/docker-rustup",
+        "https://github.com/rust-lang/docker-rust",
+        "https://github.com/emk/heroku-buildpack-rust",
+        "https://github.com/japaric/rust-cross",
+        "https://github.com/eclipse-corrosion/corrosion",
+        "https://github.com/fiatjaf/module-linker",
+        "https://github.com/emacs-rustic/rustic",
+        "https://github.com/rust-lang/rust-mode",
+        "https://github.com/madeso/ride",
+        "https://github.com/Saecki/crates.nvim",
+        "https://github.com/rust-lang/rust.vim",
+        "https://github.com/racer-rust/vim-racer",
+        "https://github.com/jameysharp/corrode",
+        "https://github.com/ozkriff/awesome-quads",
+        "https://github.com/rofrol/awesome-wgpu",
     ].iter().map(|s| s.to_string()).collect();
 }
 
@@ -613,7 +633,7 @@ async fn main() -> Result<()> {
                     Tag::Link(_link_type, url, _title) | Tag::Image(_link_type, url, _title) => {
                         if !url.starts_with('#') {
                             let new_url = url.to_string();
-
+                            link_count += 1;
                             // Check if all metrics should be overridden
                             if POPULARITY_OVERRIDES.contains(&new_url) {
                                 github_stars = Some(MINIMUM_GITHUB_STARS);
@@ -622,20 +642,24 @@ async fn main() -> Result<()> {
                                 let github_url = GITHUB_REPO_REGEX
                                     .replace_all(&url, "https://github.com/$org/$repo")
                                     .to_string();
-                                let existing = popularity_data.github_stars.get(&github_url);
-                                if let Some(stars) = existing {
-                                    // Use existing star data, but re-retrieve url to check aliveness
-                                    // Some will have overrides, so don't check the regex yet
-                                    github_stars = Some(*stars)
-                                } else {
-                                    github_stars = get_stars(&github_url).await;
-                                    if let Some(raw_stars) = github_stars {
-                                        popularity_data.github_stars.insert(github_url.clone(), raw_stars);
-                                        if raw_stars >= required_stars {
-                                            fs::write(
-                                                "results/popularity.yaml",
-                                                serde_yaml::to_string(&popularity_data)?,
-                                            )?;
+                                if github_stars.is_none() {
+                                    let existing = popularity_data.github_stars.get(&github_url);
+                                    if let Some(stars) = existing {
+                                        // Use existing star data, but re-retrieve url to check aliveness
+                                        // Some will have overrides, so don't check the regex yet
+                                        github_stars = Some(*stars)
+                                    } else {
+                                        github_stars = get_stars(&github_url).await;
+                                        if let Some(raw_stars) = github_stars {
+                                            popularity_data
+                                                .github_stars
+                                                .insert(github_url.clone(), raw_stars);
+                                            if raw_stars >= required_stars {
+                                                fs::write(
+                                                    "results/popularity.yaml",
+                                                    serde_yaml::to_string(&popularity_data)?,
+                                                )?;
+                                            }
                                         }
                                     }
                                 }
@@ -662,7 +686,6 @@ async fn main() -> Result<()> {
                                                     serde_yaml::to_string(&popularity_data)?,
                                                 )?;
                                             }
-                                            link_count += 1;
                                         }
                                     }
                                 }

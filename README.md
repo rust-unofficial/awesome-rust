@@ -660,7 +660,6 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 ### Text editors
 
 * [amp](https://amp.rs) - Inspired by Vi/Vim.
-* [emacs-ng](https://github.com/emacs-ng/emacs-ng) - Complementing the C codebase with rust code to introduce new features.
 * [Ferrite](https://github.com/OlaProeis/Ferrite) - A cross-platform markdown editor built with egui, featuring live preview, syntax highlighting, and mermaid diagrams.
 * [Fresh](https://github.com/sinelaw/fresh) - An easy-to-use, powerful and fast terminal text editor & IDE, with TypeScript plugin support.
 * [gchp/iota](https://github.com/gchp/iota) - A simple text editor
@@ -882,7 +881,6 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [Fleet](https://github.com/suptejas/fleet) [[fleet-rs](https://crates.io/crates/fleet-rs)] - The blazing fast build tool for Rust.
 * GitHub actions
   * [icepuma/rust-action](https://github.com/icepuma/rust-action) - rust github action
-  * [peaceiris/actions-mdbook](https://github.com/peaceiris/actions-mdbook) - GitHub Actions for mdBook
 * [Nix](https://nixos.org/)
   * [nix-community/fenix](https://github.com/nix-community/fenix) - Rust toolchains and rust analyzer nightly for nix [![build-badge](https://github.com/nix-community/fenix/actions/workflows/ci.yml/badge.svg)](https://github.com/nix-community/fenix/actions/workflows/ci.yml)
 * [pantsbuild/pants](https://github.com/pantsbuild/pants) - [Pants](https://www.pantsbuild.org/) is a fast, scalable, user-friendly build system for codebases of all sizes built in Rust.
@@ -907,7 +905,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
   * [LukeMathWalker/cargo-chef](https://github.com/LukeMathWalker/cargo-chef) - A tool and pre-built images for caching compiling remote dependencies between Docker builds.
   * [moghtech/komodo](https://github.com/moghtech/komodo) - A tool to build and deploy software across many servers, with a web UI, API, and no server limits
   * [rust-cross/rust-musl-cross](https://github.com/rust-cross/rust-musl-cross) - Docker images for compiling static Rust binaries using musl-cross [![Build](https://github.com/rust-cross/rust-musl-cross/workflows/Build/badge.svg)](https://github.com/rust-cross/rust-musl-cross/actions?query=workflow%3ABuild)
-  * [rust-lang-nursery/docker-rust](https://github.com/rust-lang/docker-rust) - the official Rust Docker image
+  * [rust-lang/docker-rust](https://github.com/rust-lang/docker-rust) - the official Rust Docker image
   * [Stavrospanakakis/is_ready](https://github.com/Stavrospanakakis/is_ready) - Wait for multiple services to become available ![Build](https://github.com/Stavrospanakakis/is_ready/actions/workflows/release.yml/badge.svg)
 * Heroku
   * [emk/heroku-buildpack-rust](https://github.com/emk/heroku-buildpack-rust) - A buildpack for Rust applications on Heroku
@@ -1001,7 +999,7 @@ See also [Rust Tools](https://rust-lang.org/tools/).
     * [emacs-racer](https://github.com/racer-rust/emacs-racer) - Autocompletion (see also [company](https://company-mode.github.io) and [auto-complete](https://github.com/auto-complete/auto-complete))
     * [flycheck-rust](https://github.com/flycheck/flycheck-rust) - Rust support for [Flycheck](https://github.com/flycheck/flycheck)
     * [rust-mode](https://github.com/rust-lang/rust-mode) - Rust Major Mode
-    * [rustic](https://github.com/brotzeit/rustic) - Rust development environment for Emacs [![build badge](https://github.com/brotzeit/rustic/workflows/CI/badge.svg)](https://github.com/brotzeit/rustic/actions?query=workflow%3ACI)
+    * [rustic](https://github.com/emacs-rustic/rustic) - Rust development environment for Emacs [![build badge](https://github.com/emacs-rustic/rustic/workflows/CI/badge.svg)](https://github.com/emacs-rustic/rustic/actions?query=workflow%3ACI)
   * [gitpod.io](https://gitpod.io) - Online IDE with full Rust support based on Rust Language Server
   * [gnome-builder](https://wiki.gnome.org/Apps/Builder) - native support for rust and cargo since Version 3.22.2
   * [IntelliJ](https://www.jetbrains.com/idea/)
@@ -1038,7 +1036,6 @@ See also [Rust Tools](https://rust-lang.org/tools/).
 * [ellisonch/rust-stopwatch](https://github.com/ellisonch/rust-stopwatch) - A stopwatch library
 * FlameGraphs
   * [llogiq/flame](https://github.com/llogiq/flame) - An intrusive flamegraph profiling tool for rust
-  * [mrhooray/torch](https://github.com/mrhooray/torch) - generates FlameGraphs based on DWARF Debug Info
 * [g3bench](https://github.com/bytedance/g3) - A benchmark tool that supports HTTP 1.x, HTTP 2, HTTP 3, TLS Handshake, DNS and Cloudflare Keyless
 * [pawurb/hotpath](https://github.com/pawurb/hotpath-rs) - A simple profiler that shows exactly where your code spends time and allocates [![GH Actions](https://github.com/pawurb/hotpath-rs/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/pawurb/hotpath-rs/actions)
 * [sharkdp/hyperfine](https://github.com/sharkdp/hyperfine) - A command-line benchmarking tool
@@ -1410,8 +1407,6 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [cossacklabs/themis](https://github.com/cossacklabs/themis) [[themis](https://crates.io/crates/themis)] - a high-level cryptographic library for solving typical data security tasks, best fit for multi-platform apps. [![build badge](https://circleci.com/gh/cossacklabs/themis/tree/master.svg?style=shield)](https://app.circleci.com/pipelines/github/cossacklabs/themis)
 * [DaGenix/rust-crypto](https://github.com/DaGenix/rust-crypto) - cryptographic algorithms
 * [dalek-cryptography/curve25519-dalek](https://github.com/dalek-cryptography/curve25519-dalek) - Curve25519 operations
-* [dalek-cryptography/ed25519-dalek](https://github.com/dalek-cryptography/ed25519-dalek) - Ed25519 digital signatures
-* [dalek-cryptography/x25519-dalek](https://github.com/dalek-cryptography/x25519-dalek) - X25519 key exchange
 * [debris/tiny-keccak](https://github.com/debris/tiny-keccak) - Keccak family (SHA3)
 * [dusk-network/bls12-381](https://github.com/dusk-network/bls12_381) - A Rust-native BLS12-381 with enhancements for zk performance: optimized multi-scalar multiplication, custom hashing, and serde support—ideal for privacy-focused protocols and zero-knowledge applications. ![Build Status](https://github.com/dusk-network/bls12_381/workflows/Continuous%20integration/badge.svg) [[dusk-bls12_381](https://crates.io/crates/dusk-bls12_381)]
 * [dusk-network/plonk](https://github.com/dusk-network/plonk/) - A high-performance, Rust-native implementation of the PLONK zk-SNARK over BLS12-381, optimized with custom gates and KZG10 polynomial commitment for efficient zero-knowledge proofs. ![Build Status](https://github.com/dusk-network/plonk/workflows/Continuous%20integration/badge.svg) [[PLONK](https://crates.io/crates/dusk-plonk)]
@@ -1632,7 +1627,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * ASN.1
   * [alex/rust-asn1](https://github.com/alex/rust-asn1) - ASN.1 (DER) serializer
 * Binary
-  * [bincode-org/bincode](https://github.com/bincode-org/bincode) - A binary encoder/decoder [![CI](https://github.com/bincode-org/bincode/actions/workflows/rust.yml/badge.svg?branch=trunk)](https://github.com/bincode-org/bincode/actions/workflows/rust.yml)
+  * [bincode](https://crates.io/crates/bincode) - A binary encoder/decoder
   * [jamesmunns/postcard](https://github.com/jamesmunns/postcard) [[postcard](https://crates.io/crates/postcard)] - Postcard is a #![no_std] focused serializer and deserializer for Serde.
   * [m4b/goblin](https://github.com/m4b/goblin) [[goblin](https://crates.io/crates/goblin)] - cross-platform, zero-copy, and endian-aware binary parsing
 * BSON
