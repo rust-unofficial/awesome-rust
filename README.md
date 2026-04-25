@@ -1690,6 +1690,8 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * YAML
   * [chyh1990/yaml-rust](https://github.com/chyh1990/yaml-rust) - The missing YAML 1.2 implementation.
   * [saphyr](https://github.com/saphyr-rs/saphyr) - A set of crates dedicated to parsing YAML.
+  * [serde-saphyr](https://github.com/bourumir-wyngs/serde-saphyr) - YAML (de)serializer for Serde, emphasizing panic-free parsing and good error reporting 
+[![crates.io](https://img.shields.io/crates/d/serde-saphyr.svg)](https://crates.io/crates/serde-saphyr)
 
 ### Filesystem
 
