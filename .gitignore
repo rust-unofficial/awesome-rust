@@ -3,3 +3,4 @@
 target/
 node_modules/
 .env
+ec-linux*
