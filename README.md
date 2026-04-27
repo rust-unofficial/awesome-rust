@@ -799,6 +799,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 
 ## Development tools
 
+* [0franco/image-auditor](https://github.com/0franco/image-auditor) - Rust TUI that finds & AI-fixes Lighthouse image issues (CLS, lazy loading, WebP, srcset) across your entire codebase in seconds.
 * [aaif-goose/goose](https://github.com/aaif-goose/goose) - An open-source, local AI agent that automates engineering tasks.
 * [armgabrielyan/deadbranch](https://github.com/armgabrielyan/deadbranch) [[deadbranch](https://crates.io/crates/deadbranch)] - Clean up stale git branches safely [![CI](https://github.com/armgabrielyan/deadbranch/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/armgabrielyan/deadbranch/actions/workflows/ci.yml)
 * [ATAC](https://github.com/Julien-cpsn/ATAC) - A feature-full TUI API client made in Rust. ATAC is free, open-source, offline and account-less.
