@@ -1094,6 +1094,7 @@ See also [Rust Tools](https://rust-lang.org/tools/).
   * [mockiato](https://crates.io/crates/mockiato) - A strict, yet friendly mocking library for unstable Rust 2018
   * [mockito](https://crates.io/crates/mockito) - HTTP mocking
   * [mocktail](https://github.com/IBM/mocktail) [![mocktail](https://img.shields.io/crates/v/mocktail)](https://crates.io/crates/mocktail) - HTTP & gRPC server mocking for Rust ![build](https://github.com/IBM/mocktail/actions/workflows/build.yml/badge.svg)
+  * [NazarKalytiuk/tarn](https://github.com/NazarKalytiuk/tarn) - CLI-first API testing tool. Tests are `.tarn.yaml` files; failures come back as structured JSON with stable categories, error codes, and remediation hints. Includes an MCP server for AI agent loops (Claude Code, Cursor, opencode, Windsurf).
   * [nrxus/faux](https://github.com/nrxus/faux/) [![Latest Version](https://img.shields.io/crates/v/faux.svg)](https://crates.io/crates/faux) - A library to create mocks out of structs. ![build](https://github.com/nrxus/faux/workflows/test/badge.svg?branch=master)
   * [synth](https://github.com/shuttle-hq/synth/) - Generate database data declaratively. [![build](https://github.com/shuttle-hq/synth/actions/workflows/synth-test.yml/badge.svg)](https://github.com/shuttle-hq/synth)
 * Mutation Testing
