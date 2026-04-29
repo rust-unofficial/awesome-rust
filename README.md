@@ -394,6 +394,7 @@ See also [Games Made With Piston](https://github.com/PistonDevelopers/piston/wik
 * [citybound](https://github.com/citybound/citybound) - The city sim you deserve
 * [cristicbz/rust-doom](https://github.com/cristicbz/rust-doom) - A renderer for Doom, may progress to being a playable game
 * [doukutsu-rs](https://github.com/doukutsu-rs/doukutsu-rs) - Reimplementation of Cave Story engine with some enhancements.
+* [garkimasera/gaia-maker](https://github.com/garkimasera/gaia-maker) - Planet and terraforming simulation game
 * [garkimasera/rusted-ruins](https://github.com/garkimasera/rusted-ruins) - Extensible open world rogue like game with pixel art
 * [GitType](https://github.com/unhappychoice/gittype) - A CLI code-typing game that turns your source code into typing challenges
 * [gorilla-devs/ferium](https://github.com/gorilla-devs/ferium) - Ferium is a fast and feature rich CLI program for downloading and updating Minecraft mods from Modrinth, CurseForge, and GitHub Releases, and modpacks from Modrinth and CurseForge ![ferium build](https://github.com/gorilla-devs/ferium/actions/workflows/build.yml/badge.svg?branch=main)
