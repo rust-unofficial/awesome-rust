@@ -1,5 +1,5 @@
 #![deny(warnings)]
-
+#![deny(warnings)]
 use anyhow::{format_err, Result};
 use chrono::{DateTime, Duration, Local};
 use diffy::create_patch;
