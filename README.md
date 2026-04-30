@@ -253,6 +253,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 * [revm](https://github.com/bluealloy/revm) - Revolutionary Machine (revm) is a fast Ethereum virtual machine.
 * [rust-bitcoin](https://github.com/rust-bitcoin/rust-bitcoin) - Library with support for de/serialization, parsing and executing on data structures and network messages related to Bitcoin.
 * [rust-lightning](https://github.com/lightningdevkit/rust-lightning) [![Crate](https://img.shields.io/crates/v/lightning.svg?logo=rust)](https://crates.io/crates/lightning) - Bitcoin Lightning library. The main crate,`lightning`, does not handle networking, persistence, or any other I/O. Thus,it is runtime-agnostic, but users must implement basic networking logic, chain interactions, and disk storage.po on linking crate.
+* [RustChain](https://github.com/Scottcjn/Rustchain) - Proof-of-Antiquity blockchain that rewards vintage hardware mining. Old computers earn more than new ones via BCOS certification.
 * [sigma-rust](https://github.com/ergoplatform/sigma-rust) - ErgoTree interpreter and wallet-related features.
 * [starkware-libs/cairo-vm](https://github.com/starkware-libs/cairo-vm) - Implementation of the Cairo VM [![rust](https://github.com/starkware-libs/cairo-vm/actions/workflows/rust.yml/badge.svg)](https://github.com/starkware-libs/cairo-vm/actions/workflows/rust.yml)
 * [Subspace](https://github.com/autonomys/subspace) - The first layer-one blockchain that can fully resolve the blockchain trilemma by simultaneously achieving scalability, security, and decentralization.
