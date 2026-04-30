@@ -1256,6 +1256,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [jaemk/cached](https://github.com/jaemk/cached) - Simple function caching/memoization
 * [moka-rs/moka](https://github.com/moka-rs/moka) - A high performance concurrent caching library inspired by the Caffeine library for Java [![build badge](https://github.com/moka-rs/moka/workflows/CI/badge.svg)](https://github.com/moka-rs/moka/actions/workflows/CI.yml)
 * [mozilla/sccache](https://github.com/mozilla/sccache/) - Shared Compilation Cache, great compilation
+* [salsa-rs/salsa](https://github.com/salsa-rs/salsa) [[salsa](https://crates.io/crates/salsa)] - A generic framework for on-demand, incrementalized computation with memoized queries, inspired by rustc's query system. [![Test](https://github.com/salsa-rs/salsa/workflows/Test/badge.svg)](https://github.com/salsa-rs/salsa/actions?query=workflow%3ATest)
 * [zkat/cacache-rs](https://github.com/zkat/cacache-rs) - A high-performance, concurrent, content-addressable disk cache, optimized for async APIs [![build badge](https://github.com/zkat/cacache-rs/workflows/CI/badge.svg)](https://github.com/zkat/cacache-rs/actions/workflows/ci.yml)
 
 ### Cloud
