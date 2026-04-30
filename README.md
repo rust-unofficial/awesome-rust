@@ -665,6 +665,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 ### Text editors
 
 * [amp](https://amp.rs) - Inspired by Vi/Vim.
+* [Binderus](https://github.com/binderus/binderus) - A local-first Markdown note-taking app with Notion-style WYSIWYG editing on plain `.md` files, slash commands, plugin system, and encrypted vaults via libSQL. Tauri-based, ~9 MB, Win/Mac/Linux.
 * [Ferrite](https://github.com/OlaProeis/Ferrite) - A cross-platform markdown editor built with egui, featuring live preview, syntax highlighting, and mermaid diagrams.
 * [Fresh](https://github.com/sinelaw/fresh) - An easy-to-use, powerful and fast terminal text editor & IDE, with TypeScript plugin support.
 * [gchp/iota](https://github.com/gchp/iota) - A simple text editor
