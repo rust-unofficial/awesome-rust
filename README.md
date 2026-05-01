@@ -2012,6 +2012,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [m4rw3r/chomp](https://github.com/m4rw3r/chomp) - A fast monadic-style parser combinator
   * [Marwes/combine](https://github.com/Marwes/combine) - parser combinator library
   * [nrc/zero](https://github.com/nrc/zero) [[zero](https://crates.io/crates/zero/)] - zero-allocation parsing of binary data
+  * [oxc-project/oxc](https://github.com/oxc-project/oxc) [[oxc](https://crates.io/crates/oxc)] - High-performance JavaScript/TypeScript parser, transformer, minifier, and resolver written in Rust. Powers Rolldown, Nuxt, Nova, and more. [![Build Status](https://github.com/oxc-project/oxc/actions/workflows/ci.yml/badge.svg?event=push&branch=main)](https://github.com/oxc-project/oxc/actions/workflows/ci.yml)
   * [pest-parser/pest](https://github.com/pest-parser/pest) - The Elegant Parser
   * [ptal/oak](https://github.com/ptal/oak) - A typed PEG parser generator (compiler plugin)
   * [rust-bakery/nom](https://github.com/rust-bakery/nom) - parser combinator library
