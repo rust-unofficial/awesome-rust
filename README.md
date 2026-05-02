@@ -801,6 +801,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 ### Workflow Automation
 
 * [dali-benothmen/cronflow](https://github.com/dali-benothmen/cronflow) - Cronflow is a high-performance, developer-focused workflow automation library that lets you build and orchestrate complex, scalable automation workflows fully in code. [![release](https://github.com/dali-benothmen/cronflow/actions/workflows/release.yml/badge.svg)](https://github.com/dali-benothmen/cronflow/actions/workflows/release.yml)
+* [Cowork Forge](https://github.com/sopaco/cowork-forge) — AI-native multi-agent platform that orchestrates specialized agents through a 7-stage pipeline to transform ideas into production-ready software.
 
 ## Development tools
 
