@@ -570,6 +570,8 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 
 ### Social networks
 
+* Decentralized
+  * [balchat](https://github.com/xandru582/balchat) — End-to-end-encrypted (MLS / RFC 9420) 1:1 and group messenger over Tor onion services. Pure-Rust Tor stack via [arti-client](https://gitlab.torproject.org/tpo/core/arti) embedded in the app — no system Tor needed. Workspace ships a CLI, an untrusted relay, a Tauri 2 desktop app, and an Android APK. SQLCipher vault. Apache-2.0.
 * Mastodon
   * [Rustodon](https://github.com/rustodon/rustodon) - A Mastodon-compatible, ActivityPub-speaking server.
 * Telegram
