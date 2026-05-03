@@ -249,6 +249,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 * [Parity-Bitcoin](https://github.com/paritytech/parity-bitcoin) - The Parity Bitcoin client
 * [Phala-Network/phala-blockchain](https://github.com/Phala-Network/phala-blockchain) - Confidential smart contract blockchain based on Intel SGX and Substrate
 * [polkadot-sdk](https://github.com/paritytech/polkadot-sdk) - The Parity Polkadot Blockchain SDK
+* [RustChain](https://rustchain.org) - A Proof-of-Antiquity blockchain rewarding vintage hardware (PowerPC, Pentium 4, etc.).
 * [pragma-org/amaru](https://github.com/pragma-org/amaru) - A Cardano node client written in Rust.
 * [reth](https://github.com/paradigmxyz/reth) - Modular, contributor-friendly and blazing-fast implementation of the Ethereum protocol.
 * [revm](https://github.com/bluealloy/revm) - Revolutionary Machine (revm) is a fast Ethereum virtual machine.
