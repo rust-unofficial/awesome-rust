@@ -2200,6 +2200,7 @@ See also [Are we web yet?](https://www.arewewebyet.org) and [Rust web framework 
   * [hyperium/hyper](https://github.com/hyperium/hyper) - an HTTP implementation [![CI](https://github.com/hyperium/hyper/workflows/CI/badge.svg?branch=master)](https://github.com/hyperium/hyper/actions?query=workflow%3ACI)
   * [plabayo/rama](https://github.com/plabayo/rama) - A modular service framework to move and transform your network packets, can be used among other things, to build clients with TLS, JA3/JA4, H2 and QUIC/H3 fingerprint impersonation
   * [seanmonstar/reqwest](https://github.com/seanmonstar/reqwest) - an ergonomic HTTP Client.
+  * [adamcavendish/aioduct](https://github.com/adamcavendish/aioduct) - Async-native Rust HTTP client built on hyper 1.x. Multi-runtime, HTTP/3, WASM, bandwidth limiting, connection coalescing, and more.
 * HTTP Server
   * [branca](https://crates.io/crates/branca) - Implementation of Branca for Authenticated and Encrypted API tokens.
   * [c410-f3r/wtx](https://github.com/c410-f3r/wtx) - Low and high level HTTP/2 server
