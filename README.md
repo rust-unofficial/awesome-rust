@@ -504,7 +504,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [ast-grep](https://github.com/ast-grep/ast-grep) - A CLI tool for code structural search, lint and rewriting.
 * [Bartib](https://github.com/nikolassv/bartib) [[Bartib](https://crates.io/crates/bartib)] - A simple timetracker for the command line [![Tests](https://github.com/nikolassv/bartib/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/nikolassv/bartib/actions/workflows/test.yml)
 * [CookCLI](https://github.com/cooklang/CookCLI) - Command-line recipe manager with web server, shopping lists, and meal planning capabilities.
-* [csw](https://github.com/mtxr/claude-switch) - Command-line helper to switch quickly between multiple Claude Desktop/Code accounts.
+* [csw](https://github.com/mtxr/claude-switch) - Command-line helper to switch quickly between multiple Claude Desktop/Code accounts. [![CI](https://github.com/mtxr/claude-switch/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/mtxr/claude-switch/actions/workflows/ci.yml)
 * [espanso](https://github.com/espanso/espanso) - A cross-platform Text Expander. [![CI](https://github.com/espanso/espanso/actions/workflows/ci.yml/badge.svg?branch=dev&event=push)](https://github.com/espanso/espanso/actions/workflows/ci.yml)
 * [eureka](https://crates.io/crates/eureka) - A CLI tool to input and store your ideas without leaving the terminal
 * [farion1231/cc-switch](https://github.com/farion1231/cc-switch) - An all-in-one GUI assistant and profile manager for Claude Code, Codex, and Gemini CLI.
