@@ -997,6 +997,7 @@ See also [Foreign Function Interface](https://doc.rust-lang.org/book/first-editi
   * [rhysd/wain](https://github.com/rhysd/wain) - wain: WebAssembly INterpreter from scratch in Safe Rust with zero dependency [![build badge](https://github.com/rhysd/wain/workflows/CI/badge.svg?branch=master&event=push)](https://github.com/rhysd/wain/actions?query=workflow%3ACI+branch%3Amaster+event%3Apush)
   * [wasm-bindgen](https://github.com/wasm-bindgen/wasm-bindgen) - A project for facilitating high-level interactions between wasm modules and JS.
   * [wasm-pack](https://github.com/wasm-bindgen/wasm-pack) - :package: :sparkles: pack up the wasm and publish it to npm!
+  * [gowasm](https://github.com/mjgil-wasm/gowasm) - A browser-first Go execution environment implemented in Rust and compiled to WebAssembly
 
 ### Formatters
 
