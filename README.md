@@ -118,6 +118,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   * [Video](#video-1)
   * [Virtualization](#virtualization-1)
   * [Web programming](#web-programming)
+- [Axum](https://github.com/tokio-rs/axum) - Ergonomic and modular web framework built with Tokio, Tower, and Hyper.
 - [Registries](#registries)
 - [Resources](#resources)
 - [License](#license)
