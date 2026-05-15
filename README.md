@@ -1447,6 +1447,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [racum/rust-djangohashers](https://github.com/racum/rust-djangohashers) [[djangohashers](https://crates.io/crates/djangohashers)] - Port of the password primitives used in the Django Project. It doesn't require Django, only hashes and validates passwords according to its style.
 * [rust-native-tls/rust-native-tls](https://github.com/rust-native-tls/rust-native-tls) - Bindings for native TLS libraries
 * [rust-openssl](https://github.com/rust-openssl/rust-openssl) - [OpenSSL](https://www.openssl.org/) bindings
+* [rust-random/rand](https://github.com/rust-random/rand) [[rand](https://crates.io/crates/rand)] - Comprehensive random number generation library with support for strong and small PRNGs, random value sampling, distributions, and random processes. [![Test Status](https://github.com/rust-random/rand/actions/workflows/test.yml/badge.svg?event=push)](https://github.com/rust-random/rand/actions)
 * [RustCrypto/hashes](https://github.com/RustCrypto/hashes) - Collection of cryptographic hash functions
 * [rustls/rustls](https://github.com/rustls/rustls) - Implementation of TLS
 * [schnorrkel](https://github.com/paritytech/schnorrkel) - Schnorr VRFs and signatures on the Ristretto group
