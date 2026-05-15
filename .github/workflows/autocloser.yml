@@ -3,6 +3,8 @@ on: [pull_request]
 jobs:
   autoclose:
     runs-on: ubuntu-24.04
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
     - name: Autoclose prs that did not follow pr template
       uses: roots/issue-closer@v1.2
