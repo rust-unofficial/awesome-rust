@@ -1,8 +1,8 @@
 name: PR tidyup
 on:
   push:
-  schedule:
-    - cron: 0/15 * * * *
+  pull_request_target:
+    types: [opened, reopened]
 jobs:
   pr_tidyup:
     runs-on: ubuntu-24.04
