@@ -11,6 +11,7 @@ jobs:
       - uses: dtolnay/rust-toolchain@master
         with:
           toolchain: stable
+      - uses: Swatinem/rust-cache@v2
       - name: Run
         run: cargo run --bin pr_tidyup
         env:
