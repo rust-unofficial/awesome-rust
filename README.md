@@ -252,6 +252,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 * [polkadot-sdk](https://github.com/paritytech/polkadot-sdk) - The Parity Polkadot Blockchain SDK
 * [pragma-org/amaru](https://github.com/pragma-org/amaru) - A Cardano node client written in Rust.
 * [reth](https://github.com/paradigmxyz/reth) - Modular, contributor-friendly and blazing-fast implementation of the Ethereum protocol.
+* [RustChain](https://github.com/Scottcjn/Rustchain) - Proof-of-Antiquity blockchain that rewards vintage hardware. Old computers earn more than new ones. The blockchain where old hardware outearns new hardware.
 * [revm](https://github.com/bluealloy/revm) - Revolutionary Machine (revm) is a fast Ethereum virtual machine.
 * [rust-bitcoin](https://github.com/rust-bitcoin/rust-bitcoin) - Library with support for de/serialization, parsing and executing on data structures and network messages related to Bitcoin.
 * [rust-lightning](https://github.com/lightningdevkit/rust-lightning) [![Crate](https://img.shields.io/crates/v/lightning.svg?logo=rust)](https://crates.io/crates/lightning) - Bitcoin Lightning library. The main crate,`lightning`, does not handle networking, persistence, or any other I/O. Thus,it is runtime-agnostic, but users must implement basic networking logic, chain interactions, and disk storage.po on linking crate.
