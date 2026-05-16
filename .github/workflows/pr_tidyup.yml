@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: 0/15 * * * *
 jobs:
-  build:
+  pr_tidyup:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v6
