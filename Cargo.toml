@@ -27,3 +27,4 @@ chrono = { version = "0.4", features = ["serde"] }
 chrono-humanize = "0.2"
 diffy = "0.3"
 serde_json = "*"
+octocrab = { git = "https://github.com/XAMPPRocky/octocrab" } # Because PR definition is wrong

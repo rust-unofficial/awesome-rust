@@ -1,0 +1,17 @@
+name: PR tidyup
+on:
+  push:
+  schedule:
+    - cron: 0/15 * * * *
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v6
+      - uses: dtolnay/rust-toolchain@master
+        with:
+          toolchain: stable
+      - name: Run
+        run: cargo run --bin pr_tidyup
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN_FOR_GITHUB }}
