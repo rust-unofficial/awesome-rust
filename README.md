@@ -860,6 +860,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [VT Code](https://crates.io/crates/vtcode) - Terminal coding agent that pairs a modern TUI with deep, semantic code understanding powered by tree-sitter and ast-grep.
 * [Wilfred/difftastic](https://github.com/Wilfred/difftastic) [[difftastic](https://crates.io/crates/difftastic)] - A structural diff tool that understands syntax, supporting 30+ programming languages
 * [yvgude/lean-ctx](https://github.com/yvgude/lean-ctx) [[lean-ctx](https://crates.io/crates/lean-ctx)] - Context runtime for AI coding agents: MCP server and shell hook that compresses tool and terminal output to reduce LLM token use; Tree-sitter parsing, session caching. [![CI](https://github.com/yvgude/lean-ctx/actions/workflows/ci.yml/badge.svg)](https://github.com/yvgude/lean-ctx/actions/workflows/ci.yml)
+* [weitaishan/schemato](https://github.com/weitaishan/schemato) - Browser-only converter that generates serde-friendly Rust structs from JSON, JSON Schema, OpenAPI, GraphQL SDL, SQL DDL, Prisma, Mongoose, Protobuf, Avro, and TypeScript.
 
 ### Build system
 
