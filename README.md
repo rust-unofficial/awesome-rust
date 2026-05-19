@@ -2044,6 +2044,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
 
 ### Peripherals
 
+* [esp-rs/esp-hal](https://github.com/esp-rs/esp-hal) [[esp-hal](https://crates.io/crates/esp-hal)] - Bare-metal `no_std` hardware abstraction layer for Espressif ESP32 devices (ESP32, ESP32-C2/C3/C5/C6/C61, ESP32-H2, ESP32-P4, ESP32-S2/S3). Provides safe Rust APIs for GPIO, I2C, SPI, UART, timers, DMA, and more. [![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/esp-rs/esp-hal/ci.yml?labelColor=1C2C2E&label=CI&logo=github&style=flat-square)](https://github.com/esp-rs/esp-hal/actions/workflows/ci.yml)
 * Fingerprint reader
   * [alvaroparker/libfprint-rs](https://github.com/alvaroparker/libfprint-rs) [[libfprint-rs](https://crates.io/crates/libfprint-rs)] - Libfprint-rs provides a wrapper around the Linux libfprint library.
 * Serial Port
