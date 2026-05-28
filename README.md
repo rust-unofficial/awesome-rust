@@ -1223,6 +1223,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [dagrs](https://github.com/dagrs-dev/dagrs) - A high-performance asynchronous task programming framework, which follows the concept of Flow based Programming.
 * [dpc/mioco](https://github.com/dpc/mioco) - Scalable, coroutine-based, asynchronous IO handling library
 * [igumnoff/gabriel2](https://github.com/igumnoff/gabriel2) [[gabriel2](https://crates.io/crates/gabriel2)] - Gabriel2: An actor-model library based on Tokio
+* [iii-hq/iii](https://github.com/iii-hq/iii) [[iii-sdk](https://crates.io/crates/iii-sdk)] - Distributed runtime for composing services via Worker-Function-Trigger primitives. Real-time catalog, traceable function calls, and multi-language SDKs (Rust, Node.js, Python). Engine written in Rust (ELv2), SDKs under Apache 2.0.
 * [mio](https://github.com/tokio-rs/mio) - MIO is a lightweight IO library, with a focus on adding as little overhead as possible over the OS abstractions
 * [nextest-rs/future-queue](https://github.com/nextest-rs/future-queue) [[future-queue](https://crates.io/crates/future-queue)] - Stream adaptors for running futures concurrently with weighted concurrency limits and optional per-group limits.
 * [rust-lang/futures-rs](https://github.com/rust-lang/futures-rs) - Zero-cost futures
