@@ -468,6 +468,7 @@ See also [Games Made With Piston](https://github.com/PistonDevelopers/piston/wik
 ### Observability
 
 * [avito-tech/bioyino](https://github.com/avito-tech/bioyino) - A high-performance scalable StatsD compatible server.
+* [esrlabs/chipmunk](https://github.com/esrlabs/chipmunk) - Native egui desktop application for analyzing massive log files and streams. Features a WebAssembly plugin system and automotive formats support. [![Chipmunk CI](https://github.com/esrlabs/chipmunk/actions/workflows/lint_master.yml/badge.svg)](https://github.com/esrlabs/chipmunk/actions/workflows/lint_master.yml)
 * [MegaAntiCheat/client-backend](https://github.com/MegaAntiCheat/client-backend) - The client app for [MAC](https://github.com/MegaAntiCheat).
 * [openobserve](https://github.com/openobserve/openobserve) - 10x easier, 140x lower storage cost, high performance, petabyte scale - Elasticsearch/Splunk/Datadog alternative.
 * [OpenTelemetry](https://crates.io/crates/opentelemetry) - OpenTelemetry provides a single set of APIs, libraries, agents, and collector services to capture distributed traces and metrics from your application. You can analyze them using Prometheus, Jaeger, and other observability tools. [![GitHub Actions CI](https://github.com/open-telemetry/opentelemetry-rust/actions/workflows/ci.yml/badge.svg)](https://github.com/open-telemetry/opentelemetry-rust/actions/workflows/ci.yml)
@@ -636,6 +637,9 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [m4b/bingrep](https://github.com/m4b/bingrep) - Greps through binaries from various OSs and architectures, and colors them.
 * [macpow](https://github.com/k06a/macpow) - Real-time power consumption monitor TUI for Apple Silicon Macs (M1–M5+). Reads IOReport, SMC, IORegistry — no sudo required. [![CI](https://github.com/k06a/macpow/actions/workflows/ci.yml/badge.svg)](https://github.com/k06a/macpow/actions/workflows/ci.yml)[![crates.io](https://img.shields.io/crates/v/macpow.svg?logo=rust)](https://crates.io/crates/macpow)
 * [matheus-git/systemd-manager-tui](https://github.com/matheus-git/systemd-manager-tui) [[systemd-manager-tui](https://crates.io/crates/systemd-manager-tui)] - A program for managing systemd services through a TUI (Terminal User Interfaces).
+* [matthart1983/diskwatch](https://github.com/matthart1983/diskwatch) - Single-host disk diagnostics TUI: eight tabs across devices, volumes, filesystems, IO, SMART, hot files, and insights.
+* [matthart1983/netwatch](https://github.com/matthart1983/netwatch) [[netwatch-tui](https://crates.io/crates/netwatch-tui)] - Real-time network diagnostics TUI: deep packet inspection across 13 protocols (TLS, QUIC, HTTP, DNS, SSH, MQTT, SNMP, …), per-process attribution via eBPF / PKTAP, TCP retransmit analytics, JA4 fingerprinting, optional Landlock sandbox, and Flight Recorder incident bundles.
+* [matthart1983/syswatch](https://github.com/matthart1983/syswatch) [[syswatch](https://crates.io/crates/syswatch)] - Single-host system diagnostics TUI: twelve tabs across CPU, memory, disks, processes, GPU, power, services, and network, plus a Timeline scrubber and an Insights anomaly engine.
 * [mdgaziur/findex](https://github.com/mdgaziur/findex) - Findex is a highly customizable application finder using GTK3
 * [mitnk/cicada](https://github.com/mitnk/cicada) - A bash-like Unix shell
 * [mmstick/concurr](https://github.com/mmstick/concurr) - Alternative to GNU Parallel w/ a client-server architecture
@@ -730,6 +734,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [fcsonline/tmux-thumbs](https://github.com/fcsonline/tmux-thumbs) - A lightning fast version of tmux-fingers, copy/pasting tmux like vimium/vimperator.
 * [gitlogue](https://github.com/unhappychoice/gitlogue) - A TUI screensaver that visualizes Git commit history in your terminal
 * [guoxbin/dtool](https://github.com/guoxbin/dtool) - A useful command-line tool collection to assist development including conversion, codec, hashing, encryption, etc.
+* [IvanWng97/pixtuoid](https://github.com/IvanWng97/pixtuoid) [[pixtuoid](https://crates.io/crates/pixtuoid)] - Terminal pixel-art office that visualizes Claude Code sessions as animated coworkers in real time. [![CI](https://img.shields.io/github/actions/workflow/status/IvanWng97/pixtuoid/ci.yml?branch=main)](https://github.com/IvanWng97/pixtuoid/actions/workflows/ci.yml)
 * [Linus-Mussmaecher/rucola](https://github.com/Linus-Mussmaecher/rucola) - Terminal-based markdown note manager. [![Crate](https://img.shields.io/crates/v/rucola-notes.svg?logo=rust)](https://crates.io/crates/rucola-notes) [![Build Status](https://github.com/Linus-Mussmaecher/rucola/actions/workflows/continuous-testing.yml/badge.svg)](https://github.com/Linus-Mussmaecher/rucola/actions/workflows/continuous-testing.yml)
 * [Mobslide](https://github.com/thewh1teagle/mobslide) - Desktop application that turns your smartphone into presentation remote controller.
 * [mprocs](https://github.com/pvolok/mprocs) - TUI for running multiple processes
@@ -1223,6 +1228,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [dagrs](https://github.com/dagrs-dev/dagrs) - A high-performance asynchronous task programming framework, which follows the concept of Flow based Programming.
 * [dpc/mioco](https://github.com/dpc/mioco) - Scalable, coroutine-based, asynchronous IO handling library
 * [igumnoff/gabriel2](https://github.com/igumnoff/gabriel2) [[gabriel2](https://crates.io/crates/gabriel2)] - Gabriel2: An actor-model library based on Tokio
+* [iii-hq/iii](https://github.com/iii-hq/iii) [[iii-sdk](https://crates.io/crates/iii-sdk)] - Distributed runtime for composing services via Worker-Function-Trigger primitives. Real-time catalog, traceable function calls, and multi-language SDKs (Rust, Node.js, Python). Engine written in Rust (ELv2), SDKs under Apache 2.0.
 * [mio](https://github.com/tokio-rs/mio) - MIO is a lightweight IO library, with a focus on adding as little overhead as possible over the OS abstractions
 * [nextest-rs/future-queue](https://github.com/nextest-rs/future-queue) [[future-queue](https://crates.io/crates/future-queue)] - Stream adaptors for running futures concurrently with weighted concurrency limits and optional per-group limits.
 * [rust-lang/futures-rs](https://github.com/rust-lang/futures-rs) - Zero-cost futures
@@ -2047,6 +2053,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [oxc-project/oxc](https://github.com/oxc-project/oxc) [[oxc](https://crates.io/crates/oxc)] - High-performance JavaScript/TypeScript parser, transformer, minifier, and resolver written in Rust. Powers Rolldown, Nuxt, Nova, and more. [![Build Status](https://github.com/oxc-project/oxc/actions/workflows/ci.yml/badge.svg?event=push&branch=main)](https://github.com/oxc-project/oxc/actions/workflows/ci.yml)
   * [pest-parser/pest](https://github.com/pest-parser/pest) - The Elegant Parser
   * [ptal/oak](https://github.com/ptal/oak) - A typed PEG parser generator (compiler plugin)
+  * [run-llama/liteparse](https://github.com/run-llama/liteparse) [[liteparse](https://crates.io/crates/liteparse)] - Fast and light PDF parsing library with spatial text extraction, bounding boxes, flexible OCR (Tesseract/HTTP servers), and multi-language bindings (Rust, Node.js, Python, WASM). Built on PDFium with CLI tool `lit`. [![CI](https://github.com/run-llama/liteparse/actions/workflows/ci.yml/badge.svg)](https://github.com/run-llama/liteparse/actions/workflows/ci.yml)
   * [rust-bakery/nom](https://github.com/rust-bakery/nom) - parser combinator library
   * [s-panferov/queryst](https://github.com/s-panferov/queryst) - A query string parsing library inspired by [gs](https://github.com/ljharb/qs#readme)
   * [slimreaper35/dockerfile-parser-rs](https://github.com/slimreaper35/dockerfile-parser-rs) [[dockerfile-parser-rs](https://crates.io/crates/dockerfile-parser-rs)] - Dockerfile parsing library and CLI tool
