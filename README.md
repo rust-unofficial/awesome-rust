@@ -2189,6 +2189,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
 ### Video
 
 * [ffmpeg-sidecar](https://github.com/nathanbabcock/ffmpeg-sidecar) - Wrap a standalone FFmpeg binary in an intuitive Iterator interface. [![Build Status](https://github.com/nathanbabcock/ffmpeg-sidecar/actions/workflows/ci.yml/badge.svg)](https://github.com/nathanbabcock/ffmpeg-sidecar/actions)
+* [stukenov/rav2d](https://github.com/stukenov/rav2d) [[rav2d](https://crates.io/crates/rav2d)] - Memory-safe Rust port of the dav2d AV2 video decoder
 * [screencapturekit-rs](https://github.com/doom-fish/screencapturekit-rs) [[screencapturekit](https://crates.io/crates/screencapturekit)] - Safe Rust bindings for Apple's ScreenCaptureKit framework for macOS screen/audio capture [![Build Status](https://github.com/doom-fish/screencapturekit-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/doom-fish/screencapturekit-rs/actions)
 
 ### Virtualization
