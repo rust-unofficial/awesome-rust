@@ -693,6 +693,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [Inkwell](https://github.com/4worlds4w-svg/inkwell) - A portable, offline-first Markdown editor built with Tauri v2. Single executable, zero telemetry.
 * [ki-editor/ki-editor](https://github.com/ki-editor/ki-editor) - A multi-cursor combinatoric modal editor
 * [Lapce](https://github.com/lapce/lapce) - A modern editor with a backend. Taking inspiration from the discontinued [xi-editor](https://github.com/xi-editor/xi-editor).
+* [manyougz/velotype](https://github.com/manyougz/velotype) - A block-based native Markdown editor with WYSIWYG rendering and source editing modes, built on GPUI without a WebView shell.
 * [mathall/rim](https://github.com/mathall/rim) - Vim-like text editor.
 * [ox](https://github.com/curlpipe/ox) - An independent Rust text editor that runs in your terminal!
 * [SoloMD](https://github.com/zhitongblog/solomd) - A lightweight, cross-platform Markdown editor with live preview, built with Tauri 2.
