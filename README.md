@@ -218,6 +218,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 ### Blockchain
 
 * [Anchor](https://github.com/solana-foundation/anchor) - Anchor is the leading development framework for building secure Solana programs (smart contracts).
+* [TWZRD Agent Intel](https://intel.twzrd.xyz) - Solana-native x402 MCP server for AI agent trust scoring. Score any Solana wallet with 4 free preflight tools; pay-per-call `get_trust_receipt` returns a signed `twzrd.receipt.v5` via HTTP 402 + USDC micropayment. Zero-install: `claude mcp add twzrd-agent-intel --transport http https://intel.twzrd.xyz/mcp`
 * [artemis](https://github.com/paradigmxyz/artemis) - A simple, modular, and fast framework for writing MEV bots.
 * [Bitcoin Satoshi's Vision](https://github.com/brentongunning/rust-sv) [[sv](https://crates.io/crates/sv)] - A library for working with Bitcoin SV.
 * [cairo](https://github.com/starkware-libs/cairo) - Cairo is the first Turing-complete language for creating provable programs for general computation. This is also the native language of [StarkNet](https://www.starknet.io), a ZK-Rollup using STARK proofs ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/starkware-libs/cairo/CI?style=flat-square&logo=github)
