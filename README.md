@@ -374,6 +374,7 @@ See also [crates matching keyword 'emulator'](https://crates.io/keywords/emulato
 ### File manager
 
 * [broot](https://github.com/Canop/broot) - A new way to see and navigate directory trees (get an overview of a directory, even a big one; find a directory then `cd` to it; never lose track of file hierarchy while you search; manipulate your files, ...), further reading [dystroy.org/broot](https://dystroy.org/broot/) [![Latest Version](https://img.shields.io/crates/v/broot.svg)](https://crates.io/crates/broot)
+* [elio-fm/elio](https://github.com/elio-fm/elio) [[elio](https://crates.io/crates/elio)] - Batteries-included terminal file manager with rich previews, bulk actions, and trash support.
 * [FileSSH](https://github.com/JayanAXHF/FileSSH) - A fast and easy to use TUI to manage files on a remote server, including quick SSH session creation, in-place file editing and more! ![crates.io](https://img.shields.io/crates/v/filessh)
 * [joshuto](https://github.com/kamiyaa/joshuto) - ranger-like terminal file manager
 * [moyangzhan/mango-finder](https://github.com/moyangzhan/mango-finder) - Search your files using nature language
