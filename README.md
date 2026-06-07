@@ -589,6 +589,8 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 
 ### Social networks
 
+* Discord
+  * [concord](https://github.com/chojs23/concord) - A feature-rich TUI client for Discord.
 * Mastodon
   * [Rustodon](https://github.com/rustodon/rustodon) - A Mastodon-compatible, ActivityPub-speaking server.
 * Telegram
