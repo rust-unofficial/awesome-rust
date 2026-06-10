@@ -1103,6 +1103,7 @@ See also [Rust Tools](https://rust-lang.org/tools/).
 * [RAPx](https://github.com/safer-rust/RAPx) - A platform that helps Rust programmers develop and use advanced static analysis tools beyond those provided by the rustc compiler.
 * [static_assertions](https://crates.io/crates/static_assertions) - Compile-time assertions to ensure that invariants are met
 * [verus-lang/verus](https://github.com/verus-lang/verus) - Verified Rust for low-level systems code
+* [zizmorcore/zizmor](https://github.com/zizmorcore/zizmor) [[zizmor](https://crates.io/crates/zizmor)] - Static analysis tool for GitHub Actions that finds security issues including template injection, credential leakage, excessive permissions, and impostor commits. [![CI](https://github.com/zizmorcore/zizmor/actions/workflows/ci.yml/badge.svg)](https://github.com/zizmorcore/zizmor/actions/workflows/ci.yml)
 
 ### Testing
 
