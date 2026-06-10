@@ -589,7 +589,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [sherlock](https://github.com/jonaylor89/sherlock-rs) [[sherlock](https://crates.io/crates/sherlock)] - Hunt down social media accounts by username across social networks [![status](https://github.com/jonaylor89/sherlock-rs/actions/workflows/rust.yml/badge.svg)](https://github.com/jonaylor89/sherlock-rs/actions/workflows/rust.yml)
 * [ssh-vault](https://github.com/ssh-vault/ssh-vault) - A simple tool to manage secrets using ssh keys for encryption and decryption.
 * [SystemVll/TAuth](https://github.com/SystemVll/TAuth) - An easy and user friendly 2FA & Credentials manager, for your PC.
-* [v1lleneuve/sys-shred](https://github.com/v1lleneuve/sys-shred) - A forensic-grade, multi-threaded command-line utility for secure file erasure and anti-forensics.
+* [v1lleneuve/sys-shred](https://github.com/v1lleneuve/sys-shred) [[sys-shred](https://crates.io/crates/sys-shred)] - A forensic-grade, multi-threaded command-line utility for secure file erasure and anti-forensics. [![crates.io](https://img.shields.io/crates/v/sys-shred)](https://crates.io/crates/sys-shred) [![AUR](https://img.shields.io/aur/version/sys-shred)](https://aur.archlinux.org/packages/sys-shred)
 
 ### Social networks
 
