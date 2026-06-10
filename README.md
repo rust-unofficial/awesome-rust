@@ -1183,6 +1183,7 @@ See [[Machine learning](https://crates.io/keywords/machine-learning)]
 
 See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_eng/about-rust-s-machine-learning-community-4cda5ec8a790#.hvkp56j3f) and [Are we learning yet?](https://www.arewelearningyet.com).
 
+* [null-drift](https://github.com/CodNoob100/null-drift) - Holographic continuous state accumulator maintaining O(1) memory bounds.
 * [autumnai/leaf](https://github.com/autumnai/leaf) - Open Machine Intelligence framework.. Abandoned project. The most updated fork is [juice](https://github.com/fff-rs/juice).
 * [ave-sergeev/tictonix](https://github.com/Ave-Sergeev/Tictonix) [[tictonix](https://crates.io/crates/tictonix)] - A library that provides the ability to convert tokens into embeddings, as well as to encode their positions.
 * [blackportal-ai/delta](https://github.com/blackportal-ai/delta) - Δ An Open-Source Machine Learning Framework in Rust. ![crates.io](https://img.shields.io/crates/v/deltaml.svg) ![build](https://img.shields.io/github/actions/workflow/status/blackportal-ai/delta/core.yml?branch=master)
