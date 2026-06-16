@@ -684,6 +684,8 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [trippy](https://github.com/fujiapple852/trippy) - A network diagnostic tool [![build badge](https://github.com/fujiapple852/trippy/workflows/CI/badge.svg)](https://github.com/fujiapple852/trippy/actions/workflows/ci.yml)
 * [tw93/Kaku](https://github.com/tw93/Kaku) - A fast, out-of-the-box terminal emulator built for AI coding, with zero-config defaults, AI assistant integration, and WezTerm-compatible Lua configuration. macOS-only.
 * [uutils/coreutils](https://github.com/uutils/coreutils) - A cross-platform rewrite of the GNU coreutils [![CICD](https://github.com/uutils/coreutils/actions/workflows/CICD.yml/badge.svg)](https://github.com/uutils/coreutils/actions/workflows/CICD.yml)
+* [livediff](https://github.com/SoCkEt7/Livediff) - Live terminal diffs while files change [![Crates.io Version](https://img.shields.io/crates/v/livediff.svg)](https://crates.io/crates/livediff)
+[![CI Status](https://github.com/SoCkEt7/Livediff/actions/workflows/ci.yml/badge.svg)](https://github.com/SoCkEt7/Livediff/actions)
 * [watchexec](https://github.com/watchexec/watchexec) - Executes commands in response to file modifications
 * [XAMPPRocky/tokei](https://github.com/XAMPPRocky/tokei) - counts the lines of code
 * [ynqa/jnv](https://github.com/ynqa/jnv) - Interactive JSON filter using jq [![ci](https://github.com/ynqa/jnv/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/ynqa/jnv/actions/workflows/ci.yml)
