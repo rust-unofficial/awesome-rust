@@ -1698,6 +1698,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
   * [alex/rust-asn1](https://github.com/alex/rust-asn1) - ASN.1 (DER) serializer
 * Binary
   * [bincode](https://crates.io/crates/bincode) - A binary encoder/decoder
+  * [bincode-next](https://crates.io/crates/bincode-next) - A binary encoder/decoder, successor of the now unmaintained bincode
   * [jamesmunns/postcard](https://github.com/jamesmunns/postcard) [[postcard](https://crates.io/crates/postcard)] - Postcard is a #![no_std] focused serializer and deserializer for Serde.
   * [m4b/goblin](https://github.com/m4b/goblin) [[goblin](https://crates.io/crates/goblin)] - cross-platform, zero-copy, and endian-aware binary parsing
 * BSON
