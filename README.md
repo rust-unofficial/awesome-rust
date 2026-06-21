@@ -397,6 +397,7 @@ See also [Payments](#payments) applications.
 * [tackler](https://github.com/tackler-ng/tackler) [[tackler](https://crates.io/crates/tackler)] - Fast, reliable bookkeeping engine with native GIT SCM support for plain text accounting [![CI Badge](https://github.com/tackler-ng/tackler/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/tackler-ng/tackler/blob/main/.github/workflows/ci.yml)
 * [tarkah/tickrs](https://github.com/tarkah/tickrs) - Realtime ticker data in your terminal
 
+* [melaya-labs/melaya](https://github.com/melaya-labs/melaya) [[melaya](https://crates.io/crates/melaya)] - Hosted agentic trading platform built on an in-house Rust execution engine (310 ns ticker write, 14.4 µs end-to-end). Normalized REST and WebSocket API across 65 CEX and 6 prediction markets, deterministic native backtesting on the same engine, Rhai or Python strategies, plus a 7-persona AI trading crew with HITL approval on every order. SDKs in 9 languages.
 ### Games
 
 See also [Games Made With Piston](https://github.com/PistonDevelopers/piston/wiki/Games-Made-With-Piston).
