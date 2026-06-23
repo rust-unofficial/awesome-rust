@@ -1650,6 +1650,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [Mnwa/ms](https://github.com/Mnwa/ms) [[ms-converter](https://crates.io/crates/ms-converter)] - it's a library for converting human-like times to milliseconds [![build badge](https://github.com/Mnwa/ms/workflows/build/badge.svg?branch=master)](https://github.com/Mnwa/ms/actions?query=workflow%3Abuild)
 * [sorairolake/nt-time](https://github.com/sorairolake/nt-time) [[nt-time](https://crates.io/crates/nt-time)] - A Windows file time library. [![CI](https://github.com/sorairolake/nt-time/workflows/CI/badge.svg?branch=develop)](https://github.com/sorairolake/nt-time/actions?query=workflow%3ACI)
 * [time-rs/time](https://github.com/time-rs/time) - [![build badge](https://github.com/time-rs/time/workflows/Build/badge.svg)](https://github.com/time-rs/time/actions)
+* [UtmostBoundary/hijri](https://github.com/UtmostBoundary/hijri) [[hijri](https://crates.io/crates/hijri)] - A cal(1)-like tool for Hijri (Islamic) dates using the Umm al-Qura calendar.
 
 ### Distributed systems
 
