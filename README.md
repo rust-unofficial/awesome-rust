@@ -286,6 +286,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 * [HelixDB](https://github.com/HelixDB/helix-db) - A powerful, graph-vector database for intelligent data storage for RAG and AI
 * [Hiqlite](https://github.com/sebadob/hiqlite) - highly-available, embeddable, raft-based SQLite + cache
 * [indradb](https://crates.io/crates/indradb) - Graph database
+* [infino](https://github.com/infino-ai/infino) [[infino](https://crates.io/crates/infino)] - Embedded retrieval engine running SQL, full-text (BM25), and vector search over a single copy of your data as Parquet on object storage [![CI](https://github.com/infino-ai/infino/actions/workflows/ci.yml/badge.svg)](https://github.com/infino-ai/infino/actions/workflows/ci.yml)
 * [KiteSQL](https://github.com/KipData/KiteSQL) - SQL as a Function for Rust
 * [lancedb](https://github.com/lancedb/lancedb) [[vectordb](https://crates.io/crates/vectordb)] - A serverless, low-latency vector database for AI applications
 * [Lucid](https://github.com/lucid-kv/lucid) - High performance and distributed KV store accessible through a HTTP API. [![Build Status](https://github.com/lucid-kv/lucid/workflows/Lucid/badge.svg?branch=master)](https://github.com/lucid-kv/lucid/actions?workflow=Lucid)
