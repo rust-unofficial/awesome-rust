@@ -600,6 +600,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 
 * Discord
   * [concord](https://github.com/chojs23/concord) - A feature-rich TUI client for Discord.
+  * [Dorion](https://github.com/SpikeHD/Dorion) - Tiny alternative Discord client with a smaller footprint, snappier startup, themes, plugins and more! ![build](https://img.shields.io/github/actions/workflow/status/SpikeHD/Dorion/build.yml)
 * Mastodon
   * [Rustodon](https://github.com/rustodon/rustodon) - A Mastodon-compatible, ActivityPub-speaking server.
 * Telegram
