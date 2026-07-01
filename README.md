@@ -199,6 +199,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 
 ### Audio and Music
 
+* [AreevAI/flowcat](https://github.com/AreevAI/flowcat) — Native-Rust runtime for real-time voice AI agents (phone + WebRTC), self-hosted single binary, pipecat-compatible
 * [dano](https://github.com/kimono-koans/dano) - A hashdeep/md5tree (but much more) for media files
 * [enginesound](https://github.com/DasEtwas/enginesound) - A GUI and command line application used to procedurally generate semi-realistic engine sounds. Featuring in-depth configuration, variable sample rate and a frequency analysis window.
 * [Festival](https://github.com/hinto-janai/festival) - A local music player/server/client [![build-badge](https://github.com/hinto-janai/festival/actions/workflows/ci.yml/badge.svg)](https://github.com/hinto-janai/festival/actions/workflows/ci.yml)
