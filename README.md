@@ -1447,6 +1447,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
   * [autumnai/collenchyma](https://github.com/autumnai/collenchyma) - An extensible, pluggable, backend-agnostic framework for parallel, high-performance computations on CUDA, OpenCL and common host CPU.
   * [luqmana/rust-opencl](https://github.com/luqmana/rust-opencl) - [OpenCL](https://www.khronos.org/opencl/) bindings
 * Science
+  * [cleitonaugusto/CleitonForge](https://github.com/cleitonaugusto/CleitonForge) - Neutral cross-backend benchmarking layer for quantum circuit simulators with Python bindings (PyO3). Discovered a silent Rz gate sign convention divergence that breaks QAOA fidelity to zero. Includes a convention normalization transpiler.
   * [Axect/Peroxide](https://github.com/Axect/Peroxide) - Rust numeric library containing linear algebra, numerical analysis, statistics and machine learning tools in pure rust
   * [cool-japan/scirs](https://github.com/cool-japan/scirs) - Production-Ready pure Rust scientific computing, includes linear algebra, optimization, statistics, neural networks and more. API inspired by Python's SciPy.
   * [cpmech/russell](https://github.com/cpmech/russell) - Rust Scientific Library for numerical mathematics, ordinary differential equations, special math functions, high-performance (sparse) linear algebra
