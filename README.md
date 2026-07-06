@@ -696,6 +696,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [ynqa/jnv](https://github.com/ynqa/jnv) - Interactive JSON filter using jq [![ci](https://github.com/ynqa/jnv/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/ynqa/jnv/actions/workflows/ci.yml)
 * [ynqa/logu](https://github.com/ynqa/logu) - Extract patterns from (streaming) unstructured log messages [![ci](https://github.com/ynqa/logu/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/ynqa/logu/actions/workflows/ci.yml)
 * [ynqa/sig](https://github.com/ynqa/sig) - Interactive grep (for streaming) [![ci](https://github.com/ynqa/sig/actions/workflows/ci.yml/badge.svg)](https://github.com/ynqa/sig/actions/workflows/ci.yml)
+* [ziplark](https://github.com/zhitongblog/ziplark) - Cross-platform file archiver: extracts ZIP, RAR, 7z, tar and ISO and creates ZIP/7z/tar with AES-256; ships a CLI, a desktop app and an MCP server [![CI](https://github.com/zhitongblog/ziplark/actions/workflows/ci.yml/badge.svg)](https://github.com/zhitongblog/ziplark/actions/workflows/ci.yml)
 
 ### Task scheduling
 
