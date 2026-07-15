@@ -588,6 +588,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [epi052/feroxbuster](https://github.com/epi052/feroxbuster) - A simple, fast, recursive content discovery tool.
 * [InnerWarden/innerwarden](https://github.com/InnerWarden/innerwarden) - Self-defending security agent for Linux and macOS with 22 eBPF kernel hooks, 39 detectors, and AI-driven incident response [![CI](https://github.com/InnerWarden/innerwarden/actions/workflows/ci.yml/badge.svg)](https://github.com/InnerWarden/innerwarden/actions/workflows/ci.yml)
 * [Inspektor](https://github.com/inspektor-dev/inspektor) - A database protocol-aware proxy that is used to enforce access policies 👮
+* [KaijinLab/ogma](https://github.com/KaijinLab/ogma) - Local-first HTTPS/WebSocket security proxy for web security testing with intercept, replay, scan, and automation. [![build](https://img.shields.io/github/actions/workflow/status/KaijinLab/ogma/release.yml?branch=master)](https://github.com/KaijinLab/ogma/actions)
 * [kpcyrd/authoscope](https://github.com/kpcyrd/authoscope) - A scriptable network authentication cracker
 * [kpcyrd/rshijack](https://github.com/kpcyrd/rshijack) - A TCP connection hijacker; rewrite of shijack
 * [kpcyrd/sn0int](https://github.com/kpcyrd/sn0int) - A semi-automatic OSINT framework and package manager
