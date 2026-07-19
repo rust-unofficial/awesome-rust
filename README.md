@@ -610,6 +610,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [sherlock](https://github.com/jonaylor89/sherlock-rs) [[sherlock](https://crates.io/crates/sherlock)] - Hunt down social media accounts by username across social networks [![status](https://github.com/jonaylor89/sherlock-rs/actions/workflows/rust.yml/badge.svg)](https://github.com/jonaylor89/sherlock-rs/actions/workflows/rust.yml)
 * [ssh-vault](https://github.com/ssh-vault/ssh-vault) - A simple tool to manage secrets using ssh keys for encryption and decryption.
 * [SystemVll/TAuth](https://github.com/SystemVll/TAuth) - An easy and user friendly 2FA & Credentials manager, for your PC.
+* [vietanhdev/bulwark](https://github.com/vietanhdev/bulwark) - Host security scanner for Linux desktops and servers with a CLI and a native GUI, checking SSH, kernel, cron and filesystem permissions against a declarative rule pack, with ClamAV integration and file-integrity monitoring [![CI](https://github.com/vietanhdev/bulwark/actions/workflows/ci.yml/badge.svg)](https://github.com/vietanhdev/bulwark/actions/workflows/ci.yml)
 
 ### Social networks
 
