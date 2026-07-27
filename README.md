@@ -761,6 +761,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 
 ### Utilities
 
+* [al2m/OpenL](https://github.com/al2m/OpenL) - A lightweight, instant 0.03s startup application launcher for Windows built with Rust & egui.
 * [1History](https://github.com/localfirstapp/1History) - Command line interface to backup Firefox/Chrome/Safari history to one SQLite file [![Build Status](https://github.com/localfirstapp/1History/actions/workflows/CI.yml/badge.svg)](https://github.com/localfirstapp/1History/actions/workflows/CI.yml)
 * [artob/edky](https://github.com/artob/edky) [[edky](https://crates.io/crates/edky)] - A command-line utility to convert Ed25519 public keys between various encoding formats (Base58, Base64, IPFS, iroh, libp2p, OpenSSH, etc). [![Build Status](https://github.com/artob/edky/actions/workflows/rust.yaml/badge.svg)](https://github.com/artob/edky/blob/master/.github/workflows/rust.yaml)
 * [bloznelis/kbt](https://github.com/bloznelis/kbt) [[kbt](https://crates.io/crates/kbt)] - A simple TUI tool for keyboard testing.
