@@ -181,6 +181,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 * [Saga Reader](https://github.com/sopaco/saga-reader) - A Blazing-Fast and Extremely-Lightweight Internet Reader driven by AI.Supports fetching of search engine information and RSS.
 * [Servo](https://github.com/servo/servo) - A prototype web browser engine
 * [shoes](https://github.com/cfal/shoes) - A multi-protocol proxy server
+* [valtors/smith](https://github.com/valtors/smith) [[smith-mcp](https://crates.io/crates/smith-mcp)] - Package manager for MCP servers: install, compose, secure, and manage with profiles.
 * [shuttle](https://github.com/shuttle-hq/shuttle) - A serverless platform.
 * [Sniffnet](https://github.com/GyulyVGC/sniffnet) - Cross-platform application to monitor your network traffic with ease [![build badge](https://img.shields.io/github/actions/workflow/status/gyulyvgc/sniffnet/rust.yml?logo=github)](https://github.com/GyulyVGC/sniffnet/blob/main/.github/workflows/rust.yml) [![crate](https://img.shields.io/crates/v/sniffnet?logo=rust)](https://crates.io/crates/sniffnet)
 * [SWC](https://github.com/swc-project/swc) - super-fast TypeScript / JavaScript compiler
@@ -229,6 +230,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 * [cairo](https://github.com/starkware-libs/cairo) - Cairo is the first Turing-complete language for creating provable programs for general computation. This is also the native language of [StarkNet](https://www.starknet.io), a ZK-Rollup using STARK proofs ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/starkware-libs/cairo/CI?style=flat-square&logo=github)
 * [ChainX](https://github.com/chainx-org/ChainX) - Fully Decentralized Interchain Crypto Asset Management on Polkadot.
 * [CITA](https://github.com/citahub/cita) - A high performance blockchain kernel for enterprise users.
+* [valtors/cairn](https://github.com/valtors/cairn) [[cairn-memory](https://crates.io/crates/cairn-memory)] - A temporal knowledge store for AI agents in SQLite. Facts are timestamped triples with validity windows, confidence scores, and federated sync.
 * [coinbase-pro-rs](https://github.com/inv2004/coinbase-pro-rs) - Coinbase pro client, supports sync/async/websocket
 * [datahaven-xyz/datahaven](https://github.com/datahaven-xyz/datahaven) - AI-First Decentralized Storage secured by EigenLayer.
 * [Diem](https://github.com/diem/diem) - Diem’s mission is to enable a simple global currency and financial infrastructure that empowers billions of people.
