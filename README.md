@@ -1875,6 +1875,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [bedrock-crustaceans/bedrock-rs](https://github.com/bedrock-crustaceans/bedrock-rs) - Universal toolkit for Minecraft Bedrock Edition development in Rust. [![GitHub stars](https://img.shields.io/github/stars/bedrock-crustaceans/bedrock-rs)](https://github.com/bedrock-crustaceans/bedrock-rs) [![CI](https://github.com/bedrock-crustaceans/bedrock-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/bedrock-crustaceans/bedrock-rs/actions/workflows/ci.yml)
   * [FerrumC](https://github.com/ferrumc-rs/ferrumc) - A upgrade of the original Minecraft server in Rust [![build badge](https://github.com/ferrumc-rs/ferrumc/actions/workflows/rust.yml/badge.svg)]
   * [Pumpkin](https://github.com/pumpkin-mc/pumpkin) - A high-performance Minecraft server Software fully written in Rust
+  * [SteelMC](https://github.com/Steel-Foundation/SteelMC) - A Rust Minecraft server built with performance and parity in mind
 * [Raylib](https://www.raylib.com/)
   * [deltaphc/raylib-rs](https://github.com/deltaphc/raylib-rs) [[raylib](https://crates.io/crates/raylib)] - Bindings for raylib
 * [SDL](https://www.libsdl.org/) [[sdl](https://crates.io/keywords/sdl)]
