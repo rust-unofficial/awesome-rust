@@ -1392,6 +1392,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
   * [kkawakam/rustyline](https://github.com/kkawakam/rustyline) [[rustyline](https://crates.io/crates/rustyline)] - readline implementation
   * [MovingtoMars/liner](https://github.com/MovingtoMars/liner) [[liner](https://crates.io/crates/liner)] - A library offering readline-like functionality
   * [murarth/linefeed](https://github.com/murarth/linefeed) [[linefeed](https://crates.io/crates/linefeed)] - Configurable, extensible, interactive line reader
+  * [nushell/reedline](https://github.com/nushell/reedline) [[reedline](https://crates.io/crates/reedline)] - A feature-rich line editor powering Nushell. Supports syntax highlighting, tab completions, multiline, history, vi/emacs keybindings, and Unicode. [![Crates.io](https://img.shields.io/crates/v/reedline)](https://crates.io/crates/reedline)
   * [srijs/rust-copperline](https://github.com/srijs/rust-copperline) [[copperline](https://crates.io/crates/copperline)] - command line editing library
 * Other
   * [mgrachev/update-informer](https://github.com/mgrachev/update-informer) [[update-informer](https://crates.io/crates/update-informer)] - Update informer for CLI applications. It checks for a new version on Crates.io and GitHub [![build badge](https://github.com/mgrachev/update-informer/workflows/CI/badge.svg)](https://github.com/mgrachev/update-informer/actions)
