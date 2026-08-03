@@ -464,6 +464,7 @@ See also [Games Made With Piston](https://github.com/PistonDevelopers/piston/wik
 * [oxipng](https://github.com/oxipng/oxipng) [[oxipng](https://crates.io/crates/oxipng)] - Multithreaded PNG optimizer written in Rust. [![Build Status](https://github.com/oxipng/oxipng/workflows/oxipng/badge.svg)](https://github.com/oxipng/oxipng/actions?query=branch%3Amaster) [![Version](https://img.shields.io/crates/v/oxipng.svg)](https://crates.io/crates/oxipng)
 * [Sprite Fusion Pixel Snapper](https://github.com/Hugo-Dz/spritefusion-pixel-snapper) - A CLI and WebAssembly tool that cleans up AI-generated pixel art to get pixel-perfect pixel art sprites (MIT).
 * [visioncortex/vtracer](https://github.com/visioncortex/vtracer) [[vtracer](https://crates.io/crates/vtracer)] - A raster to vector graphics converter (jpg/png to svg).
+* [StarTap Image Shrinking Tool](https://github.com/cscb603/StarTap-Image-Shrinking-Tool) [[xtap-compress](https://crates.io/crates/xtap-compress)] - Local, offline image compression tool that defeats WeChat/Xiaohongshu/WhatsApp secondary compression using mozjpeg + CAS; GUI for humans, Agent-First JSON CLI for AI.
 
 ### Industrial automation
 
