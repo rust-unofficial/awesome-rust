@@ -483,6 +483,7 @@ See also [Games Made With Piston](https://github.com/PistonDevelopers/piston/wik
 
 * [cocoindex](https://github.com/cocoindex-io/cocoindex) - ETL framework to build fresh context for AI agents, with incremental processing
 * [TensorZero](https://github.com/tensorzero/tensorzero) - data & learning flywheel for LLMs that unifies inference, observability, optimization, and experimentation ![TensorZero Build Status](https://img.shields.io/github/check-runs/tensorzero/tensorzero/main)
+* [Uteke](https://github.com/codecoradev/uteke) - Offline-first semantic memory engine for AI agents. Single binary, zero dependencies, MCP-native. [![CI](https://img.shields.io/github/actions/workflow/status/codecoradev/uteke/ci.yml?branch=develop)](https://github.com/codecoradev/uteke/actions/workflows/ci.yml)
 
 ### Observability
 
