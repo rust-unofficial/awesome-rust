@@ -1495,6 +1495,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 
 ### Concurrency
 
+* [aurumflux20/effectfence](https://github.com/aurumflux20/effectfence) [[effectfence](https://crates.io/crates/effectfence)] - Causal effect fence for multi-agent side effects — exactly-one execution under races and retries, fenced takeover, content-addressed receipts. [![CI](https://github.com/aurumflux20/effectfence/actions/workflows/ci.yml/badge.svg)](https://github.com/aurumflux20/effectfence/actions)
 * [crossbeam-rs/crossbeam](https://github.com/crossbeam-rs/crossbeam) - Support for parallelism and low-level concurrency
 * [NikitaSmithTheOne/rate-limiters-rs](https://github.com/NikitaSmithTheOne/rate-limiters-rs) [[rate-limiters](https://crates.io/crates/rate_limiters)] - Rust library for rate limiting (Leaky Bucket, Token Bucket, Fixed/Sliding Window)
 * [orium/archery](https://github.com/orium/archery) [[archery](https://crates.io/crates/archery)] - Library to abstract from `Rc`/`Arc` pointer types. [![build badge](https://github.com/orium/archery/workflows/CI/badge.svg)](https://github.com/orium/archery/actions?query=workflow%3ACI)
