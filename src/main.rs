@@ -67,7 +67,6 @@ lazy_static! {
         "https://labex.io/skilltrees/rust",
         "https://github.com/TraceMachina/nativelink", // probably broken because @palfrey now works for them...
         "https://www.vulkan.org/",
-        "https://gitlab.redox-os.org/redox-os/redox", // Cloudflare
         "https://www.modbus.org/",
         "https://portmedia.sourceforge.net/portmidi/",
         "https://gitlab.torproject.org/tpo/core/arti",
@@ -444,9 +443,14 @@ fn get_url_core(url: String) -> BoxFuture<'static, (String, Result<(), CheckerEr
             let resp = req.send().await;
             match resp {
                 Err(err) => {
-                    warn!("Error while getting {}, retrying: {}", url, err);
                     res = Err(CheckerError::ReqwestError{error: err.to_string()});
-                    continue;
+                    if [403u16].contains(&err.status().unwrap_or_default().as_u16()) {
+                        warn!("Error while getting {}: {}", url, err);
+                        return (url, res);
+                    } else {
+                        warn!("Error while getting {}, retrying: {}", url, err);
+                        continue;
+                    }
                 }
                 Ok(ok) => {
                     let status = ok.status();
@@ -502,9 +506,14 @@ fn get_url_core(url: String) -> BoxFuture<'static, (String, Result<(), CheckerEr
                                 break;
                             }
                         } else {
-                            warn!("Error while getting {}, retrying: {}", url, status);
                             res = Err(CheckerError::HttpError {status: status.as_u16(), location: None});
-                            continue;
+                            if [403u16].contains(&status.as_u16()) {
+                                warn!("Error while getting {}: {}", url, status);
+                                return (url, res);
+                            } else {
+                                warn!("Error while getting {}, retrying: {}", url, status);
+                                continue;
+                            }
                         }
                     }
                     lazy_static! {
