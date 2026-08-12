@@ -508,6 +508,10 @@ fn get_url_core(url: String) -> BoxFuture<'static, (String, Result<(), CheckerEr
                         } else {
                             res = Err(CheckerError::HttpError {status: status.as_u16(), location: None});
                             if [403u16].contains(&status.as_u16()) {
+                                if ok.headers().get("cf-ray").is_some() {
+                                    warn!("Cloudflare response, assuming {} is fine", url);
+                                    return (url,Ok(()))
+                                }
                                 warn!("Error while getting {}: {}", url, status);
                                 return (url, res);
                             } else {
