@@ -412,8 +412,7 @@ async fn get_downloads(github_url: &str) -> Option<u64> {
 
 fn get_url_core(url: String) -> BoxFuture<'static, (String, Result<(), CheckerError>)> {
     async move {
-        if ASSUME_WORKS.contains(&url) || url.starts_with("https://medium.com") // cloudflare
-        {
+        if ASSUME_WORKS.contains(&url) {
             info!("We assume {} just works...", url);
             return (url, Ok(()));
         }
