@@ -504,6 +504,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [0x59616e/SteinsOS](https://github.com/0x59616e/SteinsOS) - An OS for armv8-a architecture.
 * [Andy-Python-Programmer/aero](https://github.com/Andy-Python-Programmer/aero) - A modern, unix-like operating system following the monolithic kernel design.
 * [asterinas/asterinas](https://github.com/asterinas/asterinas) - A secure, fast, and general-purpose OS kernel that provides Linux-compatible ABI.
+* [daxo-developer/daxo_os](https://github.com/daxo-developer/daxo_os) - A custom x86_64 multitasking microkernel written completely from scratch in Rust, featuring hardware privilege isolation and async task execution.
 * [DragonOS-Community/DragonOS](https://github.com/DragonOS-Community/DragonOS) - An operating system with a self-developed kernel from scratch and Linux compatibility.
 * [hexagonal-sun/moss-kernel](https://github.com/hexagonal-sun/moss-kernel) - A Unix-like, Linux-compatible kernel written in Rust and Aarch64 assembly.
 * [koibtw/highlightos](https://github.com/koibtw/highlightos) - x86_64 OS kernel written in Rust & Assembly.
