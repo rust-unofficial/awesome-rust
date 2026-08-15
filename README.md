@@ -883,6 +883,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 
 ## Development tools
 
+* [OxideUtils](https://github.com/Zainium-Dynamics/oxideutils) - Clean-room, memory-safe pure Rust implementation of the GNU binutils suite.
 * [7df-lab/devo](https://github.com/7df-lab/devo) - A lightweight, model-neutral coding agent that runs as a single binary. Fast, token-efficient, and highly customizable. [![CI](https://github.com/7df-lab/devo/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/7df-lab/devo/actions/workflows/ci.yml)
 * [aaif-goose/goose](https://github.com/aaif-goose/goose) - An open-source, local AI agent that automates engineering tasks.
 * [agavra/tuicr](https://github.com/agavra/tuicr) [[tuicr](https://crates.io/crates/tuicr)] - Code review TUI with vim keybindings. Continuous diff viewer, PR-style comments, and export to GitHub/GitLab/clipboard. Supports git, jj, and mercurial. [![Crates.io](https://img.shields.io/crates/v/tuicr)](https://crates.io/crates/tuicr)
@@ -1214,6 +1215,7 @@ See also [Rust Tools](https://rust-lang.org/tools/).
 
 ## Libraries
 
+* [oxidized-yacc](https://github.com/Zainium-Dynamics/oxidized-yacc) - Clean-room, memory-safe LALR(1) and GLR parser generator acting as a drop-in GNU Bison replacement.
 * [perf-monitor-rs](https://github.com/larksuite/perf-monitor-rs) - A toolkit designed to be a foundation for applications to monitor their performance. [![crates.io](https://img.shields.io/crates/v/perf_monitor.svg)](https://crates.io/crates/perf_monitor)
 
 ### Artificial Intelligence
