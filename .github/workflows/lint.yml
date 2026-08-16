@@ -20,6 +20,7 @@ jobs:
         with:
           config: ./.markdownlint.json
           args: ./README.md
+
   lint-editorconfig:
     runs-on: ubuntu-24.04
     name: Lint for editorconfig violations
@@ -35,9 +36,9 @@ jobs:
     steps:
       - name: Checkout the repository
         uses: actions/checkout@v7
-      - uses: actions/setup-node@v6
-        with:
-          node-version: 16
-      - run: npm install markdown-toc
-      - run: ./node_modules/.bin/markdown-toc -i README.md
+      - name: Download mktoc
+        run: |
+          wget https://github.com/KevinGimbel/mktoc/releases/download/v5.1.1/mktoc-x86_64-unknown-linux-gnu.tar.gz
+          tar -zxvf mktoc-x86_64-unknown-linux-gnu.tar.gz
+      - run: ./mktoc README.md
       - run: git diff --exit-code
