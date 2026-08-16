@@ -846,9 +846,10 @@ async fn main() -> Result<()> {
             }
             Event::Html(content) => {
                 // Allow ToC markers, nothing else
-                if !content.contains("<!-- toc") {
+                if !content.contains("<!-- BEGIN mktoc ") && !content.contains("<!-- END mktoc -->")
+                {
                     has_errors = true;
-                    eprintln!("Contains HTML content, not markdown: {}", content);
+                    eprintln!("Contains HTML content, not markdown: '{}'", content);
                 }
             }
             _ => {}

@@ -4,7 +4,6 @@ A curated list of Rust code and resources.
 
 If you want to contribute, please read [this](CONTRIBUTING.md).
 
-
 <!-- BEGIN mktoc {"min_depth": 2} -->
 
 - [Applications](#applications)
