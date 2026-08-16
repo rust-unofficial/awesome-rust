@@ -651,6 +651,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [dust](https://github.com/bootandy/dust) - A more intuitive version of du
 * [erickochen/purple](https://github.com/erickochen/purple) [[purple-ssh](https://crates.io/crates/purple-ssh)] - Ratatui-powered SSH client with cloud sync, container management, file transfer, tunnels, snippets and password management [![CI](https://github.com/erickochen/purple/actions/workflows/ci.yml/badge.svg)](https://github.com/erickochen/purple/actions/workflows/ci.yml)
 * [eza-community/eza](https://github.com/eza-community/eza) - A replacement for 'ls'
+* [Kk376/ferrisfetch](https://github.com/Kk376/ferrisfetch) - A fast, lightweight Linux and Android system information fetch CLI tool
 * [fish-shell/fish-shell](https://github.com/fish-shell/fish-shell) - The user-friendly command line shell
 * [fork](https://github.com/immortal/fork) - Library for creating a new process detached from the controlling terminal (daemon)
 * [fselect](https://crates.io/crates/fselect) - Find files with SQL-like queries
