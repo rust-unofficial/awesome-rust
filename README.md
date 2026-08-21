@@ -476,6 +476,7 @@ See also [Games Made With Piston](https://github.com/PistonDevelopers/piston/wik
 * [Rocketmq-Rust](https://github.com/mxsm/rocketmq-rust) - 🚀Apache RocketMQ build in Rust🦀. Faster, safer, and with lower memory usage.
 
 ### MLOps
+* [Nudge](https://github.com/NekomyaDev/nudge) - A typed, replayable, budget-aware programming language for LLM agents. Compiles to Python & TypeScript. [![CI](https://github.com/NekomyaDev/nudge/actions/workflows/ci.yml/badge.svg)](https://github.com/NekomyaDev/nudge/actions/workflows/ci.yml)
 
 * [cocoindex](https://github.com/cocoindex-io/cocoindex) - ETL framework to build fresh context for AI agents, with incremental processing
 * [TensorZero](https://github.com/tensorzero/tensorzero) - data & learning flywheel for LLMs that unifies inference, observability, optimization, and experimentation ![TensorZero Build Status](https://img.shields.io/github/check-runs/tensorzero/tensorzero/main)
