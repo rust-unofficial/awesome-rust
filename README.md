@@ -685,6 +685,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [netscanner](https://github.com/Chleba/netscanner) - TUI Network Scanner
 * [nickgerace/gfold](https://github.com/nickgerace/gfold) [[gfold](https://crates.io/crates/gfold)] - CLI tool to help keep track of multiple Git repositories [![build](https://img.shields.io/github/workflow/status/nickgerace/gfold/merge/main)](https://github.com/nickgerace/gfold/actions?query=workflow%3Amerge+branch%3Amain)
 * [nivekuil/rip](https://github.com/nivekuil/rip) - A safe and ergonomic alternative to `rm`
+* [novitaswebworks/proc-manager](https://github.com/novitaswebworks/proc-manager) - A unified TUI dashboard for managing processes, Docker containers, and system services in one place.
 * [nushell/nushell](https://github.com/nushell/nushell) - A new type of shell
 * [nwiizo/tfmcp](https://github.com/nwiizo/tfmcp) - Terraform MCP Tool - CLI for AI assistants to manage Terraform environments via Model Context Protocol.
 * [nwiizo/tfocus](https://github.com/nwiizo/tfocus) - Interactive tool for selecting and executing Terraform plan/apply operations
