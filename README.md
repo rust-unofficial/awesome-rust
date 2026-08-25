@@ -615,6 +615,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [sherlock](https://github.com/jonaylor89/sherlock-rs) [[sherlock](https://crates.io/crates/sherlock)] - Hunt down social media accounts by username across social networks [![status](https://github.com/jonaylor89/sherlock-rs/actions/workflows/rust.yml/badge.svg)](https://github.com/jonaylor89/sherlock-rs/actions/workflows/rust.yml)
 * [ssh-vault](https://github.com/ssh-vault/ssh-vault) - A simple tool to manage secrets using ssh keys for encryption and decryption.
 * [timescale/rsigma](https://github.com/timescale/rsigma) [[rsigma](https://crates.io/crates/rsigma)] - A complete detection engineering toolkit for the Sigma detection standard, with a parser, evaluation engine, rule conversion, streaming runtime, linter, CLI, MCP, and LSP [![CI](https://github.com/timescale/rsigma/actions/workflows/ci.yml/badge.svg)](https://github.com/timescale/rsigma/actions/workflows/ci.yml)
+* [shleder/vetto](https://github.com/shleder/vetto) - Daemon-less sandbox and security layer for AI coding agents: Landlock/seccomp on Linux and Seatbelt on macOS, fail-closed launch, network off by default, copy-only recovery of lost Codex sessions
 
 ### Social networks
 
