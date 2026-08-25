@@ -145,6 +145,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 * [glzr-io/glazewm](https://github.com/glzr-io/glazewm) - A tiling window manager for Windows inspired by i3wm, with YAML config, multi-monitor support, and keyboard-driven commands
 * [google/mdbook-i18n-helpers](https://github.com/google/mdbook-i18n-helpers) [[mdbook-i18n-helpers](https://crates.io/crates/mdbook-i18n-helpers)] - Internationalization and rendering extensions for mdbook.
 * [habitat](https://github.com/habitat-sh/habitat) - A tool created by Chef to build, deploy, and manage applications.
+* [heatsync-tui](https://github.com/mellen9999/heatsync-tui) [[heatsync-tui](https://crates.io/crates/heatsync-tui)] - Heat-sorted live multichat in the terminal for Twitch and Kick, with real emotes and vim keys
 * [Herd](https://github.com/imjacobclark/Herd) - an experimental HTTP load testing application
 * [hickory-dns](https://crates.io/crates/hickory-dns) - A DNS-server [![Build Status](https://github.com/hickory-dns/hickory-dns/actions/workflows/test.yml/badge.svg)](https://github.com/hickory-dns/hickory-dns/actions?query=workflow%3Atest)
 * [innernet](https://github.com/tonarino/innernet) - An overlay or private mesh network that uses Wireguard under the hood
