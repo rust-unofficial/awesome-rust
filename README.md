@@ -1511,6 +1511,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [rust-cli/config-rs](https://github.com/rust-cli/config-rs) [[config](https://crates.io/crates/config)] - Layered configuration system (with strong support for 12-factor applications).
 * [SergioBenitez/Figment](https://github.com/SergioBenitez/Figment) [[figment](https://crates.io/crates/figment)] - A configuration library so con-free, it's unreal.
 * [softprops/envy](https://github.com/softprops/envy) - deserialize env vars into typesafe structs [![Main](https://github.com/softprops/envy/actions/workflows/main.yml/badge.svg)](https://github.com/softprops/envy/actions/workflows/main.yml)
+* [Spectra010s/dotcfg](https://github.com/Spectra010s/dotcfg) [[dotcfg](https://crates.io/crates/dotcfg)] - Flexible config management for Rust apps.
 
 ### Cryptography
 
