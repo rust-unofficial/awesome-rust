@@ -826,6 +826,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [harlanc/xiu](https://github.com/harlanc/xiu) - A powerful and secure live server (rtmp/httpflv/hls/relay). [![crates.io](https://img.shields.io/crates/v/xiu.svg)](https://crates.io/crates/xiu)
 * [Michael-A-Kuykendall/muxide](https://github.com/Michael-A-Kuykendall/muxide) [[muxide](https://crates.io/crates/muxide)] - Pure-Rust MP4 muxer with no external dependencies that writes standards-compliant MP4 from encoded frames.
 * [vidmerger](https://github.com/TGotwig/vidmerger) - Merge video & audio files via CLI
+* [vuiodev/vuio](https://github.com/vuiodev/vuio) - DLNA media server with support for Linux, macOS, Windows, and Docker
 * [xiph/rav1e](https://github.com/xiph/rav1e) - The fastest and safest AV1 encoder.
 
 ### Virtualization
