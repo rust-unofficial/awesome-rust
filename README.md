@@ -2312,7 +2312,7 @@ See also [Are we web yet?](https://www.arewewebyet.org) and [Rust web framework 
 * Backend
   * [actix/actix-web](https://github.com/actix/actix-web) - A lightweight async web framework with websocket support
   * [Anansi](https://github.com/saru-tora/anansi) - A simple full-stack web framework
-  * [AZBrandCanada/ForgePress](https://github.com/AZBrandCanada/ForgePress) [[forgepress-core](https://crates.io/crates/forgepress-core)] - High-performance asynchronous Rust & WebAssembly (WASI) site core and CMS engine.
+  * [AZBrandCanada/ForgePress](https://github.com/AZBrandCanada/ForgePress) [[forgepress-core](https://crates.io/crates/forgepress-core)] - High-performance asynchronous Rust & WebAssembly (WASI) site core and CMS engine
   * [Rocket](https://github.com/rwf2/Rocket) - Rocket is a web framework with a focus on ease-of-use, expressability, and speed
   * [RustAPI](https://github.com/Tuntii/RustAPI) [[rustapi-rs](https://crates.io/crates/rustapi-rs)] - Ergonomic web framework with compile-time OpenAPI and native MCP
   * [summer-rs](https://github.com/summer-rs/summer-rs) - summer-rs is a application framework written in rust inspired by java's spring-boot.
