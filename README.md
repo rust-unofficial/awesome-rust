@@ -393,6 +393,7 @@ See also [crates matching keyword 'emulator'](https://crates.io/keywords/emulato
 * [moyangzhan/mango-finder](https://github.com/moyangzhan/mango-finder) - Search your files using nature language
 * [pikeru](https://github.com/dvhar/pikeru) - File picker for linux with good thumbnails and search
 * [spacedriveapp/spacedrive](https://github.com/spacedriveapp/spacedrive) - A file manager built on a virtual distributed filesystem.
+* [superfile](https://github.com/yorukot/superfile) - Fancy, modern, and high-performance terminal file manager.
 * [xplr](https://github.com/sayanarijit/xplr) - A hackable, minimal, fast TUI file explorer
 * [yazi](https://github.com/sxyazi/yazi) - Blazing fast terminal file manager, based on async I/O.
 
