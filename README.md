@@ -1466,6 +1466,8 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 
 * [7z](https://7-zip.org/7z.html)
   * [[sevenz-rust](https://crates.io/crates/sevenz-rust)] - A 7z decompressor/compressor written in pure rust.
+* [ALP](https://github.com/webc-site/wedb_embed/tree/main/fastalp)
+  * [fastalp](https://github.com/webc-site/wedb_embed/tree/main/fastalp) [[fastalp](https://crates.io/crates/fastalp)] - Adaptive Lossless Floating-Point (ALP) compression algorithm for f32 and f64
 * [Brotli](https://opensource.googleblog.com/2015/09/introducing-brotli-new-compression.html)
   * [dropbox/rust-brotli](https://github.com/dropbox/rust-brotli) - Brotli decompressor that optionally avoids the stdlib
   * [ende76/brotli-rs](https://github.com/ende76/brotli-rs) - implementation of Brotli compression
