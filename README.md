@@ -1261,6 +1261,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [blackportal-ai/delta](https://github.com/blackportal-ai/delta) - Δ An Open-Source Machine Learning Framework in Rust. ![crates.io](https://img.shields.io/crates/v/deltaml.svg) ![build](https://img.shields.io/github/actions/workflow/status/blackportal-ai/delta/core.yml?branch=master)
 * [blackportal-ai/nebula](https://github.com/blackportal-ai/nebula) - A Package Manager for Machine Learning Datasets and Models. ![build](https://img.shields.io/github/actions/workflow/status/blackportal-ai/nebula/core.yml?branch=master)
 * [burn](https://github.com/tracel-ai/burn) - A Flexible and Comprehensive Deep Learning Framework.
+* [huggingface/candle-onnx](https://github.com/huggingface/candle/tree/main/candle-onnx) - ONNX model loader and runtime for the Candle ML framework.
 * [chelsea0x3b/dfdx](https://github.com/chelsea0x3b/dfdx) - CUDA accelerated machine learning framework that leverages many of Rust's unique features. ![Crates.io](https://img.shields.io/crates/v/dfdx)
 * [EricLBuehler/mistral.rs](https://github.com/EricLBuehler/mistral.rs) [[mistralrs](https://crates.io/crates/mistralrs)] - Fast, flexible LLM inference engine supporting multimodal models, quantization (GGUF/GPTQ/ISQ), and OpenAI-compatible API
 * [guillaume-be/rust-bert](https://github.com/guillaume-be/rust-bert) [[rust_bert](https://crates.io/crates/rust_bert)] - Ready-to-use NLP pipelines and language models
