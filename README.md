@@ -509,7 +509,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [hexagonal-sun/moss-kernel](https://github.com/hexagonal-sun/moss-kernel) - A Unix-like, Linux-compatible kernel written in Rust and Aarch64 assembly.
 * [koibtw/highlightos](https://github.com/koibtw/highlightos) - x86_64 OS kernel written in Rust & Assembly.
 * [NON-OS/nonos-micro-kernel](https://github.com/NON-OS/nonos-micro-kernel) - A capability-based, RAM-resident microkernel where every program is a signed capsule that must prove itself before the kernel will run it, and drivers run in userspace.
-* [crackanimad0r/MesaOS](https://github.com/crackanimad0r/MesaOS) - Bare-metal x86_64 OS in Rust with a 400+ symbol Linux driver shim, HDA audio streaming, network stack, and interactive shell.
+* [MesaOS](https://github.com/crackanimad0r/MesaOS) - Bare-metal x86_64 OS in Rust with a 400+ symbol Linux driver shim, HDA audio streaming, network stack, and interactive shell.
 * [redox-os/redox](https://gitlab.redox-os.org/redox-os/redox) - A Unix-like general-purpose microkernel-based operating system with a focus on security, stability, performance, correctness, simplicity and pragmatism that aims to be a complete alternative for Linux and BSD.
 * [thepowersgang/rust_os](https://github.com/thepowersgang/rust_os) - An OS kernel written in rust. Non POSIX
 * [theseus-os/Theseus](https://github.com/theseus-os/Theseus) - A safe-language, single address space and single privilege level OS written from scratch - [![build badge](https://img.shields.io/github/workflow/status/theseus-os/Theseus/Documentation?label=docs%20build)](https://www.theseus-os.com/Theseus/book/index.html)
