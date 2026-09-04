@@ -28,7 +28,7 @@ jobs:
       - name: Checkout the repository
         uses: actions/checkout@v7
       - name: Check for editorconfig violations
-        uses: editorconfig-checker/action-editorconfig-checker@v2
+        uses: editorconfig-checker/action-editorconfig-checker@v3.0.0
 
   lint-markdown-toc:
     runs-on: ubuntu-24.04
