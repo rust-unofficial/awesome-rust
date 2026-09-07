@@ -1053,8 +1053,8 @@ See also [Foreign Function Interface](https://doc.rust-lang.org/book/first-editi
 * C
   * [gtk-rs/gir](https://github.com/gtk-rs/gir) - Code generator for creating safe Rust bindings from GObject-based C libraries.
   * [mozilla/cbindgen](https://github.com/mozilla/cbindgen) - generates C header files from Rust source files. Used in Gecko for WebRender
-  * [trevyn/librclone](https://github.com/trevyn/librclone) [[librclone](https://crates.io/crates/librclone)] - Rust bindings for the librclone C library.
   * [Sean1708/rusty-cheddar](https://github.com/Sean1708/rusty-cheddar) - generates C header files from Rust source files
+  * [trevyn/librclone](https://github.com/trevyn/librclone) [[librclone](https://crates.io/crates/librclone)] - Rust bindings for the librclone C library.
 * C#
   * [csbindgen](https://github.com/Cysharp/csbindgen) - generates C# bindings for Rust source files
 * C++
