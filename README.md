@@ -345,6 +345,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 * [rmk](https://github.com/haobogu/rmk) - A feature-rich keyboard firmware.
 * [rtic-rs/rtic](https://github.com/rtic-rs/rtic) [[rtic](https://crates.io/crates/rtic)] - Real-Time Interrupt-driven Concurrency framework for building embedded real-time systems.
 * [uefi-rs](https://github.com/rust-osdev/uefi-rs) - Rusty wrapper for the Unified Extensible Firmware Interface. This crate makes it easy to develop Rust software that leverages safe, convenient, and performant abstractions for UEFI functionality.
+* [vaulttec-dev/vaulttec-key](https://github.com/vaulttec-dev/vaulttec-key) - `no_std` USB hardware-key firmware for the ESP32-C6 storing TOTP secrets, passwords and project `.env` files under AES-256-GCM, keyed by Argon2id over a PIN and bound to an eFuse HMAC key, with Secure Boot v2 and a button press for every secret. No HID on that chip, so no WebAuthn. Ships a host CLI that flashes the board.
 
 ### Emulators
 
