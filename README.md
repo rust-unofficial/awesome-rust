@@ -1293,6 +1293,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [raphaelmansuy/edgequake](https://github.com/raphaelmansuy/edgequake) - A high-performance Graph-RAG framework that transforms documents into intelligent knowledge graphs.
 * [rust-ml/linfa](https://github.com/rust-ml/linfa) - Machine learning framework.
 * [sipemu/anofox-regression](https://github.com/sipemu/anofox-regression) [[anofox-regression](https://crates.io/crates/anofox-regression)] - Statistical regression models (OLS, Elastic Net, GLM, Quantile & Isotonic) with R-like inference (p-values, confidence & prediction intervals) and Wasm support.
+* [sizzlecar/ferrum-infer-rs](https://github.com/sizzlecar/ferrum-infer-rs) [[ferrum-engine](https://crates.io/crates/ferrum-engine)] - Local LLM inference runtime with a CLI, Apple Silicon Metal support, and an OpenAI-compatible API. [![CI](https://github.com/sizzlecar/ferrum-infer-rs/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/sizzlecar/ferrum-infer-rs/actions/workflows/ci.yml)
 * [smartcorelib/smartcore](https://github.com/smartcorelib/smartcore) - Machine Learning Library [![Build Status](https://img.shields.io/circleci/build/github/smartcorelib/smartcore)]
 * [tag1consulting/feste](https://github.com/tag1consulting/feste) - A GPT-2 style transformer language model implemented from scratch in Rust for educational purposes.
 * [tensorflow/rust](https://github.com/tensorflow/rust) - Bindings for TensorFlow.
