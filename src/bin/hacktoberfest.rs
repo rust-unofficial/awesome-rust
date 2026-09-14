@@ -200,7 +200,10 @@ async fn main() -> Result<()> {
     for link in old_links {
         results.remove(link).unwrap();
     }
-    fs::write("results/results.yaml", serde_yaml::to_string(&results)?)?;
+    fs::write(
+        "results/hacktoberfest.yaml",
+        serde_yaml::to_string(&results)?,
+    )?;
 
     let mut not_written = 0;
     let mut last_written = Local::now();
