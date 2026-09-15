@@ -634,6 +634,7 @@ async fn main() -> Result<()> {
     let mut required_stars: u32 = MINIMUM_GITHUB_STARS;
     let mut required_rust_percentage: f64 = MINIMUM_RUST_PERCENTAGE;
     let mut last_level: u32 = 0;
+    let mut in_heading = false;
     let mut star_override_level: Option<u32> = None;
     let mut rust_percentage_override_level: Option<u32> = None;
 
@@ -753,6 +754,7 @@ async fn main() -> Result<()> {
                     }
                     Tag::Heading(level) => {
                         last_level = level;
+                        in_heading = true;
                         if let Some(override_level) = star_override_level {
                             if level == override_level {
                                 star_override_level = None;
@@ -775,16 +777,21 @@ async fn main() -> Result<()> {
                 }
             }
             Event::Text(text) => {
-                let possible_stars_override = override_stars(last_level, &text);
-                if let Some(override_value) = possible_stars_override {
-                    star_override_level = Some(last_level);
-                    required_stars = override_value;
-                }
+                // Overrides are per-section, so only the heading text can set them. Body text that
+                // happens to contain the same word must not.
+                if in_heading {
+                    let possible_stars_override = override_stars(last_level, &text);
+                    if let Some(override_value) = possible_stars_override {
+                        star_override_level = Some(last_level);
+                        required_stars = override_value;
+                    }
 
-                let possible_rust_percentage_override = override_rust_percentage(last_level, &text);
-                if let Some(override_value) = possible_rust_percentage_override {
-                    rust_percentage_override_level = Some(last_level);
-                    required_rust_percentage = override_value;
+                    let possible_rust_percentage_override =
+                        override_rust_percentage(last_level, &text);
+                    if let Some(override_value) = possible_rust_percentage_override {
+                        rust_percentage_override_level = Some(last_level);
+                        required_rust_percentage = override_value;
+                    }
                 }
 
                 if in_list_item {
@@ -793,6 +800,9 @@ async fn main() -> Result<()> {
             }
             Event::End(tag) => {
                 match tag {
+                    Tag::Heading(_) => {
+                        in_heading = false;
+                    }
                     Tag::Item => {
                         if !list_item.is_empty() {
                             if link_count > 0
