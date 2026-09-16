@@ -100,7 +100,7 @@ async fn get_hacktoberfest_core(github_url: String) -> Result<Info, CheckerError
         Err(err) => {
             warn!("Error while getting {}: {}", github_url, err);
             Err(CheckerError::HttpError {
-                status: err.status().unwrap().as_u16(),
+                status: err.status().unwrap_or_default().as_u16(),
                 location: Some(github_url.to_string()),
             })
         }
