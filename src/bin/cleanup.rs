@@ -39,7 +39,8 @@ fn main() {
     // Fix the dashes.
     let fixed_contents = fix_dashes(lines);
 
-    // Write the awesome file.
-    fs::write("README.md", fixed_contents.join("\n").as_bytes())
-        .expect("Failed to write to the file");
+    // Write the awesome file, restoring the final newline that `lines()` dropped.
+    let mut fixed_contents = fixed_contents.join("\n");
+    fixed_contents.push('\n');
+    fs::write("README.md", fixed_contents.as_bytes()).expect("Failed to write to the file");
 }
