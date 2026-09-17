@@ -820,6 +820,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [nomino](https://github.com/yaa110/nomino) - Batch rename utility for developers
 * [pastel](https://github.com/sharkdp/pastel) - Helps working with colors: generate, mix, random color.
 * [raftario/licensor](https://github.com/raftario/licensor) - write licenses to stdout [![GitHub Actions](https://github.com/raftario/licensor/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/raftario/licensor/actions/workflows/build.yml)
+* [Ravioli](https://github.com/artemtsitronov/ravioli) - A terminal-based 3D ASCII art previewer for loading .OBJ files with 24-bit RGB lighting.
 * [restsend/rustpbx](https://github.com/restsend/rustpbx) - Software-Defined SIP Proxy including register, presence, b2bua. alternative to Freeswitch/FreePBX.
 * [rleeon/hoard](https://github.com/rleeon/hoard) - Game save backup and sync system with auto-detection, versioned snapshots, and self-hosted storage. [![CI](https://github.com/rleeon/hoard/actions/workflows/ci.yml/badge.svg)](https://github.com/rleeon/hoard/actions/workflows/ci.yml)
 * [rust-parallel](https://github.com/aaronriekenberg/rust-parallel) - Fast command line app using Tokio to execute commands in parallel.  Similar interface to GNU Parallel or xargs. [![Crate](https://img.shields.io/crates/v/rust-parallel.svg?logo=rust)](https://crates.io/crates/rust-parallel) [![Build Status](https://github.com/aaronriekenberg/rust-parallel/actions/workflows/CI.yml/badge.svg)](https://github.com/aaronriekenberg/rust-parallel/actions/workflows/CI.yml)
@@ -2014,6 +2015,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [flutter-rs](https://github.com/flutter-rs/flutter-rs) - Build flutter desktop app in dart & rust.
   * [fzyzcjy/flutter_rust_bridge](https://github.com/fzyzcjy/flutter_rust_bridge) - High-level memory-safe binding generator for Flutter/Dart <-> Rust
 * [fschutt/azul](https://github.com/fschutt/azul) - A free, functional, IMGUI-oriented GUI framework for rapid development of desktop applications written in Rust, supported by the Mozilla WebRender rendering engine.
+* [Glacex](https://github.com/artemtsitronov/glacex) - A GPU-rendered immediate-mode with persistent state UI library built with wgpu and winit.
 * [GTK+](https://www.gtk.org/) [[gtk](https://crates.io/keywords/gtk)]
   * [gtk-rs/gtk4-rs](https://github.com/gtk-rs/gtk4-rs) - GTK4 binding ![CI](https://github.com/gtk-rs/gtk4-rs/workflows/CI/badge.svg)
   * [relm](https://github.com/antoyo/relm) - Asynchronous, GTK+-based, GUI library, inspired by Elm
