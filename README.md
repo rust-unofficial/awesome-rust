@@ -806,7 +806,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [ja7ad/hydra](https://github.com/ja7ad/hydra) - An open-source, high-performance download manager and accelerator that splits every file across parallel connections and mirror sources. Featuring dynamic range stealing and real-time stall recovery for Windows, macOS, and Linux.
 * [lamco-admin/lamco-rdp-server](https://github.com/lamco-admin/lamco-rdp-server) - Wayland-native RDP server built on IronRDP, providing remote desktop access across Wayland Linux desktops (GNOME, KDE, COSMIC, wlroots compositors, and more) without X11.
 * [Linus-Mussmaecher/rucola](https://github.com/Linus-Mussmaecher/rucola) - Terminal-based markdown note manager. [![Crate](https://img.shields.io/crates/v/rucola-notes.svg?logo=rust)](https://crates.io/crates/rucola-notes) [![Build Status](https://github.com/Linus-Mussmaecher/rucola/actions/workflows/continuous-testing.yml/badge.svg)](https://github.com/Linus-Mussmaecher/rucola/actions/workflows/continuous-testing.yml)
-* [matugen](https://github.com/InioX/matugen.git) - Generates color palette from image or color using templates.
+* [matugen](https://github.com/InioX/matugen) - Generates color palette from image or color using templates.
 * [Mobslide](https://github.com/thewh1teagle/mobslide) - Desktop application that turns your smartphone into presentation remote controller.
 * [MoonProxyHQ/moonproxy-desktop](https://github.com/MoonProxyHQ/moonproxy-desktop) - A cross-platform GUI desktop client for FRP (frpc), letting non-technical users expose local services to the public internet in one click. [![CI](https://github.com/MoonProxyHQ/moonproxy-desktop/actions/workflows/ci.yml/badge.svg)](https://github.com/MoonProxyHQ/moonproxy-desktop/actions/workflows/ci.yml)
 * [mprocs](https://github.com/pvolok/mprocs) - TUI for running multiple processes
@@ -815,7 +815,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [nix-community/nix-melt](https://github.com/nix-community/nix-melt) - A ranger-like flake.lock viewer [![build-badge](https://github.com/nix-community/nix-melt/actions/workflows/ci.yml/badge.svg)](https://github.com/nix-community/nix-melt/actions/workflows/ci.yml)
 * [nix-community/nurl](https://github.com/nix-community/nurl) [[nurl](https://crates.io/crates/nurl)] - Generate Nix fetcher calls from repository URLs [![build-badge](https://github.com/nix-community/nurl/actions/workflows/ci.yml/badge.svg)](https://github.com/nix-community/nurl/actions/workflows/ci.yml)
 * [nomino](https://github.com/yaa110/nomino) - Batch rename utility for developers
-* [pastel](https://github.com/sharkdp/pastel.git) - Helps working with colors: generate, mix, random color.
+* [pastel](https://github.com/sharkdp/pastel) - Helps working with colors: generate, mix, random color.
 * [raftario/licensor](https://github.com/raftario/licensor) - write licenses to stdout [![GitHub Actions](https://github.com/raftario/licensor/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/raftario/licensor/actions/workflows/build.yml)
 * [restsend/rustpbx](https://github.com/restsend/rustpbx) - Software-Defined SIP Proxy including register, presence, b2bua. alternative to Freeswitch/FreePBX.
 * [rleeon/hoard](https://github.com/rleeon/hoard) - Game save backup and sync system with auto-detection, versioned snapshots, and self-hosted storage. [![CI](https://github.com/rleeon/hoard/actions/workflows/ci.yml/badge.svg)](https://github.com/rleeon/hoard/actions/workflows/ci.yml)
