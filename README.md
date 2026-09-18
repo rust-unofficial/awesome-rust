@@ -2389,6 +2389,7 @@ See also [Are we web yet?](https://www.arewewebyet.org) and [Rust web framework 
   * [plabayo/rama](https://github.com/plabayo/rama) - A modular service framework to move and transform your network packets, can be used among other things, to build clients with TLS, JA3/JA4, H2 and QUIC/H3 fingerprint impersonation
   * [seanmonstar/reqwest](https://github.com/seanmonstar/reqwest) - an ergonomic HTTP Client.
 * HTTP Server
+  * [axum-problem](https://crates.io/crates/axum-problem) — RFC 9457 problem details for axum. `#[derive(AxumProblem)]` converts error enums to structured HTTP responses with correct `Content-Type: application/problem+json` and a `mask` attribute to prevent internal details leaking to clients.
   * [branca](https://crates.io/crates/branca) - Implementation of Branca for Authenticated and Encrypted API tokens.
   * [c410-f3r/wtx](https://github.com/c410-f3r/wtx) - Low and high level HTTP/2 server
   * [carllerche/tower-web](https://github.com/carllerche/tower-web) [[tower-web](https://crates.io/crates/tower-web)] - A fast, boilerplate free, web framework
