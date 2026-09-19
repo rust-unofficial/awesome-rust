@@ -726,6 +726,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [sitkevij/hex](https://github.com/sitkevij/hex) - A colorized hexdump terminal utility.
 * [Skardyy/mcat](https://github.com/Skardyy/mcat) [[mcat](https://crates.io/crates/mcat)] - View images, video, Markdown, and other documents in the terminal.
 * [skim](https://github.com/skim-rs/skim) - A fuzzy finder
+* [sorairolake/rzopfli](https://github.com/sorairolake/rzopfli) [[rzopfli](https://crates.io/crates/rzopfli)] - A lossless data compression tool using Zopfli [![CI](https://github.com/sorairolake/rzopfli/actions/workflows/CI.yaml/badge.svg?branch=develop)](https://github.com/sorairolake/rzopfli/actions/workflows/CI.yaml)
 * [supercilex/fuc](https://github.com/supercilex/fuc) - Fast `cp` and `rm` commands
 * [theBGuy/GitDesktop](https://github.com/theBGuy/GitDesktop) - Keyboard-first Git desktop client with PR, issue, discussion, CI and notification management across GitHub, GitLab and Bitbucket, plus Jira linking and AI agent integration; Tauri + Rust backend [![Release](https://github.com/theBGuy/GitDesktop/actions/workflows/release.yml/badge.svg)](https://github.com/theBGuy/GitDesktop/actions/workflows/release.yml)
 * [timhartmann7/omnyssh](https://github.com/timhartmann7/omnyssh) - A fast, keyboard-driven TUI for managing SSH connections [![CI](https://github.com/timhartmann7/omnyssh/actions/workflows/ci.yml/badge.svg)](https://github.com/timhartmann7/omnyssh/actions/workflows/ci.yml)
