@@ -1494,7 +1494,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 ### Compression
 
 * [7z](https://7-zip.org/7z.html)
-  * [[sevenz-rust](https://crates.io/crates/sevenz-rust)] - A 7z decompressor/compressor written in pure rust.
+  * [hasenbanck/sevenz-rust2](https://github.com/hasenbanck/sevenz-rust2) [[sevenz-rust2](https://crates.io/crates/sevenz-rust2)] - A 7z decompressor/compressor written in pure Rust [![Rust](https://github.com/hasenbanck/sevenz-rust2/actions/workflows/rust.yml/badge.svg?branch=main)](https://github.com/hasenbanck/sevenz-rust2/actions/workflows/rust.yml)
 * [Brotli](https://opensource.googleblog.com/2015/09/introducing-brotli-new-compression.html)
   * [dropbox/rust-brotli](https://github.com/dropbox/rust-brotli) - Brotli decompressor that optionally avoids the stdlib
   * [ende76/brotli-rs](https://github.com/ende76/brotli-rs) - implementation of Brotli compression
@@ -1504,6 +1504,8 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
   * [zopfli](https://github.com/zopfli-rs/zopfli) [[zopfli](https://crates.io/crates/zopfli)] - implementation of the Zopfli compression algorithm for higher quality deflate or zlib compression
 * gzp
   * [sstadick/gzp](https://github.com/sstadick/gzp/) - multi-threaded encoding and decoding of deflate formats and snappy
+* LZMA
+  * [hasenbanck/lzma-rust2](https://github.com/hasenbanck/lzma-rust2) [[lzma-rust2](https://crates.io/crates/lzma-rust2)] - LZMA / LZMA2 / LZIP / XZ compression ported from [tukaani xz for java](https://tukaani.org/xz/java.html) [![Rust](https://github.com/hasenbanck/lzma-rust2/actions/workflows/rust.yml/badge.svg?branch=master)](https://github.com/hasenbanck/lzma-rust2/actions/workflows/rust.yml)
 * miniz
   * [rust-lang/flate2-rs](https://github.com/rust-lang/flate2-rs) - [miniz](https://code.google.com/archive/p/miniz) bindings [![build badge](https://github.com/rust-lang/flate2-rs/workflows/CI/badge.svg?branch=master)](https://github.com/rust-lang/flate2-rs/actions)
 * [paxit](https://github.com/roquess/paxit) [[paxit](https://crates.io/crates/paxit)] - Flexible library for compressing and decompressing files using various algorithms (zip, tar, gzip, xz, zst, etc.) with modular design for easy extension
