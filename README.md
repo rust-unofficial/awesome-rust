@@ -2316,6 +2316,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [Keats/tera](https://github.com/Keats/tera) - template engine based on Jinja2 and the Django template language. [![Actions Status](https://github.com/Keats/tera/workflows/ci/badge.svg?branch=master)](https://github.com/Keats/tera/actions)
   * [lambda-fairy/maud](https://github.com/lambda-fairy/maud) - compile-time HTML templates
   * [mitsuhiko/minijinja](https://github.com/mitsuhiko/minijinja) [[minijinja](https://crates.io/crates/minijinja)] - minimal dependency template engine based on Jinja2. [![Tests](https://img.shields.io/github/actions/workflow/status/mitsuhiko/minijinja/tests.yml?branch=main&logo=github)](https://github.com/mitsuhiko/minijinja/actions/workflows/tests.yml)
+  * [rshtml/rshtml](https://github.com/rshtml/rshtml) [[rshtml](https://crates.io/crates/rshtml)] - RsHtml: Compile-time, type-safe, lightweight template engine that embeds Rust in HTML and HTML in Rust.
   * [Stebalien/horrorshow-rs](https://github.com/Stebalien/horrorshow-rs) - compile-time HTML templates
 * Mustache
   * [rustache/rustache](https://github.com/rustache/rustache) - a Rust implementation of the Mustache spec
