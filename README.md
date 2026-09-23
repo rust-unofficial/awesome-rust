@@ -2551,3 +2551,5 @@ A registry allows you to publish your Rust libraries as crate packages, to share
 ## License
 
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+* [PreTxSim](https://github.com/Skywalkingzulu1/pretxsim_poc) - Air-gapped local EVM simulation proxy (Rust/Web3).
