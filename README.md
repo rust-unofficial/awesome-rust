@@ -454,6 +454,7 @@ See also [Games Made With Piston](https://github.com/PistonDevelopers/piston/wik
 * [KaminariOS/rustracer](https://github.com/KaminariOS/rustracer) - A PBR glTF 2.0 renderer based on Vulkan ray-tracing.
 * [Limeth/euclider](https://github.com/Limeth/euclider) - A real-time 4D CPU ray tracer
 * [linebender/resvg](https://github.com/linebender/resvg) - An SVG rendering library.
+* [monfa-red/lini](https://github.com/monfa-red/lini) [[lini](https://crates.io/crates/lini)] - A small language for every kind of figure — diagrams, charts, sequences, schematics, technical drawings — compiled from plain text to themeable SVG [![CI](https://github.com/monfa-red/lini/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/monfa-red/lini/actions/workflows/ci.yml)
 * [museslabs/phonto](https://github.com/museslabs/phonto) - GPU-accelerated video wallpaper program for Wayland and macOS, written in Rust.
 * [rodrigorc/papercraft](https://github.com/rodrigorc/papercraft) - A tool to unwrap 3D models and create them in paper with scissors and glue.
 * [rustq/vue-skia](https://github.com/rustq/vue-skia) - Skia based 2d graphics vue rendering library. It is based on Rust to implement software rasterization to perform rendering.
