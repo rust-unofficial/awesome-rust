@@ -1271,6 +1271,9 @@ See also [Rust Tools](https://rust-lang.org/tools/).
 
 ### Artificial Intelligence
 
+#### Agents
+
+* [samvallad33/vestige](https://github.com/samvallad33/vestige) - Memory system for AI coding agents. Retroactive backfill ranks earlier precursors of a failure, the composed graph records reasoning events and surfaces never-tried combinations of past decisions, FSRS-6 decay, retrieval receipts, 34 MCP tools. Single Rust binary.
 #### Genetic algorithms
 
 * [innoave/genevo](https://github.com/innoave/genevo) - Execute genetic algorithm (GA) simulations in a customizable and extensible way.
