@@ -793,6 +793,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [scooter](https://github.com/thomasschafer/scooter) - Interactive find and replace in the terminal.
 * [sd](https://crates.io/crates/sd) - Intuitive find & replace CLI
 * [sstadick/hck](https://github.com/sstadick/hck) - A faster and more featureful drop in replacement for `cut` [![build badge](https://github.com/sstadick/hck/workflows/Check/badge.svg?branch=master)](https://github.com/sstadick/hck)
+* [SylphxAI/anymd](https://github.com/SylphxAI/anymd) - Convert any file (PDF, DOCX, PPTX, XLSX, EPUB, HTML/URLs, images, audio/video) to clean Markdown for AI agents; a CLI and MCP server [![build badge](https://github.com/SylphxAI/anymd/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/SylphxAI/anymd/actions/workflows/ci.yml)
 * [vishaltelangre/ff](https://github.com/vishaltelangre/ff) - Find files (ff) by name!
 * [whitfin/bytelines](https://github.com/whitfin/bytelines) [[bytelines](https://crates.io/crates/bytelines)] - Read input lines as byte slices for high efficiency.
 * [whitfin/runiq](https://github.com/whitfin/runiq) - an efficient way to filter duplicate lines from unsorted input.
