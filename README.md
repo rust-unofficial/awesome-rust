@@ -1827,6 +1827,8 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 
 * ASN.1
   * [alex/rust-asn1](https://github.com/alex/rust-asn1) - ASN.1 (DER) serializer
+* Barcode
+  * [rxing-core/rxing](https://github.com/rxing-core/rxing) [[rxing](https://crates.io/crates/rxing)] - A rust port of the zxing barcode library. [![Rust](https://github.com/rxing-core/rxing/actions/workflows/rust.yml/badge.svg?branch=main)](https://github.com/rxing-core/rxing/actions/workflows/rust.yml)
 * Binary
   * [bincode](https://crates.io/crates/bincode) - A binary encoder/decoder
   * [bincode-next](https://crates.io/crates/bincode-next) - A binary encoder/decoder, successor of the now unmaintained bincode
