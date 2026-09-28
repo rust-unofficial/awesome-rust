@@ -1828,6 +1828,8 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 
 * ASN.1
   * [alex/rust-asn1](https://github.com/alex/rust-asn1) - ASN.1 (DER) serializer
+* Barcode
+  * [rxing-core/rxing](https://github.com/rxing-core/rxing) [[rxing](https://crates.io/crates/rxing)] - A rust port of the zxing barcode library. [![Rust](https://github.com/rxing-core/rxing/actions/workflows/rust.yml/badge.svg?branch=main)](https://github.com/rxing-core/rxing/actions/workflows/rust.yml)
 * Binary
   * [bincode](https://crates.io/crates/bincode) - A binary encoder/decoder
   * [bincode-next](https://crates.io/crates/bincode-next) - A binary encoder/decoder, successor of the now unmaintained bincode
@@ -2474,6 +2476,7 @@ See also [Are we web yet?](https://www.arewewebyet.org) and [Rust web framework 
   * [grego/blades](https://github.com/grego/blades) [[blades](https://www.getblades.org/)] - Blazing fast dead simple static site generator.
   * [leven-the-blog/leven](https://github.com/leven-the-blog/leven) [[leven](https://crates.io/crates/leven)] - A simple, parallelized blog generator.
   * [rochacbruno/marmite](https://github.com/rochacbruno/marmite/) [[Marmite](https://marmite.blog/)] - Zero config blog generator
+  * [zensical/zensical](https://github.com/zensical/zensical) - A modern static site generator by the Material for MkDocs team [![Build](https://github.com/zensical/zensical/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/zensical/zensical/actions/workflows/build.yml)
 * [WebSocket](https://datatracker.ietf.org/doc/rfc6455/)
   * [c410-f3r/wtx](https://github.com/c410-f3r/wtx) - Client and server with encryption support.
   * [housleyjk/ws-rs](https://github.com/housleyjk/ws-rs) - lightweight, event-driven WebSockets
