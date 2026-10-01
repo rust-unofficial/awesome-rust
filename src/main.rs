@@ -18,7 +18,6 @@ use std::io::Write;
 use std::ops::Div;
 use std::pin::Pin;
 use std::time;
-use std::u8;
 use std::{cmp::Ordering, fs};
 use thiserror::Error;
 use tokio::sync::Semaphore;
