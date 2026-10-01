@@ -15,7 +15,6 @@ use std::env;
 use std::fs;
 use std::io::Write;
 use std::time;
-use std::u8;
 use thiserror::Error;
 use tokio::sync::Semaphore;
 use tokio::sync::SemaphorePermit;
