@@ -2206,7 +2206,8 @@ See also [Are we game yet?](https://arewegameyet.rs)
 * SIP
   * [restsend/rsipstack](https://github.com/restsend/rsipstack) - A RFC 3261 compliant SIP stack
 * Socket.io
-  * [1c3t3a/rust-socketio](https://github.com/1c3t3a/rust-socketio) [[rust_socketio](https://crates.io/crates/rust_socketio)] - an implementation of a [socket.io](https://socket.io) client written in Rust.
+  * [1c3t3a/rust-socketio](https://github.com/1c3t3a/rust-socketio) [[rust_socketio](https://crates.io/crates/rust_socketio)] - an implementation of a [socket.io](https://socket.io) client written in 
+Rust.
 * SSH
   * [alexcrichton/ssh2-rs](https://github.com/alexcrichton/ssh2-rs) - [libssh2](https://libssh2.org/) bindings
   * [Thrussh](https://pijul.org/thrussh) [[thrussh](https://crates.io/crates/thrussh)] - an SSH library, backed by [libsodium](https://doc.libsodium.org/)
@@ -2219,6 +2220,8 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [eclipse-zenoh/zenoh](https://github.com/eclipse-zenoh/zenoh) - Zero Overhead Network Protocol
 * ZeroMQ
   * [erickt/rust-zmq](https://github.com/erickt/rust-zmq) - [ZeroMQ](https://zeromq.org/) bindings
+* MITM
+  * [3Radiance/mitm-proxy-ja3-ja4](https://github.com/3Radiance/mitm-proxy-ja3-ja4) - MITM proxy with configurable TLS, HTTP/2 and TCP fingerprints.
 
 ### Parsing
 
