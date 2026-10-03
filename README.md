@@ -2031,6 +2031,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [fschutt/printpdf](https://github.com/fschutt/printpdf) - PDF writing library
   * [fullbleed-engine/fullbleed-official](https://github.com/fullbleed-engine/fullbleed-official) [[fullbleed](https://crates.io/crates/fullbleed)] - Print-focused HTML/CSS-to-PDF engine with reusable templates, variable-data generation, and Python bindings. [![CI](https://github.com/fullbleed-engine/fullbleed-official/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/fullbleed-engine/fullbleed-official/actions/workflows/ci.yml)
   * [gastongouron/ironpress](https://github.com/gastongouron/ironpress) [[ironpress](https://crates.io/crates/ironpress)] - Pure Rust HTML/CSS/Markdown-to-PDF converter with a built-in layout engine and no browser or system dependencies. [![CI](https://github.com/gastongouron/ironpress/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/gastongouron/ironpress/actions/workflows/ci.yml)
+  * [maxcomperatore/rubrol](https://github.com/maxcomperatore/rubrol) - Sub-millisecond Typst-based PDF engine and HTTP sidecar for high-throughput document and invoice generation.
   * [hayro](https://github.com/LaurenzV/hayro) - A PDF interpreter and renderer in pure Rust
   * [J-F-Liu/lopdf](https://github.com/J-F-Liu/lopdf) - PDF document manipulation
   * [kaj/rust-pdf](https://github.com/kaj/rust-pdf) - Generating PDF files in pure Rust
