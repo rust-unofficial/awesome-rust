@@ -538,6 +538,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [hyperswitch](https://github.com/juspay/hyperswitch) - An open source payments orchestrator that lets you connect with multiple payment processors and route payment traffic effortlessly, all with a single API integration ![GitHub last commit](https://img.shields.io/github/last-commit/juspay/hyperswitch?style=flat-square)
 
 ### Productivity
+
 * [0xdea/jiggy](https://github.com/0xdea/jiggy) [[jiggy](https://crates.io/crates/jiggy)] - Minimalistic cross-platform mouse jiggler written in Rust [![build](https://github.com/0xdea/jiggy/actions/workflows/build.yml/badge.svg)](https://github.com/0xdea/jiggy/actions/workflows/build.yml)
 * [aannoo/hcom](https://github.com/aannoo/hcom) - Let AI agents message, watch, and spawn each other across terminals (Claude Code, Gemini CLI, Codex, OpenCode). Rust PTY wrapper with screen tracking, TUI (ratatui), and daemon client binary; Python hooks and API [![CI](https://github.com/aannoo/hcom/actions/workflows/ci.yml/badge.svg)](https://github.com/aannoo/hcom/actions/workflows/ci.yml)
 * [agent-of-empires](https://github.com/njbrake/agent-of-empires) - A TUI/CLI for managing multiple AI coding agent sessions with tmux, git worktrees, and Docker sandboxing [![CI](https://github.com/njbrake/agent-of-empires/actions/workflows/ci.yml/badge.svg)](https://github.com/njbrake/agent-of-empires/actions)
