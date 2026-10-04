@@ -1568,6 +1568,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
   * [luqmana/rust-opencl](https://github.com/luqmana/rust-opencl) - [OpenCL](https://www.khronos.org/opencl/) bindings
 * Science
   * [Axect/Peroxide](https://github.com/Axect/Peroxide) - Rust numeric library containing linear algebra, numerical analysis, statistics and machine learning tools in pure rust
+  * [cmccomb/structural-shapes](https://github.com/cmccomb/structural-shapes) [[structural-shapes](https://crates.io/crates/structural-shapes)] - Section properties and AISC data for common structural shapes
   * [cool-japan/scirs](https://github.com/cool-japan/scirs) - Production-Ready pure Rust scientific computing, includes linear algebra, optimization, statistics, neural networks and more. API inspired by Python's SciPy.
   * [cpmech/russell](https://github.com/cpmech/russell) - Rust Scientific Library for numerical mathematics, ordinary differential equations, special math functions, high-performance (sparse) linear algebra
   * [Nonanti/mathcore](https://github.com/Nonanti/mathcore) - Symbolic mathematics library with CAS capabilities. Supports differentiation, integration, equation solving, and arbitrary precision arithmetic [![crates.io](https://img.shields.io/crates/v/mathcore.svg)](https://crates.io/crates/mathcore)
