@@ -530,6 +530,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 ### Package Managers
 
 * [helsing-ai/buffrs](https://github.com/helsing-ai/buffrs) [[buffrs](https://crates.io/crates/buffrs)] - A modern package manager for protocol buffers and gRPC architectures.
+* [pkgforge/soar](https://github.com/pkgforge/soar) [[soar-cli](https://crates.io/crates/soar-cli)] - A distro-independent package manager for portable packages, AppImages, and static binaries [![CI](https://github.com/pkgforge/soar/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/pkgforge/soar/actions/workflows/ci.yaml)
 * [pkgx](https://github.com/pkgxdev/pkgx) - Run anything. A composable package manager that makes the entire open source ecosystem available to your scripts.
 * [rebos](https://crates.io/crates/rebos) - A declarative way to automate package management on any linux distro [![crate](https://img.shields.io/crates/v/rebos?logo=rust)](https://crates.io/crates/rebos)
 
