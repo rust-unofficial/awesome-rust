@@ -1255,6 +1255,7 @@ See also [Rust Tools](https://rust-lang.org/tools/).
 * Mocking and Test Data
   * [asomers/mockall](https://github.com/asomers/mockall) [[mockall](https://crates.io/crates/mockall)] - A powerful mock object library. [![CI](https://github.com/asomers/mockall/actions/workflows/ci.yml/badge.svg)](https://github.com/asomers/mockall/actions/workflows/ci.yml)
   * [bcheidemann/fixtures-rs](https://github.com/bcheidemann/fixtures-rs/tree/main/fixtures) [[fixtures](https://crates.io/crates/fixtures)] - A proc macro for generating tests from fixtures using glob patterns
+  * [cmccomb/hodgepodge](https://github.com/cmccomb/hodgepodge) [[hodgepodge](https://crates.io/crates/hodgepodge)] - Ready-made enum datasets and optional animal taxonomy for prototypes, tests, and teaching
   * [fake-rs](https://github.com/cksac/fake-rs) - A library for generating fake data
   * [goldenfile](https://github.com/calder/rust-goldenfile) [[goldenfile](https://crates.io/crates/goldenfile)] - A library providing a simple API for goldenfile testing.
   * [httpmock](https://github.com/httpmock/httpmock) - HTTP mocking [![Build](https://github.com/httpmock/httpmock/actions/workflows/build.yml/badge.svg)](https://github.com/httpmock/httpmock/actions/workflows/build.yml)
