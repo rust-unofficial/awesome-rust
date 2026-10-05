@@ -1555,6 +1555,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [BLAS](https://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms) [[blas](https://crates.io/keywords/blas)]
   * [mikkyang/rust-blas](https://github.com/mikkyang/rust-blas) - BLAS bindings
 * [calebwin/emu](https://github.com/calebwin/emu) - A language for GPGPU numerical computing
+* [cmccomb/vote](https://github.com/cmccomb/vote) [[vote](https://crates.io/crates/vote)] - Common preference aggregation and voting methods
 * [dimforge/nalgebra](https://github.com/dimforge/nalgebra) - low-dimensional linear algebra library
 * [faer-rs](https://github.com/sarah-quinones/faer-rs) [[faer](https://crates.io/crates/faer)] - Linear algebra foundation for Rust
 * [fastnum](https://github.com/neogenie/fastnum) [fastnum](https://crates.io/crates/fastnum) - Fast exact precision decimal numbers implemented in pure Rust. Suitable for financial, crypto and any other fixed-precision calculations.
