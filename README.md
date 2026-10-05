@@ -1317,6 +1317,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [blackportal-ai/nebula](https://github.com/blackportal-ai/nebula) - A Package Manager for Machine Learning Datasets and Models. ![build](https://img.shields.io/github/actions/workflow/status/blackportal-ai/nebula/core.yml?branch=master)
 * [burn](https://github.com/tracel-ai/burn) - A Flexible and Comprehensive Deep Learning Framework.
 * [chelsea0x3b/dfdx](https://github.com/chelsea0x3b/dfdx) - CUDA accelerated machine learning framework that leverages many of Rust's unique features. ![Crates.io](https://img.shields.io/crates/v/dfdx)
+* [cmccomb/rust-automl](https://github.com/cmccomb/rust-automl) [[automl](https://crates.io/crates/automl)] - Automated classification, regression, and clustering workflows built on SmartCore
 * [EricLBuehler/mistral.rs](https://github.com/EricLBuehler/mistral.rs) [[mistralrs](https://crates.io/crates/mistralrs)] - Fast, flexible LLM inference engine supporting multimodal models, quantization (GGUF/GPTQ/ISQ), and OpenAI-compatible API
 * [guillaume-be/rust-bert](https://github.com/guillaume-be/rust-bert) [[rust_bert](https://crates.io/crates/rust_bert)] - Ready-to-use NLP pipelines and language models
 * [huggingface/candle](https://github.com/huggingface/candle) [[candle-core](https://crates.io/crates/candle-core)] - a minimalist ML framework with a focus on easiness of use and on performance (including GPU support)
@@ -1569,6 +1570,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
   * [luqmana/rust-opencl](https://github.com/luqmana/rust-opencl) - [OpenCL](https://www.khronos.org/opencl/) bindings
 * Science
   * [Axect/Peroxide](https://github.com/Axect/Peroxide) - Rust numeric library containing linear algebra, numerical analysis, statistics and machine learning tools in pure rust
+  * [cmccomb/structural-shapes](https://github.com/cmccomb/structural-shapes) [[structural-shapes](https://crates.io/crates/structural-shapes)] - Section properties and AISC data for common structural shapes
   * [cool-japan/scirs](https://github.com/cool-japan/scirs) - Production-Ready pure Rust scientific computing, includes linear algebra, optimization, statistics, neural networks and more. API inspired by Python's SciPy.
   * [cpmech/russell](https://github.com/cpmech/russell) - Rust Scientific Library for numerical mathematics, ordinary differential equations, special math functions, high-performance (sparse) linear algebra
   * [Nonanti/mathcore](https://github.com/Nonanti/mathcore) - Symbolic mathematics library with CAS capabilities. Supports differentiation, integration, equation solving, and arbitrary precision arithmetic [![crates.io](https://img.shields.io/crates/v/mathcore.svg)](https://crates.io/crates/mathcore)
@@ -2299,6 +2301,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
 * [3body-lang](https://github.com/rustq/3body-lang) - The Three Body Language
 * [boa-dev/boa](https://github.com/boa-dev/boa) [[boa_engine](https://crates.io/crates/boa_engine)] - An experimental JavaScript lexer, parser and interpreter written in Rust.
 * [cel-rust](https://github.com/cel-rust/cel-rust) [[cel-interpreter](https://crates.io/crates/cel-interpreter)] - Common expression language parser and interpreter
+* [cmccomb/mocktave](https://github.com/cmccomb/mocktave) [[mocktave](https://crates.io/crates/mocktave)] - Run Octave or MATLAB code from Rust with native and bundled modes
 * [duckscript](https://crates.io/crates/duckscript) - [Simple, extendable and embeddable scripting language.](https://github.com/sagiegurari/duckscript) [![build badge](https://github.com/sagiegurari/duckscript/workflows/CI/badge.svg?branch=master)](https://github.com/sagiegurari/duckscript/actions)
 * [facebook/starlark-rust](https://github.com/facebook/starlark-rust) - A small, deterministic, thread-safe language with Python syntax
 * [fleabitdev/gamelisp](https://github.com/fleabitdev/glsp) - A Lisp-like scripting language for game development
@@ -2360,6 +2363,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
 * [becheran/wildmatch](https://github.com/becheran/wildmatch) [[wildmatch](https://crates.io/crates/wildmatch)] - Simple string matching with questionmark- and star-wildcard operator [![Actions Status](https://github.com/becheran/wildmatch/workflows/Build/badge.svg?branch=master)](https://github.com/becheran/wildmatch/actions)
 * [BurntSushi/suffix](https://github.com/BurntSushi/suffix) - Linear time suffix array construction (with Unicode support)
 * [BurntSushi/tabwriter](https://github.com/BurntSushi/tabwriter) - Elastic tab stops (i.e., text column alignment)
+* [cmccomb/rust-stop-words](https://github.com/cmccomb/rust-stop-words) [[stop-words](https://crates.io/crates/stop-words)] - Common stop words in many languages
 * [cpc](https://github.com/probablykasper/cpc) - Parses and calculates strings of math with support for units and unit conversion, from `1+2` to `1% of round(1 lightyear / 14!s to km/h)`.
 * [Daniel-Liu-c0deb0t/triple_accel](https://github.com/Daniel-Liu-c0deb0t/triple_accel) [[triple_accel](https://crates.io/crates/triple_accel)] - Rust edit distance routines accelerated using SIMD; supports fast Hamming, Levenshtein, restricted Damerau-Levenshtein, etc. distance calculations and string search [![build badge](https://github.com/Daniel-Liu-c0deb0t/triple_accel/workflows/Test/badge.svg?branch=master)](https://github.com/Daniel-Liu-c0deb0t/triple_accel/actions)
 * [fancy-regex/fancy-regex](https://github.com/fancy-regex/fancy-regex) [[fancy-regex](https://crates.io/crates/fancy-regex)] - Regular expressions implementation designed to support a relatively rich set of features such as look-around and backtracking. [![crates](https://img.shields.io/crates/v/fancy-regex.svg)](https://crates.io/crates/fancy-regex) [![build badge](https://github.com/fancy-regex/fancy-regex/workflows/ci/badge.svg)](https://github.com/fancy-regex/fancy-regex/actions/workflows/ci.yml)
