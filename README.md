@@ -1733,6 +1733,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
   * [LMDB](https://www.symas.com/lmdb.php) [[lmdb](https://crates.io/keywords/lmdb)]
     * [meilisearch/heed](https://github.com/meilisearch/heed) [[heed](https://crates.io/crates/heed)] - Fully typed LMDB wrappers with minimum overhead
     * [vhbit/lmdb-rs](https://github.com/vhbit/lmdb-rs) [[lmdb-rs](https://crates.io/crates/lmdb-rs)] - Rust bindings for LMDB
+  * [Minigraf](https://github.com/project-minigraf/minigraf) [[minigraf](https://crates.io/crates/minigraf)] - Zero-config, single-file, embedded graph database with bi-temporal Datalog queries
   * MongoDB [[mongodb](https://crates.io/keywords/mongodb)]
     * [mongodb/mongo-rust-driver](https://github.com/mongodb/mongo-rust-driver) [[mongodb](https://crates.io/crates/mongodb)] - [MongoDB](https://www.mongodb.com/) bindings
   * [MongrelDB](https://www.mongreldb.com)
