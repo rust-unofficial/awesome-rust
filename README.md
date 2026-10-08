@@ -721,6 +721,9 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [matthart1983/netwatch](https://github.com/matthart1983/netwatch) [[netwatch-tui](https://crates.io/crates/netwatch-tui)] - Real-time network diagnostics TUI: deep packet inspection across 13 protocols (TLS, QUIC, HTTP, DNS, SSH, MQTT, SNMP, …), per-process attribution via eBPF / PKTAP, TCP retransmit analytics, JA4 fingerprinting, optional Landlock sandbox, and Flight Recorder incident bundles.
 * [matthart1983/syswatch](https://github.com/matthart1983/syswatch) [[syswatch](https://crates.io/crates/syswatch)] - Single-host system diagnostics TUI: twelve tabs across CPU, memory, disks, processes, GPU, power, services, and network, plus a Timeline scrubber and an Insights anomaly engine.
 * [mdgaziur/findex](https://github.com/mdgaziur/findex) - Findex is a highly customizable application finder using GTK3
+* [MenkeTechnologies/fusevm](https://crates.io/crates/fusevm) - a polygot virtual machine and JIT
+* [MenkeTechnologies/temprs](https://crates.io/crates/temprs) - a tempfile manager with stack mechanism
+* [MenkeTechnologies/zshrs](https://crates.io/crates/zshrs) - A zsh superset with JIT UNIX shell
 * [mitnk/cicada](https://github.com/mitnk/cicada) - A bash-like Unix shell
 * [mmstick/concurr](https://github.com/mmstick/concurr) - Alternative to GNU Parallel w/ a client-server architecture
 * [mmstick/fontfinder](https://github.com/mmstick/fontfinder) - GTK3 application for previewing and installing Google's fonts
