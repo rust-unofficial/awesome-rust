@@ -472,6 +472,7 @@ See also [Games Made With Piston](https://github.com/PistonDevelopers/piston/wik
 ### Image processing
 
 * [Darkly](https://github.com/darkly-art/darkly) - Entropic editor for digital artists and painters.
+* [Duecki1/CalibRaw](https://github.com/Duecki1/CalibRaw) - Fast, GPU-accelerated non-destructive RAW photo editor for Android, Linux, Windows, and macOS.
 * [Graphite](https://github.com/GraphiteEditor/Graphite) - Vector-based graphics editor.
 * [Imager](https://github.com/imager-io/imager) - Automated image optimization.
 * [oxipng](https://github.com/oxipng/oxipng) [[oxipng](https://crates.io/crates/oxipng)] - Multithreaded PNG optimizer written in Rust. [![Build Status](https://github.com/oxipng/oxipng/workflows/oxipng/badge.svg)](https://github.com/oxipng/oxipng/actions?query=branch%3Amaster) [![Version](https://img.shields.io/crates/v/oxipng.svg)](https://crates.io/crates/oxipng)
