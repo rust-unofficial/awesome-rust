@@ -182,6 +182,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 * [Ryot](https://github.com/ignisda/ryot) - A self hosted application to track media consumption, fitness, etc.
 * [s00d/switchshuttle](https://github.com/s00d/switchshuttle) - Cross-platform system tray app for organizing and running predefined terminal commands with global hotkeys, nested menus, and JSON-backed configuration (Tauri + Vue).
 * [Saga Reader](https://github.com/sopaco/saga-reader) - A Blazing-Fast and Extremely-Lightweight Internet Reader driven by AI.Supports fetching of search engine information and RSS.
+* [scarletkc/Hatoba](https://github.com/scarletkc/Hatoba) - Desktop SSH client built with Tauri and russh, with an AI assistant beside each terminal and end-to-end encrypted sync through your own Cloudflare account [![CI](https://github.com/scarletkc/Hatoba/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/scarletkc/Hatoba/actions/workflows/ci.yml)
 * [Servo](https://github.com/servo/servo) - A prototype web browser engine
 * [shoes](https://github.com/cfal/shoes) - A multi-protocol proxy server
 * [shuttle](https://github.com/shuttle-hq/shuttle) - A serverless platform.
