@@ -754,6 +754,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [sharkdp/bat](https://github.com/sharkdp/bat) - A cat(1) clone with wings. [![CICD](https://github.com/sharkdp/bat/actions/workflows/CICD.yml/badge.svg?branch=master)](https://github.com/sharkdp/bat/actions/workflows/CICD.yml)
 * [sharkdp/fd](https://github.com/sharkdp/fd) - A simple, fast and user-friendly alternative to find. [![CICD](https://github.com/sharkdp/fd/actions/workflows/CICD.yml/badge.svg)](https://github.com/sharkdp/fd/actions/workflows/CICD.yml)
 * [sharkdp/hexyl](https://github.com/sharkdp/hexyl) [[hexyl](https://crates.io/crates/hexyl)] - A command-line hex viewer with colored output for different byte categories [![CICD](https://github.com/sharkdp/hexyl/actions/workflows/CICD.yml/badge.svg)](https://github.com/sharkdp/hexyl/actions/workflows/CICD.yml)
+* [settings-tui](https://github.com/ziuus/settings-tui) - A lightweight (<9MB, near 0% CPU) universal Linux Settings Center for your terminal (D-Bus, PipeWire, BlueZ, Hyprland, systemd) [![CI](https://github.com/ziuus/settings-tui/actions/workflows/ci.yml/badge.svg)](https://github.com/ziuus/settings-tui/actions/workflows/ci.yml)
 * [sitkevij/hex](https://github.com/sitkevij/hex) - A colorized hexdump terminal utility.
 * [Skardyy/mcat](https://github.com/Skardyy/mcat) [[mcat](https://crates.io/crates/mcat)] - View images, video, Markdown, and other documents in the terminal.
 * [skim](https://github.com/skim-rs/skim) - A fuzzy finder
