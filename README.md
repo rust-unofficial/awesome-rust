@@ -770,7 +770,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [uutils/coreutils](https://github.com/uutils/coreutils) - A cross-platform rewrite of the GNU coreutils [![CICD](https://github.com/uutils/coreutils/actions/workflows/CICD.yml/badge.svg)](https://github.com/uutils/coreutils/actions/workflows/CICD.yml)
 * [vyrti/cleaner](https://github.com/vyrti/cleaner) - Fastest disk space usage analyzer and cleaner for Windows, macOS, Linux, and FreeBSD. [![CI](https://github.com/vyrti/cleaner/actions/workflows/ci.yml/badge.svg)](https://github.com/vyrti/cleaner/actions)
 * [watchexec](https://github.com/watchexec/watchexec) - Executes commands in response to file modifications
-* [weaztoven/cleaner-cli](https://github.com/kullanici/cleaner-cli) [[crates.io](https://crates.io/crates/cleaner-cli)] - A fast command-line utility designed for system cleanup and removing unnecessary files.
+* [weaztoven/cleaner-cli](https://github.com/weaztoven/cleaner-cli) [[crates.io](https://crates.io/crates/cleaner-cli)] - A fast command-line utility designed for system cleanup and removing unnecessary files.
 * [XAMPPRocky/tokei](https://github.com/XAMPPRocky/tokei) - counts the lines of code
 * [ynqa/jnv](https://github.com/ynqa/jnv) - Interactive JSON filter using jq [![ci](https://github.com/ynqa/jnv/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/ynqa/jnv/actions/workflows/ci.yml)
 * [ynqa/logu](https://github.com/ynqa/logu) - Extract patterns from (streaming) unstructured log messages [![ci](https://github.com/ynqa/logu/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/ynqa/logu/actions/workflows/ci.yml)
