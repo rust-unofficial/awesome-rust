@@ -769,6 +769,9 @@ async fn main() -> Result<()> {
                         }
                     }
                     Tag::Paragraph => {}
+                    // Inline formatting is part of the item text, so it must not stop the capture.
+                    // Anything else (code blocks, block quotes, tables...) ends the item for us.
+                    Tag::Emphasis | Tag::Strong | Tag::Strikethrough => {}
                     _ => {
                         if in_list_item {
                             in_list_item = false;
