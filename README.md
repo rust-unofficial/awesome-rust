@@ -2088,6 +2088,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
 
 [[gui](https://crates.io/keywords/gui)]
 
+* [artemtsitronov/glacex](https://github.com/artemtsitronov/glacex) [[glacex](https://crates.io/crates/glacex)] - GPU-rendered, immediate-mode UI library with SDF rendering and persistent widget state.
 * [autopilot-rs/autopilot-rs](https://github.com/autopilot-rs/autopilot-rs) - A simple, cross-platform GUI automation library.
 * Cocoa
   * [servo/core-foundation-rs](https://github.com/servo/core-foundation-rs) - Rust bindings to Core Foundation and other low level libraries on Mac OS X and iOS
