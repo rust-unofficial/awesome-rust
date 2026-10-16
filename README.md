@@ -1067,6 +1067,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
   * [icepuma/rust-action](https://github.com/icepuma/rust-action) - rust github action
 * [Nix](https://nixos.org/)
   * [nix-community/fenix](https://github.com/nix-community/fenix) - Rust toolchains and rust analyzer nightly for nix [![build-badge](https://github.com/nix-community/fenix/actions/workflows/ci.yml/badge.svg)](https://github.com/nix-community/fenix/actions/workflows/ci.yml)
+  * [nixcloud/cargo](https://github.com/nixcloud/cargo) - Unofficial cargo fork which integrates nix as a build backend into cargo (libnix), so you get the advantages of nix during development and deployment.
 * [pantsbuild/pants](https://github.com/pantsbuild/pants) - [Pants](https://www.pantsbuild.org/) is a fast, scalable, user-friendly build system for codebases of all sizes built in Rust.
 * [rolldown/rolldown](https://github.com/rolldown/rolldown) - A JavaScript/TypeScript bundler written in Rust intended to serve as the future bundler in Vite.
 * [rui314/mold](https://github.com/rui314/mold) - A modern, high-speed linker for Linux, macOS, and Windows (ELF, Mach-O, PE)
