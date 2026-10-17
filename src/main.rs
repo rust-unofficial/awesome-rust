@@ -801,6 +801,11 @@ async fn main() -> Result<()> {
                     list_item.push_str(&text);
                 }
             }
+            Event::Code(code) => {
+                if in_list_item {
+                    list_item.push_str(&code);
+                }
+            }
             Event::End(tag) => {
                 match tag {
                     Tag::Heading(_) => {
