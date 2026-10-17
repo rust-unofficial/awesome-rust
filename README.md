@@ -787,6 +787,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 ### Text editors
 
 * [amp](https://amp.rs) - Inspired by Vi/Vim.
+* [CatVinci-Studio/Textus](https://github.com/CatVinci-Studio/Textus) - A WYSIWYG Markdown editor for macOS, Windows and Linux built with Tauri 2, with math, Mermaid and an optional AI writing assistant. [![CI](https://github.com/CatVinci-Studio/Textus/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/CatVinci-Studio/Textus/actions/workflows/ci.yml)
 * [Ferrite](https://github.com/OlaProeis/Ferrite) - A cross-platform markdown editor built with egui, featuring live preview, syntax highlighting, and mermaid diagrams.
 * [Fresh](https://github.com/sinelaw/fresh) - An easy-to-use, powerful and fast terminal text editor & IDE, with TypeScript plugin support.
 * [gchp/iota](https://github.com/gchp/iota) - A simple text editor
