@@ -319,6 +319,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 * [oxigraph/oxigraph](https://github.com/oxigraph/oxigraph) [[oxigraph](https://crates.io/crates/oxigraph)] - graph database implementing the [SPARQL](https://www.w3.org/TR/sparql11-overview/) standard ![Crates.io Version](https://img.shields.io/crates/v/oxigraph?logo=Rust)
 * [ParadeDB](https://github.com/paradedb/paradedb/) - ParadeDB is an Elasticsearch alternative built on Postgres, designed for real-time search and analytics.
 * [ParityDB](https://github.com/paritytech/parity-db) - Fast and reliable database, optimised for read operation
+* [PgCache/pgcache](https://github.com/PgCache/pgcache) - A wire-compatible PostgreSQL caching proxy for repeated queries, kept fresh from the logical replication stream.
 * [pgdogdev/pgdog](https://github.com/pgdogdev/pgdog) - A fast proxy for scaling PostgreSQL with connection pooling, load balancing, and sharding.
 * [Picodata](https://github.com/picodata/picodata) [[picodata-plugin](https://crates.io/crates/picodata-plugin)] - Distributed PostgreSQL-compatible database with a plugin model in Rust; Redis and Cassandra wire compatibility via commercial plugins.
 * [PRQL](https://github.com/PRQL/prql) [[prqlc](https://crates.io/crates/prqlc)] - A modern language for transforming data, compiling to readable SQL. [![Tests](https://github.com/PRQL/prql/actions/workflows/tests.yml/badge.svg)](https://github.com/PRQL/prql/actions)
