@@ -1665,6 +1665,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [kn0sys/ecc-rs](https://github.com/kn0sys/ecc-rs) - Intuitive library for elliptic curve cryptography tutorials [![Crates.io Version](https://img.shields.io/crates/v/kn0syseccrs)](https://crates.io/crates/kn0syseccrs)
 * [kornelski/rust-security-framework](https://github.com/kornelski/rust-security-framework) - Bindings for Security Framework (OSX native)
 * [libOctavo/octavo](https://github.com/libOctavo/octavo) - Modular hash and crypto library
+* [mortezashojaei/secret-env](https://github.com/mortezashojaei/secret-env) [[secret-env](https://crates.io/crates/secret-env)] - Read environment variables straight into memsafe::Secret.
 * [orion-rs/orion](https://github.com/orion-rs/orion) - This library aims to provide easy and usable crypto. 'Usable' meaning exposing high-level API's that are easy to use and hard to misuse. [![Tests](https://github.com/orion-rs/orion/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/orion-rs/orion/actions/workflows/test.yml)
 * [racum/rust-djangohashers](https://github.com/racum/rust-djangohashers) [[djangohashers](https://crates.io/crates/djangohashers)] - Port of the password primitives used in the Django Project. It doesn't require Django, only hashes and validates passwords according to its style.
 * [rust-native-tls/rust-native-tls](https://github.com/rust-native-tls/rust-native-tls) - Bindings for native TLS libraries
