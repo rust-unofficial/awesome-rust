@@ -1666,6 +1666,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [kornelski/rust-security-framework](https://github.com/kornelski/rust-security-framework) - Bindings for Security Framework (OSX native)
 * [libOctavo/octavo](https://github.com/libOctavo/octavo) - Modular hash and crypto library
 * [orion-rs/orion](https://github.com/orion-rs/orion) - This library aims to provide easy and usable crypto. 'Usable' meaning exposing high-level API's that are easy to use and hard to misuse. [![Tests](https://github.com/orion-rs/orion/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/orion-rs/orion/actions/workflows/test.yml)
+* [po0uyan/memsafe](https://github.com/po0uyan/memsafe) [[memsafe](https://crates.io/crates/memsafe)] - Locked, sealed, zero-on-drop memory for secrets. [![CI](https://github.com/po0uyan/memsafe/actions/workflows/CI-CD.yml/badge.svg?branch=main)](https://github.com/po0uyan/memsafe/actions/workflows/CI-CD.yml)
 * [racum/rust-djangohashers](https://github.com/racum/rust-djangohashers) [[djangohashers](https://crates.io/crates/djangohashers)] - Port of the password primitives used in the Django Project. It doesn't require Django, only hashes and validates passwords according to its style.
 * [rust-native-tls/rust-native-tls](https://github.com/rust-native-tls/rust-native-tls) - Bindings for native TLS libraries
 * [rust-openssl](https://github.com/rust-openssl/rust-openssl) - [OpenSSL](https://www.openssl.org/) bindings
