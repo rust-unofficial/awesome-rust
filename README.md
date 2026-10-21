@@ -434,6 +434,7 @@ See also [Payments](#payments) applications.
 
 See also [Games Made With Piston](https://github.com/PistonDevelopers/piston/wiki/Games-Made-With-Piston).
 
+* [1homsi/thehumanbox](https://github.com/1homsi/thehumanbox) - A browser civilization sandbox where tribes invent their own languages, cultures and beliefs, compiled to WebAssembly
 * [buxx/OpenCombat](https://github.com/buxx/OpenCombat) - A realtime 2nd world war tactical game
 * [chess-tui](https://github.com/thomas-mauran/chess-tui) - A Chess TUI implementation ♟️
 * [citybound](https://github.com/citybound/citybound) - The city sim you deserve
