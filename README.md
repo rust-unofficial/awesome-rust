@@ -2127,6 +2127,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
 * [tauri-apps/tauri](https://github.com/tauri-apps/tauri) - Build smaller, faster, and more secure desktop applications with a web frontend, powered by [WRY](https://github.com/tauri-apps/wry). [![test library](https://img.shields.io/github/workflow/status/tauri-apps/tauri/test%20library?label=test%20library)](https://github.com/tauri-apps/tauri/actions?query=workflow%3A%22test+library%22)
 * [tauri-apps/wry](https://github.com/tauri-apps/wry) - Webview Rendering librarY.
 * [xilem](https://github.com/linebender/xilem) - Successor of the data-first UI design toolkit [druid](https://github.com/linebender/druid).
+* [ziuus/liquid-glass](https://github.com/ziuus/liquid-glass) - Physical optical lensing & glassmorphism UI engine for Linux & Wayland in Rust (WGPU + WGSL) [![CI](https://github.com/ziuus/liquid-glass/actions/workflows/ci.yml/badge.svg)](https://github.com/ziuus/liquid-glass/actions/workflows/ci.yml)
 
 ### Image processing
 
