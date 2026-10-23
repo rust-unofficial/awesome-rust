@@ -123,6 +123,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 
 ## Applications
 
+* [dsvakola/9-zip](https://github.com/dsvakola/9-zip) - Free, open-source archive manager for Windows with self-healing .9z format, built with Tauri v2 and Rust
 * [ad-si/Woxi](https://github.com/ad-si/Woxi) [[woxi](https://crates.io/crates/woxi)] - An interpreter for the Wolfram Language powered by Rust.
 * [alacritty](https://github.com/alacritty/alacritty) - A cross-platform, GPU enhanced terminal emulator
 * [alexandrosnt/Reach](https://github.com/alexandrosnt/Reach) - Cross-platform SSH client for desktop and Android with SFTP, port forwarding, RDP, VNC and database tools, built with Tauri [![Build check](https://github.com/alexandrosnt/Reach/actions/workflows/build-check.yml/badge.svg?branch=main)](https://github.com/alexandrosnt/Reach/actions/workflows/build-check.yml)
