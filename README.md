@@ -124,6 +124,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 ## Applications
 
 * [ad-si/Woxi](https://github.com/ad-si/Woxi) [[woxi](https://crates.io/crates/woxi)] - An interpreter for the Wolfram Language powered by Rust.
+* [adelphidata/borg](https://github.com/adelphidata/borg) - A security-first personal AI assistant built to run unattended: sandbox on by default, self-healing daemon, provider failover, long-term memory, and chat channels [![CI](https://github.com/adelphidata/borg/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/adelphidata/borg/actions/workflows/ci.yml)
 * [alacritty](https://github.com/alacritty/alacritty) - A cross-platform, GPU enhanced terminal emulator
 * [alexandrosnt/Reach](https://github.com/alexandrosnt/Reach) - Cross-platform SSH client for desktop and Android with SFTP, port forwarding, RDP, VNC and database tools, built with Tauri [![Build check](https://github.com/alexandrosnt/Reach/actions/workflows/build-check.yml/badge.svg?branch=main)](https://github.com/alexandrosnt/Reach/actions/workflows/build-check.yml)
 * [Andromeda](https://github.com/tryandromeda/andromeda) - JavaScript & TypeScript runtime built from the ground up in Rust 🦀 and powered by The Nova Engine.
