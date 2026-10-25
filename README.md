@@ -200,6 +200,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 * [Tura-AI/tura](https://github.com/Tura-AI/tura) - A local coding agent for terminal, desktop GUI, and command-line workflows, with persistent task state and evidence-backed verification. [![CI](https://github.com/Tura-AI/tura/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Tura-AI/tura/actions/workflows/ci.yml)
 * [Typst](https://github.com/typst/typst) - A markup-based typesetting system [![crates.io](https://img.shields.io/crates/v/typst.svg)](https://crates.io/crates/typst)
 * [unxsist/jet-pilot](https://github.com/unxsist/jet-pilot) - An open-source Kubernetes desktop client built with Tauri, with multi-cluster views, a resource graph, structured logs and a built-in kubectl terminal [![Test](https://github.com/unxsist/jet-pilot/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/unxsist/jet-pilot/actions/workflows/test.yml)
+* [unipsycho/topicbench](https://github.com/unipsycho/topicbench) - Free open-source multi-broker MQTT explorer and monitor desktop app built with egui
 * [UpVPN](https://github.com/upvpn/upvpn-app) - WireGuard VPN client for macOS, Linux, and Windows built on Tauri.
 * [vortix](https://github.com/Harry-kp/vortix) - Terminal UI for WireGuard and OpenVPN with real-time telemetry, leak detection, and kill switch
 * [vproxy](https://github.com/0x676e67/vproxy) - A high-performance HTTP/HTTPS/SOCKS5 proxy server [![crates.io](https://img.shields.io/crates/v/vproxy.svg)](https://crates.io/crates/vproxy)
