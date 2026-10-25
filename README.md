@@ -445,6 +445,7 @@ See also [Games Made With Piston](https://github.com/PistonDevelopers/piston/wik
 * [GitType](https://github.com/unhappychoice/gittype) - A CLI code-typing game that turns your source code into typing challenges
 * [gorilla-devs/ferium](https://github.com/gorilla-devs/ferium) - Ferium is a fast and feature rich CLI program for downloading and updating Minecraft mods from Modrinth, CurseForge, and GitHub Releases, and modpacks from Modrinth and CurseForge ![ferium build](https://github.com/gorilla-devs/ferium/actions/workflows/build.yml/badge.svg?branch=main)
 * [HactarCE/Hyperspeedcube](https://github.com/HactarCE/Hyperspeedcube) - A modern, beginner-friendly 3D and 4D Rubik's cube simulator with customizable mouse and keyboard controls and advanced features for speedsolving
+* [indraine/Runsheet](https://github.com/indraine/Runsheet) - A lightweight, local-first telemetry recorder and session sheet for Assetto Corsa Competizione built with Rust, Tauri and SolidJS.
 * [lifthrasiir/angolmois-rust](https://github.com/lifthrasiir/angolmois-rust) - A minimalistic music video game which supports the BMS format
 * [louis-e/arnis](https://github.com/louis-e/arnis) - Generate Minecraft Java/Bedrock worlds from real-world geography using OpenStreetMap and elevation data [![CI](https://github.com/louis-e/arnis/actions/workflows/ci-build.yml/badge.svg)](https://github.com/louis-e/arnis/actions)
 * [maras-archive/rsnake](https://github.com/maras-archive/rsnake) - Snake.
