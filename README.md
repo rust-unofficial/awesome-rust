@@ -469,6 +469,7 @@ See also [Games Made With Piston](https://github.com/PistonDevelopers/piston/wik
 * [dps/rust-raytracer](https://github.com/dps/rust-raytracer) - An implementation of a very simple raytracer based on Ray Tracing in One Weekend by Peter Shirley.
 * [flxzt/rnote](https://github.com/flxzt/rnote) - Sketch and take handwritten notes.
 * [ivanceras/svgbob](https://github.com/ivanceras/svgbob) - converts ASCII diagrams into SVG graphics
+* [jangtrinh/design-os-studio](https://github.com/jangtrinh/design-os-studio) - GPU-accelerated interface design studio that opens and saves .fig files locally and exposes the open file to coding agents through an MCP server.
 * [KaminariOS/rustracer](https://github.com/KaminariOS/rustracer) - A PBR glTF 2.0 renderer based on Vulkan ray-tracing.
 * [Limeth/euclider](https://github.com/Limeth/euclider) - A real-time 4D CPU ray tracer
 * [linebender/resvg](https://github.com/linebender/resvg) - An SVG rendering library.
