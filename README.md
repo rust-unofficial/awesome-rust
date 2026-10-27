@@ -1606,6 +1606,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
   * [zip-rs/zip2](https://github.com/zip-rs/zip2) [[zip](https://crates.io/crates/zip)] - read and write  ZIP archives
 * zstd
   * [gyscos/zstd-rs](https://github.com/gyscos/zstd-rs) - rust binding for the zstd compression library
+  * [structured-world/structured-zstd](https://github.com/structured-world/structured-zstd) [[structured-zstd](https://crates.io/crates/structured-zstd)] - Pure-Rust Zstandard compression and decompression [![CI](https://github.com/structured-world/structured-zstd/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/structured-world/structured-zstd/actions/workflows/ci.yml)
 
 ### Computation
 
