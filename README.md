@@ -472,6 +472,7 @@ See also [Games Made With Piston](https://github.com/PistonDevelopers/piston/wik
 * [ivanceras/svgbob](https://github.com/ivanceras/svgbob) - converts ASCII diagrams into SVG graphics
 * [jangtrinh/design-os-studio](https://github.com/jangtrinh/design-os-studio) - GPU-accelerated interface design studio that opens and saves .fig files locally and exposes the open file to coding agents through an MCP server.
 * [KaminariOS/rustracer](https://github.com/KaminariOS/rustracer) - A PBR glTF 2.0 renderer based on Vulkan ray-tracing.
+* [leandrodaf/3d-new-era-ai](https://github.com/leandrodaf/3d-new-era-ai) - Home and interior design editor (a Sweet Home 3D alternative) with a built-in MCP server, so an AI draws, furnishes and renders a home live; desktop and WebAssembly.
 * [Limeth/euclider](https://github.com/Limeth/euclider) - A real-time 4D CPU ray tracer
 * [linebender/resvg](https://github.com/linebender/resvg) - An SVG rendering library.
 * [monfa-red/lini](https://github.com/monfa-red/lini) [[lini](https://crates.io/crates/lini)] - A small language for every kind of figure — diagrams, charts, sequences, schematics, technical drawings — compiled from plain text to themeable SVG [![CI](https://github.com/monfa-red/lini/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/monfa-red/lini/actions/workflows/ci.yml)
