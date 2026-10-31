@@ -2039,7 +2039,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [SiegeLord/RustAllegro](https://github.com/SiegeLord/RustAllegro) - [Allegro 5](https://liballeg.org/) bindings
 * [Awesome Quads](https://github.com/ozkriff/awesome-quads) - A curated list of links to miniquad/macroquad-related code & resources
 * [Awesome wgpu](https://github.com/rofrol/awesome-wgpu) - A curated list of wgpu code and resources
-* [mlm-games/game-utils](https://github.com/mlm-games/game-utils) - Common game logic utilities and functionality helpers 
+* [mlm-games/game-utils](https://github.com/mlm-games/game-utils) - Common game logic utilities and functionality helpers
 * bracket-lib (previously RLTK)
   * [bracket-lib](https://github.com/amethyst/bracket-lib) [[bracket-lib](https://crates.io/crates/bracket-lib)] - The Roguelike Toolkit (RLTK). [![Rust](https://github.com/amethyst/bracket-lib/actions/workflows/rust.yml/badge.svg)](https://github.com/amethyst/bracket-lib/actions/workflows/rust.yml)
 * Challonge
