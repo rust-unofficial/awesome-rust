@@ -233,6 +233,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 * [tunein-cli](https://github.com/tsirysndr/tunein-cli) - Browse and listen to thousands of radio stations across the globe right from your terminal [![CI](https://github.com/tsirysndr/tunein-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/tsirysndr/tunein-cli/actions/workflows/ci.yml)
 * [WhatBPM](https://github.com/sergree/whatbpm) - A daily statically generated information resource for electronic dance music producers. Provides daily analytics on the most frequently used values for each EDM genre: tempos, keys, root notes, and so on, using publicly available data such as Beatport and Spotify.
 * [ZacharyL2/KeyEcho](https://github.com/ZacharyL2/KeyEcho) - Desktop app that plays recorded mechanical keyboard sounds as you type, built with Tauri
+* [LycorisWave/nyanoto](https://github.com) — A lightweight cross-platform local audio player for Linux, Windows, and Android built with Rust and Slint, featuring lossless audio analysis and LRC lyrics.
 
 ### Blockchain
 
