@@ -876,7 +876,6 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [IvanWng97/pixtuoid](https://github.com/IvanWng97/pixtuoid) [[pixtuoid](https://crates.io/crates/pixtuoid)] - Terminal pixel-art office that visualizes Claude Code sessions as animated coworkers in real time. [![CI](https://img.shields.io/github/actions/workflow/status/IvanWng97/pixtuoid/ci.yml?branch=main)](https://github.com/IvanWng97/pixtuoid/actions/workflows/ci.yml)
 * [ja7ad/hydra](https://github.com/ja7ad/hydra) - An open-source, high-performance download manager and accelerator that splits every file across parallel connections and mirror sources. Featuring dynamic range stealing and real-time stall recovery for Windows, macOS, and Linux.
 * [lamco-admin/lamco-rdp-server](https://github.com/lamco-admin/lamco-rdp-server) - Wayland-native RDP server built on IronRDP, providing remote desktop access across Wayland Linux desktops (GNOME, KDE, COSMIC, wlroots compositors, and more) without X11.
-* [mlm-games/retorrent](https://github.com/mlm-games/retorrent) - BitTorrent client for desktop and Android with a custom Rust engine and Repose UI
 * [Linus-Mussmaecher/rucola](https://github.com/Linus-Mussmaecher/rucola) - Terminal-based markdown note manager. [![Crate](https://img.shields.io/crates/v/rucola-notes.svg?logo=rust)](https://crates.io/crates/rucola-notes) [![Build Status](https://github.com/Linus-Mussmaecher/rucola/actions/workflows/continuous-testing.yml/badge.svg)](https://github.com/Linus-Mussmaecher/rucola/actions/workflows/continuous-testing.yml)
 * [matugen](https://github.com/InioX/matugen) - Generates color palette from image or color using templates.
 * [Mobslide](https://github.com/thewh1teagle/mobslide) - Desktop application that turns your smartphone into presentation remote controller.
@@ -2039,7 +2038,6 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [SiegeLord/RustAllegro](https://github.com/SiegeLord/RustAllegro) - [Allegro 5](https://liballeg.org/) bindings
 * [Awesome Quads](https://github.com/ozkriff/awesome-quads) - A curated list of links to miniquad/macroquad-related code & resources
 * [Awesome wgpu](https://github.com/rofrol/awesome-wgpu) - A curated list of wgpu code and resources
-* [mlm-games/game-utils](https://github.com/mlm-games/game-utils) - Common game logic utilities and functionality helpers
 * bracket-lib (previously RLTK)
   * [bracket-lib](https://github.com/amethyst/bracket-lib) [[bracket-lib](https://crates.io/crates/bracket-lib)] - The Roguelike Toolkit (RLTK). [![Rust](https://github.com/amethyst/bracket-lib/actions/workflows/rust.yml/badge.svg)](https://github.com/amethyst/bracket-lib/actions/workflows/rust.yml)
 * Challonge
@@ -2057,7 +2055,6 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [Kiss3d](https://github.com/dimforge/kiss3d) - A Keep It Simple, Stupid 3d graphics engine [![Crates.io](https://img.shields.io/crates/d/kiss3d.svg)](https://crates.io/crates/kiss3d)
   * [oxidator](https://github.com/Ruddle/oxidator) - A real time strategy game/engine supporting WebGPU
   * [Piston](https://www.piston.rs/) - [![Crates.io](https://img.shields.io/crates/v/piston.svg?style=flat-square)](https://crates.io/crates/piston) [![Crates.io](https://img.shields.io/crates/l/piston.svg)](https://github.com/PistonDevelopers/piston/blob/master/LICENSE) [![Crates.io](https://img.shields.io/crates/d/piston.svg)](https://crates.io/crates/piston)
-  * [mlm-games/repame](https://github.com/mlm-games/repame) - Game stack on Repose (headless bevy_ecs simulation, custom wgpu 2D/3D viewports and a Repose UI shell)
   * [Unrust](https://github.com/unrust/unrust) - Webgl 2.0 / native game engine
 * Game Servers
   * [gamedig/rust-gamedig](https://github.com/gamedig/rust-gamedig) [[gamedig](https://crates.io/crates/gamedig)] - Query game servers for informations such as name, players online, max players count etc. [![Crates.io](https://img.shields.io/crates/v/gamedig.svg)](https://crates.io/crates/gamedig) [![Crates.io](https://img.shields.io/crates/d/gamedig.svg)](https://crates.io/crates/gamedig)
