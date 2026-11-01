@@ -1,15 +1,15 @@
 #![deny(warnings)]
 
-use anyhow::{format_err, Result};
+use anyhow::{Result, format_err};
 use chrono::{DateTime, Duration, Local};
 use diffy::create_patch;
-use futures::future::{select_all, BoxFuture, FutureExt};
+use futures::future::{BoxFuture, FutureExt, select_all};
 use lazy_static::lazy_static;
 use log::{debug, info, warn};
 use pulldown_cmark::{Event, Parser, Tag};
 use regex::Regex;
 use reqwest::Response;
-use reqwest::{header, redirect::Policy, Client, StatusCode, Url};
+use reqwest::{Client, StatusCode, Url, header, redirect::Policy};
 use serde::{Deserialize, Serialize};
 use std::collections::{BTreeMap, BTreeSet, HashMap};
 use std::env;
@@ -17,6 +17,7 @@ use std::future::Future;
 use std::io::Write;
 use std::ops::Div;
 use std::pin::Pin;
+use std::sync::LazyLock;
 use std::time;
 use std::{cmp::Ordering, fs};
 use thiserror::Error;
@@ -26,6 +27,9 @@ use tokio::sync::SemaphorePermit;
 const MINIMUM_GITHUB_STARS: u32 = 50;
 const MINIMUM_CARGO_DOWNLOADS: u32 = 2000;
 const MINIMUM_RUST_PERCENTAGE: f64 = 0.01; // FIXME: this should probably be higher
+
+const MIN_BETWEEN_CHECKS: LazyLock<Duration> = LazyLock::new(|| Duration::days(3));
+const MAX_ALLOWED_FAILED: LazyLock<Duration> = LazyLock::new(|| Duration::days(7));
 
 // Allow overriding the needed stars for a section. "level" is the header level in the markdown, default is MINIMUM_GITHUB_STARS
 // In general, we should just use the defaults. However, for some areas where there's not a lot of well-starred projects, but a
@@ -564,9 +568,21 @@ struct Link {
 type Results = BTreeMap<String, Link>;
 
 #[derive(Debug, Serialize, Deserialize)]
+struct GithubStars {
+    stars: u32,
+    updated_at: DateTime<Local>,
+}
+
+#[derive(Debug, Serialize, Deserialize)]
+struct GithubRustPercentage {
+    percent: f64,
+    updated_at: DateTime<Local>,
+}
+
+#[derive(Debug, Serialize, Deserialize)]
 struct PopularityData {
-    pub github_stars: BTreeMap<String, u32>,
-    pub github_rust_percentage: BTreeMap<String, f64>,
+    pub github_stars: BTreeMap<String, GithubStars>,
+    pub github_rust_percentage: BTreeMap<String, GithubRustPercentage>,
     pub cargo_downloads: BTreeMap<String, u32>,
 }
 
@@ -594,8 +610,6 @@ async fn main() -> Result<()> {
 
     let mut url_checks = vec![];
 
-    let min_between_checks: Duration = Duration::days(3);
-    let max_allowed_failed: Duration = Duration::days(7);
     let mut do_check = |url: String| {
         if !url.starts_with("http") {
             return;
@@ -607,7 +621,7 @@ async fn main() -> Result<()> {
         if let Some(link) = results.get(&url) {
             if let Working::Yes = link.working {
                 let since = Local::now() - link.updated_at;
-                if since < min_between_checks {
+                if since < *MIN_BETWEEN_CHECKS {
                     return;
                 }
             }
@@ -638,6 +652,7 @@ async fn main() -> Result<()> {
     let mut in_heading = false;
     let mut star_override_level: Option<u32> = None;
     let mut rust_percentage_override_level: Option<u32> = None;
+    let now = Local::now();
 
     let mut has_errors = false;
 
@@ -660,16 +675,22 @@ async fn main() -> Result<()> {
                                     .to_string();
                                 if github_stars.is_none() {
                                     let existing = popularity_data.github_stars.get(&github_url);
-                                    if let Some(stars) = existing {
+                                    if let Some(stars) = existing
+                                        && ((stars.updated_at - now) < *MIN_BETWEEN_CHECKS)
+                                    {
                                         // Use existing star data, but re-retrieve url to check aliveness
                                         // Some will have overrides, so don't check the regex yet
-                                        github_stars = Some(*stars)
+                                        github_stars = Some(stars.stars)
                                     } else {
                                         github_stars = get_stars(&github_url).await;
                                         if let Some(raw_stars) = github_stars {
-                                            popularity_data
-                                                .github_stars
-                                                .insert(github_url.clone(), raw_stars);
+                                            popularity_data.github_stars.insert(
+                                                github_url.clone(),
+                                                GithubStars {
+                                                    stars: raw_stars,
+                                                    updated_at: now,
+                                                },
+                                            );
                                             if raw_stars >= required_stars {
                                                 fs::write(
                                                     "results/popularity.yaml",
@@ -685,8 +706,11 @@ async fn main() -> Result<()> {
                                 } else if github_rust_percentage.is_none() {
                                     let existing_github_rust_percentage =
                                         popularity_data.github_rust_percentage.get(&github_url);
-                                    if let Some(rust_percentage) = existing_github_rust_percentage {
-                                        github_rust_percentage = Some(*rust_percentage);
+                                    if let Some(rust_percentage) = existing_github_rust_percentage
+                                        && ((rust_percentage.updated_at - now)
+                                            < *MIN_BETWEEN_CHECKS)
+                                    {
+                                        github_rust_percentage = Some(rust_percentage.percent);
                                     } else {
                                         let rust_percentage =
                                             get_rust_percentage(&github_url).await;
@@ -694,7 +718,10 @@ async fn main() -> Result<()> {
                                             github_rust_percentage = Some(raw_rust_percentage);
                                             popularity_data.github_rust_percentage.insert(
                                                 github_url.to_string(),
-                                                raw_rust_percentage,
+                                                GithubRustPercentage {
+                                                    percent: raw_rust_percentage,
+                                                    updated_at: now,
+                                                },
                                             );
                                             if raw_rust_percentage >= required_rust_percentage {
                                                 fs::write(
@@ -827,14 +854,27 @@ async fn main() -> Result<()> {
                                     warn!("No valid crates link for {list_item}");
                                 }
                                 has_errors = true;
-                                eprintln!("Not high enough metrics ({:?} stars < {}, {:?} Rust percentage < {} and {:?} cargo downloads < {}): {}", github_stars, required_stars, github_rust_percentage.map(|f|f*100.0), required_rust_percentage*100.0, cargo_downloads, MINIMUM_CARGO_DOWNLOADS, list_item);
+                                eprintln!(
+                                    "Not high enough metrics ({:?} stars < {}, {:?} Rust percentage < {} and {:?} cargo downloads < {}): {}",
+                                    github_stars,
+                                    required_stars,
+                                    github_rust_percentage.map(|f| f * 100.0),
+                                    required_rust_percentage * 100.0,
+                                    cargo_downloads,
+                                    MINIMUM_CARGO_DOWNLOADS,
+                                    list_item
+                                );
                             }
                             if link_count > 0 && !ITEM_REGEX.is_match(&list_item) {
                                 if list_item.contains("—") {
-                                    warn!("\"{list_item}\" uses a '—' hyphen, not the '-' hyphen and we enforce the use of the latter one");
+                                    warn!(
+                                        "\"{list_item}\" uses a '—' hyphen, not the '-' hyphen and we enforce the use of the latter one"
+                                    );
                                 }
                                 has_errors = true;
-                                eprintln!("Item does not match the template: \"{list_item}\". See https://github.com/rust-unofficial/awesome-rust/blob/main/CONTRIBUTING.md#tldr");
+                                eprintln!(
+                                    "Item does not match the template: \"{list_item}\". See https://github.com/rust-unofficial/awesome-rust/blob/main/CONTRIBUTING.md#tldr"
+                                );
                             }
                             list_items.last_mut().unwrap().data.push(list_item.clone());
                             list_item = String::new();
@@ -982,7 +1022,7 @@ async fn main() -> Result<()> {
             };
             if let Some(last_working) = link.last_working {
                 let since = Local::now() - last_working;
-                if since > max_allowed_failed {
+                if since > *MAX_ALLOWED_FAILED {
                     println!("{} {:?}", url, link);
                     failed += 1;
                 } else {
