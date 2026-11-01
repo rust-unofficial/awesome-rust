@@ -694,6 +694,8 @@ See also [A comparison of operating systems written in Rust](https://github.com/
   * [Rustodon](https://github.com/rustodon/rustodon) - A Mastodon-compatible, ActivityPub-speaking server.
 * Matrix
   * [poljar/weechat-matrix-rs](https://github.com/poljar/weechat-matrix-rs) - Rust rewrite of the python weechat-matrix script.
+* Signal
+  * [harababurel/faro](https://github.com/harababurel/faro) - A terminal client for Signal, built for SSH and tmux. [![CI](https://github.com/harababurel/faro/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/harababurel/faro/actions/workflows/ci.yml)
 * Telegram
   * [tgt](https://github.com/FedericoBruzzone/tgt) - A crossplatform TUI for Telegram [![ci-linux](https://github.com/FedericoBruzzone/tgt/actions/workflows/ci-linux.yml/badge.svg)](https://github.com/FedericoBruzzone/tgt/actions/workflows/ci-linux.yml) [![ci-macos](https://github.com/FedericoBruzzone/tgt/actions/workflows/ci-macos.yml/badge.svg)](https://github.com/FedericoBruzzone/tgt/actions/workflows/ci-macos.yml) [![ci-windows](https://github.com/FedericoBruzzone/tgt/actions/workflows/ci-windows.yml/badge.svg)](https://github.com/FedericoBruzzone/tgt/actions/workflows/ci-windows.yml)
 * WhatsApp
