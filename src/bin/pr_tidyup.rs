@@ -3,7 +3,7 @@ use std::env;
 use anyhow::{Context, Result};
 use env_logger::{Builder, Env};
 use log::{info, warn};
-use octocrab::{params, OctocrabBuilder};
+use octocrab::{OctocrabBuilder, params};
 
 #[tokio::main]
 async fn main() -> Result<()> {
