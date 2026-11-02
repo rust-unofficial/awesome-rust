@@ -1074,6 +1074,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
   * [cargo-edit](https://crates.io/crates/cargo-edit) - allows you to add and list dependencies by reading/writing to your Cargo.toml file from the command line
   * [cargo-generate](https://github.com/cargo-generate/cargo-generate) - A generator of a rust project by leveraging a pre-existing git repository as a template.
   * [cargo-info](https://crates.io/crates/cargo-info) - queries crates.io for crates details from command line
+  * [cargo-lean](https://crates.io/crates/cargo-lean) — A CLI tool for validating and managing lean Cargo package distribution archives by controlling which files are included in published crates.
   * [cargo-license](https://crates.io/crates/cargo-license) - A cargo subcommand to quickly view the licenses of all dependencies.
   * [cargo-limit](https://crates.io/crates/cargo-limit) - Cargo with less noise: warnings are skipped until errors are fixed, Neovim integration, etc. [![build badge](https://github.com/cargo-limit/cargo-limit/actions/workflows/ci.yml/badge.svg)](https://github.com/cargo-limit/cargo-limit/actions)
   * [cargo-machete](https://github.com/bnjbvr/cargo-machete) [[cargo-machete](https://crates.io/crates/cargo-machete)] - Simple tool for detecting unused dependencies in Cargo.toml.
