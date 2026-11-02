@@ -4,7 +4,7 @@ version = "0.1.0"
 authors = []
 homepage = "https://github.com/rust-unofficial/awesome-rust"
 repository = "https://github.com/rust-unofficial/awesome-rust"
-edition = "2018"
+edition = "2024"
 default-run = "awesome-rust"
 
 [dependencies]

@@ -1,14 +1,14 @@
 // Helper tool to dump all repos in awesome-rust that are tagged with "hacktoberfest"
 
-use anyhow::{format_err, Result};
+use anyhow::{Result, format_err};
 use chrono::{DateTime, Duration, Local};
-use futures::future::{select_all, BoxFuture, FutureExt};
+use futures::future::{BoxFuture, FutureExt, select_all};
 use lazy_static::lazy_static;
 use log::{debug, warn};
 use pulldown_cmark::{Event, Parser, Tag};
 use regex::Regex;
-use reqwest::redirect::Policy;
 use reqwest::Client;
+use reqwest::redirect::Policy;
 use serde::{Deserialize, Serialize};
 use std::collections::{BTreeMap, BTreeSet};
 use std::env;
