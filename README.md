@@ -2268,6 +2268,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
 * IPNetwork
   * [achanda/ipnetwork](https://github.com/achanda/ipnetwork) - A library to work with IP networks
   * [candrew/netsim](https://github.com/canndrew/netsim) - A library for network simulation and testing
+  * [yanet-platform/netip](https://github.com/yanet-platform/netip) [[netip](https://crates.io/crates/netip)] - Fast IPv4/IPv6 network set operations supporting arbitrary masks, with zero dependencies and no allocator. [![CI](https://github.com/yanet-platform/netip/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/yanet-platform/netip/actions/workflows/ci.yml)
 * Low level
   * [actix/actix](https://github.com/actix/actix) - Actor library
   * [dylanmckay/protocol](https://github.com/dylanmckay/protocol) - Custom TCP/UDP protocol definitions
