@@ -1362,6 +1362,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [plotters](https://github.com/plotters-rs/plotters) - [![build badge](https://github.com/plotters-rs/plotters/workflows/CI/badge.svg)](https://github.com/plotters-rs/plotters/actions)
 * [rerun](https://github.com/rerun-io/rerun) - [[rerun](https://crates.io/crates/rerun)] - An SDK for logging computer vision and robotics data (tensors, point clouds, etc) paired with a visualizer for exploring that data over time.
 * [saresend/gust](https://github.com/saresend/Gust) - A small charting/visualization tool and partial vega implementation
+* [sipemu/ggplot-rs](https://github.com/sipemu/ggplot-rs) [[ggplot-rs](https://crates.io/crates/ggplot-rs)] - Grammar of Graphics plotting modelled on R's ggplot2 (geoms, stats, scales, facets, coords, themes), rendering SVG/PNG natively and in the browser via WebAssembly [![CI](https://github.com/sipemu/ggplot-rs/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/sipemu/ggplot-rs/actions/workflows/ci.yml)
 
 ### Database
 
