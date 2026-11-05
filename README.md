@@ -355,6 +355,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 * [vorot93/libmdbx-rs](https://github.com/vorot93/libmdbx-rs) [[mdbx-sys](https://crates.io/crates/mdbx-sys)] - Bindings for MDBX, a "fast, compact, powerful, embedded, transactional key-value database, with permissive license". This is a fork of mozilla/lmdb-rs with patches to make it work with libmdbx.
 * [whispem/minikv](https://github.com/whispem/minikv) - Distributed, multi-tenant key-value and object store with Raft consensus, WAL durability, time-series API, vector search, and S3-compatible endpoints. Production-oriented with Helm chart, Grafana dashboards, and Python SDK. [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](.github/workflows/ci.yml)
 * [WooriDB](https://github.com/naomijub/wooridb) - General purpose time serial database inspired by Crux and Datomic.
+* [xerj-org/xerj](https://github.com/xerj-org/xerj) - Search engine for AI agents in one binary: BM25, vector and hybrid search over an Elasticsearch-compatible API, with a built-in MCP server
 
 ### Embedded
 
