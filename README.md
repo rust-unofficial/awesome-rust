@@ -2289,6 +2289,8 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [thehydroimpulse/nanomsg.rs](https://github.com/thehydroimpulse/nanomsg.rs) - [nanomsg](https://nanomsg.org/) bindings
 * NATS
   * [nats-io/nats.rs](https://github.com/nats-io/nats.rs) - Client for NATS, the cloud native messaging system. [![Build Status](https://github.com/nats-io/nats.rs/workflows/Rust/badge.svg?branch=master)](https://github.com/nats-io/nats.rs/actions)
+* NetworkManager
+  * [freedesktop-rs/nmrs](https://github.com/freedesktop-rs/nmrs) [[nmrs](https://crates.io/crates/nmrs)] - NetworkManager bindings over D-Bus: Wi-Fi, VPN, saved profiles, secret agent, monitoring. [![CI](https://github.com/freedesktop-rs/nmrs/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/freedesktop-rs/nmrs/actions/workflows/ci.yml)
 * Nng
   * [neachdainn/nng-rs](https://gitlab.com/neachdainn/nng-rs) [[Nng](https://crates.io/crates/nng)] - [Nng (nanomsg v2)](https://nng.nanomsg.org/index.html) bindings [![build badge](https://gitlab.com/neachdainn/nng-rs/badges/master/pipeline.svg)](https://gitlab.com/neachdainn/nng-rs/-/pipelines)
 * NNTP
