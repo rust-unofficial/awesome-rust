@@ -311,6 +311,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 * [hydra-db/hydradb](https://github.com/hydra-db/hydradb) - Object-store-native distributed graph database with OpenCypher queries, GraphBLAS traversal, and Neo4j-compatible Bolt connectivity.
 * [indradb](https://crates.io/crates/indradb) - Graph database
 * [KiteSQL](https://github.com/KipData/KiteSQL) - SQL as a Function for Rust
+* [kividbio/kividb](https://github.com/kividbio/kividb) - Redis-compatible in-memory database with built-in full-text and vector search [![CI](https://github.com/kividbio/kividb/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/kividbio/kividb/actions/workflows/ci.yml)
 * [lancedb](https://github.com/lancedb/lancedb) [[vectordb](https://crates.io/crates/vectordb)] - A serverless, low-latency vector database for AI applications
 * [Lucid](https://github.com/lucid-kv/lucid) - High performance and distributed KV store accessible through a HTTP API. [![Build Status](https://github.com/lucid-kv/lucid/workflows/Lucid/badge.svg?branch=master)](https://github.com/lucid-kv/lucid/actions?workflow=Lucid)
 * [Materialize](https://github.com/MaterializeInc/materialize) - Streaming SQL database powered by Timely Dataflow :heavy_dollar_sign:
