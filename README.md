@@ -936,6 +936,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [Michael-A-Kuykendall/muxide](https://github.com/Michael-A-Kuykendall/muxide) [[muxide](https://crates.io/crates/muxide)] - Pure-Rust MP4 muxer with no external dependencies that writes standards-compliant MP4 from encoded frames.
 * [mlm-games/Miniter](https://github.com/mlm-games/Miniter) - Non-linear video editor (trim, join, masks, keyframes, export) for Linux, Android and web, with the backend crates being usable from crates.io
 * [open-subs/opensubs](https://github.com/open-subs/opensubs) - Subtitle generator that runs in the browser: on-device Whisper transcription, with a Rust engine compiled to WebAssembly for subtitle segmentation, line breaking and styling
+* [pulkitmundra/nvr-command-center](https://github.com/pulkitmundra/nvr-command-center) - Low-latency GPU RTSP IP camera, CCTV, NVR/DVR/XVR and Cloud P2P surveillance viewer for Linux using wgpu and FFmpeg
 * [storytold/effectcraft](https://github.com/storytold/effectcraft) - An open-source, clean-room reimplementation of Adobe After Effects for motion graphics and visual effects, built in pure Rust.
 * [vidmerger](https://github.com/TGotwig/vidmerger) - Merge video & audio files via CLI
 * [vuiodev/vuio](https://github.com/vuiodev/vuio) - DLNA media server with support for Linux, macOS, Windows, and Docker
