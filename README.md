@@ -1462,6 +1462,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [rust-lang/futures-rs](https://github.com/rust-lang/futures-rs) - Zero-cost futures
 * [t3hmrman/async-dropper](https://github.com/t3hmrman/async-dropper) [[async-dropper](https://crates.io/crates/async-dropper)] - Implementation of `AsyncDrop`
 * [TeaEntityLab/fpRust](https://github.com/TeaEntityLab/fpRust) - Monad/MonadIO, Handler, Coroutine/doNotation, Functional Programming features for Rust
+* [tellus-rs/tellus](https://github.com/tellus-rs/tellus) [[tellus](https://crates.io/crates/tellus)] - Actors for Rust with synchronous handlers, ordered death watch, supervision, event sourcing and clustering [![CI](https://github.com/tellus-rs/tellus/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/tellus-rs/tellus/actions/workflows/ci.yml)
 * [tokio-rs/tokio](https://github.com/tokio-rs/tokio) - A runtime for writing reliable, asynchronous, and slim applications with the Rust programming language.
 * [tqwewe/kameo](https://github.com/tqwewe/kameo) - Fault-tolerant Async Actors Built on Tokio
 * [Xudong-Huang/may](https://github.com/Xudong-Huang/may) - Stackful coroutine library
