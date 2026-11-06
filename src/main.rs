@@ -676,7 +676,7 @@ async fn main() -> Result<()> {
                                 if github_stars.is_none() {
                                     let existing = popularity_data.github_stars.get(&github_url);
                                     if let Some(stars) = existing
-                                        && ((stars.updated_at - now) < *MIN_BETWEEN_CHECKS)
+                                        && ((now - stars.updated_at) < *MIN_BETWEEN_CHECKS)
                                     {
                                         // Use existing star data, but re-retrieve url to check aliveness
                                         // Some will have overrides, so don't check the regex yet
@@ -707,7 +707,7 @@ async fn main() -> Result<()> {
                                     let existing_github_rust_percentage =
                                         popularity_data.github_rust_percentage.get(&github_url);
                                     if let Some(rust_percentage) = existing_github_rust_percentage
-                                        && ((rust_percentage.updated_at - now)
+                                        && ((now - rust_percentage.updated_at)
                                             < *MIN_BETWEEN_CHECKS)
                                     {
                                         github_rust_percentage = Some(rust_percentage.percent);
