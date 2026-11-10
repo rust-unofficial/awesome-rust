@@ -485,6 +485,7 @@ See also [Games Made With Piston](https://github.com/PistonDevelopers/piston/wik
 * [rustq/vue-skia](https://github.com/rustq/vue-skia) - Skia based 2d graphics vue rendering library. It is based on Rust to implement software rasterization to perform rendering.
 * [storytold/artcraft](https://github.com/storytold/artcraft) - An AI-powered IDE and tangible computing surface for molding scenes, videos, and images like clay.
 * [storytold/cadcraft](https://github.com/storytold/cadcraft) - An open-source, clean-room reimplementation of Autodesk AutoCAD, built in pure Rust.
+* [TobiasGrothmann/plottery](https://github.com/TobiasGrothmann/plottery) [[plottery_lib](https://crates.io/crates/plottery_lib)] - Generative art engine for pen plotters, with a desktop editor to tweak parameters live.
 * [turnage/valora](https://crates.io/crates/valora) - A library for generative fine art
 * [Twinklebear/tray_rust](https://github.com/Twinklebear/tray_rust) - A ray tracer
 * [wahn/rs_pbrt](https://github.com/wahn/rs_pbrt) - Implements a counterpart to the PBRT book's (3rd edition) C++ code.
