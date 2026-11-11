@@ -110,6 +110,7 @@ lazy_static! {
         "https://framagit.org/ppom/reaction", // has 56 stars at time of writing
         "https://github.com/shleder/vetto", // added per alternative popularity metrics clause (>8,000 monthly downloads on npm: https://www.npmjs.com/package/@shledery/vetto)
         "https://github.com/Ekin-Kahraman/rustscenic", // 3,557 PyPI downloads excluding mirrors, 2026-05-06 to 2026-10-25: https://pypistats.org/api/packages/rustscenic/overall?mirrors=false
+        "https://github.com/pygrpc/pygrpc-native", // 5,685 PyPI downloads excluding mirrors, 2026-10-24 to 2026-11-10: https://pypistats.org/api/packages/pygrpc-native/overall?mirrors=false
     ].iter().map(|s| s.to_string()).collect();
 
     // Overrides for rust percentage. Most of these are "this is a tool for rust, but not written in rust", or closed source

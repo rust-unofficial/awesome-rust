@@ -2273,6 +2273,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [mattnenterprise/rust-ftp](https://github.com/mattnenterprise/rust-ftp) - an [FTP](https://en.wikipedia.org/wiki/File_Transfer_Protocol) client
 * gRPC
   * [hyperium/tonic](https://github.com/hyperium/tonic) - A native gRPC client & server implementation with async/await support [![Crates.io](https://img.shields.io/crates/v/tonic)](https://crates.io/crates/tonic)
+  * [pygrpc/pygrpc-native](https://github.com/pygrpc/pygrpc-native) - Drop-in grpcio server for Python that runs HTTP/2 and gRPC in Rust, outside the GIL [![CI](https://github.com/pygrpc/pygrpc-native/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/pygrpc/pygrpc-native/actions/workflows/ci.yml)
   * [tikv/grpc-rs](https://github.com/tikv/grpc-rs) - The gRPC library built on C Core library and futures
 * HTTP
   * [deboa](https://crates.io/crates/deboa) - A friendly http client on top of hyper with several addoons, serialization formats and macros. [![Crates.io](https://img.shields.io/crates/v/deboa)]
