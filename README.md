@@ -842,6 +842,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [ox](https://github.com/curlpipe/ox) - An independent Rust text editor that runs in your terminal!
 * [SoloMD](https://github.com/zhitongblog/solomd) - A lightweight, cross-platform Markdown editor with live preview, built with Tauri 2.
 * [sventmueller/splat](https://github.com/sventmueller/splat) - An ultrafast native Markdown editor for macOS on AppKit, no Electron. Edits in the preview leave untouched lines byte-for-byte identical, so Git diffs stay clean. LaTeX and Mermaid offline, 35 languages. [![build badge](https://github.com/sventmueller/splat/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/sventmueller/splat/actions/workflows/ci.yml)
+* [thejacedev/Noteriv](https://github.com/thejacedev/Noteriv) - A Markdown note-taking app with wiki-links, a graph view, plugins and Git sync, built with Tauri 2.
 * [vamolessa/pepper](https://git.sr.ht/~lessa/pepper) [[pepper](https://crates.io/crates/pepper)] - An opinionated modal editor to simplify code editing from the terminal
 * [zed](https://github.com/zed-industries/zed) - A high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.
 
