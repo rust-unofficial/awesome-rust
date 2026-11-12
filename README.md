@@ -2212,6 +2212,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
 * [image-rs/image](https://github.com/image-rs/image) - Basic imaging processing functions and methods for converting to and from image formats
 * [image-rs/imageproc](https://github.com/image-rs/imageproc) - An image processing library, based on the `image` library.
 * [marekm4/dominant_color](https://github.com/marekm4/dominant_color) [[dominant_color](https://crates.io/crates/dominant_color)] - Dominant color extractor ![build badge](https://github.com/marekm4/dominant_color/actions/workflows/rust.yml/badge.svg?branch=master)
+* [dannkkie/pure-sift](https://github.com/dannkkie/pure-sift) — 100% pure-Rust, zero-unsafe SIFT feature extraction, RANSAC homography, and image stitching with zero OpenCV/C++ FFI dependencies. [![CI](https://github.com/dannkkie/pure-sift/actions/workflows/ci.yml/badge.svg)](https://github.com/dannkkie/pure-sift/actions/workflows/ci.yml) [![crates.io](https://img.shields.io/crates/v/pure-sift.svg)](https://crates.io/crates/pure-sift)
 * [rust-cv/cv](https://github.com/rust-cv/cv) - Implement computer vision algorithms, abstractions, and systems. `#[no_std]` is supported where possible. ![build badge](https://github.com/rust-cv/cv/workflows/tests/badge.svg)
 * [teovoinea/steganography](https://github.com/teovoinea/steganography) [[steganography](https://crates.io/crates/steganography)] - A simple steganography library
 * [twistedfall/opencv-rust](https://github.com/twistedfall/opencv-rust) - Bindings for OpenCV
