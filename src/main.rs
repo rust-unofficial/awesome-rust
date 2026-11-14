@@ -79,7 +79,6 @@ lazy_static! {
     // Overrides for popularity count, each needs a good reason (i.e. downloads/stars we don't support automatic counting of)
     // Each is a URL that's "enough" for an item to pass the popularity checks
     static ref POPULARITY_OVERRIDES: Vec<String> = vec![
-        "https://github.com/maidsafe", // Many repos of Rust code, collectively > 50 stars
         "https://pijul.org", // Uses it's own VCS at https://nest.pijul.com/pijul/pijul with 190 stars at last check
         "https://gitlab.com/veloren/veloren", // No direct gitlab support, but >1000 stars there
         "https://gitlab.redox-os.org/redox-os/redox", // 394 stars
