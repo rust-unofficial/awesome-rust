@@ -79,7 +79,6 @@ lazy_static! {
     // Overrides for popularity count, each needs a good reason (i.e. downloads/stars we don't support automatic counting of)
     // Each is a URL that's "enough" for an item to pass the popularity checks
     static ref POPULARITY_OVERRIDES: Vec<String> = vec![
-        "https://github.com/maidsafe", // Many repos of Rust code, collectively > 50 stars
         "https://pijul.org", // Uses it's own VCS at https://nest.pijul.com/pijul/pijul with 190 stars at last check
         "https://gitlab.com/veloren/veloren", // No direct gitlab support, but >1000 stars there
         "https://gitlab.redox-os.org/redox-os/redox", // 394 stars
@@ -110,6 +109,7 @@ lazy_static! {
         "https://framagit.org/ppom/reaction", // has 56 stars at time of writing
         "https://github.com/shleder/vetto", // added per alternative popularity metrics clause (>8,000 monthly downloads on npm: https://www.npmjs.com/package/@shledery/vetto)
         "https://github.com/Ekin-Kahraman/rustscenic", // 3,557 PyPI downloads excluding mirrors, 2026-05-06 to 2026-10-25: https://pypistats.org/api/packages/rustscenic/overall?mirrors=false
+        "https://github.com/pygrpc/pygrpc-native", // 5,685 PyPI downloads excluding mirrors, 2026-10-24 to 2026-11-10: https://pypistats.org/api/packages/pygrpc-native/overall?mirrors=false
     ].iter().map(|s| s.to_string()).collect();
 
     // Overrides for rust percentage. Most of these are "this is a tool for rust, but not written in rust", or closed source
@@ -676,7 +676,7 @@ async fn main() -> Result<()> {
                                 if github_stars.is_none() {
                                     let existing = popularity_data.github_stars.get(&github_url);
                                     if let Some(stars) = existing
-                                        && ((stars.updated_at - now) < *MIN_BETWEEN_CHECKS)
+                                        && ((now - stars.updated_at) < *MIN_BETWEEN_CHECKS)
                                     {
                                         // Use existing star data, but re-retrieve url to check aliveness
                                         // Some will have overrides, so don't check the regex yet
@@ -707,7 +707,7 @@ async fn main() -> Result<()> {
                                     let existing_github_rust_percentage =
                                         popularity_data.github_rust_percentage.get(&github_url);
                                     if let Some(rust_percentage) = existing_github_rust_percentage
-                                        && ((rust_percentage.updated_at - now)
+                                        && ((now - rust_percentage.updated_at)
                                             < *MIN_BETWEEN_CHECKS)
                                     {
                                         github_rust_percentage = Some(rust_percentage.percent);
