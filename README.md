@@ -1171,6 +1171,8 @@ See also [A comparison of operating systems written in Rust](https://github.com/
   * [esp-rs](https://github.com/esp-rs) - home to a number of community projects enabling the use of the Rust programming language on various SoCs and modules produced by Espressif Systems.
 * Firmware
   * [oreboot/oreboot](https://github.com/oreboot/oreboot) - oreboot is a fork of coreboot, with C removed, written in Rust
+* Internationalization
+  * [AlixANNERAUD/embedded_i18n](https://github.com/AlixANNERAUD/embedded_i18n) [[embedded-i18n](https://crates.io/crates/embedded-i18n)] - Compile-time i18n for `no_std` firmware: translations from JSON, YAML, TOML, gettext PO/MO or Fluent files compiled into `&'static str` literals in flash, with plurals, fallbacks and no allocator. [![build badge](https://github.com/AlixANNERAUD/embedded_i18n/actions/workflows/check.yml/badge.svg?branch=main)](https://github.com/AlixANNERAUD/embedded_i18n/actions/workflows/check.yml)
 * nRF
   * [nrf-rs/nrf-hal](https://github.com/nrf-rs/nrf-hal) - A Rust HAL for the nRF family of devices
 
