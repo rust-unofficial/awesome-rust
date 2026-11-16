@@ -380,6 +380,7 @@ See also [crates matching keyword 'emulator'](https://crates.io/keywords/emulato
 * Flash Player
   * [Ruffle](https://github.com/ruffle-rs/ruffle) - Ruffle is an Adobe Flash Player emulator. Ruffle targets both the desktop and the web using WebAssembly. [![CI](https://github.com/ruffle-rs/ruffle/actions/workflows/test_rust.yml/badge.svg)](https://github.com/ruffle-rs/ruffle/actions/workflows/test_rust.yml)[![CI](https://github.com/ruffle-rs/ruffle/actions/workflows/test_web.yml/badge.svg)](https://github.com/ruffle-rs/ruffle/actions/workflows/test_web.yml)
 * Gameboy
+  * [dquigles/terminal_gameboy](https://github.com/dquigles/terminal_gameboy) [[terminal_gameboy](https://crates.io/crates/terminal_gameboy)] - Game Boy and Game Boy Color emulator that runs in the terminal, with ASCII and Unicode block rendering and sound
   * [Gekkio/mooneye-gb](https://github.com/Gekkio/mooneye-gb) - A Game Boy research project and emulator
   * [joamag/boytacean](https://github.com/joamag/boytacean) - GameBoy Color emulator that runs on the Web using WebAssembly.
   * [mohanson/gameboy](https://github.com/mohanson/gameboy) - Full featured Cross-platform GameBoy emulator. Forever boys!.
