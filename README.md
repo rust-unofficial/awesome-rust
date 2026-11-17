@@ -92,6 +92,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   - [Graph algorithms](#graph-algorithms)
   - [Graphics](#graphics-1)
   - [GUI](#gui)
+  - [Home automation](#home-automation)
   - [Image processing](#image-processing-1)
   - [Language specification](#language-specification)
   - [Licensing](#licensing)
@@ -2218,6 +2219,10 @@ See also [Are we game yet?](https://arewegameyet.rs)
 * [tauri-apps/tauri](https://github.com/tauri-apps/tauri) - Build smaller, faster, and more secure desktop applications with a web frontend, powered by [WRY](https://github.com/tauri-apps/wry). [![test library](https://img.shields.io/github/workflow/status/tauri-apps/tauri/test%20library?label=test%20library)](https://github.com/tauri-apps/tauri/actions?query=workflow%3A%22test+library%22)
 * [tauri-apps/wry](https://github.com/tauri-apps/wry) - Webview Rendering librarY.
 * [xilem](https://github.com/linebender/xilem) - Successor of the data-first UI design toolkit [druid](https://github.com/linebender/druid).
+
+### Home automation
+
+* [mihai-dinculescu/tapo](https://github.com/mihai-dinculescu/tapo) [[tapo](https://crates.io/crates/tapo)] - Client for TP-Link Tapo smart devices (plugs, lights, hubs, sensors and cameras), with Python bindings and an MCP server [![Tapo Rust](https://github.com/mihai-dinculescu/tapo/actions/workflows/tapo-rs.yml/badge.svg?branch=main)](https://github.com/mihai-dinculescu/tapo/actions/workflows/tapo-rs.yml)
 
 ### Image processing
 
