@@ -160,6 +160,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 * [kftray](https://github.com/hcavarsan/kftray) - A cross-platform system tray app for managing and sharing multiple kubectl port-forward configurations. [![Build Status](https://github.com/hcavarsan/kftray/workflows/Release/badge.svg)](https://github.com/hcavarsan/kftray/actions)
 * [kytan](https://github.com/changlan/kytan) - High Performance Peer-to-Peer VPN
 * [linkerd/linkerd2-proxy](https://github.com/linkerd/linkerd2-proxy) - Ultralight service mesh for Kubernetes.
+* [lthoangg/openagentd](https://github.com/lthoangg/openagentd) - A local coding agent as a desktop app (Tauri) and CLI with a native Rust backend; shows every tool call, diff and shell command, and works with your own model keys or local models [![CI](https://github.com/lthoangg/openagentd/actions/workflows/appv3.yml/badge.svg?branch=main)](https://github.com/lthoangg/openagentd/actions/workflows/appv3.yml)
 * [LWE](https://github.com/YangYuS8/lwe) - Linux desktop app for browsing, managing, and applying Wallpaper Engine content, built with Rust and Tauri.
 * [lzanini/mdbook-katex](https://github.com/lzanini/mdbook-katex) [[mdbook-katex](https://crates.io/crates/mdbook-katex)] - A preprocessor for [mdBook](https://github.com/rust-lang/mdBook), using KaTeX to render LaTeX math expressions.
 * [mayocream/koharu](https://github.com/mayocream/koharu) - An ML-powered manga translator with automatic speech bubble detection, OCR, inpainting, and LLM translation, built with Candle and Tauri
