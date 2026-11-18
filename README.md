@@ -1374,6 +1374,7 @@ See also [Rust Tools](https://rust-lang.org/tools/).
 
 * [aleph-lang/aleph_ollama](https://github.com/aleph-lang/aleph_ollama) [[aleph_ollama](https://crates.io/crates/aleph_ollama)] - AI-powered source code translation tool using local Ollama API.
 * [BayesWitnesses/m2cgen](https://github.com/BayesWitnesses/m2cgen) - A CLI tool to transpile trained classic machine learning models into a native Rust code with zero dependencies.
+* [erkamyaman/rust-anything](https://github.com/erkamyaman/rust-anything) [[rust-anything](https://crates.io/crates/rust-anything)] - Ports TypeScript, Python, C, Go, Ruby and Java apps to Rust piece by piece, checking each piece against the recorded behavior of the original. [![build badge](https://github.com/erkamyaman/rust-anything/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/erkamyaman/rust-anything/actions/workflows/ci.yml)
 * [immunant/c2rust](https://github.com/immunant/c2rust) - C to Rust translator and cross checker built atop Clang/LLVM.
 * [jameysharp/corrode](https://github.com/jameysharp/corrode) - A C to Rust translator written in Haskell.
 
