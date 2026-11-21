@@ -237,6 +237,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 * [tsirysndr/music-player](https://github.com/tsirysndr/music-player) - Music player with [Rockbox](https://github.com/tsirysndr/rockboxd)-powered audio playback, multiple interfaces, and streaming support [![tests](https://github.com/tsirysndr/music-player/actions/workflows/ci.yml/badge.svg)](https://github.com/tsirysndr/music-player/actions/workflows/ci.yml)
 * [tunein-cli](https://github.com/tsirysndr/tunein-cli) - Browse and listen to thousands of radio stations across the globe right from your terminal [![CI](https://github.com/tsirysndr/tunein-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/tsirysndr/tunein-cli/actions/workflows/ci.yml)
 * [WhatBPM](https://github.com/sergree/whatbpm) - A daily statically generated information resource for electronic dance music producers. Provides daily analytics on the most frequently used values for each EDM genre: tempos, keys, root notes, and so on, using publicly available data such as Beatport and Spotify.
+* [YTM Native](https://github.com/Rbg4445/Ytmnative) - Ultra-lightweight pure-Rust YouTube Music desktop client built with Tauri v2 (~12 MB background RAM, ~350ms HLS playback, glassmorphic UI)
 * [ZacharyL2/KeyEcho](https://github.com/ZacharyL2/KeyEcho) - Desktop app that plays recorded mechanical keyboard sounds as you type, built with Tauri
 
 ### Blockchain
