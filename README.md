@@ -1811,6 +1811,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 ### Data visualization
 
 * [blitzarx1/egui_graphs](https://github.com/blitzarx1/egui_graphs) [[egui_graphs](https://crates.io/crates/egui_graphs)] - Interactive graph visualization widget powered by egui and petgraph. [![Crates.io](https://img.shields.io/crates/v/egui_graphs)](https://crates.io/crates/egui_graphs) [![docs.rs](https://img.shields.io/docsrs/egui_graphs)](https://docs.rs/egui_graphs)
+* [dataviz-rs/dataviz](https://github.com/dataviz-rs/dataviz) [[dataviz](https://crates.io/crates/dataviz)] - Fast plotting library with 120+ chart types (statistics, finance, genomics, maps, 3D), interactive windows, PNG/SVG/PDF/HTML output, and Python, JavaScript and C/C++ bindings. [![CI](https://github.com/dataviz-rs/dataviz/actions/workflows/rust.yml/badge.svg?branch=main)](https://github.com/dataviz-rs/dataviz/actions/workflows/rust.yml)
 * [djduque/pgfplots](https://github.com/djduque/pgfplots) [[pgfplots](https://crates.io/crates/pgfplots)] - Library to generate publication-quality figures. [![build](https://github.com/DJDuque/pgfplots/actions/workflows/rust.yml/badge.svg)](https://github.com/DJDuque/pgfplots/actions/workflows/rust.yml)
 * [mazznoer/colorgrad-rs](https://github.com/mazznoer/colorgrad-rs) [[colorgrad](https://crates.io/crates/colorgrad)] - Color scales library for data visualization, charts, games, maps, generative art and others.
 * [milliams/plotlib](https://github.com/milliams/plotlib) - Data plotting library for Rust
