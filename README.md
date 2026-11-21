@@ -2200,6 +2200,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [flutter-rs](https://github.com/flutter-rs/flutter-rs) - Build flutter desktop app in dart & rust.
   * [fzyzcjy/flutter_rust_bridge](https://github.com/fzyzcjy/flutter_rust_bridge) - High-level memory-safe binding generator for Flutter/Dart <-> Rust
 * [fschutt/azul](https://github.com/fschutt/azul) - A free, functional, IMGUI-oriented GUI framework for rapid development of desktop applications written in Rust, supported by the Mozilla WebRender rendering engine.
+* [fission-ui/fission](https://github.com/fission-ui/fission) [[Fission](https://crates.io/crates/fission)] - a cross platform (desktop, web and mobile) framework for building apps in rust giving you the best of Elm, Flutter and React through a Rust native experience.
 * [GTK+](https://www.gtk.org/) [[gtk](https://crates.io/keywords/gtk)]
   * [gtk-rs/gtk4-rs](https://github.com/gtk-rs/gtk4-rs) - GTK4 binding ![CI](https://github.com/gtk-rs/gtk4-rs/workflows/CI/badge.svg)
   * [relm](https://github.com/antoyo/relm) - Asynchronous, GTK+-based, GUI library, inspired by Elm
