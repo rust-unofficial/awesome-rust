@@ -99,6 +99,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   - [Logging](#logging)
   - [Macro](#macro)
   - [Markup language](#markup-language)
+  - [Memory management](#memory-management)
   - [Mobile](#mobile)
   - [Network programming](#network-programming)
   - [Parsing](#parsing)
@@ -613,7 +614,6 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [Hmbown/DeepSeek-TUI](https://github.com/Hmbown/DeepSeek-TUI) [[deepseek-tui-cli](https://crates.io/crates/deepseek-tui-cli)] - Terminal coding agent for DeepSeek V4 with streaming reasoning blocks, local workspace editing, auto model selection, MCP support, and ratatui-based TUI. [![CI](https://github.com/Hmbown/DeepSeek-TUI/actions/workflows/ci.yml/badge.svg)](https://github.com/Hmbown/DeepSeek-TUI/actions/workflows/ci.yml)
 * [iBz-04/gloamy](https://github.com/iBz-04/gloamy) [[gloamy](https://crates.io/crates/gloamy)] - Rust-first autonomous agent runtime for CLI, channels, gateway, and hardware workflows.
 * [illacloud/illa](https://github.com/illacloud/illa) - Low-code internal tool builder.
-* [ipavlin98/traydex](https://github.com/ipavlin98/traydex) - Native drag-and-drop shelf for Windows built with GPUI: keep files, images, text and links at hand, or drop them on tiles to zip, convert, OCR and upload [![CI](https://github.com/ipavlin98/traydex/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/ipavlin98/traydex/actions/workflows/ci.yml)
 * [iwe-org/iwe](https://github.com/iwe-org/iwe) [[iwe](https://crates.io/crates/iwe)] - A markdown-based knowledge management tool with LSP server and CLI [![Build Status](https://github.com/iwe-org/iwe/actions/workflows/rust.yml/badge.svg)](https://github.com/iwe-org/iwe/actions/workflows/rust.yml)
 * [jchultarsky/mirador](https://github.com/jchultarsky/mirador) [[mirador](https://crates.io/crates/mirador)] - A calm personal dashboard for the terminal: clocks, calendar and agenda, weather, tasks, notes, markets and live system metrics in a configurable grid [![CI](https://github.com/jchultarsky/mirador/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/jchultarsky/mirador/actions/workflows/ci.yml)
 * [kruseio/hygg](https://github.com/kruseio/hygg) [[hygg](https://crates.io/crates/hygg)] - 📚 Simplifying the way you read. Minimalistic Vim-like TUI document reader.
@@ -701,7 +701,6 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * [reaction](https://framagit.org/ppom/reaction) - Scan logs and take action: an alternative to fail2ban
 * [ripasso](https://github.com/cortex/ripasso/) - A password manager, filesystem compatible with pass
 * [rustscan](https://github.com/bee-san/RustScan) - Make Nmap faster with this port scanning tool [![build badge](https://github.com/bee-san/RustScan/actions/workflows/test.yml/badge.svg)](https://github.com/bee-san/RustScan/actions)
-* [santhreal/keyhog](https://github.com/santhreal/keyhog) [[keyhog](https://crates.io/crates/keyhog)] - Detects leaked credentials and API keys across source trees, git history, archives, and remote sources, with live verification of found secrets [![CI](https://github.com/santhreal/keyhog/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/santhreal/keyhog/actions/workflows/ci.yml)
 * [secluso](https://github.com/secluso/core) - A private Raspberry Pi home security camera that uses end-to-end encryption
 * [sherlock](https://github.com/jonaylor89/sherlock-rs) [[sherlock](https://crates.io/crates/sherlock)] - Hunt down social media accounts by username across social networks [![status](https://github.com/jonaylor89/sherlock-rs/actions/workflows/rust.yml/badge.svg)](https://github.com/jonaylor89/sherlock-rs/actions/workflows/rust.yml)
 * [ssh-vault](https://github.com/ssh-vault/ssh-vault) - A simple tool to manage secrets using ssh keys for encryption and decryption.
@@ -1026,6 +1025,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 
 * [cowork-forge](https://github.com/sopaco/cowork-forge) - AI-native multi-agent platform that orchestrates specialized agents through a 7-stage pipeline to transform ideas into production-ready software. [![release](https://img.shields.io/github/actions/workflow/status/sopaco/cowork-forge/rust.yml?label=Build)](https://github.com/sopaco/cowork-forge/actions/workflows/release.yml)
 * [dali-benothmen/woml](https://github.com/dali-benothmen/woml) - WOML (Workflow Orchestration Markup Language) is a markup language for workflow automation, with a Rust execution core. Readable as HTML, versionable as code, powerful as JavaScript — no visual-builder spaghetti, no ceiling on what a step can do. [![release](https://github.com/dali-benothmen/woml/actions/workflows/release.yml/badge.svg)](https://github.com/dali-benothmen/woml/actions/workflows/release.yml)
+* [holon-run/holon](https://github.com/holon-run/holon) [[holon](https://crates.io/crates/holon)] - Local-first Rust workbench for always-on AI agents with explicit work items, event-driven wait/wake, and isolated git worktrees. [![CI](https://github.com/holon-run/holon/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/holon-run/holon/actions/workflows/ci.yml)
 * [julianosig/easi.run](https://github.com/julianosig/easi.run) - Self-hosted Chrome for AI agents via MCP/REST, with live viewing and human takeover. AGPL-3.0-only. [![CI](https://github.com/julianosig/easi.run/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/julianosig/easi.run/actions/workflows/ci.yml)
 * [SouravRoy-ETL/duckle](https://github.com/SouravRoy-ETL/duckle) - Visual-first, open-source data studio (ETL/ELT) that runs entirely on DuckDB. Drag sources, transforms and sinks onto a canvas and it compiles to plain DuckDB SQL; 300+ connectors and a built-in MCP server. [![release](https://github.com/SouravRoy-ETL/duckle/actions/workflows/release.yml/badge.svg)](https://github.com/SouravRoy-ETL/duckle/actions/workflows/release.yml)
 
@@ -1512,6 +1512,8 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 * [musitdev/portmidi-rs](https://github.com/musitdev/portmidi-rs) - [PortMidi](https://portmedia.sourceforge.net/portmidi/) bindings
 * [ozankasikci/rust-music-theory](https://github.com/ozankasikci/rust-music-theory) - Music theory library
 * [pdeljanov/Symphonia](https://github.com/pdeljanov/Symphonia) - Audio decoding and media demuxing library supporting AAC, FLAC, MP3, MP4, OGG, Vorbis, and WAV.
+* [Remade-With-Rust/rusty-opus](https://github.com/Remade-With-Rust/rusty-opus) [[rusty-opus](https://crates.io/crates/rusty-opus)] - Pure-Rust Opus audio codec (RFC 6716): encoder and decoder. [![build badge](https://github.com/Remade-With-Rust/rusty-opus/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Remade-With-Rust/rusty-opus/actions/workflows/ci.yml)
+* [Remade-With-Rust/rusty_flac](https://github.com/Remade-With-Rust/rusty_flac) [[rusty_flac](https://crates.io/crates/rusty_flac)] - Pure-Rust FLAC encoder and decoder.
 * [RustAudio](https://github.com/RustAudio)
   * [RustAudio/cpal](https://github.com/RustAudio/cpal) - Low-level cross-platform audio I/O library. [![Actions Status](https://github.com/RustAudio/cpal/workflows/cpal/badge.svg?branch=master)](https://github.com/RustAudio/cpal/actions)
   * [RustAudio/rodio](https://github.com/RustAudio/rodio) - Audio playback library
@@ -2247,6 +2249,8 @@ See also [Are we game yet?](https://arewegameyet.rs)
 * [image-rs/image](https://github.com/image-rs/image) - Basic imaging processing functions and methods for converting to and from image formats
 * [image-rs/imageproc](https://github.com/image-rs/imageproc) - An image processing library, based on the `image` library.
 * [marekm4/dominant_color](https://github.com/marekm4/dominant_color) [[dominant_color](https://crates.io/crates/dominant_color)] - Dominant color extractor ![build badge](https://github.com/marekm4/dominant_color/actions/workflows/rust.yml/badge.svg?branch=master)
+* [Remade-With-Rust/rusty_dds](https://github.com/Remade-With-Rust/rusty_dds) [[rusty_dds](https://crates.io/crates/rusty_dds)] - Pure-Rust DDS texture toolkit: container parse, decode, encode, and GPU upload plans.
+* [Remade-With-Rust/rusty_jpeg](https://github.com/Remade-With-Rust/rusty_jpeg) [[rusty_jpeg](https://crates.io/crates/rusty_jpeg)] - Pure-Rust JPEG/MJPEG decoder and encoder.
 * [rust-cv/cv](https://github.com/rust-cv/cv) - Implement computer vision algorithms, abstractions, and systems. `#[no_std]` is supported where possible. ![build badge](https://github.com/rust-cv/cv/workflows/tests/badge.svg)
 * [teovoinea/steganography](https://github.com/teovoinea/steganography) [[steganography](https://crates.io/crates/steganography)] - A simple steganography library
 * [twistedfall/opencv-rust](https://github.com/twistedfall/opencv-rust) - Bindings for OpenCV
@@ -2285,6 +2289,10 @@ See also [Are we game yet?](https://arewegameyet.rs)
 * CommonMark
   * [pulldown-cmark/pulldown-cmark](https://github.com/pulldown-cmark/pulldown-cmark) - [CommonMark](https://commonmark.org/) parser
 * [insomnimus/tidier](https://github.com/insomnimus/tidier) [[tidier](https://crates.io/crates/tidier)] - A library to format HTML, XHTML and XML documents. [![build badge](https://github.com/insomnimus/tidier/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/insomnimus/tidier/actions)
+
+### Memory management
+
+* [Remade-With-Rust/rusty_alloc](https://github.com/Remade-With-Rust/rusty_alloc) [[rusty_alloc](https://crates.io/crates/rusty_alloc)] - Pure-Rust allocator (a remake of mimalloc) with a no_std core. [![build badge](https://github.com/Remade-With-Rust/rusty_alloc/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Remade-With-Rust/rusty_alloc/actions/workflows/ci.yml)
 
 ### Mobile
 
@@ -2350,8 +2358,6 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [mozilla/neqo](https://github.com/mozilla/neqo) - an Implementation of QUIC
   * [quinn-rs/quinn](https://github.com/quinn-rs/quinn) - Futures-based QUIC implementation [![build badge](https://dev.azure.com/dochtman/Projects/_apis/build/status/Quinn?branchName=master)](https://dev.azure.com/dochtman/Projects/_build)
   * [tencent/tquic](https://github.com/Tencent/tquic) - A high-performance, lightweight, and cross-platform QUIC library [![Build Status](https://img.shields.io/github/actions/workflow/status/tencent/tquic/rust.yml)](https://github.com/Tencent/tquic/actions/workflows/rust.yml)
-* Raknet
-  * [b23r0/rust-raknet](https://github.com/b23r0/rust-raknet) - RakNet Protocol implementation [![Build Status](https://img.shields.io/github/workflow/status/b23r0/rust-raknet/Rust)](https://github.com/b23r0/rust-raknet/actions/workflows/rust.yml)
 * RPC
   * [remoc-rs/remoc](https://github.com/remoc-rs/remoc) [[remoc](https://crates.io/crates/remoc)] - Remoc provides channels (broadcast, mpsc, oneshot, watch) similar to Tokio's and trait calling over any remote transport. [![build badge](https://github.com/remoc-rs/remoc/actions/workflows/rust.yml/badge.svg?branch=master)](https://github.com/remoc-rs/remoc/actions/workflows/rust.yml)
   * [smallnest/rpcx-rs](https://github.com/smallnest/rpcx-rs) - A RPC library for developing microservices in easy and simple way.
@@ -2543,6 +2549,9 @@ See also [Are we game yet?](https://arewegameyet.rs)
 ### Video
 
 * [ffmpeg-sidecar](https://github.com/nathanbabcock/ffmpeg-sidecar) - Wrap a standalone FFmpeg binary in an intuitive Iterator interface. [![Build Status](https://github.com/nathanbabcock/ffmpeg-sidecar/actions/workflows/ci.yml/badge.svg)](https://github.com/nathanbabcock/ffmpeg-sidecar/actions)
+* [Remade-With-Rust/remade_ffmpeg_rs](https://github.com/Remade-With-Rust/remade_ffmpeg_rs) [[rff-core](https://crates.io/crates/rff-core)] - Ground-up Rust remake of FFmpeg for decode, encode, transcode, mux, and probe. [![build badge](https://github.com/Remade-With-Rust/remade_ffmpeg_rs/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Remade-With-Rust/remade_ffmpeg_rs/actions/workflows/ci.yml)
+* [Remade-With-Rust/rusty_h264](https://github.com/Remade-With-Rust/rusty_h264) [[rusty_h264](https://crates.io/crates/rusty_h264)] - Pure-Rust H.264 encoder and decoder. [![build badge](https://github.com/Remade-With-Rust/rusty_h264/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Remade-With-Rust/rusty_h264/actions/workflows/ci.yml)
+* [Remade-With-Rust/rusty_h265](https://github.com/Remade-With-Rust/rusty_h265) [[rusty_h265](https://crates.io/crates/rusty_h265)] - Pure-Rust HEVC / H.265 video decoder. [![build badge](https://github.com/Remade-With-Rust/rusty_h265/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Remade-With-Rust/rusty_h265/actions/workflows/ci.yml)
 * [screencapturekit-rs](https://github.com/doom-fish/screencapturekit-rs) [[screencapturekit](https://crates.io/crates/screencapturekit)] - Safe Rust bindings for Apple's ScreenCaptureKit framework for macOS screen/audio capture [![Build Status](https://github.com/doom-fish/screencapturekit-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/doom-fish/screencapturekit-rs/actions)
 
 ### Virtualization

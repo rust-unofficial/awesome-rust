@@ -276,6 +276,18 @@ struct GitHubStars {
 
 type GitHubLanguageInfo = HashMap<String, usize>;
 
+fn is_github_api_rate_limit_err(err: &reqwest::Error) -> bool {
+    if let Some(status) = err.status() {
+        status.as_u16() == 403
+    } else {
+        false
+    }
+}
+
+fn is_github_api_rate_limit_resp(resp: &reqwest::Response) -> bool {
+    resp.status().as_u16() == 403
+}
+
 async fn get_stars(github_url: &str) -> Option<u32> {
     warn!("Downloading GitHub stars for {}", github_url);
     let rewritten = GITHUB_REPO_REGEX
@@ -291,21 +303,30 @@ async fn get_stars(github_url: &str) -> Option<u32> {
 
     let resp = req.send().await;
     match resp {
+        Err(err) if is_github_api_rate_limit_err(&err) => {
+            panic!("API request error for {github_url}: {err}");
+        }
         Err(err) => {
-            warn!("Error while getting {}: {}", github_url, err);
+            warn!("Error while getting {github_url}: {err}");
             None
         }
         Ok(ok) => {
             let followed = github_follow_redirect(ok).await;
             if let Err(err) = followed {
-                warn!("Error while following redirect for {}: {}", github_url, err);
+                warn!("Error while following redirect for {github_url}: {err}");
                 return None;
             }
-            let raw = followed.unwrap().text().await.unwrap();
+            let resp = followed.unwrap();
+            if is_github_api_rate_limit_resp(&resp) {
+                let raw = resp.text().await.unwrap();
+                panic!("API rate limit err for {github_url}: {raw}");
+            }
+            let raw = resp.text().await.unwrap();
             let data = match serde_json::from_str::<GitHubStars>(&raw) {
                 Ok(val) => val,
-                Err(_) => {
-                    panic!("{} {:?}", github_url, raw);
+                Err(err) => {
+                    warn!("Error while getting {github_url}: {err} - {raw}");
+                    return None;
                 }
             };
             Some(data.stargazers_count)
@@ -341,7 +362,12 @@ async fn get_rust_percentage(github_url: &str) -> Option<f64> {
                 warn!("Error while following redirect for {}: {}", github_url, err);
                 return None;
             }
-            let raw = followed.unwrap().text().await.unwrap();
+            let resp = followed.unwrap();
+            if is_github_api_rate_limit_resp(&resp) {
+                let raw = resp.text().await.unwrap();
+                panic!("API rate limit err for {github_url}: {raw}");
+            }
+            let raw = resp.text().await.unwrap();
             // Example of response:
             // {
             //     "Rust": 1000,
@@ -351,7 +377,11 @@ async fn get_rust_percentage(github_url: &str) -> Option<f64> {
             let data = match serde_json::from_str::<GitHubLanguageInfo>(&raw) {
                 Ok(val) => val,
                 Err(_) => {
-                    panic!("{} {:?} {}", github_url, raw, rewritten);
+                    warn!(
+                        "Failure getting rust percentage for {} {:?} {}",
+                        github_url, raw, rewritten
+                    );
+                    return None;
                 }
             };
             if data.is_empty() {
