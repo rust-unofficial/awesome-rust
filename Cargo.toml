@@ -2,7 +2,6 @@
 name = "awesome-rust"
 version = "0.1.0"
 authors = []
-homepage = "https://github.com/rust-unofficial/awesome-rust"
 repository = "https://github.com/rust-unofficial/awesome-rust"
 edition = "2024"
 default-run = "awesome-rust"
@@ -15,14 +14,12 @@ reqwest = { version="0.12", default-features=false, features=["rustls-tls", "jso
 tokio = {version = "1", features = ["macros", "rt", "rt-multi-thread", "time"] }
 serde = { version = "1.0", features = ["derive"] }
 serde_yaml = "0.8"
-hyper = "0.14"
 anyhow = "1"
 thiserror = "2"
 lazy_static = "1"
 env_logger = "0.8"
 log = "0.4"
 regex = "1"
-scraper = "0.26"
 chrono = { version = "0.4", features = ["serde"] }
 chrono-humanize = "0.2"
 diffy = "0.3"
