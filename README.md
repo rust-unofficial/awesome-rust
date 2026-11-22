@@ -2396,6 +2396,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [lalrpop/lalrpop](https://github.com/lalrpop/lalrpop) - LR(1) parser generator
   * [m4rw3r/chomp](https://github.com/m4rw3r/chomp) - A fast monadic-style parser combinator
   * [Marwes/combine](https://github.com/Marwes/combine) - parser combinator library
+  * [Mattbusel/remoteid](https://github.com/Mattbusel/remoteid) [[remoteid](https://crates.io/crates/remoteid)] - `no_std` decoder for ASTM F3411 / ASD-STAN drone Remote ID broadcast frames (Bluetooth and Wi-Fi), with DRIP authentication (RFC 9575) checks. [![build badge](https://github.com/Mattbusel/remoteid/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Mattbusel/remoteid/actions/workflows/ci.yml)
   * [mazznoer/csscolorparser-rs](https://github.com/mazznoer/csscolorparser-rs) [[csscolorparser](https://crates.io/crates/csscolorparser)] - CSS color parser library [![CI](https://github.com/mazznoer/csscolorparser-rs/actions/workflows/rust.yml/badge.svg?branch=master)](https://github.com/mazznoer/csscolorparser-rs/actions/workflows/rust.yml)
   * [mohamadzoh/phonelib](https://github.com/mohamadzoh/phonelib) [[phonelib](https://crates.io/crates/phonelib)] - A dependency-free Rust library for parsing, validating, formatting, and normalizing international phone numbers.
   * [nrc/zero](https://github.com/nrc/zero) [[zero](https://crates.io/crates/zero/)] - zero-allocation parsing of binary data
