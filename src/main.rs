@@ -304,8 +304,9 @@ async fn get_stars(github_url: &str) -> Option<u32> {
             let raw = followed.unwrap().text().await.unwrap();
             let data = match serde_json::from_str::<GitHubStars>(&raw) {
                 Ok(val) => val,
-                Err(_) => {
-                    panic!("{} {:?}", github_url, raw);
+                Err(err) => {
+                    warn!("Error while getting {}: {} - {}", github_url, err, raw);
+                    return None;
                 }
             };
             Some(data.stargazers_count)
@@ -351,7 +352,11 @@ async fn get_rust_percentage(github_url: &str) -> Option<f64> {
             let data = match serde_json::from_str::<GitHubLanguageInfo>(&raw) {
                 Ok(val) => val,
                 Err(_) => {
-                    panic!("{} {:?} {}", github_url, raw, rewritten);
+                    warn!(
+                        "Failure getting rust percentage for {} {:?} {}",
+                        github_url, raw, rewritten
+                    );
+                    return None;
                 }
             };
             if data.is_empty() {
