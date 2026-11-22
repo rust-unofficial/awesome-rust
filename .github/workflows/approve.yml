@@ -8,8 +8,11 @@ jobs:
     name: Automatic Approve
     runs-on: ubuntu-24.04
     steps:
+      # Because if we do a merge and this gets run at the same time as the Rust steps
+      # they haven't been created yet
+      - run: sleep 3
       - name: Automatic Approve
-        uses: mheap/automatic-approve-action@v1.1.0
+        uses: mheap/automatic-approve-action@v1.2.1
         with:
           token: ${{ secrets.TOKEN_FOR_GITHUB }}
           workflows: "rust.yml,lint.yml"
