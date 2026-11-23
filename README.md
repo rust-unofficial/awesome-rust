@@ -1467,6 +1467,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 #### Tooling
 
 * [BAML](https://github.com/BoundaryML/baml) - A simple prompting language for building reliable AI workflows and agents. BAML's compiler is written in Rust!
+* [brekkylab/ailoy](https://github.com/brekkylab/ailoy) [[ailoy](https://crates.io/crates/ailoy)] - Agent SDK that gives every agent its own Linux microVM sandbox, with Python and Node.js bindings
 * [Cortex Memory](https://github.com/sopaco/cortex-mem) - A complete solution for agent memory, from extraction and vector search to automated optimization, and insights dashboard out-of-the-box.
 * [juyterman1000/entroly](https://github.com/juyterman1000/entroly) - Information-theoretic Context Engineering Engine that uses reinforcement learning to intelligently prune and select optimal RAG fragments.
 * [Mattbusel/tokio-prompt-orchestrator](https://github.com/Mattbusel/tokio-prompt-orchestrator) [[tokio-prompt-orchestrator](https://crates.io/crates/tokio-prompt-orchestrator)] - Tokio pipeline for serving LLM requests with dedup, circuit breakers, retries, rate limits and a dead-letter queue in front of Anthropic, OpenAI, llama.cpp or vLLM.
