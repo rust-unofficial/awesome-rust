@@ -1582,6 +1582,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 
 * Argument parsing
   * [aisk/rust-fire](https://github.com/aisk/rust-fire) [[fire](https://crates.io/crates/fire)] - Turn your function(s) to a command line app with one line of code [![CI](https://github.com/aisk/rust-fire/actions/workflows/ci.yml/badge.svg)](https://github.com/aisk/rust-fire/actions/workflows/ci.yml)
+  * [AlixANNERAUD/getargs_derive](https://github.com/AlixANNERAUD/getargs_derive) [[getargs-derive](https://crates.io/crates/getargs-derive)] - Clap-style derive argument parser for `no_std` and embedded Rust: zero allocation, compile-time help, subcommands and shell completions. [![build badge](https://github.com/AlixANNERAUD/getargs_derive/actions/workflows/check.yml/badge.svg?branch=main)](https://github.com/AlixANNERAUD/getargs_derive/actions/workflows/check.yml)
   * [clap-rs](https://github.com/clap-rs/clap) [[clap](https://crates.io/crates/clap)] - A simple to use, full featured command-line argument parser
   * [cliparser](https://crates.io/crates/cliparser) - Simple command line parser. [![build badge](https://github.com/sagiegurari/cliparser/actions/workflows/ci.yml/badge.svg)](https://github.com/sagiegurari/cliparser/actions)
   * [docopt/docopt.rs](https://github.com/docopt/docopt.rs) [[docopt](https://crates.io/crates/docopt)] - Implementation of DocOpt
