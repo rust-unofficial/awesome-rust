@@ -454,6 +454,7 @@ See also [Games Made With Piston](https://github.com/PistonDevelopers/piston/wik
 * [chess-tui](https://github.com/thomas-mauran/chess-tui) - A Chess TUI implementation ♟️
 * [citybound](https://github.com/citybound/citybound) - The city sim you deserve
 * [cristicbz/rust-doom](https://github.com/cristicbz/rust-doom) - A renderer for Doom, may progress to being a playable game
+* [diypets](https://github.com/smresponsibilities/diypets) — Cross-platform desktop mascot engine (~7.8 MB RAM) with multi-pet herds, 2D/SVG sprite studio, and MCP server.
 * [doukutsu-rs](https://github.com/doukutsu-rs/doukutsu-rs) - Reimplementation of Cave Story engine with some enhancements.
 * [garkimasera/gaia-maker](https://github.com/garkimasera/gaia-maker) - Planet and terraforming simulation game
 * [garkimasera/rusted-ruins](https://github.com/garkimasera/rusted-ruins) - Extensible open world rogue like game with pixel art
