@@ -2166,8 +2166,8 @@ See also [Are we game yet?](https://arewegameyet.rs)
 [[graphics](https://crates.io/keywords/graphics)]
 
 * Fonts
+  * [harfbuzz/harfrust](https://github.com/harfbuzz/harfrust) [[harfrust](https://crates.io/crates/harfrust)] - A port of HarfBuzz's text shaping engine to Rust
   * [redox-os/rusttype](https://github.com/redox-os/rusttype) - Alternative to libraries like FreeType
-  * [rustybuzz](https://github.com/harfbuzz/rustybuzz) - An incremental harfbuzz port
 * [gfx-rs/gfx](https://github.com/gfx-rs/gfx) - A high-performance, bindless graphics API.
 * [gfx-rs/wgpu](https://github.com/gfx-rs/wgpu) - Native WebGPU implementation based on gfx-hal. [![build badge](https://github.com/gfx-rs/wgpu/workflows/CI/badge.svg?branch=master)](https://github.com/gfx-rs/wgpu/actions)
 * OpenGL [[opengl](https://crates.io/keywords/opengl)]
