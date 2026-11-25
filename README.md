@@ -147,6 +147,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 * [fend](https://github.com/printfn/fend) - Arbitrary-precision unit-aware calculator [![build](https://github.com/printfn/fend/workflows/build/badge.svg)](https://github.com/printfn/fend/actions/workflows/actions.yml)
 * [Fractalide](https://github.com/fractalide/fractalide) - Simple microservices
 * [GCWing/BitFun](https://github.com/GCWing/BitFun) - A cross-platform desktop AI agent with a Rust runtime that works in real repositories and can drive the browser, terminal, and desktop applications
+* [geek-fun/dockit](https://github.com/geek-fun/dockit) - Cross-platform Tauri desktop client for Elasticsearch, OpenSearch, DynamoDB, MongoDB, and EasySearch with Monaco editors, visual query tools, and an optional agentic AI assistant. [![CI](https://github.com/geek-fun/dockit/actions/workflows/node.yml/badge.svg)](https://github.com/geek-fun/dockit/actions/workflows/node.yml)
 * [giga-grabber](https://github.com/chanderlud/giga-grabber) - A very fast and relatively stable Mega downloader [![build](https://github.com/chanderlud/giga-grabber/actions/workflows/release.yml/badge.svg)](https://github.com/chanderlud/giga-grabber/actions/workflows/release.yml)
 * [glzr-io/glazewm](https://github.com/glzr-io/glazewm) - A tiling window manager for Windows inspired by i3wm, with YAML config, multi-monitor support, and keyboard-driven commands
 * [google/mdbook-i18n-helpers](https://github.com/google/mdbook-i18n-helpers) [[mdbook-i18n-helpers](https://crates.io/crates/mdbook-i18n-helpers)] - Internationalization and rendering extensions for mdbook.
@@ -315,6 +316,7 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
 * [HeliosDatabase/HeliosDB-Nano](https://github.com/HeliosDatabase/HeliosDB-Nano) [[heliosdb-nano](https://crates.io/crates/heliosdb-nano)] - Embedded database with PostgreSQL and MySQL wire protocols, git-like branching, time-travel queries and HNSW vector search [![Tests](https://github.com/HeliosDatabase/HeliosDB-Nano/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/HeliosDatabase/HeliosDB-Nano/actions/workflows/tests.yml)
 * [HelixDB](https://github.com/HelixDB/helix-db) - A powerful, graph-vector database for intelligent data storage for RAG and AI
 * [Hiqlite](https://github.com/sebadob/hiqlite) - highly-available, embeddable, raft-based SQLite + cache
+* [geek-fun/sqlkit](https://github.com/geek-fun/sqlkit) - Agentic cross-platform SQL database GUI for 70+ engines (PostgreSQL, MySQL, Oracle, ClickHouse, JDBC, and more), built with Tauri and a Rust connection and agent backend. [![CI](https://github.com/geek-fun/sqlkit/actions/workflows/node.yml/badge.svg)](https://github.com/geek-fun/sqlkit/actions/workflows/node.yml)
 * [hydra-db/hydradb](https://github.com/hydra-db/hydradb) - Object-store-native distributed graph database with OpenCypher queries, GraphBLAS traversal, and Neo4j-compatible Bolt connectivity.
 * [indradb](https://crates.io/crates/indradb) - Graph database
 * [KiteSQL](https://github.com/KipData/KiteSQL) - SQL as a Function for Rust
