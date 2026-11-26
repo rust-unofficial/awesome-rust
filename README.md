@@ -2369,6 +2369,7 @@ See also [Are we game yet?](https://arewegameyet.rs)
   * [remoc-rs/remoc](https://github.com/remoc-rs/remoc) [[remoc](https://crates.io/crates/remoc)] - Remoc provides channels (broadcast, mpsc, oneshot, watch) similar to Tokio's and trait calling over any remote transport. [![build badge](https://github.com/remoc-rs/remoc/actions/workflows/rust.yml/badge.svg?branch=master)](https://github.com/remoc-rs/remoc/actions/workflows/rust.yml)
   * [smallnest/rpcx-rs](https://github.com/smallnest/rpcx-rs) - A RPC library for developing microservices in easy and simple way.
 * SIP
+  * [eisenzopf/rvoip](https://github.com/eisenzopf/rvoip) [[rvoip](https://crates.io/crates/rvoip)] - SIP/VoIP stack with RTP/SRTP, WebRTC and AI voice-agent support [![build badge](https://github.com/eisenzopf/rvoip/actions/workflows/main-ci.yml/badge.svg?branch=main)](https://github.com/eisenzopf/rvoip/actions/workflows/main-ci.yml)
   * [restsend/rsipstack](https://github.com/restsend/rsipstack) - A RFC 3261 compliant SIP stack
 * Socket.io
   * [1c3t3a/rust-socketio](https://github.com/1c3t3a/rust-socketio) [[rust_socketio](https://crates.io/crates/rust_socketio)] - an implementation of a [socket.io](https://socket.io) client written in Rust.
