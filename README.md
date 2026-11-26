@@ -1638,6 +1638,7 @@ See also [About Rust’s Machine Learning Community](https://medium.com/@autumn_
 
 * [7z](https://7-zip.org/7z.html)
   * [hasenbanck/sevenz-rust2](https://github.com/hasenbanck/sevenz-rust2) [[sevenz-rust2](https://crates.io/crates/sevenz-rust2)] - A 7z decompressor/compressor written in pure Rust [![Rust](https://github.com/hasenbanck/sevenz-rust2/actions/workflows/rust.yml/badge.svg?branch=main)](https://github.com/hasenbanck/sevenz-rust2/actions/workflows/rust.yml)
+* [aperiodic-io/tparquet](https://github.com/aperiodic-io/tparquet) [[tparquet](https://crates.io/crates/tparquet)] - Parquet with a pcodec codec for numeric columns: trade and tick files at about half their ZSTD size, lossless and still readable as Parquet [![build badge](https://github.com/aperiodic-io/tparquet/actions/workflows/rust.yml/badge.svg?branch=main)](https://github.com/aperiodic-io/tparquet/actions/workflows/rust.yml)
 * [Brotli](https://opensource.googleblog.com/2015/09/introducing-brotli-new-compression.html)
   * [dropbox/rust-brotli](https://github.com/dropbox/rust-brotli) - Brotli decompressor that optionally avoids the stdlib
   * [ende76/brotli-rs](https://github.com/ende76/brotli-rs) - implementation of Brotli compression
