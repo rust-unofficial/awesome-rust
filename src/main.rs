@@ -272,7 +272,7 @@ fn github_follow_redirect(
 #[derive(Deserialize, Debug)]
 struct GitHubStars {
     stargazers_count: u32,
-    archived: bool
+    archived: bool,
 }
 
 type GitHubLanguageInfo = HashMap<String, usize>;
@@ -333,9 +333,10 @@ async fn get_stars(github_url: &str) -> Option<u32> {
             // Don't count archived ones
             if data.archived {
                 info!("Ignoring stars for {github_url} because it's archived");
-                return Some(0)
+                Some(0)
+            } else {
+                Some(data.stargazers_count)
             }
-            Some(data.stargazers_count)
         }
     }
 }
