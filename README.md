@@ -1186,6 +1186,7 @@ See also [A comparison of operating systems written in Rust](https://github.com/
 * Development Tools
   * [matheuswhite/scope-rs](https://github.com/matheuswhite/scope-rs) [[scope-monitor](https://crates.io/crates/scope-monitor)] - Cross-platform serial-port & RTT monitor TUI with hex/@tag input macros, search, session recording, and Lua plugins. [![Build Status](https://github.com/matheuswhite/scope-rs/actions/workflows/build.yml/badge.svg)](https://github.com/matheuswhite/scope-rs/actions)
   * [probe-rs/probe-rs](https://github.com/probe-rs/probe-rs) [[probe-rs-tools](https://crates.io/crates/probe-rs-tools)] - Embedded debugging toolkit for flashing and debugging ARM and RISC-V microcontrollers.
+  * [Ravomi/RavomIO](https://github.com/Ravomi/RavomIO) - Cross-platform embedded & FPGA development workbench (`egui` + `probe-rs`) with 2,340+ board definitions, `platformio.ini` migration, RTT waveform plotting, and an MCP server.
   * [Vaishnav-Sabari-Girish/ComChan](https://github.com/Vaishnav-Sabari-Girish/ComChan) - A minimal serial monitor with plotter TUI.
 * Espressif
   * [esp-rs](https://github.com/esp-rs) - home to a number of community projects enabling the use of the Rust programming language on various SoCs and modules produced by Espressif Systems.
