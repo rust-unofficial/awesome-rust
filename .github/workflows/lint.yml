@@ -16,10 +16,12 @@ jobs:
       - name: Checkout the repository
         uses: actions/checkout@v7
       - name: Markdown lint for README
-        uses: docker://avtodev/markdown-lint:v1
+        uses: addnab/docker-run-action@v3
         with:
-          config: ./.markdownlint.json
-          args: ./README.md
+          image: ghcr.io/igorshubovych/markdownlint-cli:v0.50.1
+          options: -v ${{ github.workspace }}:/work
+          run: |
+            markdownlint -c /work/.markdownlint.json /work/README.md
 
   lint-editorconfig:
     runs-on: ubuntu-24.04
